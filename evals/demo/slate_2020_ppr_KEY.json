@@ -1,0 +1,234 @@
+{
+ "P000": {
+  "player": "Carlos Hyde",
+  "player_id": "00-0031045"
+ },
+ "P001": {
+  "player": "Nyheim Hines",
+  "player_id": "00-0034367"
+ },
+ "P002": {
+  "player": "Tony Pollard",
+  "player_id": "00-0035261"
+ },
+ "P003": {
+  "player": "Boston Scott",
+  "player_id": "00-0034414"
+ },
+ "P004": {
+  "player": "Robbie Chosen",
+  "player_id": "00-0032688"
+ },
+ "P005": {
+  "player": "Darius Slayton",
+  "player_id": "00-0035535"
+ },
+ "P006": {
+  "player": "Damien Harris",
+  "player_id": "00-0035657"
+ },
+ "P007": {
+  "player": "Bryce Love",
+  "player_id": null
+ },
+ "P008": {
+  "player": "Duke Johnson",
+  "player_id": "00-0032257"
+ },
+ "P009": {
+  "player": "AJ Dillon",
+  "player_id": "00-0036265"
+ },
+ "P010": {
+  "player": "Joshua Kelley",
+  "player_id": "00-0036370"
+ },
+ "P011": {
+  "player": "Gardner Minshew II",
+  "player_id": "00-0035289"
+ },
+ "P012": {
+  "player": "Drew Lock",
+  "player_id": "00-0035704"
+ },
+ "P013": {
+  "player": "Parris Campbell",
+  "player_id": "00-0035639"
+ },
+ "P014": {
+  "player": "Larry Fitzgerald",
+  "player_id": "00-0022921"
+ },
+ "P015": {
+  "player": "Darrel Williams",
+  "player_id": "00-0034301"
+ },
+ "P016": {
+  "player": "Brandon Aiyuk",
+  "player_id": "00-0036261"
+ },
+ "P017": {
+  "player": "DeSean Jackson",
+  "player_id": "00-0026189"
+ },
+ "P018": {
+  "player": "Tevin Coleman",
+  "player_id": "00-0032058"
+ },
+ "P019": {
+  "player": "Ryquell Armstead",
+  "player_id": "00-0035268"
+ },
+ "P020": {
+  "player": "Mecole Hardman Jr.",
+  "player_id": "00-0035140"
+ },
+ "P021": {
+  "player": "Chris Thompson",
+  "player_id": "00-0030404"
+ },
+ "P022": {
+  "player": "Darrell Henderson Jr.",
+  "player_id": "00-0035664"
+ },
+ "P023": {
+  "player": "Justin Jefferson",
+  "player_id": "00-0036322"
+ },
+ "P024": {
+  "player": "Jamison Crowder",
+  "player_id": "00-0031941"
+ },
+ "P025": {
+  "player": "Preston Williams",
+  "player_id": "00-0035350"
+ },
+ "P026": {
+  "player": "Blake Jarwin",
+  "player_id": "00-0033658"
+ },
+ "P027": {
+  "player": "Benny Snell Jr.",
+  "player_id": "00-0035217"
+ },
+ "P028": {
+  "player": "Sterling Shepard",
+  "player_id": "00-0032385"
+ },
+ "P029": {
+  "player": "N'Keal Harry",
+  "player_id": null
+ },
+ "P030": {
+  "player": "Jalen Reagor",
+  "player_id": "00-0036387"
+ },
+ "P031": {
+  "player": "John Brown",
+  "player_id": "00-0031051"
+ },
+ "P032": {
+  "player": "Jerick McKinnon",
+  "player_id": "00-0031376"
+ },
+ "P033": {
+  "player": "DeAndre Washington",
+  "player_id": "00-0032940"
+ },
+ "P034": {
+  "player": "Michael Pittman Jr.",
+  "player_id": "00-0036252"
+ },
+ "P035": {
+  "player": "Henry Ruggs III",
+  "player_id": "00-0036357"
+ },
+ "P036": {
+  "player": "Chase Edmonds",
+  "player_id": "00-0034681"
+ },
+ "P037": {
+  "player": "Jimmy Garoppolo",
+  "player_id": "00-0031345"
+ },
+ "P038": {
+  "player": "Mike Williams",
+  "player_id": "00-0023452"
+ },
+ "P039": {
+  "player": "Sony Michel",
+  "player_id": "00-0034845"
+ },
+ "P040": {
+  "player": "Allen Lazard",
+  "player_id": "00-0034521"
+ },
+ "P041": {
+  "player": "Curtis Samuel",
+  "player_id": "00-0033282"
+ },
+ "P042": {
+  "player": "Jerry Jeudy",
+  "player_id": "00-0036407"
+ },
+ "P043": {
+  "player": "Philip Rivers",
+  "player_id": "00-0022942"
+ },
+ "P044": {
+  "player": "Ryan Tannehill",
+  "player_id": "00-0029701"
+ },
+ "P045": {
+  "player": "Ke'Shawn Vaughn",
+  "player_id": "00-0036450"
+ },
+ "P046": {
+  "player": "Christian Kirk",
+  "player_id": "00-0034775"
+ },
+ "P047": {
+  "player": "Justin Jackson",
+  "player_id": "00-0034440"
+ },
+ "P048": {
+  "player": "Alexander Mattison",
+  "player_id": "00-0034972"
+ },
+ "P049": {
+  "player": "Adrian Peterson",
+  "player_id": "00-0021306"
+ },
+ "P050": {
+  "player": "Sammy Watkins",
+  "player_id": "00-0031325"
+ },
+ "P051": {
+  "player": "Breshad Perriman",
+  "player_id": "00-0032054"
+ },
+ "P052": {
+  "player": "Bryan Edwards",
+  "player_id": "00-0036365"
+ },
+ "P053": {
+  "player": "LeSean McCoy",
+  "player_id": "00-0027029"
+ },
+ "P054": {
+  "player": "Jared Goff",
+  "player_id": "00-0033106"
+ },
+ "P055": {
+  "player": "Kerryon Johnson",
+  "player_id": "00-0034349"
+ },
+ "P056": {
+  "player": "Anthony Miller",
+  "player_id": "00-0034353"
+ },
+ "P057": {
+  "player": "Golden Tate",
+  "player_id": "00-0027891"
+ }
+}

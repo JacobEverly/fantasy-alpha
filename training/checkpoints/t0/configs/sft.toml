@@ -1,0 +1,162 @@
+output_dir = "/root/t0/outputs"
+clean_output_dir = false
+matmul_precision = "high"
+max_steps = 40
+dist_timeout_seconds = 3600
+dry_run = false
+
+[model]
+name = "Qwen/Qwen3-4B-Instruct-2507"
+trust_remote_code = false
+seq_len = 4096
+attn = "auto"
+fsdp_cpu_offload = false
+optim_cpu_offload = true
+reshard_after_forward = true
+dp_replicate = 1
+ep = "auto"
+ep_comm_backend = "torch"
+deepep_num_sms = 20
+cp = 1
+cp_style = "ring"
+impl = "auto"
+optimization_dtype = "float32"
+reduce_dtype = "float32"
+moe_router_dtype = "float32"
+moe_use_grouped_mm = true
+freeze_moe_router = false
+fused_lm_head_token_chunk_size = 1024
+
+[model.compile]
+fullgraph = false
+
+[model.ac]
+mode = "full"
+freq = 1
+targets = [
+    "norm",
+]
+
+[model.ac_offloading]
+pin_memory = true
+max_inflight_activations = 5
+
+[model.lora]
+rank = 16
+alpha = 32.0
+dropout = 0.0
+target_modules = [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj",
+    "experts",
+    "fc1_latent_proj",
+    "fc2_latent_proj",
+]
+modules_to_save = []
+
+[model.debug]
+random_init = false
+force_balanced_routing = false
+
+[env_vars]
+
+[tokenizer]
+name = "Qwen/Qwen3-4B-Instruct-2507"
+trust_remote_code = false
+
+[renderer]
+name = "auto"
+
+[data]
+batch_size = 8
+seq_len = 4096
+micro_batch_size = 1
+type = "sft"
+name = "/root/t0/dataset"
+splits = [
+    "train",
+]
+stopping_strategy = "all_exhausted"
+shuffle = true
+seed = 0
+
+[data.loss_mask]
+system = false
+user = false
+assistant = true
+tool = false
+
+[val]
+interval = 6
+eval_on_start = true
+
+[val.data]
+batch_size = 8
+seq_len = 4096
+micro_batch_size = 1
+type = "sft"
+name = "/root/t0/dataset"
+splits = [
+    "validation",
+]
+stopping_strategy = "all_exhausted"
+shuffle = true
+seed = 0
+
+[val.data.loss_mask]
+system = false
+user = false
+assistant = true
+tool = false
+
+[optim]
+lr = 5e-05
+weight_decay = 0.01
+max_norm = 1.0
+type = "adamw"
+betas1 = 0.9
+betas2 = 0.999
+
+[scheduler]
+type = "constant"
+
+[ckpt]
+interval = 12
+skip_gather_master_weights = false
+weights_only = false
+resume_step = 24
+skip_progress = false
+skip_scheduler = false
+skip_dataloader = false
+skip_optimizer = false
+
+[ckpt.weights]
+save_sharded = true
+save_format = "safetensors"
+save_adapter_separately = true
+
+[log]
+level = "info"
+vf_level = "info"
+json_logging = false
+log_data = false
+interval = 10.0
+ranks_filter = [
+    0,
+]
+
+[file_monitor]
+filename = "metrics.jsonl"
+
+[gc]
+interval = 50
+
+[deployment]
+gpus_per_node = 8
+type = "single_node"
+num_gpus = 1

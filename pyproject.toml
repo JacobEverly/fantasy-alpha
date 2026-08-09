@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fantasy-alpha"
+version = "0.1.0"
+description = "AI fantasy football analyst: league-agnostic engine, harness, envs, evals"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+baselines = ["scikit-learn==1.7.2"]  # evals/gbdt_baseline.py (numpy 2.2.6 resolved on py3.10)
+rl = ["verifiers>=0.1.14"]  # envs/verifiers_v1_adapter.py (core env is zero-dep; v0.1.14 verified on py3.10)
+
+[tool.setuptools]
+packages = ["harness", "evals", "envs", "training"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["fantasy-football-alpha-2026", ".venv", "data"]

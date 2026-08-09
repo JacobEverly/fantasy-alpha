@@ -1,0 +1,246 @@
+{
+ "P000": {
+  "player": "DJ Chark",
+  "player_id": "00-0034777"
+ },
+ "P001": {
+  "player": "Jaylen Warren",
+  "player_id": "00-0037228"
+ },
+ "P002": {
+  "player": "Zamir White",
+  "player_id": "00-0038040"
+ },
+ "P003": {
+  "player": "Kyler Murray",
+  "player_id": "00-0035228"
+ },
+ "P004": {
+  "player": "Allen Lazard",
+  "player_id": "00-0034521"
+ },
+ "P005": {
+  "player": "Jonathan Mingo",
+  "player_id": "00-0039062"
+ },
+ "P006": {
+  "player": "Tyler Boyd",
+  "player_id": "00-0033009"
+ },
+ "P007": {
+  "player": "Jordan Love",
+  "player_id": "00-0036264"
+ },
+ "P008": {
+  "player": "Adam Thielen",
+  "player_id": "00-0030035"
+ },
+ "P009": {
+  "player": "Quentin Johnston",
+  "player_id": "00-0038544"
+ },
+ "P010": {
+  "player": "Derek Carr",
+  "player_id": "00-0031280"
+ },
+ "P011": {
+  "player": "Kenny Pickett",
+  "player_id": "00-0038102"
+ },
+ "P012": {
+  "player": "Skyy Moore",
+  "player_id": "00-0038090"
+ },
+ "P013": {
+  "player": "Tyjae Spears",
+  "player_id": "00-0039032"
+ },
+ "P014": {
+  "player": "Justyn Ross",
+  "player_id": "00-0037216"
+ },
+ "P015": {
+  "player": "Clyde Edwards-Helaire",
+  "player_id": "00-0036360"
+ },
+ "P016": {
+  "player": "Donovan Peoples-Jones",
+  "player_id": "00-0036233"
+ },
+ "P017": {
+  "player": "Cordarrelle Patterson",
+  "player_id": "00-0030578"
+ },
+ "P018": {
+  "player": "Nico Collins",
+  "player_id": "00-0036554"
+ },
+ "P019": {
+  "player": "Jakobi Meyers",
+  "player_id": "00-0034960"
+ },
+ "P020": {
+  "player": "De'Von Achane",
+  "player_id": "00-0039040"
+ },
+ "P021": {
+  "player": "Chase Claypool",
+  "player_id": "00-0036326"
+ },
+ "P022": {
+  "player": "Marquez Valdes-Scantling",
+  "player_id": "00-0034272"
+ },
+ "P023": {
+  "player": "Treylon Burks",
+  "player_id": "00-0037742"
+ },
+ "P024": {
+  "player": "Jameson Williams",
+  "player_id": "00-0037240"
+ },
+ "P025": {
+  "player": "Zay Jones",
+  "player_id": "00-0033891"
+ },
+ "P026": {
+  "player": "Romeo Doubs",
+  "player_id": "00-0037816"
+ },
+ "P027": {
+  "player": "Jeff Wilson Jr.",
+  "player_id": "00-0034115"
+ },
+ "P028": {
+  "player": "Kadarius Toney",
+  "player_id": "00-0036913"
+ },
+ "P029": {
+  "player": "Alec Pierce",
+  "player_id": "00-0037664"
+ },
+ "P030": {
+  "player": "Tyler Allgeier",
+  "player_id": "00-0037263"
+ },
+ "P031": {
+  "player": "Zay Flowers",
+  "player_id": "00-0039064"
+ },
+ "P032": {
+  "player": "Hunter Renfrow",
+  "player_id": "00-0034983"
+ },
+ "P033": {
+  "player": "Jake Ferguson",
+  "player_id": "00-0038041"
+ },
+ "P034": {
+  "player": "Darnell Mooney",
+  "player_id": "00-0036309"
+ },
+ "P035": {
+  "player": "Marvin Mims Jr.",
+  "player_id": "00-0038976"
+ },
+ "P036": {
+  "player": "Tank Bigsby",
+  "player_id": "00-0038555"
+ },
+ "P037": {
+  "player": "Wan'Dale Robinson",
+  "player_id": "00-0038117"
+ },
+ "P038": {
+  "player": "JuJu Smith-Schuster",
+  "player_id": "00-0033857"
+ },
+ "P039": {
+  "player": "Matthew Stafford",
+  "player_id": "00-0026498"
+ },
+ "P040": {
+  "player": "Roschon Johnson",
+  "player_id": "00-0039021"
+ },
+ "P041": {
+  "player": "Elijah Moore",
+  "player_id": "00-0036980"
+ },
+ "P042": {
+  "player": "Raheem Mostert",
+  "player_id": "00-0031687"
+ },
+ "P043": {
+  "player": "Zack Moss",
+  "player_id": "00-0036251"
+ },
+ "P044": {
+  "player": "K.J. Osborn",
+  "player_id": "00-0036345"
+ },
+ "P045": {
+  "player": "Brock Purdy",
+  "player_id": "00-0037834"
+ },
+ "P046": {
+  "player": "Gerald Everett",
+  "player_id": "00-0033895"
+ },
+ "P047": {
+  "player": "Odell Beckham Jr.",
+  "player_id": "00-0031235"
+ },
+ "P048": {
+  "player": "Jalin Hyatt",
+  "player_id": "00-0038938"
+ },
+ "P049": {
+  "player": "Jerome Ford",
+  "player_id": "00-0037267"
+ },
+ "P050": {
+  "player": "Rondale Moore",
+  "player_id": "00-0036936"
+ },
+ "P051": {
+  "player": "Gabe Davis",
+  "player_id": "00-0036196"
+ },
+ "P052": {
+  "player": "Rashod Bateman",
+  "player_id": "00-0036550"
+ },
+ "P053": {
+  "player": "Devin Singletary",
+  "player_id": "00-0035250"
+ },
+ "P054": {
+  "player": "D'Onta Foreman",
+  "player_id": "00-0033925"
+ },
+ "P055": {
+  "player": "Gus Edwards",
+  "player_id": "00-0034184"
+ },
+ "P056": {
+  "player": "Michael Gallup",
+  "player_id": "00-0034764"
+ },
+ "P057": {
+  "player": "Chuba Hubbard",
+  "player_id": "00-0036555"
+ },
+ "P058": {
+  "player": "Michael Thomas",
+  "player_id": "00-0027076"
+ },
+ "P059": {
+  "player": "Elijah Mitchell",
+  "player_id": "00-0036567"
+ },
+ "P060": {
+  "player": "Kenny Gainwell",
+  "player_id": "00-0036919"
+ }
+}

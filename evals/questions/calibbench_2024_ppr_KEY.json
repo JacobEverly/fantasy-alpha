@@ -1,0 +1,3353 @@
+{
+ "benchmark": "calibbench_v0",
+ "season": 2024,
+ "format": "ppr",
+ "questions": {
+  "S2024:ppr:2885": {
+   "anon_id": "Q0475",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Josh Allen",
+   "nflverse_id": "00-0034857"
+  },
+  "S2024:ppr:2462": {
+   "anon_id": "Q0421",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Patrick Mahomes",
+   "nflverse_id": "00-0033873"
+  },
+  "S2024:ppr:5025": {
+   "anon_id": "Q0096",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jalen Hurts",
+   "nflverse_id": "00-0036389"
+  },
+  "S2024:ppr:2888": {
+   "anon_id": "Q0224",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Lamar Jackson",
+   "nflverse_id": "00-0034796"
+  },
+  "S2024:ppr:5676": {
+   "anon_id": "Q0314",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "C.J. Stroud",
+   "nflverse_id": "00-0039163"
+  },
+  "S2024:ppr:5679": {
+   "anon_id": "Q0092",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Anthony Richardson Sr.",
+   "nflverse_id": "00-0039164"
+  },
+  "S2024:ppr:4882": {
+   "anon_id": "Q0288",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Joe Burrow",
+   "nflverse_id": "00-0036442"
+  },
+  "S2024:ppr:2377": {
+   "anon_id": "Q0426",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dak Prescott",
+   "nflverse_id": "00-0033077"
+  },
+  "S2024:ppr:4892": {
+   "anon_id": "Q0186",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jordan Love",
+   "nflverse_id": "00-0036264"
+  },
+  "S2024:ppr:3299": {
+   "anon_id": "Q0134",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Kyler Murray",
+   "nflverse_id": "00-0035228"
+  },
+  "S2024:ppr:4890": {
+   "anon_id": "Q0206",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tua Tagovailoa",
+   "nflverse_id": "00-0036212"
+  },
+  "S2024:ppr:2351": {
+   "anon_id": "Q0191",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jared Goff",
+   "nflverse_id": "00-0033106"
+  },
+  "S2024:ppr:5854": {
+   "anon_id": "Q0396",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jayden Daniels",
+   "nflverse_id": "00-0039910"
+  },
+  "S2024:ppr:5648": {
+   "anon_id": "Q0303",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brock Purdy",
+   "nflverse_id": "00-0037834"
+  },
+  "S2024:ppr:4887": {
+   "anon_id": "Q0078",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Justin Herbert",
+   "nflverse_id": "00-0036355"
+  },
+  "S2024:ppr:6173": {
+   "anon_id": "Q0309",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Caleb Williams",
+   "nflverse_id": "00-0039918"
+  },
+  "S2024:ppr:1664": {
+   "anon_id": "Q0156",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Matthew Stafford",
+   "nflverse_id": "00-0026498"
+  },
+  "S2024:ppr:5186": {
+   "anon_id": "Q0307",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Trevor Lawrence",
+   "nflverse_id": "00-0036971"
+  },
+  "S2024:ppr:1902": {
+   "anon_id": "Q0374",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kirk Cousins",
+   "nflverse_id": "00-0029604"
+  },
+  "S2024:ppr:1004": {
+   "anon_id": "Q0383",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Aaron Rodgers",
+   "nflverse_id": "00-0023459"
+  },
+  "S2024:ppr:5191": {
+   "anon_id": "Q0300",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Justin Fields",
+   "nflverse_id": "00-0036945"
+  },
+  "S2024:ppr:2444": {
+   "anon_id": "Q0393",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Deshaun Watson",
+   "nflverse_id": "00-0033537"
+  },
+  "S2024:ppr:2886": {
+   "anon_id": "Q0247",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Baker Mayfield",
+   "nflverse_id": "00-0034855"
+  },
+  "S2024:ppr:1980": {
+   "anon_id": "Q0219",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Geno Smith",
+   "nflverse_id": "00-0030565"
+  },
+  "S2024:ppr:5684": {
+   "anon_id": "Q0197",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Will Levis",
+   "nflverse_id": "00-0039152"
+  },
+  "S2024:ppr:6253": {
+   "anon_id": "Q0443",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Bo Nix",
+   "nflverse_id": "00-0039732"
+  },
+  "S2024:ppr:2434": {
+   "anon_id": "Q0110",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Christian McCaffrey",
+   "nflverse_id": "00-0033280"
+  },
+  "S2024:ppr:5503": {
+   "anon_id": "Q0055",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Breece Hall",
+   "nflverse_id": "00-0038120"
+  },
+  "S2024:ppr:5670": {
+   "anon_id": "Q0082",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Bijan Robinson",
+   "nflverse_id": "00-0038542"
+  },
+  "S2024:ppr:5672": {
+   "anon_id": "Q0122",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jahmyr Gibbs",
+   "nflverse_id": "00-0039139"
+  },
+  "S2024:ppr:4864": {
+   "anon_id": "Q0029",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jonathan Taylor",
+   "nflverse_id": "00-0036223"
+  },
+  "S2024:ppr:2860": {
+   "anon_id": "Q0228",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Saquon Barkley",
+   "nflverse_id": "00-0034844"
+  },
+  "S2024:ppr:2350": {
+   "anon_id": "Q0310",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Derrick Henry",
+   "nflverse_id": "00-0032764"
+  },
+  "S2024:ppr:5623": {
+   "anon_id": "Q0451",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Kyren Williams",
+   "nflverse_id": "00-0037840"
+  },
+  "S2024:ppr:4863": {
+   "anon_id": "Q0119",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Travis Etienne Jr.",
+   "nflverse_id": "00-0036973"
+  },
+  "S2024:ppr:5337": {
+   "anon_id": "Q0366",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Isiah Pacheco",
+   "nflverse_id": "00-0037197"
+  },
+  "S2024:ppr:5683": {
+   "anon_id": "Q0463",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "De'Von Achane",
+   "nflverse_id": "00-0039040"
+  },
+  "S2024:ppr:3255": {
+   "anon_id": "Q0041",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Josh Jacobs",
+   "nflverse_id": "00-0035700"
+  },
+  "S2024:ppr:5626": {
+   "anon_id": "Q0013",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Rachaad White",
+   "nflverse_id": "00-0037256"
+  },
+  "S2024:ppr:5652": {
+   "anon_id": "Q0298",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "James Cook III",
+   "nflverse_id": "00-0037248"
+  },
+  "S2024:ppr:2439": {
+   "anon_id": "Q0233",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Alvin Kamara",
+   "nflverse_id": "00-0033906"
+  },
+  "S2024:ppr:2438": {
+   "anon_id": "Q0148",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Joe Mixon",
+   "nflverse_id": "00-0033897"
+  },
+  "S2024:ppr:5625": {
+   "anon_id": "Q0351",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kenneth Walker III",
+   "nflverse_id": "00-0038134"
+  },
+  "S2024:ppr:2507": {
+   "anon_id": "Q0285",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Aaron Jones Sr.",
+   "nflverse_id": "00-0033293"
+  },
+  "S2024:ppr:2470": {
+   "anon_id": "Q0076",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "James Conner",
+   "nflverse_id": "00-0033553"
+  },
+  "S2024:ppr:3238": {
+   "anon_id": "Q0260",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "David Montgomery",
+   "nflverse_id": "00-0035685"
+  },
+  "S2024:ppr:4862": {
+   "anon_id": "Q0162",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "D'Andre Swift",
+   "nflverse_id": "00-0036275"
+  },
+  "S2024:ppr:5210": {
+   "anon_id": "Q0407",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Rhamondre Stevenson",
+   "nflverse_id": "00-0036875"
+  },
+  "S2024:ppr:2737": {
+   "anon_id": "Q0327",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Raheem Mostert",
+   "nflverse_id": "00-0031687"
+  },
+  "S2024:ppr:2863": {
+   "anon_id": "Q0400",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Nick Chubb",
+   "nflverse_id": "00-0034791"
+  },
+  "S2024:ppr:4872": {
+   "anon_id": "Q0008",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Najee Harris",
+   "nflverse_id": "00-0036893"
+  },
+  "S2024:ppr:5513": {
+   "anon_id": "Q0182",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Zamir White",
+   "nflverse_id": "00-0038040"
+  },
+  "S2024:ppr:4877": {
+   "anon_id": "Q0401",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Zack Moss",
+   "nflverse_id": "00-0036251"
+  },
+  "S2024:ppr:5185": {
+   "anon_id": "Q0108",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Javonte Williams",
+   "nflverse_id": "00-0036997"
+  },
+  "S2024:ppr:5443": {
+   "anon_id": "Q0306",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jaylen Warren",
+   "nflverse_id": "00-0037228"
+  },
+  "S2024:ppr:3435": {
+   "anon_id": "Q0204",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tony Pollard",
+   "nflverse_id": "00-0035261"
+  },
+  "S2024:ppr:6179": {
+   "anon_id": "Q0095",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jonathon Brooks",
+   "nflverse_id": "00-0039344"
+  },
+  "S2024:ppr:3267": {
+   "anon_id": "Q0173",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Devin Singletary",
+   "nflverse_id": "00-0035250"
+  },
+  "S2024:ppr:2625": {
+   "anon_id": "Q0230",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Austin Ekeler",
+   "nflverse_id": "00-0033699"
+  },
+  "S2024:ppr:5692": {
+   "anon_id": "Q0406",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tyjae Spears",
+   "nflverse_id": "00-0039032"
+  },
+  "S2024:ppr:5706": {
+   "anon_id": "Q0178",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Chase Brown",
+   "nflverse_id": "00-0038597"
+  },
+  "S2024:ppr:2343": {
+   "anon_id": "Q0163",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ezekiel Elliott",
+   "nflverse_id": "00-0033045"
+  },
+  "S2024:ppr:5605": {
+   "anon_id": "Q0185",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brian Robinson Jr.",
+   "nflverse_id": "00-0037746"
+  },
+  "S2024:ppr:5617": {
+   "anon_id": "Q0379",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jerome Ford",
+   "nflverse_id": "00-0037267"
+  },
+  "S2024:ppr:3081": {
+   "anon_id": "Q0079",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Gus Edwards",
+   "nflverse_id": "00-0034184"
+  },
+  "S2024:ppr:5990": {
+   "anon_id": "Q0200",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Trey Benson",
+   "nflverse_id": "00-0039921"
+  },
+  "S2024:ppr:4873": {
+   "anon_id": "Q0180",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Chuba Hubbard",
+   "nflverse_id": "00-0036555"
+  },
+  "S2024:ppr:5965": {
+   "anon_id": "Q0418",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Blake Corum",
+   "nflverse_id": "00-0039738"
+  },
+  "S2024:ppr:4888": {
+   "anon_id": "Q0015",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "J.K. Dobbins",
+   "nflverse_id": "00-0036158"
+  },
+  "S2024:ppr:5095": {
+   "anon_id": "Q0361",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Rico Dowdle",
+   "nflverse_id": "00-0036139"
+  },
+  "S2024:ppr:5655": {
+   "anon_id": "Q0363",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tyler Allgeier",
+   "nflverse_id": "00-0037263"
+  },
+  "S2024:ppr:5998": {
+   "anon_id": "Q0442",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jaleel McLaughlin",
+   "nflverse_id": "00-0038794"
+  },
+  "S2024:ppr:5214": {
+   "anon_id": "Q0318",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Elijah Mitchell",
+   "nflverse_id": "00-0036567"
+  },
+  "S2024:ppr:5659": {
+   "anon_id": "Q0454",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ty Chandler",
+   "nflverse_id": "00-0037276"
+  },
+  "S2024:ppr:5677": {
+   "anon_id": "Q0074",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Zach Charbonnet",
+   "nflverse_id": "00-0039165"
+  },
+  "S2024:ppr:5720": {
+   "anon_id": "Q0014",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Khalil Herbert",
+   "nflverse_id": "00-0036906"
+  },
+  "S2024:ppr:6263": {
+   "anon_id": "Q0107",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kimani Vidal",
+   "nflverse_id": "00-0039391"
+  },
+  "S2024:ppr:6197": {
+   "anon_id": "Q0006",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ray Davis",
+   "nflverse_id": "00-0039875"
+  },
+  "S2024:ppr:5330": {
+   "anon_id": "Q0218",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jordan Mason",
+   "nflverse_id": "00-0037525"
+  },
+  "S2024:ppr:5632": {
+   "anon_id": "Q0354",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dameon Pierce",
+   "nflverse_id": "00-0037258"
+  },
+  "S2024:ppr:6190": {
+   "anon_id": "Q0286",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Bucky Irving",
+   "nflverse_id": "00-0039361"
+  },
+  "S2024:ppr:6171": {
+   "anon_id": "Q0392",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jaylen Wright",
+   "nflverse_id": "00-0039874"
+  },
+  "S2024:ppr:5008": {
+   "anon_id": "Q0064",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Antonio Gibson",
+   "nflverse_id": "00-0036328"
+  },
+  "S2024:ppr:5622": {
+   "anon_id": "Q0050",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "MarShawn Lloyd",
+   "nflverse_id": "00-0039811"
+  },
+  "S2024:ppr:3458": {
+   "anon_id": "Q0084",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Alexander Mattison",
+   "nflverse_id": "00-0034972"
+  },
+  "S2024:ppr:6276": {
+   "anon_id": "Q0237",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tyrone Tracy Jr.",
+   "nflverse_id": "00-0039384"
+  },
+  "S2024:ppr:2390": {
+   "anon_id": "Q0030",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tyreek Hill",
+   "nflverse_id": "00-0033040"
+  },
+  "S2024:ppr:4869": {
+   "anon_id": "Q0114",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "CeeDee Lamb",
+   "nflverse_id": "00-0036358"
+  },
+  "S2024:ppr:5182": {
+   "anon_id": "Q0085",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Amon-Ra St. Brown",
+   "nflverse_id": "00-0036963"
+  },
+  "S2024:ppr:5177": {
+   "anon_id": "Q0165",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Ja'Marr Chase",
+   "nflverse_id": "00-0036900"
+  },
+  "S2024:ppr:4876": {
+   "anon_id": "Q0238",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Justin Jefferson",
+   "nflverse_id": "00-0036322"
+  },
+  "S2024:ppr:3247": {
+   "anon_id": "Q0062",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "A.J. Brown",
+   "nflverse_id": "00-0035676"
+  },
+  "S2024:ppr:5548": {
+   "anon_id": "Q0264",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Garrett Wilson",
+   "nflverse_id": "00-0037740"
+  },
+  "S2024:ppr:6193": {
+   "anon_id": "Q0301",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Marvin Harrison Jr.",
+   "nflverse_id": "00-0039849"
+  },
+  "S2024:ppr:5714": {
+   "anon_id": "Q0194",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Puka Nacua",
+   "nflverse_id": "00-0039075"
+  },
+  "S2024:ppr:2449": {
+   "anon_id": "Q0211",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Cooper Kupp",
+   "nflverse_id": "00-0033908"
+  },
+  "S2024:ppr:2125": {
+   "anon_id": "Q0296",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Davante Adams",
+   "nflverse_id": "00-0031381"
+  },
+  "S2024:ppr:5574": {
+   "anon_id": "Q0289",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Drake London",
+   "nflverse_id": "00-0037238"
+  },
+  "S2024:ppr:3246": {
+   "anon_id": "Q0248",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Deebo Samuel Sr.",
+   "nflverse_id": "00-0035719"
+  },
+  "S2024:ppr:5544": {
+   "anon_id": "Q0018",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chris Olave",
+   "nflverse_id": "00-0037239"
+  },
+  "S2024:ppr:5178": {
+   "anon_id": "Q0166",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jaylen Waddle",
+   "nflverse_id": "00-0036613"
+  },
+  "S2024:ppr:5207": {
+   "anon_id": "Q0007",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Nico Collins",
+   "nflverse_id": "00-0036554"
+  },
+  "S2024:ppr:2111": {
+   "anon_id": "Q0419",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Mike Evans",
+   "nflverse_id": "00-0031408"
+  },
+  "S2024:ppr:6183": {
+   "anon_id": "Q0384",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Malik Nabers",
+   "nflverse_id": "00-0039337"
+  },
+  "S2024:ppr:4883": {
+   "anon_id": "Q0333",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DeVonta Smith",
+   "nflverse_id": "00-0036912"
+  },
+  "S2024:ppr:3239": {
+   "anon_id": "Q0428",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DK Metcalf",
+   "nflverse_id": "00-0035640"
+  },
+  "S2024:ppr:2316": {
+   "anon_id": "Q0313",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Stefon Diggs",
+   "nflverse_id": "00-0031588"
+  },
+  "S2024:ppr:2876": {
+   "anon_id": "Q0246",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "DJ Moore",
+   "nflverse_id": "00-0034827"
+  },
+  "S2024:ppr:4880": {
+   "anon_id": "Q0072",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Michael Pittman Jr.",
+   "nflverse_id": "00-0036252"
+  },
+  "S2024:ppr:4891": {
+   "anon_id": "Q0222",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brandon Aiyuk",
+   "nflverse_id": "00-0036261"
+  },
+  "S2024:ppr:2277": {
+   "anon_id": "Q0035",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Amari Cooper",
+   "nflverse_id": "00-0031544"
+  },
+  "S2024:ppr:4870": {
+   "anon_id": "Q0034",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tee Higgins",
+   "nflverse_id": "00-0036410"
+  },
+  "S2024:ppr:2870": {
+   "anon_id": "Q0087",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Christian Kirk",
+   "nflverse_id": "00-0034775"
+  },
+  "S2024:ppr:5675": {
+   "anon_id": "Q0195",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Zay Flowers",
+   "nflverse_id": "00-0039064"
+  },
+  "S2024:ppr:5711": {
+   "anon_id": "Q0209",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tank Dell",
+   "nflverse_id": "00-0038977"
+  },
+  "S2024:ppr:5576": {
+   "anon_id": "Q0315",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "George Pickens",
+   "nflverse_id": "00-0037247"
+  },
+  "S2024:ppr:1992": {
+   "anon_id": "Q0319",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Keenan Allen",
+   "nflverse_id": "00-0030279"
+  },
+  "S2024:ppr:5696": {
+   "anon_id": "Q0223",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Rashee Rice",
+   "nflverse_id": "00-0039067"
+  },
+  "S2024:ppr:5707": {
+   "anon_id": "Q0447",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jayden Reed",
+   "nflverse_id": "00-0039146"
+  },
+  "S2024:ppr:2465": {
+   "anon_id": "Q0117",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chris Godwin Jr.",
+   "nflverse_id": "00-0033921"
+  },
+  "S2024:ppr:3449": {
+   "anon_id": "Q0453",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Terry McLaurin",
+   "nflverse_id": "00-0035659"
+  },
+  "S2024:ppr:2866": {
+   "anon_id": "Q0201",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Calvin Ridley",
+   "nflverse_id": "00-0034837"
+  },
+  "S2024:ppr:6172": {
+   "anon_id": "Q0193",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Xavier Worthy",
+   "nflverse_id": "00-0039894"
+  },
+  "S2024:ppr:3249": {
+   "anon_id": "Q0445",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Hollywood Brown",
+   "nflverse_id": null
+  },
+  "S2024:ppr:5360": {
+   "anon_id": "Q0350",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Christian Watson",
+   "nflverse_id": "00-0038124"
+  },
+  "S2024:ppr:6189": {
+   "anon_id": "Q0257",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Keon Coleman",
+   "nflverse_id": "00-0039901"
+  },
+  "S2024:ppr:5671": {
+   "anon_id": "Q0410",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jaxon Smith-Njigba",
+   "nflverse_id": "00-0038543"
+  },
+  "S2024:ppr:3419": {
+   "anon_id": "Q0045",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Diontae Johnson",
+   "nflverse_id": "00-0035216"
+  },
+  "S2024:ppr:6194": {
+   "anon_id": "Q0118",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Rome Odunze",
+   "nflverse_id": "00-0039919"
+  },
+  "S2024:ppr:6281": {
+   "anon_id": "Q0326",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Ladd McConkey",
+   "nflverse_id": "00-0039915"
+  },
+  "S2024:ppr:5586": {
+   "anon_id": "Q0440",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Romeo Doubs",
+   "nflverse_id": "00-0037816"
+  },
+  "S2024:ppr:1975": {
+   "anon_id": "Q0290",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DeAndre Hopkins",
+   "nflverse_id": "00-0030564"
+  },
+  "S2024:ppr:2304": {
+   "anon_id": "Q0146",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tyler Lockett",
+   "nflverse_id": "00-0032211"
+  },
+  "S2024:ppr:5643": {
+   "anon_id": "Q0075",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jameson Williams",
+   "nflverse_id": "00-0037240"
+  },
+  "S2024:ppr:2862": {
+   "anon_id": "Q0398",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Courtland Sutton",
+   "nflverse_id": "00-0034348"
+  },
+  "S2024:ppr:6175": {
+   "anon_id": "Q0071",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Brian Thomas Jr.",
+   "nflverse_id": "00-0039893"
+  },
+  "S2024:ppr:2436": {
+   "anon_id": "Q0370",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Mike Williams",
+   "nflverse_id": "00-0023452"
+  },
+  "S2024:ppr:5636": {
+   "anon_id": "Q0357",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Khalil Shakir",
+   "nflverse_id": "00-0037261"
+  },
+  "S2024:ppr:2443": {
+   "anon_id": "Q0272",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Curtis Samuel",
+   "nflverse_id": "00-0033282"
+  },
+  "S2024:ppr:5232": {
+   "anon_id": "Q0281",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Joshua Palmer",
+   "nflverse_id": "00-0036988"
+  },
+  "S2024:ppr:3496": {
+   "anon_id": "Q0404",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jakobi Meyers",
+   "nflverse_id": "00-0034960"
+  },
+  "S2024:ppr:4861": {
+   "anon_id": "Q0005",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jerry Jeudy",
+   "nflverse_id": "00-0036407"
+  },
+  "S2024:ppr:5673": {
+   "anon_id": "Q0469",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jordan Addison",
+   "nflverse_id": "00-0038994"
+  },
+  "S2024:ppr:2114": {
+   "anon_id": "Q0225",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brandin Cooks",
+   "nflverse_id": "00-0031236"
+  },
+  "S2024:ppr:5896": {
+   "anon_id": "Q0104",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Rashid Shaheed",
+   "nflverse_id": "00-0037545"
+  },
+  "S2024:ppr:6213": {
+   "anon_id": "Q0221",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Xavier Legette",
+   "nflverse_id": "00-0039342"
+  },
+  "S2024:ppr:5578": {
+   "anon_id": "Q0207",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jahan Dotson",
+   "nflverse_id": "00-0037741"
+  },
+  "S2024:ppr:5674": {
+   "anon_id": "Q0069",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Quentin Johnston",
+   "nflverse_id": "00-0038544"
+  },
+  "S2024:ppr:5680": {
+   "anon_id": "Q0103",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Josh Downs",
+   "nflverse_id": "00-0038997"
+  },
+  "S2024:ppr:2431": {
+   "anon_id": "Q0022",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Adam Thielen",
+   "nflverse_id": "00-0030035"
+  },
+  "S2024:ppr:5725": {
+   "anon_id": "Q0068",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dontayvion Wicks",
+   "nflverse_id": "00-0038393"
+  },
+  "S2024:ppr:6184": {
+   "anon_id": "Q0353",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Adonai Mitchell",
+   "nflverse_id": "00-0039890"
+  },
+  "S2024:ppr:5119": {
+   "anon_id": "Q0140",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Darnell Mooney",
+   "nflverse_id": "00-0036309"
+  },
+  "S2024:ppr:6199": {
+   "anon_id": "Q0031",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ricky Pearsall",
+   "nflverse_id": "00-0039916"
+  },
+  "S2024:ppr:6182": {
+   "anon_id": "Q0476",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ja'Lynn Polk",
+   "nflverse_id": "00-0039907"
+  },
+  "S2024:ppr:5018": {
+   "anon_id": "Q0302",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Gabe Davis",
+   "nflverse_id": "00-0036196"
+  },
+  "S2024:ppr:5180": {
+   "anon_id": "Q0160",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Rashod Bateman",
+   "nflverse_id": "00-0036550"
+  },
+  "S2024:ppr:5721": {
+   "anon_id": "Q0347",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Michael Wilson",
+   "nflverse_id": "00-0038559"
+  },
+  "S2024:ppr:1989": {
+   "anon_id": "Q0157",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Travis Kelce",
+   "nflverse_id": "00-0030506"
+  },
+  "S2024:ppr:5564": {
+   "anon_id": "Q0024",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Sam LaPorta",
+   "nflverse_id": "00-0039065"
+  },
+  "S2024:ppr:2872": {
+   "anon_id": "Q0431",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Mark Andrews",
+   "nflverse_id": "00-0034753"
+  },
+  "S2024:ppr:5656": {
+   "anon_id": "Q0464",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Trey McBride",
+   "nflverse_id": "00-0037744"
+  },
+  "S2024:ppr:5688": {
+   "anon_id": "Q0355",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dalton Kincaid",
+   "nflverse_id": "00-0038933"
+  },
+  "S2024:ppr:2499": {
+   "anon_id": "Q0332",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "George Kittle",
+   "nflverse_id": "00-0033288"
+  },
+  "S2024:ppr:5181": {
+   "anon_id": "Q0167",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kyle Pitts Sr.",
+   "nflverse_id": "00-0036970"
+  },
+  "S2024:ppr:2451": {
+   "anon_id": "Q0061",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Evan Engram",
+   "nflverse_id": "00-0033881"
+  },
+  "S2024:ppr:5561": {
+   "anon_id": "Q0339",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jake Ferguson",
+   "nflverse_id": "00-0038041"
+  },
+  "S2024:ppr:2448": {
+   "anon_id": "Q0254",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "David Njoku",
+   "nflverse_id": "00-0033885"
+  },
+  "S2024:ppr:2896": {
+   "anon_id": "Q0423",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dallas Goedert",
+   "nflverse_id": "00-0034351"
+  },
+  "S2024:ppr:2977": {
+   "anon_id": "Q0196",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dalton Schultz",
+   "nflverse_id": "00-0034383"
+  },
+  "S2024:ppr:3307": {
+   "anon_id": "Q0287",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "T.J. Hockenson",
+   "nflverse_id": "00-0035229"
+  },
+  "S2024:ppr:6178": {
+   "anon_id": "Q0375",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Brock Bowers",
+   "nflverse_id": "00-0039338"
+  },
+  "S2024:ppr:5193": {
+   "anon_id": "Q0019",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Pat Freiermuth",
+   "nflverse_id": "00-0036894"
+  },
+  "S2024:ppr:4902": {
+   "anon_id": "Q0291",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Cole Kmet",
+   "nflverse_id": "00-0036290"
+  },
+  "S2024:ppr:5702": {
+   "anon_id": "Q0090",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Luke Musgrave",
+   "nflverse_id": "00-0039144"
+  },
+  "S2024:ppr:5661": {
+   "anon_id": "Q0317",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Isaiah Likely",
+   "nflverse_id": "00-0037838"
+  },
+  "S2024:ppr:2724": {
+   "anon_id": "Q0436",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Taysom Hill",
+   "nflverse_id": "00-0033357"
+  },
+  "S2024:ppr:3409": {
+   "anon_id": "Q0245",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dawson Knox",
+   "nflverse_id": "00-0035689"
+  },
+  "W2024:ppr:w10:00-0037238:00-0039893": {
+   "anon_id": "Q0391",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Drake London",
+   "player_b": "Brian Thomas Jr."
+  },
+  "W2024:ppr:w10:00-0036894:00-0034829": {
+   "anon_id": "Q0138",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Pat Freiermuth",
+   "player_b": "Mike Gesicki"
+  },
+  "W2024:ppr:w05:00-0037840:00-0039165": {
+   "anon_id": "Q0414",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kyren Williams",
+   "player_b": "Zach Charbonnet"
+  },
+  "W2024:ppr:w13:00-0036963:00-0036410": {
+   "anon_id": "Q0010",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Amon-Ra St. Brown",
+   "player_b": "Tee Higgins"
+  },
+  "W2024:ppr:w16:00-0036358:00-0033908": {
+   "anon_id": "Q0210",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "CeeDee Lamb",
+   "player_b": "Cooper Kupp"
+  },
+  "W2024:ppr:w05:00-0035644:00-0036244": {
+   "anon_id": "Q0066",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Noah Fant",
+   "player_b": "Colby Parkinson"
+  },
+  "W2024:ppr:w08:00-0033881:00-0038041": {
+   "anon_id": "Q0040",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Evan Engram",
+   "player_b": "Jake Ferguson"
+  },
+  "W2024:ppr:w16:00-0035640:00-0034348": {
+   "anon_id": "Q0425",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DK Metcalf",
+   "player_b": "Courtland Sutton"
+  },
+  "W2024:ppr:w09:00-0033955:00-0039391": {
+   "anon_id": "Q0343",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jeremy McNichols",
+   "player_b": "Kimani Vidal"
+  },
+  "W2024:ppr:w06:00-0039342:00-0039919": {
+   "anon_id": "Q0252",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Xavier Legette",
+   "player_b": "Rome Odunze"
+  },
+  "W2024:ppr:w14:00-0039139:00-0038542": {
+   "anon_id": "Q0038",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jahmyr Gibbs",
+   "player_b": "Bijan Robinson"
+  },
+  "W2024:ppr:w07:00-0039065:00-0034829": {
+   "anon_id": "Q0011",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Sam LaPorta",
+   "player_b": "Mike Gesicki"
+  },
+  "W2024:ppr:w12:00-0035229:00-0034753": {
+   "anon_id": "Q0227",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "T.J. Hockenson",
+   "player_b": "Mark Andrews"
+  },
+  "W2024:ppr:w14:00-0030564:00-0036182": {
+   "anon_id": "Q0086",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeAndre Hopkins",
+   "player_b": "Nick Westbrook-Ikhine"
+  },
+  "W2024:ppr:w09:00-0039361:00-0033553": {
+   "anon_id": "Q0021",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bucky Irving",
+   "player_b": "James Conner"
+  },
+  "W2024:ppr:w15:00-0039855:00-0037837": {
+   "anon_id": "Q0046",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jalen McMillan",
+   "player_b": "Calvin Austin III"
+  },
+  "W2024:ppr:w10:00-0036427:00-0038619": {
+   "anon_id": "Q0047",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tyler Johnson",
+   "player_b": "Andrei Iosivas"
+  },
+  "W2024:ppr:w07:00-0030565:00-0035710": {
+   "anon_id": "Q0102",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Geno Smith",
+   "player_b": "Daniel Jones"
+  },
+  "W2024:ppr:w06:00-0034972:00-0037267": {
+   "anon_id": "Q0093",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Alexander Mattison",
+   "player_b": "Jerome Ford"
+  },
+  "W2024:ppr:w14:00-0031503:00-0026498": {
+   "anon_id": "Q0121",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jameis Winston",
+   "player_b": "Matthew Stafford"
+  },
+  "W2024:ppr:w07:00-0037261:00-0039064": {
+   "anon_id": "Q0239",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Khalil Shakir",
+   "player_b": "Zay Flowers"
+  },
+  "W2024:ppr:w05:00-0036414:00-0033045": {
+   "anon_id": "Q0094",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cam Akers",
+   "player_b": "Ezekiel Elliott"
+  },
+  "W2024:ppr:w13:00-0038542:00-0038134": {
+   "anon_id": "Q0397",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Bijan Robinson",
+   "player_b": "Kenneth Walker III"
+  },
+  "W2024:ppr:w10:00-0036984:00-0039794": {
+   "anon_id": "Q0044",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Trey Sermon",
+   "player_b": "Braelon Allen"
+  },
+  "W2024:ppr:w13:00-0036849:00-0033591": {
+   "anon_id": "Q0159",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tutu Atwell",
+   "player_b": "Noah Brown"
+  },
+  "W2024:ppr:w13:00-0035700:00-0036555": {
+   "anon_id": "Q0088",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh Jacobs",
+   "player_b": "Chuba Hubbard"
+  },
+  "W2024:ppr:w06:00-0033009:00-0035406": {
+   "anon_id": "Q0461",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tyler Boyd",
+   "player_b": "Lil'Jordan Humphrey"
+  },
+  "W2024:ppr:w07:00-0039337:00-0036900": {
+   "anon_id": "Q0052",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Malik Nabers",
+   "player_b": "Ja'Marr Chase"
+  },
+  "W2024:ppr:w10:00-0039424:00-0038559": {
+   "anon_id": "Q0263",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Devaughn Vele",
+   "player_b": "Michael Wilson"
+  },
+  "W2024:ppr:w05:00-0039793:00-0034270": {
+   "anon_id": "Q0320",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "AJ Barner",
+   "player_b": "Tyler Conklin"
+  },
+  "W2024:ppr:w11:00-0033881:00-0033357": {
+   "anon_id": "Q0106",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Evan Engram",
+   "player_b": "Taysom Hill"
+  },
+  "W2024:ppr:w15:00-0037263:00-0037267": {
+   "anon_id": "Q0229",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Allgeier",
+   "player_b": "Jerome Ford"
+  },
+  "W2024:ppr:w10:00-0039847:00-0034981": {
+   "anon_id": "Q0432",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Theo Johnson",
+   "player_b": "Foster Moreau"
+  },
+  "W2024:ppr:w06:00-0039064:00-0039849": {
+   "anon_id": "Q0141",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Zay Flowers",
+   "player_b": "Marvin Harrison Jr."
+  },
+  "W2024:ppr:w09:00-0031280:00-0036212": {
+   "anon_id": "Q0283",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Derek Carr",
+   "player_b": "Tua Tagovailoa"
+  },
+  "W2024:ppr:w10:00-0034855:00-0039910": {
+   "anon_id": "Q0174",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Baker Mayfield",
+   "player_b": "Jayden Daniels"
+  },
+  "W2024:ppr:w14:00-0038041:00-0038996": {
+   "anon_id": "Q0042",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jake Ferguson",
+   "player_b": "Tucker Kraft"
+  },
+  "W2024:ppr:w11:00-0036264:00-0034869": {
+   "anon_id": "Q0081",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jordan Love",
+   "player_b": "Sam Darnold"
+  },
+  "W2024:ppr:w11:00-0037614:00-0038619": {
+   "anon_id": "Q0457",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "John Metchie III",
+   "player_b": "Andrei Iosivas"
+  },
+  "W2024:ppr:w16:00-0038579:00-0036972": {
+   "anon_id": "Q0373",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Aidan O'Connell",
+   "player_b": "Mac Jones"
+  },
+  "W2024:ppr:w13:00-0036139:00-0039384": {
+   "anon_id": "Q0169",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rico Dowdle",
+   "player_b": "Tyrone Tracy Jr."
+  },
+  "W2024:ppr:w05:00-0029604:00-0039918": {
+   "anon_id": "Q0147",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kirk Cousins",
+   "player_b": "Caleb Williams"
+  },
+  "W2024:ppr:w13:00-0035640:00-0039915": {
+   "anon_id": "Q0360",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DK Metcalf",
+   "player_b": "Ladd McConkey"
+  },
+  "W2024:ppr:w16:00-0036849:00-0039855": {
+   "anon_id": "Q0269",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tutu Atwell",
+   "player_b": "Jalen McMillan"
+  },
+  "W2024:ppr:w13:00-0039732:00-0036442": {
+   "anon_id": "Q0212",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bo Nix",
+   "player_b": "Joe Burrow"
+  },
+  "W2024:ppr:w12:00-0034960:00-0039075": {
+   "anon_id": "Q0473",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jakobi Meyers",
+   "player_b": "Puka Nacua"
+  },
+  "W2024:ppr:w09:00-0036963:00-0038997": {
+   "anon_id": "Q0268",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Amon-Ra St. Brown",
+   "player_b": "Josh Downs"
+  },
+  "W2024:ppr:w10:00-0033881:00-0038041": {
+   "anon_id": "Q0312",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Evan Engram",
+   "player_b": "Jake Ferguson"
+  },
+  "W2024:ppr:w07:00-0035640:00-0037238": {
+   "anon_id": "Q0080",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DK Metcalf",
+   "player_b": "Drake London"
+  },
+  "W2024:ppr:w15:00-0037664:00-0030279": {
+   "anon_id": "Q0143",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Alec Pierce",
+   "player_b": "Keenan Allen"
+  },
+  "W2024:ppr:w12:00-0036139:00-0037525": {
+   "anon_id": "Q0105",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rico Dowdle",
+   "player_b": "Jordan Mason"
+  },
+  "W2024:ppr:w09:00-0031381:00-0039849": {
+   "anon_id": "Q0336",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Davante Adams",
+   "player_b": "Marvin Harrison Jr."
+  },
+  "W2024:ppr:w12:00-0032211:00-0030564": {
+   "anon_id": "Q0279",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Lockett",
+   "player_b": "DeAndre Hopkins"
+  },
+  "W2024:ppr:w11:00-0036988:00-0039751": {
+   "anon_id": "Q0297",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh Palmer",
+   "player_b": "Jordan Whittington"
+  },
+  "W2024:ppr:w16:00-0036139:00-0039165": {
+   "anon_id": "Q0274",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rico Dowdle",
+   "player_b": "Zach Charbonnet"
+  },
+  "W2024:ppr:w10:00-0039875:00-0039021": {
+   "anon_id": "Q0335",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ray Davis",
+   "player_b": "Roschon Johnson"
+  },
+  "W2024:ppr:w11:00-0034837:00-0039064": {
+   "anon_id": "Q0127",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Calvin Ridley",
+   "player_b": "Zay Flowers"
+  },
+  "W2024:ppr:w16:00-0036259:00-0038543": {
+   "anon_id": "Q0293",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jauan Jennings",
+   "player_b": "Jaxon Smith-Njigba"
+  },
+  "W2024:ppr:w11:00-0038794:00-0036414": {
+   "anon_id": "Q0328",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jaleel McLaughlin",
+   "player_b": "Cam Akers"
+  },
+  "W2024:ppr:w13:00-0037838:00-0034753": {
+   "anon_id": "Q0161",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Isaiah Likely",
+   "player_b": "Mark Andrews"
+  },
+  "W2024:ppr:w08:00-0034827:00-0031588": {
+   "anon_id": "Q0172",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DJ Moore",
+   "player_b": "Stefon Diggs"
+  },
+  "W2024:ppr:w16:00-0039910:00-0034855": {
+   "anon_id": "Q0376",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jayden Daniels",
+   "player_b": "Baker Mayfield"
+  },
+  "W2024:ppr:w07:00-0031588:00-0037740": {
+   "anon_id": "Q0012",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Stefon Diggs",
+   "player_b": "Garrett Wilson"
+  },
+  "W2024:ppr:w16:00-0037838:00-0036290": {
+   "anon_id": "Q0171",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Isaiah Likely",
+   "player_b": "Cole Kmet"
+  },
+  "W2024:ppr:w09:00-0036139:00-0038597": {
+   "anon_id": "Q0091",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Rico Dowdle",
+   "player_b": "Chase Brown"
+  },
+  "W2024:ppr:w15:00-0033040:00-0034348": {
+   "anon_id": "Q0437",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyreek Hill",
+   "player_b": "Courtland Sutton"
+  },
+  "W2024:ppr:w15:00-0036875:00-0033923": {
+   "anon_id": "Q0477",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rhamondre Stevenson",
+   "player_b": "Kareem Hunt"
+  },
+  "W2024:ppr:w06:00-0036389:00-0023459": {
+   "anon_id": "Q0083",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jalen Hurts",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2024:ppr:w10:00-0038120:00-0036275": {
+   "anon_id": "Q0330",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Breece Hall",
+   "player_b": "D'Andre Swift"
+  },
+  "W2024:ppr:w10:00-0034869:00-0035228": {
+   "anon_id": "Q0043",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Sam Darnold",
+   "player_b": "Kyler Murray"
+  },
+  "W2024:ppr:w07:00-0033921:00-0036322": {
+   "anon_id": "Q0458",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Godwin Jr.",
+   "player_b": "Justin Jefferson"
+  },
+  "W2024:ppr:w09:00-0037238:00-0039915": {
+   "anon_id": "Q0446",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Drake London",
+   "player_b": "Ladd McConkey"
+  },
+  "W2024:ppr:w09:00-0033090:00-0038933": {
+   "anon_id": "Q0409",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Hunter Henry",
+   "player_b": "Dalton Kincaid"
+  },
+  "W2024:ppr:w14:00-0030565:00-0034869": {
+   "anon_id": "Q0450",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Geno Smith",
+   "player_b": "Sam Darnold"
+  },
+  "W2024:ppr:w05:00-0039893:00-0038117": {
+   "anon_id": "Q0340",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brian Thomas Jr.",
+   "player_b": "Wan'Dale Robinson"
+  },
+  "W2024:ppr:w11:00-0039910:00-0036389": {
+   "anon_id": "Q0220",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jayden Daniels",
+   "player_b": "Jalen Hurts"
+  },
+  "W2024:ppr:w05:00-0039814:00-0036970": {
+   "anon_id": "Q0089",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Erick All",
+   "player_b": "Kyle Pitts"
+  },
+  "W2024:ppr:w13:00-0032764:00-0033897": {
+   "anon_id": "Q0016",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Derrick Henry",
+   "player_b": "Joe Mixon"
+  },
+  "W2024:ppr:w14:00-0034272:00-0038124": {
+   "anon_id": "Q0341",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marquez Valdes-Scantling",
+   "player_b": "Christian Watson"
+  },
+  "W2024:ppr:w14:00-0039152:00-0029604": {
+   "anon_id": "Q0020",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Will Levis",
+   "player_b": "Kirk Cousins"
+  },
+  "W2024:ppr:w14:00-0031381:00-0031408": {
+   "anon_id": "Q0377",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Davante Adams",
+   "player_b": "Mike Evans"
+  },
+  "W2024:ppr:w15:00-0038994:00-0039893": {
+   "anon_id": "Q0415",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jordan Addison",
+   "player_b": "Brian Thomas Jr."
+  },
+  "W2024:ppr:w15:00-0038041:00-0036894": {
+   "anon_id": "Q0331",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jake Ferguson",
+   "player_b": "Pat Freiermuth"
+  },
+  "W2024:ppr:w06:00-0033536:00-0038977": {
+   "anon_id": "Q0187",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Williams",
+   "player_b": "Tank Dell"
+  },
+  "W2024:ppr:w14:00-0039849:00-0036309": {
+   "anon_id": "Q0125",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marvin Harrison Jr.",
+   "player_b": "Darnell Mooney"
+  },
+  "W2024:ppr:w10:00-0034796:00-0036389": {
+   "anon_id": "Q0115",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Lamar Jackson",
+   "player_b": "Jalen Hurts"
+  },
+  "W2024:ppr:w10:00-0033293:00-0036223": {
+   "anon_id": "Q0474",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Aaron Jones",
+   "player_b": "Jonathan Taylor"
+  },
+  "W2024:ppr:w11:00-0036139:00-0037746": {
+   "anon_id": "Q0213",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Rico Dowdle",
+   "player_b": "Brian Robinson"
+  },
+  "W2024:ppr:w13:00-0034159:00-0036970": {
+   "anon_id": "Q0215",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Will Dissly",
+   "player_b": "Kyle Pitts"
+  },
+  "W2024:ppr:w09:00-0038951:00-0039794": {
+   "anon_id": "Q0053",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Sean Tucker",
+   "player_b": "Braelon Allen"
+  },
+  "W2024:ppr:w08:00-0035243:00-0038951": {
+   "anon_id": "Q0462",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Miles Sanders",
+   "player_b": "Sean Tucker"
+  },
+  "W2024:ppr:w09:00-0035685:00-0036875": {
+   "anon_id": "Q0026",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "David Montgomery",
+   "player_b": "Rhamondre Stevenson"
+  },
+  "W2024:ppr:w15:00-0039075:00-0036259": {
+   "anon_id": "Q0214",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Puka Nacua",
+   "player_b": "Jauan Jennings"
+  },
+  "W2024:ppr:w16:00-0037240:00-0033040": {
+   "anon_id": "Q0004",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jameson Williams",
+   "player_b": "Tyreek Hill"
+  },
+  "W2024:ppr:w08:00-0039901:00-0038621": {
+   "anon_id": "Q0367",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Keon Coleman",
+   "player_b": "DeMario Douglas"
+  },
+  "W2024:ppr:w07:00-0037816:00-0035535": {
+   "anon_id": "Q0381",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Romeo Doubs",
+   "player_b": "Darius Slayton"
+  },
+  "W2024:ppr:w15:00-0036973:00-0034791": {
+   "anon_id": "Q0305",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Travis Etienne",
+   "player_b": "Nick Chubb"
+  },
+  "W2024:ppr:w11:00-0038608:00-0036196": {
+   "anon_id": "Q0251",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kayshon Boutte",
+   "player_b": "Gabe Davis"
+  },
+  "W2024:ppr:w15:00-0031503:00-0036355": {
+   "anon_id": "Q0258",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jameis Winston",
+   "player_b": "Justin Herbert"
+  },
+  "W2024:ppr:w09:00-0034771:00-0035289": {
+   "anon_id": "Q0321",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mason Rudolph",
+   "player_b": "Gardner Minshew"
+  },
+  "W2024:ppr:w16:00-0039794:00-0037263": {
+   "anon_id": "Q0168",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Braelon Allen",
+   "player_b": "Tyler Allgeier"
+  },
+  "W2024:ppr:w05:00-0033553:00-0036251": {
+   "anon_id": "Q0153",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "James Conner",
+   "player_b": "Zack Moss"
+  },
+  "W2024:ppr:w05:00-0037740:00-0039894": {
+   "anon_id": "Q0472",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Garrett Wilson",
+   "player_b": "Xavier Worthy"
+  },
+  "W2024:ppr:w11:00-0033908:00-0036963": {
+   "anon_id": "Q0131",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Cooper Kupp",
+   "player_b": "Amon-Ra St. Brown"
+  },
+  "W2024:ppr:w13:00-0036328:00-0038797": {
+   "anon_id": "Q0438",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Antonio Gibson",
+   "player_b": "Emanuel Wilson"
+  },
+  "W2024:ppr:w09:00-0039021:00-0035250": {
+   "anon_id": "Q0295",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Roschon Johnson",
+   "player_b": "Devin Singletary"
+  },
+  "W2024:ppr:w15:00-0029263:00-0039851": {
+   "anon_id": "Q0466",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Russell Wilson",
+   "player_b": "Drake Maye"
+  },
+  "W2024:ppr:w14:00-0033923:00-0039361": {
+   "anon_id": "Q0385",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kareem Hunt",
+   "player_b": "Bucky Irving"
+  },
+  "W2024:ppr:w16:00-0030279:00-0039915": {
+   "anon_id": "Q0002",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Keenan Allen",
+   "player_b": "Ladd McConkey"
+  },
+  "W2024:ppr:w09:00-0034960:00-0034348": {
+   "anon_id": "Q0417",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jakobi Meyers",
+   "player_b": "Courtland Sutton"
+  },
+  "W2024:ppr:w05:00-0037267:00-0036875": {
+   "anon_id": "Q0282",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jerome Ford",
+   "player_b": "Rhamondre Stevenson"
+  },
+  "W2024:ppr:w09:00-0036252:00-0033040": {
+   "anon_id": "Q0344",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Michael Pittman",
+   "player_b": "Tyreek Hill"
+  },
+  "W2024:ppr:w11:00-0030564:00-0033591": {
+   "anon_id": "Q0170",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeAndre Hopkins",
+   "player_b": "Noah Brown"
+  },
+  "W2024:ppr:w09:00-0026158:00-0030565": {
+   "anon_id": "Q0294",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Joe Flacco",
+   "player_b": "Geno Smith"
+  },
+  "W2024:ppr:w09:00-0036849:00-0036407": {
+   "anon_id": "Q0386",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tutu Atwell",
+   "player_b": "Jerry Jeudy"
+  },
+  "W2024:ppr:w05:00-0026498:00-0039732": {
+   "anon_id": "Q0132",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matthew Stafford",
+   "player_b": "Bo Nix"
+  },
+  "W2024:ppr:w09:00-0023459:00-0033106": {
+   "anon_id": "Q0394",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Aaron Rodgers",
+   "player_b": "Jared Goff"
+  },
+  "W2024:ppr:w09:00-0036275:00-0036158": {
+   "anon_id": "Q0405",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "D'Andre Swift",
+   "player_b": "J.K. Dobbins"
+  },
+  "W2024:ppr:w09:00-0034827:00-0036309": {
+   "anon_id": "Q0372",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DJ Moore",
+   "player_b": "Darnell Mooney"
+  },
+  "W2024:ppr:w06:00-0036040:00-0034981": {
+   "anon_id": "Q0199",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Juwan Johnson",
+   "player_b": "Foster Moreau"
+  },
+  "W2024:ppr:w08:00-0035659:00-0039146": {
+   "anon_id": "Q0444",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Terry McLaurin",
+   "player_b": "Jayden Reed"
+  },
+  "W2024:ppr:w14:00-0034407:00-0032775": {
+   "anon_id": "Q0150",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ray-Ray McCloud",
+   "player_b": "Demarcus Robinson"
+  },
+  "W2024:ppr:w11:00-0036407:00-0033040": {
+   "anon_id": "Q0275",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jerry Jeudy",
+   "player_b": "Tyreek Hill"
+  },
+  "W2024:ppr:w14:00-0036414:00-0037263": {
+   "anon_id": "Q0133",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Cam Akers",
+   "player_b": "Tyler Allgeier"
+  },
+  "W2024:ppr:w07:00-0027973:00-0026498": {
+   "anon_id": "Q0177",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Andy Dalton",
+   "player_b": "Matthew Stafford"
+  },
+  "W2024:ppr:w12:00-0033699:00-0033923": {
+   "anon_id": "Q0413",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Austin Ekeler",
+   "player_b": "Kareem Hunt"
+  },
+  "W2024:ppr:w16:00-0039376:00-0039150": {
+   "anon_id": "Q0389",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Spencer Rattler",
+   "player_b": "Bryce Young"
+  },
+  "W2024:ppr:w16:00-0030564:00-0038124": {
+   "anon_id": "Q0325",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeAndre Hopkins",
+   "player_b": "Christian Watson"
+  },
+  "W2024:ppr:w15:00-0037291:00-0034272": {
+   "anon_id": "Q0129",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jalen Nailor",
+   "player_b": "Marquez Valdes-Scantling"
+  },
+  "W2024:ppr:w12:00-0038543:00-0039064": {
+   "anon_id": "Q0338",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jaxon Smith-Njigba",
+   "player_b": "Zay Flowers"
+  },
+  "W2024:ppr:w07:00-0039915:00-0032211": {
+   "anon_id": "Q0112",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ladd McConkey",
+   "player_b": "Tyler Lockett"
+  },
+  "W2024:ppr:w05:00-0036550:00-0039919": {
+   "anon_id": "Q0292",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rashod Bateman",
+   "player_b": "Rome Odunze"
+  },
+  "W2024:ppr:w15:00-0035640:00-0036309": {
+   "anon_id": "Q0048",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DK Metcalf",
+   "player_b": "Darnell Mooney"
+  },
+  "W2024:ppr:w05:00-0038129:00-0036637": {
+   "anon_id": "Q0039",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cade Otton",
+   "player_b": "Noah Gray"
+  },
+  "W2024:ppr:w16:00-0038128:00-0039164": {
+   "anon_id": "Q0097",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Malik Willis",
+   "player_b": "Anthony Richardson"
+  },
+  "W2024:ppr:w14:00-0039918:00-0029263": {
+   "anon_id": "Q0441",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Caleb Williams",
+   "player_b": "Russell Wilson"
+  },
+  "W2024:ppr:w10:00-0038621:00-0038977": {
+   "anon_id": "Q0116",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeMario Douglas",
+   "player_b": "Tank Dell"
+  },
+  "W2024:ppr:w11:00-0029604:00-0023459": {
+   "anon_id": "Q0109",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kirk Cousins",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2024:ppr:w05:00-0039361:00-0036139": {
+   "anon_id": "Q0403",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bucky Irving",
+   "player_b": "Rico Dowdle"
+  },
+  "W2024:ppr:w05:00-0031280:00-0037834": {
+   "anon_id": "Q0270",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Derek Carr",
+   "player_b": "Brock Purdy"
+  },
+  "W2024:ppr:w11:00-0034753:00-0036970": {
+   "anon_id": "Q0009",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mark Andrews",
+   "player_b": "Kyle Pitts"
+  },
+  "W2024:ppr:w11:00-0035676:00-0036358": {
+   "anon_id": "Q0439",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "A.J. Brown",
+   "player_b": "CeeDee Lamb"
+  },
+  "W2024:ppr:w11:00-0035719:00-0035216": {
+   "anon_id": "Q0077",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Deebo Samuel Sr.",
+   "player_b": "Diontae Johnson"
+  },
+  "W2024:ppr:w16:00-0038933:00-0038996": {
+   "anon_id": "Q0362",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dalton Kincaid",
+   "player_b": "Tucker Kraft"
+  },
+  "W2024:ppr:w09:00-0034844:00-0038542": {
+   "anon_id": "Q0135",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Saquon Barkley",
+   "player_b": "Bijan Robinson"
+  },
+  "W2024:ppr:w07:00-0038120:00-0039040": {
+   "anon_id": "Q0324",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Breece Hall",
+   "player_b": "De'Von Achane"
+  },
+  "W2024:ppr:w14:00-0036244:00-0038547": {
+   "anon_id": "Q0369",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Colby Parkinson",
+   "player_b": "Luke Schoonmaker"
+  },
+  "W2024:ppr:w05:00-0035640:00-0031588": {
+   "anon_id": "Q0420",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DK Metcalf",
+   "player_b": "Stefon Diggs"
+  },
+  "W2024:ppr:w05:00-0038393:00-0038559": {
+   "anon_id": "Q0380",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dontayvion Wicks",
+   "player_b": "Michael Wilson"
+  },
+  "W2024:ppr:w15:00-0038597:00-0035685": {
+   "anon_id": "Q0049",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Chase Brown",
+   "player_b": "David Montgomery"
+  },
+  "W2024:ppr:w12:00-0036244:00-0034383": {
+   "anon_id": "Q0184",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Colby Parkinson",
+   "player_b": "Dalton Schultz"
+  },
+  "W2024:ppr:w11:00-0039851:00-0033106": {
+   "anon_id": "Q0266",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Drake Maye",
+   "player_b": "Jared Goff"
+  },
+  "W2024:ppr:w10:00-0034827:00-0036259": {
+   "anon_id": "Q0416",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DJ Moore",
+   "player_b": "Jauan Jennings"
+  },
+  "W2024:ppr:w14:00-0038579:00-0033662": {
+   "anon_id": "Q0249",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Aidan O'Connell",
+   "player_b": "Cooper Rush"
+  },
+  "W2024:ppr:w10:00-0039915:00-0039849": {
+   "anon_id": "Q0176",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ladd McConkey",
+   "player_b": "Marvin Harrison Jr."
+  },
+  "W2024:ppr:w08:00-0033357:00-0036637": {
+   "anon_id": "Q0459",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Taysom Hill",
+   "player_b": "Noah Gray"
+  },
+  "W2024:ppr:w09:00-0039910:00-0034796": {
+   "anon_id": "Q0364",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jayden Daniels",
+   "player_b": "Lamar Jackson"
+  },
+  "W2024:ppr:w14:00-0039032:00-0039875": {
+   "anon_id": "Q0452",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tyjae Spears",
+   "player_b": "Ray Davis"
+  },
+  "W2024:ppr:w10:00-0038794:00-0035243": {
+   "anon_id": "Q0311",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jaleel McLaughlin",
+   "player_b": "Miles Sanders"
+  },
+  "W2024:ppr:w11:00-0038597:00-0037525": {
+   "anon_id": "Q0226",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Chase Brown",
+   "player_b": "Jordan Mason"
+  },
+  "W2024:ppr:w05:00-0036196:00-0036980": {
+   "anon_id": "Q0356",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Gabe Davis",
+   "player_b": "Elijah Moore"
+  },
+  "W2024:ppr:w09:00-0032775:00-0037664": {
+   "anon_id": "Q0120",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Demarcus Robinson",
+   "player_b": "Alec Pierce"
+  },
+  "W2024:ppr:w08:00-0037291:00-0036252": {
+   "anon_id": "Q0065",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jalen Nailor",
+   "player_b": "Michael Pittman"
+  },
+  "W2024:ppr:w14:00-0036442:00-0036389": {
+   "anon_id": "Q0456",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Joe Burrow",
+   "player_b": "Jalen Hurts"
+  },
+  "W2024:ppr:w08:00-0037248:00-0039040": {
+   "anon_id": "Q0277",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "James Cook",
+   "player_b": "De'Von Achane"
+  },
+  "W2024:ppr:w15:00-0037838:00-0034829": {
+   "anon_id": "Q0216",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Isaiah Likely",
+   "player_b": "Mike Gesicki"
+  },
+  "W2024:ppr:w15:00-0039146:00-0039064": {
+   "anon_id": "Q0253",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jayden Reed",
+   "player_b": "Zay Flowers"
+  },
+  "W2024:ppr:w10:00-0038542:00-0034844": {
+   "anon_id": "Q0348",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Bijan Robinson",
+   "player_b": "Saquon Barkley"
+  },
+  "W2024:ppr:w14:00-0039342:00-0038559": {
+   "anon_id": "Q0387",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Xavier Legette",
+   "player_b": "Michael Wilson"
+  },
+  "W2024:ppr:w14:00-0036358:00-0036259": {
+   "anon_id": "Q0255",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "CeeDee Lamb",
+   "player_b": "Jauan Jennings"
+  },
+  "W2024:ppr:w05:00-0039849:00-0037239": {
+   "anon_id": "Q0334",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Marvin Harrison Jr.",
+   "player_b": "Chris Olave"
+  },
+  "W2024:ppr:w13:00-0038619:00-0038608": {
+   "anon_id": "Q0037",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andrei Iosivas",
+   "player_b": "Kayshon Boutte"
+  },
+  "W2024:ppr:w13:00-0039916:00-0037837": {
+   "anon_id": "Q0139",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ricky Pearsall",
+   "player_b": "Calvin Austin III"
+  },
+  "W2024:ppr:w10:00-0039064:00-0037261": {
+   "anon_id": "Q0190",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Zay Flowers",
+   "player_b": "Khalil Shakir"
+  },
+  "W2024:ppr:w11:00-0036212:00-0031280": {
+   "anon_id": "Q0152",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tua Tagovailoa",
+   "player_b": "Derek Carr"
+  },
+  "W2024:ppr:w10:00-0036415:00-0035208": {
+   "anon_id": "Q0192",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Van Jefferson",
+   "player_b": "Olamide Zaccheaus"
+  },
+  "W2024:ppr:w06:00-0037247:00-0035719": {
+   "anon_id": "Q0111",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "George Pickens",
+   "player_b": "Deebo Samuel Sr."
+  },
+  "W2024:ppr:w09:00-0036900:00-0039337": {
+   "anon_id": "Q0460",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ja'Marr Chase",
+   "player_b": "Malik Nabers"
+  },
+  "W2024:ppr:w08:00-0038608:00-0037837": {
+   "anon_id": "Q0155",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kayshon Boutte",
+   "player_b": "Calvin Austin III"
+  },
+  "W2024:ppr:w12:00-0036945:00-0039164": {
+   "anon_id": "Q0430",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Justin Fields",
+   "player_b": "Anthony Richardson"
+  },
+  "W2024:ppr:w07:00-0038997:00-0036912": {
+   "anon_id": "Q0142",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh Downs",
+   "player_b": "DeVonta Smith"
+  },
+  "W2024:ppr:w14:00-0038544:00-0036613": {
+   "anon_id": "Q0027",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Quentin Johnston",
+   "player_b": "Jaylen Waddle"
+  },
+  "W2024:ppr:w16:00-0035261:00-0036555": {
+   "anon_id": "Q0130",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tony Pollard",
+   "player_b": "Chuba Hubbard"
+  },
+  "W2024:ppr:w11:00-0037837:00-0035208": {
+   "anon_id": "Q0435",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Calvin Austin III",
+   "player_b": "Olamide Zaccheaus"
+  },
+  "W2024:ppr:w08:00-0036442:00-0036264": {
+   "anon_id": "Q0433",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Joe Burrow",
+   "player_b": "Jordan Love"
+  },
+  "W2024:ppr:w08:00-0039424:00-0038563": {
+   "anon_id": "Q0342",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Devaughn Vele",
+   "player_b": "Tre Tucker"
+  },
+  "W2024:ppr:w11:00-0031381:00-0034827": {
+   "anon_id": "Q0243",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Davante Adams",
+   "player_b": "DJ Moore"
+  },
+  "W2024:ppr:w06:00-0035535:00-0036407": {
+   "anon_id": "Q0352",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Darius Slayton",
+   "player_b": "Jerry Jeudy"
+  },
+  "W2024:ppr:w05:00-0036358:00-0036259": {
+   "anon_id": "Q0181",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "CeeDee Lamb",
+   "player_b": "Jauan Jennings"
+  },
+  "W2024:ppr:w09:00-0036997:00-0039165": {
+   "anon_id": "Q0000",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Javonte Williams",
+   "player_b": "Zach Charbonnet"
+  },
+  "W2024:ppr:w11:00-0034796:00-0036442": {
+   "anon_id": "Q0378",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Lamar Jackson",
+   "player_b": "Joe Burrow"
+  },
+  "W2024:ppr:w07:00-0031381:00-0038994": {
+   "anon_id": "Q0123",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Davante Adams",
+   "player_b": "Jordan Addison"
+  },
+  "W2024:ppr:w06:00-0035261:00-0037525": {
+   "anon_id": "Q0136",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tony Pollard",
+   "player_b": "Jordan Mason"
+  },
+  "W2024:ppr:w08:00-0034270:00-0036040": {
+   "anon_id": "Q0242",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tyler Conklin",
+   "player_b": "Juwan Johnson"
+  },
+  "W2024:ppr:w13:00-0037746:00-0036275": {
+   "anon_id": "Q0231",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brian Robinson",
+   "player_b": "D'Andre Swift"
+  },
+  "W2024:ppr:w06:00-0033906:00-0032764": {
+   "anon_id": "Q0244",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Alvin Kamara",
+   "player_b": "Derrick Henry"
+  },
+  "W2024:ppr:w13:00-0031503:00-0039152": {
+   "anon_id": "Q0067",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jameis Winston",
+   "player_b": "Will Levis"
+  },
+  "W2024:ppr:w10:00-0039732:00-0023459": {
+   "anon_id": "Q0100",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Bo Nix",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2024:ppr:w06:00-0034383:00-0035644": {
+   "anon_id": "Q0189",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dalton Schultz",
+   "player_b": "Noah Fant"
+  },
+  "W2024:ppr:w08:00-0039021:00-0039361": {
+   "anon_id": "Q0471",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Roschon Johnson",
+   "player_b": "Bucky Irving"
+  },
+  "W2024:ppr:w13:00-0029263:00-0023459": {
+   "anon_id": "Q0060",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Russell Wilson",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2024:ppr:w10:00-0034270:00-0034159": {
+   "anon_id": "Q0250",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Conklin",
+   "player_b": "Will Dissly"
+  },
+  "W2024:ppr:w06:00-0039732:00-0037834": {
+   "anon_id": "Q0023",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bo Nix",
+   "player_b": "Brock Purdy"
+  },
+  "W2024:ppr:w12:00-0035640:00-0039146": {
+   "anon_id": "Q0280",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DK Metcalf",
+   "player_b": "Jayden Reed"
+  },
+  "W2024:ppr:w10:00-0034857:00-0037834": {
+   "anon_id": "Q0261",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Josh Allen",
+   "player_b": "Brock Purdy"
+  },
+  "W2024:ppr:w12:00-0036894:00-0036637": {
+   "anon_id": "Q0028",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Pat Freiermuth",
+   "player_b": "Noah Gray"
+  },
+  "W2024:ppr:w12:00-0038979:00-0032775": {
+   "anon_id": "Q0467",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Cedric Tillman",
+   "player_b": "Demarcus Robinson"
+  },
+  "W2024:ppr:w09:00-0035676:00-0036322": {
+   "anon_id": "Q0359",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "A.J. Brown",
+   "player_b": "Justin Jefferson"
+  },
+  "W2024:ppr:w16:00-0030035:00-0037816": {
+   "anon_id": "Q0259",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Adam Thielen",
+   "player_b": "Romeo Doubs"
+  },
+  "W2024:ppr:w13:00-0033009:00-0032385": {
+   "anon_id": "Q0217",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Boyd",
+   "player_b": "Sterling Shepard"
+  },
+  "W2024:ppr:w11:00-0034613:00-0034364": {
+   "anon_id": "Q0358",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tanner Hudson",
+   "player_b": "Jordan Akins"
+  },
+  "W2024:ppr:w12:00-0036427:00-0033307": {
+   "anon_id": "Q0202",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Johnson",
+   "player_b": "Kendrick Bourne"
+  },
+  "W2024:ppr:w10:00-0037248:00-0039040": {
+   "anon_id": "Q0099",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "James Cook",
+   "player_b": "De'Von Achane"
+  },
+  "W2024:ppr:w16:00-0039064:00-0039893": {
+   "anon_id": "Q0449",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Zay Flowers",
+   "player_b": "Brian Thomas Jr."
+  },
+  "W2024:ppr:w13:00-0036980:00-0038563": {
+   "anon_id": "Q0175",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Elijah Moore",
+   "player_b": "Tre Tucker"
+  },
+  "W2024:ppr:w14:00-0033858:00-0038129": {
+   "anon_id": "Q0368",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jonnu Smith",
+   "player_b": "Cade Otton"
+  },
+  "W2024:ppr:w15:00-0039337:00-0036963": {
+   "anon_id": "Q0256",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Malik Nabers",
+   "player_b": "Amon-Ra St. Brown"
+  },
+  "W2024:ppr:w05:00-0034521:00-0034960": {
+   "anon_id": "Q0271",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Allen Lazard",
+   "player_b": "Jakobi Meyers"
+  },
+  "W2024:ppr:w08:00-0036182:00-0032775": {
+   "anon_id": "Q0158",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Nick Westbrook-Ikhine",
+   "player_b": "Demarcus Robinson"
+  },
+  "W2024:ppr:w06:00-0038555:00-0033955": {
+   "anon_id": "Q0054",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tank Bigsby",
+   "player_b": "Jeremy McNichols"
+  },
+  "W2024:ppr:w07:00-0036613:00-0037247": {
+   "anon_id": "Q0262",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jaylen Waddle",
+   "player_b": "George Pickens"
+  },
+  "W2024:ppr:w12:00-0034796:00-0036389": {
+   "anon_id": "Q0337",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Lamar Jackson",
+   "player_b": "Jalen Hurts"
+  },
+  "W2024:ppr:w06:00-0036945:00-0036442": {
+   "anon_id": "Q0273",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Justin Fields",
+   "player_b": "Joe Burrow"
+  },
+  "W2024:ppr:w10:00-0038117:00-0034348": {
+   "anon_id": "Q0371",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Wan'Dale Robinson",
+   "player_b": "Courtland Sutton"
+  },
+  "W2024:ppr:w12:00-0038117:00-0038124": {
+   "anon_id": "Q0365",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Wan'Dale Robinson",
+   "player_b": "Christian Watson"
+  },
+  "W2024:ppr:w13:00-0036355:00-0031280": {
+   "anon_id": "Q0208",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Justin Herbert",
+   "player_b": "Derek Carr"
+  },
+  "W2024:ppr:w10:00-0033553:00-0035261": {
+   "anon_id": "Q0323",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "James Conner",
+   "player_b": "Tony Pollard"
+  },
+  "W2024:ppr:w12:00-0039919:00-0036849": {
+   "anon_id": "Q0063",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rome Odunze",
+   "player_b": "Tutu Atwell"
+  },
+  "W2024:ppr:w08:00-0031687:00-0033854": {
+   "anon_id": "Q0299",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Raheem Mostert",
+   "player_b": "Dare Ogunbowale"
+  },
+  "W2024:ppr:w07:00-0036328:00-0033854": {
+   "anon_id": "Q0032",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Antonio Gibson",
+   "player_b": "Dare Ogunbowale"
+  },
+  "W2024:ppr:w11:00-0033906:00-0037248": {
+   "anon_id": "Q0412",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Alvin Kamara",
+   "player_b": "James Cook"
+  },
+  "W2024:ppr:w12:00-0031687:00-0039021": {
+   "anon_id": "Q0465",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Raheem Mostert",
+   "player_b": "Roschon Johnson"
+  },
+  "W2024:ppr:w13:00-0034829:00-0033881": {
+   "anon_id": "Q0304",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Gesicki",
+   "player_b": "Evan Engram"
+  },
+  "W2024:ppr:w09:00-0034869:00-0035228": {
+   "anon_id": "Q0284",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Sam Darnold",
+   "player_b": "Kyler Murray"
+  },
+  "W2024:ppr:w15:00-0030506:00-0038129": {
+   "anon_id": "Q0205",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Travis Kelce",
+   "player_b": "Cade Otton"
+  },
+  "W2024:ppr:w05:00-0033040:00-0038543": {
+   "anon_id": "Q0098",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyreek Hill",
+   "player_b": "Jaxon Smith-Njigba"
+  },
+  "W2024:ppr:w07:00-0036389:00-0036264": {
+   "anon_id": "Q0057",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jalen Hurts",
+   "player_b": "Jordan Love"
+  },
+  "W2024:ppr:w06:00-0036139:00-0038597": {
+   "anon_id": "Q0234",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Rico Dowdle",
+   "player_b": "Chase Brown"
+  },
+  "W2024:ppr:w09:00-0037267:00-0033699": {
+   "anon_id": "Q0236",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jerome Ford",
+   "player_b": "Austin Ekeler"
+  },
+  "W2024:ppr:w07:00-0039893:00-0035719": {
+   "anon_id": "Q0183",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brian Thomas Jr.",
+   "player_b": "Deebo Samuel Sr."
+  },
+  "W2024:ppr:w06:00-0033106:00-0039918": {
+   "anon_id": "Q0198",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jared Goff",
+   "player_b": "Caleb Williams"
+  },
+  "W2024:ppr:w05:00-0039163:00-0033077": {
+   "anon_id": "Q0235",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "C.J. Stroud",
+   "player_b": "Dak Prescott"
+  },
+  "W2024:ppr:w13:00-0032392:00-0034270": {
+   "anon_id": "Q0154",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Austin Hooper",
+   "player_b": "Tyler Conklin"
+  },
+  "W2024:ppr:w13:00-0034827:00-0037240": {
+   "anon_id": "Q0424",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DJ Moore",
+   "player_b": "Jameson Williams"
+  },
+  "W2024:ppr:w06:00-0036158:00-0036555": {
+   "anon_id": "Q0434",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "J.K. Dobbins",
+   "player_b": "Chuba Hubbard"
+  },
+  "W2024:ppr:w13:00-0030564:00-0035535": {
+   "anon_id": "Q0455",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeAndre Hopkins",
+   "player_b": "Darius Slayton"
+  },
+  "W2024:ppr:w06:00-0034827:00-0034521": {
+   "anon_id": "Q0128",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DJ Moore",
+   "player_b": "Allen Lazard"
+  },
+  "W2024:ppr:w16:00-0031408:00-0036410": {
+   "anon_id": "Q0059",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Evans",
+   "player_b": "Tee Higgins"
+  },
+  "W2024:ppr:w15:00-0038124:00-0039894": {
+   "anon_id": "Q0265",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Christian Watson",
+   "player_b": "Xavier Worthy"
+  },
+  "W2024:ppr:w07:00-0039163:00-0033873": {
+   "anon_id": "Q0408",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "C.J. Stroud",
+   "player_b": "Patrick Mahomes"
+  },
+  "W2024:ppr:w11:00-0029263:00-0034857": {
+   "anon_id": "Q0058",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Russell Wilson",
+   "player_b": "Josh Allen"
+  },
+  "W2024:ppr:w11:00-0036040:00-0034159": {
+   "anon_id": "Q0151",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Juwan Johnson",
+   "player_b": "Will Dissly"
+  },
+  "W2024:ppr:w14:00-0037248:00-0035685": {
+   "anon_id": "Q0240",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "James Cook",
+   "player_b": "David Montgomery"
+  },
+  "W2024:ppr:w13:00-0034855:00-0036389": {
+   "anon_id": "Q0402",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Baker Mayfield",
+   "player_b": "Jalen Hurts"
+  },
+  "W2024:ppr:w10:00-0033873:00-0029604": {
+   "anon_id": "Q0468",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Patrick Mahomes",
+   "player_b": "Kirk Cousins"
+  },
+  "W2024:ppr:w07:00-0037834:00-0033106": {
+   "anon_id": "Q0267",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brock Purdy",
+   "player_b": "Jared Goff"
+  },
+  "W2024:ppr:w09:00-0038120:00-0035261": {
+   "anon_id": "Q0382",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Breece Hall",
+   "player_b": "Tony Pollard"
+  },
+  "W2024:ppr:w12:00-0035676:00-0034348": {
+   "anon_id": "Q0346",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "A.J. Brown",
+   "player_b": "Courtland Sutton"
+  },
+  "W2024:ppr:w11:00-0033293:00-0039139": {
+   "anon_id": "Q0322",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Aaron Jones",
+   "player_b": "Jahmyr Gibbs"
+  },
+  "W2024:ppr:w13:00-0039875:00-0038794": {
+   "anon_id": "Q0422",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ray Davis",
+   "player_b": "Jaleel McLaughlin"
+  },
+  "W2024:ppr:w15:00-0034869:00-0037834": {
+   "anon_id": "Q0036",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Sam Darnold",
+   "player_b": "Brock Purdy"
+  },
+  "W2024:ppr:w10:00-0038997:00-0035659": {
+   "anon_id": "Q0345",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Josh Downs",
+   "player_b": "Terry McLaurin"
+  },
+  "W2024:ppr:w12:00-0038544:00-0036182": {
+   "anon_id": "Q0126",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Quentin Johnston",
+   "player_b": "Nick Westbrook-Ikhine"
+  },
+  "W2024:ppr:w13:00-0036427:00-0034272": {
+   "anon_id": "Q0411",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Johnson",
+   "player_b": "Marquez Valdes-Scantling"
+  },
+  "W2024:ppr:w05:00-0027973:00-0036971": {
+   "anon_id": "Q0025",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Andy Dalton",
+   "player_b": "Trevor Lawrence"
+  },
+  "W2024:ppr:w15:00-0034753:00-0038996": {
+   "anon_id": "Q0003",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mark Andrews",
+   "player_b": "Tucker Kraft"
+  },
+  "W2024:ppr:w05:00-0038933:00-0034829": {
+   "anon_id": "Q0001",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dalton Kincaid",
+   "player_b": "Mike Gesicki"
+  },
+  "W2024:ppr:w06:00-0039065:00-0030061": {
+   "anon_id": "Q0203",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Sam LaPorta",
+   "player_b": "Zach Ertz"
+  },
+  "W2024:ppr:w11:00-0034981:00-0036244": {
+   "anon_id": "Q0308",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Foster Moreau",
+   "player_b": "Colby Parkinson"
+  },
+  "W2024:ppr:w16:00-0036894:00-0036970": {
+   "anon_id": "Q0051",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Pat Freiermuth",
+   "player_b": "Kyle Pitts"
+  },
+  "W2024:ppr:w15:00-0026498:00-0039164": {
+   "anon_id": "Q0241",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matthew Stafford",
+   "player_b": "Anthony Richardson"
+  },
+  "W2024:ppr:w13:00-0037840:00-0039040": {
+   "anon_id": "Q0101",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kyren Williams",
+   "player_b": "De'Von Achane"
+  },
+  "W2024:ppr:w09:00-0037744:00-0039338": {
+   "anon_id": "Q0164",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Trey McBride",
+   "player_b": "Brock Bowers"
+  },
+  "W2024:ppr:w13:00-0033923:00-0039361": {
+   "anon_id": "Q0113",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kareem Hunt",
+   "player_b": "Bucky Irving"
+  },
+  "W2024:ppr:w13:00-0034844:00-0033906": {
+   "anon_id": "Q0429",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Saquon Barkley",
+   "player_b": "Alvin Kamara"
+  },
+  "W2024:ppr:w10:00-0032775:00-0037247": {
+   "anon_id": "Q0395",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Demarcus Robinson",
+   "player_b": "George Pickens"
+  },
+  "W2024:ppr:w09:00-0035500:00-0030564": {
+   "anon_id": "Q0427",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Greg Dortch",
+   "player_b": "DeAndre Hopkins"
+  },
+  "W2024:ppr:w14:00-0034857:00-0034855": {
+   "anon_id": "Q0388",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh Allen",
+   "player_b": "Baker Mayfield"
+  },
+  "W2024:ppr:w05:00-0038563:00-0036407": {
+   "anon_id": "Q0349",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tre Tucker",
+   "player_b": "Jerry Jeudy"
+  },
+  "W2024:ppr:w08:00-0039386:00-0034775": {
+   "anon_id": "Q0017",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bub Means",
+   "player_b": "Christian Kirk"
+  },
+  "W2024:ppr:w09:00-0038994:00-0039901": {
+   "anon_id": "Q0316",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jordan Addison",
+   "player_b": "Keon Coleman"
+  },
+  "W2024:ppr:w08:00-0036427:00-0032464": {
+   "anon_id": "Q0149",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Johnson",
+   "player_b": "Kalif Raymond"
+  },
+  "W2024:ppr:w13:00-0037744:00-0038129": {
+   "anon_id": "Q0070",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Trey McBride",
+   "player_b": "Cade Otton"
+  },
+  "W2024:ppr:w16:00-0039075:00-0035659": {
+   "anon_id": "Q0329",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Puka Nacua",
+   "player_b": "Terry McLaurin"
+  },
+  "W2024:ppr:w16:00-0032211:00-0035719": {
+   "anon_id": "Q0137",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Lockett",
+   "player_b": "Deebo Samuel Sr."
+  },
+  "W2024:ppr:w15:00-0033662:00-0039376": {
+   "anon_id": "Q0278",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cooper Rush",
+   "player_b": "Spencer Rattler"
+  },
+  "W2024:ppr:w07:00-0036251:00-0035250": {
+   "anon_id": "Q0179",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Zack Moss",
+   "player_b": "Devin Singletary"
+  },
+  "W2024:ppr:w07:00-0035243:00-0039794": {
+   "anon_id": "Q0056",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Miles Sanders",
+   "player_b": "Braelon Allen"
+  },
+  "W2024:ppr:w05:00-0039338:00-0036290": {
+   "anon_id": "Q0399",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brock Bowers",
+   "player_b": "Cole Kmet"
+  },
+  "W2024:ppr:w08:00-0038555:00-0035250": {
+   "anon_id": "Q0188",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tank Bigsby",
+   "player_b": "Devin Singletary"
+  },
+  "W2024:ppr:w15:00-0035535:00-0031236": {
+   "anon_id": "Q0033",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Darius Slayton",
+   "player_b": "Brandin Cooks"
+  },
+  "W2024:ppr:w06:00-0038134:00-0034844": {
+   "anon_id": "Q0276",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kenneth Walker III",
+   "player_b": "Saquon Barkley"
+  },
+  "W2024:ppr:w11:00-0033923:00-0035685": {
+   "anon_id": "Q0470",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kareem Hunt",
+   "player_b": "David Montgomery"
+  },
+  "W2024:ppr:w08:00-0037228:00-0039794": {
+   "anon_id": "Q0124",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jaylen Warren",
+   "player_b": "Braelon Allen"
+  },
+  "W2024:ppr:w09:00-0036040:00-0034270": {
+   "anon_id": "Q0232",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Juwan Johnson",
+   "player_b": "Tyler Conklin"
+  },
+  "W2024:ppr:w05:00-0039907:00-0035535": {
+   "anon_id": "Q0144",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ja'Lynn Polk",
+   "player_b": "Darius Slayton"
+  },
+  "W2024:ppr:w15:00-0035250:00-0038794": {
+   "anon_id": "Q0145",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Devin Singletary",
+   "player_b": "Jaleel McLaughlin"
+  },
+  "W2024:ppr:w11:00-0039152:00-0026498": {
+   "anon_id": "Q0073",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Will Levis",
+   "player_b": "Matthew Stafford"
+  },
+  "W2024:ppr:w16:00-0035537:00-0031687": {
+   "anon_id": "Q0390",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ty Johnson",
+   "player_b": "Raheem Mostert"
+  },
+  "W2024:ppr:w08:00-0038134:00-0032764": {
+   "anon_id": "Q0448",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kenneth Walker III",
+   "player_b": "Derrick Henry"
+  }
+ }
+}

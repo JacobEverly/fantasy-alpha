@@ -1,0 +1,6117 @@
+{
+ "benchmark": "breakoutbench_v0.3",
+ "variant": "anonymized",
+ "packet": "v2",
+ "season_masked": true,
+ "format": "ppr",
+ "families": {
+  "full_slate": 33,
+  "bust": 48,
+  "over_under": 76
+ },
+ "instructions": "For each question, return the probability the answer is YES. Respond with a JSON list [{\"question_id\": ..., \"p\": <0..1>}] covering every question.",
+ "questions": [
+  {
+   "question_id": "B0000",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 32.5,
+    "adp_pos_rank": 13,
+    "adp_stdev": 3.5,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 14,
+     "total": 219.1,
+     "ppg": 15.65,
+     "pos_rank": 24
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 194.6,
+     "ppg": 12.97,
+     "pos_rank": 28
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.857,
+     "target_share_s1": 0.2352,
+     "opps_pg_yoy": 0.324,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 2,
+     "draft_pick": 33,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0001",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 100.0,
+    "adp_pos_rank": 9,
+    "adp_stdev": 10.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 151.7,
+     "ppg": 9.48,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 4.938,
+     "target_share_s1": 0.1297,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 2,
+     "draft_pick": 55,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0002",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 44.4,
+    "adp_pos_rank": 22,
+    "adp_stdev": 4.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 21,
+     "draft_round": 2,
+     "draft_pick": 36,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0003",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 92.9,
+    "adp_pos_rank": 38,
+    "adp_stdev": 8.3,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 21,
+     "draft_round": 2,
+     "draft_pick": 41,
+     "undrafted": 0,
+     "n_news_90d": 17,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0004",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 89.5,
+    "adp_pos_rank": 37,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 14,
+     "total": 142.5,
+     "ppg": 10.18,
+     "pos_rank": 47
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 97.8,
+     "ppg": 9.78,
+     "pos_rank": 79
+    },
+    "enrichment": {
+     "opps_pg_s1": 4.5,
+     "target_share_s1": 0.1274,
+     "opps_pg_yoy": -0.3,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 26,
+     "draft_round": null,
+     "draft_pick": null,
+     "undrafted": 1,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0005",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 118.0,
+    "adp_pos_rank": 49,
+    "adp_stdev": 9.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 23,
+     "draft_round": 7,
+     "draft_pick": 251,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 2,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0006",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 111.9,
+    "adp_pos_rank": 45,
+    "adp_stdev": 8.8,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 163.4,
+     "ppg": 13.62,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 130.3,
+     "ppg": 8.69,
+     "pos_rank": 36
+    },
+    "enrichment": {
+     "opps_pg_s1": 15.75,
+     "target_share_s1": 0.0909,
+     "opps_pg_yoy": 4.95,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 25,
+     "draft_round": 3,
+     "draft_pick": 70,
+     "undrafted": 0,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 10,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0007",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 102.2,
+    "adp_pos_rank": 41,
+    "adp_stdev": 9.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 21,
+     "draft_round": 1,
+     "draft_pick": 8,
+     "undrafted": 0,
+     "n_news_90d": 16,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 8,
+     "hype_flags": 0,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0008",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 132.9,
+    "adp_pos_rank": 17,
+    "adp_stdev": 12.0,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 17,
+     "total": 222.92,
+     "ppg": 13.11,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 282.44,
+     "ppg": 17.65,
+     "pos_rank": 12
+    },
+    "enrichment": {
+     "opps_pg_s1": 2.353,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": 0.541,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 37,
+     "draft_round": 1,
+     "draft_pick": 3,
+     "undrafted": 0,
+     "n_news_90d": 23,
+     "camp_promotion_flags": 5,
+     "injury_mention_flags": 2,
+     "hype_flags": 8,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0009",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 39.3,
+    "adp_pos_rank": 20,
+    "adp_stdev": 4.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 13,
+     "total": 195.0,
+     "ppg": 15.0,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 264.8,
+     "ppg": 17.65,
+     "pos_rank": 4
+    },
+    "enrichment": {
+     "opps_pg_s1": 21.231,
+     "target_share_s1": 0.121,
+     "opps_pg_yoy": 0.231,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 3,
+     "draft_pick": 73,
+     "undrafted": 0,
+     "n_news_90d": 16,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0010",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 46.8,
+    "adp_pos_rank": 23,
+    "adp_stdev": 5.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 226.0,
+     "ppg": 15.07,
+     "pos_rank": 12
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 231.3,
+     "ppg": 15.42,
+     "pos_rank": 8
+    },
+    "enrichment": {
+     "opps_pg_s1": 18.733,
+     "target_share_s1": 0.1261,
+     "opps_pg_yoy": -2.467,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 1,
+     "draft_pick": 24,
+     "undrafted": 0,
+     "n_news_90d": 24,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 3,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0011",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 68.9,
+    "adp_pos_rank": 29,
+    "adp_stdev": 7.0,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 8,
+     "total": 110.0,
+     "ppg": 13.75,
+     "pos_rank": 49
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 218.5,
+     "ppg": 13.66,
+     "pos_rank": 10
+    },
+    "enrichment": {
+     "opps_pg_s1": 13.125,
+     "target_share_s1": 0.1158,
+     "opps_pg_yoy": -2.437,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 27,
+     "draft_round": 3,
+     "draft_pick": 86,
+     "undrafted": 0,
+     "n_news_90d": 16,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 5,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0012",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 142.9,
+    "adp_pos_rank": 19,
+    "adp_stdev": 13.4,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 199.04,
+     "ppg": 11.71,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 4.294,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 22,
+     "draft_round": 1,
+     "draft_pick": 1,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0013",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 118.2,
+    "adp_pos_rank": 47,
+    "adp_stdev": 9.7,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 9,
+     "total": 91.5,
+     "ppg": 10.17,
+     "pos_rank": 77
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 173.3,
+     "ppg": 10.83,
+     "pos_rank": 38
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.889,
+     "target_share_s1": 0.1667,
+     "opps_pg_yoy": 0.327,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 26,
+     "draft_round": 3,
+     "draft_pick": 81,
+     "undrafted": 0,
+     "n_news_90d": 20,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 9,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0014",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 101.5,
+    "adp_pos_rank": 40,
+    "adp_stdev": 9.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 14,
+     "total": 173.9,
+     "ppg": 12.42,
+     "pos_rank": 24
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 250.4,
+     "ppg": 17.89,
+     "pos_rank": 7
+    },
+    "enrichment": {
+     "opps_pg_s1": 15.0,
+     "target_share_s1": 0.0952,
+     "opps_pg_yoy": -6.429,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 24,
+     "draft_round": null,
+     "draft_pick": null,
+     "undrafted": 1,
+     "n_news_90d": 28,
+     "camp_promotion_flags": 6,
+     "injury_mention_flags": 25,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0015",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 56.7,
+    "adp_pos_rank": 24,
+    "adp_stdev": 5.6,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 231.8,
+     "ppg": 14.49,
+     "pos_rank": 20
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 232.0,
+     "ppg": 15.47,
+     "pos_rank": 17
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.5,
+     "target_share_s1": 0.2721,
+     "opps_pg_yoy": 0.567,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 28,
+     "draft_round": 1,
+     "draft_pick": 20,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0016",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 69.6,
+    "adp_pos_rank": 30,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 12,
+     "total": 143.3,
+     "ppg": 11.94,
+     "pos_rank": 34
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 168.0,
+     "ppg": 10.5,
+     "pos_rank": 25
+    },
+    "enrichment": {
+     "opps_pg_s1": 14.083,
+     "target_share_s1": 0.1346,
+     "opps_pg_yoy": 3.833,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 26,
+     "draft_round": 4,
+     "draft_pick": 134,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0017",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 5.7,
+    "adp_pos_rank": 2,
+    "adp_stdev": 1.8,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 17,
+     "total": 439.5,
+     "ppg": 25.85,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 210.7,
+     "ppg": 14.05,
+     "pos_rank": 26
+    },
+    "enrichment": {
+     "opps_pg_s1": 11.471,
+     "target_share_s1": 0.3233,
+     "opps_pg_yoy": 2.938,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 29,
+     "draft_round": 3,
+     "draft_pick": 69,
+     "undrafted": 0,
+     "n_news_90d": 8,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0018",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 123.3,
+    "adp_pos_rank": 51,
+    "adp_stdev": 9.6,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 23,
+     "draft_round": 3,
+     "draft_pick": 91,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0019",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 54.3,
+    "adp_pos_rank": 25,
+    "adp_stdev": 4.8,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 10,
+     "total": 117.6,
+     "ppg": 11.76,
+     "pos_rank": 44
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 176.0,
+     "ppg": 13.54,
+     "pos_rank": 22
+    },
+    "enrichment": {
+     "opps_pg_s1": 14.2,
+     "target_share_s1": 0.071,
+     "opps_pg_yoy": -3.877,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 32,
+     "undrafted": 0,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 3,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0020",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 24.9,
+    "adp_pos_rank": 9,
+    "adp_stdev": 3.2,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 238.6,
+     "ppg": 14.04,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 98.9,
+     "ppg": 7.61,
+     "pos_rank": 78
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.882,
+     "target_share_s1": 0.2612,
+     "opps_pg_yoy": 2.959,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 2,
+     "draft_pick": 34,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 3,
+     "injury_mention_flags": 0,
+     "hype_flags": 3,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0021",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 90.0,
+    "adp_pos_rank": 38,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 10,
+     "total": 147.2,
+     "ppg": 14.72,
+     "pos_rank": 46
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 287.8,
+     "ppg": 17.99,
+     "pos_rank": 4
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.4,
+     "target_share_s1": 0.2034,
+     "opps_pg_yoy": -3.662,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 30,
+     "draft_round": 1,
+     "draft_pick": 27,
+     "undrafted": 0,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0022",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 20.4,
+    "adp_pos_rank": 1,
+    "adp_stdev": 5.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 402.58,
+     "ppg": 23.68,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 396.06,
+     "ppg": 24.75,
+     "pos_rank": 1
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.176,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": 0.738,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 1,
+     "draft_pick": 7,
+     "undrafted": 0,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0023",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 20.2,
+    "adp_pos_rank": 13,
+    "adp_stdev": 3.3,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 204.9,
+     "ppg": 12.05,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 15.059,
+     "target_share_s1": 0.1036,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 22,
+     "draft_round": 2,
+     "draft_pick": 35,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0024",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 112.5,
+    "adp_pos_rank": 45,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 241.4,
+     "ppg": 15.09,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 265.4,
+     "ppg": 16.59,
+     "pos_rank": 8
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.812,
+     "target_share_s1": 0.2426,
+     "opps_pg_yoy": -1.438,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 29,
+     "draft_round": 3,
+     "draft_pick": 69,
+     "undrafted": 0,
+     "n_news_90d": 3,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0025",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 43.4,
+    "adp_pos_rank": 17,
+    "adp_stdev": 4.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 274.4,
+     "ppg": 17.15,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 223.8,
+     "ppg": 14.92,
+     "pos_rank": 20
+    },
+    "enrichment": {
+     "opps_pg_s1": 10.875,
+     "target_share_s1": 0.279,
+     "opps_pg_yoy": 1.075,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 3,
+     "draft_pick": 66,
+     "undrafted": 0,
+     "n_news_90d": 34,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 11,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0026",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 138.0,
+    "adp_pos_rank": 18,
+    "adp_stdev": 15.7,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 12,
+     "total": 126.8,
+     "ppg": 10.57,
+     "pos_rank": 31
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 6.0,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 11,
+     "undrafted": 0,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0027",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 142.5,
+    "adp_pos_rank": 56,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 111.1,
+     "ppg": 7.94,
+     "pos_rank": 63
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 5.857,
+     "target_share_s1": 0.1432,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 22,
+     "draft_round": 2,
+     "draft_pick": 49,
+     "undrafted": 0,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0028",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 112.7,
+    "adp_pos_rank": 46,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 23,
+     "draft_round": 3,
+     "draft_pick": 98,
+     "undrafted": 0,
+     "n_news_90d": 19,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 2,
+     "hype_flags": 0,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0029",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 102.5,
+    "adp_pos_rank": 42,
+    "adp_stdev": 8.4,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 9,
+     "total": 137.2,
+     "ppg": 15.24,
+     "pos_rank": 51
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 245.1,
+     "ppg": 15.32,
+     "pos_rank": 13
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.556,
+     "target_share_s1": 0.2177,
+     "opps_pg_yoy": -1.006,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 30,
+     "draft_round": 2,
+     "draft_pick": 41,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0030",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 10.9,
+    "adp_pos_rank": 8,
+    "adp_stdev": 2.0,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 13,
+     "total": 234.7,
+     "ppg": 18.05,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 377.8,
+     "ppg": 25.19,
+     "pos_rank": 1
+    },
+    "enrichment": {
+     "opps_pg_s1": 23.615,
+     "target_share_s1": 0.2034,
+     "opps_pg_yoy": 4.015,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 27,
+     "draft_round": 3,
+     "draft_pick": 67,
+     "undrafted": 0,
+     "n_news_90d": 17,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0031",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 13.6,
+    "adp_pos_rank": 5,
+    "adp_stdev": 2.0,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 17,
+     "total": 285.5,
+     "ppg": 16.79,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 328.6,
+     "ppg": 20.54,
+     "pos_rank": 3
+    },
+    "enrichment": {
+     "opps_pg_s1": 9.647,
+     "target_share_s1": 0.2707,
+     "opps_pg_yoy": -0.791,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 28,
+     "draft_round": 5,
+     "draft_pick": 146,
+     "undrafted": 0,
+     "n_news_90d": 6,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0032",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 44.2,
+    "adp_pos_rank": 4,
+    "adp_stdev": 5.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 14,
+     "total": 198.0,
+     "ppg": 14.14,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 125.1,
+     "ppg": 15.64,
+     "pos_rank": 20
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.929,
+     "target_share_s1": 0.2244,
+     "opps_pg_yoy": -1.196,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 28,
+     "draft_round": 5,
+     "draft_pick": 146,
+     "undrafted": 0,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0033",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 87.9,
+    "adp_pos_rank": 36,
+    "adp_stdev": 6.4,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 11,
+     "total": 138.2,
+     "ppg": 12.56,
+     "pos_rank": 50
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 7.455,
+     "target_share_s1": 0.1953,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 2,
+     "draft_pick": 34,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0034",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 74.4,
+    "adp_pos_rank": 33,
+    "adp_stdev": 7.2,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 17,
+     "total": 197.8,
+     "ppg": 11.64,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 143.6,
+     "ppg": 8.97,
+     "pos_rank": 31
+    },
+    "enrichment": {
+     "opps_pg_s1": 14.0,
+     "target_share_s1": 0.0738,
+     "opps_pg_yoy": 1.125,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 3,
+     "draft_pick": 74,
+     "undrafted": 0,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0035",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 80.2,
+    "adp_pos_rank": 9,
+    "adp_stdev": 9.6,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 16,
+     "total": 333.3,
+     "ppg": 20.83,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 383.26,
+     "ppg": 23.95,
+     "pos_rank": 2
+    },
+    "enrichment": {
+     "opps_pg_s1": 2.125,
+     "target_share_s1": 0.002,
+     "opps_pg_yoy": -0.313,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 38,
+     "draft_round": 1,
+     "draft_pick": 24,
+     "undrafted": 0,
+     "n_news_90d": 21,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0036",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 120.9,
+    "adp_pos_rank": 48,
+    "adp_stdev": 11.5,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 10,
+     "total": 80.4,
+     "ppg": 8.04,
+     "pos_rank": 92
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 146.1,
+     "ppg": 16.23,
+     "pos_rank": 52
+    },
+    "enrichment": {
+     "opps_pg_s1": 4.8,
+     "target_share_s1": 0.1573,
+     "opps_pg_yoy": -2.756,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 33,
+     "draft_round": 1,
+     "draft_pick": 6,
+     "undrafted": 0,
+     "n_news_90d": 21,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 6,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0037",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 70.5,
+    "adp_pos_rank": 31,
+    "adp_stdev": 10.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 4,
+     "draft_pick": 107,
+     "undrafted": 0,
+     "n_news_90d": 17,
+     "camp_promotion_flags": 4,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0038",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 38.0,
+    "adp_pos_rank": 15,
+    "adp_stdev": 3.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 17,
+     "total": 213.5,
+     "ppg": 12.56,
+     "pos_rank": 25
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 223.8,
+     "ppg": 14.92,
+     "pos_rank": 21
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.706,
+     "target_share_s1": 0.2462,
+     "opps_pg_yoy": -1.361,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 3,
+     "draft_pick": 76,
+     "undrafted": 0,
+     "n_news_90d": 20,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0039",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 2.7,
+    "adp_pos_rank": 3,
+    "adp_stdev": 0.9,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 343.8,
+     "ppg": 21.49,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 165.3,
+     "ppg": 16.53,
+     "pos_rank": 26
+    },
+    "enrichment": {
+     "opps_pg_s1": 18.75,
+     "target_share_s1": 0.1505,
+     "opps_pg_yoy": 0.65,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 27,
+     "draft_round": null,
+     "draft_pick": null,
+     "undrafted": 1,
+     "n_news_90d": 3,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0040",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 61.7,
+    "adp_pos_rank": 27,
+    "adp_stdev": 5.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 117.2,
+     "ppg": 9.77,
+     "pos_rank": 45
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 170.4,
+     "ppg": 14.2,
+     "pos_rank": 23
+    },
+    "enrichment": {
+     "opps_pg_s1": 14.25,
+     "target_share_s1": 0.0965,
+     "opps_pg_yoy": -3.75,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 2,
+     "draft_pick": 53,
+     "undrafted": 0,
+     "n_news_90d": 33,
+     "camp_promotion_flags": 4,
+     "injury_mention_flags": 20,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0041",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 4.6,
+    "adp_pos_rank": 1,
+    "adp_stdev": 1.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 330.4,
+     "ppg": 19.44,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 274.2,
+     "ppg": 17.14,
+     "pos_rank": 6
+    },
+    "enrichment": {
+     "opps_pg_s1": 10.176,
+     "target_share_s1": 0.2941,
+     "opps_pg_yoy": 2.301,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 22,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0042",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 102.5,
+    "adp_pos_rank": 42,
+    "adp_stdev": 8.4,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 9,
+     "total": 137.2,
+     "ppg": 15.24,
+     "pos_rank": 51
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 245.1,
+     "ppg": 15.32,
+     "pos_rank": 13
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.556,
+     "target_share_s1": 0.2177,
+     "opps_pg_yoy": -1.006,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 30,
+     "draft_round": 2,
+     "draft_pick": 41,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0043",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 39.6,
+    "adp_pos_rank": 16,
+    "adp_stdev": 4.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 11,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 8.062,
+     "target_share_s1": 0.2011,
+     "opps_pg_yoy": 1.919,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 27,
+     "draft_round": 1,
+     "draft_pick": 7,
+     "undrafted": 0,
+     "n_news_90d": 1,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0044",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 107.6,
+    "adp_pos_rank": 43,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 5,
+     "draft_pick": 151,
+     "undrafted": 0,
+     "n_news_90d": 6,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0045",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 85.4,
+    "adp_pos_rank": 35,
+    "adp_stdev": 6.2,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 195.1,
+     "ppg": 12.19,
+     "pos_rank": 20
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 198.4,
+     "ppg": 13.23,
+     "pos_rank": 14
+    },
+    "enrichment": {
+     "opps_pg_s1": 15.062,
+     "target_share_s1": 0.0791,
+     "opps_pg_yoy": -2.205,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 29,
+     "draft_round": 1,
+     "draft_pick": 15,
+     "undrafted": 0,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 7,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0046",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 1.3,
+    "adp_pos_rank": 1,
+    "adp_stdev": 0.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 373.1,
+     "ppg": 21.95,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 252.8,
+     "ppg": 16.85,
+     "pos_rank": 6
+    },
+    "enrichment": {
+     "opps_pg_s1": 22.529,
+     "target_share_s1": 0.097,
+     "opps_pg_yoy": 4.462,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 2,
+     "draft_pick": 41,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0047",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 21.9,
+    "adp_pos_rank": 14,
+    "adp_stdev": 3.0,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 14,
+     "total": 255.6,
+     "ppg": 18.26,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 132.0,
+     "ppg": 11.0,
+     "pos_rank": 35
+    },
+    "enrichment": {
+     "opps_pg_s1": 18.857,
+     "target_share_s1": 0.1442,
+     "opps_pg_yoy": 6.857,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 27,
+     "draft_round": 1,
+     "draft_pick": 4,
+     "undrafted": 0,
+     "n_news_90d": 20,
+     "camp_promotion_flags": 7,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0048",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 134.9,
+    "adp_pos_rank": 55,
+    "adp_stdev": 10.1,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 9,
+     "total": 103.5,
+     "ppg": 11.5,
+     "pos_rank": 70
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 166.3,
+     "ppg": 11.88,
+     "pos_rank": 40
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.111,
+     "target_share_s1": 0.2434,
+     "opps_pg_yoy": 0.754,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 29,
+     "draft_round": 1,
+     "draft_pick": 14,
+     "undrafted": 0,
+     "n_news_90d": 9,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 1,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0049",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 68.1,
+    "adp_pos_rank": 28,
+    "adp_stdev": 5.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 219.7,
+     "ppg": 12.92,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 152.1,
+     "ppg": 9.51,
+     "pos_rank": 49
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.588,
+     "target_share_s1": 0.2725,
+     "opps_pg_yoy": 2.213,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 5,
+     "draft_pick": 173,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 1,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0050",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 59.8,
+    "adp_pos_rank": 26,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 210.1,
+     "ppg": 14.01,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 91.3,
+     "ppg": 9.13,
+     "pos_rank": 53
+    },
+    "enrichment": {
+     "opps_pg_s1": 14.867,
+     "target_share_s1": 0.0433,
+     "opps_pg_yoy": 0.467,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 3,
+     "draft_pick": 87,
+     "undrafted": 0,
+     "n_news_90d": 12,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 2,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0051",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 38.3,
+    "adp_pos_rank": 3,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 17,
+     "total": 361.66,
+     "ppg": 21.27,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 374.4,
+     "ppg": 24.96,
+     "pos_rank": 4
+    },
+    "enrichment": {
+     "opps_pg_s1": 3.882,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -0.385,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 1,
+     "draft_pick": 10,
+     "undrafted": 0,
+     "n_news_90d": 15,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0052",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 56.5,
+    "adp_pos_rank": 23,
+    "adp_stdev": 5.5,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 14,
+     "total": 242.4,
+     "ppg": 17.31,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 191.0,
+     "ppg": 15.92,
+     "pos_rank": 31
+    },
+    "enrichment": {
+     "opps_pg_s1": 9.357,
+     "target_share_s1": 0.2111,
+     "opps_pg_yoy": 2.357,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 26,
+     "draft_round": 3,
+     "draft_pick": 84,
+     "undrafted": 0,
+     "n_news_90d": 22,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 13,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0053",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 62.6,
+    "adp_pos_rank": 6,
+    "adp_stdev": 7.4,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 208.8,
+     "ppg": 12.28,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 146.5,
+     "ppg": 9.16,
+     "pos_rank": 12
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.118,
+     "target_share_s1": 0.1707,
+     "opps_pg_yoy": 0.556,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 4,
+     "draft_pick": 137,
+     "undrafted": 0,
+     "n_news_90d": 19,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0054",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 91.4,
+    "adp_pos_rank": 36,
+    "adp_stdev": 7.2,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 234.6,
+     "ppg": 14.66,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 63.4,
+     "ppg": 3.96,
+     "pos_rank": 68
+    },
+    "enrichment": {
+     "opps_pg_s1": 13.875,
+     "target_share_s1": 0.1278,
+     "opps_pg_yoy": 8.313,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 31,
+     "draft_round": 1,
+     "draft_pick": 29,
+     "undrafted": 0,
+     "n_news_90d": 12,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0055",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 103.6,
+    "adp_pos_rank": 10,
+    "adp_stdev": 11.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 121.2,
+     "ppg": 7.13,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 62.0,
+     "ppg": 4.13,
+     "pos_rank": 43
+    },
+    "enrichment": {
+     "opps_pg_s1": 5.529,
+     "target_share_s1": 0.1782,
+     "opps_pg_yoy": 2.529,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 2,
+     "draft_pick": 43,
+     "undrafted": 0,
+     "n_news_90d": 15,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 4,
+     "hype_flags": 3,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0056",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 38.8,
+    "adp_pos_rank": 19,
+    "adp_stdev": 3.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 2,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 168.5,
+     "ppg": 11.23,
+     "pos_rank": 24
+    },
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 23,
+     "draft_round": 2,
+     "draft_pick": 55,
+     "undrafted": 0,
+     "n_news_90d": 35,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 13,
+     "hype_flags": 1,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0057",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 130.5,
+    "adp_pos_rank": 53,
+    "adp_stdev": 7.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 4,
+     "draft_pick": 122,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 2,
+     "hype_flags": 2,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0058",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 52.3,
+    "adp_pos_rank": 21,
+    "adp_stdev": 5.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 11,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 1.571,
+     "target_share_s1": 0.0582,
+     "opps_pg_yoy": -0.262,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 28,
+     "draft_round": 6,
+     "draft_pick": 206,
+     "undrafted": 0,
+     "n_news_90d": 2,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0059",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 128.9,
+    "adp_pos_rank": 52,
+    "adp_stdev": 11.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 125.9,
+     "ppg": 7.87,
+     "pos_rank": 39
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 86.9,
+     "ppg": 6.68,
+     "pos_rank": 55
+    },
+    "enrichment": {
+     "opps_pg_s1": 10.812,
+     "target_share_s1": 0.0712,
+     "opps_pg_yoy": 2.274,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 24,
+     "draft_round": 3,
+     "draft_pick": 102,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0060",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 63.8,
+    "adp_pos_rank": 27,
+    "adp_stdev": 5.3,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 13,
+     "total": 199.8,
+     "ppg": 15.37,
+     "pos_rank": 28
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 254.0,
+     "ppg": 16.93,
+     "pos_rank": 10
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.385,
+     "target_share_s1": 0.2036,
+     "opps_pg_yoy": -0.015,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 32,
+     "draft_round": null,
+     "draft_pick": null,
+     "undrafted": 1,
+     "n_news_90d": 8,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 2,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0061",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 111.9,
+    "adp_pos_rank": 45,
+    "adp_stdev": 8.8,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 163.4,
+     "ppg": 13.62,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 130.3,
+     "ppg": 8.69,
+     "pos_rank": 36
+    },
+    "enrichment": {
+     "opps_pg_s1": 15.75,
+     "target_share_s1": 0.0909,
+     "opps_pg_yoy": 4.95,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 25,
+     "draft_round": 3,
+     "draft_pick": 70,
+     "undrafted": 0,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 10,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0062",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 150.1,
+    "adp_pos_rank": 20,
+    "adp_stdev": 17.4,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 7,
+     "total": 117.4,
+     "ppg": 16.77,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 2.4,
+     "ppg": 0.8,
+     "pos_rank": 67
+    },
+    "enrichment": {
+     "opps_pg_s1": 4.571,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": 1.904,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 28,
+     "draft_round": 1,
+     "draft_pick": 1,
+     "undrafted": 0,
+     "n_news_90d": 31,
+     "camp_promotion_flags": 7,
+     "injury_mention_flags": 19,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0063",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 47.7,
+    "adp_pos_rank": 19,
+    "adp_stdev": 5.5,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 247.8,
+     "ppg": 15.49,
+     "pos_rank": 12
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 8.875,
+     "target_share_s1": 0.2489,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 6,
+     "undrafted": 0,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0064",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 14.9,
+    "adp_pos_rank": 10,
+    "adp_stdev": 2.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 229.0,
+     "ppg": 15.27,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 258.9,
+     "ppg": 18.49,
+     "pos_rank": 5
+    },
+    "enrichment": {
+     "opps_pg_s1": 15.733,
+     "target_share_s1": 0.1322,
+     "opps_pg_yoy": -3.124,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 27,
+     "draft_round": 5,
+     "draft_pick": 182,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0065",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 120.2,
+    "adp_pos_rank": 12,
+    "adp_stdev": 17.2,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 145.3,
+     "ppg": 12.11,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 175.3,
+     "ppg": 10.96,
+     "pos_rank": 5
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.0,
+     "target_share_s1": 0.2054,
+     "opps_pg_yoy": 0.625,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 25,
+     "draft_round": 1,
+     "draft_pick": 8,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0066",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 70.8,
+    "adp_pos_rank": 32,
+    "adp_stdev": 6.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 156.6,
+     "ppg": 10.44,
+     "pos_rank": 28
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 120.8,
+     "ppg": 7.55,
+     "pos_rank": 41
+    },
+    "enrichment": {
+     "opps_pg_s1": 11.733,
+     "target_share_s1": 0.0809,
+     "opps_pg_yoy": 2.921,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 25,
+     "draft_round": 4,
+     "draft_pick": 128,
+     "undrafted": 0,
+     "n_news_90d": 12,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0067",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 86.6,
+    "adp_pos_rank": 35,
+    "adp_stdev": 6.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 185.6,
+     "ppg": 10.92,
+     "pos_rank": 30
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 6.118,
+     "target_share_s1": 0.2273,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 10,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0068",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 110.4,
+    "adp_pos_rank": 44,
+    "adp_stdev": 7.3,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 1,
+     "draft_pick": 11,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0069",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 129.0,
+    "adp_pos_rank": 51,
+    "adp_stdev": 10.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 11,
+     "total": 87.0,
+     "ppg": 7.91,
+     "pos_rank": 82
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 137.3,
+     "ppg": 9.81,
+     "pos_rank": 55
+    },
+    "enrichment": {
+     "opps_pg_s1": 5.0,
+     "target_share_s1": 0.1486,
+     "opps_pg_yoy": 0.214,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 27,
+     "draft_round": 5,
+     "draft_pick": 174,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 5,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0070",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 150.1,
+    "adp_pos_rank": 20,
+    "adp_stdev": 17.4,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 7,
+     "total": 117.4,
+     "ppg": 16.77,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 2.4,
+     "ppg": 0.8,
+     "pos_rank": 67
+    },
+    "enrichment": {
+     "opps_pg_s1": 4.571,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": 1.904,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 28,
+     "draft_round": 1,
+     "draft_pick": 1,
+     "undrafted": 0,
+     "n_news_90d": 31,
+     "camp_promotion_flags": 7,
+     "injury_mention_flags": 19,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0071",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 102.7,
+    "adp_pos_rank": 43,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 9,
+     "total": 82.36,
+     "ppg": 9.15,
+     "pos_rank": 88
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 6.667,
+     "target_share_s1": 0.1729,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 20,
+     "undrafted": 0,
+     "n_news_90d": 19,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 5,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0072",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 111.5,
+    "adp_pos_rank": 11,
+    "adp_stdev": 15.2,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 164.1,
+     "ppg": 10.94,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 66.8,
+     "ppg": 6.07,
+     "pos_rank": 39
+    },
+    "enrichment": {
+     "opps_pg_s1": 4.733,
+     "target_share_s1": 0.1336,
+     "opps_pg_yoy": 0.733,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 3,
+     "draft_pick": 96,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0073",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 93.9,
+    "adp_pos_rank": 39,
+    "adp_stdev": 8.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 116.6,
+     "ppg": 6.86,
+     "pos_rank": 47
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 193.2,
+     "ppg": 12.07,
+     "pos_rank": 15
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.647,
+     "target_share_s1": 0.1153,
+     "opps_pg_yoy": -3.665,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 25,
+     "draft_round": 4,
+     "draft_pick": 104,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0074",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 19.6,
+    "adp_pos_rank": 7,
+    "adp_stdev": 2.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 338.96,
+     "ppg": 21.18,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 7,
+     "total": 80.7,
+     "ppg": 11.53,
+     "pos_rank": 96
+    },
+    "enrichment": {
+     "opps_pg_s1": 11.25,
+     "target_share_s1": 0.2621,
+     "opps_pg_yoy": 3.821,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 2,
+     "draft_pick": 36,
+     "undrafted": 0,
+     "n_news_90d": 27,
+     "camp_promotion_flags": 6,
+     "injury_mention_flags": 1,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0075",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 110.2,
+    "adp_pos_rank": 44,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 11,
+     "total": 127.9,
+     "ppg": 11.63,
+     "pos_rank": 37
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 191.4,
+     "ppg": 11.96,
+     "pos_rank": 17
+    },
+    "enrichment": {
+     "opps_pg_s1": 9.182,
+     "target_share_s1": 0.1391,
+     "opps_pg_yoy": -3.006,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 29,
+     "draft_round": null,
+     "draft_pick": null,
+     "undrafted": 1,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0076",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 42.4,
+    "adp_pos_rank": 21,
+    "adp_stdev": 5.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 11,
+     "total": 165.0,
+     "ppg": 15.0,
+     "pos_rank": 26
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 20.636,
+     "target_share_s1": 0.0622,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 6,
+     "draft_pick": 194,
+     "undrafted": 0,
+     "n_news_90d": 8,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 6,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0077",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 33.2,
+    "adp_pos_rank": 2,
+    "adp_stdev": 4.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 380.76,
+     "ppg": 22.4,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 332.84,
+     "ppg": 22.19,
+     "pos_rank": 9
+    },
+    "enrichment": {
+     "opps_pg_s1": 3.706,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": 0.039,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 1,
+     "draft_pick": 6,
+     "undrafted": 0,
+     "n_news_90d": 4,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0078",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 123.0,
+    "adp_pos_rank": 49,
+    "adp_stdev": 10.8,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 183.84,
+     "ppg": 11.49,
+     "pos_rank": 31
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 192.64,
+     "ppg": 12.84,
+     "pos_rank": 29
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.0,
+     "target_share_s1": 0.1944,
+     "opps_pg_yoy": -1.667,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 27,
+     "draft_round": 2,
+     "draft_pick": 55,
+     "undrafted": 0,
+     "n_news_90d": 2,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0079",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 97.7,
+    "adp_pos_rank": 13,
+    "adp_stdev": 10.3,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 6,
+     "total": 64.92,
+     "ppg": 10.82,
+     "pos_rank": 39
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 6.333,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 22,
+     "draft_round": 1,
+     "draft_pick": 3,
+     "undrafted": 0,
+     "n_news_90d": 12,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0080",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 12.8,
+    "adp_pos_rank": 9,
+    "adp_stdev": 2.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 13,
+     "total": 208.9,
+     "ppg": 16.07,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 189.8,
+     "ppg": 14.6,
+     "pos_rank": 18
+    },
+    "enrichment": {
+     "opps_pg_s1": 17.615,
+     "target_share_s1": 0.1839,
+     "opps_pg_yoy": 4.461,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 2,
+     "draft_pick": 35,
+     "undrafted": 0,
+     "n_news_90d": 12,
+     "camp_promotion_flags": 4,
+     "injury_mention_flags": 3,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0081",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 35.9,
+    "adp_pos_rank": 14,
+    "adp_stdev": 3.1,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 237.5,
+     "ppg": 13.97,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 211.5,
+     "ppg": 14.1,
+     "pos_rank": 25
+    },
+    "enrichment": {
+     "opps_pg_s1": 10.059,
+     "target_share_s1": 0.2846,
+     "opps_pg_yoy": 2.059,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 1,
+     "draft_pick": 24,
+     "undrafted": 0,
+     "n_news_90d": 9,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0082",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 50.4,
+    "adp_pos_rank": 5,
+    "adp_stdev": 6.4,
+    "seasons_of_data": 6,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 11,
+     "total": 133.5,
+     "ppg": 12.14,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 278.6,
+     "ppg": 17.41,
+     "pos_rank": 2
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.455,
+     "target_share_s1": 0.2315,
+     "opps_pg_yoy": -0.607,
+     "pos_rank_s1_end": 3,
+     "age_at_sept1": 29,
+     "draft_round": 6,
+     "draft_pick": 204,
+     "undrafted": 0,
+     "n_news_90d": 30,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 14,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0083",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 75.9,
+    "adp_pos_rank": 32,
+    "adp_stdev": 7.3,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 5,
+     "total": 34.8,
+     "ppg": 6.96,
+     "pos_rank": 133
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 234.1,
+     "ppg": 14.63,
+     "pos_rank": 16
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.2,
+     "target_share_s1": 0.1478,
+     "opps_pg_yoy": -1.8,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 25,
+     "draft_round": 2,
+     "draft_pick": 62,
+     "undrafted": 0,
+     "n_news_90d": 20,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 6,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0084",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 29.5,
+    "adp_pos_rank": 11,
+    "adp_stdev": 3.3,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 257.8,
+     "ppg": 16.11,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 245.1,
+     "ppg": 17.51,
+     "pos_rank": 12
+    },
+    "enrichment": {
+     "opps_pg_s1": 9.812,
+     "target_share_s1": 0.2569,
+     "opps_pg_yoy": -0.759,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 30,
+     "draft_round": 3,
+     "draft_pick": 76,
+     "undrafted": 0,
+     "n_news_90d": 2,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0085",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 153.8,
+    "adp_pos_rank": 58,
+    "adp_stdev": 14.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 83.6,
+     "ppg": 5.97,
+     "pos_rank": 86
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 4.286,
+     "target_share_s1": 0.1295,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 23,
+     "draft_round": 3,
+     "draft_pick": 89,
+     "undrafted": 0,
+     "n_news_90d": 9,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0086",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 7.5,
+    "adp_pos_rank": 6,
+    "adp_stdev": 1.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 13,
+     "total": 206.3,
+     "ppg": 15.87,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 337.8,
+     "ppg": 24.13,
+     "pos_rank": 2
+    },
+    "enrichment": {
+     "opps_pg_s1": 22.923,
+     "target_share_s1": 0.1125,
+     "opps_pg_yoy": -3.22,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 27,
+     "draft_round": 2,
+     "draft_pick": 41,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0087",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 61.6,
+    "adp_pos_rank": 7,
+    "adp_stdev": 5.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 300.48,
+     "ppg": 21.46,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 378.74,
+     "ppg": 23.67,
+     "pos_rank": 3
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.286,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -2.026,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 1,
+     "draft_pick": 1,
+     "undrafted": 0,
+     "n_news_90d": 28,
+     "camp_promotion_flags": 3,
+     "injury_mention_flags": 8,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0088",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 56.3,
+    "adp_pos_rank": 6,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 312.16,
+     "ppg": 20.81,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 109.14,
+     "ppg": 7.8,
+     "pos_rank": 34
+    },
+    "enrichment": {
+     "opps_pg_s1": 9.333,
+     "target_share_s1": 0.0028,
+     "opps_pg_yoy": 4.762,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 2,
+     "draft_pick": 53,
+     "undrafted": 0,
+     "n_news_90d": 15,
+     "camp_promotion_flags": 3,
+     "injury_mention_flags": 3,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0089",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 22.7,
+    "adp_pos_rank": 8,
+    "adp_stdev": 3.4,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 17,
+     "total": 296.5,
+     "ppg": 17.44,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 328.9,
+     "ppg": 21.93,
+     "pos_rank": 2
+    },
+    "enrichment": {
+     "opps_pg_s1": 9.882,
+     "target_share_s1": 0.2479,
+     "opps_pg_yoy": 0.015,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 28,
+     "draft_round": 5,
+     "draft_pick": 165,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0090",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 51.4,
+    "adp_pos_rank": 20,
+    "adp_stdev": 5.4,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 17,
+     "total": 244.3,
+     "ppg": 14.37,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 271.3,
+     "ppg": 16.96,
+     "pos_rank": 7
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.647,
+     "target_share_s1": 0.2774,
+     "opps_pg_yoy": -0.415,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 2,
+     "draft_pick": 64,
+     "undrafted": 0,
+     "n_news_90d": 20,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 6,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0091",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 71.2,
+    "adp_pos_rank": 30,
+    "adp_stdev": 7.4,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 17,
+     "total": 259.1,
+     "ppg": 15.24,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 131.6,
+     "ppg": 8.22,
+     "pos_rank": 59
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.706,
+     "target_share_s1": 0.2105,
+     "opps_pg_yoy": 2.894,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 5,
+     "draft_pick": 149,
+     "undrafted": 0,
+     "n_news_90d": 8,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0092",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 118.1,
+    "adp_pos_rank": 46,
+    "adp_stdev": 9.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 21,
+     "draft_round": 2,
+     "draft_pick": 54,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 5,
+     "hype_flags": 0,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0093",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 92.0,
+    "adp_pos_rank": 37,
+    "adp_stdev": 7.8,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 2,
+     "draft_pick": 63,
+     "undrafted": 0,
+     "n_news_90d": 8,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0094",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 129.3,
+    "adp_pos_rank": 52,
+    "adp_stdev": 10.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 1,
+     "draft_pick": 18,
+     "undrafted": 0,
+     "n_news_90d": 27,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 5,
+     "hype_flags": 1,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0095",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 90.0,
+    "adp_pos_rank": 39,
+    "adp_stdev": 6.1,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 170.3,
+     "ppg": 10.02,
+     "pos_rank": 35
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 184.5,
+     "ppg": 15.38,
+     "pos_rank": 35
+    },
+    "enrichment": {
+     "opps_pg_s1": 5.235,
+     "target_share_s1": 0.1714,
+     "opps_pg_yoy": -3.265,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 1,
+     "draft_pick": 25,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 1,
+     "hype_flags": 2,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0096",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 84.2,
+    "adp_pos_rank": 34,
+    "adp_stdev": 7.1,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 202.5,
+     "ppg": 13.5,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 236.8,
+     "ppg": 14.8,
+     "pos_rank": 15
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.933,
+     "target_share_s1": 0.1843,
+     "opps_pg_yoy": -1.567,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 28,
+     "draft_round": 1,
+     "draft_pick": 4,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 2,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0097",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 51.3,
+    "adp_pos_rank": 5,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 12,
+     "total": 239.98,
+     "ppg": 20.0,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 332.78,
+     "ppg": 22.19,
+     "pos_rank": 10
+    },
+    "enrichment": {
+     "opps_pg_s1": 11.083,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": 0.483,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 1,
+     "draft_pick": 32,
+     "undrafted": 0,
+     "n_news_90d": 30,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 12,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0098",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 48.7,
+    "adp_pos_rank": 24,
+    "adp_stdev": 5.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 185.6,
+     "ppg": 10.92,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 40.3,
+     "ppg": 4.48,
+     "pos_rank": 83
+    },
+    "enrichment": {
+     "opps_pg_s1": 13.176,
+     "target_share_s1": 0.0632,
+     "opps_pg_yoy": 7.843,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 24,
+     "draft_round": 2,
+     "draft_pick": 62,
+     "undrafted": 0,
+     "n_news_90d": 6,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0099",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 105.8,
+    "adp_pos_rank": 42,
+    "adp_stdev": 8.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 123.4,
+     "ppg": 7.71,
+     "pos_rank": 41
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 7.375,
+     "target_share_s1": 0.1016,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 23,
+     "draft_round": 5,
+     "draft_pick": 150,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0100",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 110.2,
+    "adp_pos_rank": 44,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 11,
+     "total": 127.9,
+     "ppg": 11.63,
+     "pos_rank": 37
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 191.4,
+     "ppg": 11.96,
+     "pos_rank": 17
+    },
+    "enrichment": {
+     "opps_pg_s1": 9.182,
+     "target_share_s1": 0.1391,
+     "opps_pg_yoy": -3.006,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 29,
+     "draft_round": null,
+     "draft_pick": null,
+     "undrafted": 1,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0101",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 121.2,
+    "adp_pos_rank": 16,
+    "adp_stdev": 10.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 13,
+     "total": 180.92,
+     "ppg": 13.92,
+     "pos_rank": 25
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 135.46,
+     "ppg": 13.55,
+     "pos_rank": 31
+    },
+    "enrichment": {
+     "opps_pg_s1": 3.231,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -0.369,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 1,
+     "draft_pick": 5,
+     "undrafted": 0,
+     "n_news_90d": 15,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 3,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0102",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 147.9,
+    "adp_pos_rank": 15,
+    "adp_stdev": 17.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 8,
+     "total": 50.4,
+     "ppg": 6.3,
+     "pos_rank": 51
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 176.6,
+     "ppg": 11.77,
+     "pos_rank": 4
+    },
+    "enrichment": {
+     "opps_pg_s1": 3.625,
+     "target_share_s1": 0.1157,
+     "opps_pg_yoy": -0.308,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 28,
+     "draft_round": null,
+     "draft_pick": null,
+     "undrafted": 1,
+     "n_news_90d": 19,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 6,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0103",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 101.9,
+    "adp_pos_rank": 41,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 1,
+     "total": 2.0,
+     "ppg": 2.0,
+     "pos_rank": 142
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 99.7,
+     "ppg": 12.46,
+     "pos_rank": 48
+    },
+    "enrichment": {
+     "opps_pg_s1": 2.0,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -13.375,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 30,
+     "draft_round": null,
+     "draft_pick": null,
+     "undrafted": 1,
+     "n_news_90d": 16,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0104",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 16.5,
+    "adp_pos_rank": 1,
+    "adp_stdev": 3.2,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 262.8,
+     "ppg": 16.43,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 312.76,
+     "ppg": 20.85,
+     "pos_rank": 1
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.5,
+     "target_share_s1": 0.2213,
+     "opps_pg_yoy": -1.167,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 32,
+     "draft_round": 3,
+     "draft_pick": 63,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0105",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 17.5,
+    "adp_pos_rank": 6,
+    "adp_stdev": 2.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 232.8,
+     "ppg": 14.55,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 211.7,
+     "ppg": 13.23,
+     "pos_rank": 24
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.062,
+     "target_share_s1": 0.2008,
+     "opps_pg_yoy": 0.5,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 17,
+     "undrafted": 0,
+     "n_news_90d": 19,
+     "camp_promotion_flags": 3,
+     "injury_mention_flags": 9,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0106",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 31.2,
+    "adp_pos_rank": 3,
+    "adp_stdev": 4.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 176.6,
+     "ppg": 10.39,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 6.471,
+     "target_share_s1": 0.2034,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 21,
+     "draft_round": 1,
+     "draft_pick": 4,
+     "undrafted": 0,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0107",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 18.8,
+    "adp_pos_rank": 12,
+    "adp_stdev": 2.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 14,
+     "total": 215.3,
+     "ppg": 15.38,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 207.7,
+     "ppg": 17.31,
+     "pos_rank": 11
+    },
+    "enrichment": {
+     "opps_pg_s1": 18.071,
+     "target_share_s1": 0.0614,
+     "opps_pg_yoy": 0.738,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 2,
+     "draft_pick": 35,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0108",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 105.8,
+    "adp_pos_rank": 42,
+    "adp_stdev": 8.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 123.4,
+     "ppg": 7.71,
+     "pos_rank": 41
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 7.375,
+     "target_share_s1": 0.1016,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 23,
+     "draft_round": 5,
+     "draft_pick": 150,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0109",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 146.0,
+    "adp_pos_rank": 14,
+    "adp_stdev": 18.1,
+    "seasons_of_data": 2,
+    "years_since_first_season": 3,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 98.5,
+     "ppg": 7.58,
+     "pos_rank": 23
+    },
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 24,
+     "draft_round": 2,
+     "draft_pick": 50,
+     "undrafted": 0,
+     "n_news_90d": 19,
+     "camp_promotion_flags": 3,
+     "injury_mention_flags": 9,
+     "hype_flags": 0,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0110",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 2.4,
+    "adp_pos_rank": 2,
+    "adp_stdev": 0.9,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 7,
+     "total": 127.5,
+     "ppg": 18.21,
+     "pos_rank": 38
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 90.4,
+     "ppg": 30.13,
+     "pos_rank": 54
+    },
+    "enrichment": {
+     "opps_pg_s1": 20.0,
+     "target_share_s1": 0.1876,
+     "opps_pg_yoy": -6.0,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 26,
+     "draft_round": 1,
+     "draft_pick": 8,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0111",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 81.0,
+    "adp_pos_rank": 33,
+    "adp_stdev": 7.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 12,
+     "total": 103.5,
+     "ppg": 8.62,
+     "pos_rank": 71
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 5.667,
+     "target_share_s1": 0.1611,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 22,
+     "draft_round": 1,
+     "draft_pick": 27,
+     "undrafted": 0,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 3,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0112",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 89.0,
+    "adp_pos_rank": 8,
+    "adp_stdev": 9.9,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 17,
+     "total": 180.7,
+     "ppg": 10.63,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 77.5,
+     "ppg": 7.05,
+     "pos_rank": 32
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.647,
+     "target_share_s1": 0.1875,
+     "opps_pg_yoy": 0.102,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 31,
+     "draft_round": 2,
+     "draft_pick": 35,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0113",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 112.5,
+    "adp_pos_rank": 45,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 241.4,
+     "ppg": 15.09,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 265.4,
+     "ppg": 16.59,
+     "pos_rank": 8
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.812,
+     "target_share_s1": 0.2426,
+     "opps_pg_yoy": -1.438,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 29,
+     "draft_round": 3,
+     "draft_pick": 69,
+     "undrafted": 0,
+     "n_news_90d": 3,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0114",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 133.7,
+    "adp_pos_rank": 53,
+    "adp_stdev": 10.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 166.6,
+     "ppg": 11.11,
+     "pos_rank": 37
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 214.9,
+     "ppg": 13.43,
+     "pos_rank": 22
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.933,
+     "target_share_s1": 0.1804,
+     "opps_pg_yoy": 0.495,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 2,
+     "draft_pick": 49,
+     "undrafted": 0,
+     "n_news_90d": 19,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 8,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0115",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 62.9,
+    "adp_pos_rank": 26,
+    "adp_stdev": 7.0,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 125.9,
+     "ppg": 8.39,
+     "pos_rank": 58
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 136.9,
+     "ppg": 8.56,
+     "pos_rank": 57
+    },
+    "enrichment": {
+     "opps_pg_s1": 4.2,
+     "target_share_s1": 0.1126,
+     "opps_pg_yoy": 0.262,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 23,
+     "draft_round": 4,
+     "draft_pick": 128,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0116",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 63.3,
+    "adp_pos_rank": 28,
+    "adp_stdev": 6.4,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 10,
+     "total": 121.7,
+     "ppg": 12.17,
+     "pos_rank": 42
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 3.4,
+     "ppg": 1.13,
+     "pos_rank": 134
+    },
+    "enrichment": {
+     "opps_pg_s1": 12.7,
+     "target_share_s1": 0.0278,
+     "opps_pg_yoy": 9.033,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 1,
+     "draft_pick": 27,
+     "undrafted": 0,
+     "n_news_90d": 20,
+     "camp_promotion_flags": 4,
+     "injury_mention_flags": 6,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0117",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 107.6,
+    "adp_pos_rank": 43,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 5,
+     "draft_pick": 151,
+     "undrafted": 0,
+     "n_news_90d": 6,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0118",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 123.6,
+    "adp_pos_rank": 50,
+    "adp_stdev": 12.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 21,
+     "draft_round": 2,
+     "draft_pick": 52,
+     "undrafted": 0,
+     "n_news_90d": 9,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 2,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0119",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 10.1,
+    "adp_pos_rank": 7,
+    "adp_stdev": 1.8,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 287.9,
+     "ppg": 17.99,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 6,
+     "total": 99.6,
+     "ppg": 16.6,
+     "pos_rank": 49
+    },
+    "enrichment": {
+     "opps_pg_s1": 21.25,
+     "target_share_s1": 0.0928,
+     "opps_pg_yoy": -2.917,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 26,
+     "draft_round": 2,
+     "draft_pick": 48,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0120",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 114.7,
+    "adp_pos_rank": 48,
+    "adp_stdev": 14.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 229.1,
+     "ppg": 14.32,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 202.2,
+     "ppg": 14.44,
+     "pos_rank": 13
+    },
+    "enrichment": {
+     "opps_pg_s1": 19.375,
+     "target_share_s1": 0.1109,
+     "opps_pg_yoy": 4.089,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 24,
+     "draft_round": 3,
+     "draft_pick": 66,
+     "undrafted": 0,
+     "n_news_90d": 23,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 7,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0121",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 53.5,
+    "adp_pos_rank": 22,
+    "adp_stdev": 5.9,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 12,
+     "total": 87.0,
+     "ppg": 7.25,
+     "pos_rank": 81
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 262.9,
+     "ppg": 16.43,
+     "pos_rank": 9
+    },
+    "enrichment": {
+     "opps_pg_s1": 5.5,
+     "target_share_s1": 0.1996,
+     "opps_pg_yoy": -4.0,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 29,
+     "draft_round": 2,
+     "draft_pick": 61,
+     "undrafted": 0,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0122",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 103.1,
+    "adp_pos_rank": 14,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 17,
+     "total": 256.96,
+     "ppg": 15.12,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 272.12,
+     "ppg": 17.01,
+     "pos_rank": 13
+    },
+    "enrichment": {
+     "opps_pg_s1": 2.353,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -0.085,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 31,
+     "draft_round": 2,
+     "draft_pick": 36,
+     "undrafted": 0,
+     "n_news_90d": 6,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0123",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 4.3,
+    "adp_pos_rank": 4,
+    "adp_stdev": 1.4,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 8,
+     "total": 193.3,
+     "ppg": 24.16,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 333.1,
+     "ppg": 20.82,
+     "pos_rank": 3
+    },
+    "enrichment": {
+     "opps_pg_s1": 29.875,
+     "target_share_s1": 0.0769,
+     "opps_pg_yoy": 4.313,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 28,
+     "draft_round": 2,
+     "draft_pick": 45,
+     "undrafted": 0,
+     "n_news_90d": 7,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0124",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 28.4,
+    "adp_pos_rank": 16,
+    "adp_stdev": 3.3,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 257.7,
+     "ppg": 17.18,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 164.6,
+     "ppg": 12.66,
+     "pos_rank": 27
+    },
+    "enrichment": {
+     "opps_pg_s1": 16.067,
+     "target_share_s1": 0.0766,
+     "opps_pg_yoy": -0.241,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 27,
+     "draft_round": 3,
+     "draft_pick": 105,
+     "undrafted": 0,
+     "n_news_90d": 6,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0125",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 102.7,
+    "adp_pos_rank": 43,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 9,
+     "total": 82.36,
+     "ppg": 9.15,
+     "pos_rank": 88
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 6.667,
+     "target_share_s1": 0.1729,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 20,
+     "undrafted": 0,
+     "n_news_90d": 19,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 5,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0126",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 72.5,
+    "adp_pos_rank": 8,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 10,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 14,
+     "total": 242.82,
+     "ppg": 17.34,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 359.78,
+     "ppg": 22.49,
+     "pos_rank": 6
+    },
+    "enrichment": {
+     "opps_pg_s1": 3.071,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -2.117,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 33,
+     "draft_round": 3,
+     "draft_pick": 75,
+     "undrafted": 0,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 1,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0127",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 30.4,
+    "adp_pos_rank": 12,
+    "adp_stdev": 3.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 13,
+     "total": 180.9,
+     "ppg": 13.92,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 241.5,
+     "ppg": 17.25,
+     "pos_rank": 14
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.231,
+     "target_share_s1": 0.2768,
+     "opps_pg_yoy": 0.66,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 2,
+     "draft_pick": 51,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 1,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0128",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 33.1,
+    "adp_pos_rank": 17,
+    "adp_stdev": 4.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 1,
+     "total": 4.3,
+     "ppg": 4.3,
+     "pos_rank": 133
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 101.8,
+     "ppg": 9.25,
+     "pos_rank": 45
+    },
+    "enrichment": {
+     "opps_pg_s1": 8.0,
+     "target_share_s1": 0.0938,
+     "opps_pg_yoy": -6.455,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 23,
+     "draft_round": 2,
+     "draft_pick": 52,
+     "undrafted": 0,
+     "n_news_90d": 14,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 11,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0129",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 113.3,
+    "adp_pos_rank": 47,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 154.4,
+     "ppg": 11.03,
+     "pos_rank": 29
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 14.429,
+     "target_share_s1": 0.1107,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 4,
+     "draft_pick": 107,
+     "undrafted": 0,
+     "n_news_90d": 8,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 2,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0130",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 134.1,
+    "adp_pos_rank": 13,
+    "adp_stdev": 16.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 164.3,
+     "ppg": 10.27,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 145.3,
+     "ppg": 10.38,
+     "pos_rank": 13
+    },
+    "enrichment": {
+     "opps_pg_s1": 4.688,
+     "target_share_s1": 0.1471,
+     "opps_pg_yoy": -1.955,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 27,
+     "draft_round": 2,
+     "draft_pick": 35,
+     "undrafted": 0,
+     "n_news_90d": 9,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 6,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0131",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 26.5,
+    "adp_pos_rank": 10,
+    "adp_stdev": 3.2,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 262.5,
+     "ppg": 16.41,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 248.6,
+     "ppg": 15.54,
+     "pos_rank": 11
+    },
+    "enrichment": {
+     "opps_pg_s1": 7.188,
+     "target_share_s1": 0.1669,
+     "opps_pg_yoy": 0.376,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 29,
+     "draft_round": 1,
+     "draft_pick": 7,
+     "undrafted": 0,
+     "n_news_90d": 20,
+     "camp_promotion_flags": 3,
+     "injury_mention_flags": 18,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0132",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 33.6,
+    "adp_pos_rank": 18,
+    "adp_stdev": 4.1,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 25,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 3,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0133",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 15.5,
+    "adp_pos_rank": 11,
+    "adp_stdev": 2.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 13,
+     "total": 148.6,
+     "ppg": 11.43,
+     "pos_rank": 30
+    },
+    "two_seasons_ago": {
+     "games": 2,
+     "total": 15.4,
+     "ppg": 7.7,
+     "pos_rank": 116
+    },
+    "enrichment": {
+     "opps_pg_s1": 16.846,
+     "target_share_s1": 0.1309,
+     "opps_pg_yoy": 2.846,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 1,
+     "draft_pick": 2,
+     "undrafted": 0,
+     "n_news_90d": 19,
+     "camp_promotion_flags": 5,
+     "injury_mention_flags": 8,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0134",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 108.6,
+    "adp_pos_rank": 15,
+    "adp_stdev": 10.1,
+    "seasons_of_data": 10,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 16,
+     "total": 300.34,
+     "ppg": 18.77,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 306.2,
+     "ppg": 19.14,
+     "pos_rank": 11
+    },
+    "enrichment": {
+     "opps_pg_s1": 1.812,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -0.188,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 34,
+     "draft_round": 4,
+     "draft_pick": 102,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0135",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 102.2,
+    "adp_pos_rank": 41,
+    "adp_stdev": 9.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 21,
+     "draft_round": 1,
+     "draft_pick": 8,
+     "undrafted": 0,
+     "n_news_90d": 16,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 8,
+     "hype_flags": 0,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0136",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 75.2,
+    "adp_pos_rank": 7,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 15,
+     "total": 165.0,
+     "ppg": 11.0,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 116.4,
+     "ppg": 10.58,
+     "pos_rank": 21
+    },
+    "enrichment": {
+     "opps_pg_s1": 5.067,
+     "target_share_s1": 0.207,
+     "opps_pg_yoy": -0.842,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 27,
+     "draft_round": 2,
+     "draft_pick": 49,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0137",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 12.0,
+    "adp_pos_rank": 4,
+    "adp_stdev": 2.5,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 344.3,
+     "ppg": 21.52,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 358.4,
+     "ppg": 25.6,
+     "pos_rank": 1
+    },
+    "enrichment": {
+     "opps_pg_s1": 10.562,
+     "target_share_s1": 0.3168,
+     "opps_pg_yoy": -0.081,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 29,
+     "draft_round": 2,
+     "draft_pick": 53,
+     "undrafted": 0,
+     "n_news_90d": 6,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0138",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 134.1,
+    "adp_pos_rank": 54,
+    "adp_stdev": 11.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 4,
+     "draft_pick": 132,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 2,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0139",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 73.4,
+    "adp_pos_rank": 31,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 227.3,
+     "ppg": 14.21,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 7.875,
+     "target_share_s1": 0.2284,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 22,
+     "draft_round": 4,
+     "draft_pick": 112,
+     "undrafted": 0,
+     "n_news_90d": 6,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0140",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 46.1,
+    "adp_pos_rank": 4,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 314.24,
+     "ppg": 19.64,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 173.72,
+     "ppg": 17.37,
+     "pos_rank": 25
+    },
+    "enrichment": {
+     "opps_pg_s1": 2.5,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -1.2,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 1,
+     "draft_pick": 1,
+     "undrafted": 0,
+     "n_news_90d": 30,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 13,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0141",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 90.3,
+    "adp_pos_rank": 12,
+    "adp_stdev": 7.8,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 17,
+     "total": 329.74,
+     "ppg": 19.4,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 260.56,
+     "ppg": 16.29,
+     "pos_rank": 16
+    },
+    "enrichment": {
+     "opps_pg_s1": 1.882,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": 0.007,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 34,
+     "draft_round": 1,
+     "draft_pick": 1,
+     "undrafted": 0,
+     "n_news_90d": 25,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 9,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0142",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 86.8,
+    "adp_pos_rank": 11,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 17,
+     "total": 374.74,
+     "ppg": 22.04,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 337.92,
+     "ppg": 21.12,
+     "pos_rank": 8
+    },
+    "enrichment": {
+     "opps_pg_s1": 1.647,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -0.228,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 45,
+     "draft_round": 6,
+     "draft_pick": 199,
+     "undrafted": 0,
+     "n_news_90d": 27,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 5,
+     "hype_flags": 2,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0143",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 152.6,
+    "adp_pos_rank": 57,
+    "adp_stdev": 16.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 54.5,
+     "ppg": 3.63,
+     "pos_rank": 117
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 93.58,
+     "ppg": 6.24,
+     "pos_rank": 85
+    },
+    "enrichment": {
+     "opps_pg_s1": 2.333,
+     "target_share_s1": 0.0474,
+     "opps_pg_yoy": -0.6,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 27,
+     "draft_round": 5,
+     "draft_pick": 172,
+     "undrafted": 0,
+     "n_news_90d": 15,
+     "camp_promotion_flags": 6,
+     "injury_mention_flags": 2,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0144",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 45.3,
+    "adp_pos_rank": 18,
+    "adp_stdev": 5.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 150.24,
+     "ppg": 8.84,
+     "pos_rank": 44
+    },
+    "two_seasons_ago": {
+     "games": 1,
+     "total": 9.6,
+     "ppg": 9.6,
+     "pos_rank": 178
+    },
+    "enrichment": {
+     "opps_pg_s1": 5.765,
+     "target_share_s1": 0.1818,
+     "opps_pg_yoy": -0.235,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 2,
+     "draft_pick": 40,
+     "undrafted": 0,
+     "n_news_90d": 9,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 3,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0145",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 121.7,
+    "adp_pos_rank": 50,
+    "adp_stdev": 10.1,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 13,
+     "total": 119.8,
+     "ppg": 9.22,
+     "pos_rank": 43
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 127.1,
+     "ppg": 9.08,
+     "pos_rank": 38
+    },
+    "enrichment": {
+     "opps_pg_s1": 13.923,
+     "target_share_s1": 0.0597,
+     "opps_pg_yoy": 2.923,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 27,
+     "draft_round": 4,
+     "draft_pick": 134,
+     "undrafted": 0,
+     "n_news_90d": 3,
+     "camp_promotion_flags": 2,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0146",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 96.2,
+    "adp_pos_rank": 40,
+    "adp_stdev": 7.1,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 207.62,
+     "ppg": 12.21,
+     "pos_rank": 26
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 146.4,
+     "ppg": 10.46,
+     "pos_rank": 51
+    },
+    "enrichment": {
+     "opps_pg_s1": 6.118,
+     "target_share_s1": 0.1837,
+     "opps_pg_yoy": 0.332,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 25,
+     "draft_round": 2,
+     "draft_pick": 47,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 2,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0147",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 83.6,
+    "adp_pos_rank": 10,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 320.56,
+     "ppg": 20.04,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 5,
+     "total": 135.64,
+     "ppg": 27.13,
+     "pos_rank": 30
+    },
+    "enrichment": {
+     "opps_pg_s1": 3.0,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -0.8,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 29,
+     "draft_round": 4,
+     "draft_pick": 135,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0148",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 25.5,
+    "adp_pos_rank": 2,
+    "adp_stdev": 3.8,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 301.1,
+     "ppg": 17.71,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 170.1,
+     "ppg": 12.15,
+     "pos_rank": 6
+    },
+    "enrichment": {
+     "opps_pg_s1": 9.059,
+     "target_share_s1": 0.2578,
+     "opps_pg_yoy": 2.773,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 26,
+     "draft_round": 3,
+     "draft_pick": 86,
+     "undrafted": 0,
+     "n_news_90d": 6,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0149",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 101.9,
+    "adp_pos_rank": 41,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 1,
+     "total": 2.0,
+     "ppg": 2.0,
+     "pos_rank": 142
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 99.7,
+     "ppg": 12.46,
+     "pos_rank": 48
+    },
+    "enrichment": {
+     "opps_pg_s1": 2.0,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": -13.375,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 30,
+     "draft_round": null,
+     "draft_pick": null,
+     "undrafted": 1,
+     "n_news_90d": 16,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0150",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 142.9,
+    "adp_pos_rank": 19,
+    "adp_stdev": 13.4,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 199.04,
+     "ppg": 11.71,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 4.294,
+     "target_share_s1": 0.0,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 22,
+     "draft_round": 1,
+     "draft_pick": 1,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 1,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0151",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 7.1,
+    "adp_pos_rank": 5,
+    "adp_stdev": 2.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 300.7,
+     "ppg": 17.69,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 23.588,
+     "target_share_s1": 0.142,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 24,
+     "draft_round": 1,
+     "draft_pick": 24,
+     "undrafted": 0,
+     "n_news_90d": 17,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0152",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 8.7,
+    "adp_pos_rank": 3,
+    "adp_stdev": 1.8,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 304.6,
+     "ppg": 17.92,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 7.941,
+     "target_share_s1": 0.2323,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 22,
+     "draft_round": 1,
+     "draft_pick": 5,
+     "undrafted": 0,
+     "n_news_90d": 4,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0153",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 61.7,
+    "adp_pos_rank": 25,
+    "adp_stdev": 6.0,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 10,
+     "total": 85.0,
+     "ppg": 8.5,
+     "pos_rank": 84
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 157.6,
+     "ppg": 9.85,
+     "pos_rank": 45
+    },
+    "enrichment": {
+     "opps_pg_s1": 5.8,
+     "target_share_s1": 0.201,
+     "opps_pg_yoy": -1.262,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 23,
+     "draft_round": 1,
+     "draft_pick": 15,
+     "undrafted": 0,
+     "n_news_90d": 10,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 4,
+     "hype_flags": 2,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0154",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 110.4,
+    "adp_pos_rank": 44,
+    "adp_stdev": 7.3,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": null,
+     "target_share_s1": null,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": null,
+     "age_at_sept1": 22,
+     "draft_round": 1,
+     "draft_pick": 11,
+     "undrafted": 0,
+     "n_news_90d": 5,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 0,
+     "hype_flags": 1,
+     "usage_status": "no_prior_season",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0155",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 76.0,
+    "adp_pos_rank": 34,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 12,
+     "total": 114.9,
+     "ppg": 9.58,
+     "pos_rank": 48
+    },
+    "two_seasons_ago": null,
+    "enrichment": {
+     "opps_pg_s1": 12.583,
+     "target_share_s1": 0.0582,
+     "opps_pg_yoy": null,
+     "pos_rank_s1_end": 2,
+     "age_at_sept1": 24,
+     "draft_round": 4,
+     "draft_pick": 120,
+     "undrafted": 0,
+     "n_news_90d": 13,
+     "camp_promotion_flags": 0,
+     "injury_mention_flags": 2,
+     "hype_flags": 1,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  },
+  {
+   "question_id": "B0156",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 27.7,
+    "adp_pos_rank": 15,
+    "adp_stdev": 3.7,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 17,
+     "total": 252.06,
+     "ppg": 14.83,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 223.7,
+     "ppg": 14.91,
+     "pos_rank": 9
+    },
+    "enrichment": {
+     "opps_pg_s1": 17.765,
+     "target_share_s1": 0.1,
+     "opps_pg_yoy": -3.235,
+     "pos_rank_s1_end": 1,
+     "age_at_sept1": 27,
+     "draft_round": 1,
+     "draft_pick": 4,
+     "undrafted": 0,
+     "n_news_90d": 11,
+     "camp_promotion_flags": 3,
+     "injury_mention_flags": 4,
+     "hype_flags": 0,
+     "usage_status": "ok",
+     "news_status": "ok"
+    }
+   }
+  }
+ ]
+}

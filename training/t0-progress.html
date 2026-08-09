@@ -1,0 +1,117 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>T0 Training Progress</title>
+<style>
+:root { --bg:#0D0D0D; --surface:#1A1A1A; --fg:#FAFAFA; --fg-muted:#A3A3A3; --fg-faint:#6E6E6E;
+  --border:#2A2A2A; --train:#059669; --val:#3987e5; }
+@media (prefers-color-scheme: light) { :root { --bg:#FFFFFF; --surface:#F4F4F4; --fg:#0D0D0D;
+  --fg-muted:#52514E; --fg-faint:#ABABAB; --border:#E5E5E5; --train:#059669; --val:#2a78d6; } }
+* { box-sizing:border-box; margin:0; }
+body { background:var(--bg); color:var(--fg); font:16px/1.6 Inter,system-ui,sans-serif; padding:32px 20px 60px; }
+main { max-width:820px; margin:0 auto; }
+h1 { font-family:'Space Grotesk',Inter,system-ui,sans-serif; font-size:26px; letter-spacing:-0.02em; }
+h2 { font-family:'Space Grotesk',Inter,system-ui,sans-serif; font-size:17px; margin:36px 0 6px; }
+.sub { color:var(--fg-muted); font-size:13px; margin-top:4px; }
+.mono, td, .ax, .stamp { font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace; font-variant-numeric:tabular-nums; }
+.stamp { color:var(--fg-faint); font-size:12px; margin-top:2px; }
+.tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin:24px 0 8px; }
+.tile { background:var(--surface); border-radius:12px; padding:14px 16px; }
+.tile .v { font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace; font-size:24px; font-weight:600; }
+.tile .l { color:var(--fg-muted); font-size:12px; margin-top:2px; }
+.tile .d { color:var(--train); font-size:12px; font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace; }
+figure { background:var(--surface); border-radius:12px; padding:16px 12px 8px; margin:10px 0; position:relative; }
+.chartwrap { overflow-x:auto; }
+svg { display:block; width:100%; height:auto; }
+.grid { stroke:var(--border); stroke-width:1; }
+.ax { fill:var(--fg-faint); font-size:11px; }
+.ckpt { stroke:var(--fg-faint); stroke-width:1; stroke-dasharray:2 5; opacity:.6; }
+.ckpt-label { fill:var(--fg-faint); }
+.line-train { stroke:var(--train); stroke-width:2; fill:none; }
+.line-val { stroke:var(--val); stroke-width:2; fill:none; stroke-dasharray:6 4; }
+.dot-val { fill:var(--val); stroke:var(--surface); stroke-width:2; }
+.slabel { font-size:12px; font-weight:600; }
+.legend { display:flex; gap:18px; padding:6px 8px 4px; font-size:13px; color:var(--fg-muted); }
+.legend span::before { content:""; display:inline-block; width:14px; height:3px; border-radius:2px; margin-right:6px; vertical-align:middle; }
+.legend .lt::before { background:var(--train); }
+.legend .lv::before { background:var(--val); }
+.tip { position:absolute; pointer-events:none; background:var(--bg); border:1px solid var(--border);
+  border-radius:8px; padding:6px 10px; font-size:12px; display:none; z-index:2; white-space:nowrap; }
+.tip b { font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace; font-weight:600; }
+blockquote { background:var(--surface); border-radius:12px; padding:16px 18px; color:var(--fg-muted);
+  font-size:14px; margin:10px 0; }
+details { margin-top:28px; color:var(--fg-muted); }
+table { border-collapse:collapse; margin-top:10px; font-size:13px; }
+td,th { padding:4px 14px 4px 0; text-align:right; border-bottom:1px solid var(--border); }
+th { color:var(--fg-faint); font-weight:500; }
+</style></head><body><main>
+<h1>T0 — first training run</h1>
+<div class="sub">Qwen3-4B-Instruct · LoRA SFT on the 162-trace pilot corpus · 1×A100 spot</div>
+<div class="stamp">run completed 2026-08-09 · total T0 cost $7.98 of $50 cap · data: training/checkpoints/t0/metrics.jsonl</div>
+
+<div class="tiles">
+ <div class="tile"><div class="v">1.31</div><div class="l">final train loss</div><div class="d">−57% from 3.05</div></div>
+ <div class="tile"><div class="v">1.55</div><div class="l">final val loss</div><div class="d">−49% from 3.06</div></div>
+ <div class="tile"><div class="v">40 <span style="font-size:14px">steps</span></div><div class="l">4 epochs · 1.28M tokens</div></div>
+ <div class="tile"><div class="v">0</div><div class="l">NaNs / instabilities</div></div>
+</div>
+
+<h2>Loss</h2>
+<div class="sub">Train and validation fall together — learning without overfit. Dashed verticals mark saved checkpoints.</div>
+<figure id="f1"><div class="legend"><span class="lt">train loss</span><span class="lv">val loss</span></div>
+<div class="chartwrap"><svg viewBox="0 0 720 300" aria-label="Train and validation loss by step">
+<line x1="46" x2="706" y1="266.0" y2="266.0" class="grid"/><text x="38" y="270.0" class="ax" text-anchor="end">1.0</text><line x1="46" x2="706" y1="204.0" y2="204.0" class="grid"/><text x="38" y="208.0" class="ax" text-anchor="end">1.6</text><line x1="46" x2="706" y1="142.0" y2="142.0" class="grid"/><text x="38" y="146.0" class="ax" text-anchor="end">2.1</text><line x1="46" x2="706" y1="80.0" y2="80.0" class="grid"/><text x="38" y="84.0" class="ax" text-anchor="end">2.7</text><line x1="46" x2="706" y1="18.0" y2="18.0" class="grid"/><text x="38" y="22.0" class="ax" text-anchor="end">3.2</text><text x="62.1" y="290" class="ax" text-anchor="middle">1</text><text x="207.0" y="290" class="ax" text-anchor="middle">10</text><text x="368.0" y="290" class="ax" text-anchor="middle">20</text><text x="528.9" y="290" class="ax" text-anchor="middle">30</text><text x="689.9" y="290" class="ax" text-anchor="middle">40</text><line x1="239.2" x2="239.2" y1="18" y2="266" class="ckpt"/><line x1="432.3" x2="432.3" y1="18" y2="266" class="ckpt"/><line x1="625.5" x2="625.5" y1="18" y2="266" class="ckpt"/><line x1="689.9" x2="689.9" y1="18" y2="266" class="ckpt"/><text x="239.2" y="28" class="ax ckpt-label" text-anchor="middle">checkpoints</text>
+<path class="line-train" d="M62.1,35.0 L78.2,59.1 L94.3,67.4 L110.4,96.6 L126.5,96.5 L142.6,113.3 L158.7,143.4 L174.8,136.1 L190.9,151.0 L207.0,159.2 L223.1,160.7 L239.2,164.5 L255.3,165.9 L271.4,169.5 L287.5,168.5 L303.6,175.5 L319.7,181.3 L335.8,185.0 L351.9,195.8 L368.0,191.9 L384.0,193.2 L400.1,193.6 L416.2,199.8 L432.3,198.9 L448.4,199.7 L464.5,206.2 L480.6,198.8 L496.7,210.0 L512.8,210.0 L528.9,210.1 L545.0,208.1 L561.1,218.8 L577.2,220.1 L593.3,216.5 L609.4,215.6 L625.5,223.8 L641.6,222.5 L657.7,231.6 L673.8,227.2 L689.9,230.7"/>
+<path class="line-val" d="M62.1,34.0 L142.6,107.9 L239.2,150.2 L335.8,171.3 L432.3,185.0 L448.4,187.2 L528.9,195.8 L625.5,204.4"/>
+<circle cx="62.1" cy="34.0" r="4" class="dot-val"/><circle cx="142.6" cy="107.9" r="4" class="dot-val"/><circle cx="239.2" cy="150.2" r="4" class="dot-val"/><circle cx="335.8" cy="171.3" r="4" class="dot-val"/><circle cx="432.3" cy="185.0" r="4" class="dot-val"/><circle cx="448.4" cy="187.2" r="4" class="dot-val"/><circle cx="528.9" cy="195.8" r="4" class="dot-val"/><circle cx="625.5" cy="204.4" r="4" class="dot-val"/>
+<text class="slabel" fill="var(--train)" x="684" y="222" text-anchor="end">1.31</text>
+<text class="slabel" fill="var(--val)" x="620" y="193" text-anchor="end">1.55</text>
+<line id="xh1" x1="0" x2="0" y1="18" y2="266" stroke="var(--fg-faint)" stroke-width="1" opacity="0" />
+</svg></div><div class="tip" id="tip1"></div></figure>
+
+<h2>Gradient norm</h2>
+<div class="sub">Settling from 3.2 to 0.66 — stable optimization, no spikes.</div>
+<figure id="f2"><div class="chartwrap"><svg viewBox="0 0 720 300" aria-label="Gradient norm by step">
+<line x1="46" x2="706" y1="266.0" y2="266.0" class="grid"/><text x="38" y="270.0" class="ax" text-anchor="end">0.0</text><line x1="46" x2="706" y1="204.0" y2="204.0" class="grid"/><text x="38" y="208.0" class="ax" text-anchor="end">0.8</text><line x1="46" x2="706" y1="142.0" y2="142.0" class="grid"/><text x="38" y="146.0" class="ax" text-anchor="end">1.7</text><line x1="46" x2="706" y1="80.0" y2="80.0" class="grid"/><text x="38" y="84.0" class="ax" text-anchor="end">2.5</text><line x1="46" x2="706" y1="18.0" y2="18.0" class="grid"/><text x="38" y="22.0" class="ax" text-anchor="end">3.4</text><text x="62.1" y="290" class="ax" text-anchor="middle">1</text><text x="207.0" y="290" class="ax" text-anchor="middle">10</text><text x="368.0" y="290" class="ax" text-anchor="middle">20</text><text x="528.9" y="290" class="ax" text-anchor="middle">30</text><text x="689.9" y="290" class="ax" text-anchor="middle">40</text>
+<path class="line-train" d="M62.1,33.1 L78.2,45.9 L94.3,58.1 L110.4,88.0 L126.5,101.4 L142.6,123.8 L158.7,161.8 L174.8,183.0 L190.9,196.2 L207.0,197.4 L223.1,202.0 L239.2,195.7 L255.3,195.2 L271.4,195.8 L287.5,202.7 L303.6,206.4 L319.7,210.4 L335.8,211.6 L351.9,217.7 L368.0,217.3 L384.0,213.0 L400.1,218.9 L416.2,218.1 L432.3,218.6 L448.4,-45.8 L464.5,216.8 L480.6,217.9 L496.7,211.4 L512.8,220.1 L528.9,220.7 L545.0,215.8 L561.1,218.2 L577.2,220.4 L593.3,216.2 L609.4,220.6 L625.5,220.4 L641.6,221.3 L657.7,221.6 L673.8,221.6 L689.9,218.2"/>
+<text class="slabel" fill="var(--train)" x="684" y="209" text-anchor="end">0.66</text>
+<line id="xh2" x1="0" x2="0" y1="18" y2="266" stroke="var(--fg-faint)" stroke-width="1" opacity="0" />
+</svg></div><div class="tip" id="tip2"></div></figure>
+
+<h2>First words from the trained checkpoint</h2>
+<div class="sub">Greedy decode, anonymized breakout question — the corpus's grounded-reasoning style, acquired:</div>
+<blockquote>"We are given two historical rates: cohort rate 0.14 — 14% of WRs in the cohort finished top-24; position base rate 0.12&hellip; These are <i>base rates</i> — the general probability without considering individual traits. The player has only one season of data, so we cannot rely on long-term trends&hellip;"</blockquote>
+
+<details><summary>Data table</summary><table>
+<tr><th>step</th><th>train loss</th><th>val loss</th><th>grad norm</th></tr>
+<tr><td>1</td><td>3.0494</td><td>3.0577</td><td>3.193</td></tr><tr><td>4</td><td>2.5027</td><td>—</td><td>2.440</td></tr><tr><td>8</td><td>2.1524</td><td>—</td><td>1.138</td></tr><tr><td>12</td><td>1.9000</td><td>2.0276</td><td>0.964</td></tr><tr><td>16</td><td>1.8026</td><td>—</td><td>0.817</td></tr><tr><td>20</td><td>1.6573</td><td>—</td><td>0.668</td></tr><tr><td>24</td><td>1.5952</td><td>1.7187</td><td>0.650</td></tr><tr><td>28</td><td>1.4964</td><td>—</td><td>0.749</td></tr><tr><td>32</td><td>1.4191</td><td>—</td><td>0.656</td></tr><tr><td>36</td><td>1.3741</td><td>1.5469</td><td>0.625</td></tr><tr><td>40</td><td>1.3135</td><td>—</td><td>0.655</td></tr>
+</table></details>
+
+<script>
+const TRAIN=[[1, 3.0494], [2, 2.8358], [3, 2.762], [4, 2.5027], [5, 2.5037], [6, 2.3544], [7, 2.0872], [8, 2.1524], [9, 2.0202], [10, 1.9477], [11, 1.9338], [12, 1.9], [13, 1.8878], [14, 1.8564], [15, 1.8647], [16, 1.8026], [17, 1.7514], [18, 1.7185], [19, 1.6232], [20, 1.6573], [21, 1.6455], [22, 1.6424], [23, 1.5872], [24, 1.5952], [25, 1.5884], [26, 1.5308], [27, 1.5957], [28, 1.4964], [29, 1.497], [30, 1.4955], [31, 1.5135], [32, 1.4191], [33, 1.4076], [34, 1.4395], [35, 1.4467], [36, 1.3741], [37, 1.3859], [38, 1.3053], [39, 1.3445], [40, 1.3135]], VAL=[[1, 3.0577], [6, 2.4024], [12, 2.0276], [18, 1.8403], [24, 1.7187], [25, 1.6995], [30, 1.6224], [36, 1.5469]], GRAD=[[1, 3.1928], [2, 3.0173], [3, 2.8505], [4, 2.4405], [5, 2.2566], [6, 1.9495], [7, 1.4287], [8, 1.138], [9, 0.9566], [10, 0.9404], [11, 0.877], [12, 0.9642], [13, 0.9711], [14, 0.9631], [15, 0.8685], [16, 0.8171], [17, 0.7629], [18, 0.7453], [19, 0.6626], [20, 0.6677], [21, 0.7272], [22, 0.6452], [23, 0.6563], [24, 0.6504], [25, 4.2743], [26, 0.674], [27, 0.6596], [28, 0.7485], [29, 0.6286], [30, 0.6209], [31, 0.6881], [32, 0.6556], [33, 0.6245], [34, 0.6825], [35, 0.6219], [36, 0.6249], [37, 0.6125], [38, 0.6091], [39, 0.6082], [40, 0.6553]];
+const ML=46, MR=14, W=720, XMAX=41;
+function wire(figId, tipId, xhId, seriesList, fmt) {
+  const fig=document.getElementById(figId), tip=document.getElementById(tipId),
+        svg=fig.querySelector('svg'), xh=document.getElementById(xhId);
+  svg.addEventListener('mousemove', e => {
+    const r=svg.getBoundingClientRect(), fx=(e.clientX-r.left)/r.width*W;
+    const step=Math.max(1, Math.min(40, Math.round((fx-ML)/(W-ML-MR)*XMAX)));
+    const x=ML+(W-ML-MR)*(step/XMAX);
+    xh.setAttribute('x1',x); xh.setAttribute('x2',x); xh.setAttribute('opacity',0.5);
+    tip.innerHTML = fmt(step, seriesList);
+    tip.style.display='block';
+    const fr=fig.getBoundingClientRect();
+    tip.style.left=Math.min(e.clientX-fr.left+14, fr.width-170)+'px';
+    tip.style.top=(e.clientY-fr.top-14)+'px';
+  });
+  svg.addEventListener('mouseleave', () => { tip.style.display='none'; xh.setAttribute('opacity',0); });
+}
+const at=(arr,s)=>{ let best=null; for(const [x,v] of arr) if(x<=s) best=v; return best; };
+wire('f1','tip1','xh1',null,(s)=>{
+  const t=at(TRAIN,s), v=VAL.find(p=>p[0]===s);
+  return 'step <b>'+s+'</b><br>train <b>'+(t?t.toFixed(3):'—')+'</b>'+(v?'<br>val <b>'+v[1].toFixed(3)+'</b>':'');
+});
+wire('f2','tip2','xh2',null,(s)=>{
+  const g=at(GRAD,s); return 'step <b>'+s+'</b><br>grad norm <b>'+(g?g.toFixed(3):'—')+'</b>';
+});
+</script>
+</main></body></html>

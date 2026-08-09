@@ -1,0 +1,8677 @@
+{
+ "benchmark": "calibbench_v0",
+ "variant": "named",
+ "season": 2012,
+ "format": "ppr",
+ "families": {
+  "season_threshold": 92,
+  "weekly_h2h": 300
+ },
+ "instructions": "For each question, return the probability the answer is YES. Respond with a JSON list [{\"question_id\": ..., \"p\": <0..1>}] covering every question.",
+ "questions": [
+  {
+   "question_id": "S2012:ppr:1004",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Aaron Rodgers",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 3.4,
+    "adp_pos_rank": 1,
+    "adp_stdev": 1.9,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 397.14,
+     "ppg": 26.48,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 304.48,
+     "ppg": 20.3,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:119",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Tom Brady",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 6.1,
+    "adp_pos_rank": 2,
+    "adp_stdev": 1.8,
+    "seasons_of_data": 12,
+    "years_since_first_season": 12,
+    "prior_season": {
+     "games": 16,
+     "total": 366.3,
+     "ppg": 22.89,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 299.0,
+     "ppg": 18.69,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:127",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Drew Brees",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 12.3,
+    "adp_pos_rank": 3,
+    "adp_stdev": 4.3,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 16,
+     "total": 394.0,
+     "ppg": 24.62,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 270.2,
+     "ppg": 16.89,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1664",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Matthew Stafford",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 22.7,
+    "adp_pos_rank": 4,
+    "adp_stdev": 5.0,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 345.8,
+     "ppg": 21.61,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 50.5,
+     "ppg": 16.83,
+     "pos_rank": 40
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1794",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Cam Newton",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 27.0,
+    "adp_pos_rank": 5,
+    "adp_stdev": 6.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 370.34,
+     "ppg": 23.15,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1342",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Matt Ryan",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 46.4,
+    "adp_pos_rank": 6,
+    "adp_stdev": 6.1,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 273.48,
+     "ppg": 17.09,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 252.4,
+     "ppg": 15.78,
+     "pos_rank": 8
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1193",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Michael Vick",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 55.2,
+    "adp_pos_rank": 7,
+    "adp_stdev": 10.0,
+    "seasons_of_data": 9,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 13,
+     "total": 233.02,
+     "ppg": 17.92,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 310.32,
+     "ppg": 25.86,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:749",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Eli Manning",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 57.3,
+    "adp_pos_rank": 8,
+    "adp_stdev": 10.3,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 280.82,
+     "ppg": 17.55,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 231.08,
+     "ppg": 14.44,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:750",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Peyton Manning",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 67.5,
+    "adp_pos_rank": 9,
+    "adp_stdev": 12.8,
+    "seasons_of_data": 12,
+    "years_since_first_season": 13,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 285.8,
+     "ppg": 17.86,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1009",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Tony Romo",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 72.9,
+    "adp_pos_rank": 10,
+    "adp_stdev": 9.6,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 275.96,
+     "ppg": 17.25,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 6,
+     "total": 99.1,
+     "ppg": 16.52,
+     "pos_rank": 29
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:995",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Philip Rivers",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 82.7,
+    "adp_pos_rank": 11,
+    "adp_stdev": 10.7,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 254.56,
+     "ppg": 15.91,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 281.6,
+     "ppg": 17.6,
+     "pos_rank": 5
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:265",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Jay Cutler",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 90.3,
+    "adp_pos_rank": 12,
+    "adp_stdev": 10.4,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 10,
+     "total": 136.26,
+     "ppg": 13.63,
+     "pos_rank": 25
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 210.16,
+     "ppg": 14.01,
+     "pos_rank": 15
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1898",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Robert Griffin III",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 101.8,
+    "adp_pos_rank": 13,
+    "adp_stdev": 9.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1666",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "player": "Josh Freeman",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 141.1,
+    "adp_pos_rank": 14,
+    "adp_stdev": 12.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 205.08,
+     "ppg": 13.67,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 258.44,
+     "ppg": 16.15,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1724",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Arian Foster",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 1.4,
+    "adp_pos_rank": 1,
+    "adp_stdev": 0.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 13,
+     "total": 303.1,
+     "ppg": 23.32,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 391.8,
+     "ppg": 24.49,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1360",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Ray Rice",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 1.9,
+    "adp_pos_rank": 2,
+    "adp_stdev": 0.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 372.84,
+     "ppg": 23.3,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 276.6,
+     "ppg": 17.29,
+     "pos_rank": 5
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1645",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "LeSean McCoy",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 4.8,
+    "adp_pos_rank": 3,
+    "adp_stdev": 1.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 328.4,
+     "ppg": 21.89,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 297.2,
+     "ppg": 19.81,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1341",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Darren McFadden",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 6.4,
+    "adp_pos_rank": 4,
+    "adp_stdev": 1.6,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 7,
+     "total": 123.8,
+     "ppg": 17.69,
+     "pos_rank": 35
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 267.4,
+     "ppg": 20.57,
+     "pos_rank": 8
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1347",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Chris Johnson",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 8.1,
+    "adp_pos_rank": 5,
+    "adp_stdev": 1.8,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 225.5,
+     "ppg": 14.09,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 272.9,
+     "ppg": 17.06,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1354",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Matt Forte",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 10.2,
+    "adp_pos_rank": 6,
+    "adp_stdev": 2.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 12,
+     "total": 220.7,
+     "ppg": 18.39,
+     "pos_rank": 12
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 264.6,
+     "ppg": 16.54,
+     "pos_rank": 9
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1819",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "DeMarco Murray",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 11.2,
+    "adp_pos_rank": 7,
+    "adp_stdev": 2.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 13,
+     "total": 146.0,
+     "ppg": 11.23,
+     "pos_rank": 29
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:649",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Maurice Jones-Drew",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 14.4,
+    "adp_pos_rank": 8,
+    "adp_stdev": 3.8,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 305.0,
+     "ppg": 19.06,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 234.1,
+     "ppg": 16.72,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1368",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Jamaal Charles",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 16.1,
+    "adp_pos_rank": 9,
+    "adp_stdev": 2.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 2,
+     "total": 18.2,
+     "ppg": 9.1,
+     "pos_rank": 91
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 282.5,
+     "ppg": 17.66,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1340",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Fred Jackson",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 18.6,
+    "adp_pos_rank": 10,
+    "adp_stdev": 2.6,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 10,
+     "total": 208.6,
+     "ppg": 20.86,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 183.2,
+     "ppg": 11.45,
+     "pos_rank": 21
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1729",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Ryan Mathews",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 19.9,
+    "adp_pos_rank": 11,
+    "adp_stdev": 3.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 14,
+     "total": 236.6,
+     "ppg": 16.9,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 140.0,
+     "ppg": 11.67,
+     "pos_rank": 31
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:581",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Steven Jackson",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 21.1,
+    "adp_pos_rank": 12,
+    "adp_stdev": 4.2,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 15,
+     "total": 223.8,
+     "ppg": 14.92,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 242.4,
+     "ppg": 15.15,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1907",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Doug Martin",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 22.9,
+    "adp_pos_rank": 13,
+    "adp_stdev": 3.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1105",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Darren Sproles",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 24.5,
+    "adp_pos_rank": 14,
+    "adp_stdev": 5.1,
+    "seasons_of_data": 6,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 271.4,
+     "ppg": 16.96,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 148.0,
+     "ppg": 9.25,
+     "pos_rank": 28
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1905",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Trent Richardson",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 26.1,
+    "adp_pos_rank": 15,
+    "adp_stdev": 4.3,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:117",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Ahmad Bradshaw",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 34.4,
+    "adp_pos_rank": 16,
+    "adp_stdev": 5.6,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 12,
+     "total": 192.6,
+     "ppg": 16.05,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 239.9,
+     "ppg": 14.99,
+     "pos_rank": 12
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:161",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Reggie Bush",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 41.7,
+    "adp_pos_rank": 17,
+    "adp_stdev": 5.8,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 15,
+     "total": 219.2,
+     "ppg": 14.61,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 75.8,
+     "ppg": 9.47,
+     "pos_rank": 53
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1715",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "BenJarvus Green-Ellis",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 42.7,
+    "adp_pos_rank": 18,
+    "adp_stdev": 5.7,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 157.6,
+     "ppg": 9.85,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 199.3,
+     "ppg": 12.46,
+     "pos_rank": 17
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1404",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Peyton Hillis",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 54.7,
+    "adp_pos_rank": 19,
+    "adp_stdev": 6.5,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 10,
+     "total": 109.7,
+     "ppg": 10.97,
+     "pos_rank": 42
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 294.92,
+     "ppg": 18.43,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1642",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Donald Brown",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 54.9,
+    "adp_pos_rank": 20,
+    "adp_stdev": 4.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 119.1,
+     "ppg": 9.92,
+     "pos_rank": 37
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 102.2,
+     "ppg": 7.86,
+     "pos_rank": 45
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1643",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Shonn Greene",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 59.6,
+    "adp_pos_rank": 21,
+    "adp_stdev": 6.8,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 192.5,
+     "ppg": 12.03,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 112.6,
+     "ppg": 7.51,
+     "pos_rank": 41
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1365",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Kevin Smith",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 65.5,
+    "adp_pos_rank": 22,
+    "adp_stdev": 6.6,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 7,
+     "total": 126.6,
+     "ppg": 18.09,
+     "pos_rank": 34
+    },
+    "two_seasons_ago": {
+     "games": 6,
+     "total": 35.8,
+     "ppg": 5.97,
+     "pos_rank": 75
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1809",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Ryan Williams",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 72.0,
+    "adp_pos_rank": 23,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:160",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Michael Bush",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 79.7,
+    "adp_pos_rank": 24,
+    "adp_stdev": 8.7,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 222.5,
+     "ppg": 13.91,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 150.9,
+     "ppg": 10.78,
+     "pos_rank": 26
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1728",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "C.J. Spiller",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 84.8,
+    "adp_pos_rank": 25,
+    "adp_stdev": 9.5,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 158.0,
+     "ppg": 9.88,
+     "pos_rank": 26
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 72.0,
+     "ppg": 5.14,
+     "pos_rank": 54
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1344",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Jonathan Stewart",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 85.7,
+    "adp_pos_rank": 26,
+    "adp_stdev": 9.2,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 194.4,
+     "ppg": 12.15,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 105.3,
+     "ppg": 7.52,
+     "pos_rank": 43
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1827",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Jacquizz Rodgers",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 91.7,
+    "adp_pos_rank": 27,
+    "adp_stdev": 9.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 70.3,
+     "ppg": 4.39,
+     "pos_rank": 57
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1751",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Toby Gerhart",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 96.8,
+    "adp_pos_rank": 28,
+    "adp_stdev": 7.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 119.1,
+     "ppg": 7.94,
+     "pos_rank": 36
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 69.9,
+     "ppg": 4.66,
+     "pos_rank": 55
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1346",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Rashard Mendenhall",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 101.3,
+    "adp_pos_rank": 29,
+    "adp_stdev": 9.8,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 15,
+     "total": 178.2,
+     "ppg": 11.88,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 241.0,
+     "ppg": 15.06,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1746",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Jonathan Dwyer",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 118.9,
+    "adp_pos_rank": 30,
+    "adp_stdev": 18.7,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 3,
+     "total": 13.9,
+     "ppg": 4.63,
+     "pos_rank": 99
+    },
+    "two_seasons_ago": {
+     "games": 1,
+     "total": 2.8,
+     "ppg": 2.8,
+     "pos_rank": 109
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1870",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Evan Royster",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 120.4,
+    "adp_pos_rank": 31,
+    "adp_stdev": 17.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 6,
+     "total": 48.6,
+     "ppg": 8.1,
+     "pos_rank": 72
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1936",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Robert Turbin",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 124.4,
+    "adp_pos_rank": 32,
+    "adp_stdev": 12.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1822",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "player": "Shane Vereen",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 152.8,
+    "adp_pos_rank": 33,
+    "adp_stdev": 17.3,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 3,
+     "total": 11.7,
+     "ppg": 3.9,
+     "pos_rank": 101
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:611",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Calvin Johnson",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 4.8,
+    "adp_pos_rank": 1,
+    "adp_stdev": 1.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 360.7,
+     "ppg": 22.54,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 266.2,
+     "ppg": 17.75,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1796",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Julio Jones",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 14.3,
+    "adp_pos_rank": 2,
+    "adp_stdev": 2.8,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 13,
+     "total": 201.5,
+     "ppg": 15.5,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:374",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Larry Fitzgerald",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 20.8,
+    "adp_pos_rank": 3,
+    "adp_stdev": 3.6,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 269.1,
+     "ppg": 16.82,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 241.7,
+     "ppg": 15.11,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:755",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Brandon Marshall",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 22.3,
+    "adp_pos_rank": 4,
+    "adp_stdev": 4.5,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 237.7,
+     "ppg": 14.86,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 203.7,
+     "ppg": 14.55,
+     "pos_rank": 21
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1795",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "A.J. Green",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 26.2,
+    "adp_pos_rank": 5,
+    "adp_stdev": 4.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 15,
+     "total": 218.0,
+     "ppg": 14.53,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:605",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Andre Johnson",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 27.1,
+    "adp_pos_rank": 6,
+    "adp_stdev": 5.5,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 7,
+     "total": 95.0,
+     "ppg": 13.57,
+     "pos_rank": 76
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 256.6,
+     "ppg": 19.74,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1244",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Roddy White",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 30.2,
+    "adp_pos_rank": 7,
+    "adp_stdev": 5.1,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 277.6,
+     "ppg": 17.35,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 316.2,
+     "ppg": 19.76,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:599",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Greg Jennings",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 30.8,
+    "adp_pos_rank": 8,
+    "adp_stdev": 3.7,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 13,
+     "total": 215.9,
+     "ppg": 16.61,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 274.4,
+     "ppg": 17.15,
+     "pos_rank": 5
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1235",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Wes Welker",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 31.8,
+    "adp_pos_rank": 9,
+    "adp_stdev": 6.8,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 335.9,
+     "ppg": 20.99,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 212.8,
+     "ppg": 14.19,
+     "pos_rank": 18
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1888",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Victor Cruz",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 33.8,
+    "adp_pos_rank": 10,
+    "adp_stdev": 4.4,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 287.9,
+     "ppg": 17.99,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1350",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Jordy Nelson",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 38.9,
+    "adp_pos_rank": 11,
+    "adp_stdev": 4.5,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 284.3,
+     "ppg": 17.77,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 113.2,
+     "ppg": 7.08,
+     "pos_rank": 64
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1648",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Hakeem Nicks",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 40.9,
+    "adp_pos_rank": 12,
+    "adp_stdev": 4.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 237.2,
+     "ppg": 15.81,
+     "pos_rank": 12
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 250.2,
+     "ppg": 19.25,
+     "pos_rank": 8
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1650",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Percy Harvin",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 44.2,
+    "adp_pos_rank": 13,
+    "adp_stdev": 4.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 262.2,
+     "ppg": 16.39,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 206.5,
+     "ppg": 14.75,
+     "pos_rank": 20
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1727",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Dez Bryant",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 44.4,
+    "adp_pos_rank": 14,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 208.3,
+     "ppg": 13.89,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 137.1,
+     "ppg": 11.42,
+     "pos_rank": 50
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1886",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Antonio Brown",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 47.4,
+    "adp_pos_rank": 15,
+    "adp_stdev": 6.0,
+    "seasons_of_data": 3,
+    "years_since_first_season": 9,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:231",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Marques Colston",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 49.6,
+    "adp_pos_rank": 16,
+    "adp_stdev": 5.1,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 14,
+     "total": 244.4,
+     "ppg": 17.46,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 228.4,
+     "ppg": 15.23,
+     "pos_rank": 14
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1764",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Eric Decker",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 53.5,
+    "adp_pos_rank": 17,
+    "adp_stdev": 6.2,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 151.3,
+     "ppg": 9.46,
+     "pos_rank": 43
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 20.6,
+     "ppg": 2.06,
+     "pos_rank": 139
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1094",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Steve Smith",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 54.2,
+    "adp_pos_rank": 18,
+    "adp_stdev": 5.7,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 16,
+     "total": 264.0,
+     "ppg": 16.5,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 110.3,
+     "ppg": 7.88,
+     "pos_rank": 67
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:724",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Brandon Lloyd",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 58.0,
+    "adp_pos_rank": 19,
+    "adp_stdev": 7.8,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 15,
+     "total": 196.6,
+     "ppg": 13.11,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 286.0,
+     "ppg": 17.88,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1678",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Mike Wallace",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 60.1,
+    "adp_pos_rank": 20,
+    "adp_stdev": 7.4,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 243.0,
+     "ppg": 15.19,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 249.6,
+     "ppg": 15.6,
+     "pos_rank": 9
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1357",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "DeSean Jackson",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 64.8,
+    "adp_pos_rank": 21,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 15,
+     "total": 182.2,
+     "ppg": 12.15,
+     "pos_rank": 29
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 203.0,
+     "ppg": 14.5,
+     "pos_rank": 22
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1735",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Demaryius Thomas",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 65.7,
+    "adp_pos_rank": 22,
+    "adp_stdev": 9.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 10,
+     "total": 111.6,
+     "ppg": 11.16,
+     "pos_rank": 64
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 60.4,
+     "ppg": 6.04,
+     "pos_rank": 96
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1807",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Torrey Smith",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 68.1,
+    "adp_pos_rank": 23,
+    "adp_stdev": 7.4,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 15,
+     "total": 180.0,
+     "ppg": 12.0,
+     "pos_rank": 30
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1649",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Jeremy Maclin",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 71.6,
+    "adp_pos_rank": 24,
+    "adp_stdev": 6.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 13,
+     "total": 177.0,
+     "ppg": 13.62,
+     "pos_rank": 31
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 228.0,
+     "ppg": 14.25,
+     "pos_rank": 15
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:111",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Dwayne Bowe",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 71.7,
+    "adp_pos_rank": 25,
+    "adp_stdev": 9.2,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 228.1,
+     "ppg": 14.26,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 278.6,
+     "ppg": 17.41,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1772",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Steve Johnson",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 75.4,
+    "adp_pos_rank": 26,
+    "adp_stdev": 7.0,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 218.4,
+     "ppg": 13.65,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 247.3,
+     "ppg": 15.46,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:586",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Vincent Jackson",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 78.6,
+    "adp_pos_rank": 27,
+    "adp_stdev": 9.3,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 229.7,
+     "ppg": 14.36,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": {
+     "games": 4,
+     "total": 58.2,
+     "ppg": 14.55,
+     "pos_rank": 98
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:37",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Miles Austin",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 82.6,
+    "adp_pos_rank": 28,
+    "adp_stdev": 11.1,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 10,
+     "total": 143.2,
+     "ppg": 14.32,
+     "pos_rank": 50
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 228.4,
+     "ppg": 14.28,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1228",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Reggie Wayne",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 85.6,
+    "adp_pos_rank": 29,
+    "adp_stdev": 6.6,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 16,
+     "total": 195.0,
+     "ppg": 12.19,
+     "pos_rank": 25
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 280.5,
+     "ppg": 17.53,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1707",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Pierre Garcon",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 86.5,
+    "adp_pos_rank": 30,
+    "adp_stdev": 7.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 199.5,
+     "ppg": 12.47,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 184.2,
+     "ppg": 13.16,
+     "pos_rank": 27
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1657",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Kenny Britt",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 89.6,
+    "adp_pos_rank": 31,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 3,
+     "total": 61.9,
+     "ppg": 20.63,
+     "pos_rank": 101
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 173.5,
+     "ppg": 15.77,
+     "pos_rank": 34
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1222",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Nate Washington",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 110.8,
+    "adp_pos_rank": 32,
+    "adp_stdev": 14.8,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 224.8,
+     "ppg": 14.05,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 145.9,
+     "ppg": 9.12,
+     "pos_rank": 43
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:836",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Lance Moore",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 113.2,
+    "adp_pos_rank": 33,
+    "adp_stdev": 11.8,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 14,
+     "total": 166.7,
+     "ppg": 11.91,
+     "pos_rank": 33
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 188.3,
+     "ppg": 12.55,
+     "pos_rank": 24
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1720",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Danny Amendola",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 117.7,
+    "adp_pos_rank": 34,
+    "adp_stdev": 14.1,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 1,
+     "total": 9.5,
+     "ppg": 9.5,
+     "pos_rank": 152
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 178.0,
+     "ppg": 11.12,
+     "pos_rank": 30
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1733",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Brandon LaFell",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 132.4,
+    "adp_pos_rank": 35,
+    "adp_stdev": 20.8,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 115.3,
+     "ppg": 7.69,
+     "pos_rank": 62
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 96.8,
+     "ppg": 6.91,
+     "pos_rank": 75
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1814",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "player": "Greg Little",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 145.0,
+    "adp_pos_rank": 36,
+    "adp_stdev": 12.8,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 145.4,
+     "ppg": 9.09,
+     "pos_rank": 48
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1740",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "player": "Rob Gronkowski",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 16.5,
+    "adp_pos_rank": 1,
+    "adp_stdev": 3.7,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 330.9,
+     "ppg": 20.68,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 154.6,
+     "ppg": 9.66,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1286",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "player": "Jason Witten",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 74.9,
+    "adp_pos_rank": 2,
+    "adp_stdev": 13.5,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 203.2,
+     "ppg": 12.7,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 248.2,
+     "ppg": 15.51,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1356",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "player": "Fred Davis",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 81.7,
+    "adp_pos_rank": 3,
+    "adp_stdev": 13.8,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 12,
+     "total": 154.6,
+     "ppg": 12.88,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 70.6,
+     "ppg": 4.71,
+     "pos_rank": 33
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:432",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "player": "Tony Gonzalez",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 87.6,
+    "adp_pos_rank": 4,
+    "adp_stdev": 11.7,
+    "seasons_of_data": 13,
+    "years_since_first_season": 13,
+    "prior_season": {
+     "games": 16,
+     "total": 209.5,
+     "ppg": 13.09,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 171.6,
+     "ppg": 10.72,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:890",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "player": "Greg Olsen",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 102.0,
+    "adp_pos_rank": 5,
+    "adp_stdev": 16.2,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 129.0,
+     "ppg": 8.06,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 109.4,
+     "ppg": 6.84,
+     "pos_rank": 23
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1383",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "player": "Jacob Tamme",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 105.9,
+    "adp_pos_rank": 6,
+    "adp_stdev": 15.5,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 13,
+     "total": 42.7,
+     "ppg": 3.28,
+     "pos_rank": 45
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 154.1,
+     "ppg": 11.85,
+     "pos_rank": 12
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1761",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "player": "Jermaine Gresham",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 119.9,
+    "adp_pos_rank": 7,
+    "adp_stdev": 13.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 14,
+     "total": 149.6,
+     "ppg": 10.69,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 123.1,
+     "ppg": 8.21,
+     "pos_rank": 16
+    }
+   }
+  },
+  {
+   "question_id": "S2012:ppr:1799",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "player": "Kyle Rudolph",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 132.8,
+    "adp_pos_rank": 8,
+    "adp_stdev": 19.5,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 68.9,
+     "ppg": 4.92,
+     "pos_rank": 34
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "S2012:ppr:189",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "player": "Brent Celek",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 152.0,
+    "adp_pos_rank": 9,
+    "adp_stdev": 19.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 173.1,
+     "ppg": 10.82,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 117.1,
+     "ppg": 8.36,
+     "pos_rank": 18
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0026983:00-0022097",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Darrius Heyward-Bey",
+   "player_b": "Brandon Lloyd",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 8,
+     "total": 80.7,
+     "ppg": 10.09
+    },
+    "b": {
+     "games": 9,
+     "total": 108.0,
+     "ppg": 12.0
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0027944:00-0020498",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Julio Jones",
+   "player_b": "Reggie Wayne",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 189.0,
+     "ppg": 15.75
+    },
+    "b": {
+     "games": 12,
+     "total": 219.6,
+     "ppg": 18.3
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0029697:00-0026231",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Coby Fleener",
+   "player_b": "Jermichael Finley",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 38.8,
+     "ppg": 6.47
+    },
+    "b": {
+     "games": 7,
+     "total": 54.1,
+     "ppg": 7.73
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0025860:00-0025637",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Ahmad Bradshaw",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 141.6,
+     "ppg": 11.8
+    },
+    "b": {
+     "games": 11,
+     "total": 148.2,
+     "ppg": 13.47
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0027996:00-0023310",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Torrey Smith",
+   "player_b": "Lance Moore",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 85.7,
+     "ppg": 14.28
+    },
+    "b": {
+     "games": 4,
+     "total": 59.7,
+     "ppg": 14.93
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0022943:00-0024276",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Benjamin Watson",
+   "player_b": "Tony Scheffler",
+   "packet": {
+    "position": "TE",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 32.0,
+     "ppg": 5.33
+    },
+    "b": {
+     "games": 4,
+     "total": 24.0,
+     "ppg": 6.0
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0027061:00-0027714",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Jared Cook",
+   "player_b": "Dennis Pitta",
+   "packet": {
+    "position": "TE",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 54.7,
+     "ppg": 10.94
+    },
+    "b": {
+     "games": 5,
+     "total": 54.0,
+     "ppg": 10.8
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0027997:00-0024324",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Greg Little",
+   "player_b": "Jason Avant",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 112.6,
+     "ppg": 8.04
+    },
+    "b": {
+     "games": 12,
+     "total": 94.9,
+     "ppg": 7.91
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0027981:00-0026996",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Kyle Rudolph",
+   "player_b": "Brandon Pettigrew",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 79.5,
+     "ppg": 11.36
+    },
+    "b": {
+     "games": 6,
+     "total": 65.0,
+     "ppg": 10.83
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0029209:00-0024267",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Ryan Broyles",
+   "player_b": "Greg Jennings",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 7,
+     "total": 63.7,
+     "ppg": 9.1
+    },
+    "b": {
+     "games": 3,
+     "total": 25.8,
+     "ppg": 8.6
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0027948:00-0027946",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Blaine Gabbert",
+   "player_b": "Jake Locker",
+   "packet": {
+    "position": "QB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 87.76,
+     "ppg": 10.97
+    },
+    "b": {
+     "games": 4,
+     "total": 45.94,
+     "ppg": 11.48
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0024466:00-0023921",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Marques Colston",
+   "player_b": "Miles Austin",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 176.7,
+     "ppg": 16.06
+    },
+    "b": {
+     "games": 11,
+     "total": 143.7,
+     "ppg": 13.06
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0029668:00-0020245",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Andrew Luck",
+   "player_b": "Mike Vick",
+   "packet": {
+    "position": "QB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 146.96,
+     "ppg": 18.37
+    },
+    "b": {
+     "games": 8,
+     "total": 131.8,
+     "ppg": 16.48
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0025516:00-0024243",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Scott Chandler",
+   "player_b": "Marcedes Lewis",
+   "packet": {
+    "position": "TE",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 72.5,
+     "ppg": 9.06
+    },
+    "b": {
+     "games": 7,
+     "total": 54.8,
+     "ppg": 7.83
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0027890:00-0027966",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Ben Tate",
+   "player_b": "Mark Ingram",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 8,
+     "total": 48.9,
+     "ppg": 6.11
+    },
+    "b": {
+     "games": 13,
+     "total": 67.2,
+     "ppg": 5.17
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0026993:00-0023459",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Josh Freeman",
+   "player_b": "Aaron Rodgers",
+   "packet": {
+    "position": "QB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 179.4,
+     "ppg": 17.94
+    },
+    "b": {
+     "games": 10,
+     "total": 217.26,
+     "ppg": 21.73
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0024466:00-0027902",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Marques Colston",
+   "player_b": "Dez Bryant",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 206.9,
+     "ppg": 14.78
+    },
+    "b": {
+     "games": 14,
+     "total": 244.1,
+     "ppg": 17.44
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0027944:00-0027912",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Julio Jones",
+   "player_b": "Danario Alexander",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 179.2,
+     "ppg": 16.29
+    },
+    "b": {
+     "games": 5,
+     "total": 74.5,
+     "ppg": 14.9
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0026993:00-0020531",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Josh Freeman",
+   "player_b": "Drew Brees",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 206.02,
+     "ppg": 17.17
+    },
+    "b": {
+     "games": 12,
+     "total": 242.56,
+     "ppg": 20.21
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0027948:00-0026898",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Blaine Gabbert",
+   "player_b": "Mark Sanchez",
+   "packet": {
+    "position": "QB",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 56.44,
+     "ppg": 9.41
+    },
+    "b": {
+     "games": 7,
+     "total": 76.52,
+     "ppg": 10.93
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0022943:00-0024268",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Benjamin Watson",
+   "player_b": "Anthony Fasano",
+   "packet": {
+    "position": "TE",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 85.5,
+     "ppg": 7.12
+    },
+    "b": {
+     "games": 12,
+     "total": 68.4,
+     "ppg": 5.7
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0027702:00-0027996",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Mike Williams",
+   "player_b": "Torrey Smith",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 109.4,
+     "ppg": 13.68
+    },
+    "b": {
+     "games": 8,
+     "total": 108.4,
+     "ppg": 13.55
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0027994:00-0027890",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Shane Vereen",
+   "player_b": "Ben Tate",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 9,
+     "total": 62.8,
+     "ppg": 6.98
+    },
+    "b": {
+     "games": 7,
+     "total": 43.4,
+     "ppg": 6.2
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0022178:00-0028011",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Willis McGahee",
+   "player_b": "Stevan Ridley",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 76.7,
+     "ppg": 15.34
+    },
+    "b": {
+     "games": 5,
+     "total": 81.1,
+     "ppg": 16.22
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0026901:00-0027944",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Mike Wallace",
+   "player_b": "Julio Jones",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 192.1,
+     "ppg": 13.72
+    },
+    "b": {
+     "games": 14,
+     "total": 233.8,
+     "ppg": 16.7
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0026998:00-0023921",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Percy Harvin",
+   "player_b": "Miles Austin",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 157.9,
+     "ppg": 19.74
+    },
+    "b": {
+     "games": 7,
+     "total": 112.1,
+     "ppg": 16.01
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0026019:00-0025701",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Danny Woodhead",
+   "player_b": "Jackie Battle",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 56.5,
+     "ppg": 8.07
+    },
+    "b": {
+     "games": 6,
+     "total": 52.5,
+     "ppg": 8.75
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0026235:00-0027685",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Mario Manningham",
+   "player_b": "Emmanuel Sanders",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 89.6,
+     "ppg": 8.96
+    },
+    "b": {
+     "games": 11,
+     "total": 89.3,
+     "ppg": 8.12
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0026898:00-0029701",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Mark Sanchez",
+   "player_b": "Ryan Tannehill",
+   "packet": {
+    "position": "QB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 100.32,
+     "ppg": 10.03
+    },
+    "b": {
+     "games": 10,
+     "total": 95.8,
+     "ppg": 9.58
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0028116:00-0011754",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Aldrick Robinson",
+   "player_b": "Randy Moss",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 8,
+     "total": 40.3,
+     "ppg": 5.04
+    },
+    "b": {
+     "games": 10,
+     "total": 54.6,
+     "ppg": 5.46
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0025860:00-0022736",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Steven Jackson",
+   "packet": {
+    "position": "RB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 78.0,
+     "ppg": 9.75
+    },
+    "b": {
+     "games": 8,
+     "total": 70.4,
+     "ppg": 8.8
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0029665:00-0026143",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Robert Griffin III",
+   "player_b": "Matt Ryan",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 269.8,
+     "ppg": 22.48
+    },
+    "b": {
+     "games": 12,
+     "total": 218.2,
+     "ppg": 18.18
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0021547:00-0025418",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Antonio Gates",
+   "player_b": "Greg Olsen",
+   "packet": {
+    "position": "TE",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 122.9,
+     "ppg": 9.45
+    },
+    "b": {
+     "games": 14,
+     "total": 163.7,
+     "ppg": 11.69
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0022084:00-0021999",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Anquan Boldin",
+   "player_b": "Nate Burleson",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 62.4,
+     "ppg": 12.48
+    },
+    "b": {
+     "games": 4,
+     "total": 52.6,
+     "ppg": 13.15
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0027713:00-0027135",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Aaron Hernandez",
+   "player_b": "Brandon Myers",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 4,
+     "total": 43.8,
+     "ppg": 10.95
+    },
+    "b": {
+     "games": 10,
+     "total": 123.4,
+     "ppg": 12.34
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0026000:00-0022414",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Davone Bess",
+   "player_b": "Malcom Floyd",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 66.8,
+     "ppg": 11.13
+    },
+    "b": {
+     "games": 6,
+     "total": 72.8,
+     "ppg": 12.13
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0024217:00-0025399",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Reggie Bush",
+   "player_b": "Marshawn Lynch",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 97.9,
+     "ppg": 13.99
+    },
+    "b": {
+     "games": 8,
+     "total": 113.1,
+     "ppg": 14.14
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0022929:00-0026780",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Devery Henderson",
+   "player_b": "Kevin Ogletree",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 6,
+     "total": 50.2,
+     "ppg": 8.37
+    },
+    "b": {
+     "games": 7,
+     "total": 58.7,
+     "ppg": 8.39
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0027029:00-0026796",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "LeSean McCoy",
+   "player_b": "Arian Foster",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 117.8,
+     "ppg": 16.83
+    },
+    "b": {
+     "games": 7,
+     "total": 145.6,
+     "ppg": 20.8
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0023436:00-0029701",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Alex Smith",
+   "player_b": "Ryan Tannehill",
+   "packet": {
+    "position": "QB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 53.16,
+     "ppg": 13.29
+    },
+    "b": {
+     "games": 4,
+     "total": 45.14,
+     "ppg": 11.29
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0027061:00-0022127",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Jared Cook",
+   "player_b": "Jason Witten",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 69.8,
+     "ppg": 9.97
+    },
+    "b": {
+     "games": 6,
+     "total": 71.0,
+     "ppg": 11.83
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0027973:00-0022787",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Andy Dalton",
+   "player_b": "Matt Schaub",
+   "packet": {
+    "position": "QB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 128.9,
+     "ppg": 16.11
+    },
+    "b": {
+     "games": 8,
+     "total": 115.72,
+     "ppg": 14.46
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0028002:00-0022044",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Randall Cobb",
+   "player_b": "Andre Johnson",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 140.6,
+     "ppg": 15.62
+    },
+    "b": {
+     "games": 9,
+     "total": 117.7,
+     "ppg": 13.08
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0026224:00-0025460",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Harry Douglas",
+   "player_b": "Jacoby Jones",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 6,
+     "total": 31.4,
+     "ppg": 5.23
+    },
+    "b": {
+     "games": 7,
+     "total": 39.2,
+     "ppg": 5.6
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0022929:00-0028091",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Devery Henderson",
+   "player_b": "Jeremy Kerley",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 4,
+     "total": 39.7,
+     "ppg": 9.93
+    },
+    "b": {
+     "games": 6,
+     "total": 61.5,
+     "ppg": 10.25
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0028017:00-0026780",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Leonard Hankerson",
+   "player_b": "Kevin Ogletree",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 12,
+     "total": 87.0,
+     "ppg": 7.25
+    },
+    "b": {
+     "games": 11,
+     "total": 85.9,
+     "ppg": 7.81
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0026188:00-0024268",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Fred Davis",
+   "player_b": "Anthony Fasano",
+   "packet": {
+    "position": "TE",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 36.3,
+     "ppg": 9.07
+    },
+    "b": {
+     "games": 4,
+     "total": 32.5,
+     "ppg": 8.12
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0025542:00-0027985",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Dante Rosario",
+   "player_b": "Lance Kendricks",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 5,
+     "total": 28.4,
+     "ppg": 5.68
+    },
+    "b": {
+     "games": 7,
+     "total": 35.3,
+     "ppg": 5.04
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0023921:00-0028002",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Miles Austin",
+   "player_b": "Randall Cobb",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 164.9,
+     "ppg": 12.68
+    },
+    "b": {
+     "games": 13,
+     "total": 203.9,
+     "ppg": 15.68
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0022427:00-0023496",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Wes Welker",
+   "player_b": "Vincent Jackson",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 228.6,
+     "ppg": 17.58
+    },
+    "b": {
+     "games": 13,
+     "total": 220.5,
+     "ppg": 16.96
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0026956:00-0028202",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "LaRod Stephens-Howling",
+   "player_b": "Shaun Draughn",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 6,
+     "total": 43.4,
+     "ppg": 7.23
+    },
+    "b": {
+     "games": 7,
+     "total": 48.6,
+     "ppg": 6.94
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0027265:00-0025389",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Victor Cruz",
+   "player_b": "Calvin Johnson",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 110.8,
+     "ppg": 22.16
+    },
+    "b": {
+     "games": 4,
+     "total": 77.3,
+     "ppg": 19.32
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027690:00-0027793",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Eric Decker",
+   "player_b": "Antonio Brown",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 62.2,
+     "ppg": 15.55
+    },
+    "b": {
+     "games": 3,
+     "total": 47.3,
+     "ppg": 15.77
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0023367:00-0015754",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Nate Washington",
+   "player_b": "Brandon Stokley",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 78.4,
+     "ppg": 11.2
+    },
+    "b": {
+     "games": 6,
+     "total": 58.6,
+     "ppg": 9.77
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0023682:00-0022787",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Ryan Fitzpatrick",
+   "player_b": "Matt Schaub",
+   "packet": {
+    "position": "QB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 151.16,
+     "ppg": 13.74
+    },
+    "b": {
+     "games": 11,
+     "total": 170.9,
+     "ppg": 15.54
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0027974:00-0007091",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Colin Kaepernick",
+   "player_b": "Matt Hasselbeck",
+   "packet": {
+    "position": "QB",
+    "week": 6,
+    "a": {
+     "games": 3,
+     "total": 20.88,
+     "ppg": 6.96
+    },
+    "b": {
+     "games": 3,
+     "total": 22.74,
+     "ppg": 7.58
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0029701:00-0026197",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Ryan Tannehill",
+   "player_b": "Chad Henne",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 124.56,
+     "ppg": 10.38
+    },
+    "b": {
+     "games": 6,
+     "total": 70.88,
+     "ppg": 11.81
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0020494:00-0022097",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Santana Moss",
+   "player_b": "Brandon Lloyd",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 96.4,
+     "ppg": 9.64
+    },
+    "b": {
+     "games": 10,
+     "total": 116.5,
+     "ppg": 11.65
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0027718:00-0022943",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Garrett Graham",
+   "player_b": "Benjamin Watson",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 9,
+     "total": 60.9,
+     "ppg": 6.77
+    },
+    "b": {
+     "games": 10,
+     "total": 65.9,
+     "ppg": 6.59
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0023437:00-0025487",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Ronnie Brown",
+   "player_b": "Michael Bush",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 88.8,
+     "ppg": 8.88
+    },
+    "b": {
+     "games": 11,
+     "total": 81.9,
+     "ppg": 7.45
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0021547:00-0025418",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Antonio Gates",
+   "player_b": "Greg Olsen",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 5,
+     "total": 53.4,
+     "ppg": 10.68
+    },
+    "b": {
+     "games": 6,
+     "total": 64.4,
+     "ppg": 10.73
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0026164:00-0022178",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Chris Johnson",
+   "player_b": "Willis McGahee",
+   "packet": {
+    "position": "RB",
+    "week": 10,
+    "a": {
+     "games": 9,
+     "total": 122.4,
+     "ppg": 13.6
+    },
+    "b": {
+     "games": 8,
+     "total": 120.0,
+     "ppg": 15.0
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0026231:00-0027714",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Jermichael Finley",
+   "player_b": "Dennis Pitta",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 75.7,
+     "ppg": 7.57
+    },
+    "b": {
+     "games": 10,
+     "total": 94.1,
+     "ppg": 9.41
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0026986:00-0027996",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Michael Crabtree",
+   "player_b": "Torrey Smith",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 202.6,
+     "ppg": 14.47
+    },
+    "b": {
+     "games": 14,
+     "total": 164.0,
+     "ppg": 11.71
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0025542:00-0025425",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Dante Rosario",
+   "player_b": "Zach Miller",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 6,
+     "total": 31.5,
+     "ppg": 5.25
+    },
+    "b": {
+     "games": 8,
+     "total": 40.1,
+     "ppg": 5.01
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027944:00-0022427",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Julio Jones",
+   "player_b": "Wes Welker",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 56.0,
+     "ppg": 14.0
+    },
+    "b": {
+     "games": 4,
+     "total": 61.0,
+     "ppg": 15.25
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0028011:00-0027029",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Stevan Ridley",
+   "player_b": "LeSean McCoy",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 92.0,
+     "ppg": 13.14
+    },
+    "b": {
+     "games": 6,
+     "total": 96.1,
+     "ppg": 16.02
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0021931:00-0027518",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Kevin Walter",
+   "player_b": "Donald Jones",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 91.4,
+     "ppg": 7.62
+    },
+    "b": {
+     "games": 11,
+     "total": 103.0,
+     "ppg": 9.36
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0021678:00-0021429",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Tony Romo",
+   "player_b": "Carson Palmer",
+   "packet": {
+    "position": "QB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 98.12,
+     "ppg": 14.02
+    },
+    "b": {
+     "games": 7,
+     "total": 110.14,
+     "ppg": 15.73
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0029273:00-0028053",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Robert Turbin",
+   "player_b": "Kendall Hunter",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 3,
+     "total": 15.4,
+     "ppg": 5.13
+    },
+    "b": {
+     "games": 4,
+     "total": 23.3,
+     "ppg": 5.83
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0024226:00-0029567",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Jay Cutler",
+   "player_b": "Nick Foles",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 156.8,
+     "ppg": 12.06
+    },
+    "b": {
+     "games": 6,
+     "total": 71.36,
+     "ppg": 11.89
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027939:00-0022803",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Cam Newton",
+   "player_b": "Eli Manning",
+   "packet": {
+    "position": "QB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 79.22,
+     "ppg": 19.8
+    },
+    "b": {
+     "games": 4,
+     "total": 73.1,
+     "ppg": 18.27
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0028034:00-0028202",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Alex Green",
+   "player_b": "Shaun Draughn",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 4,
+     "total": 25.2,
+     "ppg": 6.3
+    },
+    "b": {
+     "games": 6,
+     "total": 46.2,
+     "ppg": 7.7
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0025860:00-0022736",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Steven Jackson",
+   "packet": {
+    "position": "RB",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 57.8,
+     "ppg": 9.63
+    },
+    "b": {
+     "games": 6,
+     "total": 51.9,
+     "ppg": 8.65
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0027690:00-0022427",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Eric Decker",
+   "player_b": "Wes Welker",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 146.3,
+     "ppg": 18.29
+    },
+    "b": {
+     "games": 8,
+     "total": 143.6,
+     "ppg": 17.95
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0027265:00-0023310",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Victor Cruz",
+   "player_b": "Lance Moore",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 188.9,
+     "ppg": 17.17
+    },
+    "b": {
+     "games": 10,
+     "total": 138.9,
+     "ppg": 13.89
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0029614:00-0029707",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Chris Givens",
+   "player_b": "Justin Blackmon",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 88.2,
+     "ppg": 8.82
+    },
+    "b": {
+     "games": 11,
+     "total": 114.0,
+     "ppg": 10.36
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027077:00-0026901",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Brian Hartline",
+   "player_b": "Mike Wallace",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 76.5,
+     "ppg": 19.12
+    },
+    "b": {
+     "games": 3,
+     "total": 58.5,
+     "ppg": 19.5
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0025637:00-0029141",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Ahmad Bradshaw",
+   "player_b": "Alfred Morris",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 4,
+     "total": 60.5,
+     "ppg": 15.12
+    },
+    "b": {
+     "games": 5,
+     "total": 76.7,
+     "ppg": 15.34
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0019596:00-0026143",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Tom Brady",
+   "player_b": "Matt Ryan",
+   "packet": {
+    "position": "QB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 281.42,
+     "ppg": 21.65
+    },
+    "b": {
+     "games": 13,
+     "total": 237.88,
+     "ppg": 18.3
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0027061:00-0025549",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Jared Cook",
+   "player_b": "Brent Celek",
+   "packet": {
+    "position": "TE",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 107.3,
+     "ppg": 8.94
+    },
+    "b": {
+     "games": 12,
+     "total": 114.1,
+     "ppg": 9.51
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0026019:00-0026164",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Danny Woodhead",
+   "player_b": "Chris Johnson",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 35.8,
+     "ppg": 7.16
+    },
+    "b": {
+     "games": 5,
+     "total": 39.4,
+     "ppg": 7.88
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0025516:00-0025549",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Scott Chandler",
+   "player_b": "Brent Celek",
+   "packet": {
+    "position": "TE",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 53.5,
+     "ppg": 13.38
+    },
+    "b": {
+     "games": 4,
+     "total": 49.5,
+     "ppg": 12.38
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0027891:00-0027006",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Golden Tate",
+   "player_b": "Kenny Britt",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 63.4,
+     "ppg": 9.06
+    },
+    "b": {
+     "games": 6,
+     "total": 46.9,
+     "ppg": 7.82
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0026158:00-0024226",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Joe Flacco",
+   "player_b": "Jay Cutler",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 178.02,
+     "ppg": 14.84
+    },
+    "b": {
+     "games": 11,
+     "total": 136.5,
+     "ppg": 12.41
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0027864:00-0026184",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Ryan Mathews",
+   "player_b": "Matt Forte",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 4,
+     "total": 60.0,
+     "ppg": 15.0
+    },
+    "b": {
+     "games": 5,
+     "total": 66.6,
+     "ppg": 13.32
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0022924:00-0029263",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Russell Wilson",
+   "packet": {
+    "position": "QB",
+    "week": 15,
+    "a": {
+     "games": 10,
+     "total": 177.78,
+     "ppg": 17.78
+    },
+    "b": {
+     "games": 13,
+     "total": 186.68,
+     "ppg": 14.36
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0027691:00-0028086",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Andre Roberts",
+   "player_b": "Denarius Moore",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 158.8,
+     "ppg": 12.22
+    },
+    "b": {
+     "games": 13,
+     "total": 154.9,
+     "ppg": 11.92
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0026995:00-0027891",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Jeremy Maclin",
+   "player_b": "Golden Tate",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 11,
+     "total": 122.2,
+     "ppg": 11.11
+    },
+    "b": {
+     "games": 11,
+     "total": 132.52,
+     "ppg": 12.05
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0029668:00-0026158",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Andrew Luck",
+   "player_b": "Joe Flacco",
+   "packet": {
+    "position": "QB",
+    "week": 7,
+    "a": {
+     "games": 5,
+     "total": 85.82,
+     "ppg": 17.16
+    },
+    "b": {
+     "games": 6,
+     "total": 97.8,
+     "ppg": 16.3
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0022084:00-0026780",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Anquan Boldin",
+   "player_b": "Kevin Ogletree",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 77.2,
+     "ppg": 12.87
+    },
+    "b": {
+     "games": 5,
+     "total": 52.0,
+     "ppg": 10.4
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0022942:00-0021678",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Philip Rivers",
+   "player_b": "Tony Romo",
+   "packet": {
+    "position": "QB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 119.32,
+     "ppg": 13.26
+    },
+    "b": {
+     "games": 9,
+     "total": 131.22,
+     "ppg": 14.58
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0028083:00-0024813",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Jacquizz Rodgers",
+   "player_b": "Pierre Thomas",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 83.0,
+     "ppg": 8.3
+    },
+    "b": {
+     "games": 10,
+     "total": 81.6,
+     "ppg": 8.16
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0029141:00-0027995",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Alfred Morris",
+   "player_b": "Mikel Leshoure",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 102.3,
+     "ppg": 14.61
+    },
+    "b": {
+     "games": 4,
+     "total": 56.4,
+     "ppg": 14.1
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0028009:00-0026144",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "DeMarco Murray",
+   "player_b": "Darren McFadden",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 4,
+     "total": 57.1,
+     "ppg": 14.28
+    },
+    "b": {
+     "games": 4,
+     "total": 55.2,
+     "ppg": 13.8
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0022084:00-0026995",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Anquan Boldin",
+   "player_b": "Jeremy Maclin",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 119.0,
+     "ppg": 11.9
+    },
+    "b": {
+     "games": 9,
+     "total": 104.9,
+     "ppg": 11.66
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0019596:00-0026143",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Tom Brady",
+   "player_b": "Matt Ryan",
+   "packet": {
+    "position": "QB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 100.9,
+     "ppg": 20.18
+    },
+    "b": {
+     "games": 5,
+     "total": 115.78,
+     "ppg": 23.16
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0027714:00-0021547",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Dennis Pitta",
+   "player_b": "Antonio Gates",
+   "packet": {
+    "position": "TE",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 74.9,
+     "ppg": 9.36
+    },
+    "b": {
+     "games": 7,
+     "total": 70.1,
+     "ppg": 10.01
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0027982:00-0029708",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Titus Young",
+   "player_b": "Kendall Wright",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 76.0,
+     "ppg": 10.86
+    },
+    "b": {
+     "games": 8,
+     "total": 91.1,
+     "ppg": 11.39
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0028011:00-0026184",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Stevan Ridley",
+   "player_b": "Matt Forte",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 62.0,
+     "ppg": 15.5
+    },
+    "b": {
+     "games": 3,
+     "total": 38.9,
+     "ppg": 12.97
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0029677:00-0029701",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Brandon Weeden",
+   "player_b": "Ryan Tannehill",
+   "packet": {
+    "position": "QB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 56.82,
+     "ppg": 11.36
+    },
+    "b": {
+     "games": 5,
+     "total": 53.66,
+     "ppg": 10.73
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027003:00-0026566",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Donald Brown",
+   "player_b": "Isaac Redman",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 3,
+     "total": 26.4,
+     "ppg": 8.8
+    },
+    "b": {
+     "games": 3,
+     "total": 23.7,
+     "ppg": 7.9
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0026143:00-0026993",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Matt Ryan",
+   "player_b": "Josh Freeman",
+   "packet": {
+    "position": "QB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 207.8,
+     "ppg": 18.89
+    },
+    "b": {
+     "games": 11,
+     "total": 189.64,
+     "ppg": 17.24
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0024267:00-0029664",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Greg Jennings",
+   "player_b": "Josh Gordon",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 4,
+     "total": 34.4,
+     "ppg": 8.6
+    },
+    "b": {
+     "games": 12,
+     "total": 128.6,
+     "ppg": 10.72
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0022929:00-0025462",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Devery Henderson",
+   "player_b": "Laurent Robinson",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 7,
+     "total": 52.0,
+     "ppg": 7.43
+    },
+    "b": {
+     "games": 5,
+     "total": 32.5,
+     "ppg": 6.5
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0029689:00-0026267",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Dwayne Allen",
+   "player_b": "Jacob Tamme",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 5,
+     "total": 36.8,
+     "ppg": 7.36
+    },
+    "b": {
+     "games": 6,
+     "total": 49.2,
+     "ppg": 8.2
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0029429:00-0027007",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Bryce Brown",
+   "player_b": "Chris Wells",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 82.3,
+     "ppg": 6.33
+    },
+    "b": {
+     "games": 6,
+     "total": 31.8,
+     "ppg": 5.3
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0029701:00-0027948",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Ryan Tannehill",
+   "player_b": "Blaine Gabbert",
+   "packet": {
+    "position": "QB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 89.46,
+     "ppg": 9.94
+    },
+    "b": {
+     "games": 9,
+     "total": 95.12,
+     "ppg": 10.57
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0022921:00-0027006",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Kenny Britt",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 152.4,
+     "ppg": 10.89
+    },
+    "b": {
+     "games": 12,
+     "total": 111.7,
+     "ppg": 9.31
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0026204:00-0023437",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Kevin Smith",
+   "player_b": "Ronnie Brown",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 4,
+     "total": 38.6,
+     "ppg": 9.65
+    },
+    "b": {
+     "games": 8,
+     "total": 77.4,
+     "ppg": 9.68
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0025465:00-0026995",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "James Jones",
+   "player_b": "Jeremy Maclin",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 103.3,
+     "ppg": 14.76
+    },
+    "b": {
+     "games": 5,
+     "total": 67.5,
+     "ppg": 13.5
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0023682:00-0019596",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Ryan Fitzpatrick",
+   "player_b": "Tom Brady",
+   "packet": {
+    "position": "QB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 75.84,
+     "ppg": 18.96
+    },
+    "b": {
+     "games": 4,
+     "total": 82.18,
+     "ppg": 20.55
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0027690:00-0023496",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Eric Decker",
+   "player_b": "Vincent Jackson",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 74.3,
+     "ppg": 14.86
+    },
+    "b": {
+     "games": 4,
+     "total": 58.4,
+     "ppg": 14.6
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0026878:00-0028007",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Tom Crabtree",
+   "player_b": "Rob Housler",
+   "packet": {
+    "position": "TE",
+    "week": 14,
+    "a": {
+     "games": 9,
+     "total": 46.3,
+     "ppg": 5.14
+    },
+    "b": {
+     "games": 12,
+     "total": 72.8,
+     "ppg": 6.07
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0026899:00-0024217",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Shonn Greene",
+   "player_b": "Reggie Bush",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 132.1,
+     "ppg": 11.01
+    },
+    "b": {
+     "games": 12,
+     "total": 141.5,
+     "ppg": 11.79
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0026019:00-0023437",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Danny Woodhead",
+   "player_b": "Ronnie Brown",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 9,
+     "total": 89.5,
+     "ppg": 9.94
+    },
+    "b": {
+     "games": 9,
+     "total": 80.9,
+     "ppg": 8.99
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0029689:00-0025516",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Dwayne Allen",
+   "player_b": "Scott Chandler",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 9,
+     "total": 77.9,
+     "ppg": 8.66
+    },
+    "b": {
+     "games": 10,
+     "total": 95.0,
+     "ppg": 9.5
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0027985:00-0026878",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Lance Kendricks",
+   "player_b": "Tom Crabtree",
+   "packet": {
+    "position": "TE",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 64.4,
+     "ppg": 5.85
+    },
+    "b": {
+     "games": 8,
+     "total": 42.3,
+     "ppg": 5.29
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0024813:00-0023437",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Pierre Thomas",
+   "player_b": "Ronnie Brown",
+   "packet": {
+    "position": "RB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 113.0,
+     "ppg": 8.07
+    },
+    "b": {
+     "games": 12,
+     "total": 98.9,
+     "ppg": 8.24
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0025418:00-0027713",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Greg Olsen",
+   "player_b": "Aaron Hernandez",
+   "packet": {
+    "position": "TE",
+    "week": 7,
+    "a": {
+     "games": 5,
+     "total": 57.3,
+     "ppg": 11.46
+    },
+    "b": {
+     "games": 3,
+     "total": 33.4,
+     "ppg": 11.13
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0021678:00-0027950",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Tony Romo",
+   "player_b": "Christian Ponder",
+   "packet": {
+    "position": "QB",
+    "week": 6,
+    "a": {
+     "games": 4,
+     "total": 48.02,
+     "ppg": 12.01
+    },
+    "b": {
+     "games": 5,
+     "total": 72.98,
+     "ppg": 14.6
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0026902:00-0024324",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Ramses Barden",
+   "player_b": "Jason Avant",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 4,
+     "total": 31.8,
+     "ppg": 7.95
+    },
+    "b": {
+     "games": 8,
+     "total": 54.4,
+     "ppg": 6.8
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0028083:00-0029547",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Jacquizz Rodgers",
+   "player_b": "Vick Ballard",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 117.2,
+     "ppg": 9.02
+    },
+    "b": {
+     "games": 13,
+     "total": 97.5,
+     "ppg": 7.5
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0029675:00-0026195",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Trent Richardson",
+   "player_b": "Ray Rice",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 73.4,
+     "ppg": 18.35
+    },
+    "b": {
+     "games": 4,
+     "total": 89.1,
+     "ppg": 22.27
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0021931:00-0015754",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Kevin Walter",
+   "player_b": "Brandon Stokley",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 63.7,
+     "ppg": 7.96
+    },
+    "b": {
+     "games": 8,
+     "total": 69.8,
+     "ppg": 8.72
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0024268:00-0027695",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Anthony Fasano",
+   "player_b": "Tony Moeaki",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 64.0,
+     "ppg": 6.4
+    },
+    "b": {
+     "games": 9,
+     "total": 50.2,
+     "ppg": 5.58
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0025418:00-0027135",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Greg Olsen",
+   "player_b": "Brandon Myers",
+   "packet": {
+    "position": "TE",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 125.9,
+     "ppg": 11.45
+    },
+    "b": {
+     "games": 11,
+     "total": 132.1,
+     "ppg": 12.01
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0022821:00-0025399",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Michael Turner",
+   "player_b": "Marshawn Lynch",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 71.2,
+     "ppg": 14.24
+    },
+    "b": {
+     "games": 5,
+     "total": 76.7,
+     "ppg": 15.34
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0029612:00-0028053",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Daryl Richardson",
+   "player_b": "Kendall Hunter",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 67.6,
+     "ppg": 6.76
+    },
+    "b": {
+     "games": 10,
+     "total": 61.3,
+     "ppg": 6.13
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0027873:00-0027135",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Jermaine Gresham",
+   "player_b": "Brandon Myers",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 72.5,
+     "ppg": 10.36
+    },
+    "b": {
+     "games": 7,
+     "total": 69.3,
+     "ppg": 9.9
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0024324:00-0027758",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Jason Avant",
+   "player_b": "Riley Cooper",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 10,
+     "total": 67.2,
+     "ppg": 6.72
+    },
+    "b": {
+     "games": 7,
+     "total": 38.1,
+     "ppg": 5.44
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0026901:00-0025431",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Mike Wallace",
+   "player_b": "Sidney Rice",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 139.0,
+     "ppg": 12.64
+    },
+    "b": {
+     "games": 11,
+     "total": 127.0,
+     "ppg": 11.55
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0027265:00-0027942",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Victor Cruz",
+   "player_b": "A.J. Green",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 176.3,
+     "ppg": 17.63
+    },
+    "b": {
+     "games": 10,
+     "total": 216.8,
+     "ppg": 21.68
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0025549:00-0027135",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Brent Celek",
+   "player_b": "Brandon Myers",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 66.7,
+     "ppg": 11.12
+    },
+    "b": {
+     "games": 6,
+     "total": 61.4,
+     "ppg": 10.23
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0027080:00-0028736",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Mike Goodson",
+   "player_b": "William Powell",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 37.2,
+     "ppg": 5.31
+    },
+    "b": {
+     "games": 4,
+     "total": 20.1,
+     "ppg": 5.03
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0026796:00-0029613",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Arian Foster",
+   "player_b": "Doug Martin",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 225.6,
+     "ppg": 20.51
+    },
+    "b": {
+     "games": 11,
+     "total": 225.2,
+     "ppg": 20.47
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027891:00-0028091",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Golden Tate",
+   "player_b": "Jeremy Kerley",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 3,
+     "total": 30.3,
+     "ppg": 10.1
+    },
+    "b": {
+     "games": 4,
+     "total": 41.7,
+     "ppg": 10.43
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0027973:00-0022803",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Andy Dalton",
+   "player_b": "Eli Manning",
+   "packet": {
+    "position": "QB",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 107.24,
+     "ppg": 17.87
+    },
+    "b": {
+     "games": 6,
+     "total": 104.88,
+     "ppg": 17.48
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0019596:00-0026498",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Tom Brady",
+   "player_b": "Matthew Stafford",
+   "packet": {
+    "position": "QB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 184.9,
+     "ppg": 20.54
+    },
+    "b": {
+     "games": 9,
+     "total": 166.88,
+     "ppg": 18.54
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0024226:00-0029677",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Jay Cutler",
+   "player_b": "Brandon Weeden",
+   "packet": {
+    "position": "QB",
+    "week": 12,
+    "a": {
+     "games": 9,
+     "total": 106.06,
+     "ppg": 11.78
+    },
+    "b": {
+     "games": 10,
+     "total": 115.42,
+     "ppg": 11.54
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0027696:00-0022127",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Jimmy Graham",
+   "player_b": "Jason Witten",
+   "packet": {
+    "position": "TE",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 162.5,
+     "ppg": 16.25
+    },
+    "b": {
+     "games": 11,
+     "total": 159.0,
+     "ppg": 14.45
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0027518:00-0027685",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Donald Jones",
+   "player_b": "Emmanuel Sanders",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 47.4,
+     "ppg": 7.9
+    },
+    "b": {
+     "games": 5,
+     "total": 35.6,
+     "ppg": 7.12
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0027691:00-0027902",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Andre Roberts",
+   "player_b": "Dez Bryant",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 127.5,
+     "ppg": 12.75
+    },
+    "b": {
+     "games": 10,
+     "total": 153.4,
+     "ppg": 15.34
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0026566:00-0027218",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Isaac Redman",
+   "player_b": "Joique Bell",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 7,
+     "total": 70.7,
+     "ppg": 10.1
+    },
+    "b": {
+     "games": 9,
+     "total": 90.0,
+     "ppg": 10.0
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0026996:00-0027981",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Brandon Pettigrew",
+   "player_b": "Kyle Rudolph",
+   "packet": {
+    "position": "TE",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 113.3,
+     "ppg": 10.3
+    },
+    "b": {
+     "games": 11,
+     "total": 119.1,
+     "ppg": 10.83
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0027006:00-0029209",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Kenny Britt",
+   "player_b": "Ryan Broyles",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 7,
+     "total": 58.6,
+     "ppg": 8.37
+    },
+    "b": {
+     "games": 4,
+     "total": 38.0,
+     "ppg": 9.5
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0026937:00-0027006",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Brandon Gibson",
+   "player_b": "Kenny Britt",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 70.5,
+     "ppg": 10.07
+    },
+    "b": {
+     "games": 5,
+     "total": 40.5,
+     "ppg": 8.1
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0023437:00-0024813",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Ronnie Brown",
+   "player_b": "Pierre Thomas",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 11,
+     "total": 95.5,
+     "ppg": 8.68
+    },
+    "b": {
+     "games": 12,
+     "total": 91.5,
+     "ppg": 7.62
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0026998:00-0022044",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Percy Harvin",
+   "player_b": "Andre Johnson",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 65.3,
+     "ppg": 16.32
+    },
+    "b": {
+     "games": 4,
+     "total": 54.8,
+     "ppg": 13.7
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0027094:00-0026164",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Andre Brown",
+   "player_b": "Chris Johnson",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 60.2,
+     "ppg": 10.03
+    },
+    "b": {
+     "games": 7,
+     "total": 87.6,
+     "ppg": 12.51
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0024313:00-0026201",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Owen Daniels",
+   "player_b": "Martellus Bennett",
+   "packet": {
+    "position": "TE",
+    "week": 15,
+    "a": {
+     "games": 12,
+     "total": 150.2,
+     "ppg": 12.52
+    },
+    "b": {
+     "games": 13,
+     "total": 135.9,
+     "ppg": 10.45
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0021429:00-0027950",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Carson Palmer",
+   "player_b": "Christian Ponder",
+   "packet": {
+    "position": "QB",
+    "week": 7,
+    "a": {
+     "games": 5,
+     "total": 76.56,
+     "ppg": 15.31
+    },
+    "b": {
+     "games": 6,
+     "total": 92.36,
+     "ppg": 15.39
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027518:00-0028017",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Donald Jones",
+   "player_b": "Leonard Hankerson",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 42.2,
+     "ppg": 10.55
+    },
+    "b": {
+     "games": 3,
+     "total": 37.1,
+     "ppg": 12.37
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0023496:00-0027912",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Vincent Jackson",
+   "player_b": "Danario Alexander",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 172.3,
+     "ppg": 17.23
+    },
+    "b": {
+     "games": 4,
+     "total": 62.1,
+     "ppg": 15.53
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0026314:00-0027026",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Josh Morgan",
+   "player_b": "Mohamed Massaquoi",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 80.7,
+     "ppg": 6.73
+    },
+    "b": {
+     "games": 7,
+     "total": 38.8,
+     "ppg": 5.54
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0026901:00-0027690",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Mike Wallace",
+   "player_b": "Eric Decker",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 106.7,
+     "ppg": 15.24
+    },
+    "b": {
+     "games": 7,
+     "total": 116.4,
+     "ppg": 16.63
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0028009:00-0026184",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "DeMarco Murray",
+   "player_b": "Matt Forte",
+   "packet": {
+    "position": "RB",
+    "week": 16,
+    "a": {
+     "games": 8,
+     "total": 124.7,
+     "ppg": 15.59
+    },
+    "b": {
+     "games": 13,
+     "total": 184.5,
+     "ppg": 14.19
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0023662:00-0007091",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Matt Cassel",
+   "player_b": "Matt Hasselbeck",
+   "packet": {
+    "position": "QB",
+    "week": 9,
+    "a": {
+     "games": 6,
+     "total": 62.32,
+     "ppg": 10.39
+    },
+    "b": {
+     "games": 6,
+     "total": 62.98,
+     "ppg": 10.5
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0022165:00-0023630",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Dallas Clark",
+   "player_b": "Joel Dreessen",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 70.5,
+     "ppg": 7.05
+    },
+    "b": {
+     "games": 10,
+     "total": 76.0,
+     "ppg": 7.6
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0027964:00-0028400",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Jon Baldwin",
+   "player_b": "Armon Binns",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 4,
+     "total": 28.4,
+     "ppg": 7.1
+    },
+    "b": {
+     "games": 5,
+     "total": 39.8,
+     "ppg": 7.96
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0027109:00-0022943",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "James Casey",
+   "player_b": "Benjamin Watson",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 40.8,
+     "ppg": 5.83
+    },
+    "b": {
+     "games": 8,
+     "total": 41.0,
+     "ppg": 5.12
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0029675:00-0023500",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Trent Richardson",
+   "player_b": "Frank Gore",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 168.9,
+     "ppg": 16.89
+    },
+    "b": {
+     "games": 10,
+     "total": 144.0,
+     "ppg": 14.4
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0022781:00-0027150",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Michael Jenkins",
+   "player_b": "Julian Edelman",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 9,
+     "total": 61.5,
+     "ppg": 6.83
+    },
+    "b": {
+     "games": 5,
+     "total": 28.5,
+     "ppg": 5.7
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0024242:00-0026745",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "DeAngelo Williams",
+   "player_b": "Curtis Brinkley",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 38.0,
+     "ppg": 5.43
+    },
+    "b": {
+     "games": 4,
+     "total": 21.3,
+     "ppg": 5.33
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0023438:00-0029129",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Braylon Edwards",
+   "player_b": "Rod Streater",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 4,
+     "total": 21.4,
+     "ppg": 5.35
+    },
+    "b": {
+     "games": 8,
+     "total": 49.6,
+     "ppg": 6.2
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0029137:00-0024345",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Alshon Jeffery",
+   "player_b": "Domenik Hixon",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 34.4,
+     "ppg": 8.6
+    },
+    "b": {
+     "games": 3,
+     "total": 28.1,
+     "ppg": 9.37
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0025389:00-0020498",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Calvin Johnson",
+   "player_b": "Reggie Wayne",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 276.6,
+     "ppg": 21.28
+    },
+    "b": {
+     "games": 13,
+     "total": 237.5,
+     "ppg": 18.27
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0026937:00-0029664",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Brandon Gibson",
+   "player_b": "Josh Gordon",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 85.8,
+     "ppg": 9.53
+    },
+    "b": {
+     "games": 9,
+     "total": 84.7,
+     "ppg": 9.41
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0027873:00-0027135",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Jermaine Gresham",
+   "player_b": "Brandon Myers",
+   "packet": {
+    "position": "TE",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 146.6,
+     "ppg": 11.28
+    },
+    "b": {
+     "games": 13,
+     "total": 166.8,
+     "ppg": 12.83
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027981:00-0024221",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Kyle Rudolph",
+   "player_b": "Vernon Davis",
+   "packet": {
+    "position": "TE",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 47.6,
+     "ppg": 11.9
+    },
+    "b": {
+     "games": 4,
+     "total": 58.7,
+     "ppg": 14.68
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027918:00-0026173",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Andrew Hawkins",
+   "player_b": "Donnie Avery",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 53.3,
+     "ppg": 13.32
+    },
+    "b": {
+     "games": 3,
+     "total": 38.3,
+     "ppg": 12.77
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0029129:00-0027156",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Rod Streater",
+   "player_b": "Tiquan Underwood",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 12,
+     "total": 88.9,
+     "ppg": 7.41
+    },
+    "b": {
+     "games": 11,
+     "total": 67.4,
+     "ppg": 6.13
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0026184:00-0029141",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Matt Forte",
+   "player_b": "Alfred Morris",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 9,
+     "total": 125.1,
+     "ppg": 13.9
+    },
+    "b": {
+     "games": 10,
+     "total": 125.1,
+     "ppg": 12.51
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0020531:00-0023459",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Drew Brees",
+   "player_b": "Aaron Rodgers",
+   "packet": {
+    "position": "QB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 199.68,
+     "ppg": 22.19
+    },
+    "b": {
+     "games": 9,
+     "total": 201.52,
+     "ppg": 22.39
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0026231:00-0024243",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Jermichael Finley",
+   "player_b": "Marcedes Lewis",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 58.5,
+     "ppg": 7.31
+    },
+    "b": {
+     "games": 6,
+     "total": 46.7,
+     "ppg": 7.78
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0022127:00-0023465",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Jason Witten",
+   "player_b": "Heath Miller",
+   "packet": {
+    "position": "TE",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 175.8,
+     "ppg": 14.65
+    },
+    "b": {
+     "games": 12,
+     "total": 161.3,
+     "ppg": 13.44
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0020531:00-0023459",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Drew Brees",
+   "player_b": "Aaron Rodgers",
+   "packet": {
+    "position": "QB",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 147.68,
+     "ppg": 24.61
+    },
+    "b": {
+     "games": 7,
+     "total": 161.66,
+     "ppg": 23.09
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0027685:00-0029209",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Emmanuel Sanders",
+   "player_b": "Ryan Broyles",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 65.6,
+     "ppg": 7.29
+    },
+    "b": {
+     "games": 5,
+     "total": 39.6,
+     "ppg": 7.92
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0029141:00-0028009",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Alfred Morris",
+   "player_b": "DeMarco Murray",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 169.7,
+     "ppg": 13.05
+    },
+    "b": {
+     "games": 7,
+     "total": 105.5,
+     "ppg": 15.07
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0027873:00-0024221",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Jermaine Gresham",
+   "player_b": "Vernon Davis",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 112.7,
+     "ppg": 11.27
+    },
+    "b": {
+     "games": 10,
+     "total": 113.7,
+     "ppg": 11.37
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0021547:00-0026267",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Antonio Gates",
+   "player_b": "Jacob Tamme",
+   "packet": {
+    "position": "TE",
+    "week": 14,
+    "a": {
+     "games": 11,
+     "total": 103.7,
+     "ppg": 9.43
+    },
+    "b": {
+     "games": 12,
+     "total": 103.9,
+     "ppg": 8.66
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0029668:00-0023682",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Andrew Luck",
+   "player_b": "Ryan Fitzpatrick",
+   "packet": {
+    "position": "QB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 165.14,
+     "ppg": 18.35
+    },
+    "b": {
+     "games": 9,
+     "total": 132.54,
+     "ppg": 14.73
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0020494:00-0027685",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Santana Moss",
+   "player_b": "Emmanuel Sanders",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 41.7,
+     "ppg": 8.34
+    },
+    "b": {
+     "games": 4,
+     "total": 27.3,
+     "ppg": 6.83
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0024447:00-0025462",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Devin Aromashodu",
+   "player_b": "Laurent Robinson",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 5,
+     "total": 25.1,
+     "ppg": 5.02
+    },
+    "b": {
+     "games": 4,
+     "total": 22.4,
+     "ppg": 5.6
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0025414:00-0029664",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Robert Meachem",
+   "player_b": "Josh Gordon",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 36.9,
+     "ppg": 7.38
+    },
+    "b": {
+     "games": 5,
+     "total": 38.5,
+     "ppg": 7.7
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0027690:00-0027005",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Eric Decker",
+   "player_b": "Hakeem Nicks",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 170.5,
+     "ppg": 15.5
+    },
+    "b": {
+     "games": 8,
+     "total": 107.2,
+     "ppg": 13.4
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0024466:00-0027874",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Marques Colston",
+   "player_b": "Demaryius Thomas",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 126.0,
+     "ppg": 18.0
+    },
+    "b": {
+     "games": 7,
+     "total": 126.9,
+     "ppg": 18.13
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0022921:00-0029614",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Chris Givens",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 145.0,
+     "ppg": 12.08
+    },
+    "b": {
+     "games": 11,
+     "total": 108.4,
+     "ppg": 9.85
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0027997:00-0026780",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Greg Little",
+   "player_b": "Kevin Ogletree",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 78.8,
+     "ppg": 7.16
+    },
+    "b": {
+     "games": 9,
+     "total": 79.3,
+     "ppg": 8.81
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027714:00-0026201",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Dennis Pitta",
+   "player_b": "Martellus Bennett",
+   "packet": {
+    "position": "TE",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 48.8,
+     "ppg": 12.2
+    },
+    "b": {
+     "games": 4,
+     "total": 52.7,
+     "ppg": 13.18
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0026019:00-0028000",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Danny Woodhead",
+   "player_b": "Daniel Thomas",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 27.6,
+     "ppg": 6.9
+    },
+    "b": {
+     "games": 3,
+     "total": 18.3,
+     "ppg": 6.1
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0029668:00-0026158",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Andrew Luck",
+   "player_b": "Joe Flacco",
+   "packet": {
+    "position": "QB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 178.9,
+     "ppg": 17.89
+    },
+    "b": {
+     "games": 10,
+     "total": 152.8,
+     "ppg": 15.28
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0024221:00-0024313",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Vernon Davis",
+   "player_b": "Owen Daniels",
+   "packet": {
+    "position": "TE",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 74.3,
+     "ppg": 14.86
+    },
+    "b": {
+     "games": 5,
+     "total": 72.1,
+     "ppg": 14.42
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0020498:00-0023462",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Reggie Wayne",
+   "player_b": "Roddy White",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 241.9,
+     "ppg": 17.28
+    },
+    "b": {
+     "games": 14,
+     "total": 224.6,
+     "ppg": 16.04
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0015754:00-0029608",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Brandon Stokley",
+   "player_b": "T.Y. Hilton",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 43.8,
+     "ppg": 8.76
+    },
+    "b": {
+     "games": 3,
+     "total": 30.5,
+     "ppg": 10.17
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0026314:00-0024324",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Josh Morgan",
+   "player_b": "Jason Avant",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 28.9,
+     "ppg": 5.78
+    },
+    "b": {
+     "games": 5,
+     "total": 30.2,
+     "ppg": 6.04
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0023462:00-0027265",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Roddy White",
+   "player_b": "Victor Cruz",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 116.3,
+     "ppg": 19.38
+    },
+    "b": {
+     "games": 7,
+     "total": 154.7,
+     "ppg": 22.1
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0029137:00-0021931",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Alshon Jeffery",
+   "player_b": "Kevin Walter",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 8,
+     "total": 62.6,
+     "ppg": 7.83
+    },
+    "b": {
+     "games": 14,
+     "total": 94.5,
+     "ppg": 6.75
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0027150:00-0026902",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Julian Edelman",
+   "player_b": "Ramses Barden",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 8,
+     "total": 62.7,
+     "ppg": 7.84
+    },
+    "b": {
+     "games": 5,
+     "total": 36.0,
+     "ppg": 7.2
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0029273:00-0027140",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Robert Turbin",
+   "player_b": "Chris Ogbonnaya",
+   "packet": {
+    "position": "RB",
+    "week": 7,
+    "a": {
+     "games": 5,
+     "total": 25.6,
+     "ppg": 5.12
+    },
+    "b": {
+     "games": 5,
+     "total": 30.6,
+     "ppg": 6.12
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0024345:00-0027026",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Domenik Hixon",
+   "player_b": "Mohamed Massaquoi",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 62.2,
+     "ppg": 8.89
+    },
+    "b": {
+     "games": 3,
+     "total": 23.5,
+     "ppg": 7.83
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0021931:00-0026314",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Kevin Walter",
+   "player_b": "Josh Morgan",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 28.1,
+     "ppg": 7.03
+    },
+    "b": {
+     "games": 4,
+     "total": 27.5,
+     "ppg": 6.88
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0027714:00-0025516",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Dennis Pitta",
+   "player_b": "Scott Chandler",
+   "packet": {
+    "position": "TE",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 128.8,
+     "ppg": 9.91
+    },
+    "b": {
+     "games": 13,
+     "total": 119.8,
+     "ppg": 9.22
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0028995:00-0026983",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Stephen Hill",
+   "player_b": "Darrius Heyward-Bey",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 5,
+     "total": 46.7,
+     "ppg": 9.34
+    },
+    "b": {
+     "games": 5,
+     "total": 39.3,
+     "ppg": 7.86
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0026937:00-0028995",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Brandon Gibson",
+   "player_b": "Stephen Hill",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 43.4,
+     "ppg": 8.68
+    },
+    "b": {
+     "games": 3,
+     "total": 25.9,
+     "ppg": 8.63
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0025418:00-0026996",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Greg Olsen",
+   "player_b": "Brandon Pettigrew",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 69.7,
+     "ppg": 9.96
+    },
+    "b": {
+     "games": 7,
+     "total": 79.4,
+     "ppg": 11.34
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0023462:00-0026176",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Roddy White",
+   "player_b": "Jordy Nelson",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 160.3,
+     "ppg": 17.81
+    },
+    "b": {
+     "games": 8,
+     "total": 125.2,
+     "ppg": 15.65
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0028995:00-0027982",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Stephen Hill",
+   "player_b": "Titus Young",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 6,
+     "total": 51.6,
+     "ppg": 8.6
+    },
+    "b": {
+     "games": 8,
+     "total": 80.0,
+     "ppg": 10.0
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0022414:00-0029708",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Malcom Floyd",
+   "player_b": "Kendall Wright",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 161.5,
+     "ppg": 12.42
+    },
+    "b": {
+     "games": 13,
+     "total": 136.9,
+     "ppg": 10.53
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0022921:00-0026983",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Darrius Heyward-Bey",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 146.2,
+     "ppg": 11.25
+    },
+    "b": {
+     "games": 12,
+     "total": 118.8,
+     "ppg": 9.9
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0027942:00-0022427",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "A.J. Green",
+   "player_b": "Wes Welker",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 233.0,
+     "ppg": 21.18
+    },
+    "b": {
+     "games": 11,
+     "total": 192.1,
+     "ppg": 17.46
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0026937:00-0022097",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Brandon Gibson",
+   "player_b": "Brandon Lloyd",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 12,
+     "total": 123.7,
+     "ppg": 10.31
+    },
+    "b": {
+     "games": 13,
+     "total": 146.0,
+     "ppg": 11.23
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0026566:00-0028083",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Isaac Redman",
+   "player_b": "Jacquizz Rodgers",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 10,
+     "total": 76.7,
+     "ppg": 7.67
+    },
+    "b": {
+     "games": 12,
+     "total": 104.8,
+     "ppg": 8.73
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0025542:00-0026225",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Dante Rosario",
+   "player_b": "Craig Stevens",
+   "packet": {
+    "position": "TE",
+    "week": 5,
+    "a": {
+     "games": 3,
+     "total": 25.8,
+     "ppg": 8.6
+    },
+    "b": {
+     "games": 4,
+     "total": 28.8,
+     "ppg": 7.2
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0027974:00-0029701",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Colin Kaepernick",
+   "player_b": "Ryan Tannehill",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 11,
+     "total": 139.66,
+     "ppg": 12.7
+    },
+    "b": {
+     "games": 14,
+     "total": 159.06,
+     "ppg": 11.36
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0025425:00-0027985",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Zach Miller",
+   "player_b": "Lance Kendricks",
+   "packet": {
+    "position": "TE",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 85.3,
+     "ppg": 6.09
+    },
+    "b": {
+     "games": 14,
+     "total": 91.7,
+     "ppg": 6.55
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0026035:00-0022044",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Danny Amendola",
+   "player_b": "Andre Johnson",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 5,
+     "total": 82.3,
+     "ppg": 16.46
+    },
+    "b": {
+     "games": 8,
+     "total": 110.2,
+     "ppg": 13.78
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0026364:00-0029608",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Steve Johnson",
+   "player_b": "T.Y. Hilton",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 194.1,
+     "ppg": 13.86
+    },
+    "b": {
+     "games": 13,
+     "total": 154.5,
+     "ppg": 11.88
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0029572:00-0027918",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Jarius Wright",
+   "player_b": "Andrew Hawkins",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 4,
+     "total": 34.9,
+     "ppg": 8.72
+    },
+    "b": {
+     "games": 11,
+     "total": 119.6,
+     "ppg": 10.87
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0011754:00-0029269",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Randy Moss",
+   "player_b": "Travis Benjamin",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 36.8,
+     "ppg": 5.26
+    },
+    "b": {
+     "games": 5,
+     "total": 30.5,
+     "ppg": 6.1
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0027891:00-0027918",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Golden Tate",
+   "player_b": "Andrew Hawkins",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 111.92,
+     "ppg": 11.19
+    },
+    "b": {
+     "games": 9,
+     "total": 93.5,
+     "ppg": 10.39
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0028086:00-0027691",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Denarius Moore",
+   "player_b": "Andre Roberts",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 12,
+     "total": 145.3,
+     "ppg": 12.11
+    },
+    "b": {
+     "games": 12,
+     "total": 153.6,
+     "ppg": 12.8
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0023496:00-0024466",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Vincent Jackson",
+   "player_b": "Marques Colston",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 138.0,
+     "ppg": 17.25
+    },
+    "b": {
+     "games": 8,
+     "total": 140.6,
+     "ppg": 17.57
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0022427:00-0023462",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Wes Welker",
+   "player_b": "Roddy White",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 220.4,
+     "ppg": 18.37
+    },
+    "b": {
+     "games": 12,
+     "total": 194.3,
+     "ppg": 16.19
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0023367:00-0026235",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Nate Washington",
+   "player_b": "Mario Manningham",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 138.0,
+     "ppg": 9.86
+    },
+    "b": {
+     "games": 11,
+     "total": 98.3,
+     "ppg": 8.94
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0023462:00-0027265",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Roddy White",
+   "player_b": "Victor Cruz",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 86.3,
+     "ppg": 21.57
+    },
+    "b": {
+     "games": 4,
+     "total": 82.8,
+     "ppg": 20.7
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0026983:00-0025431",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Darrius Heyward-Bey",
+   "player_b": "Sidney Rice",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 3,
+     "total": 24.8,
+     "ppg": 8.27
+    },
+    "b": {
+     "games": 5,
+     "total": 42.9,
+     "ppg": 8.58
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0010346:00-0027939",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Peyton Manning",
+   "player_b": "Cam Newton",
+   "packet": {
+    "position": "QB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 200.3,
+     "ppg": 20.03
+    },
+    "b": {
+     "games": 10,
+     "total": 171.8,
+     "ppg": 17.18
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0010346:00-0021429",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Peyton Manning",
+   "player_b": "Carson Palmer",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 236.98,
+     "ppg": 19.75
+    },
+    "b": {
+     "games": 12,
+     "total": 200.58,
+     "ppg": 16.71
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0027531:00-0022736",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Chris Ivory",
+   "player_b": "Steven Jackson",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 3,
+     "total": 31.2,
+     "ppg": 10.4
+    },
+    "b": {
+     "games": 10,
+     "total": 101.7,
+     "ppg": 10.17
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0026035:00-0025410",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Danny Amendola",
+   "player_b": "Dwayne Bowe",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 76.9,
+     "ppg": 19.23
+    },
+    "b": {
+     "games": 4,
+     "total": 77.2,
+     "ppg": 19.3
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0020498:00-0022044",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Reggie Wayne",
+   "player_b": "Andre Johnson",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 192.3,
+     "ppg": 19.23
+    },
+    "b": {
+     "games": 10,
+     "total": 165.0,
+     "ppg": 16.5
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0029613:00-0026195",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Doug Martin",
+   "player_b": "Ray Rice",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 238.0,
+     "ppg": 19.83
+    },
+    "b": {
+     "games": 12,
+     "total": 225.1,
+     "ppg": 18.76
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0028052:00-0026000",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Cecil Shorts",
+   "player_b": "Davone Bess",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 144.3,
+     "ppg": 13.12
+    },
+    "b": {
+     "games": 11,
+     "total": 132.5,
+     "ppg": 12.05
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0026189:00-0023310",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "DeSean Jackson",
+   "player_b": "Lance Moore",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 80.6,
+     "ppg": 13.43
+    },
+    "b": {
+     "games": 5,
+     "total": 80.8,
+     "ppg": 16.16
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0023310:00-0023921",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Lance Moore",
+   "player_b": "Miles Austin",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 176.0,
+     "ppg": 13.54
+    },
+    "b": {
+     "games": 14,
+     "total": 179.8,
+     "ppg": 12.84
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0011754:00-0029638",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Randy Moss",
+   "player_b": "Michael Floyd",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 60.6,
+     "ppg": 5.05
+    },
+    "b": {
+     "games": 11,
+     "total": 60.2,
+     "ppg": 5.47
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0027215:00-0026878",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Logan Paulsen",
+   "player_b": "Tom Crabtree",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 7,
+     "total": 42.7,
+     "ppg": 6.1
+    },
+    "b": {
+     "games": 7,
+     "total": 42.3,
+     "ppg": 6.04
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0024268:00-0027718",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Anthony Fasano",
+   "player_b": "Garrett Graham",
+   "packet": {
+    "position": "TE",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 77.3,
+     "ppg": 5.95
+    },
+    "b": {
+     "games": 11,
+     "total": 67.3,
+     "ppg": 6.12
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0022921:00-0027902",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Dez Bryant",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 75.7,
+     "ppg": 15.14
+    },
+    "b": {
+     "games": 4,
+     "total": 49.9,
+     "ppg": 12.47
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0026213:00-0025394",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Jamaal Charles",
+   "player_b": "Adrian Peterson",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 101.6,
+     "ppg": 16.93
+    },
+    "b": {
+     "games": 7,
+     "total": 118.7,
+     "ppg": 16.96
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0026195:00-0029675",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Ray Rice",
+   "player_b": "Trent Richardson",
+   "packet": {
+    "position": "RB",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 125.5,
+     "ppg": 20.92
+    },
+    "b": {
+     "games": 6,
+     "total": 104.6,
+     "ppg": 17.43
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0006101:00-0022127",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Tony Gonzalez",
+   "player_b": "Jason Witten",
+   "packet": {
+    "position": "TE",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 123.5,
+     "ppg": 15.44
+    },
+    "b": {
+     "games": 8,
+     "total": 117.8,
+     "ppg": 14.72
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0024217:00-0028011",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Reggie Bush",
+   "player_b": "Stevan Ridley",
+   "packet": {
+    "position": "RB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 112.5,
+     "ppg": 14.06
+    },
+    "b": {
+     "games": 8,
+     "total": 110.7,
+     "ppg": 13.84
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0029612:00-0026956",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Daryl Richardson",
+   "player_b": "LaRod Stephens-Howling",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 64.2,
+     "ppg": 7.13
+    },
+    "b": {
+     "games": 7,
+     "total": 57.3,
+     "ppg": 8.19
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0027861:00-0027864",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "C.J. Spiller",
+   "player_b": "Ryan Mathews",
+   "packet": {
+    "position": "RB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 129.8,
+     "ppg": 16.23
+    },
+    "b": {
+     "games": 6,
+     "total": 79.6,
+     "ppg": 13.27
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0025431:00-0022084",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Sidney Rice",
+   "player_b": "Anquan Boldin",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 166.0,
+     "ppg": 11.86
+    },
+    "b": {
+     "games": 14,
+     "total": 167.1,
+     "ppg": 11.94
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0026189:00-0027996",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "DeSean Jackson",
+   "player_b": "Torrey Smith",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 91.5,
+     "ppg": 13.07
+    },
+    "b": {
+     "games": 7,
+     "total": 93.8,
+     "ppg": 13.4
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0023496:00-0027265",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Vincent Jackson",
+   "player_b": "Victor Cruz",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 234.6,
+     "ppg": 16.76
+    },
+    "b": {
+     "games": 14,
+     "total": 234.9,
+     "ppg": 16.78
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0027942:00-0027265",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "A.J. Green",
+   "player_b": "Victor Cruz",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 150.7,
+     "ppg": 21.53
+    },
+    "b": {
+     "games": 8,
+     "total": 159.0,
+     "ppg": 19.88
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0025516:00-0022165",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Scott Chandler",
+   "player_b": "Dallas Clark",
+   "packet": {
+    "position": "TE",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 130.6,
+     "ppg": 9.33
+    },
+    "b": {
+     "games": 14,
+     "total": 107.2,
+     "ppg": 7.66
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0025860:00-0028000",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Daniel Thomas",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 85.8,
+     "ppg": 9.53
+    },
+    "b": {
+     "games": 7,
+     "total": 59.2,
+     "ppg": 8.46
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0023630:00-0026201",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Joel Dreessen",
+   "player_b": "Martellus Bennett",
+   "packet": {
+    "position": "TE",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 64.1,
+     "ppg": 8.01
+    },
+    "b": {
+     "games": 9,
+     "total": 87.4,
+     "ppg": 9.71
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0027997:00-0026314",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Greg Little",
+   "player_b": "Josh Morgan",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 36.7,
+     "ppg": 6.12
+    },
+    "b": {
+     "games": 6,
+     "total": 36.1,
+     "ppg": 6.02
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0024297:00-0028434",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Derek Hagan",
+   "player_b": "Doug Baldwin",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 5,
+     "total": 32.7,
+     "ppg": 6.54
+    },
+    "b": {
+     "games": 5,
+     "total": 28.4,
+     "ppg": 5.68
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0010346:00-0027939",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Peyton Manning",
+   "player_b": "Cam Newton",
+   "packet": {
+    "position": "QB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 145.62,
+     "ppg": 20.8
+    },
+    "b": {
+     "games": 7,
+     "total": 117.64,
+     "ppg": 16.81
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0029435:00-0024324",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Damaris Johnson",
+   "player_b": "Jason Avant",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 20.9,
+     "ppg": 5.22
+    },
+    "b": {
+     "games": 4,
+     "total": 23.8,
+     "ppg": 5.95
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0023921:00-0028086",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Miles Austin",
+   "player_b": "Denarius Moore",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 126.7,
+     "ppg": 15.84
+    },
+    "b": {
+     "games": 7,
+     "total": 102.5,
+     "ppg": 14.64
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0026986:00-0027077",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Michael Crabtree",
+   "player_b": "Brian Hartline",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 137.5,
+     "ppg": 12.5
+    },
+    "b": {
+     "games": 10,
+     "total": 139.7,
+     "ppg": 13.97
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0027793:00-0025389",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Antonio Brown",
+   "player_b": "Calvin Johnson",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 94.6,
+     "ppg": 13.51
+    },
+    "b": {
+     "games": 7,
+     "total": 110.8,
+     "ppg": 15.83
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0028083:00-0026566",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Jacquizz Rodgers",
+   "player_b": "Isaac Redman",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 35.5,
+     "ppg": 7.1
+    },
+    "b": {
+     "games": 4,
+     "total": 27.8,
+     "ppg": 6.95
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0027939:00-0029665",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Cam Newton",
+   "player_b": "Robert Griffin III",
+   "packet": {
+    "position": "QB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 153.72,
+     "ppg": 17.08
+    },
+    "b": {
+     "games": 9,
+     "total": 190.62,
+     "ppg": 21.18
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0027218:00-0024217",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Joique Bell",
+   "player_b": "Reggie Bush",
+   "packet": {
+    "position": "RB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 136.1,
+     "ppg": 9.72
+    },
+    "b": {
+     "games": 14,
+     "total": 167.2,
+     "ppg": 11.94
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0022924:00-0023459",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Aaron Rodgers",
+   "packet": {
+    "position": "QB",
+    "week": 6,
+    "a": {
+     "games": 4,
+     "total": 81.56,
+     "ppg": 20.39
+    },
+    "b": {
+     "games": 5,
+     "total": 96.76,
+     "ppg": 19.35
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0023465:00-0027696",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Heath Miller",
+   "player_b": "Jimmy Graham",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 92.0,
+     "ppg": 15.33
+    },
+    "b": {
+     "games": 5,
+     "total": 68.2,
+     "ppg": 13.64
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0024345:00-0027651",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Domenik Hixon",
+   "player_b": "Dexter McCluster",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 62.2,
+     "ppg": 7.78
+    },
+    "b": {
+     "games": 8,
+     "total": 62.5,
+     "ppg": 7.81
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0027950:00-0024226",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Christian Ponder",
+   "player_b": "Jay Cutler",
+   "packet": {
+    "position": "QB",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 94.88,
+     "ppg": 13.55
+    },
+    "b": {
+     "games": 6,
+     "total": 78.56,
+     "ppg": 13.09
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0022921:00-0026364",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Steve Johnson",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 141.7,
+     "ppg": 12.88
+    },
+    "b": {
+     "games": 11,
+     "total": 145.7,
+     "ppg": 13.25
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0027215:00-0028007",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Logan Paulsen",
+   "player_b": "Rob Housler",
+   "packet": {
+    "position": "TE",
+    "week": 11,
+    "a": {
+     "games": 6,
+     "total": 34.0,
+     "ppg": 5.67
+    },
+    "b": {
+     "games": 9,
+     "total": 51.1,
+     "ppg": 5.68
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0029613:00-0025394",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Doug Martin",
+   "player_b": "Adrian Peterson",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 260.2,
+     "ppg": 20.02
+    },
+    "b": {
+     "games": 13,
+     "total": 277.1,
+     "ppg": 21.32
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0019596:00-0022924",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Tom Brady",
+   "player_b": "Ben Roethlisberger",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 306.24,
+     "ppg": 21.87
+    },
+    "b": {
+     "games": 11,
+     "total": 197.54,
+     "ppg": 17.96
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0026162:00-0029612",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Felix Jones",
+   "player_b": "Daryl Richardson",
+   "packet": {
+    "position": "RB",
+    "week": 7,
+    "a": {
+     "games": 5,
+     "total": 31.6,
+     "ppg": 6.32
+    },
+    "b": {
+     "games": 6,
+     "total": 37.5,
+     "ppg": 6.25
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0027702:00-0028091",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Mike Williams",
+   "player_b": "Jeremy Kerley",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 162.72,
+     "ppg": 12.52
+    },
+    "b": {
+     "games": 13,
+     "total": 135.4,
+     "ppg": 10.42
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0025394:00-0029141",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Adrian Peterson",
+   "player_b": "Alfred Morris",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 61.6,
+     "ppg": 15.4
+    },
+    "b": {
+     "games": 4,
+     "total": 62.2,
+     "ppg": 15.55
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0026035:00-0022427",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Danny Amendola",
+   "player_b": "Wes Welker",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 9,
+     "total": 139.2,
+     "ppg": 15.47
+    },
+    "b": {
+     "games": 14,
+     "total": 239.2,
+     "ppg": 17.09
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w06:00-0028091:00-0022414",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "player_a": "Jeremy Kerley",
+   "player_b": "Malcom Floyd",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 56.1,
+     "ppg": 11.22
+    },
+    "b": {
+     "games": 5,
+     "total": 61.8,
+     "ppg": 12.36
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0029664:00-0028995",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Josh Gordon",
+   "player_b": "Stephen Hill",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 57.4,
+     "ppg": 9.57
+    },
+    "b": {
+     "games": 4,
+     "total": 37.2,
+     "ppg": 9.3
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027681:00-0027685",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Brandon LaFell",
+   "player_b": "Emmanuel Sanders",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 36.7,
+     "ppg": 9.18
+    },
+    "b": {
+     "games": 3,
+     "total": 22.1,
+     "ppg": 7.37
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0029141:00-0028011",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Alfred Morris",
+   "player_b": "Stevan Ridley",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 115.8,
+     "ppg": 12.87
+    },
+    "b": {
+     "games": 9,
+     "total": 126.5,
+     "ppg": 14.06
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0027685:00-0026314",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Emmanuel Sanders",
+   "player_b": "Josh Morgan",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 103.9,
+     "ppg": 7.42
+    },
+    "b": {
+     "games": 14,
+     "total": 102.7,
+     "ppg": 7.34
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0025418:00-0024221",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Greg Olsen",
+   "player_b": "Vernon Davis",
+   "packet": {
+    "position": "TE",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 110.7,
+     "ppg": 12.3
+    },
+    "b": {
+     "games": 9,
+     "total": 93.4,
+     "ppg": 10.38
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0027656:00-0026996",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Rob Gronkowski",
+   "player_b": "Brandon Pettigrew",
+   "packet": {
+    "position": "TE",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 80.6,
+     "ppg": 13.43
+    },
+    "b": {
+     "games": 5,
+     "total": 56.1,
+     "ppg": 11.22
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0029608:00-0026345",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "T.Y. Hilton",
+   "player_b": "Pierre Garcon",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 114.9,
+     "ppg": 11.49
+    },
+    "b": {
+     "games": 5,
+     "total": 52.1,
+     "ppg": 10.42
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0025860:00-0029239",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Brandon Bolden",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 47.2,
+     "ppg": 11.8
+    },
+    "b": {
+     "games": 3,
+     "total": 29.3,
+     "ppg": 9.77
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0023662:00-0007091",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Matt Cassel",
+   "player_b": "Matt Hasselbeck",
+   "packet": {
+    "position": "QB",
+    "week": 8,
+    "a": {
+     "games": 5,
+     "total": 50.1,
+     "ppg": 10.02
+    },
+    "b": {
+     "games": 5,
+     "total": 48.54,
+     "ppg": 9.71
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w13:00-0026995:00-0029664",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "player_a": "Jeremy Maclin",
+   "player_b": "Josh Gordon",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 115.4,
+     "ppg": 11.54
+    },
+    "b": {
+     "games": 11,
+     "total": 105.0,
+     "ppg": 9.55
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0027702:00-0022084",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Mike Williams",
+   "player_b": "Anquan Boldin",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 151.92,
+     "ppg": 12.66
+    },
+    "b": {
+     "games": 12,
+     "total": 144.3,
+     "ppg": 12.03
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w10:00-0029632:00-0026182",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "player_a": "Mohamed Sanu",
+   "player_b": "Eddie Royal",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 3,
+     "total": 18.22,
+     "ppg": 6.07
+    },
+    "b": {
+     "games": 6,
+     "total": 31.0,
+     "ppg": 5.17
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w05:00-0027725:00-0026298",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "player_a": "Clay Harbor",
+   "player_b": "Kellen Davis",
+   "packet": {
+    "position": "TE",
+    "week": 5,
+    "a": {
+     "games": 3,
+     "total": 15.2,
+     "ppg": 5.07
+    },
+    "b": {
+     "games": 4,
+     "total": 22.3,
+     "ppg": 5.58
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w11:00-0029137:00-0026235",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "player_a": "Alshon Jeffery",
+   "player_b": "Mario Manningham",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 5,
+     "total": 44.4,
+     "ppg": 8.88
+    },
+    "b": {
+     "games": 8,
+     "total": 71.2,
+     "ppg": 8.9
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0025465:00-0026364",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "James Jones",
+   "player_b": "Steve Johnson",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 92.0,
+     "ppg": 15.33
+    },
+    "b": {
+     "games": 6,
+     "total": 76.6,
+     "ppg": 12.77
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0024217:00-0027995",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Reggie Bush",
+   "player_b": "Mikel Leshoure",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 119.9,
+     "ppg": 11.99
+    },
+    "b": {
+     "games": 8,
+     "total": 110.9,
+     "ppg": 13.86
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w14:00-0025389:00-0027942",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "player_a": "Calvin Johnson",
+   "player_b": "A.J. Green",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 254.8,
+     "ppg": 21.23
+    },
+    "b": {
+     "games": 12,
+     "total": 250.5,
+     "ppg": 20.88
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w07:00-0026937:00-0027150",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "player_a": "Brandon Gibson",
+   "player_b": "Julian Edelman",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 59.5,
+     "ppg": 9.92
+    },
+    "b": {
+     "games": 3,
+     "total": 24.0,
+     "ppg": 8.0
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w12:00-0029209:00-0027651",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "player_a": "Ryan Broyles",
+   "player_b": "Dexter McCluster",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 6,
+     "total": 45.1,
+     "ppg": 7.52
+    },
+    "b": {
+     "games": 10,
+     "total": 73.0,
+     "ppg": 7.3
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w16:00-0029263:00-0022787",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "player_a": "Russell Wilson",
+   "player_b": "Matt Schaub",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 226.08,
+     "ppg": 16.15
+    },
+    "b": {
+     "games": 14,
+     "total": 209.8,
+     "ppg": 14.99
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w15:00-0027006:00-0027793",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "player_a": "Kenny Britt",
+   "player_b": "Antonio Brown",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 11,
+     "total": 110.0,
+     "ppg": 10.0
+    },
+    "b": {
+     "games": 10,
+     "total": 121.2,
+     "ppg": 12.12
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w08:00-0025637:00-0026144",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "player_a": "Ahmad Bradshaw",
+   "player_b": "Darren McFadden",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 96.0,
+     "ppg": 16.0
+    },
+    "b": {
+     "games": 6,
+     "total": 84.1,
+     "ppg": 14.02
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0026298:00-0022165",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Kellen Davis",
+   "player_b": "Dallas Clark",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 36.4,
+     "ppg": 5.2
+    },
+    "b": {
+     "games": 7,
+     "total": 40.2,
+     "ppg": 5.74
+    }
+   }
+  },
+  {
+   "question_id": "W2012:ppr:w09:00-0023462:00-0027077",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "player_a": "Roddy White",
+   "player_b": "Brian Hartline",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 123.1,
+     "ppg": 17.59
+    },
+    "b": {
+     "games": 6,
+     "total": 94.5,
+     "ppg": 15.75
+    }
+   }
+  }
+ ]
+}

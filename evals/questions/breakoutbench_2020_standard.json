@@ -1,0 +1,4879 @@
+{
+ "benchmark": "breakoutbench_v0.3",
+ "variant": "anonymized",
+ "season_masked": true,
+ "format": "standard",
+ "families": {
+  "full_slate": 76,
+  "bust": 48,
+  "over_under": 91
+ },
+ "instructions": "For each question, return the probability the answer is YES. Respond with a JSON list [{\"question_id\": ..., \"p\": <0..1>}] covering every question.",
+ "questions": [
+  {
+   "question_id": "B0000",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 156.6,
+    "adp_pos_rank": 19,
+    "adp_stdev": 18.0,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 69.7,
+     "ppg": 4.65,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 43.8,
+     "ppg": 3.65,
+     "pos_rank": 30
+    }
+   }
+  },
+  {
+   "question_id": "B0001",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 103.7,
+    "adp_pos_rank": 43,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 9,
+     "total": 18.4,
+     "ppg": 2.04,
+     "pos_rank": 92
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0002",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 116.2,
+    "adp_pos_rank": 11,
+    "adp_stdev": 16.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 14,
+     "total": 91.4,
+     "ppg": 6.53,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 41.2,
+     "ppg": 2.94,
+     "pos_rank": 32
+    }
+   }
+  },
+  {
+   "question_id": "B0003",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 156.6,
+    "adp_pos_rank": 19,
+    "adp_stdev": 18.0,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 69.7,
+     "ppg": 4.65,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 43.8,
+     "ppg": 3.65,
+     "pos_rank": 30
+    }
+   }
+  },
+  {
+   "question_id": "B0004",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 16.2,
+    "adp_pos_rank": 13,
+    "adp_stdev": 3.0,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 265.8,
+     "ppg": 16.61,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 145.4,
+     "ppg": 12.12,
+     "pos_rank": 23
+    }
+   }
+  },
+  {
+   "question_id": "B0005",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 3.3,
+    "adp_pos_rank": 3,
+    "adp_stdev": 1.2,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 257.7,
+     "ppg": 16.11,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 252.1,
+     "ppg": 16.81,
+     "pos_rank": 5
+    }
+   }
+  },
+  {
+   "question_id": "B0006",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 139.2,
+    "adp_pos_rank": 19,
+    "adp_stdev": 12.3,
+    "seasons_of_data": 7,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 12,
+     "total": 224.18,
+     "ppg": 18.68,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 141.96,
+     "ppg": 12.91,
+     "pos_rank": 30
+    }
+   }
+  },
+  {
+   "question_id": "B0007",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 158.3,
+    "adp_pos_rank": 23,
+    "adp_stdev": 24.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 229.24,
+     "ppg": 16.37,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0008",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 165.0,
+    "adp_pos_rank": 28,
+    "adp_stdev": 9.3,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0009",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 109.8,
+    "adp_pos_rank": 43,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 13,
+     "total": 100.2,
+     "ppg": 7.71,
+     "pos_rank": 45
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 80.5,
+     "ppg": 6.71,
+     "pos_rank": 57
+    }
+   }
+  },
+  {
+   "question_id": "B0010",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 121.0,
+    "adp_pos_rank": 46,
+    "adp_stdev": 8.9,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 15,
+     "total": 147.82,
+     "ppg": 9.85,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 101.9,
+     "ppg": 6.37,
+     "pos_rank": 39
+    }
+   }
+  },
+  {
+   "question_id": "B0011",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 31.5,
+    "adp_pos_rank": 19,
+    "adp_stdev": 3.8,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 12,
+     "total": 138.8,
+     "ppg": 11.57,
+     "pos_rank": 25
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 225.5,
+     "ppg": 18.79,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "B0012",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 123.6,
+    "adp_pos_rank": 47,
+    "adp_stdev": 9.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 9,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0013",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 157.7,
+    "adp_pos_rank": 22,
+    "adp_stdev": 16.5,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 68.8,
+     "ppg": 4.3,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 6,
+     "total": 34.5,
+     "ppg": 5.75,
+     "pos_rank": 36
+    }
+   }
+  },
+  {
+   "question_id": "B0014",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 144.3,
+    "adp_pos_rank": 56,
+    "adp_stdev": 14.9,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 119.7,
+     "ppg": 7.48,
+     "pos_rank": 34
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 53.8,
+     "ppg": 5.98,
+     "pos_rank": 82
+    }
+   }
+  },
+  {
+   "question_id": "B0015",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 162.5,
+    "adp_pos_rank": 26,
+    "adp_stdev": 15.3,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 247.32,
+     "ppg": 15.46,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 48.02,
+     "ppg": 16.01,
+     "pos_rank": 40
+    }
+   }
+  },
+  {
+   "question_id": "B0016",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 156.3,
+    "adp_pos_rank": 18,
+    "adp_stdev": 19.0,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 54.5,
+     "ppg": 3.63,
+     "pos_rank": 26
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 48.7,
+     "ppg": 3.75,
+     "pos_rank": 26
+    }
+   }
+  },
+  {
+   "question_id": "B0017",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 32.0,
+    "adp_pos_rank": 20,
+    "adp_stdev": 4.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 183.4,
+     "ppg": 12.23,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 98.4,
+     "ppg": 12.3,
+     "pos_rank": 37
+    }
+   }
+  },
+  {
+   "question_id": "B0018",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 8.2,
+    "adp_pos_rank": 7,
+    "adp_stdev": 3.1,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0019",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 122.3,
+    "adp_pos_rank": 15,
+    "adp_stdev": 11.1,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 229.18,
+     "ppg": 14.32,
+     "pos_rank": 20
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 240.1,
+     "ppg": 17.15,
+     "pos_rank": 16
+    }
+   }
+  },
+  {
+   "question_id": "B0020",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 139.2,
+    "adp_pos_rank": 19,
+    "adp_stdev": 12.3,
+    "seasons_of_data": 7,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 12,
+     "total": 224.18,
+     "ppg": 18.68,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 141.96,
+     "ppg": 12.91,
+     "pos_rank": 30
+    }
+   }
+  },
+  {
+   "question_id": "B0021",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 93.6,
+    "adp_pos_rank": 9,
+    "adp_stdev": 13.5,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 14,
+     "total": 124.5,
+     "ppg": 8.89,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 125.6,
+     "ppg": 7.85,
+     "pos_rank": 5
+    }
+   }
+  },
+  {
+   "question_id": "B0022",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 153.3,
+    "adp_pos_rank": 59,
+    "adp_stdev": 24.4,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 11,
+     "total": 51.6,
+     "ppg": 4.69,
+     "pos_rank": 61
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 50.6,
+     "ppg": 5.06,
+     "pos_rank": 67
+    }
+   }
+  },
+  {
+   "question_id": "B0023",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 87.3,
+    "adp_pos_rank": 36,
+    "adp_stdev": 7.2,
+    "seasons_of_data": 8,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 156.28,
+     "ppg": 9.77,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 133.42,
+     "ppg": 11.12,
+     "pos_rank": 23
+    }
+   }
+  },
+  {
+   "question_id": "B0024",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 159.0,
+    "adp_pos_rank": 61,
+    "adp_stdev": 13.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0025",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 165.8,
+    "adp_pos_rank": 72,
+    "adp_stdev": 10.8,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0026",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 165.0,
+    "adp_pos_rank": 28,
+    "adp_stdev": 9.3,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0027",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 100.5,
+    "adp_pos_rank": 42,
+    "adp_stdev": 8.9,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 15,
+     "total": 130.2,
+     "ppg": 8.68,
+     "pos_rank": 28
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 189.6,
+     "ppg": 11.85,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "B0028",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 115.0,
+    "adp_pos_rank": 47,
+    "adp_stdev": 16.5,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 11,
+     "total": 111.1,
+     "ppg": 10.1,
+     "pos_rank": 34
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 75.6,
+     "ppg": 5.82,
+     "pos_rank": 51
+    }
+   }
+  },
+  {
+   "question_id": "B0029",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 165.0,
+    "adp_pos_rank": 71,
+    "adp_stdev": 14.5,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 107.3,
+     "ppg": 7.66,
+     "pos_rank": 36
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 87.4,
+     "ppg": 5.46,
+     "pos_rank": 46
+    }
+   }
+  },
+  {
+   "question_id": "B0030",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 54.9,
+    "adp_pos_rank": 23,
+    "adp_stdev": 4.9,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 10,
+     "total": 80.1,
+     "ppg": 8.01,
+     "pos_rank": 57
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 163.0,
+     "ppg": 11.64,
+     "pos_rank": 15
+    }
+   }
+  },
+  {
+   "question_id": "B0031",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 69.7,
+    "adp_pos_rank": 32,
+    "adp_stdev": 6.8,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0032",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 161.5,
+    "adp_pos_rank": 65,
+    "adp_stdev": 19.3,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0033",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 159.0,
+    "adp_pos_rank": 66,
+    "adp_stdev": 17.3,
+    "seasons_of_data": 7,
+    "years_since_first_season": 8,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 147.6,
+     "ppg": 10.54,
+     "pos_rank": 22
+    }
+   }
+  },
+  {
+   "question_id": "B0034",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 158.5,
+    "adp_pos_rank": 64,
+    "adp_stdev": 16.9,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 110.0,
+     "ppg": 6.88,
+     "pos_rank": 35
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 85.0,
+     "ppg": 5.31,
+     "pos_rank": 48
+    }
+   }
+  },
+  {
+   "question_id": "B0035",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 35.0,
+    "adp_pos_rank": 11,
+    "adp_stdev": 4.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 176.5,
+     "ppg": 11.03,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 95.1,
+     "ppg": 11.89,
+     "pos_rank": 47
+    }
+   }
+  },
+  {
+   "question_id": "B0036",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 104.8,
+    "adp_pos_rank": 42,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 122.0,
+     "ppg": 8.71,
+     "pos_rank": 33
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0037",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 57.4,
+    "adp_pos_rank": 24,
+    "adp_stdev": 6.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 133.9,
+     "ppg": 9.56,
+     "pos_rank": 24
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0038",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 38.4,
+    "adp_pos_rank": 14,
+    "adp_stdev": 4.5,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 71.2,
+     "ppg": 5.93,
+     "pos_rank": 65
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 185.9,
+     "ppg": 11.62,
+     "pos_rank": 9
+    }
+   }
+  },
+  {
+   "question_id": "B0039",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 159.4,
+    "adp_pos_rank": 62,
+    "adp_stdev": 13.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 12,
+     "total": 67.8,
+     "ppg": 5.65,
+     "pos_rank": 69
+    },
+    "two_seasons_ago": {
+     "games": 1,
+     "total": 0.7,
+     "ppg": 0.7,
+     "pos_rank": 202
+    }
+   }
+  },
+  {
+   "question_id": "B0040",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 158.4,
+    "adp_pos_rank": 63,
+    "adp_stdev": 22.5,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 7,
+     "total": 25.3,
+     "ppg": 3.61,
+     "pos_rank": 85
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 70.7,
+     "ppg": 5.44,
+     "pos_rank": 54
+    }
+   }
+  },
+  {
+   "question_id": "B0041",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 78.7,
+    "adp_pos_rank": 33,
+    "adp_stdev": 6.5,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 15,
+     "total": 132.1,
+     "ppg": 8.81,
+     "pos_rank": 26
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0042",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 131.7,
+    "adp_pos_rank": 17,
+    "adp_stdev": 12.4,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 2,
+     "total": 16.68,
+     "ppg": 8.34,
+     "pos_rank": 50
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 282.6,
+     "ppg": 20.19,
+     "pos_rank": 12
+    }
+   }
+  },
+  {
+   "question_id": "B0043",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 98.7,
+    "adp_pos_rank": 40,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 17,
+     "total": 124.3,
+     "ppg": 7.31,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 127.22,
+     "ppg": 10.6,
+     "pos_rank": 24
+    }
+   }
+  },
+  {
+   "question_id": "B0044",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 104.9,
+    "adp_pos_rank": 13,
+    "adp_stdev": 9.7,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 8,
+     "total": 166.56,
+     "ppg": 20.82,
+     "pos_rank": 29
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 212.18,
+     "ppg": 13.26,
+     "pos_rank": 20
+    }
+   }
+  },
+  {
+   "question_id": "B0045",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 18.2,
+    "adp_pos_rank": 4,
+    "adp_stdev": 2.8,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 15,
+     "total": 175.1,
+     "ppg": 11.67,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 212.9,
+     "ppg": 13.31,
+     "pos_rank": 5
+    }
+   }
+  },
+  {
+   "question_id": "B0046",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 155.7,
+    "adp_pos_rank": 21,
+    "adp_stdev": 15.5,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 15,
+     "total": 244.42,
+     "ppg": 16.29,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 282.12,
+     "ppg": 17.63,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "B0047",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 151.8,
+    "adp_pos_rank": 16,
+    "adp_stdev": 18.2,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 85.0,
+     "ppg": 5.67,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 18.2,
+     "ppg": 1.3,
+     "pos_rank": 64
+    }
+   }
+  },
+  {
+   "question_id": "B0048",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 121.1,
+    "adp_pos_rank": 13,
+    "adp_stdev": 16.1,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 46.9,
+     "ppg": 2.93,
+     "pos_rank": 35
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 22.3,
+     "ppg": 2.48,
+     "pos_rank": 58
+    }
+   }
+  },
+  {
+   "question_id": "B0049",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 76.4,
+    "adp_pos_rank": 8,
+    "adp_stdev": 9.1,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 11,
+     "total": 224.76,
+     "ppg": 20.43,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 303.98,
+     "ppg": 20.27,
+     "pos_rank": 8
+    }
+   }
+  },
+  {
+   "question_id": "B0050",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 27.6,
+    "adp_pos_rank": 8,
+    "adp_stdev": 3.3,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 13,
+     "total": 165.7,
+     "ppg": 12.75,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 198.4,
+     "ppg": 12.4,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "B0051",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 79.5,
+    "adp_pos_rank": 34,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 140.6,
+     "ppg": 8.79,
+     "pos_rank": 24
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 132.1,
+     "ppg": 10.16,
+     "pos_rank": 25
+    }
+   }
+  },
+  {
+   "question_id": "B0052",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 65.4,
+    "adp_pos_rank": 31,
+    "adp_stdev": 7.5,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 167.3,
+     "ppg": 11.95,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 161.1,
+     "ppg": 13.42,
+     "pos_rank": 19
+    }
+   }
+  },
+  {
+   "question_id": "B0053",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 33.3,
+    "adp_pos_rank": 21,
+    "adp_stdev": 4.8,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 188.4,
+     "ppg": 12.56,
+     "pos_rank": 12
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 313.1,
+     "ppg": 22.36,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "B0054",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 50.8,
+    "adp_pos_rank": 20,
+    "adp_stdev": 4.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 153.2,
+     "ppg": 9.57,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 165.4,
+     "ppg": 10.34,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "B0055",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 13.6,
+    "adp_pos_rank": 2,
+    "adp_stdev": 2.7,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 12,
+     "total": 129.7,
+     "ppg": 10.81,
+     "pos_rank": 29
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 218.6,
+     "ppg": 14.57,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "B0056",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 156.7,
+    "adp_pos_rank": 20,
+    "adp_stdev": 16.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 1,
+     "total": 0.7,
+     "ppg": 0.7,
+     "pos_rank": 113
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 74.2,
+     "ppg": 5.3,
+     "pos_rank": 15
+    }
+   }
+  },
+  {
+   "question_id": "B0057",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 1.3,
+    "adp_pos_rank": 1,
+    "adp_stdev": 0.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 355.2,
+     "ppg": 22.2,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 278.5,
+     "ppg": 17.41,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "B0058",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 131.0,
+    "adp_pos_rank": 52,
+    "adp_stdev": 13.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0059",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 7.9,
+    "adp_pos_rank": 1,
+    "adp_stdev": 1.9,
+    "seasons_of_data": 2,
+    "years_since_first_season": 9,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0060",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 25.6,
+    "adp_pos_rank": 7,
+    "adp_stdev": 3.0,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 183.0,
+     "ppg": 11.44,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 137.1,
+     "ppg": 9.14,
+     "pos_rank": 21
+    }
+   }
+  },
+  {
+   "question_id": "B0061",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 125.5,
+    "adp_pos_rank": 49,
+    "adp_stdev": 9.7,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 10,
+     "total": 84.8,
+     "ppg": 8.48,
+     "pos_rank": 54
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 116.5,
+     "ppg": 7.28,
+     "pos_rank": 29
+    }
+   }
+  },
+  {
+   "question_id": "B0062",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 111.4,
+    "adp_pos_rank": 45,
+    "adp_stdev": 9.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0063",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 154.0,
+    "adp_pos_rank": 17,
+    "adp_stdev": 20.4,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 49.9,
+     "ppg": 3.56,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 86.5,
+     "ppg": 8.65,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "B0064",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 149.6,
+    "adp_pos_rank": 57,
+    "adp_stdev": 17.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 9,
+     "total": 74.9,
+     "ppg": 8.32,
+     "pos_rank": 48
+    },
+    "two_seasons_ago": {
+     "games": 1,
+     "total": 0.0,
+     "ppg": 0.0,
+     "pos_rank": 147
+    }
+   }
+  },
+  {
+   "question_id": "B0065",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 48.0,
+    "adp_pos_rank": 18,
+    "adp_stdev": 4.6,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 142.9,
+     "ppg": 9.53,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 179.6,
+     "ppg": 11.22,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "B0066",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 156.6,
+    "adp_pos_rank": 22,
+    "adp_stdev": 15.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 5,
+     "total": 68.0,
+     "ppg": 13.6,
+     "pos_rank": 36
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0067",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 18.2,
+    "adp_pos_rank": 14,
+    "adp_stdev": 2.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 217.0,
+     "ppg": 13.56,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 129.8,
+     "ppg": 9.27,
+     "pos_rank": 27
+    }
+   }
+  },
+  {
+   "question_id": "B0068",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 62.8,
+    "adp_pos_rank": 30,
+    "adp_stdev": 7.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0069",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 87.1,
+    "adp_pos_rank": 35,
+    "adp_stdev": 7.5,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 132.9,
+     "ppg": 8.31,
+     "pos_rank": 25
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 145.1,
+     "ppg": 10.36,
+     "pos_rank": 17
+    }
+   }
+  },
+  {
+   "question_id": "B0070",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 43.6,
+    "adp_pos_rank": 17,
+    "adp_stdev": 5.1,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 129.3,
+     "ppg": 8.08,
+     "pos_rank": 30
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 155.34,
+     "ppg": 12.95,
+     "pos_rank": 16
+    }
+   }
+  },
+  {
+   "question_id": "B0071",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 153.6,
+    "adp_pos_rank": 20,
+    "adp_stdev": 15.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0072",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 161.9,
+    "adp_pos_rank": 70,
+    "adp_stdev": 14.6,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0073",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 11.1,
+    "adp_pos_rank": 10,
+    "adp_stdev": 1.8,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 190.4,
+     "ppg": 11.9,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 200.4,
+     "ppg": 14.31,
+     "pos_rank": 9
+    }
+   }
+  },
+  {
+   "question_id": "B0074",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 117.2,
+    "adp_pos_rank": 12,
+    "adp_stdev": 15.3,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 71.0,
+     "ppg": 4.44,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0075",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 162.5,
+    "adp_pos_rank": 26,
+    "adp_stdev": 15.3,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 247.32,
+     "ppg": 15.46,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 48.02,
+     "ppg": 16.01,
+     "pos_rank": 40
+    }
+   }
+  },
+  {
+   "question_id": "B0076",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 83.7,
+    "adp_pos_rank": 9,
+    "adp_stdev": 8.4,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 15,
+     "total": 267.34,
+     "ppg": 17.82,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 353.96,
+     "ppg": 22.12,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "B0077",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 6.0,
+    "adp_pos_rank": 6,
+    "adp_stdev": 1.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 239.4,
+     "ppg": 17.1,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 112.0,
+     "ppg": 10.18,
+     "pos_rank": 31
+    }
+   }
+  },
+  {
+   "question_id": "B0078",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 74.5,
+    "adp_pos_rank": 30,
+    "adp_stdev": 6.2,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 14,
+     "total": 75.5,
+     "ppg": 5.39,
+     "pos_rank": 61
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 163.2,
+     "ppg": 10.88,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "B0079",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 90.8,
+    "adp_pos_rank": 38,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 84.3,
+     "ppg": 7.02,
+     "pos_rank": 45
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 135.5,
+     "ppg": 9.68,
+     "pos_rank": 24
+    }
+   }
+  },
+  {
+   "question_id": "B0080",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 157.1,
+    "adp_pos_rank": 60,
+    "adp_stdev": 11.7,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 11,
+     "total": 105.2,
+     "ppg": 9.56,
+     "pos_rank": 40
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 108.9,
+     "ppg": 7.26,
+     "pos_rank": 35
+    }
+   }
+  },
+  {
+   "question_id": "B0081",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 124.9,
+    "adp_pos_rank": 48,
+    "adp_stdev": 10.7,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 2,
+     "total": 27.9,
+     "ppg": 13.95,
+     "pos_rank": 113
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 110.3,
+     "ppg": 9.19,
+     "pos_rank": 32
+    }
+   }
+  },
+  {
+   "question_id": "B0082",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 160.4,
+    "adp_pos_rank": 67,
+    "adp_stdev": 13.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 85.9,
+     "ppg": 5.37,
+     "pos_rank": 42
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 10.4,
+     "ppg": 1.3,
+     "pos_rank": 98
+    }
+   }
+  },
+  {
+   "question_id": "B0083",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 57.8,
+    "adp_pos_rank": 28,
+    "adp_stdev": 6.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0084",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 156.7,
+    "adp_pos_rank": 20,
+    "adp_stdev": 16.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 1,
+     "total": 0.7,
+     "ppg": 0.7,
+     "pos_rank": 113
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 74.2,
+     "ppg": 5.3,
+     "pos_rank": 15
+    }
+   }
+  },
+  {
+   "question_id": "B0085",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 65.3,
+    "adp_pos_rank": 5,
+    "adp_stdev": 7.1,
+    "seasons_of_data": 4,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 131.0,
+     "ppg": 8.19,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 4,
+     "total": 9.6,
+     "ppg": 2.4,
+     "pos_rank": 80
+    }
+   }
+  },
+  {
+   "question_id": "B0086",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 92.4,
+    "adp_pos_rank": 38,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 91.5,
+     "ppg": 5.72,
+     "pos_rank": 49
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0087",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 159.8,
+    "adp_pos_rank": 24,
+    "adp_stdev": 15.2,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 235.5,
+     "ppg": 14.72,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 285.02,
+     "ppg": 17.81,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "B0088",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 36.3,
+    "adp_pos_rank": 22,
+    "adp_stdev": 6.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0089",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 18.1,
+    "adp_pos_rank": 2,
+    "adp_stdev": 4.8,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 415.68,
+     "ppg": 27.71,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 157.54,
+     "ppg": 9.85,
+     "pos_rank": 29
+    }
+   }
+  },
+  {
+   "question_id": "B0090",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 153.6,
+    "adp_pos_rank": 20,
+    "adp_stdev": 15.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0091",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 4.8,
+    "adp_pos_rank": 4,
+    "adp_stdev": 1.2,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 167.52,
+     "ppg": 11.97,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 273.2,
+     "ppg": 18.21,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "B0092",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 136.6,
+    "adp_pos_rank": 52,
+    "adp_stdev": 12.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0093",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 115.7,
+    "adp_pos_rank": 49,
+    "adp_stdev": 7.5,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 74.2,
+     "ppg": 5.3,
+     "pos_rank": 49
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0094",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 151.5,
+    "adp_pos_rank": 15,
+    "adp_stdev": 18.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 12,
+     "total": 48.7,
+     "ppg": 4.06,
+     "pos_rank": 33
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0095",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 109.8,
+    "adp_pos_rank": 43,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 13,
+     "total": 100.2,
+     "ppg": 7.71,
+     "pos_rank": 45
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 80.5,
+     "ppg": 6.71,
+     "pos_rank": 57
+    }
+   }
+  },
+  {
+   "question_id": "B0096",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 153.6,
+    "adp_pos_rank": 59,
+    "adp_stdev": 27.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0097",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 155.3,
+    "adp_pos_rank": 61,
+    "adp_stdev": 17.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 6,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0098",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 8.4,
+    "adp_pos_rank": 8,
+    "adp_stdev": 1.7,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 13,
+     "total": 171.6,
+     "ppg": 13.2,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0099",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 14.8,
+    "adp_pos_rank": 3,
+    "adp_stdev": 2.8,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 12,
+     "total": 130.3,
+     "ppg": 10.86,
+     "pos_rank": 28
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 241.0,
+     "ppg": 15.06,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "B0100",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 77.1,
+    "adp_pos_rank": 33,
+    "adp_stdev": 6.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 9,
+     "total": 101.4,
+     "ppg": 11.27,
+     "pos_rank": 38
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 160.0,
+     "ppg": 10.0,
+     "pos_rank": 20
+    }
+   }
+  },
+  {
+   "question_id": "B0101",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 42.5,
+    "adp_pos_rank": 3,
+    "adp_stdev": 5.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 143.2,
+     "ppg": 9.55,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 73.2,
+     "ppg": 4.58,
+     "pos_rank": 16
+    }
+   }
+  },
+  {
+   "question_id": "B0102",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 52.6,
+    "adp_pos_rank": 4,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 337.78,
+     "ppg": 21.11,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 285.9,
+     "ppg": 17.87,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "B0103",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 156.6,
+    "adp_pos_rank": 22,
+    "adp_stdev": 15.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 5,
+     "total": 68.0,
+     "ppg": 13.6,
+     "pos_rank": 36
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0104",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 151.4,
+    "adp_pos_rank": 14,
+    "adp_stdev": 25.7,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 11,
+     "total": 55.5,
+     "ppg": 5.05,
+     "pos_rank": 24
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 156.2,
+     "ppg": 9.76,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "B0105",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 62.6,
+    "adp_pos_rank": 6,
+    "adp_stdev": 7.4,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 319.98,
+     "ppg": 21.33,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 331.7,
+     "ppg": 20.73,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "B0106",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 160.5,
+    "adp_pos_rank": 68,
+    "adp_stdev": 13.6,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0107",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 132.7,
+    "adp_pos_rank": 18,
+    "adp_stdev": 10.8,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 247.52,
+     "ppg": 15.47,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 310.32,
+     "ppg": 19.39,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "B0108",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 168.1,
+    "adp_pos_rank": 69,
+    "adp_stdev": 13.2,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 102.4,
+     "ppg": 6.4,
+     "pos_rank": 41
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 116.68,
+     "ppg": 7.29,
+     "pos_rank": 28
+    }
+   }
+  },
+  {
+   "question_id": "B0109",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 160.8,
+    "adp_pos_rank": 63,
+    "adp_stdev": 14.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 7,
+     "total": 20.1,
+     "ppg": 2.87,
+     "pos_rank": 136
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0110",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 155.2,
+    "adp_pos_rank": 60,
+    "adp_stdev": 17.4,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 11,
+     "total": 54.9,
+     "ppg": 4.99,
+     "pos_rank": 59
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0111",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 111.4,
+    "adp_pos_rank": 45,
+    "adp_stdev": 9.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0112",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 167.9,
+    "adp_pos_rank": 68,
+    "adp_stdev": 13.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 13,
+     "total": 84.5,
+     "ppg": 6.5,
+     "pos_rank": 55
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0113",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 86.6,
+    "adp_pos_rank": 37,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 14,
+     "total": 114.4,
+     "ppg": 8.17,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 161.6,
+     "ppg": 10.1,
+     "pos_rank": 18
+    }
+   }
+  },
+  {
+   "question_id": "B0114",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 115.3,
+    "adp_pos_rank": 48,
+    "adp_stdev": 11.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 1,
+     "total": 1.2,
+     "ppg": 1.2,
+     "pos_rank": 126
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0115",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 157.7,
+    "adp_pos_rank": 22,
+    "adp_stdev": 16.5,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 68.8,
+     "ppg": 4.3,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 6,
+     "total": 34.5,
+     "ppg": 5.75,
+     "pos_rank": 36
+    }
+   }
+  },
+  {
+   "question_id": "B0116",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 60.6,
+    "adp_pos_rank": 29,
+    "adp_stdev": 7.8,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 135.3,
+     "ppg": 8.46,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 7,
+     "total": 13.7,
+     "ppg": 1.96,
+     "pos_rank": 94
+    }
+   }
+  },
+  {
+   "question_id": "B0117",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 37.4,
+    "adp_pos_rank": 12,
+    "adp_stdev": 4.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 13,
+     "total": 134.0,
+     "ppg": 10.31,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 142.8,
+     "ppg": 8.93,
+     "pos_rank": 18
+    }
+   }
+  },
+  {
+   "question_id": "B0118",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 90.7,
+    "adp_pos_rank": 11,
+    "adp_stdev": 10.7,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 263.68,
+     "ppg": 16.48,
+     "pos_rank": 12
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 280.3,
+     "ppg": 17.52,
+     "pos_rank": 14
+    }
+   }
+  },
+  {
+   "question_id": "B0119",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 72.2,
+    "adp_pos_rank": 29,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 174.2,
+     "ppg": 10.89,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 36.9,
+     "ppg": 3.35,
+     "pos_rank": 105
+    }
+   }
+  },
+  {
+   "question_id": "B0120",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 171.6,
+    "adp_pos_rank": 70,
+    "adp_stdev": 9.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 13,
+     "total": 101.1,
+     "ppg": 7.78,
+     "pos_rank": 43
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 96.8,
+     "ppg": 6.45,
+     "pos_rank": 46
+    }
+   }
+  },
+  {
+   "question_id": "B0121",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 66.4,
+    "adp_pos_rank": 28,
+    "adp_stdev": 5.8,
+    "seasons_of_data": 8,
+    "years_since_first_season": 9,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 103.4,
+     "ppg": 11.49,
+     "pos_rank": 38
+    }
+   }
+  },
+  {
+   "question_id": "B0122",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 95.2,
+    "adp_pos_rank": 41,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 123.2,
+     "ppg": 7.7,
+     "pos_rank": 30
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 109.9,
+     "ppg": 6.87,
+     "pos_rank": 32
+    }
+   }
+  },
+  {
+   "question_id": "B0123",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 147.1,
+    "adp_pos_rank": 58,
+    "adp_stdev": 14.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 8,
+     "total": 58.8,
+     "ppg": 7.35,
+     "pos_rank": 75
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0124",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 103.7,
+    "adp_pos_rank": 43,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 9,
+     "total": 18.4,
+     "ppg": 2.04,
+     "pos_rank": 92
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0125",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 53.8,
+    "adp_pos_rank": 4,
+    "adp_stdev": 6.6,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 127.6,
+     "ppg": 8.51,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 164.3,
+     "ppg": 10.27,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "B0126",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 14.7,
+    "adp_pos_rank": 12,
+    "adp_stdev": 2.8,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 14,
+     "total": 164.2,
+     "ppg": 11.73,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 153.2,
+     "ppg": 9.57,
+     "pos_rank": 21
+    }
+   }
+  },
+  {
+   "question_id": "B0127",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 30.0,
+    "adp_pos_rank": 17,
+    "adp_stdev": 4.6,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 12,
+     "total": 105.5,
+     "ppg": 8.79,
+     "pos_rank": 37
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 196.6,
+     "ppg": 12.29,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "B0128",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 117.7,
+    "adp_pos_rank": 50,
+    "adp_stdev": 11.2,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 15,
+     "total": 130.0,
+     "ppg": 8.67,
+     "pos_rank": 29
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 169.0,
+     "ppg": 10.56,
+     "pos_rank": 16
+    }
+   }
+  },
+  {
+   "question_id": "B0129",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 128.3,
+    "adp_pos_rank": 51,
+    "adp_stdev": 10.2,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 13,
+     "total": 86.5,
+     "ppg": 6.65,
+     "pos_rank": 52
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 75.1,
+     "ppg": 7.51,
+     "pos_rank": 62
+    }
+   }
+  },
+  {
+   "question_id": "B0130",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 21.0,
+    "adp_pos_rank": 1,
+    "adp_stdev": 3.7,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 157.3,
+     "ppg": 9.83,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 191.6,
+     "ppg": 11.97,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "B0131",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 95.6,
+    "adp_pos_rank": 12,
+    "adp_stdev": 9.6,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 275.86,
+     "ppg": 17.24,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 192.66,
+     "ppg": 17.51,
+     "pos_rank": 23
+    }
+   }
+  },
+  {
+   "question_id": "B0132",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 95.2,
+    "adp_pos_rank": 41,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 123.2,
+     "ppg": 7.7,
+     "pos_rank": 30
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 109.9,
+     "ppg": 6.87,
+     "pos_rank": 32
+    }
+   }
+  },
+  {
+   "question_id": "B0133",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 38.2,
+    "adp_pos_rank": 13,
+    "adp_stdev": 4.3,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 165.1,
+     "ppg": 10.32,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0134",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 152.9,
+    "adp_pos_rank": 58,
+    "adp_stdev": 18.1,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 61.9,
+     "ppg": 3.87,
+     "pos_rank": 54
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 97.9,
+     "ppg": 6.12,
+     "pos_rank": 38
+    }
+   }
+  },
+  {
+   "question_id": "B0135",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 85.3,
+    "adp_pos_rank": 36,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 162.7,
+     "ppg": 10.17,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 187.8,
+     "ppg": 12.52,
+     "pos_rank": 12
+    }
+   }
+  },
+  {
+   "question_id": "B0136",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 25.0,
+    "adp_pos_rank": 16,
+    "adp_stdev": 3.5,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 195.6,
+     "ppg": 13.04,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 181.4,
+     "ppg": 12.96,
+     "pos_rank": 14
+    }
+   }
+  },
+  {
+   "question_id": "B0137",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 49.8,
+    "adp_pos_rank": 3,
+    "adp_stdev": 7.1,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 328.6,
+     "ppg": 20.54,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 298.42,
+     "ppg": 18.65,
+     "pos_rank": 9
+    }
+   }
+  },
+  {
+   "question_id": "B0138",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 77.1,
+    "adp_pos_rank": 7,
+    "adp_stdev": 6.8,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 8,
+     "total": 65.4,
+     "ppg": 8.18,
+     "pos_rank": 20
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 81.3,
+     "ppg": 7.39,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "B0139",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 33.4,
+    "adp_pos_rank": 10,
+    "adp_stdev": 3.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 167.5,
+     "ppg": 10.47,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 140.5,
+     "ppg": 9.37,
+     "pos_rank": 19
+    }
+   }
+  },
+  {
+   "question_id": "B0140",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 26.5,
+    "adp_pos_rank": 2,
+    "adp_stdev": 3.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 137.5,
+     "ppg": 9.82,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 170.7,
+     "ppg": 10.67,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "B0141",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 48.9,
+    "adp_pos_rank": 19,
+    "adp_stdev": 6.0,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 143.5,
+     "ppg": 9.57,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 104.0,
+     "ppg": 6.5,
+     "pos_rank": 37
+    }
+   }
+  },
+  {
+   "question_id": "B0142",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 13.2,
+    "adp_pos_rank": 11,
+    "adp_stdev": 2.8,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 168.7,
+     "ppg": 10.54,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0143",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 41.0,
+    "adp_pos_rank": 15,
+    "adp_stdev": 4.9,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 156.9,
+     "ppg": 9.81,
+     "pos_rank": 12
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 98.3,
+     "ppg": 7.56,
+     "pos_rank": 42
+    }
+   }
+  },
+  {
+   "question_id": "B0144",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 54.7,
+    "adp_pos_rank": 5,
+    "adp_stdev": 9.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 285.28,
+     "ppg": 17.83,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0145",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 105.3,
+    "adp_pos_rank": 44,
+    "adp_stdev": 10.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0146",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 5.0,
+    "adp_pos_rank": 5,
+    "adp_stdev": 1.2,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 15,
+     "total": 276.6,
+     "ppg": 18.44,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 186.36,
+     "ppg": 11.65,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "B0147",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 75.5,
+    "adp_pos_rank": 31,
+    "adp_stdev": 6.2,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 14,
+     "total": 146.7,
+     "ppg": 10.48,
+     "pos_rank": 20
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 64.7,
+     "ppg": 4.31,
+     "pos_rank": 75
+    }
+   }
+  },
+  {
+   "question_id": "B0148",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 158.3,
+    "adp_pos_rank": 23,
+    "adp_stdev": 24.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 229.24,
+     "ppg": 16.37,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0149",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 83.8,
+    "adp_pos_rank": 35,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 8,
+     "total": 75.0,
+     "ppg": 9.38,
+     "pos_rank": 47
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 107.4,
+     "ppg": 10.74,
+     "pos_rank": 33
+    }
+   }
+  },
+  {
+   "question_id": "B0150",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 30.6,
+    "adp_pos_rank": 9,
+    "adp_stdev": 3.6,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 10,
+     "total": 84.4,
+     "ppg": 8.44,
+     "pos_rank": 56
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 194.3,
+     "ppg": 12.14,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "B0151",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 148.4,
+    "adp_pos_rank": 56,
+    "adp_stdev": 14.6,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 143.2,
+     "ppg": 8.95,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 88.4,
+     "ppg": 6.31,
+     "pos_rank": 44
+    }
+   }
+  },
+  {
+   "question_id": "B0152",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 30.1,
+    "adp_pos_rank": 18,
+    "adp_stdev": 3.6,
+    "seasons_of_data": 6,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 149.0,
+     "ppg": 9.93,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0153",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 161.3,
+    "adp_pos_rank": 69,
+    "adp_stdev": 16.1,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 9,
+     "total": 67.3,
+     "ppg": 7.48,
+     "pos_rank": 52
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 61.4,
+     "ppg": 4.72,
+     "pos_rank": 60
+    }
+   }
+  },
+  {
+   "question_id": "B0154",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 159.8,
+    "adp_pos_rank": 24,
+    "adp_stdev": 15.2,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 235.5,
+     "ppg": 14.72,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 285.02,
+     "ppg": 17.81,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "B0155",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 108.3,
+    "adp_pos_rank": 14,
+    "adp_stdev": 8.7,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 13,
+     "total": 214.98,
+     "ppg": 16.54,
+     "pos_rank": 24
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0156",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 111.2,
+    "adp_pos_rank": 10,
+    "adp_stdev": 16.2,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 13,
+     "total": 116.7,
+     "ppg": 8.98,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 92.0,
+     "ppg": 5.75,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "B0157",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 9.8,
+    "adp_pos_rank": 9,
+    "adp_stdev": 2.1,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 219.2,
+     "ppg": 13.7,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 174.5,
+     "ppg": 10.91,
+     "pos_rank": 15
+    }
+   }
+  },
+  {
+   "question_id": "B0158",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 54.8,
+    "adp_pos_rank": 27,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 8,
+     "total": 64.4,
+     "ppg": 8.05,
+     "pos_rank": 53
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 204.2,
+     "ppg": 18.56,
+     "pos_rank": 8
+    }
+   }
+  },
+  {
+   "question_id": "B0159",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 146.4,
+    "adp_pos_rank": 54,
+    "adp_stdev": 18.6,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0160",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 110.3,
+    "adp_pos_rank": 44,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0161",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 92.2,
+    "adp_pos_rank": 37,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 7,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 13,
+     "total": 131.9,
+     "ppg": 10.15,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 80.8,
+     "ppg": 8.98,
+     "pos_rank": 56
+    }
+   }
+  },
+  {
+   "question_id": "B0162",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 147.2,
+    "adp_pos_rank": 55,
+    "adp_stdev": 27.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 37.2,
+     "ppg": 2.66,
+     "pos_rank": 77
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0163",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 44.5,
+    "adp_pos_rank": 25,
+    "adp_stdev": 5.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 12,
+     "total": 118.9,
+     "ppg": 9.91,
+     "pos_rank": 31
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0164",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 10.3,
+    "adp_pos_rank": 1,
+    "adp_stdev": 4.4,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 287.04,
+     "ppg": 20.5,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 417.08,
+     "ppg": 26.07,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "B0165",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 114.4,
+    "adp_pos_rank": 46,
+    "adp_stdev": 12.2,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0166",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 112.4,
+    "adp_pos_rank": 45,
+    "adp_stdev": 9.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 12,
+     "total": 70.8,
+     "ppg": 5.9,
+     "pos_rank": 51
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 43.1,
+     "ppg": 2.69,
+     "pos_rank": 77
+    }
+   }
+  },
+  {
+   "question_id": "B0167",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 87.0,
+    "adp_pos_rank": 10,
+    "adp_stdev": 8.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 288.56,
+     "ppg": 18.04,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 206.86,
+     "ppg": 17.24,
+     "pos_rank": 21
+    }
+   }
+  },
+  {
+   "question_id": "B0168",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 100.4,
+    "adp_pos_rank": 41,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 100.1,
+     "ppg": 6.26,
+     "pos_rank": 46
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0169",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 131.7,
+    "adp_pos_rank": 53,
+    "adp_stdev": 10.8,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 7,
+     "total": 22.2,
+     "ppg": 3.17,
+     "pos_rank": 89
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 46.1,
+     "ppg": 5.12,
+     "pos_rank": 72
+    }
+   }
+  },
+  {
+   "question_id": "B0170",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 162.9,
+    "adp_pos_rank": 27,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 244.36,
+     "ppg": 15.27,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 215.76,
+     "ppg": 13.48,
+     "pos_rank": 18
+    }
+   }
+  },
+  {
+   "question_id": "B0171",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 52.5,
+    "adp_pos_rank": 21,
+    "adp_stdev": 4.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 151.1,
+     "ppg": 10.07,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 164.3,
+     "ppg": 10.95,
+     "pos_rank": 12
+    }
+   }
+  },
+  {
+   "question_id": "B0172",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 139.3,
+    "adp_pos_rank": 54,
+    "adp_stdev": 11.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 75.5,
+     "ppg": 4.72,
+     "pos_rank": 62
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 87.22,
+     "ppg": 5.81,
+     "pos_rank": 52
+    }
+   }
+  },
+  {
+   "question_id": "B0173",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 2.4,
+    "adp_pos_rank": 2,
+    "adp_stdev": 0.8,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 13,
+     "total": 192.1,
+     "ppg": 14.78,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 294.8,
+     "ppg": 18.43,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "B0174",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 100.5,
+    "adp_pos_rank": 42,
+    "adp_stdev": 8.9,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 15,
+     "total": 130.2,
+     "ppg": 8.68,
+     "pos_rank": 28
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 189.6,
+     "ppg": 11.85,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "B0175",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 162.0,
+    "adp_pos_rank": 25,
+    "adp_stdev": 16.8,
+    "seasons_of_data": 5,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 9,
+     "total": 90.46,
+     "ppg": 10.05,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 4,
+     "total": 7.22,
+     "ppg": 1.8,
+     "pos_rank": 53
+    }
+   }
+  },
+  {
+   "question_id": "B0176",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 125.5,
+    "adp_pos_rank": 50,
+    "adp_stdev": 11.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0177",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 54.1,
+    "adp_pos_rank": 22,
+    "adp_stdev": 4.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 152.8,
+     "ppg": 10.19,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 15.4,
+     "ppg": 1.4,
+     "pos_rank": 148
+    }
+   }
+  },
+  {
+   "question_id": "B0178",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 157.7,
+    "adp_pos_rank": 21,
+    "adp_stdev": 17.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 86.7,
+     "ppg": 5.78,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 57.4,
+     "ppg": 3.83,
+     "pos_rank": 20
+    }
+   }
+  },
+  {
+   "question_id": "B0179",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 164.4,
+    "adp_pos_rank": 67,
+    "adp_stdev": 11.6,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 14,
+     "total": 102.1,
+     "ppg": 7.29,
+     "pos_rank": 42
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 46.2,
+     "ppg": 4.62,
+     "pos_rank": 93
+    }
+   }
+  },
+  {
+   "question_id": "B0180",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 58.9,
+    "adp_pos_rank": 25,
+    "adp_stdev": 5.5,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 157.5,
+     "ppg": 9.84,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 163.1,
+     "ppg": 10.87,
+     "pos_rank": 14
+    }
+   }
+  },
+  {
+   "question_id": "B0181",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 66.4,
+    "adp_pos_rank": 27,
+    "adp_stdev": 7.0,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 150.42,
+     "ppg": 9.4,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 94.3,
+     "ppg": 5.89,
+     "pos_rank": 48
+    }
+   }
+  },
+  {
+   "question_id": "B0182",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 155.7,
+    "adp_pos_rank": 21,
+    "adp_stdev": 15.5,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 15,
+     "total": 244.42,
+     "ppg": 16.29,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 282.12,
+     "ppg": 17.63,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "B0183",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 158.5,
+    "adp_pos_rank": 65,
+    "adp_stdev": 20.8,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 13,
+     "total": 90.6,
+     "ppg": 6.97,
+     "pos_rank": 41
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 93.2,
+     "ppg": 6.66,
+     "pos_rank": 40
+    }
+   }
+  },
+  {
+   "question_id": "B0184",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 161.2,
+    "adp_pos_rank": 64,
+    "adp_stdev": 15.6,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0185",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 95.4,
+    "adp_pos_rank": 39,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0186",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 23.8,
+    "adp_pos_rank": 6,
+    "adp_stdev": 3.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 190.1,
+     "ppg": 13.58,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 126.2,
+     "ppg": 7.89,
+     "pos_rank": 25
+    }
+   }
+  },
+  {
+   "question_id": "B0187",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 136.9,
+    "adp_pos_rank": 53,
+    "adp_stdev": 12.2,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 9,
+     "total": 79.2,
+     "ppg": 8.8,
+     "pos_rank": 59
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 120.3,
+     "ppg": 9.25,
+     "pos_rank": 26
+    }
+   }
+  },
+  {
+   "question_id": "B0188",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 100.4,
+    "adp_pos_rank": 41,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 100.1,
+     "ppg": 6.26,
+     "pos_rank": 46
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0189",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 156.8,
+    "adp_pos_rank": 62,
+    "adp_stdev": 25.8,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 9,
+     "total": 52.8,
+     "ppg": 5.87,
+     "pos_rank": 60
+    },
+    "two_seasons_ago": {
+     "games": 4,
+     "total": 13.1,
+     "ppg": 3.27,
+     "pos_rank": 95
+    }
+   }
+  },
+  {
+   "question_id": "B0190",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 47.2,
+    "adp_pos_rank": 26,
+    "adp_stdev": 5.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 153.2,
+     "ppg": 9.57,
+     "pos_rank": 20
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 32.6,
+     "ppg": 4.08,
+     "pos_rank": 81
+    }
+   }
+  },
+  {
+   "question_id": "B0191",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 112.4,
+    "adp_pos_rank": 45,
+    "adp_stdev": 9.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 12,
+     "total": 70.8,
+     "ppg": 5.9,
+     "pos_rank": 51
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 43.1,
+     "ppg": 2.69,
+     "pos_rank": 77
+    }
+   }
+  },
+  {
+   "question_id": "B0192",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 145.4,
+    "adp_pos_rank": 57,
+    "adp_stdev": 13.8,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0193",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 75.8,
+    "adp_pos_rank": 7,
+    "adp_stdev": 8.7,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 278.38,
+     "ppg": 17.4,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 312.58,
+     "ppg": 19.54,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "B0194",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 85.1,
+    "adp_pos_rank": 34,
+    "adp_stdev": 6.9,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 154.4,
+     "ppg": 9.65,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 136.12,
+     "ppg": 8.51,
+     "pos_rank": 22
+    }
+   }
+  },
+  {
+   "question_id": "B0195",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 20.0,
+    "adp_pos_rank": 5,
+    "adp_stdev": 3.4,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 164.54,
+     "ppg": 10.97,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 218.5,
+     "ppg": 13.66,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "B0196",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 110.3,
+    "adp_pos_rank": 44,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0197",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 41.5,
+    "adp_pos_rank": 24,
+    "adp_stdev": 4.8,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 145.4,
+     "ppg": 9.09,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0198",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 162.5,
+    "adp_pos_rank": 66,
+    "adp_stdev": 15.0,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 117.7,
+     "ppg": 7.36,
+     "pos_rank": 36
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 99.8,
+     "ppg": 7.68,
+     "pos_rank": 41
+    }
+   }
+  },
+  {
+   "question_id": "B0199",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 68.3,
+    "adp_pos_rank": 6,
+    "adp_stdev": 9.0,
+    "seasons_of_data": 8,
+    "years_since_first_season": 9,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 84.2,
+     "ppg": 6.48,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "B0200",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 162.9,
+    "adp_pos_rank": 27,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 244.36,
+     "ppg": 15.27,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 215.76,
+     "ppg": 13.48,
+     "pos_rank": 18
+    }
+   }
+  },
+  {
+   "question_id": "B0201",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 104.8,
+    "adp_pos_rank": 42,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 122.0,
+     "ppg": 8.71,
+     "pos_rank": 33
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0202",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 142.6,
+    "adp_pos_rank": 55,
+    "adp_stdev": 12.7,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 110.3,
+     "ppg": 6.89,
+     "pos_rank": 38
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 106.4,
+     "ppg": 7.6,
+     "pos_rank": 36
+    }
+   }
+  },
+  {
+   "question_id": "B0203",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 162.0,
+    "adp_pos_rank": 25,
+    "adp_stdev": 16.8,
+    "seasons_of_data": 5,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 9,
+     "total": 90.46,
+     "ppg": 10.05,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 4,
+     "total": 7.22,
+     "ppg": 1.8,
+     "pos_rank": 53
+    }
+   }
+  },
+  {
+   "question_id": "B0204",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 105.3,
+    "adp_pos_rank": 44,
+    "adp_stdev": 10.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0205",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 42.4,
+    "adp_pos_rank": 16,
+    "adp_stdev": 4.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 129.1,
+     "ppg": 8.07,
+     "pos_rank": 31
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0206",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 93.0,
+    "adp_pos_rank": 39,
+    "adp_stdev": 6.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 13,
+     "total": 58.4,
+     "ppg": 4.49,
+     "pos_rank": 55
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0207",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 157.7,
+    "adp_pos_rank": 21,
+    "adp_stdev": 17.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 86.7,
+     "ppg": 5.78,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 57.4,
+     "ppg": 3.83,
+     "pos_rank": 20
+    }
+   }
+  },
+  {
+   "question_id": "B0208",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 36.8,
+    "adp_pos_rank": 23,
+    "adp_stdev": 4.5,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 15,
+     "total": 216.5,
+     "ppg": 14.43,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 121.5,
+     "ppg": 10.12,
+     "pos_rank": 28
+    }
+   }
+  },
+  {
+   "question_id": "B0209",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 22.5,
+    "adp_pos_rank": 15,
+    "adp_stdev": 3.5,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 10,
+     "total": 111.5,
+     "ppg": 11.15,
+     "pos_rank": 33
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 225.0,
+     "ppg": 17.31,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "B0210",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 77.3,
+    "adp_pos_rank": 32,
+    "adp_stdev": 6.4,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 11,
+     "total": 85.0,
+     "ppg": 7.73,
+     "pos_rank": 53
+    },
+    "two_seasons_ago": {
+     "games": 7,
+     "total": 74.3,
+     "ppg": 10.61,
+     "pos_rank": 64
+    }
+   }
+  },
+  {
+   "question_id": "B0211",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 123.1,
+    "adp_pos_rank": 16,
+    "adp_stdev": 9.9,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 2,
+     "total": 12.74,
+     "ppg": 6.37,
+     "pos_rank": 52
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 340.86,
+     "ppg": 21.3,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "B0212",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 125.6,
+    "adp_pos_rank": 51,
+    "adp_stdev": 12.5,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 84.9,
+     "ppg": 5.31,
+     "pos_rank": 44
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 162.94,
+     "ppg": 10.18,
+     "pos_rank": 17
+    }
+   }
+  },
+  {
+   "question_id": "B0213",
+   "family": "bust",
+   "question": "This candidate is drafted top-12 at their position. What is the probability they BUST (finish outside the top-24 at position, or record no finish at all)?",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 85.5,
+    "adp_pos_rank": 8,
+    "adp_stdev": 10.1,
+    "seasons_of_data": 3,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 12,
+     "total": 95.2,
+     "ppg": 7.93,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0214",
+   "family": "over_under",
+   "question": "What is the probability this candidate finishes BETTER than their ADP-implied positional rank (realized positional finish strictly lower-numbered than adp_pos_rank)?",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 93.7,
+    "adp_pos_rank": 40,
+    "adp_stdev": 10.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  }
+ ]
+}

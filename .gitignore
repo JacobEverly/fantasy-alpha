@@ -1,0 +1,13 @@
+# separate git repo (research foundation), not a submodule
+fantasy-football-alpha-2026/
+
+data/raw/
+data/processed/
+training/checkpoints/*/lora_adapters/
+*.safetensors
+.venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+.DS_Store

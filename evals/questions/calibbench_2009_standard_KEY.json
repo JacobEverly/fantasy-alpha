@@ -1,0 +1,3339 @@
+{
+ "benchmark": "calibbench_v0",
+ "season": 2009,
+ "format": "standard",
+ "questions": {
+  "S2009:standard:127": {
+   "anon_id": "Q0160",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Drew Brees",
+   "nflverse_id": "00-0020531"
+  },
+  "S2009:standard:119": {
+   "anon_id": "Q0300",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tom Brady",
+   "nflverse_id": "00-0019596"
+  },
+  "S2009:standard:750": {
+   "anon_id": "Q0103",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Peyton Manning",
+   "nflverse_id": "00-0010346"
+  },
+  "S2009:standard:1004": {
+   "anon_id": "Q0303",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Aaron Rodgers",
+   "nflverse_id": "00-0023459"
+  },
+  "S2009:standard:995": {
+   "anon_id": "Q0039",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Philip Rivers",
+   "nflverse_id": "00-0022942"
+  },
+  "S2009:standard:1217": {
+   "anon_id": "Q0046",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kurt Warner",
+   "nflverse_id": "00-0017200"
+  },
+  "S2009:standard:1009": {
+   "anon_id": "Q0053",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tony Romo",
+   "nflverse_id": "00-0021678"
+  },
+  "S2009:standard:805": {
+   "anon_id": "Q0368",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Donovan McNabb",
+   "nflverse_id": "00-0011022"
+  },
+  "S2009:standard:1342": {
+   "anon_id": "Q0383",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Matt Ryan",
+   "nflverse_id": "00-0026143"
+  },
+  "S2009:standard:1039": {
+   "anon_id": "Q0247",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Matt Schaub",
+   "nflverse_id": "00-0022787"
+  },
+  "S2009:standard:265": {
+   "anon_id": "Q0149",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jay Cutler",
+   "nflverse_id": "00-0024226"
+  },
+  "S2009:standard:900": {
+   "anon_id": "Q0010",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Carson Palmer",
+   "nflverse_id": "00-0021429"
+  },
+  "S2009:standard:357": {
+   "anon_id": "Q0200",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Brett Favre",
+   "nflverse_id": "00-0005106"
+  },
+  "S2009:standard:1006": {
+   "anon_id": "Q0108",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Ben Roethlisberger",
+   "nflverse_id": "00-0022924"
+  },
+  "S2009:standard:500": {
+   "anon_id": "Q0380",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Matt Hasselbeck",
+   "nflverse_id": "00-0007091"
+  },
+  "S2009:standard:1193": {
+   "anon_id": "Q0307",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Michael Vick",
+   "nflverse_id": "00-0020245"
+  },
+  "S2009:standard:749": {
+   "anon_id": "Q0270",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Eli Manning",
+   "nflverse_id": "00-0022803"
+  },
+  "S2009:standard:188": {
+   "anon_id": "Q0092",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Matt Cassel",
+   "nflverse_id": "00-0023662"
+  },
+  "S2009:standard:893": {
+   "anon_id": "Q0256",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kyle Orton",
+   "nflverse_id": "00-0023541"
+  },
+  "S2009:standard:337": {
+   "anon_id": "Q0009",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Trent Edwards",
+   "nflverse_id": "00-0025479"
+  },
+  "S2009:standard:292": {
+   "anon_id": "Q0208",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jake Delhomme",
+   "nflverse_id": "00-0004161"
+  },
+  "S2009:standard:412": {
+   "anon_id": "Q0449",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "David Garrard",
+   "nflverse_id": "00-0021231"
+  },
+  "S2009:standard:1343": {
+   "anon_id": "Q0117",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Joe Flacco",
+   "nflverse_id": "00-0026158"
+  },
+  "S2009:standard:919": {
+   "anon_id": "Q0347",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chad Pennington",
+   "nflverse_id": "00-0019559"
+  },
+  "S2009:standard:1665": {
+   "anon_id": "Q0031",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Mark Sanchez",
+   "nflverse_id": "00-0026898"
+  },
+  "S2009:standard:1664": {
+   "anon_id": "Q0197",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Matthew Stafford",
+   "nflverse_id": "00-0026498"
+  },
+  "S2009:standard:170": {
+   "anon_id": "Q0291",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jason Campbell",
+   "nflverse_id": "00-0023460"
+  },
+  "S2009:standard:956": {
+   "anon_id": "Q0379",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brady Quinn",
+   "nflverse_id": "00-0025409"
+  },
+  "S2009:standard:155": {
+   "anon_id": "Q0107",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Marc Bulger",
+   "nflverse_id": "00-0019599"
+  },
+  "S2009:standard:925": {
+   "anon_id": "Q0014",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Adrian Peterson",
+   "nflverse_id": "00-0021306"
+  },
+  "S2009:standard:649": {
+   "anon_id": "Q0454",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Maurice Jones-Drew",
+   "nflverse_id": "00-0024275"
+  },
+  "S2009:standard:1183": {
+   "anon_id": "Q0439",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Michael Turner",
+   "nflverse_id": "00-0022821"
+  },
+  "S2009:standard:1354": {
+   "anon_id": "Q0169",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Matt Forte",
+   "nflverse_id": "00-0026184"
+  },
+  "S2009:standard:1257": {
+   "anon_id": "Q0322",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "DeAngelo Williams",
+   "nflverse_id": "00-0024242"
+  },
+  "S2009:standard:1173": {
+   "anon_id": "Q0201",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "LaDainian Tomlinson",
+   "nflverse_id": "00-0020536"
+  },
+  "S2009:standard:581": {
+   "anon_id": "Q0311",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Steven Jackson",
+   "nflverse_id": "00-0022736"
+  },
+  "S2009:standard:1347": {
+   "anon_id": "Q0182",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Chris Johnson",
+   "nflverse_id": "00-0026164"
+  },
+  "S2009:standard:1373": {
+   "anon_id": "Q0042",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Steve Slaton",
+   "nflverse_id": "00-0026229"
+  },
+  "S2009:standard:437": {
+   "anon_id": "Q0059",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Frank Gore",
+   "nflverse_id": "00-0023500"
+  },
+  "S2009:standard:588": {
+   "anon_id": "Q0078",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brandon Jacobs",
+   "nflverse_id": "00-0023545"
+  },
+  "S2009:standard:1237": {
+   "anon_id": "Q0035",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brian Westbrook",
+   "nflverse_id": "00-0021216"
+  },
+  "S2009:standard:948": {
+   "anon_id": "Q0057",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Clinton Portis",
+   "nflverse_id": "00-0021179"
+  },
+  "S2009:standard:52": {
+   "anon_id": "Q0332",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Marion Barber",
+   "nflverse_id": "00-0023544"
+  },
+  "S2009:standard:1333": {
+   "anon_id": "Q0041",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Ryan Grant",
+   "nflverse_id": "00-0022984"
+  },
+  "S2009:standard:1339": {
+   "anon_id": "Q0241",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Pierre Thomas",
+   "nflverse_id": "00-0024813"
+  },
+  "S2009:standard:142": {
+   "anon_id": "Q0129",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ronnie Brown",
+   "nflverse_id": "00-0023437"
+  },
+  "S2009:standard:1365": {
+   "anon_id": "Q0022",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kevin Smith",
+   "nflverse_id": "00-0026204"
+  },
+  "S2009:standard:1360": {
+   "anon_id": "Q0055",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Ray Rice",
+   "nflverse_id": "00-0026195"
+  },
+  "S2009:standard:1341": {
+   "anon_id": "Q0236",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Darren McFadden",
+   "nflverse_id": "00-0026144"
+  },
+  "S2009:standard:740": {
+   "anon_id": "Q0077",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Marshawn Lynch",
+   "nflverse_id": "00-0025399"
+  },
+  "S2009:standard:4": {
+   "anon_id": "Q0195",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Joseph Addai",
+   "nflverse_id": "00-0024245"
+  },
+  "S2009:standard:161": {
+   "anon_id": "Q0414",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Reggie Bush",
+   "nflverse_id": "00-0024217"
+  },
+  "S2009:standard:622": {
+   "anon_id": "Q0320",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Larry Johnson",
+   "nflverse_id": "00-0021976"
+  },
+  "S2009:standard:648": {
+   "anon_id": "Q0142",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Thomas Jones",
+   "nflverse_id": "00-0019641"
+  },
+  "S2009:standard:1640": {
+   "anon_id": "Q0023",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Knowshon Moreno",
+   "nflverse_id": "00-0026988"
+  },
+  "S2009:standard:905": {
+   "anon_id": "Q0299",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Willie Parker",
+   "nflverse_id": "00-0022250"
+  },
+  "S2009:standard:1641": {
+   "anon_id": "Q0045",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Beanie Wells",
+   "nflverse_id": "00-0027007"
+  },
+  "S2009:standard:1242": {
+   "anon_id": "Q0463",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "LenDale White",
+   "nflverse_id": "00-0024260"
+  },
+  "S2009:standard:1214": {
+   "anon_id": "Q0328",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Derrick Ward",
+   "nflverse_id": "00-0022770"
+  },
+  "S2009:standard:1345": {
+   "anon_id": "Q0396",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Felix Jones",
+   "nflverse_id": "00-0026162"
+  },
+  "S2009:standard:81": {
+   "anon_id": "Q0369",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Cedric Benson",
+   "nflverse_id": "00-0023439"
+  },
+  "S2009:standard:1344": {
+   "anon_id": "Q0111",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jonathan Stewart",
+   "nflverse_id": "00-0026153"
+  },
+  "S2009:standard:1642": {
+   "anon_id": "Q0245",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Donald Brown",
+   "nflverse_id": "00-0027003"
+  },
+  "S2009:standard:117": {
+   "anon_id": "Q0146",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ahmad Bradshaw",
+   "nflverse_id": "00-0025637"
+  },
+  "S2009:standard:1645": {
+   "anon_id": "Q0306",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "LeSean McCoy",
+   "nflverse_id": "00-0027029"
+  },
+  "S2009:standard:643": {
+   "anon_id": "Q0205",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Julius Jones",
+   "nflverse_id": "00-0022840"
+  },
+  "S2009:standard:1105": {
+   "anon_id": "Q0437",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Darren Sproles",
+   "nflverse_id": "00-0023564"
+  },
+  "S2009:standard:1221": {
+   "anon_id": "Q0164",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Leon Washington",
+   "nflverse_id": "00-0024332"
+  },
+  "S2009:standard:716": {
+   "anon_id": "Q0350",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jamal Lewis",
+   "nflverse_id": "00-0019693"
+  },
+  "S2009:standard:1394": {
+   "anon_id": "Q0081",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tim Hightower",
+   "nflverse_id": "00-0026289"
+  },
+  "S2009:standard:1346": {
+   "anon_id": "Q0426",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Rashard Mendenhall",
+   "nflverse_id": "00-0026163"
+  },
+  "S2009:standard:1148": {
+   "anon_id": "Q0119",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chester Taylor",
+   "nflverse_id": "00-0021314"
+  },
+  "S2009:standard:1652": {
+   "anon_id": "Q0388",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "James Davis",
+   "nflverse_id": "00-0027130"
+  },
+  "S2009:standard:1340": {
+   "anon_id": "Q0030",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Fred Jackson",
+   "nflverse_id": "00-0024204"
+  },
+  "S2009:standard:444": {
+   "anon_id": "Q0248",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Earnest Graham",
+   "nflverse_id": "00-0021755"
+  },
+  "S2009:standard:1671": {
+   "anon_id": "Q0346",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Glen Coffee",
+   "nflverse_id": "00-0027048"
+  },
+  "S2009:standard:792": {
+   "anon_id": "Q0068",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Willis McGahee",
+   "nflverse_id": "00-0022178"
+  },
+  "S2009:standard:754": {
+   "anon_id": "Q0093",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Laurence Maroney",
+   "nflverse_id": "00-0024236"
+  },
+  "S2009:standard:783": {
+   "anon_id": "Q0180",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "LeRon McClain",
+   "nflverse_id": null
+  },
+  "S2009:standard:1254": {
+   "anon_id": "Q0174",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Carnell Williams",
+   "nflverse_id": null
+  },
+  "S2009:standard:1643": {
+   "anon_id": "Q0412",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Shonn Greene",
+   "nflverse_id": "00-0026899"
+  },
+  "S2009:standard:883": {
+   "anon_id": "Q0220",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jerious Norwood",
+   "nflverse_id": "00-0024294"
+  },
+  "S2009:standard:1152": {
+   "anon_id": "Q0121",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Fred Taylor",
+   "nflverse_id": "00-0016098"
+  },
+  "S2009:standard:592": {
+   "anon_id": "Q0172",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Edgerrin James",
+   "nflverse_id": "00-0008241"
+  },
+  "S2009:standard:1368": {
+   "anon_id": "Q0423",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jamaal Charles",
+   "nflverse_id": "00-0026213"
+  },
+  "S2009:standard:154": {
+   "anon_id": "Q0110",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Correll Buckhalter",
+   "nflverse_id": "00-0020270"
+  },
+  "S2009:standard:1269": {
+   "anon_id": "Q0128",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Ricky Williams",
+   "nflverse_id": "00-0017915"
+  },
+  "S2009:standard:1404": {
+   "anon_id": "Q0474",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Peyton Hillis",
+   "nflverse_id": "00-0026367"
+  },
+  "S2009:standard:87": {
+   "anon_id": "Q0374",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ladell Betts",
+   "nflverse_id": "00-0021184"
+  },
+  "S2009:standard:160": {
+   "anon_id": "Q0084",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Michael Bush",
+   "nflverse_id": "00-0025487"
+  },
+  "S2009:standard:374": {
+   "anon_id": "Q0098",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Larry Fitzgerald",
+   "nflverse_id": "00-0022921"
+  },
+  "S2009:standard:854": {
+   "anon_id": "Q0202",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Randy Moss",
+   "nflverse_id": "00-0011754"
+  },
+  "S2009:standard:605": {
+   "anon_id": "Q0161",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Andre Johnson",
+   "nflverse_id": "00-0022044"
+  },
+  "S2009:standard:611": {
+   "anon_id": "Q0432",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Calvin Johnson",
+   "nflverse_id": "00-0025389"
+  },
+  "S2009:standard:1228": {
+   "anon_id": "Q0064",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Reggie Wayne",
+   "nflverse_id": "00-0020498"
+  },
+  "S2009:standard:599": {
+   "anon_id": "Q0283",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Greg Jennings",
+   "nflverse_id": "00-0024267"
+  },
+  "S2009:standard:1094": {
+   "anon_id": "Q0227",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Steve Smith",
+   "nflverse_id": "00-0020337"
+  },
+  "S2009:standard:1244": {
+   "anon_id": "Q0288",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Roddy White",
+   "nflverse_id": "00-0023462"
+  },
+  "S2009:standard:231": {
+   "anon_id": "Q0447",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Marques Colston",
+   "nflverse_id": "00-0024466"
+  },
+  "S2009:standard:101": {
+   "anon_id": "Q0425",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Anquan Boldin",
+   "nflverse_id": "00-0022084"
+  },
+  "S2009:standard:1235": {
+   "anon_id": "Q0054",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Wes Welker",
+   "nflverse_id": "00-0022427"
+  },
+  "S2009:standard:899": {
+   "anon_id": "Q0286",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Terrell Owens",
+   "nflverse_id": "00-0012478"
+  },
+  "S2009:standard:552": {
+   "anon_id": "Q0475",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "T.J. Houshmandzadeh",
+   "nflverse_id": "00-0020438"
+  },
+  "S2009:standard:111": {
+   "anon_id": "Q0279",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dwayne Bowe",
+   "nflverse_id": "00-0025410"
+  },
+  "S2009:standard:612": {
+   "anon_id": "Q0424",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Chad Johnson",
+   "nflverse_id": "00-0020397"
+  },
+  "S2009:standard:586": {
+   "anon_id": "Q0143",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Vincent Jackson",
+   "nflverse_id": "00-0023496"
+  },
+  "S2009:standard:1357": {
+   "anon_id": "Q0284",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "DeSean Jackson",
+   "nflverse_id": "00-0026189"
+  },
+  "S2009:standard:1272": {
+   "anon_id": "Q0416",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Roy Williams",
+   "nflverse_id": "00-0022909"
+  },
+  "S2009:standard:431": {
+   "anon_id": "Q0337",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Anthony Gonzalez",
+   "nflverse_id": "00-0025419"
+  },
+  "S2009:standard:333": {
+   "anon_id": "Q0194",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Braylon Edwards",
+   "nflverse_id": "00-0023438"
+  },
+  "S2009:standard:1353": {
+   "anon_id": "Q0011",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Eddie Royal",
+   "nflverse_id": "00-0026182"
+  },
+  "S2009:standard:755": {
+   "anon_id": "Q0312",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Brandon Marshall",
+   "nflverse_id": "00-0024334"
+  },
+  "S2009:standard:85": {
+   "anon_id": "Q0381",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Bernard Berrian",
+   "nflverse_id": "00-0022807"
+  },
+  "S2009:standard:546": {
+   "anon_id": "Q0100",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Santonio Holmes",
+   "nflverse_id": "00-0024240"
+  },
+  "S2009:standard:836": {
+   "anon_id": "Q0016",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Lance Moore",
+   "nflverse_id": "00-0023310"
+  },
+  "S2009:standard:349": {
+   "anon_id": "Q0132",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Lee Evans",
+   "nflverse_id": "00-0022910"
+  },
+  "S2009:standard:149": {
+   "anon_id": "Q0073",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Antonio Bryant",
+   "nflverse_id": "00-0021191"
+  },
+  "S2009:standard:855": {
+   "anon_id": "Q0061",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Santana Moss",
+   "nflverse_id": "00-0020494"
+  },
+  "S2009:standard:1215": {
+   "anon_id": "Q0005",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Hines Ward",
+   "nflverse_id": "00-0017162"
+  },
+  "S2009:standard:312": {
+   "anon_id": "Q0150",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Donald Driver",
+   "nflverse_id": "00-0004541"
+  },
+  "S2009:standard:1336": {
+   "anon_id": "Q0461",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Devin Hester",
+   "nflverse_id": "00-0024272"
+  },
+  "S2009:standard:1211": {
+   "anon_id": "Q0356",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kevin Walter",
+   "nflverse_id": "00-0021931"
+  },
+  "S2009:standard:1348": {
+   "anon_id": "Q0325",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Donnie Avery",
+   "nflverse_id": "00-0026173"
+  },
+  "S2009:standard:514": {
+   "anon_id": "Q0363",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chris Henry",
+   "nflverse_id": "00-0023518"
+  },
+  "S2009:standard:1650": {
+   "anon_id": "Q0316",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Percy Harvin",
+   "nflverse_id": "00-0026998"
+  },
+  "S2009:standard:241": {
+   "anon_id": "Q0087",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jerricho Cotchery",
+   "nflverse_id": "00-0022811"
+  },
+  "S2009:standard:766": {
+   "anon_id": "Q0071",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Derrick Mason",
+   "nflverse_id": "00-0010500"
+  },
+  "S2009:standard:548": {
+   "anon_id": "Q0179",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Torry Holt",
+   "nflverse_id": "00-0007681"
+  },
+  "S2009:standard:226": {
+   "anon_id": "Q0446",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Laveranues Coles",
+   "nflverse_id": "00-0018958"
+  },
+  "S2009:standard:126": {
+   "anon_id": "Q0473",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Steve Breaston",
+   "nflverse_id": "00-0025529"
+  },
+  "S2009:standard:426": {
+   "anon_id": "Q0094",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ted Ginn Jr",
+   "nflverse_id": "00-0025396"
+  },
+  "S2009:standard:191": {
+   "anon_id": "Q0466",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chris Chambers",
+   "nflverse_id": "00-0020446"
+  },
+  "S2009:standard:534": {
+   "anon_id": "Q0148",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Domenik Hixon",
+   "nflverse_id": "00-0024345"
+  },
+  "S2009:standard:1392": {
+   "anon_id": "Q0095",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Josh Morgan",
+   "nflverse_id": "00-0026314"
+  },
+  "S2009:standard:1367": {
+   "anon_id": "Q0228",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Earl Bennett",
+   "nflverse_id": "00-0026210"
+  },
+  "S2009:standard:1646": {
+   "anon_id": "Q0323",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Michael Crabtree",
+   "nflverse_id": "00-0026986"
+  },
+  "S2009:standard:1222": {
+   "anon_id": "Q0065",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Nate Washington",
+   "nflverse_id": "00-0023367"
+  },
+  "S2009:standard:1648": {
+   "anon_id": "Q0069",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Hakeem Nicks",
+   "nflverse_id": "00-0027005"
+  },
+  "S2009:standard:1649": {
+   "anon_id": "Q0124",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jeremy Maclin",
+   "nflverse_id": "00-0026995"
+  },
+  "S2009:standard:402": {
+   "anon_id": "Q0211",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Justin Gage",
+   "nflverse_id": "00-0021982"
+  },
+  "S2009:standard:37": {
+   "anon_id": "Q0153",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Miles Austin",
+   "nflverse_id": "00-0023921"
+  },
+  "S2009:standard:246": {
+   "anon_id": "Q0029",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Patrick Crayton",
+   "nflverse_id": "00-0022766"
+  },
+  "S2009:standard:156": {
+   "anon_id": "Q0261",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Nate Burleson",
+   "nflverse_id": "00-0021999"
+  },
+  "S2009:standard:262": {
+   "anon_id": "Q0017",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kevin Curtis",
+   "nflverse_id": "00-0022001"
+  },
+  "S2009:standard:1093": {
+   "anon_id": "Q0365",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Steve Smith",
+   "nflverse_id": "00-0020337"
+  },
+  "S2009:standard:1647": {
+   "anon_id": "Q0021",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Darrius Heyward-Bey",
+   "nflverse_id": "00-0026983"
+  },
+  "S2009:standard:809": {
+   "anon_id": "Q0199",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Robert Meachem",
+   "nflverse_id": "00-0025414"
+  },
+  "S2009:standard:405": {
+   "anon_id": "Q0157",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Joey Galloway",
+   "nflverse_id": "00-0005720"
+  },
+  "S2009:standard:123": {
+   "anon_id": "Q0234",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Deion Branch",
+   "nflverse_id": "00-0021192"
+  },
+  "S2009:standard:1277": {
+   "anon_id": "Q0333",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Troy Williamson",
+   "nflverse_id": "00-0023442"
+  },
+  "S2009:standard:1397": {
+   "anon_id": "Q0140",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Davone Bess",
+   "nflverse_id": "00-0026000"
+  },
+  "S2009:standard:859": {
+   "anon_id": "Q0193",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Muhsin Muhammad II",
+   "nflverse_id": "00-0011795"
+  },
+  "S2009:standard:1657": {
+   "anon_id": "Q0338",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kenny Britt",
+   "nflverse_id": "00-0027006"
+  },
+  "S2009:standard:168": {
+   "anon_id": "Q0032",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Greg Camarillo",
+   "nflverse_id": "00-0023408"
+  },
+  "S2009:standard:1405": {
+   "anon_id": "Q0399",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chaz Schilens",
+   "nflverse_id": "00-0026366"
+  },
+  "S2009:standard:146": {
+   "anon_id": "Q0273",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Isaac Bruce",
+   "nflverse_id": "00-0002099"
+  },
+  "S2009:standard:512": {
+   "anon_id": "Q0455",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Devery Henderson",
+   "nflverse_id": "00-0022929"
+  },
+  "S2009:standard:984": {
+   "anon_id": "Q0224",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Sidney Rice",
+   "nflverse_id": "00-0025431"
+  },
+  "S2009:standard:1286": {
+   "anon_id": "Q0341",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jason Witten",
+   "nflverse_id": "00-0022127"
+  },
+  "S2009:standard:415": {
+   "anon_id": "Q0209",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Antonio Gates",
+   "nflverse_id": "00-0021547"
+  },
+  "S2009:standard:432": {
+   "anon_id": "Q0155",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tony Gonzalez",
+   "nflverse_id": "00-0006101"
+  },
+  "S2009:standard:207": {
+   "anon_id": "Q0131",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Dallas Clark",
+   "nflverse_id": "00-0022165"
+  },
+  "S2009:standard:890": {
+   "anon_id": "Q0233",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Greg Olsen",
+   "nflverse_id": "00-0025418"
+  },
+  "S2009:standard:238": {
+   "anon_id": "Q0405",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chris Cooley",
+   "nflverse_id": "00-0022738"
+  },
+  "S2009:standard:1285": {
+   "anon_id": "Q0007",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Kellen Winslow",
+   "nflverse_id": "00-0022922"
+  },
+  "S2009:standard:266": {
+   "anon_id": "Q0034",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Owen Daniels",
+   "nflverse_id": "00-0024313"
+  },
+  "S2009:standard:1351": {
+   "anon_id": "Q0159",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "John Carlson",
+   "nflverse_id": "00-0026178"
+  },
+  "S2009:standard:1062": {
+   "anon_id": "Q0404",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jeremy Shockey",
+   "nflverse_id": "00-0021148"
+  },
+  "S2009:standard:1060": {
+   "anon_id": "Q0257",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Visanthe Shiancoe",
+   "nflverse_id": "00-0022054"
+  },
+  "S2009:standard:1389": {
+   "anon_id": "Q0074",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dustin Keller",
+   "nflverse_id": "00-0026170"
+  },
+  "S2009:standard:817": {
+   "anon_id": "Q0130",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Heath Miller",
+   "nflverse_id": "00-0023465"
+  },
+  "S2009:standard:820": {
+   "anon_id": "Q0076",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Zach Miller",
+   "nflverse_id": "00-0025425"
+  },
+  "S2009:standard:108": {
+   "anon_id": "Q0470",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kevin Boss",
+   "nflverse_id": "00-0025540"
+  },
+  "S2009:standard:189": {
+   "anon_id": "Q0401",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Brent Celek",
+   "nflverse_id": "00-0025549"
+  },
+  "S2009:standard:1374": {
+   "anon_id": "Q0145",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jermichael Finley",
+   "nflverse_id": "00-0026231"
+  },
+  "S2009:standard:288": {
+   "anon_id": "Q0373",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Vernon Davis",
+   "nflverse_id": "00-0024221"
+  },
+  "W2009:standard:w15:00-0023440:00-0026988": {
+   "anon_id": "Q0375",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cadillac Williams",
+   "player_b": "Knowshon Moreno"
+  },
+  "W2009:standard:w16:00-0012478:00-0026998": {
+   "anon_id": "Q0189",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Terrell Owens",
+   "player_b": "Percy Harvin"
+  },
+  "W2009:standard:w10:00-0026197:00-0025479": {
+   "anon_id": "Q0343",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chad Henne",
+   "player_b": "Trent Edwards"
+  },
+  "W2009:standard:w14:00-0023682:00-0019709": {
+   "anon_id": "Q0239",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ryan Fitzpatrick",
+   "player_b": "Chris Redman"
+  },
+  "W2009:standard:w13:00-0024218:00-0023662": {
+   "anon_id": "Q0040",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Vince Young",
+   "player_b": "Matt Cassel"
+  },
+  "W2009:standard:w16:00-0011754:00-0023462": {
+   "anon_id": "Q0217",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Randy Moss",
+   "player_b": "Roddy White"
+  },
+  "W2009:standard:w05:00-0021982:00-0022156": {
+   "anon_id": "Q0354",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Justin Gage",
+   "player_b": "Bryant Johnson"
+  },
+  "W2009:standard:w08:00-0020536:00-0026262": {
+   "anon_id": "Q0214",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "LaDainian Tomlinson",
+   "player_b": "Tashard Choice"
+  },
+  "W2009:standard:w06:00-0020516:00-0021148": {
+   "anon_id": "Q0275",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Todd Heap",
+   "player_b": "Jeremy Shockey"
+  },
+  "W2009:standard:w06:00-0024267:00-0022929": {
+   "anon_id": "Q0225",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Greg Jennings",
+   "player_b": "Devery Henderson"
+  },
+  "W2009:standard:w12:00-0020438:00-0026901": {
+   "anon_id": "Q0290",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "T.J. Houshmandzadeh",
+   "player_b": "Mike Wallace"
+  },
+  "W2009:standard:w12:00-0023460:00-0024226": {
+   "anon_id": "Q0183",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jason Campbell",
+   "player_b": "Jay Cutler"
+  },
+  "W2009:standard:w16:00-0026993:00-0026197": {
+   "anon_id": "Q0421",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Josh Freeman",
+   "player_b": "Chad Henne"
+  },
+  "W2009:standard:w12:00-0027006:00-0026913": {
+   "anon_id": "Q0319",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kenny Britt",
+   "player_b": "Johnny Knox"
+  },
+  "W2009:standard:w06:00-0011754:00-0021999": {
+   "anon_id": "Q0329",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Randy Moss",
+   "player_b": "Nate Burleson"
+  },
+  "W2009:standard:w12:00-0005091:00-0027003": {
+   "anon_id": "Q0048",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kevin Faulk",
+   "player_b": "Donald Brown"
+  },
+  "W2009:standard:w06:00-0024334:00-0026235": {
+   "anon_id": "Q0254",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Marshall",
+   "player_b": "Mario Manningham"
+  },
+  "W2009:standard:w13:00-0021678:00-0021231": {
+   "anon_id": "Q0443",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tony Romo",
+   "player_b": "David Garrard"
+  },
+  "W2009:standard:w09:00-0026163:00-0024245": {
+   "anon_id": "Q0056",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Rashard Mendenhall",
+   "player_b": "Joseph Addai"
+  },
+  "W2009:standard:w07:00-0024359:00-0021976": {
+   "anon_id": "Q0433",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jerome Harrison",
+   "player_b": "Larry Johnson"
+  },
+  "W2009:standard:w13:00-0025466:00-0023462": {
+   "anon_id": "Q0467",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Sims-Walker",
+   "player_b": "Roddy White"
+  },
+  "W2009:standard:w12:00-0022054:00-0021148": {
+   "anon_id": "Q0072",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Visanthe Shiancoe",
+   "player_b": "Jeremy Shockey"
+  },
+  "W2009:standard:w11:00-0022093:00-0026213": {
+   "anon_id": "Q0326",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Justin Fargas",
+   "player_b": "Jamaal Charles"
+  },
+  "W2009:standard:w06:00-0020438:00-0024466": {
+   "anon_id": "Q0410",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "T.J. Houshmandzadeh",
+   "player_b": "Marques Colston"
+  },
+  "W2009:standard:w06:00-0027006:00-0023474": {
+   "anon_id": "Q0044",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kenny Britt",
+   "player_b": "Mark Bradley"
+  },
+  "W2009:standard:w12:00-0007091:00-0023541": {
+   "anon_id": "Q0003",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Hasselbeck",
+   "player_b": "Kyle Orton"
+  },
+  "W2009:standard:w16:00-0026184:00-0026153": {
+   "anon_id": "Q0019",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Forte",
+   "player_b": "Jonathan Stewart"
+  },
+  "W2009:standard:w12:00-0026163:00-0023545": {
+   "anon_id": "Q0301",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rashard Mendenhall",
+   "player_b": "Brandon Jacobs"
+  },
+  "W2009:standard:w08:00-0024011:00-0020270": {
+   "anon_id": "Q0188",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Bell",
+   "player_b": "Correll Buckhalter"
+  },
+  "W2009:standard:w12:00-0026998:00-0025389": {
+   "anon_id": "Q0402",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Percy Harvin",
+   "player_b": "Calvin Johnson"
+  },
+  "W2009:standard:w15:00-0022909:00-0025410": {
+   "anon_id": "Q0175",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Roy Williams",
+   "player_b": "Dwayne Bowe"
+  },
+  "W2009:standard:w13:00-0024813:00-0019641": {
+   "anon_id": "Q0156",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Pierre Thomas",
+   "player_b": "Thomas Jones"
+  },
+  "W2009:standard:w11:00-0025637:00-0023544": {
+   "anon_id": "Q0086",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ahmad Bradshaw",
+   "player_b": "Marion Barber"
+  },
+  "W2009:standard:w11:00-0025540:00-0025425": {
+   "anon_id": "Q0398",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kevin Boss",
+   "player_b": "Zach Miller"
+  },
+  "W2009:standard:w14:00-0019596:00-0010346": {
+   "anon_id": "Q0206",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tom Brady",
+   "player_b": "Peyton Manning"
+  },
+  "W2009:standard:w16:00-0025549:00-0006101": {
+   "anon_id": "Q0122",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brent Celek",
+   "player_b": "Tony Gonzalez"
+  },
+  "W2009:standard:w10:00-0022156:00-0023438": {
+   "anon_id": "Q0171",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bryant Johnson",
+   "player_b": "Braylon Edwards"
+  },
+  "W2009:standard:w12:00-0021678:00-0011022": {
+   "anon_id": "Q0324",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tony Romo",
+   "player_b": "Donovan McNabb"
+  },
+  "W2009:standard:w16:00-0005106:00-0019596": {
+   "anon_id": "Q0364",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brett Favre",
+   "player_b": "Tom Brady"
+  },
+  "W2009:standard:w11:00-0025418:00-0021547": {
+   "anon_id": "Q0278",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Greg Olsen",
+   "player_b": "Antonio Gates"
+  },
+  "W2009:standard:w11:00-0010500:00-0024267": {
+   "anon_id": "Q0458",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Derrick Mason",
+   "player_b": "Greg Jennings"
+  },
+  "W2009:standard:w10:00-0026498:00-0026898": {
+   "anon_id": "Q0218",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Matthew Stafford",
+   "player_b": "Mark Sanchez"
+  },
+  "W2009:standard:w15:00-0023512:00-0026162": {
+   "anon_id": "Q0079",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ryan Moats",
+   "player_b": "Felix Jones"
+  },
+  "W2009:standard:w07:00-0026153:00-0023564": {
+   "anon_id": "Q0052",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jonathan Stewart",
+   "player_b": "Darren Sproles"
+  },
+  "W2009:standard:w13:00-0022984:00-0026204": {
+   "anon_id": "Q0112",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ryan Grant",
+   "player_b": "Kevin Smith"
+  },
+  "W2009:standard:w09:00-0021547:00-0021148": {
+   "anon_id": "Q0185",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Antonio Gates",
+   "player_b": "Jeremy Shockey"
+  },
+  "W2009:standard:w08:00-0022054:00-0006101": {
+   "anon_id": "Q0336",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Visanthe Shiancoe",
+   "player_b": "Tony Gonzalez"
+  },
+  "W2009:standard:w13:00-0026153:00-0026184": {
+   "anon_id": "Q0178",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jonathan Stewart",
+   "player_b": "Matt Forte"
+  },
+  "W2009:standard:w15:00-0005106:00-0022803": {
+   "anon_id": "Q0309",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brett Favre",
+   "player_b": "Eli Manning"
+  },
+  "W2009:standard:w11:00-0020494:00-0023367": {
+   "anon_id": "Q0295",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Santana Moss",
+   "player_b": "Nate Washington"
+  },
+  "W2009:standard:w14:00-0023438:00-0026986": {
+   "anon_id": "Q0310",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Braylon Edwards",
+   "player_b": "Michael Crabtree"
+  },
+  "W2009:standard:w10:00-0025410:00-0026995": {
+   "anon_id": "Q0125",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dwayne Bowe",
+   "player_b": "Jeremy Maclin"
+  },
+  "W2009:standard:w14:00-0007091:00-0022803": {
+   "anon_id": "Q0043",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Hasselbeck",
+   "player_b": "Eli Manning"
+  },
+  "W2009:standard:w14:00-0004541:00-0012478": {
+   "anon_id": "Q0357",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Donald Driver",
+   "player_b": "Terrell Owens"
+  },
+  "W2009:standard:w08:00-0027029:00-0022093": {
+   "anon_id": "Q0151",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "LeSean McCoy",
+   "player_b": "Justin Fargas"
+  },
+  "W2009:standard:w15:00-0024813:00-0024245": {
+   "anon_id": "Q0315",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Pierre Thomas",
+   "player_b": "Joseph Addai"
+  },
+  "W2009:standard:w14:00-0023564:00-0024217": {
+   "anon_id": "Q0429",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Darren Sproles",
+   "player_b": "Reggie Bush"
+  },
+  "W2009:standard:w08:00-0022787:00-0026158": {
+   "anon_id": "Q0305",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Schaub",
+   "player_b": "Joe Flacco"
+  },
+  "W2009:standard:w07:00-0024813:00-0017915": {
+   "anon_id": "Q0318",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Pierre Thomas",
+   "player_b": "Ricky Williams"
+  },
+  "W2009:standard:w08:00-0022736:00-0022984": {
+   "anon_id": "Q0088",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Steven Jackson",
+   "player_b": "Ryan Grant"
+  },
+  "W2009:standard:w15:00-0026173:00-0020446": {
+   "anon_id": "Q0431",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Donnie Avery",
+   "player_b": "Chris Chambers"
+  },
+  "W2009:standard:w16:00-0022811:00-0020494": {
+   "anon_id": "Q0452",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jerricho Cotchery",
+   "player_b": "Santana Moss"
+  },
+  "W2009:standard:w06:00-0023457:00-0022807": {
+   "anon_id": "Q0192",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mark Clayton",
+   "player_b": "Bernard Berrian"
+  },
+  "W2009:standard:w10:00-0026899:00-0025487": {
+   "anon_id": "Q0152",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Shonn Greene",
+   "player_b": "Michael Bush"
+  },
+  "W2009:standard:w16:00-0023541:00-0026158": {
+   "anon_id": "Q0386",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kyle Orton",
+   "player_b": "Joe Flacco"
+  },
+  "W2009:standard:w16:00-0023544:00-0020536": {
+   "anon_id": "Q0232",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marion Barber",
+   "player_b": "LaDainian Tomlinson"
+  },
+  "W2009:standard:w16:00-0026373:00-0026289": {
+   "anon_id": "Q0176",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Justin Forsett",
+   "player_b": "Tim Hightower"
+  },
+  "W2009:standard:w10:00-0026178:00-0025425": {
+   "anon_id": "Q0250",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "John Carlson",
+   "player_b": "Zach Miller"
+  },
+  "W2009:standard:w05:00-0026314:00-0020438": {
+   "anon_id": "Q0434",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Josh Morgan",
+   "player_b": "T.J. Houshmandzadeh"
+  },
+  "W2009:standard:w13:00-0004541:00-0024334": {
+   "anon_id": "Q0334",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Donald Driver",
+   "player_b": "Brandon Marshall"
+  },
+  "W2009:standard:w09:00-0022044:00-0026235": {
+   "anon_id": "Q0344",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andre Johnson",
+   "player_b": "Mario Manningham"
+  },
+  "W2009:standard:w06:00-0026158:00-0026143": {
+   "anon_id": "Q0408",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Joe Flacco",
+   "player_b": "Matt Ryan"
+  },
+  "W2009:standard:w16:00-0024218:00-0021231": {
+   "anon_id": "Q0353",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Vince Young",
+   "player_b": "David Garrard"
+  },
+  "W2009:standard:w16:00-0022910:00-0026995": {
+   "anon_id": "Q0085",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Lee Evans",
+   "player_b": "Jeremy Maclin"
+  },
+  "W2009:standard:w13:00-0020397:00-0020337": {
+   "anon_id": "Q0361",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Chad Johnson",
+   "player_b": "Steve Smith"
+  },
+  "W2009:standard:w13:00-0020446:00-0020494": {
+   "anon_id": "Q0444",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Chambers",
+   "player_b": "Santana Moss"
+  },
+  "W2009:standard:w07:00-0024332:00-0025399": {
+   "anon_id": "Q0384",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Leon Washington",
+   "player_b": "Marshawn Lynch"
+  },
+  "W2009:standard:w15:00-0023436:00-0026158": {
+   "anon_id": "Q0360",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Alex Smith",
+   "player_b": "Joe Flacco"
+  },
+  "W2009:standard:w10:00-0023500:00-0019641": {
+   "anon_id": "Q0262",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Frank Gore",
+   "player_b": "Thomas Jones"
+  },
+  "W2009:standard:w11:00-0022054:00-0022127": {
+   "anon_id": "Q0147",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Visanthe Shiancoe",
+   "player_b": "Jason Witten"
+  },
+  "W2009:standard:w12:00-0022127:00-0026996": {
+   "anon_id": "Q0050",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jason Witten",
+   "player_b": "Brandon Pettigrew"
+  },
+  "W2009:standard:w13:00-0011022:00-0022787": {
+   "anon_id": "Q0419",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Donovan McNabb",
+   "player_b": "Matt Schaub"
+  },
+  "W2009:standard:w12:00-0019484:00-0026373": {
+   "anon_id": "Q0376",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Sammy Morris",
+   "player_b": "Justin Forsett"
+  },
+  "W2009:standard:w09:00-0015754:00-0020438": {
+   "anon_id": "Q0135",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Stokley",
+   "player_b": "T.J. Houshmandzadeh"
+  },
+  "W2009:standard:w08:00-0025487:00-0027048": {
+   "anon_id": "Q0027",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Michael Bush",
+   "player_b": "Glen Coffee"
+  },
+  "W2009:standard:w14:00-0021999:00-0026173": {
+   "anon_id": "Q0359",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Nate Burleson",
+   "player_b": "Donnie Avery"
+  },
+  "W2009:standard:w16:00-0024334:00-0023921": {
+   "anon_id": "Q0104",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Marshall",
+   "player_b": "Miles Austin"
+  },
+  "W2009:standard:w14:00-0024275:00-0026164": {
+   "anon_id": "Q0237",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Maurice Jones-Drew",
+   "player_b": "Chris Johnson"
+  },
+  "W2009:standard:w15:00-0025414:00-0025389": {
+   "anon_id": "Q0165",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Robert Meachem",
+   "player_b": "Calvin Johnson"
+  },
+  "W2009:standard:w13:00-0017162:00-0023921": {
+   "anon_id": "Q0242",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Hines Ward",
+   "player_b": "Miles Austin"
+  },
+  "W2009:standard:w08:00-0024272:00-0020438": {
+   "anon_id": "Q0465",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Devin Hester",
+   "player_b": "T.J. Houshmandzadeh"
+  },
+  "W2009:standard:w06:00-0022787:00-0023459": {
+   "anon_id": "Q0472",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Matt Schaub",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2009:standard:w10:00-0022178:00-0026184": {
+   "anon_id": "Q0060",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Willis McGahee",
+   "player_b": "Matt Forte"
+  },
+  "W2009:standard:w11:00-0020536:00-0026153": {
+   "anon_id": "Q0177",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "LaDainian Tomlinson",
+   "player_b": "Jonathan Stewart"
+  },
+  "W2009:standard:w13:00-0025414:00-0025529": {
+   "anon_id": "Q0024",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Robert Meachem",
+   "player_b": "Steve Breaston"
+  },
+  "W2009:standard:w13:00-0024275:00-0017915": {
+   "anon_id": "Q0113",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Maurice Jones-Drew",
+   "player_b": "Ricky Williams"
+  },
+  "W2009:standard:w12:00-0020498:00-0023496": {
+   "anon_id": "Q0036",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Reggie Wayne",
+   "player_b": "Vincent Jackson"
+  },
+  "W2009:standard:w12:00-0022427:00-0022044": {
+   "anon_id": "Q0028",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Wes Welker",
+   "player_b": "Andre Johnson"
+  },
+  "W2009:standard:w14:00-0023921:00-0025438": {
+   "anon_id": "Q0212",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Miles Austin",
+   "player_b": "Steve Smith"
+  },
+  "W2009:standard:w12:00-0020494:00-0012478": {
+   "anon_id": "Q0351",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Santana Moss",
+   "player_b": "Terrell Owens"
+  },
+  "W2009:standard:w06:00-0025410:00-0004541": {
+   "anon_id": "Q0204",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dwayne Bowe",
+   "player_b": "Donald Driver"
+  },
+  "W2009:standard:w06:00-0017200:00-0021429": {
+   "anon_id": "Q0258",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kurt Warner",
+   "player_b": "Carson Palmer"
+  },
+  "W2009:standard:w08:00-0022766:00-0023367": {
+   "anon_id": "Q0038",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Patrick Crayton",
+   "player_b": "Nate Washington"
+  },
+  "W2009:standard:w14:00-0023460:00-0024226": {
+   "anon_id": "Q0441",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jason Campbell",
+   "player_b": "Jay Cutler"
+  },
+  "W2009:standard:w10:00-0020516:00-0026170": {
+   "anon_id": "Q0235",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Todd Heap",
+   "player_b": "Dustin Keller"
+  },
+  "W2009:standard:w11:00-0026163:00-0024813": {
+   "anon_id": "Q0352",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rashard Mendenhall",
+   "player_b": "Pierre Thomas"
+  },
+  "W2009:standard:w16:00-0023465:00-0026178": {
+   "anon_id": "Q0255",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Heath Miller",
+   "player_b": "John Carlson"
+  },
+  "W2009:standard:w10:00-0022811:00-0025389": {
+   "anon_id": "Q0331",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jerricho Cotchery",
+   "player_b": "Calvin Johnson"
+  },
+  "W2009:standard:w05:00-0024332:00-0022217": {
+   "anon_id": "Q0292",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Leon Washington",
+   "player_b": "Mewelde Moore"
+  },
+  "W2009:standard:w13:00-0025409:00-0022164": {
+   "anon_id": "Q0219",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brady Quinn",
+   "player_b": "Kyle Boller"
+  },
+  "W2009:standard:w15:00-0022807:00-0026210": {
+   "anon_id": "Q0462",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bernard Berrian",
+   "player_b": "Earl Bennett"
+  },
+  "W2009:standard:w15:00-0026178:00-0026298": {
+   "anon_id": "Q0026",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "John Carlson",
+   "player_b": "Kellen Davis"
+  },
+  "W2009:standard:w06:00-0021976:00-0022770": {
+   "anon_id": "Q0082",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Larry Johnson",
+   "player_b": "Derrick Ward"
+  },
+  "W2009:standard:w11:00-0023462:00-0025431": {
+   "anon_id": "Q0230",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Roddy White",
+   "player_b": "Sidney Rice"
+  },
+  "W2009:standard:w07:00-0011022:00-0020531": {
+   "anon_id": "Q0001",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Donovan McNabb",
+   "player_b": "Drew Brees"
+  },
+  "W2009:standard:w13:00-0025637:00-0027007": {
+   "anon_id": "Q0089",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ahmad Bradshaw",
+   "player_b": "Chris Wells"
+  },
+  "W2009:standard:w07:00-0025425:00-0022738": {
+   "anon_id": "Q0397",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Zach Miller",
+   "player_b": "Chris Cooley"
+  },
+  "W2009:standard:w13:00-0027005:00-0010500": {
+   "anon_id": "Q0181",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Hakeem Nicks",
+   "player_b": "Derrick Mason"
+  },
+  "W2009:standard:w05:00-0022787:00-0023541": {
+   "anon_id": "Q0285",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Matt Schaub",
+   "player_b": "Kyle Orton"
+  },
+  "W2009:standard:w16:00-0022840:00-0021216": {
+   "anon_id": "Q0187",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Julius Jones",
+   "player_b": "Brian Westbrook"
+  },
+  "W2009:standard:w15:00-0024218:00-0025479": {
+   "anon_id": "Q0223",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Vince Young",
+   "player_b": "Trent Edwards"
+  },
+  "W2009:standard:w07:00-0022922:00-0022054": {
+   "anon_id": "Q0221",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kellen Winslow",
+   "player_b": "Visanthe Shiancoe"
+  },
+  "W2009:standard:w11:00-0021429:00-0026158": {
+   "anon_id": "Q0075",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Carson Palmer",
+   "player_b": "Joe Flacco"
+  },
+  "W2009:standard:w13:00-0025540:00-0026231": {
+   "anon_id": "Q0141",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kevin Boss",
+   "player_b": "Jermichael Finley"
+  },
+  "W2009:standard:w11:00-0026373:00-0026162": {
+   "anon_id": "Q0251",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Justin Forsett",
+   "player_b": "Felix Jones"
+  },
+  "W2009:standard:w11:00-0017200:00-0026143": {
+   "anon_id": "Q0403",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kurt Warner",
+   "player_b": "Matt Ryan"
+  },
+  "W2009:standard:w12:00-0024334:00-0025414": {
+   "anon_id": "Q0047",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Marshall",
+   "player_b": "Robert Meachem"
+  },
+  "W2009:standard:w07:00-0020679:00-0023460": {
+   "anon_id": "Q0391",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Shaun Hill",
+   "player_b": "Jason Campbell"
+  },
+  "W2009:standard:w15:00-0023662:00-0023541": {
+   "anon_id": "Q0417",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Matt Cassel",
+   "player_b": "Kyle Orton"
+  },
+  "W2009:standard:w05:00-0025637:00-0027029": {
+   "anon_id": "Q0013",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ahmad Bradshaw",
+   "player_b": "LeSean McCoy"
+  },
+  "W2009:standard:w15:00-0021547:00-0006101": {
+   "anon_id": "Q0139",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Antonio Gates",
+   "player_b": "Tony Gonzalez"
+  },
+  "W2009:standard:w10:00-0026158:00-0026143": {
+   "anon_id": "Q0008",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Joe Flacco",
+   "player_b": "Matt Ryan"
+  },
+  "W2009:standard:w08:00-0005106:00-0023541": {
+   "anon_id": "Q0459",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brett Favre",
+   "player_b": "Kyle Orton"
+  },
+  "W2009:standard:w08:00-0022909:00-0022171": {
+   "anon_id": "Q0271",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Roy Williams",
+   "player_b": "Kelley Washington"
+  },
+  "W2009:standard:w09:00-0004161:00-0022055": {
+   "anon_id": "Q0067",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jake Delhomme",
+   "player_b": "Seneca Wallace"
+  },
+  "W2009:standard:w09:00-0010346:00-0022787": {
+   "anon_id": "Q0296",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Peyton Manning",
+   "player_b": "Matt Schaub"
+  },
+  "W2009:standard:w09:00-0021231:00-0023541": {
+   "anon_id": "Q0393",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "David Garrard",
+   "player_b": "Kyle Orton"
+  },
+  "W2009:standard:w10:00-0017200:00-0023436": {
+   "anon_id": "Q0409",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kurt Warner",
+   "player_b": "Alex Smith"
+  },
+  "W2009:standard:w15:00-0017915:00-0023439": {
+   "anon_id": "Q0070",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ricky Williams",
+   "player_b": "Cedric Benson"
+  },
+  "W2009:standard:w07:00-0026163:00-0024204": {
+   "anon_id": "Q0243",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rashard Mendenhall",
+   "player_b": "Fred Jackson"
+  },
+  "W2009:standard:w14:00-0010500:00-0025431": {
+   "anon_id": "Q0002",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Derrick Mason",
+   "player_b": "Sidney Rice"
+  },
+  "W2009:standard:w09:00-0026901:00-0020494": {
+   "anon_id": "Q0471",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mike Wallace",
+   "player_b": "Santana Moss"
+  },
+  "W2009:standard:w16:00-0016098:00-0025637": {
+   "anon_id": "Q0450",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Fred Taylor",
+   "player_b": "Ahmad Bradshaw"
+  },
+  "W2009:standard:w07:00-0010346:00-0019596": {
+   "anon_id": "Q0339",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Peyton Manning",
+   "player_b": "Tom Brady"
+  },
+  "W2009:standard:w05:00-0025431:00-0021999": {
+   "anon_id": "Q0287",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Sidney Rice",
+   "player_b": "Nate Burleson"
+  },
+  "W2009:standard:w08:00-0026204:00-0025399": {
+   "anon_id": "Q0289",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kevin Smith",
+   "player_b": "Marshawn Lynch"
+  },
+  "W2009:standard:w09:00-0023465:00-0025549": {
+   "anon_id": "Q0317",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Heath Miller",
+   "player_b": "Brent Celek"
+  },
+  "W2009:standard:w07:00-0023921:00-0023462": {
+   "anon_id": "Q0400",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Miles Austin",
+   "player_b": "Roddy White"
+  },
+  "W2009:standard:w11:00-0022924:00-0022942": {
+   "anon_id": "Q0406",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Philip Rivers"
+  },
+  "W2009:standard:w09:00-0011754:00-0022921": {
+   "anon_id": "Q0215",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Randy Moss",
+   "player_b": "Larry Fitzgerald"
+  },
+  "W2009:standard:w05:00-0011754:00-0022921": {
+   "anon_id": "Q0213",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Randy Moss",
+   "player_b": "Larry Fitzgerald"
+  },
+  "W2009:standard:w10:00-0022770:00-0026262": {
+   "anon_id": "Q0080",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Derrick Ward",
+   "player_b": "Tashard Choice"
+  },
+  "W2009:standard:w13:00-0023440:00-0022178": {
+   "anon_id": "Q0335",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cadillac Williams",
+   "player_b": "Willis McGahee"
+  },
+  "W2009:standard:w05:00-0021678:00-0019596": {
+   "anon_id": "Q0349",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tony Romo",
+   "player_b": "Tom Brady"
+  },
+  "W2009:standard:w10:00-0026144:00-0022093": {
+   "anon_id": "Q0269",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Darren McFadden",
+   "player_b": "Justin Fargas"
+  },
+  "W2009:standard:w15:00-0024267:00-0022811": {
+   "anon_id": "Q0445",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Greg Jennings",
+   "player_b": "Jerricho Cotchery"
+  },
+  "W2009:standard:w15:00-0022924:00-0023459": {
+   "anon_id": "Q0297",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2009:standard:w06:00-0026901:00-0022084": {
+   "anon_id": "Q0252",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mike Wallace",
+   "player_b": "Anquan Boldin"
+  },
+  "W2009:standard:w10:00-0015754:00-0022084": {
+   "anon_id": "Q0358",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Stokley",
+   "player_b": "Anquan Boldin"
+  },
+  "W2009:standard:w08:00-0025396:00-0022807": {
+   "anon_id": "Q0012",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ted Ginn",
+   "player_b": "Bernard Berrian"
+  },
+  "W2009:standard:w12:00-0004161:00-0025409": {
+   "anon_id": "Q0006",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jake Delhomme",
+   "player_b": "Brady Quinn"
+  },
+  "W2009:standard:w12:00-0020446:00-0022929": {
+   "anon_id": "Q0422",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Chambers",
+   "player_b": "Devery Henderson"
+  },
+  "W2009:standard:w08:00-0021999:00-0025431": {
+   "anon_id": "Q0253",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Nate Burleson",
+   "player_b": "Sidney Rice"
+  },
+  "W2009:standard:w06:00-0026163:00-0019641": {
+   "anon_id": "Q0154",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Rashard Mendenhall",
+   "player_b": "Thomas Jones"
+  },
+  "W2009:standard:w14:00-0026314:00-0027089": {
+   "anon_id": "Q0037",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Josh Morgan",
+   "player_b": "Louis Murphy"
+  },
+  "W2009:standard:w07:00-0026210:00-0022909": {
+   "anon_id": "Q0083",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Earl Bennett",
+   "player_b": "Roy Williams"
+  },
+  "W2009:standard:w11:00-0005106:00-0020531": {
+   "anon_id": "Q0000",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brett Favre",
+   "player_b": "Drew Brees"
+  },
+  "W2009:standard:w07:00-0017162:00-0025438": {
+   "anon_id": "Q0378",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Hines Ward",
+   "player_b": "Steve Smith"
+  },
+  "W2009:standard:w09:00-0025637:00-0026229": {
+   "anon_id": "Q0382",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ahmad Bradshaw",
+   "player_b": "Steve Slaton"
+  },
+  "W2009:standard:w10:00-0026998:00-0020438": {
+   "anon_id": "Q0469",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Percy Harvin",
+   "player_b": "T.J. Houshmandzadeh"
+  },
+  "W2009:standard:w14:00-0025399:00-0021314": {
+   "anon_id": "Q0298",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Marshawn Lynch",
+   "player_b": "Chester Taylor"
+  },
+  "W2009:standard:w09:00-0024813:00-0023500": {
+   "anon_id": "Q0448",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Pierre Thomas",
+   "player_b": "Frank Gore"
+  },
+  "W2009:standard:w13:00-0024204:00-0026289": {
+   "anon_id": "Q0468",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Fred Jackson",
+   "player_b": "Tim Hightower"
+  },
+  "W2009:standard:w14:00-0023541:00-0021429": {
+   "anon_id": "Q0413",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kyle Orton",
+   "player_b": "Carson Palmer"
+  },
+  "W2009:standard:w11:00-0026231:00-0026170": {
+   "anon_id": "Q0436",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jermichael Finley",
+   "player_b": "Dustin Keller"
+  },
+  "W2009:standard:w16:00-0026901:00-0026235": {
+   "anon_id": "Q0240",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mike Wallace",
+   "player_b": "Mario Manningham"
+  },
+  "W2009:standard:w11:00-0021148:00-0006101": {
+   "anon_id": "Q0114",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jeremy Shockey",
+   "player_b": "Tony Gonzalez"
+  },
+  "W2009:standard:w07:00-0023545:00-0026162": {
+   "anon_id": "Q0345",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Jacobs",
+   "player_b": "Felix Jones"
+  },
+  "W2009:standard:w15:00-0021429:00-0024226": {
+   "anon_id": "Q0442",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Carson Palmer",
+   "player_b": "Jay Cutler"
+  },
+  "W2009:standard:w16:00-0005091:00-0022770": {
+   "anon_id": "Q0207",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kevin Faulk",
+   "player_b": "Derrick Ward"
+  },
+  "W2009:standard:w09:00-0026498:00-0022803": {
+   "anon_id": "Q0018",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matthew Stafford",
+   "player_b": "Eli Manning"
+  },
+  "W2009:standard:w09:00-0026262:00-0024217": {
+   "anon_id": "Q0308",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tashard Choice",
+   "player_b": "Reggie Bush"
+  },
+  "W2009:standard:w08:00-0025394:00-0026195": {
+   "anon_id": "Q0304",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Adrian Peterson",
+   "player_b": "Ray Rice"
+  },
+  "W2009:standard:w16:00-0024226:00-0023460": {
+   "anon_id": "Q0377",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jay Cutler",
+   "player_b": "Jason Campbell"
+  },
+  "W2009:standard:w10:00-0026913:00-0022909": {
+   "anon_id": "Q0392",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Johnny Knox",
+   "player_b": "Roy Williams"
+  },
+  "W2009:standard:w11:00-0022144:00-0022807": {
+   "anon_id": "Q0302",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bobby Wade",
+   "player_b": "Bernard Berrian"
+  },
+  "W2009:standard:w09:00-0021179:00-0026289": {
+   "anon_id": "Q0451",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Clinton Portis",
+   "player_b": "Tim Hightower"
+  },
+  "W2009:standard:w11:00-0022427:00-0023921": {
+   "anon_id": "Q0196",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Wes Welker",
+   "player_b": "Miles Austin"
+  },
+  "W2009:standard:w16:00-0021191:00-0026210": {
+   "anon_id": "Q0440",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Antonio Bryant",
+   "player_b": "Earl Bennett"
+  },
+  "W2009:standard:w10:00-0022250:00-0026162": {
+   "anon_id": "Q0105",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Willie Parker",
+   "player_b": "Felix Jones"
+  },
+  "W2009:standard:w08:00-0022921:00-0023921": {
+   "anon_id": "Q0394",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Miles Austin"
+  },
+  "W2009:standard:w07:00-0019641:00-0022821": {
+   "anon_id": "Q0260",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Thomas Jones",
+   "player_b": "Michael Turner"
+  },
+  "W2009:standard:w08:00-0026345:00-0026173": {
+   "anon_id": "Q0428",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Pierre Garcon",
+   "player_b": "Donnie Avery"
+  },
+  "W2009:standard:w10:00-0023544:00-0017915": {
+   "anon_id": "Q0051",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marion Barber",
+   "player_b": "Ricky Williams"
+  },
+  "W2009:standard:w11:00-0021931:00-0026345": {
+   "anon_id": "Q0327",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kevin Walter",
+   "player_b": "Pierre Garcon"
+  },
+  "W2009:standard:w07:00-0026229:00-0022736": {
+   "anon_id": "Q0366",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Steve Slaton",
+   "player_b": "Steven Jackson"
+  },
+  "W2009:standard:w11:00-0023459:00-0022787": {
+   "anon_id": "Q0420",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Aaron Rodgers",
+   "player_b": "Matt Schaub"
+  },
+  "W2009:standard:w06:00-0021216:00-0023564": {
+   "anon_id": "Q0096",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brian Westbrook",
+   "player_b": "Darren Sproles"
+  },
+  "W2009:standard:w11:00-0025438:00-0027005": {
+   "anon_id": "Q0210",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Steve Smith",
+   "player_b": "Hakeem Nicks"
+  },
+  "W2009:standard:w13:00-0024245:00-0023439": {
+   "anon_id": "Q0158",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Joseph Addai",
+   "player_b": "Cedric Benson"
+  },
+  "W2009:standard:w06:00-0023496:00-0022044": {
+   "anon_id": "Q0265",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Vincent Jackson",
+   "player_b": "Andre Johnson"
+  },
+  "W2009:standard:w11:00-0019596:00-0010346": {
+   "anon_id": "Q0435",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tom Brady",
+   "player_b": "Peyton Manning"
+  },
+  "W2009:standard:w09:00-0007681:00-0025414": {
+   "anon_id": "Q0330",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Torry Holt",
+   "player_b": "Robert Meachem"
+  },
+  "W2009:standard:w08:00-0023544:00-0025637": {
+   "anon_id": "Q0389",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Marion Barber",
+   "player_b": "Ahmad Bradshaw"
+  },
+  "W2009:standard:w10:00-0024466:00-0023462": {
+   "anon_id": "Q0137",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marques Colston",
+   "player_b": "Roddy White"
+  },
+  "W2009:standard:w12:00-0017162:00-0025438": {
+   "anon_id": "Q0277",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Hines Ward",
+   "player_b": "Steve Smith"
+  },
+  "W2009:standard:w14:00-0024408:00-0026197": {
+   "anon_id": "Q0276",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bruce Gradkowski",
+   "player_b": "Chad Henne"
+  },
+  "W2009:standard:w14:00-0022929:00-0023367": {
+   "anon_id": "Q0385",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Devery Henderson",
+   "player_b": "Nate Washington"
+  },
+  "W2009:standard:w08:00-0026229:00-0022821": {
+   "anon_id": "Q0321",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Steve Slaton",
+   "player_b": "Michael Turner"
+  },
+  "W2009:standard:w08:00-0024359:00-0021314": {
+   "anon_id": "Q0370",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jerome Harrison",
+   "player_b": "Chester Taylor"
+  },
+  "W2009:standard:w07:00-0025396:00-0022766": {
+   "anon_id": "Q0387",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ted Ginn",
+   "player_b": "Patrick Crayton"
+  },
+  "W2009:standard:w11:00-0025463:00-0026173": {
+   "anon_id": "Q0460",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jason Hill",
+   "player_b": "Donnie Avery"
+  },
+  "W2009:standard:w08:00-0020337:00-0023457": {
+   "anon_id": "Q0415",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Steve Smith",
+   "player_b": "Mark Clayton"
+  },
+  "W2009:standard:w16:00-0021429:00-0022787": {
+   "anon_id": "Q0099",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Carson Palmer",
+   "player_b": "Matt Schaub"
+  },
+  "W2009:standard:w16:00-0024460:00-0027007": {
+   "anon_id": "Q0355",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Quinton Ganther",
+   "player_b": "Chris Wells"
+  },
+  "W2009:standard:w09:00-0024334:00-0027005": {
+   "anon_id": "Q0102",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Marshall",
+   "player_b": "Hakeem Nicks"
+  },
+  "W2009:standard:w12:00-0026235:00-0024240": {
+   "anon_id": "Q0367",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mario Manningham",
+   "player_b": "Santonio Holmes"
+  },
+  "W2009:standard:w13:00-0006101:00-0022054": {
+   "anon_id": "Q0390",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tony Gonzalez",
+   "player_b": "Visanthe Shiancoe"
+  },
+  "W2009:standard:w14:00-0022921:00-0020498": {
+   "anon_id": "Q0348",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Reggie Wayne"
+  },
+  "W2009:standard:w09:00-0025529:00-0024272": {
+   "anon_id": "Q0281",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Steve Breaston",
+   "player_b": "Devin Hester"
+  },
+  "W2009:standard:w09:00-0022840:00-0020270": {
+   "anon_id": "Q0198",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Julius Jones",
+   "player_b": "Correll Buckhalter"
+  },
+  "W2009:standard:w08:00-0020498:00-0023496": {
+   "anon_id": "Q0222",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Reggie Wayne",
+   "player_b": "Vincent Jackson"
+  },
+  "W2009:standard:w06:00-0024242:00-0026229": {
+   "anon_id": "Q0106",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeAngelo Williams",
+   "player_b": "Steve Slaton"
+  },
+  "W2009:standard:w15:00-0023460:00-0021231": {
+   "anon_id": "Q0362",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jason Campbell",
+   "player_b": "David Garrard"
+  },
+  "W2009:standard:w07:00-0023310:00-0023474": {
+   "anon_id": "Q0091",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Lance Moore",
+   "player_b": "Mark Bradley"
+  },
+  "W2009:standard:w07:00-0006101:00-0021547": {
+   "anon_id": "Q0267",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tony Gonzalez",
+   "player_b": "Antonio Gates"
+  },
+  "W2009:standard:w11:00-0027003:00-0019693": {
+   "anon_id": "Q0259",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Donald Brown",
+   "player_b": "Jamal Lewis"
+  },
+  "W2009:standard:w12:00-0026937:00-0026210": {
+   "anon_id": "Q0120",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Gibson",
+   "player_b": "Earl Bennett"
+  },
+  "W2009:standard:w16:00-0021314:00-0025487": {
+   "anon_id": "Q0049",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chester Taylor",
+   "player_b": "Michael Bush"
+  },
+  "W2009:standard:w05:00-0021429:00-0022803": {
+   "anon_id": "Q0418",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Carson Palmer",
+   "player_b": "Eli Manning"
+  },
+  "W2009:standard:w10:00-0011754:00-0022427": {
+   "anon_id": "Q0238",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Randy Moss",
+   "player_b": "Wes Welker"
+  },
+  "W2009:standard:w12:00-0024813:00-0023544": {
+   "anon_id": "Q0063",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Pierre Thomas",
+   "player_b": "Marion Barber"
+  },
+  "W2009:standard:w06:00-0023367:00-0024240": {
+   "anon_id": "Q0144",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Nate Washington",
+   "player_b": "Santonio Holmes"
+  },
+  "W2009:standard:w11:00-0020516:00-0026178": {
+   "anon_id": "Q0025",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Todd Heap",
+   "player_b": "John Carlson"
+  },
+  "W2009:standard:w16:00-0022909:00-0026913": {
+   "anon_id": "Q0015",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Roy Williams",
+   "player_b": "Johnny Knox"
+  },
+  "W2009:standard:w05:00-0022084:00-0024334": {
+   "anon_id": "Q0118",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Anquan Boldin",
+   "player_b": "Brandon Marshall"
+  },
+  "W2009:standard:w09:00-0025466:00-0004541": {
+   "anon_id": "Q0430",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mike Sims-Walker",
+   "player_b": "Donald Driver"
+  },
+  "W2009:standard:w10:00-0024221:00-0022165": {
+   "anon_id": "Q0090",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Vernon Davis",
+   "player_b": "Dallas Clark"
+  },
+  "W2009:standard:w10:00-0020270:00-0024011": {
+   "anon_id": "Q0268",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Correll Buckhalter",
+   "player_b": "Mike Bell"
+  },
+  "W2009:standard:w13:00-0024272:00-0020438": {
+   "anon_id": "Q0109",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Devin Hester",
+   "player_b": "T.J. Houshmandzadeh"
+  },
+  "W2009:standard:w10:00-0025399:00-0022840": {
+   "anon_id": "Q0020",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Marshawn Lynch",
+   "player_b": "Julius Jones"
+  },
+  "W2009:standard:w16:00-0019709:00-0026898": {
+   "anon_id": "Q0166",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Redman",
+   "player_b": "Mark Sanchez"
+  },
+  "W2009:standard:w10:00-0023459:00-0022924": {
+   "anon_id": "Q0136",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Aaron Rodgers",
+   "player_b": "Ben Roethlisberger"
+  },
+  "W2009:standard:w07:00-0025487:00-0027029": {
+   "anon_id": "Q0123",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Michael Bush",
+   "player_b": "LeSean McCoy"
+  },
+  "W2009:standard:w06:00-0025479:00-0023460": {
+   "anon_id": "Q0249",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Trent Edwards",
+   "player_b": "Jason Campbell"
+  },
+  "W2009:standard:w08:00-0025466:00-0025438": {
+   "anon_id": "Q0464",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Sims-Walker",
+   "player_b": "Steve Smith"
+  },
+  "W2009:standard:w05:00-0026178:00-0022922": {
+   "anon_id": "Q0168",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "John Carlson",
+   "player_b": "Kellen Winslow"
+  },
+  "W2009:standard:w08:00-0026898:00-0026197": {
+   "anon_id": "Q0004",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mark Sanchez",
+   "player_b": "Chad Henne"
+  },
+  "W2009:standard:w09:00-0023662:00-0023460": {
+   "anon_id": "Q0097",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Matt Cassel",
+   "player_b": "Jason Campbell"
+  },
+  "W2009:standard:w15:00-0026345:00-0020494": {
+   "anon_id": "Q0274",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Pierre Garcon",
+   "player_b": "Santana Moss"
+  },
+  "W2009:standard:w14:00-0026262:00-0022770": {
+   "anon_id": "Q0293",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tashard Choice",
+   "player_b": "Derrick Ward"
+  },
+  "W2009:standard:w14:00-0026195:00-0017915": {
+   "anon_id": "Q0173",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ray Rice",
+   "player_b": "Ricky Williams"
+  },
+  "W2009:standard:w15:00-0007091:00-0026143": {
+   "anon_id": "Q0190",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Hasselbeck",
+   "player_b": "Matt Ryan"
+  },
+  "W2009:standard:w16:00-0022984:00-0024813": {
+   "anon_id": "Q0264",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ryan Grant",
+   "player_b": "Pierre Thomas"
+  },
+  "W2009:standard:w09:00-0023459:00-0022924": {
+   "anon_id": "Q0033",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Aaron Rodgers",
+   "player_b": "Ben Roethlisberger"
+  },
+  "W2009:standard:w14:00-0025529:00-0024267": {
+   "anon_id": "Q0266",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Steve Breaston",
+   "player_b": "Greg Jennings"
+  },
+  "W2009:standard:w14:00-0021191:00-0020337": {
+   "anon_id": "Q0280",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Antonio Bryant",
+   "player_b": "Steve Smith"
+  },
+  "W2009:standard:w16:00-0025465:00-0022807": {
+   "anon_id": "Q0272",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "James Jones",
+   "player_b": "Bernard Berrian"
+  },
+  "W2009:standard:w14:00-0026213:00-0022840": {
+   "anon_id": "Q0226",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jamaal Charles",
+   "player_b": "Julius Jones"
+  },
+  "W2009:standard:w15:00-0026197:00-0026993": {
+   "anon_id": "Q0231",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chad Henne",
+   "player_b": "Josh Freeman"
+  },
+  "W2009:standard:w07:00-0024240:00-0026913": {
+   "anon_id": "Q0058",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Santonio Holmes",
+   "player_b": "Johnny Knox"
+  },
+  "W2009:standard:w11:00-0023545:00-0026988": {
+   "anon_id": "Q0115",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Jacobs",
+   "player_b": "Knowshon Moreno"
+  },
+  "W2009:standard:w13:00-0024226:00-0017200": {
+   "anon_id": "Q0170",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jay Cutler",
+   "player_b": "Kurt Warner"
+  },
+  "W2009:standard:w08:00-0026178:00-0024276": {
+   "anon_id": "Q0371",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "John Carlson",
+   "player_b": "Tony Scheffler"
+  },
+  "W2009:standard:w16:00-0027029:00-0020270": {
+   "anon_id": "Q0066",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "LeSean McCoy",
+   "player_b": "Correll Buckhalter"
+  },
+  "W2009:standard:w06:00-0019599:00-0004161": {
+   "anon_id": "Q0134",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Marc Bulger",
+   "player_b": "Jake Delhomme"
+  },
+  "W2009:standard:w07:00-0021931:00-0026237": {
+   "anon_id": "Q0340",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kevin Walter",
+   "player_b": "Andre Caldwell"
+  },
+  "W2009:standard:w10:00-0026314:00-0012478": {
+   "anon_id": "Q0407",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Josh Morgan",
+   "player_b": "Terrell Owens"
+  },
+  "W2009:standard:w14:00-0022736:00-0024245": {
+   "anon_id": "Q0186",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Steven Jackson",
+   "player_b": "Joseph Addai"
+  },
+  "W2009:standard:w07:00-0023438:00-0022144": {
+   "anon_id": "Q0453",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Braylon Edwards",
+   "player_b": "Bobby Wade"
+  },
+  "W2009:standard:w14:00-0005091:00-0026162": {
+   "anon_id": "Q0163",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kevin Faulk",
+   "player_b": "Felix Jones"
+  },
+  "W2009:standard:w12:00-0022922:00-0025540": {
+   "anon_id": "Q0167",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kellen Winslow",
+   "player_b": "Kevin Boss"
+  },
+  "W2009:standard:w16:00-0026188:00-0025425": {
+   "anon_id": "Q0313",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Fred Davis",
+   "player_b": "Zach Miller"
+  },
+  "W2009:standard:w16:00-0017200:00-0022803": {
+   "anon_id": "Q0294",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kurt Warner",
+   "player_b": "Eli Manning"
+  },
+  "W2009:standard:w08:00-0022840:00-0026289": {
+   "anon_id": "Q0342",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Julius Jones",
+   "player_b": "Tim Hightower"
+  },
+  "W2009:standard:w16:00-0024275:00-0026195": {
+   "anon_id": "Q0456",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Maurice Jones-Drew",
+   "player_b": "Ray Rice"
+  },
+  "W2009:standard:w06:00-0023438:00-0026210": {
+   "anon_id": "Q0263",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Braylon Edwards",
+   "player_b": "Earl Bennett"
+  },
+  "W2009:standard:w06:00-0022924:00-0007091": {
+   "anon_id": "Q0427",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Matt Hasselbeck"
+  },
+  "W2009:standard:w08:00-0011022:00-0017200": {
+   "anon_id": "Q0126",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Donovan McNabb",
+   "player_b": "Kurt Warner"
+  },
+  "W2009:standard:w12:00-0026986:00-0021999": {
+   "anon_id": "Q0314",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Michael Crabtree",
+   "player_b": "Nate Burleson"
+  },
+  "W2009:standard:w11:00-0011022:00-0022803": {
+   "anon_id": "Q0184",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Donovan McNabb",
+   "player_b": "Eli Manning"
+  },
+  "W2009:standard:w07:00-0021216:00-0021179": {
+   "anon_id": "Q0282",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brian Westbrook",
+   "player_b": "Clinton Portis"
+  },
+  "W2009:standard:w07:00-0023439:00-0024245": {
+   "anon_id": "Q0127",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cedric Benson",
+   "player_b": "Joseph Addai"
+  },
+  "W2009:standard:w11:00-0020438:00-0026901": {
+   "anon_id": "Q0133",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "T.J. Houshmandzadeh",
+   "player_b": "Mike Wallace"
+  },
+  "W2009:standard:w14:00-0020446:00-0024324": {
+   "anon_id": "Q0162",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Chris Chambers",
+   "player_b": "Jason Avant"
+  },
+  "W2009:standard:w09:00-0026237:00-0023367": {
+   "anon_id": "Q0191",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andre Caldwell",
+   "player_b": "Nate Washington"
+  },
+  "W2009:standard:w15:00-0024240:00-0027005": {
+   "anon_id": "Q0372",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Santonio Holmes",
+   "player_b": "Hakeem Nicks"
+  },
+  "W2009:standard:w07:00-0019693:00-0024217": {
+   "anon_id": "Q0395",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jamal Lewis",
+   "player_b": "Reggie Bush"
+  },
+  "W2009:standard:w10:00-0023465:00-0006101": {
+   "anon_id": "Q0229",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Heath Miller",
+   "player_b": "Tony Gonzalez"
+  },
+  "W2009:standard:w15:00-0012478:00-0026998": {
+   "anon_id": "Q0244",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Terrell Owens",
+   "player_b": "Percy Harvin"
+  },
+  "W2009:standard:w12:00-0023564:00-0022093": {
+   "anon_id": "Q0138",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Darren Sproles",
+   "player_b": "Justin Fargas"
+  },
+  "W2009:standard:w10:00-0026210:00-0022807": {
+   "anon_id": "Q0457",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Earl Bennett",
+   "player_b": "Bernard Berrian"
+  },
+  "W2009:standard:w13:00-0003739:00-0024408": {
+   "anon_id": "Q0062",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Daunte Culpepper",
+   "player_b": "Bruce Gradkowski"
+  },
+  "W2009:standard:w07:00-0021678:00-0022803": {
+   "anon_id": "Q0246",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tony Romo",
+   "player_b": "Eli Manning"
+  },
+  "W2009:standard:w16:00-0026231:00-0022127": {
+   "anon_id": "Q0216",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jermichael Finley",
+   "player_b": "Jason Witten"
+  },
+  "W2009:standard:w07:00-0022921:00-0020498": {
+   "anon_id": "Q0203",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Reggie Wayne"
+  },
+  "W2009:standard:w16:00-0024236:00-0026988": {
+   "anon_id": "Q0438",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Laurence Maroney",
+   "player_b": "Knowshon Moreno"
+  },
+  "W2009:standard:w06:00-0005106:00-0021231": {
+   "anon_id": "Q0116",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brett Favre",
+   "player_b": "David Garrard"
+  },
+  "W2009:standard:w07:00-0026300:00-0026197": {
+   "anon_id": "Q0411",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh Johnson",
+   "player_b": "Chad Henne"
+  },
+  "W2009:standard:w13:00-0023544:00-0020536": {
+   "anon_id": "Q0101",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marion Barber",
+   "player_b": "LaDainian Tomlinson"
+  }
+ }
+}

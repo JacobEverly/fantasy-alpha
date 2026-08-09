@@ -1,0 +1,3248 @@
+{
+ "benchmark": "calibbench_v0",
+ "season": 2016,
+ "format": "ppr",
+ "questions": {
+  "S2016:ppr:1794": {
+   "anon_id": "Q0310",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Cam Newton",
+   "nflverse_id": "00-0027939"
+  },
+  "S2016:ppr:1004": {
+   "anon_id": "Q0193",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Aaron Rodgers",
+   "nflverse_id": "00-0023459"
+  },
+  "S2016:ppr:1904": {
+   "anon_id": "Q0292",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Russell Wilson",
+   "nflverse_id": "00-0029263"
+  },
+  "S2016:ppr:1897": {
+   "anon_id": "Q0069",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Andrew Luck",
+   "nflverse_id": "00-0029668"
+  },
+  "S2016:ppr:127": {
+   "anon_id": "Q0185",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Drew Brees",
+   "nflverse_id": "00-0020531"
+  },
+  "S2016:ppr:119": {
+   "anon_id": "Q0344",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tom Brady",
+   "nflverse_id": "00-0019596"
+  },
+  "S2016:ppr:1006": {
+   "anon_id": "Q0430",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ben Roethlisberger",
+   "nflverse_id": "00-0022924"
+  },
+  "S2016:ppr:900": {
+   "anon_id": "Q0307",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Carson Palmer",
+   "nflverse_id": "00-0021429"
+  },
+  "S2016:ppr:2110": {
+   "anon_id": "Q0267",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Blake Bortles",
+   "nflverse_id": "00-0031407"
+  },
+  "S2016:ppr:749": {
+   "anon_id": "Q0426",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Eli Manning",
+   "nflverse_id": "00-0022803"
+  },
+  "S2016:ppr:995": {
+   "anon_id": "Q0359",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Philip Rivers",
+   "nflverse_id": "00-0022942"
+  },
+  "S2016:ppr:2118": {
+   "anon_id": "Q0235",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Derek Carr",
+   "nflverse_id": "00-0031280"
+  },
+  "S2016:ppr:1902": {
+   "anon_id": "Q0300",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Kirk Cousins",
+   "nflverse_id": "00-0029604"
+  },
+  "S2016:ppr:1880": {
+   "anon_id": "Q0206",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tyrod Taylor",
+   "nflverse_id": "00-0028118"
+  },
+  "S2016:ppr:1664": {
+   "anon_id": "Q0152",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Matthew Stafford",
+   "nflverse_id": "00-0026498"
+  },
+  "S2016:ppr:2275": {
+   "anon_id": "Q0122",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jameis Winston",
+   "nflverse_id": "00-0031503"
+  },
+  "S2016:ppr:1802": {
+   "anon_id": "Q0065",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Andy Dalton",
+   "nflverse_id": "00-0027973"
+  },
+  "S2016:ppr:2276": {
+   "anon_id": "Q0062",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Marcus Mariota",
+   "nflverse_id": "00-0032268"
+  },
+  "S2016:ppr:2377": {
+   "anon_id": "Q0061",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Dak Prescott",
+   "nflverse_id": "00-0033077"
+  },
+  "S2016:ppr:1342": {
+   "anon_id": "Q0254",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Matt Ryan",
+   "nflverse_id": "00-0026143"
+  },
+  "S2016:ppr:375": {
+   "anon_id": "Q0166",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ryan Fitzpatrick",
+   "nflverse_id": "00-0023682"
+  },
+  "S2016:ppr:1899": {
+   "anon_id": "Q0072",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ryan Tannehill",
+   "nflverse_id": "00-0029701"
+  },
+  "S2016:ppr:1898": {
+   "anon_id": "Q0210",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Robert Griffin III",
+   "nflverse_id": "00-0029665"
+  },
+  "S2016:ppr:1900": {
+   "anon_id": "Q0259",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brock Osweiler",
+   "nflverse_id": "00-0029682"
+  },
+  "S2016:ppr:2297": {
+   "anon_id": "Q0232",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "David Johnson",
+   "nflverse_id": "00-0032187"
+  },
+  "S2016:ppr:2280": {
+   "anon_id": "Q0003",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Todd Gurley",
+   "nflverse_id": "00-0032241"
+  },
+  "S2016:ppr:2343": {
+   "anon_id": "Q0448",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Ezekiel Elliott",
+   "nflverse_id": "00-0033045"
+  },
+  "S2016:ppr:1908": {
+   "anon_id": "Q0228",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Lamar Miller",
+   "nflverse_id": "00-0029615"
+  },
+  "S2016:ppr:925": {
+   "anon_id": "Q0113",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Adrian Peterson",
+   "nflverse_id": "00-0025394"
+  },
+  "S2016:ppr:1983": {
+   "anon_id": "Q0103",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "LeVeon Bell",
+   "nflverse_id": "00-0030496"
+  },
+  "S2016:ppr:2144": {
+   "anon_id": "Q0246",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Devonta Freeman",
+   "nflverse_id": "00-0031285"
+  },
+  "S2016:ppr:1368": {
+   "anon_id": "Q0436",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jamaal Charles",
+   "nflverse_id": "00-0026213"
+  },
+  "S2016:ppr:1645": {
+   "anon_id": "Q0025",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "LeSean McCoy",
+   "nflverse_id": "00-0027029"
+  },
+  "S2016:ppr:1987": {
+   "anon_id": "Q0014",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Eddie Lacy",
+   "nflverse_id": "00-0030485"
+  },
+  "S2016:ppr:1800": {
+   "anon_id": "Q0437",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Mark Ingram II",
+   "nflverse_id": "00-0027966"
+  },
+  "S2016:ppr:1907": {
+   "anon_id": "Q0320",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Doug Martin",
+   "nflverse_id": "00-0029613"
+  },
+  "S2016:ppr:2071": {
+   "anon_id": "Q0031",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "CJ Anderson",
+   "nflverse_id": "00-0029854"
+  },
+  "S2016:ppr:2023": {
+   "anon_id": "Q0346",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Latavius Murray",
+   "nflverse_id": "00-0030513"
+  },
+  "S2016:ppr:1819": {
+   "anon_id": "Q0047",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "DeMarco Murray",
+   "nflverse_id": "00-0028009"
+  },
+  "S2016:ppr:2337": {
+   "anon_id": "Q0024",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Thomas Rawls",
+   "nflverse_id": "00-0031897"
+  },
+  "S2016:ppr:1354": {
+   "anon_id": "Q0297",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Matt Forte",
+   "nflverse_id": "00-0026184"
+  },
+  "S2016:ppr:2129": {
+   "anon_id": "Q0053",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Carlos Hyde",
+   "nflverse_id": "00-0031045"
+  },
+  "S2016:ppr:2306": {
+   "anon_id": "Q0242",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jeremy Langford",
+   "nflverse_id": "00-0031569"
+  },
+  "S2016:ppr:2127": {
+   "anon_id": "Q0190",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jeremy Hill",
+   "nflverse_id": "00-0031301"
+  },
+  "S2016:ppr:2282": {
+   "anon_id": "Q0017",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Melvin Gordon III",
+   "nflverse_id": "00-0032144"
+  },
+  "S2016:ppr:1776": {
+   "anon_id": "Q0218",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Danny Woodhead",
+   "nflverse_id": "00-0026019"
+  },
+  "S2016:ppr:1724": {
+   "anon_id": "Q0153",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Arian Foster",
+   "nflverse_id": "00-0026796"
+  },
+  "S2016:ppr:1979": {
+   "anon_id": "Q0163",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Giovani Bernard",
+   "nflverse_id": "00-0030456"
+  },
+  "S2016:ppr:1729": {
+   "anon_id": "Q0457",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ryan Mathews",
+   "nflverse_id": "00-0027864"
+  },
+  "S2016:ppr:1344": {
+   "anon_id": "Q0451",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jonathan Stewart",
+   "nflverse_id": "00-0026153"
+  },
+  "S2016:ppr:2285": {
+   "anon_id": "Q0075",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Duke Johnson",
+   "nflverse_id": "00-0032257"
+  },
+  "S2016:ppr:1257": {
+   "anon_id": "Q0124",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DeAngelo Williams",
+   "nflverse_id": "00-0024242"
+  },
+  "S2016:ppr:437": {
+   "anon_id": "Q0131",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Frank Gore",
+   "nflverse_id": "00-0023500"
+  },
+  "S2016:ppr:1644": {
+   "anon_id": "Q0120",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Rashad Jennings",
+   "nflverse_id": "00-0027155"
+  },
+  "S2016:ppr:2299": {
+   "anon_id": "Q0419",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Matt Jones",
+   "nflverse_id": "00-0031939"
+  },
+  "S2016:ppr:2350": {
+   "anon_id": "Q0196",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Derrick Henry",
+   "nflverse_id": "00-0032764"
+  },
+  "S2016:ppr:2293": {
+   "anon_id": "Q0040",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ameer Abdullah",
+   "nflverse_id": "00-0032104"
+  },
+  "S2016:ppr:1777": {
+   "anon_id": "Q0203",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chris Ivory",
+   "nflverse_id": "00-0027531"
+  },
+  "S2016:ppr:2134": {
+   "anon_id": "Q0064",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Charles Sims",
+   "nflverse_id": "00-0031390"
+  },
+  "S2016:ppr:1703": {
+   "anon_id": "Q0294",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Justin Forsett",
+   "nflverse_id": "00-0026373"
+  },
+  "S2016:ppr:2154": {
+   "anon_id": "Q0417",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "James White",
+   "nflverse_id": "00-0031062"
+  },
+  "S2016:ppr:1781": {
+   "anon_id": "Q0054",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "LeGarrette Blount",
+   "nflverse_id": "00-0027325"
+  },
+  "S2016:ppr:2292": {
+   "anon_id": "Q0425",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "TJ Yeldon",
+   "nflverse_id": "00-0032209"
+  },
+  "S2016:ppr:1988": {
+   "anon_id": "Q0091",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Christine Michael",
+   "nflverse_id": "00-0030432"
+  },
+  "S2016:ppr:2033": {
+   "anon_id": "Q0143",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Theo Riddick",
+   "nflverse_id": "00-0030107"
+  },
+  "S2016:ppr:1867": {
+   "anon_id": "Q0444",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Bilal Powell",
+   "nflverse_id": "00-0028064"
+  },
+  "S2016:ppr:2219": {
+   "anon_id": "Q0407",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Isaiah Crowell",
+   "nflverse_id": "00-0030656"
+  },
+  "S2016:ppr:2284": {
+   "anon_id": "Q0111",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jay Ajayi",
+   "nflverse_id": "00-0031590"
+  },
+  "S2016:ppr:1105": {
+   "anon_id": "Q0158",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Darren Sproles",
+   "nflverse_id": "00-0023564"
+  },
+  "S2016:ppr:2289": {
+   "anon_id": "Q0045",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tevin Coleman",
+   "nflverse_id": "00-0032058"
+  },
+  "S2016:ppr:2030": {
+   "anon_id": "Q0164",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Spencer Ware",
+   "nflverse_id": "00-0030414"
+  },
+  "S2016:ppr:2382": {
+   "anon_id": "Q0291",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DeAndre Washington",
+   "nflverse_id": "00-0032940"
+  },
+  "S2016:ppr:1961": {
+   "anon_id": "Q0134",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Alfred Morris",
+   "nflverse_id": "00-0029141"
+  },
+  "S2016:ppr:1860": {
+   "anon_id": "Q0353",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dion Lewis",
+   "nflverse_id": "00-0028087"
+  },
+  "S2016:ppr:2378": {
+   "anon_id": "Q0099",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Devontae Booker",
+   "nflverse_id": "00-0032972"
+  },
+  "S2016:ppr:2140": {
+   "anon_id": "Q0012",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jerick McKinnon",
+   "nflverse_id": "00-0031376"
+  },
+  "S2016:ppr:1822": {
+   "anon_id": "Q0211",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Shane Vereen",
+   "nflverse_id": "00-0027994"
+  },
+  "S2016:ppr:1791": {
+   "anon_id": "Q0135",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "James Starks",
+   "nflverse_id": "00-0027791"
+  },
+  "S2016:ppr:2013": {
+   "anon_id": "Q0351",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chris Thompson",
+   "nflverse_id": "00-0030404"
+  },
+  "S2016:ppr:2139": {
+   "anon_id": "Q0212",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Terrance West",
+   "nflverse_id": "00-0031375"
+  },
+  "S2016:ppr:1347": {
+   "anon_id": "Q0284",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chris Johnson",
+   "nflverse_id": "00-0026164"
+  },
+  "S2016:ppr:1886": {
+   "anon_id": "Q0412",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Antonio Brown",
+   "nflverse_id": "00-0027793"
+  },
+  "S2016:ppr:1796": {
+   "anon_id": "Q0238",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Julio Jones",
+   "nflverse_id": "00-0027944"
+  },
+  "S2016:ppr:2113": {
+   "anon_id": "Q0026",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Odell Beckham Jr.",
+   "nflverse_id": "00-0031235"
+  },
+  "S2016:ppr:1975": {
+   "anon_id": "Q0357",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DeAndre Hopkins",
+   "nflverse_id": "00-0030564"
+  },
+  "S2016:ppr:1795": {
+   "anon_id": "Q0032",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "A.J. Green",
+   "nflverse_id": "00-0027942"
+  },
+  "S2016:ppr:2130": {
+   "anon_id": "Q0148",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Allen Robinson II",
+   "nflverse_id": "00-0031428"
+  },
+  "S2016:ppr:755": {
+   "anon_id": "Q0383",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brandon Marshall",
+   "nflverse_id": "00-0024334"
+  },
+  "S2016:ppr:1992": {
+   "anon_id": "Q0057",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Keenan Allen",
+   "nflverse_id": "00-0030279"
+  },
+  "S2016:ppr:2111": {
+   "anon_id": "Q0397",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Mike Evans",
+   "nflverse_id": "00-0031408"
+  },
+  "S2016:ppr:1727": {
+   "anon_id": "Q0248",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dez Bryant",
+   "nflverse_id": "00-0027902"
+  },
+  "S2016:ppr:1350": {
+   "anon_id": "Q0095",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jordy Nelson",
+   "nflverse_id": "00-0026176"
+  },
+  "S2016:ppr:2277": {
+   "anon_id": "Q0355",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Amari Cooper",
+   "nflverse_id": "00-0031544"
+  },
+  "S2016:ppr:1918": {
+   "anon_id": "Q0079",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Alshon Jeffery",
+   "nflverse_id": "00-0029137"
+  },
+  "S2016:ppr:2114": {
+   "anon_id": "Q0439",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Brandin Cooks",
+   "nflverse_id": "00-0031236"
+  },
+  "S2016:ppr:2132": {
+   "anon_id": "Q0127",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jarvis Landry",
+   "nflverse_id": "00-0031382"
+  },
+  "S2016:ppr:2109": {
+   "anon_id": "Q0410",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Sammy Watkins",
+   "nflverse_id": "00-0031325"
+  },
+  "S2016:ppr:1935": {
+   "anon_id": "Q0037",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "T.Y. Hilton",
+   "nflverse_id": "00-0029608"
+  },
+  "S2016:ppr:1735": {
+   "anon_id": "Q0233",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Demaryius Thomas",
+   "nflverse_id": "00-0027874"
+  },
+  "S2016:ppr:1806": {
+   "anon_id": "Q0327",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Randall Cobb",
+   "nflverse_id": "00-0028002"
+  },
+  "S2016:ppr:1708": {
+   "anon_id": "Q0374",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Julian Edelman",
+   "nflverse_id": "00-0027150"
+  },
+  "S2016:ppr:1649": {
+   "anon_id": "Q0358",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jeremy Maclin",
+   "nflverse_id": "00-0026995"
+  },
+  "S2016:ppr:2137": {
+   "anon_id": "Q0156",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Donte Moncrief",
+   "nflverse_id": "00-0031339"
+  },
+  "S2016:ppr:2116": {
+   "anon_id": "Q0051",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kelvin Benjamin",
+   "nflverse_id": "00-0031359"
+  },
+  "S2016:ppr:1730": {
+   "anon_id": "Q0338",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Golden Tate",
+   "nflverse_id": "00-0027891"
+  },
+  "S2016:ppr:1764": {
+   "anon_id": "Q0020",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Eric Decker",
+   "nflverse_id": "00-0027690"
+  },
+  "S2016:ppr:1927": {
+   "anon_id": "Q0331",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Doug Baldwin",
+   "nflverse_id": "00-0028434"
+  },
+  "S2016:ppr:1951": {
+   "anon_id": "Q0392",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Josh Gordon",
+   "nflverse_id": "00-0029664"
+  },
+  "S2016:ppr:1915": {
+   "anon_id": "Q0201",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Michael Floyd",
+   "nflverse_id": "00-0029638"
+  },
+  "S2016:ppr:2061": {
+   "anon_id": "Q0222",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Marvin Jones Jr.",
+   "nflverse_id": "00-0029293"
+  },
+  "S2016:ppr:374": {
+   "anon_id": "Q0438",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Larry Fitzgerald",
+   "nflverse_id": "00-0022921"
+  },
+  "S2016:ppr:2121": {
+   "anon_id": "Q0109",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jordan Matthews",
+   "nflverse_id": null
+  },
+  "S2016:ppr:2251": {
+   "anon_id": "Q0263",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Allen Hurns",
+   "nflverse_id": "00-0030821"
+  },
+  "S2016:ppr:1762": {
+   "anon_id": "Q0337",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Emmanuel Sanders",
+   "nflverse_id": "00-0027685"
+  },
+  "S2016:ppr:2304": {
+   "anon_id": "Q0398",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tyler Lockett",
+   "nflverse_id": "00-0032211"
+  },
+  "S2016:ppr:2138": {
+   "anon_id": "Q0239",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "John Brown",
+   "nflverse_id": "00-0031051"
+  },
+  "S2016:ppr:1646": {
+   "anon_id": "Q0155",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Michael Crabtree",
+   "nflverse_id": "00-0026986"
+  },
+  "S2016:ppr:1357": {
+   "anon_id": "Q0323",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DeSean Jackson",
+   "nflverse_id": "00-0026189"
+  },
+  "S2016:ppr:2349": {
+   "anon_id": "Q0059",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Sterling Shepard",
+   "nflverse_id": "00-0032385"
+  },
+  "S2016:ppr:2279": {
+   "anon_id": "Q0219",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DeVante Parker",
+   "nflverse_id": "00-0031547"
+  },
+  "S2016:ppr:2223": {
+   "anon_id": "Q0428",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Willie Snead IV",
+   "nflverse_id": "00-0030663"
+  },
+  "S2016:ppr:2278": {
+   "anon_id": "Q0285",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kevin White",
+   "nflverse_id": "00-0031545"
+  },
+  "S2016:ppr:2303": {
+   "anon_id": "Q0093",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Devin Funchess",
+   "nflverse_id": "00-0032055"
+  },
+  "S2016:ppr:2316": {
+   "anon_id": "Q0027",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Stefon Diggs",
+   "nflverse_id": "00-0031588"
+  },
+  "S2016:ppr:2189": {
+   "anon_id": "Q0386",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Travis Benjamin",
+   "nflverse_id": "00-0029269"
+  },
+  "S2016:ppr:2338": {
+   "anon_id": "Q0268",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kamar Aiken",
+   "nflverse_id": "00-0028497"
+  },
+  "S2016:ppr:1972": {
+   "anon_id": "Q0460",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tavon Austin",
+   "nflverse_id": "00-0030525"
+  },
+  "S2016:ppr:2346": {
+   "anon_id": "Q0333",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Corey Coleman",
+   "nflverse_id": "00-0032966"
+  },
+  "S2016:ppr:2381": {
+   "anon_id": "Q0301",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tajae Sharpe",
+   "nflverse_id": "00-0032778"
+  },
+  "S2016:ppr:2357": {
+   "anon_id": "Q0295",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Michael Thomas",
+   "nflverse_id": "00-0027076"
+  },
+  "S2016:ppr:586": {
+   "anon_id": "Q0274",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Vincent Jackson",
+   "nflverse_id": "00-0023496"
+  },
+  "S2016:ppr:1994": {
+   "anon_id": "Q0266",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Markus Wheaton",
+   "nflverse_id": "00-0030460"
+  },
+  "S2016:ppr:1094": {
+   "anon_id": "Q0390",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Steve Smith",
+   "nflverse_id": "00-0020337"
+  },
+  "S2016:ppr:1807": {
+   "anon_id": "Q0289",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Torrey Smith",
+   "nflverse_id": "00-0027996"
+  },
+  "S2016:ppr:2345": {
+   "anon_id": "Q0192",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Will Fuller",
+   "nflverse_id": "00-0033127"
+  },
+  "S2016:ppr:1919": {
+   "anon_id": "Q0305",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Mohamed Sanu",
+   "nflverse_id": "00-0029632"
+  },
+  "S2016:ppr:2359": {
+   "anon_id": "Q0106",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tyler Boyd",
+   "nflverse_id": "00-0033009"
+  },
+  "S2016:ppr:2241": {
+   "anon_id": "Q0200",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Rishard Matthews",
+   "nflverse_id": "00-0029580"
+  },
+  "S2016:ppr:2076": {
+   "anon_id": "Q0401",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Chris Hogan",
+   "nflverse_id": "00-0028237"
+  },
+  "S2016:ppr:2283": {
+   "anon_id": "Q0388",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Phillip Dorsett",
+   "nflverse_id": "00-0032208"
+  },
+  "S2016:ppr:2011": {
+   "anon_id": "Q0049",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kenny Stills",
+   "nflverse_id": "00-0030085"
+  },
+  "S2016:ppr:1678": {
+   "anon_id": "Q0114",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Mike Wallace",
+   "nflverse_id": "00-0026901"
+  },
+  "S2016:ppr:426": {
+   "anon_id": "Q0078",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ted Ginn Jr",
+   "nflverse_id": "00-0025396"
+  },
+  "S2016:ppr:2290": {
+   "anon_id": "Q0170",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Sammie Coates",
+   "nflverse_id": "00-0032166"
+  },
+  "S2016:ppr:1868": {
+   "anon_id": "Q0454",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Terrelle Pryor",
+   "nflverse_id": "00-0028825"
+  },
+  "S2016:ppr:2300": {
+   "anon_id": "Q0038",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dorial Green-Beckham",
+   "nflverse_id": "00-0032218"
+  },
+  "S2016:ppr:1740": {
+   "anon_id": "Q0016",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Rob Gronkowski",
+   "nflverse_id": "00-0027656"
+  },
+  "S2016:ppr:1995": {
+   "anon_id": "Q0361",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jordan Reed",
+   "nflverse_id": "00-0030472"
+  },
+  "S2016:ppr:890": {
+   "anon_id": "Q0334",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Greg Olsen",
+   "nflverse_id": "00-0025418"
+  },
+  "S2016:ppr:1201": {
+   "anon_id": "Q0375",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Delanie Walker",
+   "nflverse_id": "00-0024389"
+  },
+  "S2016:ppr:1989": {
+   "anon_id": "Q0018",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Travis Kelce",
+   "nflverse_id": "00-0030506"
+  },
+  "S2016:ppr:1923": {
+   "anon_id": "Q0101",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Coby Fleener",
+   "nflverse_id": "00-0029697"
+  },
+  "S2016:ppr:1583": {
+   "anon_id": "Q0090",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Gary Barnidge",
+   "nflverse_id": "00-0026281"
+  },
+  "S2016:ppr:1978": {
+   "anon_id": "Q0326",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Zach Ertz",
+   "nflverse_id": "00-0030061"
+  },
+  "S2016:ppr:1881": {
+   "anon_id": "Q0341",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Julius Thomas",
+   "nflverse_id": "00-0028067"
+  },
+  "S2016:ppr:415": {
+   "anon_id": "Q0184",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Antonio Gates",
+   "nflverse_id": "00-0021547"
+  },
+  "S2016:ppr:1974": {
+   "anon_id": "Q0455",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Tyler Eifert",
+   "nflverse_id": "00-0030549"
+  },
+  "S2016:ppr:1364": {
+   "anon_id": "Q0330",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Martellus Bennett",
+   "nflverse_id": "00-0026201"
+  },
+  "S2016:ppr:1924": {
+   "anon_id": "Q0108",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dwayne Allen",
+   "nflverse_id": "00-0029689"
+  },
+  "S2016:ppr:1658": {
+   "anon_id": "Q0260",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jared Cook",
+   "nflverse_id": "00-0027061"
+  },
+  "S2016:ppr:1747": {
+   "anon_id": "Q0264",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jimmy Graham",
+   "nflverse_id": "00-0027696"
+  },
+  "S2016:ppr:1286": {
+   "anon_id": "Q0217",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jason Witten",
+   "nflverse_id": "00-0022127"
+  },
+  "S2016:ppr:820": {
+   "anon_id": "Q0421",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Zach Miller",
+   "nflverse_id": "00-0025425"
+  },
+  "W2016:ppr:w15:00-0027874:00-0031235": {
+   "anon_id": "Q0150",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Demaryius Thomas",
+   "player_b": "Odell Beckham Jr."
+  },
+  "W2016:ppr:w15:00-0030801:00-0029159": {
+   "anon_id": "Q0243",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Coleman",
+   "player_b": "Jermaine Kearse"
+  },
+  "W2016:ppr:w16:00-0028202:00-0029205": {
+   "anon_id": "Q0225",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Shaun Draughn",
+   "player_b": "Travaris Cadet"
+  },
+  "W2016:ppr:w09:00-0028986:00-0029263": {
+   "anon_id": "Q0367",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Case Keenum",
+   "player_b": "Russell Wilson"
+  },
+  "W2016:ppr:w15:00-0029137:00-0030525": {
+   "anon_id": "Q0249",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Alshon Jeffery",
+   "player_b": "Tavon Austin"
+  },
+  "W2016:ppr:w06:00-0032128:00-0027891": {
+   "anon_id": "Q0272",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Conley",
+   "player_b": "Golden Tate"
+  },
+  "W2016:ppr:w12:00-0028434:00-0027874": {
+   "anon_id": "Q0023",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Doug Baldwin",
+   "player_b": "Demaryius Thomas"
+  },
+  "W2016:ppr:w09:00-0029000:00-0031023": {
+   "anon_id": "Q0442",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cole Beasley",
+   "player_b": "Quincy Enunwa"
+  },
+  "W2016:ppr:w16:00-0031381:00-0031228": {
+   "anon_id": "Q0104",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Davante Adams",
+   "player_b": "Taylor Gabriel"
+  },
+  "W2016:ppr:w13:00-0029682:00-0023682": {
+   "anon_id": "Q0187",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brock Osweiler",
+   "player_b": "Ryan Fitzpatrick"
+  },
+  "W2016:ppr:w08:00-0032208:00-0027918": {
+   "anon_id": "Q0006",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Phillip Dorsett",
+   "player_b": "Andrew Hawkins"
+  },
+  "W2016:ppr:w16:00-0027918:00-0032055": {
+   "anon_id": "Q0096",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andrew Hawkins",
+   "player_b": "Devin Funchess"
+  },
+  "W2016:ppr:w09:00-0029701:00-0022942": {
+   "anon_id": "Q0309",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ryan Tannehill",
+   "player_b": "Philip Rivers"
+  },
+  "W2016:ppr:w15:00-0032688:00-0032211": {
+   "anon_id": "Q0004",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Robbie Chosen",
+   "player_b": "Tyler Lockett"
+  },
+  "W2016:ppr:w14:00-0028198:00-0028064": {
+   "anon_id": "Q0141",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Asiata",
+   "player_b": "Bilal Powell"
+  },
+  "W2016:ppr:w11:00-0032211:00-0031118": {
+   "anon_id": "Q0100",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tyler Lockett",
+   "player_b": "Corey Brown"
+  },
+  "W2016:ppr:w14:00-0030506:00-0030549": {
+   "anon_id": "Q0414",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Travis Kelce",
+   "player_b": "Tyler Eifert"
+  },
+  "W2016:ppr:w06:00-0032782:00-0029141": {
+   "anon_id": "Q0009",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Wendell Smallwood",
+   "player_b": "Alfred Morris"
+  },
+  "W2016:ppr:w14:00-0031236:00-0031339": {
+   "anon_id": "Q0107",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandin Cooks",
+   "player_b": "Donte Moncrief"
+  },
+  "W2016:ppr:w10:00-0031375:00-0026153": {
+   "anon_id": "Q0449",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Terrance West",
+   "player_b": "Jonathan Stewart"
+  },
+  "W2016:ppr:w09:00-0032778:00-0032218": {
+   "anon_id": "Q0213",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tajae Sharpe",
+   "player_b": "Dorial Green-Beckham"
+  },
+  "W2016:ppr:w07:00-0029682:00-0023682": {
+   "anon_id": "Q0202",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brock Osweiler",
+   "player_b": "Ryan Fitzpatrick"
+  },
+  "W2016:ppr:w09:00-0029159:00-0032208": {
+   "anon_id": "Q0167",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jermaine Kearse",
+   "player_b": "Phillip Dorsett"
+  },
+  "W2016:ppr:w12:00-0031569:00-0028409": {
+   "anon_id": "Q0324",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jeremy Langford",
+   "player_b": "DuJuan Harris"
+  },
+  "W2016:ppr:w05:00-0031941:00-0020337": {
+   "anon_id": "Q0252",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jamison Crowder",
+   "player_b": "Steve Smith"
+  },
+  "W2016:ppr:w06:00-0033009:00-0033040": {
+   "anon_id": "Q0082",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tyler Boyd",
+   "player_b": "Tyreek Hill"
+  },
+  "W2016:ppr:w14:00-0027854:00-0029701": {
+   "anon_id": "Q0215",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Sam Bradford",
+   "player_b": "Ryan Tannehill"
+  },
+  "W2016:ppr:w16:00-0029604:00-0029668": {
+   "anon_id": "Q0311",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kirk Cousins",
+   "player_b": "Andrew Luck"
+  },
+  "W2016:ppr:w14:00-0032166:00-0032688": {
+   "anon_id": "Q0406",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Sammie Coates",
+   "player_b": "Robbie Chosen"
+  },
+  "W2016:ppr:w12:00-0027854:00-0022803": {
+   "anon_id": "Q0296",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Sam Bradford",
+   "player_b": "Eli Manning"
+  },
+  "W2016:ppr:w06:00-0032940:00-0026373": {
+   "anon_id": "Q0354",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeAndre Washington",
+   "player_b": "Justin Forsett"
+  },
+  "W2016:ppr:w12:00-0030450:00-0032055": {
+   "anon_id": "Q0420",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Quinton Patton",
+   "player_b": "Devin Funchess"
+  },
+  "W2016:ppr:w12:00-0028002:00-0031023": {
+   "anon_id": "Q0453",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Randall Cobb",
+   "player_b": "Quincy Enunwa"
+  },
+  "W2016:ppr:w07:00-0027966:00-0030414": {
+   "anon_id": "Q0415",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mark Ingram",
+   "player_b": "Spencer Ware"
+  },
+  "W2016:ppr:w11:00-0023564:00-0032257": {
+   "anon_id": "Q0273",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Darren Sproles",
+   "player_b": "Duke Johnson"
+  },
+  "W2016:ppr:w06:00-0028434:00-0026901": {
+   "anon_id": "Q0445",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Doug Baldwin",
+   "player_b": "Mike Wallace"
+  },
+  "W2016:ppr:w15:00-0030521:00-0032208": {
+   "anon_id": "Q0074",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Justin Hunter",
+   "player_b": "Phillip Dorsett"
+  },
+  "W2016:ppr:w11:00-0032004:00-0031384": {
+   "anon_id": "Q0029",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Will Tye",
+   "player_b": "Richard Rodgers"
+  },
+  "W2016:ppr:w11:00-0022924:00-0031407": {
+   "anon_id": "Q0189",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Blake Bortles"
+  },
+  "W2016:ppr:w14:00-0031407:00-0023436": {
+   "anon_id": "Q0282",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Blake Bortles",
+   "player_b": "Alex Smith"
+  },
+  "W2016:ppr:w15:00-0029697:00-0031387": {
+   "anon_id": "Q0431",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Coby Fleener",
+   "player_b": "Eric Ebron"
+  },
+  "W2016:ppr:w05:00-0026625:00-0029682": {
+   "anon_id": "Q0128",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brian Hoyer",
+   "player_b": "Brock Osweiler"
+  },
+  "W2016:ppr:w13:00-0032256:00-0028838": {
+   "anon_id": "Q0251",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Clive Walford",
+   "player_b": "Larry Donnell"
+  },
+  "W2016:ppr:w06:00-0027006:00-0031023": {
+   "anon_id": "Q0387",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kenny Britt",
+   "player_b": "Quincy Enunwa"
+  },
+  "W2016:ppr:w15:00-0028009:00-0033045": {
+   "anon_id": "Q0287",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DeMarco Murray",
+   "player_b": "Ezekiel Elliott"
+  },
+  "W2016:ppr:w16:00-0032268:00-0022942": {
+   "anon_id": "Q0399",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marcus Mariota",
+   "player_b": "Philip Rivers"
+  },
+  "W2016:ppr:w16:00-0032780:00-0031045": {
+   "anon_id": "Q0360",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jordan Howard",
+   "player_b": "Carlos Hyde"
+  },
+  "W2016:ppr:w09:00-0030801:00-0025396": {
+   "anon_id": "Q0396",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Coleman",
+   "player_b": "Ted Ginn"
+  },
+  "W2016:ppr:w07:00-0031381:00-0030525": {
+   "anon_id": "Q0066",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Davante Adams",
+   "player_b": "Tavon Austin"
+  },
+  "W2016:ppr:w16:00-0032688:00-0032112": {
+   "anon_id": "Q0271",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Robbie Chosen",
+   "player_b": "J.J. Nelson"
+  },
+  "W2016:ppr:w13:00-0028237:00-0032400": {
+   "anon_id": "Q0046",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Hogan",
+   "player_b": "Malcolm Mitchell"
+  },
+  "W2016:ppr:w10:00-0030414:00-0030432": {
+   "anon_id": "Q0363",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Spencer Ware",
+   "player_b": "Christine Michael"
+  },
+  "W2016:ppr:w15:00-0027714:00-0031273": {
+   "anon_id": "Q0147",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dennis Pitta",
+   "player_b": "Cameron Brate"
+  },
+  "W2016:ppr:w15:00-0032268:00-0021429": {
+   "anon_id": "Q0182",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marcus Mariota",
+   "player_b": "Carson Palmer"
+  },
+  "W2016:ppr:w15:00-0029689:00-0030181": {
+   "anon_id": "Q0240",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dwayne Allen",
+   "player_b": "Jack Doyle"
+  },
+  "W2016:ppr:w07:00-0027150:00-0031023": {
+   "anon_id": "Q0221",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Julian Edelman",
+   "player_b": "Quincy Enunwa"
+  },
+  "W2016:ppr:w05:00-0027125:00-0027981": {
+   "anon_id": "Q0199",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Zach Miller",
+   "player_b": "Kyle Rudolph"
+  },
+  "W2016:ppr:w15:00-0030656:00-0031062": {
+   "anon_id": "Q0247",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Isaiah Crowell",
+   "player_b": "James White"
+  },
+  "W2016:ppr:w10:00-0022924:00-0033077": {
+   "anon_id": "Q0086",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Dak Prescott"
+  },
+  "W2016:ppr:w15:00-0029632:00-0031325": {
+   "anon_id": "Q0299",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mohamed Sanu",
+   "player_b": "Sammy Watkins"
+  },
+  "W2016:ppr:w10:00-0031235:00-0027793": {
+   "anon_id": "Q0205",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Odell Beckham Jr.",
+   "player_b": "Antonio Brown"
+  },
+  "W2016:ppr:w16:00-0030181:00-0021547": {
+   "anon_id": "Q0130",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jack Doyle",
+   "player_b": "Antonio Gates"
+  },
+  "W2016:ppr:w15:00-0033127:00-0032385": {
+   "anon_id": "Q0008",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Will Fuller",
+   "player_b": "Sterling Shepard"
+  },
+  "W2016:ppr:w06:00-0032377:00-0030668": {
+   "anon_id": "Q0402",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Josh Ferguson",
+   "player_b": "Charcandrick West"
+  },
+  "W2016:ppr:w06:00-0029273:00-0029205": {
+   "anon_id": "Q0328",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Robert Turbin",
+   "player_b": "Travaris Cadet"
+  },
+  "W2016:ppr:w09:00-0030578:00-0027155": {
+   "anon_id": "Q0181",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cordarrelle Patterson",
+   "player_b": "Rashad Jennings"
+  },
+  "W2016:ppr:w12:00-0023564:00-0032371": {
+   "anon_id": "Q0183",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Darren Sproles",
+   "player_b": "Rob Kelley"
+  },
+  "W2016:ppr:w10:00-0028903:00-0030216": {
+   "anon_id": "Q0385",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Garrett Celek",
+   "player_b": "Josh Hill"
+  },
+  "W2016:ppr:w09:00-0026995:00-0032385": {
+   "anon_id": "Q0138",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jeremy Maclin",
+   "player_b": "Sterling Shepard"
+  },
+  "W2016:ppr:w16:00-0032211:00-0025396": {
+   "anon_id": "Q0094",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Lockett",
+   "player_b": "Ted Ginn"
+  },
+  "W2016:ppr:w13:00-0032208:00-0030669": {
+   "anon_id": "Q0416",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Phillip Dorsett",
+   "player_b": "Albert Wilson"
+  },
+  "W2016:ppr:w09:00-0032940:00-0027531": {
+   "anon_id": "Q0312",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DeAndre Washington",
+   "player_b": "Chris Ivory"
+  },
+  "W2016:ppr:w16:00-0032209:00-0032411": {
+   "anon_id": "Q0226",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "T.J. Yeldon",
+   "player_b": "Kenneth Dixon"
+  },
+  "W2016:ppr:w12:00-0029273:00-0029731": {
+   "anon_id": "Q0286",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Robert Turbin",
+   "player_b": "Fozzy Whittaker"
+  },
+  "W2016:ppr:w12:00-0032966:00-0026189": {
+   "anon_id": "Q0370",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Corey Coleman",
+   "player_b": "DeSean Jackson"
+  },
+  "W2016:ppr:w16:00-0032765:00-0027150": {
+   "anon_id": "Q0236",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Michael Thomas",
+   "player_b": "Julian Edelman"
+  },
+  "W2016:ppr:w07:00-0027656:00-0033090": {
+   "anon_id": "Q0340",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rob Gronkowski",
+   "player_b": "Hunter Henry"
+  },
+  "W2016:ppr:w11:00-0030404:00-0029613": {
+   "anon_id": "Q0245",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Thompson",
+   "player_b": "Doug Martin"
+  },
+  "W2016:ppr:w14:00-0025396:00-0030431": {
+   "anon_id": "Q0056",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ted Ginn",
+   "player_b": "Robert Woods"
+  },
+  "W2016:ppr:w08:00-0032156:00-0031345": {
+   "anon_id": "Q0364",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Trevor Siemian",
+   "player_b": "Jimmy Garoppolo"
+  },
+  "W2016:ppr:w06:00-0029682:00-0028986": {
+   "anon_id": "Q0394",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brock Osweiler",
+   "player_b": "Case Keenum"
+  },
+  "W2016:ppr:w09:00-0029708:00-0032166": {
+   "anon_id": "Q0216",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kendall Wright",
+   "player_b": "Sammie Coates"
+  },
+  "W2016:ppr:w09:00-0027029:00-0032144": {
+   "anon_id": "Q0265",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "LeSean McCoy",
+   "player_b": "Melvin Gordon"
+  },
+  "W2016:ppr:w15:00-0030710:00-0032004": {
+   "anon_id": "Q0174",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Trey Burton",
+   "player_b": "Will Tye"
+  },
+  "W2016:ppr:w05:00-0030450:00-0023496": {
+   "anon_id": "Q0204",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Quinton Patton",
+   "player_b": "Vincent Jackson"
+  },
+  "W2016:ppr:w13:00-0030404:00-0029613": {
+   "anon_id": "Q0115",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Thompson",
+   "player_b": "Doug Martin"
+  },
+  "W2016:ppr:w08:00-0031588:00-0031428": {
+   "anon_id": "Q0280",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Stefon Diggs",
+   "player_b": "Allen Robinson"
+  },
+  "W2016:ppr:w12:00-0027891:00-0026345": {
+   "anon_id": "Q0052",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Golden Tate",
+   "player_b": "Pierre Garcon"
+  },
+  "W2016:ppr:w10:00-0029580:00-0028434": {
+   "anon_id": "Q0133",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Rishard Matthews",
+   "player_b": "Doug Baldwin"
+  },
+  "W2016:ppr:w11:00-0026176:00-0022921": {
+   "anon_id": "Q0452",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jordy Nelson",
+   "player_b": "Larry Fitzgerald"
+  },
+  "W2016:ppr:w08:00-0031381:00-0028434": {
+   "anon_id": "Q0378",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Davante Adams",
+   "player_b": "Doug Baldwin"
+  },
+  "W2016:ppr:w13:00-0032209:00-0027155": {
+   "anon_id": "Q0459",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "T.J. Yeldon",
+   "player_b": "Rashad Jennings"
+  },
+  "W2016:ppr:w15:00-0027939:00-0032156": {
+   "anon_id": "Q0381",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cam Newton",
+   "player_b": "Trevor Siemian"
+  },
+  "W2016:ppr:w09:00-0030035:00-0031547": {
+   "anon_id": "Q0372",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Adam Thielen",
+   "player_b": "DeVante Parker"
+  },
+  "W2016:ppr:w14:00-0027029:00-0030513": {
+   "anon_id": "Q0154",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "LeSean McCoy",
+   "player_b": "Latavius Murray"
+  },
+  "W2016:ppr:w12:00-0022924:00-0027974": {
+   "anon_id": "Q0368",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Colin Kaepernick"
+  },
+  "W2016:ppr:w07:00-0031301:00-0033025": {
+   "anon_id": "Q0068",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jeremy Hill",
+   "player_b": "Jalen Richard"
+  },
+  "W2016:ppr:w10:00-0032393:00-0032741": {
+   "anon_id": "Q0058",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "C.J. Prosise",
+   "player_b": "Peyton Barber"
+  },
+  "W2016:ppr:w16:00-0030656:00-0031590": {
+   "anon_id": "Q0258",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Isaiah Crowell",
+   "player_b": "Jay Ajayi"
+  },
+  "W2016:ppr:w07:00-0027793:00-0027942": {
+   "anon_id": "Q0220",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Antonio Brown",
+   "player_b": "A.J. Green"
+  },
+  "W2016:ppr:w16:00-0031359:00-0026189": {
+   "anon_id": "Q0384",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kelvin Benjamin",
+   "player_b": "DeSean Jackson"
+  },
+  "W2016:ppr:w06:00-0032950:00-0032268": {
+   "anon_id": "Q0178",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Carson Wentz",
+   "player_b": "Marcus Mariota"
+  },
+  "W2016:ppr:w09:00-0030433:00-0032972": {
+   "anon_id": "Q0371",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mike Gillislee",
+   "player_b": "Devontae Booker"
+  },
+  "W2016:ppr:w05:00-0030300:00-0029580": {
+   "anon_id": "Q0005",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jaron Brown",
+   "player_b": "Rishard Matthews"
+  },
+  "W2016:ppr:w09:00-0029293:00-0026176": {
+   "anon_id": "Q0125",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marvin Jones",
+   "player_b": "Jordy Nelson"
+  },
+  "W2016:ppr:w11:00-0027125:00-0031273": {
+   "anon_id": "Q0097",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Zach Miller",
+   "player_b": "Cameron Brate"
+  },
+  "W2016:ppr:w09:00-0028142:00-0021547": {
+   "anon_id": "Q0083",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Virgil Green",
+   "player_b": "Antonio Gates"
+  },
+  "W2016:ppr:w13:00-0032950:00-0027948": {
+   "anon_id": "Q0123",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Carson Wentz",
+   "player_b": "Blaine Gabbert"
+  },
+  "W2016:ppr:w12:00-0029580:00-0031359": {
+   "anon_id": "Q0191",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rishard Matthews",
+   "player_b": "Kelvin Benjamin"
+  },
+  "W2016:ppr:w09:00-0031407:00-0029668": {
+   "anon_id": "Q0458",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Blake Bortles",
+   "player_b": "Andrew Luck"
+  },
+  "W2016:ppr:w12:00-0031376:00-0028202": {
+   "anon_id": "Q0010",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jerick McKinnon",
+   "player_b": "Shaun Draughn"
+  },
+  "W2016:ppr:w14:00-0030564:00-0027902": {
+   "anon_id": "Q0118",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeAndre Hopkins",
+   "player_b": "Dez Bryant"
+  },
+  "W2016:ppr:w11:00-0026158:00-0027973": {
+   "anon_id": "Q0308",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Joe Flacco",
+   "player_b": "Andy Dalton"
+  },
+  "W2016:ppr:w12:00-0033127:00-0030085": {
+   "anon_id": "Q0342",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Will Fuller",
+   "player_b": "Kenny Stills"
+  },
+  "W2016:ppr:w11:00-0030668:00-0026289": {
+   "anon_id": "Q0214",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Charcandrick West",
+   "player_b": "Tim Hightower"
+  },
+  "W2016:ppr:w06:00-0030485:00-0030874": {
+   "anon_id": "Q0335",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Eddie Lacy",
+   "player_b": "Damien Williams"
+  },
+  "W2016:ppr:w07:00-0030450:00-0032211": {
+   "anon_id": "Q0429",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Quinton Patton",
+   "player_b": "Tyler Lockett"
+  },
+  "W2016:ppr:w16:00-0031912:00-0030431": {
+   "anon_id": "Q0293",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cameron Meredith",
+   "player_b": "Robert Woods"
+  },
+  "W2016:ppr:w05:00-0031359:00-0029608": {
+   "anon_id": "Q0350",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kelvin Benjamin",
+   "player_b": "T.Y. Hilton"
+  },
+  "W2016:ppr:w05:00-0032940:00-0031062": {
+   "anon_id": "Q0276",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DeAndre Washington",
+   "player_b": "James White"
+  },
+  "W2016:ppr:w06:00-0029384:00-0029731": {
+   "anon_id": "Q0250",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Bobby Rainey",
+   "player_b": "Fozzy Whittaker"
+  },
+  "W2016:ppr:w10:00-0029137:00-0024334": {
+   "anon_id": "Q0071",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Alshon Jeffery",
+   "player_b": "Brandon Marshall"
+  },
+  "W2016:ppr:w14:00-0030533:00-0033106": {
+   "anon_id": "Q0231",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Matt Barkley",
+   "player_b": "Jared Goff"
+  },
+  "W2016:ppr:w07:00-0033009:00-0032778": {
+   "anon_id": "Q0229",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Boyd",
+   "player_b": "Tajae Sharpe"
+  },
+  "W2016:ppr:w13:00-0025418:00-0030549": {
+   "anon_id": "Q0376",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Greg Olsen",
+   "player_b": "Tyler Eifert"
+  },
+  "W2016:ppr:w11:00-0029615:00-0031045": {
+   "anon_id": "Q0318",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Lamar Miller",
+   "player_b": "Carlos Hyde"
+  },
+  "W2016:ppr:w12:00-0026901:00-0030663": {
+   "anon_id": "Q0160",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Wallace",
+   "player_b": "Willie Snead"
+  },
+  "W2016:ppr:w06:00-0031035:00-0031302": {
+   "anon_id": "Q0389",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Xavier Grimble",
+   "player_b": "C.J. Fiedorowicz"
+  },
+  "W2016:ppr:w11:00-0031912:00-0031547": {
+   "anon_id": "Q0244",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Cameron Meredith",
+   "player_b": "DeVante Parker"
+  },
+  "W2016:ppr:w10:00-0028009:00-0030496": {
+   "anon_id": "Q0028",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DeMarco Murray",
+   "player_b": "Le'Veon Bell"
+  },
+  "W2016:ppr:w14:00-0021547:00-0031273": {
+   "anon_id": "Q0198",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Antonio Gates",
+   "player_b": "Cameron Brate"
+  },
+  "W2016:ppr:w08:00-0030108:00-0027139": {
+   "anon_id": "Q0422",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ryan Griffin",
+   "player_b": "John Phillips"
+  },
+  "W2016:ppr:w12:00-0029613:00-0027155": {
+   "anon_id": "Q0044",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Doug Martin",
+   "player_b": "Rashad Jennings"
+  },
+  "W2016:ppr:w13:00-0031285:00-0032058": {
+   "anon_id": "Q0171",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Devonta Freeman",
+   "player_b": "Tevin Coleman"
+  },
+  "W2016:ppr:w07:00-0020531:00-0026143": {
+   "anon_id": "Q0119",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Drew Brees",
+   "player_b": "Matt Ryan"
+  },
+  "W2016:ppr:w15:00-0023459:00-0026143": {
+   "anon_id": "Q0162",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Aaron Rodgers",
+   "player_b": "Matt Ryan"
+  },
+  "W2016:ppr:w09:00-0031782:00-0031166": {
+   "anon_id": "Q0456",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Eli Rogers",
+   "player_b": "Seth Roberts"
+  },
+  "W2016:ppr:w08:00-0032160:00-0024334": {
+   "anon_id": "Q0321",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyrell Williams",
+   "player_b": "Brandon Marshall"
+  },
+  "W2016:ppr:w07:00-0027681:00-0024334": {
+   "anon_id": "Q0408",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon LaFell",
+   "player_b": "Brandon Marshall"
+  },
+  "W2016:ppr:w12:00-0033009:00-0032218": {
+   "anon_id": "Q0306",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Boyd",
+   "player_b": "Dorial Green-Beckham"
+  },
+  "W2016:ppr:w16:00-0031407:00-0027974": {
+   "anon_id": "Q0343",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Blake Bortles",
+   "player_b": "Colin Kaepernick"
+  },
+  "W2016:ppr:w07:00-0026035:00-0030801": {
+   "anon_id": "Q0395",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Danny Amendola",
+   "player_b": "Brandon Coleman"
+  },
+  "W2016:ppr:w12:00-0027902:00-0031382": {
+   "anon_id": "Q0356",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dez Bryant",
+   "player_b": "Jarvis Landry"
+  },
+  "W2016:ppr:w13:00-0031302:00-0031273": {
+   "anon_id": "Q0063",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "C.J. Fiedorowicz",
+   "player_b": "Cameron Brate"
+  },
+  "W2016:ppr:w10:00-0033104:00-0029682": {
+   "anon_id": "Q0441",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Cody Kessler",
+   "player_b": "Brock Osweiler"
+  },
+  "W2016:ppr:w09:00-0028091:00-0029269": {
+   "anon_id": "Q0088",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jeremy Kerley",
+   "player_b": "Travis Benjamin"
+  },
+  "W2016:ppr:w16:00-0023459:00-0019596": {
+   "anon_id": "Q0298",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Aaron Rodgers",
+   "player_b": "Tom Brady"
+  },
+  "W2016:ppr:w09:00-0032009:00-0033040": {
+   "anon_id": "Q0404",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Adam Humphries",
+   "player_b": "Tyreek Hill"
+  },
+  "W2016:ppr:w10:00-0031236:00-0026901": {
+   "anon_id": "Q0253",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandin Cooks",
+   "player_b": "Mike Wallace"
+  },
+  "W2016:ppr:w16:00-0026176:00-0029608": {
+   "anon_id": "Q0241",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jordy Nelson",
+   "player_b": "T.Y. Hilton"
+  },
+  "W2016:ppr:w05:00-0031235:00-0030564": {
+   "anon_id": "Q0132",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Odell Beckham Jr.",
+   "player_b": "DeAndre Hopkins"
+  },
+  "W2016:ppr:w08:00-0028198:00-0032257": {
+   "anon_id": "Q0085",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Asiata",
+   "player_b": "Duke Johnson"
+  },
+  "W2016:ppr:w13:00-0031782:00-0033127": {
+   "anon_id": "Q0257",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Eli Rogers",
+   "player_b": "Will Fuller"
+  },
+  "W2016:ppr:w16:00-0029159:00-0028116": {
+   "anon_id": "Q0462",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jermaine Kearse",
+   "player_b": "Aldrick Robinson"
+  },
+  "W2016:ppr:w15:00-0023436:00-0029263": {
+   "anon_id": "Q0413",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Alex Smith",
+   "player_b": "Russell Wilson"
+  },
+  "W2016:ppr:w08:00-0032778:00-0029159": {
+   "anon_id": "Q0313",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tajae Sharpe",
+   "player_b": "Jermaine Kearse"
+  },
+  "W2016:ppr:w11:00-0030549:00-0026201": {
+   "anon_id": "Q0347",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tyler Eifert",
+   "player_b": "Martellus Bennett"
+  },
+  "W2016:ppr:w15:00-0031547:00-0030564": {
+   "anon_id": "Q0194",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DeVante Parker",
+   "player_b": "DeAndre Hopkins"
+  },
+  "W2016:ppr:w08:00-0022127:00-0033090": {
+   "anon_id": "Q0411",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jason Witten",
+   "player_b": "Hunter Henry"
+  },
+  "W2016:ppr:w14:00-0027685:00-0029293": {
+   "anon_id": "Q0423",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Emmanuel Sanders",
+   "player_b": "Marvin Jones"
+  },
+  "W2016:ppr:w16:00-0026901:00-0030663": {
+   "anon_id": "Q0317",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mike Wallace",
+   "player_b": "Willie Snead"
+  },
+  "W2016:ppr:w12:00-0032166:00-0032009": {
+   "anon_id": "Q0060",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Sammie Coates",
+   "player_b": "Adam Humphries"
+  },
+  "W2016:ppr:w11:00-0025396:00-0032208": {
+   "anon_id": "Q0042",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ted Ginn",
+   "player_b": "Phillip Dorsett"
+  },
+  "W2016:ppr:w13:00-0032688:00-0029159": {
+   "anon_id": "Q0336",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Robbie Chosen",
+   "player_b": "Jermaine Kearse"
+  },
+  "W2016:ppr:w06:00-0029608:00-0027685": {
+   "anon_id": "Q0255",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "T.Y. Hilton",
+   "player_b": "Emmanuel Sanders"
+  },
+  "W2016:ppr:w05:00-0031384:00-0028112": {
+   "anon_id": "Q0186",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Richard Rodgers",
+   "player_b": "Charles Clay"
+  },
+  "W2016:ppr:w12:00-0027918:00-0026035": {
+   "anon_id": "Q0121",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Andrew Hawkins",
+   "player_b": "Danny Amendola"
+  },
+  "W2016:ppr:w13:00-0020531:00-0026143": {
+   "anon_id": "Q0427",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Drew Brees",
+   "player_b": "Matt Ryan"
+  },
+  "W2016:ppr:w06:00-0032144:00-0027029": {
+   "anon_id": "Q0043",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Melvin Gordon",
+   "player_b": "LeSean McCoy"
+  },
+  "W2016:ppr:w13:00-0033045:00-0032187": {
+   "anon_id": "Q0418",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ezekiel Elliott",
+   "player_b": "David Johnson"
+  },
+  "W2016:ppr:w06:00-0031941:00-0031547": {
+   "anon_id": "Q0076",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jamison Crowder",
+   "player_b": "DeVante Parker"
+  },
+  "W2016:ppr:w05:00-0026184:00-0031045": {
+   "anon_id": "Q0077",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Forte",
+   "player_b": "Carlos Hyde"
+  },
+  "W2016:ppr:w16:00-0032128:00-0032054": {
+   "anon_id": "Q0033",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Conley",
+   "player_b": "Breshad Perriman"
+  },
+  "W2016:ppr:w14:00-0027325:00-0029615": {
+   "anon_id": "Q0034",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "LeGarrette Blount",
+   "player_b": "Lamar Miller"
+  },
+  "W2016:ppr:w06:00-0029159:00-0025396": {
+   "anon_id": "Q0349",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jermaine Kearse",
+   "player_b": "Ted Ginn"
+  },
+  "W2016:ppr:w14:00-0022127:00-0027696": {
+   "anon_id": "Q0105",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jason Witten",
+   "player_b": "Jimmy Graham"
+  },
+  "W2016:ppr:w10:00-0033009:00-0030669": {
+   "anon_id": "Q0366",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Boyd",
+   "player_b": "Albert Wilson"
+  },
+  "W2016:ppr:w06:00-0032211:00-0030300": {
+   "anon_id": "Q0151",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyler Lockett",
+   "player_b": "Jaron Brown"
+  },
+  "W2016:ppr:w15:00-0030669:00-0032055": {
+   "anon_id": "Q0116",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Albert Wilson",
+   "player_b": "Devin Funchess"
+  },
+  "W2016:ppr:w14:00-0030108:00-0032004": {
+   "anon_id": "Q0424",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ryan Griffin",
+   "player_b": "Will Tye"
+  },
+  "W2016:ppr:w08:00-0031118:00-0033009": {
+   "anon_id": "Q0283",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Corey Brown",
+   "player_b": "Tyler Boyd"
+  },
+  "W2016:ppr:w15:00-0032160:00-0022921": {
+   "anon_id": "Q0146",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tyrell Williams",
+   "player_b": "Larry Fitzgerald"
+  },
+  "W2016:ppr:w15:00-0029293:00-0033040": {
+   "anon_id": "Q0237",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marvin Jones",
+   "player_b": "Tyreek Hill"
+  },
+  "W2016:ppr:w12:00-0032208:00-0032688": {
+   "anon_id": "Q0373",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Phillip Dorsett",
+   "player_b": "Robbie Chosen"
+  },
+  "W2016:ppr:w14:00-0030669:00-0032211": {
+   "anon_id": "Q0180",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Albert Wilson",
+   "player_b": "Tyler Lockett"
+  },
+  "W2016:ppr:w16:00-0027966:00-0031301": {
+   "anon_id": "Q0070",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mark Ingram",
+   "player_b": "Jeremy Hill"
+  },
+  "W2016:ppr:w10:00-0027325:00-0031285": {
+   "anon_id": "Q0208",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "LeGarrette Blount",
+   "player_b": "Devonta Freeman"
+  },
+  "W2016:ppr:w12:00-0030068:00-0032112": {
+   "anon_id": "Q0140",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marquise Goodwin",
+   "player_b": "J.J. Nelson"
+  },
+  "W2016:ppr:w07:00-0032950:00-0027973": {
+   "anon_id": "Q0207",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Carson Wentz",
+   "player_b": "Andy Dalton"
+  },
+  "W2016:ppr:w12:00-0030108:00-0032135": {
+   "anon_id": "Q0275",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ryan Griffin",
+   "player_b": "Jesse James"
+  },
+  "W2016:ppr:w07:00-0027265:00-0031166": {
+   "anon_id": "Q0230",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Victor Cruz",
+   "player_b": "Seth Roberts"
+  },
+  "W2016:ppr:w08:00-0026035:00-0032218": {
+   "anon_id": "Q0403",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Danny Amendola",
+   "player_b": "Dorial Green-Beckham"
+  },
+  "W2016:ppr:w12:00-0027006:00-0031381": {
+   "anon_id": "Q0304",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kenny Britt",
+   "player_b": "Davante Adams"
+  },
+  "W2016:ppr:w12:00-0029638:00-0027681": {
+   "anon_id": "Q0015",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Michael Floyd",
+   "player_b": "Brandon LaFell"
+  },
+  "W2016:ppr:w16:00-0030801:00-0032778": {
+   "anon_id": "Q0224",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Coleman",
+   "player_b": "Tajae Sharpe"
+  },
+  "W2016:ppr:w16:00-0031302:00-0029689": {
+   "anon_id": "Q0176",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "C.J. Fiedorowicz",
+   "player_b": "Dwayne Allen"
+  },
+  "W2016:ppr:w05:00-0027985:00-0030108": {
+   "anon_id": "Q0434",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Lance Kendricks",
+   "player_b": "Ryan Griffin"
+  },
+  "W2016:ppr:w06:00-0027714:00-0022127": {
+   "anon_id": "Q0188",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dennis Pitta",
+   "player_b": "Jason Witten"
+  },
+  "W2016:ppr:w15:00-0029613:00-0026184": {
+   "anon_id": "Q0319",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Doug Martin",
+   "player_b": "Matt Forte"
+  },
+  "W2016:ppr:w08:00-0027685:00-0029293": {
+   "anon_id": "Q0022",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Emmanuel Sanders",
+   "player_b": "Marvin Jones"
+  },
+  "W2016:ppr:w13:00-0032055:00-0030147": {
+   "anon_id": "Q0362",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Devin Funchess",
+   "player_b": "Russell Shepard"
+  },
+  "W2016:ppr:w08:00-0026267:00-0026281": {
+   "anon_id": "Q0098",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jacob Tamme",
+   "player_b": "Gary Barnidge"
+  },
+  "W2016:ppr:w05:00-0024334:00-0027006": {
+   "anon_id": "Q0435",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Marshall",
+   "player_b": "Kenny Britt"
+  },
+  "W2016:ppr:w08:00-0029682:00-0023682": {
+   "anon_id": "Q0035",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brock Osweiler",
+   "player_b": "Ryan Fitzpatrick"
+  },
+  "W2016:ppr:w05:00-0030472:00-0025418": {
+   "anon_id": "Q0315",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jordan Reed",
+   "player_b": "Greg Olsen"
+  },
+  "W2016:ppr:w06:00-0026189:00-0028002": {
+   "anon_id": "Q0433",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DeSean Jackson",
+   "player_b": "Randall Cobb"
+  },
+  "W2016:ppr:w13:00-0027150:00-0033040": {
+   "anon_id": "Q0325",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Julian Edelman",
+   "player_b": "Tyreek Hill"
+  },
+  "W2016:ppr:w06:00-0033045:00-0028009": {
+   "anon_id": "Q0177",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ezekiel Elliott",
+   "player_b": "DeMarco Murray"
+  },
+  "W2016:ppr:w06:00-0030470:00-0028067": {
+   "anon_id": "Q0039",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Vance McDonald",
+   "player_b": "Julius Thomas"
+  },
+  "W2016:ppr:w13:00-0027681:00-0031547": {
+   "anon_id": "Q0110",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon LaFell",
+   "player_b": "DeVante Parker"
+  },
+  "W2016:ppr:w08:00-0024221:00-0032256": {
+   "anon_id": "Q0165",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Vernon Davis",
+   "player_b": "Clive Walford"
+  },
+  "W2016:ppr:w14:00-0026901:00-0031359": {
+   "anon_id": "Q0002",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mike Wallace",
+   "player_b": "Kelvin Benjamin"
+  },
+  "W2016:ppr:w07:00-0031544:00-0027006": {
+   "anon_id": "Q0144",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Amari Cooper",
+   "player_b": "Kenny Britt"
+  },
+  "W2016:ppr:w12:00-0021206:00-0029682": {
+   "anon_id": "Q0080",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh McCown",
+   "player_b": "Brock Osweiler"
+  },
+  "W2016:ppr:w12:00-0024389:00-0027696": {
+   "anon_id": "Q0450",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Delanie Walker",
+   "player_b": "Jimmy Graham"
+  },
+  "W2016:ppr:w08:00-0026986:00-0032765": {
+   "anon_id": "Q0087",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Michael Crabtree",
+   "player_b": "Michael Thomas"
+  },
+  "W2016:ppr:w11:00-0024389:00-0022127": {
+   "anon_id": "Q0223",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Delanie Walker",
+   "player_b": "Jason Witten"
+  },
+  "W2016:ppr:w11:00-0028409:00-0030656": {
+   "anon_id": "Q0379",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DuJuan Harris",
+   "player_b": "Isaiah Crowell"
+  },
+  "W2016:ppr:w05:00-0032377:00-0031375": {
+   "anon_id": "Q0175",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Josh Ferguson",
+   "player_b": "Terrance West"
+  },
+  "W2016:ppr:w11:00-0027981:00-0027696": {
+   "anon_id": "Q0316",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kyle Rudolph",
+   "player_b": "Jimmy Graham"
+  },
+  "W2016:ppr:w06:00-0031299:00-0024389": {
+   "anon_id": "Q0073",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jordan Matthews",
+   "player_b": "Delanie Walker"
+  },
+  "W2016:ppr:w15:00-0031280:00-0022924": {
+   "anon_id": "Q0048",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Derek Carr",
+   "player_b": "Ben Roethlisberger"
+  },
+  "W2016:ppr:w14:00-0023459:00-0033077": {
+   "anon_id": "Q0409",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Aaron Rodgers",
+   "player_b": "Dak Prescott"
+  },
+  "W2016:ppr:w14:00-0031547:00-0020337": {
+   "anon_id": "Q0400",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DeVante Parker",
+   "player_b": "Steve Smith"
+  },
+  "W2016:ppr:w08:00-0031665:00-0032940": {
+   "anon_id": "Q0209",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Zach Zenner",
+   "player_b": "DeAndre Washington"
+  },
+  "W2016:ppr:w15:00-0024389:00-0027981": {
+   "anon_id": "Q0013",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Delanie Walker",
+   "player_b": "Kyle Rudolph"
+  },
+  "W2016:ppr:w15:00-0029273:00-0033025": {
+   "anon_id": "Q0136",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Robert Turbin",
+   "player_b": "Jalen Richard"
+  },
+  "W2016:ppr:w07:00-0033040:00-0022044": {
+   "anon_id": "Q0169",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tyreek Hill",
+   "player_b": "Andre Johnson"
+  },
+  "W2016:ppr:w08:00-0024389:00-0027125": {
+   "anon_id": "Q0382",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Delanie Walker",
+   "player_b": "Zach Miller"
+  },
+  "W2016:ppr:w06:00-0026986:00-0027793": {
+   "anon_id": "Q0380",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Michael Crabtree",
+   "player_b": "Antonio Brown"
+  },
+  "W2016:ppr:w16:00-0030422:00-0032004": {
+   "anon_id": "Q0081",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dion Sims",
+   "player_b": "Will Tye"
+  },
+  "W2016:ppr:w08:00-0026201:00-0027981": {
+   "anon_id": "Q0117",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Martellus Bennett",
+   "player_b": "Kyle Rudolph"
+  },
+  "W2016:ppr:w12:00-0031301:00-0032257": {
+   "anon_id": "Q0089",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jeremy Hill",
+   "player_b": "Duke Johnson"
+  },
+  "W2016:ppr:w07:00-0029708:00-0030035": {
+   "anon_id": "Q0348",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kendall Wright",
+   "player_b": "Adam Thielen"
+  },
+  "W2016:ppr:w10:00-0031118:00-0030450": {
+   "anon_id": "Q0139",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Corey Brown",
+   "player_b": "Quinton Patton"
+  },
+  "W2016:ppr:w06:00-0031428:00-0032160": {
+   "anon_id": "Q0446",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Allen Robinson",
+   "player_b": "Tyrell Williams"
+  },
+  "W2016:ppr:w12:00-0027944:00-0031408": {
+   "anon_id": "Q0137",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Julio Jones",
+   "player_b": "Mike Evans"
+  },
+  "W2016:ppr:w05:00-0032268:00-0022803": {
+   "anon_id": "Q0067",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Marcus Mariota",
+   "player_b": "Eli Manning"
+  },
+  "W2016:ppr:w06:00-0029632:00-0029638": {
+   "anon_id": "Q0112",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mohamed Sanu",
+   "player_b": "Michael Floyd"
+  },
+  "W2016:ppr:w13:00-0030542:00-0032166": {
+   "anon_id": "Q0440",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Terrance Williams",
+   "player_b": "Sammie Coates"
+  },
+  "W2016:ppr:w12:00-0031339:00-0032765": {
+   "anon_id": "Q0281",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Donte Moncrief",
+   "player_b": "Michael Thomas"
+  },
+  "W2016:ppr:w13:00-0028409:00-0028202": {
+   "anon_id": "Q0102",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DuJuan Harris",
+   "player_b": "Shaun Draughn"
+  },
+  "W2016:ppr:w13:00-0030513:00-0023500": {
+   "anon_id": "Q0000",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Latavius Murray",
+   "player_b": "Frank Gore"
+  },
+  "W2016:ppr:w14:00-0027874:00-0032160": {
+   "anon_id": "Q0269",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Demaryius Thomas",
+   "player_b": "Tyrell Williams"
+  },
+  "W2016:ppr:w12:00-0031166:00-0025396": {
+   "anon_id": "Q0149",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Seth Roberts",
+   "player_b": "Ted Ginn"
+  },
+  "W2016:ppr:w06:00-0032166:00-0032385": {
+   "anon_id": "Q0159",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Sammie Coates",
+   "player_b": "Sterling Shepard"
+  },
+  "W2016:ppr:w09:00-0031285:00-0026184": {
+   "anon_id": "Q0168",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Devonta Freeman",
+   "player_b": "Matt Forte"
+  },
+  "W2016:ppr:w09:00-0030061:00-0031418": {
+   "anon_id": "Q0019",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Zach Ertz",
+   "player_b": "Austin Seferian-Jenkins"
+  },
+  "W2016:ppr:w07:00-0030404:00-0030874": {
+   "anon_id": "Q0365",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Chris Thompson",
+   "player_b": "Damien Williams"
+  },
+  "W2016:ppr:w14:00-0027714:00-0024221": {
+   "anon_id": "Q0172",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dennis Pitta",
+   "player_b": "Vernon Davis"
+  },
+  "W2016:ppr:w09:00-0029608:00-0031588": {
+   "anon_id": "Q0405",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "T.Y. Hilton",
+   "player_b": "Stefon Diggs"
+  },
+  "W2016:ppr:w12:00-0027966:00-0030656": {
+   "anon_id": "Q0290",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mark Ingram",
+   "player_b": "Isaiah Crowell"
+  },
+  "W2016:ppr:w14:00-0028002:00-0031428": {
+   "anon_id": "Q0142",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Randall Cobb",
+   "player_b": "Allen Robinson"
+  },
+  "W2016:ppr:w13:00-0031375:00-0026153": {
+   "anon_id": "Q0157",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Terrance West",
+   "player_b": "Jonathan Stewart"
+  },
+  "W2016:ppr:w10:00-0030470:00-0027985": {
+   "anon_id": "Q0173",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Vance McDonald",
+   "player_b": "Lance Kendricks"
+  },
+  "W2016:ppr:w14:00-0030181:00-0031302": {
+   "anon_id": "Q0447",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jack Doyle",
+   "player_b": "C.J. Fiedorowicz"
+  },
+  "W2016:ppr:w14:00-0031544:00-0029608": {
+   "anon_id": "Q0432",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Amari Cooper",
+   "player_b": "T.Y. Hilton"
+  },
+  "W2016:ppr:w05:00-0026158:00-0027973": {
+   "anon_id": "Q0126",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Joe Flacco",
+   "player_b": "Andy Dalton"
+  },
+  "W2016:ppr:w13:00-0031301:00-0028083": {
+   "anon_id": "Q0391",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jeremy Hill",
+   "player_b": "Jacquizz Rodgers"
+  },
+  "W2016:ppr:w16:00-0022921:00-0029137": {
+   "anon_id": "Q0050",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Alshon Jeffery"
+  },
+  "W2016:ppr:w13:00-0031897:00-0027791": {
+   "anon_id": "Q0329",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Thomas Rawls",
+   "player_b": "James Starks"
+  },
+  "W2016:ppr:w15:00-0032950:00-0026158": {
+   "anon_id": "Q0001",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Carson Wentz",
+   "player_b": "Joe Flacco"
+  },
+  "W2016:ppr:w08:00-0031408:00-0022921": {
+   "anon_id": "Q0288",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Evans",
+   "player_b": "Larry Fitzgerald"
+  },
+  "W2016:ppr:w06:00-0023436:00-0028118": {
+   "anon_id": "Q0161",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Alex Smith",
+   "player_b": "Tyrod Taylor"
+  },
+  "W2016:ppr:w15:00-0031375:00-0032257": {
+   "anon_id": "Q0369",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Terrance West",
+   "player_b": "Duke Johnson"
+  },
+  "W2016:ppr:w10:00-0032392:00-0028142": {
+   "anon_id": "Q0256",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Austin Hooper",
+   "player_b": "Virgil Green"
+  },
+  "W2016:ppr:w08:00-0029615:00-0030414": {
+   "anon_id": "Q0279",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Lamar Miller",
+   "player_b": "Spencer Ware"
+  },
+  "W2016:ppr:w07:00-0030456:00-0029615": {
+   "anon_id": "Q0302",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Giovani Bernard",
+   "player_b": "Lamar Miller"
+  },
+  "W2016:ppr:w11:00-0031339:00-0031782": {
+   "anon_id": "Q0461",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Donte Moncrief",
+   "player_b": "Eli Rogers"
+  },
+  "W2016:ppr:w16:00-0030542:00-0031051": {
+   "anon_id": "Q0041",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Terrance Williams",
+   "player_b": "John Brown"
+  },
+  "W2016:ppr:w05:00-0032257:00-0032241": {
+   "anon_id": "Q0011",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Duke Johnson",
+   "player_b": "Todd Gurley"
+  },
+  "W2016:ppr:w11:00-0032393:00-0030433": {
+   "anon_id": "Q0129",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "C.J. Prosise",
+   "player_b": "Mike Gillislee"
+  },
+  "W2016:ppr:w16:00-0023564:00-0031375": {
+   "anon_id": "Q0179",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Darren Sproles",
+   "player_b": "Terrance West"
+  },
+  "W2016:ppr:w15:00-0031782:00-0029708": {
+   "anon_id": "Q0393",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Eli Rogers",
+   "player_b": "Kendall Wright"
+  },
+  "W2016:ppr:w11:00-0030290:00-0027918": {
+   "anon_id": "Q0092",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cobi Hamilton",
+   "player_b": "Andrew Hawkins"
+  },
+  "W2016:ppr:w05:00-0029269:00-0029137": {
+   "anon_id": "Q0084",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Travis Benjamin",
+   "player_b": "Alshon Jeffery"
+  },
+  "W2016:ppr:w16:00-0030533:00-0023682": {
+   "anon_id": "Q0339",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Matt Barkley",
+   "player_b": "Ryan Fitzpatrick"
+  },
+  "W2016:ppr:w15:00-0029640:00-0030542": {
+   "anon_id": "Q0278",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brian Quick",
+   "player_b": "Terrance Williams"
+  },
+  "W2016:ppr:w07:00-0031912:00-0031428": {
+   "anon_id": "Q0197",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Cameron Meredith",
+   "player_b": "Allen Robinson"
+  },
+  "W2016:ppr:w10:00-0030801:00-0032688": {
+   "anon_id": "Q0055",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Coleman",
+   "player_b": "Robbie Chosen"
+  },
+  "W2016:ppr:w11:00-0027791:00-0033025": {
+   "anon_id": "Q0443",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "James Starks",
+   "player_b": "Jalen Richard"
+  },
+  "W2016:ppr:w16:00-0027006:00-0028434": {
+   "anon_id": "Q0234",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kenny Britt",
+   "player_b": "Doug Baldwin"
+  },
+  "W2016:ppr:w11:00-0028198:00-0031569": {
+   "anon_id": "Q0145",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Asiata",
+   "player_b": "Jeremy Langford"
+  },
+  "W2016:ppr:w09:00-0032256:00-0032392": {
+   "anon_id": "Q0036",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Clive Walford",
+   "player_b": "Austin Hooper"
+  },
+  "W2016:ppr:w05:00-0032392:00-0028903": {
+   "anon_id": "Q0195",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Austin Hooper",
+   "player_b": "Garrett Celek"
+  },
+  "W2016:ppr:w16:00-0029665:00-0022803": {
+   "anon_id": "Q0227",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Robert Griffin III",
+   "player_b": "Eli Manning"
+  },
+  "W2016:ppr:w12:00-0028825:00-0030564": {
+   "anon_id": "Q0277",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Terrelle Pryor",
+   "player_b": "DeAndre Hopkins"
+  },
+  "W2016:ppr:w14:00-0031051:00-0031549": {
+   "anon_id": "Q0021",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "John Brown",
+   "player_b": "Nelson Agholor"
+  },
+  "W2016:ppr:w09:00-0026158:00-0027854": {
+   "anon_id": "Q0303",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Joe Flacco",
+   "player_b": "Sam Bradford"
+  },
+  "W2016:ppr:w13:00-0026901:00-0027902": {
+   "anon_id": "Q0262",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Wallace",
+   "player_b": "Dez Bryant"
+  },
+  "W2016:ppr:w08:00-0031407:00-0029604": {
+   "anon_id": "Q0345",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Blake Bortles",
+   "player_b": "Kirk Cousins"
+  },
+  "W2016:ppr:w07:00-0027891:00-0028091": {
+   "anon_id": "Q0270",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Golden Tate",
+   "player_b": "Jeremy Kerley"
+  },
+  "W2016:ppr:w06:00-0027966:00-0026184": {
+   "anon_id": "Q0377",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mark Ingram",
+   "player_b": "Matt Forte"
+  },
+  "W2016:ppr:w16:00-0031325:00-0032009": {
+   "anon_id": "Q0314",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Sammy Watkins",
+   "player_b": "Adam Humphries"
+  },
+  "W2016:ppr:w10:00-0031051:00-0033040": {
+   "anon_id": "Q0030",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "John Brown",
+   "player_b": "Tyreek Hill"
+  },
+  "W2016:ppr:w07:00-0030432:00-0027325": {
+   "anon_id": "Q0332",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Christine Michael",
+   "player_b": "LeGarrette Blount"
+  },
+  "W2016:ppr:w07:00-0031299:00-0027125": {
+   "anon_id": "Q0322",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jordan Matthews",
+   "player_b": "Zach Miller"
+  },
+  "W2016:ppr:w10:00-0027874:00-0029000": {
+   "anon_id": "Q0261",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Demaryius Thomas",
+   "player_b": "Cole Beasley"
+  },
+  "W2016:ppr:w12:00-0032972:00-0027531": {
+   "anon_id": "Q0352",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Devontae Booker",
+   "player_b": "Chris Ivory"
+  },
+  "W2016:ppr:w07:00-0027874:00-0028002": {
+   "anon_id": "Q0007",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Demaryius Thomas",
+   "player_b": "Randall Cobb"
+  }
+ }
+}

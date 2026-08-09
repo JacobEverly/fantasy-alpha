@@ -1,0 +1,174 @@
+[
+ {
+  "question_id": "B0001",
+  "p": 0.12
+ },
+ {
+  "question_id": "B0004",
+  "p": 0.08
+ },
+ {
+  "question_id": "B0007",
+  "p": 0.15
+ },
+ {
+  "question_id": "B0009",
+  "p": 0.09
+ },
+ {
+  "question_id": "B0011",
+  "p": 0.22
+ },
+ {
+  "question_id": "B0012",
+  "p": 0.18
+ },
+ {
+  "question_id": "B0013",
+  "p": 0.11
+ },
+ {
+  "question_id": "B0021",
+  "p": 0.25
+ },
+ {
+  "question_id": "B0028",
+  "p": 0.35
+ },
+ {
+  "question_id": "B0043",
+  "p": 0.42
+ },
+ {
+  "question_id": "B0046",
+  "p": 0.48
+ },
+ {
+  "question_id": "B0049",
+  "p": 0.14
+ },
+ {
+  "question_id": "B0050",
+  "p": 0.16
+ },
+ {
+  "question_id": "B0051",
+  "p": 0.28
+ },
+ {
+  "question_id": "B0060",
+  "p": 0.31
+ },
+ {
+  "question_id": "B0061",
+  "p": 0.45
+ },
+ {
+  "question_id": "B0065",
+  "p": 0.38
+ },
+ {
+  "question_id": "B0070",
+  "p": 0.21
+ },
+ {
+  "question_id": "B0078",
+  "p": 0.19
+ },
+ {
+  "question_id": "B0096",
+  "p": 0.55
+ },
+ {
+  "question_id": "B0098",
+  "p": 0.13
+ },
+ {
+  "question_id": "B0107",
+  "p": 0.24
+ },
+ {
+  "question_id": "B0108",
+  "p": 0.52
+ },
+ {
+  "question_id": "B0109",
+  "p": 0.33
+ },
+ {
+  "question_id": "B0115",
+  "p": 0.17
+ },
+ {
+  "question_id": "B0119",
+  "p": 0.41
+ },
+ {
+  "question_id": "B0121",
+  "p": 0.29
+ },
+ {
+  "question_id": "B0123",
+  "p": 0.1
+ },
+ {
+  "question_id": "B0128",
+  "p": 0.26
+ },
+ {
+  "question_id": "B0130",
+  "p": 0.36
+ },
+ {
+  "question_id": "B0137",
+  "p": 0.39
+ },
+ {
+  "question_id": "B0138",
+  "p": 0.58
+ },
+ {
+  "question_id": "B0139",
+  "p": 0.61
+ },
+ {
+  "question_id": "B0140",
+  "p": 0.63
+ },
+ {
+  "question_id": "B0141",
+  "p": 0.64
+ },
+ {
+  "question_id": "B0146",
+  "p": 0.11
+ },
+ {
+  "question_id": "B0147",
+  "p": 0.66
+ },
+ {
+  "question_id": "B0151",
+  "p": 0.2
+ },
+ {
+  "question_id": "B0156",
+  "p": 0.12
+ },
+ {
+  "question_id": "B0159",
+  "p": 0.44
+ },
+ {
+  "question_id": "B0163",
+  "p": 0.15
+ },
+ {
+  "question_id": "B0164",
+  "p": 0.19
+ },
+ {
+  "question_id": "B0168",
+  "p": 0.23
+ }
+]

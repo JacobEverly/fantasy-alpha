@@ -1,0 +1,218 @@
+{
+ "P000": {
+  "player": "Demaryius Thomas",
+  "player_id": "00-0027874"
+ },
+ "P001": {
+  "player": "DK Metcalf",
+  "player_id": "00-0035640"
+ },
+ "P002": {
+  "player": "Mecole Hardman Jr.",
+  "player_id": "00-0035140"
+ },
+ "P003": {
+  "player": "Ty Montgomery II",
+  "player_id": null
+ },
+ "P004": {
+  "player": "Corey Davis",
+  "player_id": "00-0033871"
+ },
+ "P005": {
+  "player": "Adam Humphries",
+  "player_id": "00-0032009"
+ },
+ "P006": {
+  "player": "Donte Moncrief",
+  "player_id": "00-0031339"
+ },
+ "P007": {
+  "player": "Justin Jackson",
+  "player_id": "00-0034440"
+ },
+ "P008": {
+  "player": "Damien Harris",
+  "player_id": "00-0035657"
+ },
+ "P009": {
+  "player": "Mohamed Sanu",
+  "player_id": "00-0029632"
+ },
+ "P010": {
+  "player": "Dion Lewis",
+  "player_id": "00-0028087"
+ },
+ "P011": {
+  "player": "Deebo Samuel Sr.",
+  "player_id": "00-0035719"
+ },
+ "P012": {
+  "player": "Marquise Goodwin",
+  "player_id": "00-0030068"
+ },
+ "P013": {
+  "player": "Adrian Peterson",
+  "player_id": "00-0021306"
+ },
+ "P014": {
+  "player": "DeSean Jackson",
+  "player_id": "00-0026189"
+ },
+ "P015": {
+  "player": "Ronald Jones",
+  "player_id": "00-0034816"
+ },
+ "P016": {
+  "player": "Rashaad Penny",
+  "player_id": "00-0034750"
+ },
+ "P017": {
+  "player": "Frank Gore",
+  "player_id": "00-0023500"
+ },
+ "P018": {
+  "player": "Malcolm Brown",
+  "player_id": "00-0031806"
+ },
+ "P019": {
+  "player": "Justice Hill",
+  "player_id": "00-0034975"
+ },
+ "P020": {
+  "player": "James Washington",
+  "player_id": "00-0034676"
+ },
+ "P021": {
+  "player": "Courtland Sutton",
+  "player_id": "00-0034348"
+ },
+ "P022": {
+  "player": "Matthew Stafford",
+  "player_id": "00-0026498"
+ },
+ "P023": {
+  "player": "John Brown",
+  "player_id": "00-0031051"
+ },
+ "P024": {
+  "player": "Tyrell Williams",
+  "player_id": "00-0032160"
+ },
+ "P025": {
+  "player": "Dare Ogunbowale",
+  "player_id": "00-0033854"
+ },
+ "P026": {
+  "player": "Josh Allen",
+  "player_id": "00-0034857"
+ },
+ "P027": {
+  "player": "Kalen Ballage",
+  "player_id": "00-0034799"
+ },
+ "P028": {
+  "player": "Peyton Barber",
+  "player_id": "00-0032741"
+ },
+ "P029": {
+  "player": "Nyheim Hines",
+  "player_id": "00-0034367"
+ },
+ "P030": {
+  "player": "Larry Fitzgerald",
+  "player_id": "00-0022921"
+ },
+ "P031": {
+  "player": "Dante Pettis",
+  "player_id": "00-0034860"
+ },
+ "P032": {
+  "player": "Sam Darnold",
+  "player_id": "00-0034869"
+ },
+ "P033": {
+  "player": "Michael Gallup",
+  "player_id": "00-0034764"
+ },
+ "P034": {
+  "player": "Royce Freeman",
+  "player_id": "00-0034838"
+ },
+ "P035": {
+  "player": "Jimmy Garoppolo",
+  "player_id": "00-0031345"
+ },
+ "P036": {
+  "player": "Tre'Quan Smith",
+  "player_id": "00-0034765"
+ },
+ "P037": {
+  "player": "Jaylen Samuels",
+  "player_id": "00-0034331"
+ },
+ "P038": {
+  "player": "Keke Coutee",
+  "player_id": "00-0034366"
+ },
+ "P039": {
+  "player": "Jordan Reed",
+  "player_id": "00-0030472"
+ },
+ "P040": {
+  "player": "Golden Tate",
+  "player_id": "00-0027891"
+ },
+ "P041": {
+  "player": "Derek Carr",
+  "player_id": "00-0031280"
+ },
+ "P042": {
+  "player": "Mitchell Trubisky",
+  "player_id": "00-0033869"
+ },
+ "P043": {
+  "player": "Carlos Hyde",
+  "player_id": "00-0031045"
+ },
+ "P044": {
+  "player": "Jamison Crowder",
+  "player_id": "00-0031941"
+ },
+ "P045": {
+  "player": "Ito Smith",
+  "player_id": "00-0034378"
+ },
+ "P046": {
+  "player": "Kareem Hunt",
+  "player_id": "00-0033923"
+ },
+ "P047": {
+  "player": "Alexander Mattison",
+  "player_id": "00-0034972"
+ },
+ "P048": {
+  "player": "N'Keal Harry",
+  "player_id": null
+ },
+ "P049": {
+  "player": "Kenny Stills",
+  "player_id": "00-0030085"
+ },
+ "P050": {
+  "player": "Marvin Jones Jr.",
+  "player_id": "00-0029293"
+ },
+ "P051": {
+  "player": "Jordan Howard",
+  "player_id": "00-0032780"
+ },
+ "P052": {
+  "player": "Anthony Miller",
+  "player_id": "00-0034353"
+ },
+ "P053": {
+  "player": "Cole Beasley",
+  "player_id": "00-0029000"
+ }
+}

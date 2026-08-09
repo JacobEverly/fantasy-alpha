@@ -1,0 +1,2751 @@
+{
+ "benchmark": "calibbench_v0",
+ "season": 2012,
+ "format": "ppr",
+ "questions": {
+  "S2012:ppr:1004": {
+   "anon_id": "Q0177",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Aaron Rodgers",
+   "nflverse_id": "00-0023459"
+  },
+  "S2012:ppr:119": {
+   "anon_id": "Q0157",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tom Brady",
+   "nflverse_id": "00-0019596"
+  },
+  "S2012:ppr:127": {
+   "anon_id": "Q0376",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Drew Brees",
+   "nflverse_id": "00-0020531"
+  },
+  "S2012:ppr:1664": {
+   "anon_id": "Q0092",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Matthew Stafford",
+   "nflverse_id": "00-0026498"
+  },
+  "S2012:ppr:1794": {
+   "anon_id": "Q0018",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Cam Newton",
+   "nflverse_id": "00-0027939"
+  },
+  "S2012:ppr:1342": {
+   "anon_id": "Q0188",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Matt Ryan",
+   "nflverse_id": "00-0026143"
+  },
+  "S2012:ppr:1193": {
+   "anon_id": "Q0321",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Michael Vick",
+   "nflverse_id": "00-0020245"
+  },
+  "S2012:ppr:749": {
+   "anon_id": "Q0027",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Eli Manning",
+   "nflverse_id": "00-0022803"
+  },
+  "S2012:ppr:750": {
+   "anon_id": "Q0179",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Peyton Manning",
+   "nflverse_id": "00-0010346"
+  },
+  "S2012:ppr:1009": {
+   "anon_id": "Q0006",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tony Romo",
+   "nflverse_id": "00-0021678"
+  },
+  "S2012:ppr:995": {
+   "anon_id": "Q0298",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Philip Rivers",
+   "nflverse_id": "00-0022942"
+  },
+  "S2012:ppr:265": {
+   "anon_id": "Q0292",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jay Cutler",
+   "nflverse_id": "00-0024226"
+  },
+  "S2012:ppr:1898": {
+   "anon_id": "Q0135",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Robert Griffin III",
+   "nflverse_id": "00-0029665"
+  },
+  "S2012:ppr:1666": {
+   "anon_id": "Q0121",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Josh Freeman",
+   "nflverse_id": "00-0026993"
+  },
+  "S2012:ppr:1724": {
+   "anon_id": "Q0083",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Arian Foster",
+   "nflverse_id": "00-0026796"
+  },
+  "S2012:ppr:1360": {
+   "anon_id": "Q0034",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Ray Rice",
+   "nflverse_id": "00-0026195"
+  },
+  "S2012:ppr:1645": {
+   "anon_id": "Q0144",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "LeSean McCoy",
+   "nflverse_id": "00-0027029"
+  },
+  "S2012:ppr:1341": {
+   "anon_id": "Q0040",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Darren McFadden",
+   "nflverse_id": "00-0026144"
+  },
+  "S2012:ppr:1347": {
+   "anon_id": "Q0228",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Chris Johnson",
+   "nflverse_id": "00-0026164"
+  },
+  "S2012:ppr:1354": {
+   "anon_id": "Q0161",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Matt Forte",
+   "nflverse_id": "00-0026184"
+  },
+  "S2012:ppr:1819": {
+   "anon_id": "Q0002",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DeMarco Murray",
+   "nflverse_id": "00-0028009"
+  },
+  "S2012:ppr:649": {
+   "anon_id": "Q0112",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Maurice Jones-Drew",
+   "nflverse_id": "00-0024275"
+  },
+  "S2012:ppr:1368": {
+   "anon_id": "Q0158",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jamaal Charles",
+   "nflverse_id": "00-0026213"
+  },
+  "S2012:ppr:1340": {
+   "anon_id": "Q0172",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Fred Jackson",
+   "nflverse_id": "00-0024204"
+  },
+  "S2012:ppr:1729": {
+   "anon_id": "Q0262",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ryan Mathews",
+   "nflverse_id": "00-0027864"
+  },
+  "S2012:ppr:581": {
+   "anon_id": "Q0369",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Steven Jackson",
+   "nflverse_id": "00-0022736"
+  },
+  "S2012:ppr:1907": {
+   "anon_id": "Q0199",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Doug Martin",
+   "nflverse_id": "00-0029613"
+  },
+  "S2012:ppr:1105": {
+   "anon_id": "Q0208",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Darren Sproles",
+   "nflverse_id": "00-0023564"
+  },
+  "S2012:ppr:1905": {
+   "anon_id": "Q0086",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Trent Richardson",
+   "nflverse_id": "00-0029675"
+  },
+  "S2012:ppr:117": {
+   "anon_id": "Q0174",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Ahmad Bradshaw",
+   "nflverse_id": "00-0025637"
+  },
+  "S2012:ppr:161": {
+   "anon_id": "Q0037",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Reggie Bush",
+   "nflverse_id": "00-0024217"
+  },
+  "S2012:ppr:1715": {
+   "anon_id": "Q0366",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "BenJarvus Green-Ellis",
+   "nflverse_id": "00-0025860"
+  },
+  "S2012:ppr:1404": {
+   "anon_id": "Q0329",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Peyton Hillis",
+   "nflverse_id": "00-0026367"
+  },
+  "S2012:ppr:1642": {
+   "anon_id": "Q0025",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Donald Brown",
+   "nflverse_id": "00-0027003"
+  },
+  "S2012:ppr:1643": {
+   "anon_id": "Q0014",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Shonn Greene",
+   "nflverse_id": "00-0026899"
+  },
+  "S2012:ppr:1365": {
+   "anon_id": "Q0337",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kevin Smith",
+   "nflverse_id": "00-0026204"
+  },
+  "S2012:ppr:1809": {
+   "anon_id": "Q0052",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Ryan Williams",
+   "nflverse_id": "00-0027976"
+  },
+  "S2012:ppr:160": {
+   "anon_id": "Q0256",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Michael Bush",
+   "nflverse_id": "00-0025487"
+  },
+  "S2012:ppr:1728": {
+   "anon_id": "Q0069",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "C.J. Spiller",
+   "nflverse_id": "00-0027861"
+  },
+  "S2012:ppr:1344": {
+   "anon_id": "Q0196",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jonathan Stewart",
+   "nflverse_id": "00-0026153"
+  },
+  "S2012:ppr:1827": {
+   "anon_id": "Q0026",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jacquizz Rodgers",
+   "nflverse_id": "00-0028083"
+  },
+  "S2012:ppr:1751": {
+   "anon_id": "Q0169",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Toby Gerhart",
+   "nflverse_id": "00-0027888"
+  },
+  "S2012:ppr:1346": {
+   "anon_id": "Q0160",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Rashard Mendenhall",
+   "nflverse_id": "00-0026163"
+  },
+  "S2012:ppr:1746": {
+   "anon_id": "Q0140",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jonathan Dwyer",
+   "nflverse_id": "00-0027786"
+  },
+  "S2012:ppr:1870": {
+   "anon_id": "Q0235",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Evan Royster",
+   "nflverse_id": "00-0028115"
+  },
+  "S2012:ppr:1936": {
+   "anon_id": "Q0358",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Robert Turbin",
+   "nflverse_id": "00-0029273"
+  },
+  "S2012:ppr:1822": {
+   "anon_id": "Q0097",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Shane Vereen",
+   "nflverse_id": "00-0027994"
+  },
+  "S2012:ppr:611": {
+   "anon_id": "Q0094",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Calvin Johnson",
+   "nflverse_id": "00-0025389"
+  },
+  "S2012:ppr:1796": {
+   "anon_id": "Q0317",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Julio Jones",
+   "nflverse_id": "00-0027944"
+  },
+  "S2012:ppr:374": {
+   "anon_id": "Q0342",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Larry Fitzgerald",
+   "nflverse_id": "00-0022921"
+  },
+  "S2012:ppr:755": {
+   "anon_id": "Q0363",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Brandon Marshall",
+   "nflverse_id": "00-0024334"
+  },
+  "S2012:ppr:1795": {
+   "anon_id": "Q0240",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "A.J. Green",
+   "nflverse_id": "00-0027942"
+  },
+  "S2012:ppr:605": {
+   "anon_id": "Q0162",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Andre Johnson",
+   "nflverse_id": "00-0022044"
+  },
+  "S2012:ppr:1244": {
+   "anon_id": "Q0167",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Roddy White",
+   "nflverse_id": "00-0023462"
+  },
+  "S2012:ppr:599": {
+   "anon_id": "Q0149",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Greg Jennings",
+   "nflverse_id": "00-0024267"
+  },
+  "S2012:ppr:1235": {
+   "anon_id": "Q0170",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Wes Welker",
+   "nflverse_id": "00-0022427"
+  },
+  "S2012:ppr:1888": {
+   "anon_id": "Q0123",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Victor Cruz",
+   "nflverse_id": "00-0027265"
+  },
+  "S2012:ppr:1350": {
+   "anon_id": "Q0028",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jordy Nelson",
+   "nflverse_id": "00-0026176"
+  },
+  "S2012:ppr:1648": {
+   "anon_id": "Q0051",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Hakeem Nicks",
+   "nflverse_id": "00-0027005"
+  },
+  "S2012:ppr:1650": {
+   "anon_id": "Q0211",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Percy Harvin",
+   "nflverse_id": "00-0026998"
+  },
+  "S2012:ppr:1727": {
+   "anon_id": "Q0316",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Dez Bryant",
+   "nflverse_id": "00-0027902"
+  },
+  "S2012:ppr:1886": {
+   "anon_id": "Q0088",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Antonio Brown",
+   "nflverse_id": "00-0021425"
+  },
+  "S2012:ppr:231": {
+   "anon_id": "Q0082",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Marques Colston",
+   "nflverse_id": "00-0024466"
+  },
+  "S2012:ppr:1764": {
+   "anon_id": "Q0252",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Eric Decker",
+   "nflverse_id": "00-0027690"
+  },
+  "S2012:ppr:1094": {
+   "anon_id": "Q0057",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Steve Smith",
+   "nflverse_id": "00-0020337"
+  },
+  "S2012:ppr:724": {
+   "anon_id": "Q0100",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brandon Lloyd",
+   "nflverse_id": "00-0022097"
+  },
+  "S2012:ppr:1678": {
+   "anon_id": "Q0122",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Mike Wallace",
+   "nflverse_id": "00-0026901"
+  },
+  "S2012:ppr:1357": {
+   "anon_id": "Q0249",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "DeSean Jackson",
+   "nflverse_id": "00-0026189"
+  },
+  "S2012:ppr:1735": {
+   "anon_id": "Q0225",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Demaryius Thomas",
+   "nflverse_id": "00-0027874"
+  },
+  "S2012:ppr:1807": {
+   "anon_id": "Q0111",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Torrey Smith",
+   "nflverse_id": "00-0027996"
+  },
+  "S2012:ppr:1649": {
+   "anon_id": "Q0171",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jeremy Maclin",
+   "nflverse_id": "00-0026995"
+  },
+  "S2012:ppr:111": {
+   "anon_id": "Q0385",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Dwayne Bowe",
+   "nflverse_id": "00-0025410"
+  },
+  "S2012:ppr:1772": {
+   "anon_id": "Q0080",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Steve Johnson",
+   "nflverse_id": "00-0026364"
+  },
+  "S2012:ppr:586": {
+   "anon_id": "Q0242",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Vincent Jackson",
+   "nflverse_id": "00-0023496"
+  },
+  "S2012:ppr:37": {
+   "anon_id": "Q0016",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Miles Austin",
+   "nflverse_id": "00-0023921"
+  },
+  "S2012:ppr:1228": {
+   "anon_id": "Q0005",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Reggie Wayne",
+   "nflverse_id": "00-0020498"
+  },
+  "S2012:ppr:1707": {
+   "anon_id": "Q0272",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Pierre Garcon",
+   "nflverse_id": "00-0026345"
+  },
+  "S2012:ppr:1657": {
+   "anon_id": "Q0263",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Kenny Britt",
+   "nflverse_id": "00-0027006"
+  },
+  "S2012:ppr:1222": {
+   "anon_id": "Q0299",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Nate Washington",
+   "nflverse_id": "00-0023367"
+  },
+  "S2012:ppr:836": {
+   "anon_id": "Q0283",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Lance Moore",
+   "nflverse_id": "00-0023310"
+  },
+  "S2012:ppr:1720": {
+   "anon_id": "Q0003",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Danny Amendola",
+   "nflverse_id": "00-0026035"
+  },
+  "S2012:ppr:1733": {
+   "anon_id": "Q0206",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brandon LaFell",
+   "nflverse_id": "00-0027681"
+  },
+  "S2012:ppr:1814": {
+   "anon_id": "Q0355",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Greg Little",
+   "nflverse_id": "00-0027997"
+  },
+  "S2012:ppr:1740": {
+   "anon_id": "Q0380",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Rob Gronkowski",
+   "nflverse_id": "00-0027656"
+  },
+  "S2012:ppr:1286": {
+   "anon_id": "Q0372",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jason Witten",
+   "nflverse_id": "00-0022127"
+  },
+  "S2012:ppr:1356": {
+   "anon_id": "Q0109",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Fred Davis",
+   "nflverse_id": "00-0026188"
+  },
+  "S2012:ppr:432": {
+   "anon_id": "Q0247",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Tony Gonzalez",
+   "nflverse_id": "00-0006101"
+  },
+  "S2012:ppr:890": {
+   "anon_id": "Q0105",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Greg Olsen",
+   "nflverse_id": "00-0025418"
+  },
+  "S2012:ppr:1383": {
+   "anon_id": "Q0060",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Jacob Tamme",
+   "nflverse_id": "00-0026267"
+  },
+  "S2012:ppr:1761": {
+   "anon_id": "Q0312",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Jermaine Gresham",
+   "nflverse_id": "00-0027873"
+  },
+  "S2012:ppr:1799": {
+   "anon_id": "Q0382",
+   "family": "season_threshold",
+   "outcome": 1,
+   "player": "Kyle Rudolph",
+   "nflverse_id": "00-0027981"
+  },
+  "S2012:ppr:189": {
+   "anon_id": "Q0191",
+   "family": "season_threshold",
+   "outcome": 0,
+   "player": "Brent Celek",
+   "nflverse_id": "00-0025549"
+  },
+  "W2012:ppr:w11:00-0026983:00-0022097": {
+   "anon_id": "Q0017",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Darrius Heyward-Bey",
+   "player_b": "Brandon Lloyd"
+  },
+  "W2012:ppr:w14:00-0027944:00-0020498": {
+   "anon_id": "Q0259",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Julio Jones",
+   "player_b": "Reggie Wayne"
+  },
+  "W2012:ppr:w08:00-0029697:00-0026231": {
+   "anon_id": "Q0180",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Coby Fleener",
+   "player_b": "Jermichael Finley"
+  },
+  "W2012:ppr:w14:00-0025860:00-0025637": {
+   "anon_id": "Q0378",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Ahmad Bradshaw"
+  },
+  "W2012:ppr:w07:00-0027996:00-0023310": {
+   "anon_id": "Q0166",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Torrey Smith",
+   "player_b": "Lance Moore"
+  },
+  "W2012:ppr:w07:00-0022943:00-0024276": {
+   "anon_id": "Q0253",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Benjamin Watson",
+   "player_b": "Tony Scheffler"
+  },
+  "W2012:ppr:w06:00-0027061:00-0027714": {
+   "anon_id": "Q0164",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jared Cook",
+   "player_b": "Dennis Pitta"
+  },
+  "W2012:ppr:w16:00-0027997:00-0024324": {
+   "anon_id": "Q0081",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Greg Little",
+   "player_b": "Jason Avant"
+  },
+  "W2012:ppr:w08:00-0027981:00-0026996": {
+   "anon_id": "Q0327",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kyle Rudolph",
+   "player_b": "Brandon Pettigrew"
+  },
+  "W2012:ppr:w13:00-0029209:00-0024267": {
+   "anon_id": "Q0195",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ryan Broyles",
+   "player_b": "Greg Jennings"
+  },
+  "W2012:ppr:w10:00-0027948:00-0027946": {
+   "anon_id": "Q0294",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Blaine Gabbert",
+   "player_b": "Jake Locker"
+  },
+  "W2012:ppr:w13:00-0024466:00-0023921": {
+   "anon_id": "Q0072",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Marques Colston",
+   "player_b": "Miles Austin"
+  },
+  "W2012:ppr:w10:00-0029668:00-0020245": {
+   "anon_id": "Q0114",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andrew Luck",
+   "player_b": "Mike Vick"
+  },
+  "W2012:ppr:w10:00-0025516:00-0024243": {
+   "anon_id": "Q0288",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Scott Chandler",
+   "player_b": "Marcedes Lewis"
+  },
+  "W2012:ppr:w15:00-0027890:00-0027966": {
+   "anon_id": "Q0379",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ben Tate",
+   "player_b": "Mark Ingram"
+  },
+  "W2012:ppr:w12:00-0026993:00-0023459": {
+   "anon_id": "Q0229",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Josh Freeman",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2012:ppr:w16:00-0024466:00-0027902": {
+   "anon_id": "Q0248",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Marques Colston",
+   "player_b": "Dez Bryant"
+  },
+  "W2012:ppr:w13:00-0027944:00-0027912": {
+   "anon_id": "Q0335",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Julio Jones",
+   "player_b": "Danario Alexander"
+  },
+  "W2012:ppr:w14:00-0026993:00-0020531": {
+   "anon_id": "Q0133",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh Freeman",
+   "player_b": "Drew Brees"
+  },
+  "W2012:ppr:w08:00-0027948:00-0026898": {
+   "anon_id": "Q0357",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Blaine Gabbert",
+   "player_b": "Mark Sanchez"
+  },
+  "W2012:ppr:w14:00-0022943:00-0024268": {
+   "anon_id": "Q0087",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Benjamin Watson",
+   "player_b": "Anthony Fasano"
+  },
+  "W2012:ppr:w10:00-0027702:00-0027996": {
+   "anon_id": "Q0270",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Williams",
+   "player_b": "Torrey Smith"
+  },
+  "W2012:ppr:w14:00-0027994:00-0027890": {
+   "anon_id": "Q0218",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Shane Vereen",
+   "player_b": "Ben Tate"
+  },
+  "W2012:ppr:w06:00-0022178:00-0028011": {
+   "anon_id": "Q0084",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Willis McGahee",
+   "player_b": "Stevan Ridley"
+  },
+  "W2012:ppr:w16:00-0026901:00-0027944": {
+   "anon_id": "Q0053",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Wallace",
+   "player_b": "Julio Jones"
+  },
+  "W2012:ppr:w09:00-0026998:00-0023921": {
+   "anon_id": "Q0075",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Percy Harvin",
+   "player_b": "Miles Austin"
+  },
+  "W2012:ppr:w08:00-0026019:00-0025701": {
+   "anon_id": "Q0360",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Danny Woodhead",
+   "player_b": "Jackie Battle"
+  },
+  "W2012:ppr:w13:00-0026235:00-0027685": {
+   "anon_id": "Q0368",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mario Manningham",
+   "player_b": "Emmanuel Sanders"
+  },
+  "W2012:ppr:w12:00-0026898:00-0029701": {
+   "anon_id": "Q0279",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mark Sanchez",
+   "player_b": "Ryan Tannehill"
+  },
+  "W2012:ppr:w12:00-0028116:00-0011754": {
+   "anon_id": "Q0089",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Aldrick Robinson",
+   "player_b": "Randy Moss"
+  },
+  "W2012:ppr:w10:00-0025860:00-0022736": {
+   "anon_id": "Q0216",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Steven Jackson"
+  },
+  "W2012:ppr:w14:00-0029665:00-0026143": {
+   "anon_id": "Q0387",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Robert Griffin III",
+   "player_b": "Matt Ryan"
+  },
+  "W2012:ppr:w16:00-0021547:00-0025418": {
+   "anon_id": "Q0151",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Antonio Gates",
+   "player_b": "Greg Olsen"
+  },
+  "W2012:ppr:w06:00-0022084:00-0021999": {
+   "anon_id": "Q0012",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Anquan Boldin",
+   "player_b": "Nate Burleson"
+  },
+  "W2012:ppr:w12:00-0027713:00-0027135": {
+   "anon_id": "Q0344",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Aaron Hernandez",
+   "player_b": "Brandon Myers"
+  },
+  "W2012:ppr:w08:00-0026000:00-0022414": {
+   "anon_id": "Q0107",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Davone Bess",
+   "player_b": "Malcom Floyd"
+  },
+  "W2012:ppr:w09:00-0024217:00-0025399": {
+   "anon_id": "Q0119",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Reggie Bush",
+   "player_b": "Marshawn Lynch"
+  },
+  "W2012:ppr:w09:00-0022929:00-0026780": {
+   "anon_id": "Q0189",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Devery Henderson",
+   "player_b": "Kevin Ogletree"
+  },
+  "W2012:ppr:w09:00-0027029:00-0026796": {
+   "anon_id": "Q0330",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "LeSean McCoy",
+   "player_b": "Arian Foster"
+  },
+  "W2012:ppr:w05:00-0023436:00-0029701": {
+   "anon_id": "Q0068",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Alex Smith",
+   "player_b": "Ryan Tannehill"
+  },
+  "W2012:ppr:w08:00-0027061:00-0022127": {
+   "anon_id": "Q0345",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jared Cook",
+   "player_b": "Jason Witten"
+  },
+  "W2012:ppr:w10:00-0027973:00-0022787": {
+   "anon_id": "Q0260",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andy Dalton",
+   "player_b": "Matt Schaub"
+  },
+  "W2012:ppr:w11:00-0028002:00-0022044": {
+   "anon_id": "Q0176",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Randall Cobb",
+   "player_b": "Andre Johnson"
+  },
+  "W2012:ppr:w09:00-0026224:00-0025460": {
+   "anon_id": "Q0323",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Harry Douglas",
+   "player_b": "Jacoby Jones"
+  },
+  "W2012:ppr:w07:00-0022929:00-0028091": {
+   "anon_id": "Q0231",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Devery Henderson",
+   "player_b": "Jeremy Kerley"
+  },
+  "W2012:ppr:w15:00-0028017:00-0026780": {
+   "anon_id": "Q0202",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Leonard Hankerson",
+   "player_b": "Kevin Ogletree"
+  },
+  "W2012:ppr:w05:00-0026188:00-0024268": {
+   "anon_id": "Q0038",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Fred Davis",
+   "player_b": "Anthony Fasano"
+  },
+  "W2012:ppr:w08:00-0025542:00-0027985": {
+   "anon_id": "Q0209",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dante Rosario",
+   "player_b": "Lance Kendricks"
+  },
+  "W2012:ppr:w15:00-0023921:00-0028002": {
+   "anon_id": "Q0030",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Miles Austin",
+   "player_b": "Randall Cobb"
+  },
+  "W2012:ppr:w15:00-0022427:00-0023496": {
+   "anon_id": "Q0336",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Wes Welker",
+   "player_b": "Vincent Jackson"
+  },
+  "W2012:ppr:w09:00-0026956:00-0028202": {
+   "anon_id": "Q0120",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "LaRod Stephens-Howling",
+   "player_b": "Shaun Draughn"
+  },
+  "W2012:ppr:w06:00-0027265:00-0025389": {
+   "anon_id": "Q0186",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Victor Cruz",
+   "player_b": "Calvin Johnson"
+  },
+  "W2012:ppr:w05:00-0027690:00-0027793": {
+   "anon_id": "Q0273",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Eric Decker",
+   "player_b": "Antonio Brown"
+  },
+  "W2012:ppr:w08:00-0023367:00-0015754": {
+   "anon_id": "Q0001",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Nate Washington",
+   "player_b": "Brandon Stokley"
+  },
+  "W2012:ppr:w13:00-0023682:00-0022787": {
+   "anon_id": "Q0313",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ryan Fitzpatrick",
+   "player_b": "Matt Schaub"
+  },
+  "W2012:ppr:w06:00-0027974:00-0007091": {
+   "anon_id": "Q0264",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Colin Kaepernick",
+   "player_b": "Matt Hasselbeck"
+  },
+  "W2012:ppr:w14:00-0029701:00-0026197": {
+   "anon_id": "Q0257",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ryan Tannehill",
+   "player_b": "Chad Henne"
+  },
+  "W2012:ppr:w12:00-0020494:00-0022097": {
+   "anon_id": "Q0214",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Santana Moss",
+   "player_b": "Brandon Lloyd"
+  },
+  "W2012:ppr:w12:00-0027718:00-0022943": {
+   "anon_id": "Q0044",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Garrett Graham",
+   "player_b": "Benjamin Watson"
+  },
+  "W2012:ppr:w13:00-0023437:00-0025487": {
+   "anon_id": "Q0204",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ronnie Brown",
+   "player_b": "Michael Bush"
+  },
+  "W2012:ppr:w08:00-0021547:00-0025418": {
+   "anon_id": "Q0036",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Antonio Gates",
+   "player_b": "Greg Olsen"
+  },
+  "W2012:ppr:w10:00-0026164:00-0022178": {
+   "anon_id": "Q0234",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Chris Johnson",
+   "player_b": "Willis McGahee"
+  },
+  "W2012:ppr:w12:00-0026231:00-0027714": {
+   "anon_id": "Q0351",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jermichael Finley",
+   "player_b": "Dennis Pitta"
+  },
+  "W2012:ppr:w16:00-0026986:00-0027996": {
+   "anon_id": "Q0067",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Michael Crabtree",
+   "player_b": "Torrey Smith"
+  },
+  "W2012:ppr:w09:00-0025542:00-0025425": {
+   "anon_id": "Q0059",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dante Rosario",
+   "player_b": "Zach Miller"
+  },
+  "W2012:ppr:w05:00-0027944:00-0022427": {
+   "anon_id": "Q0277",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Julio Jones",
+   "player_b": "Wes Welker"
+  },
+  "W2012:ppr:w08:00-0028011:00-0027029": {
+   "anon_id": "Q0102",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Stevan Ridley",
+   "player_b": "LeSean McCoy"
+  },
+  "W2012:ppr:w14:00-0021931:00-0027518": {
+   "anon_id": "Q0381",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kevin Walter",
+   "player_b": "Donald Jones"
+  },
+  "W2012:ppr:w09:00-0021678:00-0021429": {
+   "anon_id": "Q0367",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tony Romo",
+   "player_b": "Carson Palmer"
+  },
+  "W2012:ppr:w05:00-0029273:00-0028053": {
+   "anon_id": "Q0061",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Robert Turbin",
+   "player_b": "Kendall Hunter"
+  },
+  "W2012:ppr:w16:00-0024226:00-0029567": {
+   "anon_id": "Q0031",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jay Cutler",
+   "player_b": "Nick Foles"
+  },
+  "W2012:ppr:w05:00-0027939:00-0022803": {
+   "anon_id": "Q0255",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Cam Newton",
+   "player_b": "Eli Manning"
+  },
+  "W2012:ppr:w08:00-0028034:00-0028202": {
+   "anon_id": "Q0212",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Alex Green",
+   "player_b": "Shaun Draughn"
+  },
+  "W2012:ppr:w07:00-0025860:00-0022736": {
+   "anon_id": "Q0332",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Steven Jackson"
+  },
+  "W2012:ppr:w10:00-0027690:00-0022427": {
+   "anon_id": "Q0271",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Eric Decker",
+   "player_b": "Wes Welker"
+  },
+  "W2012:ppr:w13:00-0027265:00-0023310": {
+   "anon_id": "Q0182",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Victor Cruz",
+   "player_b": "Lance Moore"
+  },
+  "W2012:ppr:w13:00-0029614:00-0029707": {
+   "anon_id": "Q0285",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Chris Givens",
+   "player_b": "Justin Blackmon"
+  },
+  "W2012:ppr:w05:00-0027077:00-0026901": {
+   "anon_id": "Q0138",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brian Hartline",
+   "player_b": "Mike Wallace"
+  },
+  "W2012:ppr:w06:00-0025637:00-0029141": {
+   "anon_id": "Q0093",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ahmad Bradshaw",
+   "player_b": "Alfred Morris"
+  },
+  "W2012:ppr:w15:00-0019596:00-0026143": {
+   "anon_id": "Q0217",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tom Brady",
+   "player_b": "Matt Ryan"
+  },
+  "W2012:ppr:w14:00-0027061:00-0025549": {
+   "anon_id": "Q0390",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jared Cook",
+   "player_b": "Brent Celek"
+  },
+  "W2012:ppr:w06:00-0026019:00-0026164": {
+   "anon_id": "Q0224",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Danny Woodhead",
+   "player_b": "Chris Johnson"
+  },
+  "W2012:ppr:w05:00-0025516:00-0025549": {
+   "anon_id": "Q0276",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Scott Chandler",
+   "player_b": "Brent Celek"
+  },
+  "W2012:ppr:w09:00-0027891:00-0027006": {
+   "anon_id": "Q0251",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Golden Tate",
+   "player_b": "Kenny Britt"
+  },
+  "W2012:ppr:w14:00-0026158:00-0024226": {
+   "anon_id": "Q0095",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Joe Flacco",
+   "player_b": "Jay Cutler"
+  },
+  "W2012:ppr:w08:00-0027864:00-0026184": {
+   "anon_id": "Q0353",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ryan Mathews",
+   "player_b": "Matt Forte"
+  },
+  "W2012:ppr:w15:00-0022924:00-0029263": {
+   "anon_id": "Q0207",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Russell Wilson"
+  },
+  "W2012:ppr:w16:00-0027691:00-0028086": {
+   "anon_id": "Q0065",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andre Roberts",
+   "player_b": "Denarius Moore"
+  },
+  "W2012:ppr:w14:00-0026995:00-0027891": {
+   "anon_id": "Q0063",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jeremy Maclin",
+   "player_b": "Golden Tate"
+  },
+  "W2012:ppr:w07:00-0029668:00-0026158": {
+   "anon_id": "Q0056",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andrew Luck",
+   "player_b": "Joe Flacco"
+  },
+  "W2012:ppr:w07:00-0022084:00-0026780": {
+   "anon_id": "Q0009",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Anquan Boldin",
+   "player_b": "Kevin Ogletree"
+  },
+  "W2012:ppr:w11:00-0022942:00-0021678": {
+   "anon_id": "Q0352",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Philip Rivers",
+   "player_b": "Tony Romo"
+  },
+  "W2012:ppr:w12:00-0028083:00-0024813": {
+   "anon_id": "Q0116",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jacquizz Rodgers",
+   "player_b": "Pierre Thomas"
+  },
+  "W2012:ppr:w08:00-0029141:00-0027995": {
+   "anon_id": "Q0230",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Alfred Morris",
+   "player_b": "Mikel Leshoure"
+  },
+  "W2012:ppr:w06:00-0028009:00-0026144": {
+   "anon_id": "Q0203",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DeMarco Murray",
+   "player_b": "Darren McFadden"
+  },
+  "W2012:ppr:w12:00-0022084:00-0026995": {
+   "anon_id": "Q0178",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Anquan Boldin",
+   "player_b": "Jeremy Maclin"
+  },
+  "W2012:ppr:w06:00-0019596:00-0026143": {
+   "anon_id": "Q0377",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tom Brady",
+   "player_b": "Matt Ryan"
+  },
+  "W2012:ppr:w10:00-0027714:00-0021547": {
+   "anon_id": "Q0245",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dennis Pitta",
+   "player_b": "Antonio Gates"
+  },
+  "W2012:ppr:w09:00-0027982:00-0029708": {
+   "anon_id": "Q0098",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Titus Young",
+   "player_b": "Kendall Wright"
+  },
+  "W2012:ppr:w05:00-0028011:00-0026184": {
+   "anon_id": "Q0318",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Stevan Ridley",
+   "player_b": "Matt Forte"
+  },
+  "W2012:ppr:w06:00-0029677:00-0029701": {
+   "anon_id": "Q0391",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Weeden",
+   "player_b": "Ryan Tannehill"
+  },
+  "W2012:ppr:w05:00-0027003:00-0026566": {
+   "anon_id": "Q0243",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Donald Brown",
+   "player_b": "Isaac Redman"
+  },
+  "W2012:ppr:w13:00-0026143:00-0026993": {
+   "anon_id": "Q0187",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Ryan",
+   "player_b": "Josh Freeman"
+  },
+  "W2012:ppr:w14:00-0024267:00-0029664": {
+   "anon_id": "Q0193",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Greg Jennings",
+   "player_b": "Josh Gordon"
+  },
+  "W2012:ppr:w10:00-0022929:00-0025462": {
+   "anon_id": "Q0131",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Devery Henderson",
+   "player_b": "Laurent Robinson"
+  },
+  "W2012:ppr:w08:00-0029689:00-0026267": {
+   "anon_id": "Q0041",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dwayne Allen",
+   "player_b": "Jacob Tamme"
+  },
+  "W2012:ppr:w15:00-0029429:00-0027007": {
+   "anon_id": "Q0215",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Bryce Brown",
+   "player_b": "Chris Wells"
+  },
+  "W2012:ppr:w11:00-0029701:00-0027948": {
+   "anon_id": "Q0047",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ryan Tannehill",
+   "player_b": "Blaine Gabbert"
+  },
+  "W2012:ppr:w16:00-0022921:00-0027006": {
+   "anon_id": "Q0099",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Kenny Britt"
+  },
+  "W2012:ppr:w11:00-0026204:00-0023437": {
+   "anon_id": "Q0020",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kevin Smith",
+   "player_b": "Ronnie Brown"
+  },
+  "W2012:ppr:w08:00-0025465:00-0026995": {
+   "anon_id": "Q0150",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "James Jones",
+   "player_b": "Jeremy Maclin"
+  },
+  "W2012:ppr:w05:00-0023682:00-0019596": {
+   "anon_id": "Q0039",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ryan Fitzpatrick",
+   "player_b": "Tom Brady"
+  },
+  "W2012:ppr:w06:00-0027690:00-0023496": {
+   "anon_id": "Q0143",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Eric Decker",
+   "player_b": "Vincent Jackson"
+  },
+  "W2012:ppr:w14:00-0026878:00-0028007": {
+   "anon_id": "Q0154",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tom Crabtree",
+   "player_b": "Rob Housler"
+  },
+  "W2012:ppr:w14:00-0026899:00-0024217": {
+   "anon_id": "Q0183",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Shonn Greene",
+   "player_b": "Reggie Bush"
+  },
+  "W2012:ppr:w12:00-0026019:00-0023437": {
+   "anon_id": "Q0350",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Danny Woodhead",
+   "player_b": "Ronnie Brown"
+  },
+  "W2012:ppr:w12:00-0029689:00-0025516": {
+   "anon_id": "Q0238",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dwayne Allen",
+   "player_b": "Scott Chandler"
+  },
+  "W2012:ppr:w13:00-0027985:00-0026878": {
+   "anon_id": "Q0341",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Lance Kendricks",
+   "player_b": "Tom Crabtree"
+  },
+  "W2012:ppr:w16:00-0024813:00-0023437": {
+   "anon_id": "Q0165",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Pierre Thomas",
+   "player_b": "Ronnie Brown"
+  },
+  "W2012:ppr:w07:00-0025418:00-0027713": {
+   "anon_id": "Q0293",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Greg Olsen",
+   "player_b": "Aaron Hernandez"
+  },
+  "W2012:ppr:w06:00-0021678:00-0027950": {
+   "anon_id": "Q0163",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Tony Romo",
+   "player_b": "Christian Ponder"
+  },
+  "W2012:ppr:w10:00-0026902:00-0024324": {
+   "anon_id": "Q0241",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ramses Barden",
+   "player_b": "Jason Avant"
+  },
+  "W2012:ppr:w15:00-0028083:00-0029547": {
+   "anon_id": "Q0115",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jacquizz Rodgers",
+   "player_b": "Vick Ballard"
+  },
+  "W2012:ppr:w05:00-0029675:00-0026195": {
+   "anon_id": "Q0125",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Trent Richardson",
+   "player_b": "Ray Rice"
+  },
+  "W2012:ppr:w10:00-0021931:00-0015754": {
+   "anon_id": "Q0356",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kevin Walter",
+   "player_b": "Brandon Stokley"
+  },
+  "W2012:ppr:w12:00-0024268:00-0027695": {
+   "anon_id": "Q0045",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Anthony Fasano",
+   "player_b": "Tony Moeaki"
+  },
+  "W2012:ppr:w13:00-0025418:00-0027135": {
+   "anon_id": "Q0054",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Greg Olsen",
+   "player_b": "Brandon Myers"
+  },
+  "W2012:ppr:w06:00-0022821:00-0025399": {
+   "anon_id": "Q0227",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Michael Turner",
+   "player_b": "Marshawn Lynch"
+  },
+  "W2012:ppr:w12:00-0029612:00-0028053": {
+   "anon_id": "Q0347",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Daryl Richardson",
+   "player_b": "Kendall Hunter"
+  },
+  "W2012:ppr:w09:00-0027873:00-0027135": {
+   "anon_id": "Q0192",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jermaine Gresham",
+   "player_b": "Brandon Myers"
+  },
+  "W2012:ppr:w14:00-0024324:00-0027758": {
+   "anon_id": "Q0343",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jason Avant",
+   "player_b": "Riley Cooper"
+  },
+  "W2012:ppr:w13:00-0026901:00-0025431": {
+   "anon_id": "Q0079",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Wallace",
+   "player_b": "Sidney Rice"
+  },
+  "W2012:ppr:w12:00-0027265:00-0027942": {
+   "anon_id": "Q0050",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Victor Cruz",
+   "player_b": "A.J. Green"
+  },
+  "W2012:ppr:w08:00-0025549:00-0027135": {
+   "anon_id": "Q0010",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brent Celek",
+   "player_b": "Brandon Myers"
+  },
+  "W2012:ppr:w09:00-0027080:00-0028736": {
+   "anon_id": "Q0136",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mike Goodson",
+   "player_b": "William Powell"
+  },
+  "W2012:ppr:w13:00-0026796:00-0029613": {
+   "anon_id": "Q0029",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Arian Foster",
+   "player_b": "Doug Martin"
+  },
+  "W2012:ppr:w05:00-0027891:00-0028091": {
+   "anon_id": "Q0201",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Golden Tate",
+   "player_b": "Jeremy Kerley"
+  },
+  "W2012:ppr:w07:00-0027973:00-0022803": {
+   "anon_id": "Q0194",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Andy Dalton",
+   "player_b": "Eli Manning"
+  },
+  "W2012:ppr:w11:00-0019596:00-0026498": {
+   "anon_id": "Q0370",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tom Brady",
+   "player_b": "Matthew Stafford"
+  },
+  "W2012:ppr:w12:00-0024226:00-0029677": {
+   "anon_id": "Q0104",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jay Cutler",
+   "player_b": "Brandon Weeden"
+  },
+  "W2012:ppr:w13:00-0027696:00-0022127": {
+   "anon_id": "Q0148",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jimmy Graham",
+   "player_b": "Jason Witten"
+  },
+  "W2012:ppr:w07:00-0027518:00-0027685": {
+   "anon_id": "Q0290",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Donald Jones",
+   "player_b": "Emmanuel Sanders"
+  },
+  "W2012:ppr:w12:00-0027691:00-0027902": {
+   "anon_id": "Q0364",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Andre Roberts",
+   "player_b": "Dez Bryant"
+  },
+  "W2012:ppr:w11:00-0026566:00-0027218": {
+   "anon_id": "Q0354",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Isaac Redman",
+   "player_b": "Joique Bell"
+  },
+  "W2012:ppr:w13:00-0026996:00-0027981": {
+   "anon_id": "Q0309",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Pettigrew",
+   "player_b": "Kyle Rudolph"
+  },
+  "W2012:ppr:w10:00-0027006:00-0029209": {
+   "anon_id": "Q0362",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kenny Britt",
+   "player_b": "Ryan Broyles"
+  },
+  "W2012:ppr:w08:00-0026937:00-0027006": {
+   "anon_id": "Q0113",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Gibson",
+   "player_b": "Kenny Britt"
+  },
+  "W2012:ppr:w14:00-0023437:00-0024813": {
+   "anon_id": "Q0320",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ronnie Brown",
+   "player_b": "Pierre Thomas"
+  },
+  "W2012:ppr:w05:00-0026998:00-0022044": {
+   "anon_id": "Q0096",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Percy Harvin",
+   "player_b": "Andre Johnson"
+  },
+  "W2012:ppr:w08:00-0027094:00-0026164": {
+   "anon_id": "Q0085",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Andre Brown",
+   "player_b": "Chris Johnson"
+  },
+  "W2012:ppr:w15:00-0024313:00-0026201": {
+   "anon_id": "Q0074",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Owen Daniels",
+   "player_b": "Martellus Bennett"
+  },
+  "W2012:ppr:w07:00-0021429:00-0027950": {
+   "anon_id": "Q0139",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Carson Palmer",
+   "player_b": "Christian Ponder"
+  },
+  "W2012:ppr:w05:00-0027518:00-0028017": {
+   "anon_id": "Q0004",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Donald Jones",
+   "player_b": "Leonard Hankerson"
+  },
+  "W2012:ppr:w12:00-0023496:00-0027912": {
+   "anon_id": "Q0326",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Vincent Jackson",
+   "player_b": "Danario Alexander"
+  },
+  "W2012:ppr:w14:00-0026314:00-0027026": {
+   "anon_id": "Q0007",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh Morgan",
+   "player_b": "Mohamed Massaquoi"
+  },
+  "W2012:ppr:w09:00-0026901:00-0027690": {
+   "anon_id": "Q0127",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Wallace",
+   "player_b": "Eric Decker"
+  },
+  "W2012:ppr:w16:00-0028009:00-0026184": {
+   "anon_id": "Q0289",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "DeMarco Murray",
+   "player_b": "Matt Forte"
+  },
+  "W2012:ppr:w09:00-0023662:00-0007091": {
+   "anon_id": "Q0070",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Cassel",
+   "player_b": "Matt Hasselbeck"
+  },
+  "W2012:ppr:w12:00-0022165:00-0023630": {
+   "anon_id": "Q0198",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dallas Clark",
+   "player_b": "Joel Dreessen"
+  },
+  "W2012:ppr:w06:00-0027964:00-0028400": {
+   "anon_id": "Q0015",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jon Baldwin",
+   "player_b": "Armon Binns"
+  },
+  "W2012:ppr:w09:00-0027109:00-0022943": {
+   "anon_id": "Q0314",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "James Casey",
+   "player_b": "Benjamin Watson"
+  },
+  "W2012:ppr:w12:00-0029675:00-0023500": {
+   "anon_id": "Q0200",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Trent Richardson",
+   "player_b": "Frank Gore"
+  },
+  "W2012:ppr:w10:00-0022781:00-0027150": {
+   "anon_id": "Q0159",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Michael Jenkins",
+   "player_b": "Julian Edelman"
+  },
+  "W2012:ppr:w09:00-0024242:00-0026745": {
+   "anon_id": "Q0239",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeAngelo Williams",
+   "player_b": "Curtis Brinkley"
+  },
+  "W2012:ppr:w10:00-0023438:00-0029129": {
+   "anon_id": "Q0265",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Braylon Edwards",
+   "player_b": "Rod Streater"
+  },
+  "W2012:ppr:w05:00-0029137:00-0024345": {
+   "anon_id": "Q0278",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Alshon Jeffery",
+   "player_b": "Domenik Hixon"
+  },
+  "W2012:ppr:w15:00-0025389:00-0020498": {
+   "anon_id": "Q0035",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Calvin Johnson",
+   "player_b": "Reggie Wayne"
+  },
+  "W2012:ppr:w11:00-0026937:00-0029664": {
+   "anon_id": "Q0291",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Gibson",
+   "player_b": "Josh Gordon"
+  },
+  "W2012:ppr:w15:00-0027873:00-0027135": {
+   "anon_id": "Q0132",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jermaine Gresham",
+   "player_b": "Brandon Myers"
+  },
+  "W2012:ppr:w05:00-0027981:00-0024221": {
+   "anon_id": "Q0308",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kyle Rudolph",
+   "player_b": "Vernon Davis"
+  },
+  "W2012:ppr:w05:00-0027918:00-0026173": {
+   "anon_id": "Q0246",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andrew Hawkins",
+   "player_b": "Donnie Avery"
+  },
+  "W2012:ppr:w15:00-0029129:00-0027156": {
+   "anon_id": "Q0062",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rod Streater",
+   "player_b": "Tiquan Underwood"
+  },
+  "W2012:ppr:w12:00-0026184:00-0029141": {
+   "anon_id": "Q0048",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Forte",
+   "player_b": "Alfred Morris"
+  },
+  "W2012:ppr:w11:00-0020531:00-0023459": {
+   "anon_id": "Q0032",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Drew Brees",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2012:ppr:w09:00-0026231:00-0024243": {
+   "anon_id": "Q0021",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jermichael Finley",
+   "player_b": "Marcedes Lewis"
+  },
+  "W2012:ppr:w14:00-0022127:00-0023465": {
+   "anon_id": "Q0219",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jason Witten",
+   "player_b": "Heath Miller"
+  },
+  "W2012:ppr:w08:00-0020531:00-0023459": {
+   "anon_id": "Q0346",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Drew Brees",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2012:ppr:w11:00-0027685:00-0029209": {
+   "anon_id": "Q0297",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Emmanuel Sanders",
+   "player_b": "Ryan Broyles"
+  },
+  "W2012:ppr:w15:00-0029141:00-0028009": {
+   "anon_id": "Q0232",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Alfred Morris",
+   "player_b": "DeMarco Murray"
+  },
+  "W2012:ppr:w12:00-0027873:00-0024221": {
+   "anon_id": "Q0328",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jermaine Gresham",
+   "player_b": "Vernon Davis"
+  },
+  "W2012:ppr:w14:00-0021547:00-0026267": {
+   "anon_id": "Q0303",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Antonio Gates",
+   "player_b": "Jacob Tamme"
+  },
+  "W2012:ppr:w11:00-0029668:00-0023682": {
+   "anon_id": "Q0168",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Andrew Luck",
+   "player_b": "Ryan Fitzpatrick"
+  },
+  "W2012:ppr:w06:00-0020494:00-0027685": {
+   "anon_id": "Q0023",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Santana Moss",
+   "player_b": "Emmanuel Sanders"
+  },
+  "W2012:ppr:w09:00-0024447:00-0025462": {
+   "anon_id": "Q0008",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Devin Aromashodu",
+   "player_b": "Laurent Robinson"
+  },
+  "W2012:ppr:w06:00-0025414:00-0029664": {
+   "anon_id": "Q0078",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Robert Meachem",
+   "player_b": "Josh Gordon"
+  },
+  "W2012:ppr:w13:00-0027690:00-0027005": {
+   "anon_id": "Q0258",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Eric Decker",
+   "player_b": "Hakeem Nicks"
+  },
+  "W2012:ppr:w09:00-0024466:00-0027874": {
+   "anon_id": "Q0306",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Marques Colston",
+   "player_b": "Demaryius Thomas"
+  },
+  "W2012:ppr:w14:00-0022921:00-0029614": {
+   "anon_id": "Q0244",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Chris Givens"
+  },
+  "W2012:ppr:w13:00-0027997:00-0026780": {
+   "anon_id": "Q0324",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Greg Little",
+   "player_b": "Kevin Ogletree"
+  },
+  "W2012:ppr:w05:00-0027714:00-0026201": {
+   "anon_id": "Q0284",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dennis Pitta",
+   "player_b": "Martellus Bennett"
+  },
+  "W2012:ppr:w05:00-0026019:00-0028000": {
+   "anon_id": "Q0019",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Danny Woodhead",
+   "player_b": "Daniel Thomas"
+  },
+  "W2012:ppr:w12:00-0029668:00-0026158": {
+   "anon_id": "Q0110",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Andrew Luck",
+   "player_b": "Joe Flacco"
+  },
+  "W2012:ppr:w06:00-0024221:00-0024313": {
+   "anon_id": "Q0339",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Vernon Davis",
+   "player_b": "Owen Daniels"
+  },
+  "W2012:ppr:w16:00-0020498:00-0023462": {
+   "anon_id": "Q0205",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Reggie Wayne",
+   "player_b": "Roddy White"
+  },
+  "W2012:ppr:w06:00-0015754:00-0029608": {
+   "anon_id": "Q0300",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Stokley",
+   "player_b": "T.Y. Hilton"
+  },
+  "W2012:ppr:w06:00-0026314:00-0024324": {
+   "anon_id": "Q0226",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh Morgan",
+   "player_b": "Jason Avant"
+  },
+  "W2012:ppr:w08:00-0023462:00-0027265": {
+   "anon_id": "Q0220",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Roddy White",
+   "player_b": "Victor Cruz"
+  },
+  "W2012:ppr:w16:00-0029137:00-0021931": {
+   "anon_id": "Q0153",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Alshon Jeffery",
+   "player_b": "Kevin Walter"
+  },
+  "W2012:ppr:w13:00-0027150:00-0026902": {
+   "anon_id": "Q0043",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Julian Edelman",
+   "player_b": "Ramses Barden"
+  },
+  "W2012:ppr:w07:00-0029273:00-0027140": {
+   "anon_id": "Q0361",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Robert Turbin",
+   "player_b": "Chris Ogbonnaya"
+  },
+  "W2012:ppr:w09:00-0024345:00-0027026": {
+   "anon_id": "Q0210",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Domenik Hixon",
+   "player_b": "Mohamed Massaquoi"
+  },
+  "W2012:ppr:w05:00-0021931:00-0026314": {
+   "anon_id": "Q0305",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Kevin Walter",
+   "player_b": "Josh Morgan"
+  },
+  "W2012:ppr:w15:00-0027714:00-0025516": {
+   "anon_id": "Q0287",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Dennis Pitta",
+   "player_b": "Scott Chandler"
+  },
+  "W2012:ppr:w08:00-0028995:00-0026983": {
+   "anon_id": "Q0302",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Stephen Hill",
+   "player_b": "Darrius Heyward-Bey"
+  },
+  "W2012:ppr:w06:00-0026937:00-0028995": {
+   "anon_id": "Q0375",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Gibson",
+   "player_b": "Stephen Hill"
+  },
+  "W2012:ppr:w09:00-0025418:00-0026996": {
+   "anon_id": "Q0315",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Greg Olsen",
+   "player_b": "Brandon Pettigrew"
+  },
+  "W2012:ppr:w11:00-0023462:00-0026176": {
+   "anon_id": "Q0301",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Roddy White",
+   "player_b": "Jordy Nelson"
+  },
+  "W2012:ppr:w10:00-0028995:00-0027982": {
+   "anon_id": "Q0175",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Stephen Hill",
+   "player_b": "Titus Young"
+  },
+  "W2012:ppr:w15:00-0022414:00-0029708": {
+   "anon_id": "Q0000",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Malcom Floyd",
+   "player_b": "Kendall Wright"
+  },
+  "W2012:ppr:w15:00-0022921:00-0026983": {
+   "anon_id": "Q0233",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Darrius Heyward-Bey"
+  },
+  "W2012:ppr:w13:00-0027942:00-0022427": {
+   "anon_id": "Q0267",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "A.J. Green",
+   "player_b": "Wes Welker"
+  },
+  "W2012:ppr:w15:00-0026937:00-0022097": {
+   "anon_id": "Q0145",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Brandon Gibson",
+   "player_b": "Brandon Lloyd"
+  },
+  "W2012:ppr:w14:00-0026566:00-0028083": {
+   "anon_id": "Q0307",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Isaac Redman",
+   "player_b": "Jacquizz Rodgers"
+  },
+  "W2012:ppr:w05:00-0025542:00-0026225": {
+   "anon_id": "Q0073",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Dante Rosario",
+   "player_b": "Craig Stevens"
+  },
+  "W2012:ppr:w16:00-0027974:00-0029701": {
+   "anon_id": "Q0197",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Colin Kaepernick",
+   "player_b": "Ryan Tannehill"
+  },
+  "W2012:ppr:w16:00-0025425:00-0027985": {
+   "anon_id": "Q0384",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Zach Miller",
+   "player_b": "Lance Kendricks"
+  },
+  "W2012:ppr:w10:00-0026035:00-0022044": {
+   "anon_id": "Q0322",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Danny Amendola",
+   "player_b": "Andre Johnson"
+  },
+  "W2012:ppr:w16:00-0026364:00-0029608": {
+   "anon_id": "Q0124",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Steve Johnson",
+   "player_b": "T.Y. Hilton"
+  },
+  "W2012:ppr:w15:00-0029572:00-0027918": {
+   "anon_id": "Q0184",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Jarius Wright",
+   "player_b": "Andrew Hawkins"
+  },
+  "W2012:ppr:w08:00-0011754:00-0029269": {
+   "anon_id": "Q0141",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Randy Moss",
+   "player_b": "Travis Benjamin"
+  },
+  "W2012:ppr:w13:00-0027891:00-0027918": {
+   "anon_id": "Q0077",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Golden Tate",
+   "player_b": "Andrew Hawkins"
+  },
+  "W2012:ppr:w15:00-0028086:00-0027691": {
+   "anon_id": "Q0295",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Denarius Moore",
+   "player_b": "Andre Roberts"
+  },
+  "W2012:ppr:w10:00-0023496:00-0024466": {
+   "anon_id": "Q0236",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Vincent Jackson",
+   "player_b": "Marques Colston"
+  },
+  "W2012:ppr:w14:00-0022427:00-0023462": {
+   "anon_id": "Q0134",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Wes Welker",
+   "player_b": "Roddy White"
+  },
+  "W2012:ppr:w16:00-0023367:00-0026235": {
+   "anon_id": "Q0334",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Nate Washington",
+   "player_b": "Mario Manningham"
+  },
+  "W2012:ppr:w05:00-0023462:00-0027265": {
+   "anon_id": "Q0117",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Roddy White",
+   "player_b": "Victor Cruz"
+  },
+  "W2012:ppr:w06:00-0026983:00-0025431": {
+   "anon_id": "Q0222",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Darrius Heyward-Bey",
+   "player_b": "Sidney Rice"
+  },
+  "W2012:ppr:w12:00-0010346:00-0027939": {
+   "anon_id": "Q0371",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Peyton Manning",
+   "player_b": "Cam Newton"
+  },
+  "W2012:ppr:w14:00-0010346:00-0021429": {
+   "anon_id": "Q0340",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Peyton Manning",
+   "player_b": "Carson Palmer"
+  },
+  "W2012:ppr:w12:00-0027531:00-0022736": {
+   "anon_id": "Q0269",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Chris Ivory",
+   "player_b": "Steven Jackson"
+  },
+  "W2012:ppr:w05:00-0026035:00-0025410": {
+   "anon_id": "Q0254",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Danny Amendola",
+   "player_b": "Dwayne Bowe"
+  },
+  "W2012:ppr:w12:00-0020498:00-0022044": {
+   "anon_id": "Q0383",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Reggie Wayne",
+   "player_b": "Andre Johnson"
+  },
+  "W2012:ppr:w14:00-0029613:00-0026195": {
+   "anon_id": "Q0237",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Doug Martin",
+   "player_b": "Ray Rice"
+  },
+  "W2012:ppr:w13:00-0028052:00-0026000": {
+   "anon_id": "Q0325",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Cecil Shorts",
+   "player_b": "Davone Bess"
+  },
+  "W2012:ppr:w08:00-0026189:00-0023310": {
+   "anon_id": "Q0213",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeSean Jackson",
+   "player_b": "Lance Moore"
+  },
+  "W2012:ppr:w16:00-0023310:00-0023921": {
+   "anon_id": "Q0331",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Lance Moore",
+   "player_b": "Miles Austin"
+  },
+  "W2012:ppr:w14:00-0011754:00-0029638": {
+   "anon_id": "Q0310",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Randy Moss",
+   "player_b": "Michael Floyd"
+  },
+  "W2012:ppr:w12:00-0027215:00-0026878": {
+   "anon_id": "Q0101",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Logan Paulsen",
+   "player_b": "Tom Crabtree"
+  },
+  "W2012:ppr:w15:00-0024268:00-0027718": {
+   "anon_id": "Q0319",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Anthony Fasano",
+   "player_b": "Garrett Graham"
+  },
+  "W2012:ppr:w06:00-0022921:00-0027902": {
+   "anon_id": "Q0185",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Dez Bryant"
+  },
+  "W2012:ppr:w08:00-0026213:00-0025394": {
+   "anon_id": "Q0049",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jamaal Charles",
+   "player_b": "Adrian Peterson"
+  },
+  "W2012:ppr:w07:00-0026195:00-0029675": {
+   "anon_id": "Q0386",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ray Rice",
+   "player_b": "Trent Richardson"
+  },
+  "W2012:ppr:w10:00-0006101:00-0022127": {
+   "anon_id": "Q0137",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tony Gonzalez",
+   "player_b": "Jason Witten"
+  },
+  "W2012:ppr:w10:00-0024217:00-0028011": {
+   "anon_id": "Q0146",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Reggie Bush",
+   "player_b": "Stevan Ridley"
+  },
+  "W2012:ppr:w11:00-0029612:00-0026956": {
+   "anon_id": "Q0266",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Daryl Richardson",
+   "player_b": "LaRod Stephens-Howling"
+  },
+  "W2012:ppr:w10:00-0027861:00-0027864": {
+   "anon_id": "Q0348",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "C.J. Spiller",
+   "player_b": "Ryan Mathews"
+  },
+  "W2012:ppr:w16:00-0025431:00-0022084": {
+   "anon_id": "Q0055",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Sidney Rice",
+   "player_b": "Anquan Boldin"
+  },
+  "W2012:ppr:w09:00-0026189:00-0027996": {
+   "anon_id": "Q0147",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "DeSean Jackson",
+   "player_b": "Torrey Smith"
+  },
+  "W2012:ppr:w16:00-0023496:00-0027265": {
+   "anon_id": "Q0349",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Vincent Jackson",
+   "player_b": "Victor Cruz"
+  },
+  "W2012:ppr:w09:00-0027942:00-0027265": {
+   "anon_id": "Q0024",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "A.J. Green",
+   "player_b": "Victor Cruz"
+  },
+  "W2012:ppr:w16:00-0025516:00-0022165": {
+   "anon_id": "Q0280",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Scott Chandler",
+   "player_b": "Dallas Clark"
+  },
+  "W2012:ppr:w11:00-0025860:00-0028000": {
+   "anon_id": "Q0286",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Daniel Thomas"
+  },
+  "W2012:ppr:w10:00-0023630:00-0026201": {
+   "anon_id": "Q0282",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Joel Dreessen",
+   "player_b": "Martellus Bennett"
+  },
+  "W2012:ppr:w07:00-0027997:00-0026314": {
+   "anon_id": "Q0108",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Greg Little",
+   "player_b": "Josh Morgan"
+  },
+  "W2012:ppr:w07:00-0024297:00-0028434": {
+   "anon_id": "Q0064",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Derek Hagan",
+   "player_b": "Doug Baldwin"
+  },
+  "W2012:ppr:w09:00-0010346:00-0027939": {
+   "anon_id": "Q0373",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Peyton Manning",
+   "player_b": "Cam Newton"
+  },
+  "W2012:ppr:w05:00-0029435:00-0024324": {
+   "anon_id": "Q0296",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Damaris Johnson",
+   "player_b": "Jason Avant"
+  },
+  "W2012:ppr:w10:00-0023921:00-0028086": {
+   "anon_id": "Q0022",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Miles Austin",
+   "player_b": "Denarius Moore"
+  },
+  "W2012:ppr:w13:00-0026986:00-0027077": {
+   "anon_id": "Q0388",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Michael Crabtree",
+   "player_b": "Brian Hartline"
+  },
+  "W2012:ppr:w09:00-0027793:00-0025389": {
+   "anon_id": "Q0281",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Antonio Brown",
+   "player_b": "Calvin Johnson"
+  },
+  "W2012:ppr:w06:00-0028083:00-0026566": {
+   "anon_id": "Q0181",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jacquizz Rodgers",
+   "player_b": "Isaac Redman"
+  },
+  "W2012:ppr:w11:00-0027939:00-0029665": {
+   "anon_id": "Q0129",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Cam Newton",
+   "player_b": "Robert Griffin III"
+  },
+  "W2012:ppr:w16:00-0027218:00-0024217": {
+   "anon_id": "Q0223",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Joique Bell",
+   "player_b": "Reggie Bush"
+  },
+  "W2012:ppr:w06:00-0022924:00-0023459": {
+   "anon_id": "Q0106",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ben Roethlisberger",
+   "player_b": "Aaron Rodgers"
+  },
+  "W2012:ppr:w08:00-0023465:00-0027696": {
+   "anon_id": "Q0058",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Heath Miller",
+   "player_b": "Jimmy Graham"
+  },
+  "W2012:ppr:w10:00-0024345:00-0027651": {
+   "anon_id": "Q0130",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Domenik Hixon",
+   "player_b": "Dexter McCluster"
+  },
+  "W2012:ppr:w08:00-0027950:00-0024226": {
+   "anon_id": "Q0304",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Christian Ponder",
+   "player_b": "Jay Cutler"
+  },
+  "W2012:ppr:w13:00-0022921:00-0026364": {
+   "anon_id": "Q0221",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Larry Fitzgerald",
+   "player_b": "Steve Johnson"
+  },
+  "W2012:ppr:w11:00-0027215:00-0028007": {
+   "anon_id": "Q0274",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Logan Paulsen",
+   "player_b": "Rob Housler"
+  },
+  "W2012:ppr:w15:00-0029613:00-0025394": {
+   "anon_id": "Q0261",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Doug Martin",
+   "player_b": "Adrian Peterson"
+  },
+  "W2012:ppr:w16:00-0019596:00-0022924": {
+   "anon_id": "Q0389",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Tom Brady",
+   "player_b": "Ben Roethlisberger"
+  },
+  "W2012:ppr:w07:00-0026162:00-0029612": {
+   "anon_id": "Q0103",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Felix Jones",
+   "player_b": "Daryl Richardson"
+  },
+  "W2012:ppr:w15:00-0027702:00-0028091": {
+   "anon_id": "Q0013",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mike Williams",
+   "player_b": "Jeremy Kerley"
+  },
+  "W2012:ppr:w05:00-0025394:00-0029141": {
+   "anon_id": "Q0142",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Adrian Peterson",
+   "player_b": "Alfred Morris"
+  },
+  "W2012:ppr:w16:00-0026035:00-0022427": {
+   "anon_id": "Q0173",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Danny Amendola",
+   "player_b": "Wes Welker"
+  },
+  "W2012:ppr:w06:00-0028091:00-0022414": {
+   "anon_id": "Q0091",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jeremy Kerley",
+   "player_b": "Malcom Floyd"
+  },
+  "W2012:ppr:w07:00-0029664:00-0028995": {
+   "anon_id": "Q0311",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Josh Gordon",
+   "player_b": "Stephen Hill"
+  },
+  "W2012:ppr:w05:00-0027681:00-0027685": {
+   "anon_id": "Q0365",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon LaFell",
+   "player_b": "Emmanuel Sanders"
+  },
+  "W2012:ppr:w11:00-0029141:00-0028011": {
+   "anon_id": "Q0071",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Alfred Morris",
+   "player_b": "Stevan Ridley"
+  },
+  "W2012:ppr:w16:00-0027685:00-0026314": {
+   "anon_id": "Q0076",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Emmanuel Sanders",
+   "player_b": "Josh Morgan"
+  },
+  "W2012:ppr:w11:00-0025418:00-0024221": {
+   "anon_id": "Q0359",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Greg Olsen",
+   "player_b": "Vernon Davis"
+  },
+  "W2012:ppr:w07:00-0027656:00-0026996": {
+   "anon_id": "Q0338",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Rob Gronkowski",
+   "player_b": "Brandon Pettigrew"
+  },
+  "W2012:ppr:w13:00-0029608:00-0026345": {
+   "anon_id": "Q0090",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "T.Y. Hilton",
+   "player_b": "Pierre Garcon"
+  },
+  "W2012:ppr:w05:00-0025860:00-0029239": {
+   "anon_id": "Q0190",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "BenJarvus Green-Ellis",
+   "player_b": "Brandon Bolden"
+  },
+  "W2012:ppr:w08:00-0023662:00-0007091": {
+   "anon_id": "Q0374",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Matt Cassel",
+   "player_b": "Matt Hasselbeck"
+  },
+  "W2012:ppr:w13:00-0026995:00-0029664": {
+   "anon_id": "Q0128",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Jeremy Maclin",
+   "player_b": "Josh Gordon"
+  },
+  "W2012:ppr:w14:00-0027702:00-0022084": {
+   "anon_id": "Q0011",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Mike Williams",
+   "player_b": "Anquan Boldin"
+  },
+  "W2012:ppr:w10:00-0029632:00-0026182": {
+   "anon_id": "Q0250",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Mohamed Sanu",
+   "player_b": "Eddie Royal"
+  },
+  "W2012:ppr:w05:00-0027725:00-0026298": {
+   "anon_id": "Q0066",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Clay Harbor",
+   "player_b": "Kellen Davis"
+  },
+  "W2012:ppr:w11:00-0029137:00-0026235": {
+   "anon_id": "Q0333",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Alshon Jeffery",
+   "player_b": "Mario Manningham"
+  },
+  "W2012:ppr:w07:00-0025465:00-0026364": {
+   "anon_id": "Q0275",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "James Jones",
+   "player_b": "Steve Johnson"
+  },
+  "W2012:ppr:w12:00-0024217:00-0027995": {
+   "anon_id": "Q0126",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Reggie Bush",
+   "player_b": "Mikel Leshoure"
+  },
+  "W2012:ppr:w14:00-0025389:00-0027942": {
+   "anon_id": "Q0152",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Calvin Johnson",
+   "player_b": "A.J. Green"
+  },
+  "W2012:ppr:w07:00-0026937:00-0027150": {
+   "anon_id": "Q0156",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Brandon Gibson",
+   "player_b": "Julian Edelman"
+  },
+  "W2012:ppr:w12:00-0029209:00-0027651": {
+   "anon_id": "Q0042",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Ryan Broyles",
+   "player_b": "Dexter McCluster"
+  },
+  "W2012:ppr:w16:00-0029263:00-0022787": {
+   "anon_id": "Q0033",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Russell Wilson",
+   "player_b": "Matt Schaub"
+  },
+  "W2012:ppr:w15:00-0027006:00-0027793": {
+   "anon_id": "Q0155",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kenny Britt",
+   "player_b": "Antonio Brown"
+  },
+  "W2012:ppr:w08:00-0025637:00-0026144": {
+   "anon_id": "Q0268",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Ahmad Bradshaw",
+   "player_b": "Darren McFadden"
+  },
+  "W2012:ppr:w09:00-0026298:00-0022165": {
+   "anon_id": "Q0118",
+   "family": "weekly_h2h",
+   "outcome": 0,
+   "player_a": "Kellen Davis",
+   "player_b": "Dallas Clark"
+  },
+  "W2012:ppr:w09:00-0023462:00-0027077": {
+   "anon_id": "Q0046",
+   "family": "weekly_h2h",
+   "outcome": 1,
+   "player_a": "Roddy White",
+   "player_b": "Brian Hartline"
+  }
+ }
+}

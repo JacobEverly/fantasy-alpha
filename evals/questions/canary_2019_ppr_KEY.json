@@ -1,0 +1,442 @@
+{
+ "benchmark": "breakoutbench_canary_v1",
+ "season": 2019,
+ "format": "ppr",
+ "n_pairs": 4,
+ "n_swapped_pairs": 2,
+ "swapped_candidate_frac": 0.0741,
+ "questions": {
+  "B0004": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Nyheim Hines",
+   "outcome": 0,
+   "packet_owner": "Nyheim Hines",
+   "packet_outcome": 0
+  },
+  "B0010": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Sam Darnold",
+   "outcome": 0,
+   "packet_owner": "Sam Darnold",
+   "packet_outcome": 0
+  },
+  "B0012": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Jaylen Samuels",
+   "outcome": 0,
+   "packet_owner": "Jaylen Samuels",
+   "packet_outcome": 0
+  },
+  "B0014": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Carlos Hyde",
+   "outcome": 0,
+   "packet_owner": "Carlos Hyde",
+   "packet_outcome": 0
+  },
+  "B0017": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Marvin Jones Jr.",
+   "outcome": 0,
+   "packet_owner": "Marvin Jones Jr.",
+   "packet_outcome": 0
+  },
+  "B0023": {
+   "arm": "control",
+   "pair_id": 1,
+   "player": "Corey Davis",
+   "outcome": 0,
+   "packet_owner": "Corey Davis",
+   "packet_outcome": 0
+  },
+  "B0024": {
+   "arm": "swapped",
+   "pair_id": 0,
+   "player": "John Brown",
+   "outcome": 1,
+   "packet_owner": "Anthony Miller",
+   "packet_outcome": 0
+  },
+  "B0027": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Larry Fitzgerald",
+   "outcome": 0,
+   "packet_owner": "Larry Fitzgerald",
+   "packet_outcome": 0
+  },
+  "B0028": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Justice Hill",
+   "outcome": 0,
+   "packet_owner": "Justice Hill",
+   "packet_outcome": 0
+  },
+  "B0032": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Justin Jackson",
+   "outcome": 0,
+   "packet_owner": "Justin Jackson",
+   "packet_outcome": 0
+  },
+  "B0034": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Dare Ogunbowale",
+   "outcome": 0,
+   "packet_owner": "Dare Ogunbowale",
+   "packet_outcome": 0
+  },
+  "B0036": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Jordan Howard",
+   "outcome": 0,
+   "packet_owner": "Jordan Howard",
+   "packet_outcome": 0
+  },
+  "B0040": {
+   "arm": "control",
+   "pair_id": 1,
+   "player": "Michael Gallup",
+   "outcome": 1,
+   "packet_owner": "Michael Gallup",
+   "packet_outcome": 1
+  },
+  "B0042": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Mohamed Sanu",
+   "outcome": 0,
+   "packet_owner": "Mohamed Sanu",
+   "packet_outcome": 0
+  },
+  "B0043": {
+   "arm": "swapped",
+   "pair_id": 2,
+   "player": "Jamison Crowder",
+   "outcome": 0,
+   "packet_owner": "Courtland Sutton",
+   "packet_outcome": 1
+  },
+  "B0046": {
+   "arm": "swapped",
+   "pair_id": 2,
+   "player": "Courtland Sutton",
+   "outcome": 1,
+   "packet_owner": "Jamison Crowder",
+   "packet_outcome": 0
+  },
+  "B0047": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "DK Metcalf",
+   "outcome": 0,
+   "packet_owner": "DK Metcalf",
+   "packet_outcome": 0
+  },
+  "B0051": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Ronald Jones",
+   "outcome": 0,
+   "packet_owner": "Ronald Jones",
+   "packet_outcome": 0
+  },
+  "B0057": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Malcolm Brown",
+   "outcome": 0,
+   "packet_owner": "Malcolm Brown",
+   "packet_outcome": 0
+  },
+  "B0058": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "James Washington",
+   "outcome": 0,
+   "packet_owner": "James Washington",
+   "packet_outcome": 0
+  },
+  "B0063": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Donte Moncrief",
+   "outcome": 0,
+   "packet_owner": "Donte Moncrief",
+   "packet_outcome": 0
+  },
+  "B0065": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Adam Humphries",
+   "outcome": 0,
+   "packet_owner": "Adam Humphries",
+   "packet_outcome": 0
+  },
+  "B0071": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "N'Keal Harry",
+   "outcome": 0,
+   "packet_owner": "N'Keal Harry",
+   "packet_outcome": 0
+  },
+  "B0073": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Demaryius Thomas",
+   "outcome": 0,
+   "packet_owner": "Demaryius Thomas",
+   "packet_outcome": 0
+  },
+  "B0081": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Kareem Hunt",
+   "outcome": 0,
+   "packet_owner": "Kareem Hunt",
+   "packet_outcome": 0
+  },
+  "B0082": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Dante Pettis",
+   "outcome": 0,
+   "packet_owner": "Dante Pettis",
+   "packet_outcome": 0
+  },
+  "B0083": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Royce Freeman",
+   "outcome": 0,
+   "packet_owner": "Royce Freeman",
+   "packet_outcome": 0
+  },
+  "B0090": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Rashaad Penny",
+   "outcome": 0,
+   "packet_owner": "Rashaad Penny",
+   "packet_outcome": 0
+  },
+  "B0093": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Marquise Goodwin",
+   "outcome": 0,
+   "packet_owner": "Marquise Goodwin",
+   "packet_outcome": 0
+  },
+  "B0094": {
+   "arm": "control",
+   "pair_id": 3,
+   "player": "Mitchell Trubisky",
+   "outcome": 0,
+   "packet_owner": "Mitchell Trubisky",
+   "packet_outcome": 0
+  },
+  "B0095": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Matthew Stafford",
+   "outcome": 0,
+   "packet_owner": "Matthew Stafford",
+   "packet_outcome": 0
+  },
+  "B0100": {
+   "arm": "swapped",
+   "pair_id": 0,
+   "player": "Anthony Miller",
+   "outcome": 0,
+   "packet_owner": "John Brown",
+   "packet_outcome": 1
+  },
+  "B0103": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Keke Coutee",
+   "outcome": 0,
+   "packet_owner": "Keke Coutee",
+   "packet_outcome": 0
+  },
+  "B0105": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Damien Harris",
+   "outcome": 0,
+   "packet_owner": "Damien Harris",
+   "packet_outcome": 0
+  },
+  "B0106": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Golden Tate",
+   "outcome": 0,
+   "packet_owner": "Golden Tate",
+   "packet_outcome": 0
+  },
+  "B0109": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Kenny Stills",
+   "outcome": 0,
+   "packet_owner": "Kenny Stills",
+   "packet_outcome": 0
+  },
+  "B0116": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Frank Gore",
+   "outcome": 0,
+   "packet_owner": "Frank Gore",
+   "packet_outcome": 0
+  },
+  "B0128": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Peyton Barber",
+   "outcome": 0,
+   "packet_owner": "Peyton Barber",
+   "packet_outcome": 0
+  },
+  "B0132": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Cole Beasley",
+   "outcome": 0,
+   "packet_owner": "Cole Beasley",
+   "packet_outcome": 0
+  },
+  "B0135": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Tyrell Williams",
+   "outcome": 0,
+   "packet_owner": "Tyrell Williams",
+   "packet_outcome": 0
+  },
+  "B0142": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Jimmy Garoppolo",
+   "outcome": 0,
+   "packet_owner": "Jimmy Garoppolo",
+   "packet_outcome": 0
+  },
+  "B0144": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Tre'Quan Smith",
+   "outcome": 0,
+   "packet_owner": "Tre'Quan Smith",
+   "packet_outcome": 0
+  },
+  "B0145": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Mecole Hardman Jr.",
+   "outcome": 0,
+   "packet_owner": "Mecole Hardman Jr.",
+   "packet_outcome": 0
+  },
+  "B0147": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Kalen Ballage",
+   "outcome": 0,
+   "packet_owner": "Kalen Ballage",
+   "packet_outcome": 0
+  },
+  "B0148": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Deebo Samuel Sr.",
+   "outcome": 0,
+   "packet_owner": "Deebo Samuel Sr.",
+   "packet_outcome": 0
+  },
+  "B0149": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Jordan Reed",
+   "outcome": 0,
+   "packet_owner": "Jordan Reed",
+   "packet_outcome": 0
+  },
+  "B0150": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "DeSean Jackson",
+   "outcome": 0,
+   "packet_owner": "DeSean Jackson",
+   "packet_outcome": 0
+  },
+  "B0152": {
+   "arm": "control",
+   "pair_id": 3,
+   "player": "Josh Allen",
+   "outcome": 1,
+   "packet_owner": "Josh Allen",
+   "packet_outcome": 1
+  },
+  "B0155": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Ito Smith",
+   "outcome": 0,
+   "packet_owner": "Ito Smith",
+   "packet_outcome": 0
+  },
+  "B0158": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Dion Lewis",
+   "outcome": 0,
+   "packet_owner": "Dion Lewis",
+   "packet_outcome": 0
+  },
+  "B0160": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Alexander Mattison",
+   "outcome": 0,
+   "packet_owner": "Alexander Mattison",
+   "packet_outcome": 0
+  },
+  "B0167": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Ty Montgomery II",
+   "outcome": 0,
+   "packet_owner": "Ty Montgomery II",
+   "packet_outcome": 0
+  },
+  "B0169": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Adrian Peterson",
+   "outcome": 0,
+   "packet_owner": "Adrian Peterson",
+   "packet_outcome": 0
+  },
+  "B0178": {
+   "arm": "unpaired",
+   "pair_id": null,
+   "player": "Derek Carr",
+   "outcome": 0,
+   "packet_owner": "Derek Carr",
+   "packet_outcome": 0
+  }
+ }
+}

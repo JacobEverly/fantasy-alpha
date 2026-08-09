@@ -1,0 +1,334 @@
+[
+ {
+  "question_id": "B0003",
+  "p": 0.514
+ },
+ {
+  "question_id": "B0007",
+  "p": 0.371
+ },
+ {
+  "question_id": "B0008",
+  "p": 0.522
+ },
+ {
+  "question_id": "B0011",
+  "p": 0.523
+ },
+ {
+  "question_id": "B0013",
+  "p": 0.273
+ },
+ {
+  "question_id": "B0020",
+  "p": 0.56
+ },
+ {
+  "question_id": "B0021",
+  "p": 0.426
+ },
+ {
+  "question_id": "B0022",
+  "p": 0.339
+ },
+ {
+  "question_id": "B0026",
+  "p": 0.426
+ },
+ {
+  "question_id": "B0030",
+  "p": 0.464
+ },
+ {
+  "question_id": "B0033",
+  "p": 0.426
+ },
+ {
+  "question_id": "B0035",
+  "p": 0.263
+ },
+ {
+  "question_id": "B0037",
+  "p": 0.341
+ },
+ {
+  "question_id": "B0038",
+  "p": 0.538
+ },
+ {
+  "question_id": "B0041",
+  "p": 0.291
+ },
+ {
+  "question_id": "B0044",
+  "p": 0.371
+ },
+ {
+  "question_id": "B0049",
+  "p": 0.333
+ },
+ {
+  "question_id": "B0050",
+  "p": 0.29
+ },
+ {
+  "question_id": "B0053",
+  "p": 0.543
+ },
+ {
+  "question_id": "B0055",
+  "p": 0.426
+ },
+ {
+  "question_id": "B0056",
+  "p": 0.33
+ },
+ {
+  "question_id": "B0059",
+  "p": 0.368
+ },
+ {
+  "question_id": "B0061",
+  "p": 0.369
+ },
+ {
+  "question_id": "B0062",
+  "p": 0.31
+ },
+ {
+  "question_id": "B0064",
+  "p": 0.429
+ },
+ {
+  "question_id": "B0068",
+  "p": 0.372
+ },
+ {
+  "question_id": "B0072",
+  "p": 0.543
+ },
+ {
+  "question_id": "B0075",
+  "p": 0.343
+ },
+ {
+  "question_id": "B0076",
+  "p": 0.316
+ },
+ {
+  "question_id": "B0077",
+  "p": 0.357
+ },
+ {
+  "question_id": "B0079",
+  "p": 0.352
+ },
+ {
+  "question_id": "B0080",
+  "p": 0.55
+ },
+ {
+  "question_id": "B0084",
+  "p": 0.368
+ },
+ {
+  "question_id": "B0085",
+  "p": 0.61
+ },
+ {
+  "question_id": "B0087",
+  "p": 0.364
+ },
+ {
+  "question_id": "B0088",
+  "p": 0.398
+ },
+ {
+  "question_id": "B0096",
+  "p": 0.383
+ },
+ {
+  "question_id": "B0097",
+  "p": 0.295
+ },
+ {
+  "question_id": "B0098",
+  "p": 0.357
+ },
+ {
+  "question_id": "B0099",
+  "p": 0.383
+ },
+ {
+  "question_id": "B0101",
+  "p": 0.361
+ },
+ {
+  "question_id": "B0102",
+  "p": 0.534
+ },
+ {
+  "question_id": "B0107",
+  "p": 0.466
+ },
+ {
+  "question_id": "B0110",
+  "p": 0.417
+ },
+ {
+  "question_id": "B0111",
+  "p": 0.336
+ },
+ {
+  "question_id": "B0113",
+  "p": 0.322
+ },
+ {
+  "question_id": "B0115",
+  "p": 0.286
+ },
+ {
+  "question_id": "B0117",
+  "p": 0.288
+ },
+ {
+  "question_id": "B0118",
+  "p": 0.533
+ },
+ {
+  "question_id": "B0119",
+  "p": 0.368
+ },
+ {
+  "question_id": "B0121",
+  "p": 0.28
+ },
+ {
+  "question_id": "B0124",
+  "p": 0.313
+ },
+ {
+  "question_id": "B0125",
+  "p": 0.307
+ },
+ {
+  "question_id": "B0130",
+  "p": 0.504
+ },
+ {
+  "question_id": "B0131",
+  "p": 0.293
+ },
+ {
+  "question_id": "B0133",
+  "p": 0.426
+ },
+ {
+  "question_id": "B0138",
+  "p": 0.376
+ },
+ {
+  "question_id": "B0139",
+  "p": 0.543
+ },
+ {
+  "question_id": "B0140",
+  "p": 0.361
+ },
+ {
+  "question_id": "B0141",
+  "p": 0.294
+ },
+ {
+  "question_id": "B0146",
+  "p": 0.338
+ },
+ {
+  "question_id": "B0153",
+  "p": 0.36
+ },
+ {
+  "question_id": "B0156",
+  "p": 0.523
+ },
+ {
+  "question_id": "B0157",
+  "p": 0.329
+ },
+ {
+  "question_id": "B0159",
+  "p": 0.619
+ },
+ {
+  "question_id": "B0161",
+  "p": 0.359
+ },
+ {
+  "question_id": "B0162",
+  "p": 0.286
+ },
+ {
+  "question_id": "B0163",
+  "p": 0.571
+ },
+ {
+  "question_id": "B0164",
+  "p": 0.375
+ },
+ {
+  "question_id": "B0165",
+  "p": 0.256
+ },
+ {
+  "question_id": "B0166",
+  "p": 0.353
+ },
+ {
+  "question_id": "B0168",
+  "p": 0.362
+ },
+ {
+  "question_id": "B0171",
+  "p": 0.543
+ },
+ {
+  "question_id": "B0172",
+  "p": 0.362
+ },
+ {
+  "question_id": "B0174",
+  "p": 0.35
+ },
+ {
+  "question_id": "B0175",
+  "p": 0.316
+ },
+ {
+  "question_id": "B0177",
+  "p": 0.614
+ },
+ {
+  "question_id": "B0179",
+  "p": 0.492
+ },
+ {
+  "question_id": "B0180",
+  "p": 0.484
+ },
+ {
+  "question_id": "B0181",
+  "p": 0.426
+ },
+ {
+  "question_id": "B0182",
+  "p": 0.353
+ },
+ {
+  "question_id": "B0183",
+  "p": 0.556
+ },
+ {
+  "question_id": "B0184",
+  "p": 0.306
+ }
+]

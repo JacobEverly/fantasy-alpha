@@ -1,0 +1,29 @@
+# Benchmark landscape — fantasy football prediction (researched 2026-08-08)
+
+**Verdict: no purpose-built fantasy football benchmark for AI systems exists.** Nuances: (1) FantasyPros' expert accuracy competition is a replicable de facto benchmark; (2) FantasyFootballAnalytics publishes MAE/R²/bias ladders for projection sources; (3) the LLM forecasting world (ForecastBench, Metaculus, FutureX, LLM-SoccerArena, KellyBench) has solved the benchmark-design problems but never touched NFL fantasy. Nobody has combined them. Adopted pieces live in `docs/breakoutbench-design.md` §8.
+
+## Industry accuracy evaluations
+
+- **FantasyPros Expert Accuracy Competition** — ~212 experts (2025 draft contest). Draft methodology ([FAQ](https://www.fantasypros.com/about/faq/football-draft-accuracy-methodology/)): rankings frozen at season start (half-PPR); pool per position = ECR-top-N ∪ actual-top-N (N=25 QB, 50 RB/WR — forces breakouts AND busts into scope); each rank slot converts to points via rolling 3-yr slot averages; **Accuracy Gap = |slot-projected − actual|**, positionally weighted 1.0→0.5, K/DST excluded. In-season ([FAQ](https://www.fantasypros.com/about/faq/football-inseason-accuracy-methodology/)): Thursday/Sunday snapshots, pools QB20/RB40/WR50/TE15, weekly gaps z-scored across the field, worst week dropped. Winners: [2025 draft — Seth Miller](https://www.fantasypros.com/2026/07/2025s-most-accurate-fantasy-football-draft-rankings/); [2025 in-season — Justin Boone](https://www.fantasypros.com/2026/01/2025-fantasy-football-rankings-most-accurate-experts/); raw scores at [fantasypros.com/nfl/accuracy](https://www.fantasypros.com/nfl/accuracy/). **No LLM has ever entered.**
+- **FantasyFootballAnalytics** — recurring projection-source studies ([methodology](https://fantasyfootballanalytics.net/which-projections-are-most-accurate)): MAE/R²/Mean Error, older studies used MASE vs naive. Reference: best-source season MAE ≈ QB 61 / RB 52 / WR 40 / TE 31. Decade-replicated finding: **consensus beats nearly every individual source** ([2024 study](https://fantasyfootballanalytics.net/2024/12/which-fantasy-football-projections-are-most-accurate.html)). Bias: systematic over-projection of top players; QB over-projection ~+46.5 pts/season 2023–25 ([bias study](https://fantasyfootballanalytics.net/2025/07/fantasy-football-projections-exploring-positional-bias-in-projections.html)).
+- **ADP market efficiency**: Sharp Football ADP-vs-output correlations by position/year ([RB](https://www.sharpfootballanalysis.com/fantasy/running-back-adp/)); ETR's Best Ball Mania closing-line-value study — top-10% drafters gain ~116 picks of ADP value, bottom 10% lose ~212 ([link](https://establishtherun.com/the-power-of-the-market-in-best-ball-mania/)).
+
+## Academic
+
+- **IBM Watson × ESPN** ([arXiv:2111.02874](https://arxiv.org/abs/2111.02874)) — boom/bust/hidden-injury/meaningful-touches classification from 2.3M docs/day + stats: **72% cumulative accuracy; weekly points RMSE 6.78** (top-500, trained 2015-16, tested 2017). The published comparable to beat.
+- **OpenFPL** ([arXiv:2508.09992](https://arxiv.org/abs/2508.09992)) — soccer FPL, position-specific ensembles, **prospective held-out-future-season testing vs a commercial comparator**. The design template.
+- NBA forecast-efficiency ([J. Econ & Finance 2023](https://link.springer.com/article/10.1007/s12197-023-09646-7)) — professional projections only moderately beat naive and are Mincer-Zarnowitz inefficient; no NFL fantasy equivalent published.
+- Skill-vs-luck: Getty et al., SIAM Review 2018 ([link](https://epubs.siam.org/doi/10.1137/16M1102094)) — fantasy is skill-dominant but noisy → need many scored decisions for power. Also: [SMU top-12 hit-rate framing](https://scholar.smu.edu/cgi/viewcontent.cgi?article=1279&context=datasciencereview), Lutz 2015 ([arXiv:1505.06918](https://arxiv.org/abs/1505.06918)).
+
+## Competitions
+
+No Kaggle fantasy competition ever. NFL Big Data Bowl 2020 (rushing-yards distributions, **CRPS scoring**, 2,038 teams) is the relevant precedent ([recaps](https://operations.nfl.com/gameday/analytics/big-data-bowl/past-big-data-bowl-recaps/)); March ML Mania (log-loss/Brier on future games) is the prospective template.
+
+## LLM forecasting benchmarks (templates)
+
+- **ForecastBench** ([site](https://www.forecastbench.org/docs/)) — contamination-free by construction (future questions only), Brier + 2026 difficulty-adjusted Brier; superforecasters 0.096 vs top LLM ~0.122 at launch, gap narrowing ([FRI](https://forecastingresearch.substack.com/p/ai-llm-forecasting-model-forecastbench-benchmark)).
+- **Metaculus FutureEval** ([methodology](https://www.metaculus.com/futureeval/methodology/)) — head-to-head spot peer scores + significance; Pros still beat top bots every quarter; **base model quality > scaffolding**.
+- **FutureX** ([arXiv:2508.11987](https://arxiv.org/abs/2508.11987)) — live daily agent benchmark on future events incl. sports.
+- **LLM-SoccerArena** ([arXiv:2607.24573](https://arxiv.org/html/2607.24573)) — prospective soccer forecasting; **baseline = de-vigged bookmaker closing odds**; best LLM Brier 0.497 vs market 0.498; web access improves Brier 4.3%.
+- **KellyBench** ([arXiv:2604.27865](https://arxiv.org/abs/2604.27865)) — sequential betting decisions: all frontier models lose money; knowing theory ≠ executing it. Precedent for our Track 2 (sequential decision quality = DraftGym).
+- **LLMs on fantasy specifically: nothing purpose-built exists.** Closest: FanCric (fantasy cricket, [arXiv:2410.01307](https://arxiv.org/abs/2410.01307)); **Amazon/NFL production assistant evaluated only by analyst agreement (>90% on 10k+ queries), no outcome accuracy** ([Amazon Science](https://www.amazon.science/publications/encoding-domain-expertise-in-agents-lessons-from-nfl-fantasy-ai)) — outcome accuracy is the open flank.

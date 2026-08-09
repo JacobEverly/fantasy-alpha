@@ -1,0 +1,9209 @@
+{
+ "benchmark": "calibbench_v0",
+ "variant": "anonymized",
+ "season_masked": true,
+ "format": "ppr",
+ "families": {
+  "season_threshold": 146,
+  "weekly_h2h": 300
+ },
+ "instructions": "For each question, return the probability the answer is YES. Respond with a JSON list [{\"question_id\": ..., \"p\": <0..1>}] covering every question.",
+ "questions": [
+  {
+   "question_id": "Q0000",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 26.3,
+     "ppg": 6.58
+    },
+    "b": {
+     "games": 3,
+     "total": 16.8,
+     "ppg": 5.6
+    }
+   }
+  },
+  {
+   "question_id": "Q0001",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 9,
+     "total": 68.7,
+     "ppg": 7.63
+    },
+    "b": {
+     "games": 10,
+     "total": 80.1,
+     "ppg": 8.01
+    }
+   }
+  },
+  {
+   "question_id": "Q0002",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "TE",
+    "week": 16,
+    "a": {
+     "games": 11,
+     "total": 121.3,
+     "ppg": 11.03
+    },
+    "b": {
+     "games": 14,
+     "total": 148.0,
+     "ppg": 10.57
+    }
+   }
+  },
+  {
+   "question_id": "Q0003",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 10.1,
+    "adp_pos_rank": 7,
+    "adp_stdev": 1.8,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 287.9,
+     "ppg": 17.99,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 6,
+     "total": 99.6,
+     "ppg": 16.6,
+     "pos_rank": 49
+    }
+   }
+  },
+  {
+   "question_id": "Q0004",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 4.3,
+    "adp_pos_rank": 4,
+    "adp_stdev": 1.4,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 8,
+     "total": 193.3,
+     "ppg": 24.16,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 333.1,
+     "ppg": 20.82,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "Q0005",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 180.5,
+     "ppg": 13.88
+    },
+    "b": {
+     "games": 14,
+     "total": 189.2,
+     "ppg": 13.51
+    }
+   }
+  },
+  {
+   "question_id": "Q0006",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "QB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 231.54,
+     "ppg": 17.81
+    },
+    "b": {
+     "games": 11,
+     "total": 202.46,
+     "ppg": 18.41
+    }
+   }
+  },
+  {
+   "question_id": "Q0007",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "RB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 249.4,
+     "ppg": 17.81
+    },
+    "b": {
+     "games": 14,
+     "total": 225.5,
+     "ppg": 16.11
+    }
+   }
+  },
+  {
+   "question_id": "Q0008",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 38.0,
+    "adp_pos_rank": 15,
+    "adp_stdev": 3.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 17,
+     "total": 213.5,
+     "ppg": 12.56,
+     "pos_rank": 25
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 223.8,
+     "ppg": 14.92,
+     "pos_rank": 21
+    }
+   }
+  },
+  {
+   "question_id": "Q0009",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 39.8,
+     "ppg": 6.63
+    },
+    "b": {
+     "games": 4,
+     "total": 31.4,
+     "ppg": 7.85
+    }
+   }
+  },
+  {
+   "question_id": "Q0010",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 57.1,
+     "ppg": 8.16
+    },
+    "b": {
+     "games": 6,
+     "total": 51.8,
+     "ppg": 8.63
+    }
+   }
+  },
+  {
+   "question_id": "Q0011",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 52.5,
+     "ppg": 13.12
+    },
+    "b": {
+     "games": 4,
+     "total": 47.0,
+     "ppg": 11.75
+    }
+   }
+  },
+  {
+   "question_id": "Q0012",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 118.1,
+    "adp_pos_rank": 46,
+    "adp_stdev": 9.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0013",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 118.2,
+    "adp_pos_rank": 47,
+    "adp_stdev": 9.7,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 9,
+     "total": 91.5,
+     "ppg": 10.17,
+     "pos_rank": 77
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 173.3,
+     "ppg": 10.83,
+     "pos_rank": 38
+    }
+   }
+  },
+  {
+   "question_id": "Q0014",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 7,
+     "total": 56.8,
+     "ppg": 8.11
+    },
+    "b": {
+     "games": 9,
+     "total": 69.0,
+     "ppg": 7.67
+    }
+   }
+  },
+  {
+   "question_id": "Q0015",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 12,
+     "total": 108.8,
+     "ppg": 9.07
+    },
+    "b": {
+     "games": 11,
+     "total": 111.26,
+     "ppg": 10.11
+    }
+   }
+  },
+  {
+   "question_id": "Q0016",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 10,
+     "total": 145.3,
+     "ppg": 14.53
+    },
+    "b": {
+     "games": 12,
+     "total": 202.4,
+     "ppg": 16.87
+    }
+   }
+  },
+  {
+   "question_id": "Q0017",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 90.0,
+    "adp_pos_rank": 39,
+    "adp_stdev": 6.1,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 170.3,
+     "ppg": 10.02,
+     "pos_rank": 35
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 184.5,
+     "ppg": 15.38,
+     "pos_rank": 35
+    }
+   }
+  },
+  {
+   "question_id": "Q0018",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 123.3,
+    "adp_pos_rank": 51,
+    "adp_stdev": 9.6,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0019",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "RB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 234.4,
+     "ppg": 16.74
+    },
+    "b": {
+     "games": 14,
+     "total": 232.9,
+     "ppg": 16.64
+    }
+   }
+  },
+  {
+   "question_id": "Q0020",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 118.0,
+    "adp_pos_rank": 49,
+    "adp_stdev": 9.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0021",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 7,
+     "total": 73.72,
+     "ppg": 10.53
+    },
+    "b": {
+     "games": 9,
+     "total": 110.78,
+     "ppg": 12.31
+    }
+   }
+  },
+  {
+   "question_id": "Q0022",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 24.9,
+    "adp_pos_rank": 9,
+    "adp_stdev": 3.2,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 238.6,
+     "ppg": 14.04,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 98.9,
+     "ppg": 7.61,
+     "pos_rank": 78
+    }
+   }
+  },
+  {
+   "question_id": "Q0023",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 138.8,
+     "ppg": 13.88
+    },
+    "b": {
+     "games": 10,
+     "total": 145.0,
+     "ppg": 14.5
+    }
+   }
+  },
+  {
+   "question_id": "Q0024",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "QB",
+    "week": 7,
+    "a": {
+     "games": 3,
+     "total": 37.14,
+     "ppg": 12.38
+    },
+    "b": {
+     "games": 6,
+     "total": 90.44,
+     "ppg": 15.07
+    }
+   }
+  },
+  {
+   "question_id": "Q0025",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 194.1,
+     "ppg": 19.41
+    },
+    "b": {
+     "games": 10,
+     "total": 163.4,
+     "ppg": 16.34
+    }
+   }
+  },
+  {
+   "question_id": "Q0026",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 33.1,
+     "ppg": 8.28
+    },
+    "b": {
+     "games": 3,
+     "total": 27.8,
+     "ppg": 9.27
+    }
+   }
+  },
+  {
+   "question_id": "Q0027",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "TE",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 144.0,
+     "ppg": 12.0
+    },
+    "b": {
+     "games": 9,
+     "total": 96.8,
+     "ppg": 10.76
+    }
+   }
+  },
+  {
+   "question_id": "Q0028",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 11,
+     "total": 93.3,
+     "ppg": 8.48
+    },
+    "b": {
+     "games": 13,
+     "total": 124.3,
+     "ppg": 9.56
+    }
+   }
+  },
+  {
+   "question_id": "Q0029",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "QB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 190.52,
+     "ppg": 27.22
+    },
+    "b": {
+     "games": 8,
+     "total": 178.7,
+     "ppg": 22.34
+    }
+   }
+  },
+  {
+   "question_id": "Q0030",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 45.3,
+    "adp_pos_rank": 18,
+    "adp_stdev": 5.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 150.24,
+     "ppg": 8.84,
+     "pos_rank": 44
+    },
+    "two_seasons_ago": {
+     "games": 1,
+     "total": 9.6,
+     "ppg": 9.6,
+     "pos_rank": 178
+    }
+   }
+  },
+  {
+   "question_id": "Q0031",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "QB",
+    "week": 13,
+    "a": {
+     "games": 12,
+     "total": 173.58,
+     "ppg": 14.47
+    },
+    "b": {
+     "games": 9,
+     "total": 128.22,
+     "ppg": 14.25
+    }
+   }
+  },
+  {
+   "question_id": "Q0032",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 61.7,
+    "adp_pos_rank": 27,
+    "adp_stdev": 5.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 117.2,
+     "ppg": 9.77,
+     "pos_rank": 45
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 170.4,
+     "ppg": 14.2,
+     "pos_rank": 23
+    }
+   }
+  },
+  {
+   "question_id": "Q0033",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 69.6,
+    "adp_pos_rank": 30,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 12,
+     "total": 143.3,
+     "ppg": 11.94,
+     "pos_rank": 34
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 168.0,
+     "ppg": 10.5,
+     "pos_rank": 25
+    }
+   }
+  },
+  {
+   "question_id": "Q0034",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 63.8,
+    "adp_pos_rank": 27,
+    "adp_stdev": 5.3,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 13,
+     "total": 199.8,
+     "ppg": 15.37,
+     "pos_rank": 28
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 254.0,
+     "ppg": 16.93,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "Q0035",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 25.5,
+    "adp_pos_rank": 2,
+    "adp_stdev": 3.8,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 301.1,
+     "ppg": 17.71,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 170.1,
+     "ppg": 12.15,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "Q0036",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 89.5,
+    "adp_pos_rank": 37,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 14,
+     "total": 142.5,
+     "ppg": 10.18,
+     "pos_rank": 47
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 97.8,
+     "ppg": 9.78,
+     "pos_rank": 79
+    }
+   }
+  },
+  {
+   "question_id": "Q0037",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 72.5,
+    "adp_pos_rank": 8,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 10,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 14,
+     "total": 242.82,
+     "ppg": 17.34,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 359.78,
+     "ppg": 22.49,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "Q0038",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 102.5,
+    "adp_pos_rank": 42,
+    "adp_stdev": 8.4,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 9,
+     "total": 137.2,
+     "ppg": 15.24,
+     "pos_rank": 51
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 245.1,
+     "ppg": 15.32,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "Q0039",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "QB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 121.36,
+     "ppg": 17.34
+    },
+    "b": {
+     "games": 8,
+     "total": 155.62,
+     "ppg": 19.45
+    }
+   }
+  },
+  {
+   "question_id": "Q0040",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 35.9,
+    "adp_pos_rank": 14,
+    "adp_stdev": 3.1,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 237.5,
+     "ppg": 13.97,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 211.5,
+     "ppg": 14.1,
+     "pos_rank": 25
+    }
+   }
+  },
+  {
+   "question_id": "Q0041",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 147.9,
+    "adp_pos_rank": 15,
+    "adp_stdev": 17.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 8,
+     "total": 50.4,
+     "ppg": 6.3,
+     "pos_rank": 51
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 176.6,
+     "ppg": 11.77,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "Q0042",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 44.4,
+    "adp_pos_rank": 22,
+    "adp_stdev": 4.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0043",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 16.5,
+    "adp_pos_rank": 1,
+    "adp_stdev": 3.2,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 262.8,
+     "ppg": 16.43,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 312.76,
+     "ppg": 20.85,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "Q0044",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "QB",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 142.74,
+     "ppg": 23.79
+    },
+    "b": {
+     "games": 6,
+     "total": 127.64,
+     "ppg": 21.27
+    }
+   }
+  },
+  {
+   "question_id": "Q0045",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 41.7,
+     "ppg": 8.34
+    },
+    "b": {
+     "games": 5,
+     "total": 36.0,
+     "ppg": 7.2
+    }
+   }
+  },
+  {
+   "question_id": "Q0046",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 11,
+     "total": 203.3,
+     "ppg": 18.48
+    },
+    "b": {
+     "games": 12,
+     "total": 268.5,
+     "ppg": 22.38
+    }
+   }
+  },
+  {
+   "question_id": "Q0047",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 49.7,
+     "ppg": 7.1
+    },
+    "b": {
+     "games": 7,
+     "total": 56.5,
+     "ppg": 8.07
+    }
+   }
+  },
+  {
+   "question_id": "Q0048",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 110.2,
+    "adp_pos_rank": 44,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 11,
+     "total": 127.9,
+     "ppg": 11.63,
+     "pos_rank": 37
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 191.4,
+     "ppg": 11.96,
+     "pos_rank": 17
+    }
+   }
+  },
+  {
+   "question_id": "Q0049",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 52.3,
+    "adp_pos_rank": 21,
+    "adp_stdev": 5.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 11,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0050",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 43.4,
+    "adp_pos_rank": 17,
+    "adp_stdev": 4.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 274.4,
+     "ppg": 17.15,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 223.8,
+     "ppg": 14.92,
+     "pos_rank": 20
+    }
+   }
+  },
+  {
+   "question_id": "Q0051",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "QB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 43.6,
+     "ppg": 10.9
+    },
+    "b": {
+     "games": 4,
+     "total": 52.3,
+     "ppg": 13.07
+    }
+   }
+  },
+  {
+   "question_id": "Q0052",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "QB",
+    "week": 13,
+    "a": {
+     "games": 8,
+     "total": 97.5,
+     "ppg": 12.19
+    },
+    "b": {
+     "games": 8,
+     "total": 92.82,
+     "ppg": 11.6
+    }
+   }
+  },
+  {
+   "question_id": "Q0053",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 29.5,
+    "adp_pos_rank": 11,
+    "adp_stdev": 3.3,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 257.8,
+     "ppg": 16.11,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 245.1,
+     "ppg": 17.51,
+     "pos_rank": 12
+    }
+   }
+  },
+  {
+   "question_id": "Q0054",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 128.9,
+    "adp_pos_rank": 52,
+    "adp_stdev": 11.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 125.9,
+     "ppg": 7.87,
+     "pos_rank": 39
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 86.9,
+     "ppg": 6.68,
+     "pos_rank": 55
+    }
+   }
+  },
+  {
+   "question_id": "Q0055",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 126.2,
+     "ppg": 18.03
+    },
+    "b": {
+     "games": 7,
+     "total": 112.2,
+     "ppg": 16.03
+    }
+   }
+  },
+  {
+   "question_id": "Q0056",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 142.9,
+    "adp_pos_rank": 19,
+    "adp_stdev": 13.4,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 199.04,
+     "ppg": 11.71,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0057",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 111.0,
+     "ppg": 22.2
+    },
+    "b": {
+     "games": 5,
+     "total": 95.2,
+     "ppg": 19.04
+    }
+   }
+  },
+  {
+   "question_id": "Q0058",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 101.9,
+     "ppg": 10.19
+    },
+    "b": {
+     "games": 11,
+     "total": 108.9,
+     "ppg": 9.9
+    }
+   }
+  },
+  {
+   "question_id": "Q0059",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 153.5,
+     "ppg": 15.35
+    },
+    "b": {
+     "games": 8,
+     "total": 112.0,
+     "ppg": 14.0
+    }
+   }
+  },
+  {
+   "question_id": "Q0060",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 51.2,
+     "ppg": 7.31
+    },
+    "b": {
+     "games": 5,
+     "total": 30.4,
+     "ppg": 6.08
+    }
+   }
+  },
+  {
+   "question_id": "Q0061",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 5,
+     "total": 43.3,
+     "ppg": 8.66
+    },
+    "b": {
+     "games": 6,
+     "total": 50.2,
+     "ppg": 8.37
+    }
+   }
+  },
+  {
+   "question_id": "Q0062",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "TE",
+    "week": 7,
+    "a": {
+     "games": 4,
+     "total": 20.9,
+     "ppg": 5.22
+    },
+    "b": {
+     "games": 3,
+     "total": 17.3,
+     "ppg": 5.77
+    }
+   }
+  },
+  {
+   "question_id": "Q0063",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 195.1,
+     "ppg": 15.01
+    },
+    "b": {
+     "games": 12,
+     "total": 216.7,
+     "ppg": 18.06
+    }
+   }
+  },
+  {
+   "question_id": "Q0064",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "TE",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 63.5,
+     "ppg": 12.7
+    },
+    "b": {
+     "games": 5,
+     "total": 62.0,
+     "ppg": 12.4
+    }
+   }
+  },
+  {
+   "question_id": "Q0065",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 111.9,
+    "adp_pos_rank": 45,
+    "adp_stdev": 8.8,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 163.4,
+     "ppg": 13.62,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 130.3,
+     "ppg": 8.69,
+     "pos_rank": 36
+    }
+   }
+  },
+  {
+   "question_id": "Q0066",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 7.5,
+    "adp_pos_rank": 6,
+    "adp_stdev": 1.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 13,
+     "total": 206.3,
+     "ppg": 15.87,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 337.8,
+     "ppg": 24.13,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "Q0067",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 5,
+     "total": 43.4,
+     "ppg": 8.68
+    },
+    "b": {
+     "games": 5,
+     "total": 42.2,
+     "ppg": 8.44
+    }
+   }
+  },
+  {
+   "question_id": "Q0068",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 33.1,
+    "adp_pos_rank": 17,
+    "adp_stdev": 4.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 1,
+     "total": 4.3,
+     "ppg": 4.3,
+     "pos_rank": 133
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 101.8,
+     "ppg": 9.25,
+     "pos_rank": 45
+    }
+   }
+  },
+  {
+   "question_id": "Q0069",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 103.7,
+     "ppg": 11.52
+    },
+    "b": {
+     "games": 9,
+     "total": 128.5,
+     "ppg": 14.28
+    }
+   }
+  },
+  {
+   "question_id": "Q0070",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 28.4,
+    "adp_pos_rank": 16,
+    "adp_stdev": 3.3,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 257.7,
+     "ppg": 17.18,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 164.6,
+     "ppg": 12.66,
+     "pos_rank": 27
+    }
+   }
+  },
+  {
+   "question_id": "Q0071",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "QB",
+    "week": 8,
+    "a": {
+     "games": 4,
+     "total": 60.64,
+     "ppg": 15.16
+    },
+    "b": {
+     "games": 7,
+     "total": 105.08,
+     "ppg": 15.01
+    }
+   }
+  },
+  {
+   "question_id": "Q0072",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 292.7,
+     "ppg": 22.52
+    },
+    "b": {
+     "games": 13,
+     "total": 244.06,
+     "ppg": 18.77
+    }
+   }
+  },
+  {
+   "question_id": "Q0073",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 45.6,
+     "ppg": 11.4
+    },
+    "b": {
+     "games": 4,
+     "total": 50.3,
+     "ppg": 12.57
+    }
+   }
+  },
+  {
+   "question_id": "Q0074",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 85.4,
+    "adp_pos_rank": 35,
+    "adp_stdev": 6.2,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 195.1,
+     "ppg": 12.19,
+     "pos_rank": 20
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 198.4,
+     "ppg": 13.23,
+     "pos_rank": 14
+    }
+   }
+  },
+  {
+   "question_id": "Q0075",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "TE",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 97.1,
+     "ppg": 8.09
+    },
+    "b": {
+     "games": 7,
+     "total": 56.8,
+     "ppg": 8.11
+    }
+   }
+  },
+  {
+   "question_id": "Q0076",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 7,
+     "total": 39.7,
+     "ppg": 5.67
+    },
+    "b": {
+     "games": 5,
+     "total": 29.5,
+     "ppg": 5.9
+    }
+   }
+  },
+  {
+   "question_id": "Q0077",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 154.6,
+     "ppg": 12.88
+    },
+    "b": {
+     "games": 10,
+     "total": 129.8,
+     "ppg": 12.98
+    }
+   }
+  },
+  {
+   "question_id": "Q0078",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 120.2,
+    "adp_pos_rank": 12,
+    "adp_stdev": 17.2,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 12,
+     "total": 145.3,
+     "ppg": 12.11,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 175.3,
+     "ppg": 10.96,
+     "pos_rank": 5
+    }
+   }
+  },
+  {
+   "question_id": "Q0079",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 139.4,
+     "ppg": 13.94
+    },
+    "b": {
+     "games": 9,
+     "total": 120.9,
+     "ppg": 13.43
+    }
+   }
+  },
+  {
+   "question_id": "Q0080",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 93.9,
+    "adp_pos_rank": 39,
+    "adp_stdev": 8.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 116.6,
+     "ppg": 6.86,
+     "pos_rank": 47
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 193.2,
+     "ppg": 12.07,
+     "pos_rank": 15
+    }
+   }
+  },
+  {
+   "question_id": "Q0081",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 6,
+     "total": 84.0,
+     "ppg": 14.0
+    },
+    "b": {
+     "games": 12,
+     "total": 157.5,
+     "ppg": 13.12
+    }
+   }
+  },
+  {
+   "question_id": "Q0082",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 100.7,
+     "ppg": 9.15
+    },
+    "b": {
+     "games": 11,
+     "total": 94.9,
+     "ppg": 8.63
+    }
+   }
+  },
+  {
+   "question_id": "Q0083",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 8,
+     "total": 110.2,
+     "ppg": 13.78
+    },
+    "b": {
+     "games": 7,
+     "total": 102.6,
+     "ppg": 14.66
+    }
+   }
+  },
+  {
+   "question_id": "Q0084",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "QB",
+    "week": 12,
+    "a": {
+     "games": 11,
+     "total": 172.32,
+     "ppg": 15.67
+    },
+    "b": {
+     "games": 5,
+     "total": 63.44,
+     "ppg": 12.69
+    }
+   }
+  },
+  {
+   "question_id": "Q0085",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 11,
+     "total": 73.1,
+     "ppg": 6.65
+    },
+    "b": {
+     "games": 4,
+     "total": 22.8,
+     "ppg": 5.7
+    }
+   }
+  },
+  {
+   "question_id": "Q0086",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 60.5,
+     "ppg": 8.64
+    },
+    "b": {
+     "games": 7,
+     "total": 68.4,
+     "ppg": 9.77
+    }
+   }
+  },
+  {
+   "question_id": "Q0087",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 269.92,
+     "ppg": 20.76
+    },
+    "b": {
+     "games": 14,
+     "total": 350.78,
+     "ppg": 25.06
+    }
+   }
+  },
+  {
+   "question_id": "Q0088",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 21.9,
+    "adp_pos_rank": 14,
+    "adp_stdev": 3.0,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 14,
+     "total": 255.6,
+     "ppg": 18.26,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 132.0,
+     "ppg": 11.0,
+     "pos_rank": 35
+    }
+   }
+  },
+  {
+   "question_id": "Q0089",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 9,
+     "total": 101.6,
+     "ppg": 11.29
+    },
+    "b": {
+     "games": 12,
+     "total": 137.42,
+     "ppg": 11.45
+    }
+   }
+  },
+  {
+   "question_id": "Q0090",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 202.8,
+     "ppg": 16.9
+    },
+    "b": {
+     "games": 12,
+     "total": 202.46,
+     "ppg": 16.87
+    }
+   }
+  },
+  {
+   "question_id": "Q0091",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 123.0,
+    "adp_pos_rank": 49,
+    "adp_stdev": 10.8,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 183.84,
+     "ppg": 11.49,
+     "pos_rank": 31
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 192.64,
+     "ppg": 12.84,
+     "pos_rank": 29
+    }
+   }
+  },
+  {
+   "question_id": "Q0092",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 4,
+     "total": 30.2,
+     "ppg": 7.55
+    },
+    "b": {
+     "games": 4,
+     "total": 26.4,
+     "ppg": 6.6
+    }
+   }
+  },
+  {
+   "question_id": "Q0093",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 212.72,
+     "ppg": 15.19
+    },
+    "b": {
+     "games": 12,
+     "total": 170.8,
+     "ppg": 14.23
+    }
+   }
+  },
+  {
+   "question_id": "Q0094",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 4.6,
+    "adp_pos_rank": 1,
+    "adp_stdev": 1.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 330.4,
+     "ppg": 19.44,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 274.2,
+     "ppg": 17.14,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "Q0095",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 62.9,
+    "adp_pos_rank": 26,
+    "adp_stdev": 7.0,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 125.9,
+     "ppg": 8.39,
+     "pos_rank": 58
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 136.9,
+     "ppg": 8.56,
+     "pos_rank": 57
+    }
+   }
+  },
+  {
+   "question_id": "Q0096",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 98.4,
+     "ppg": 12.3
+    },
+    "b": {
+     "games": 7,
+     "total": 80.1,
+     "ppg": 11.44
+    }
+   }
+  },
+  {
+   "question_id": "Q0097",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 26.3,
+     "ppg": 5.26
+    },
+    "b": {
+     "games": 3,
+     "total": 18.2,
+     "ppg": 6.07
+    }
+   }
+  },
+  {
+   "question_id": "Q0098",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 7,
+     "total": 66.1,
+     "ppg": 9.44
+    },
+    "b": {
+     "games": 10,
+     "total": 94.96,
+     "ppg": 9.5
+    }
+   }
+  },
+  {
+   "question_id": "Q0099",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "QB",
+    "week": 12,
+    "a": {
+     "games": 9,
+     "total": 124.72,
+     "ppg": 13.86
+    },
+    "b": {
+     "games": 10,
+     "total": 165.2,
+     "ppg": 16.52
+    }
+   }
+  },
+  {
+   "question_id": "Q0100",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 31.2,
+    "adp_pos_rank": 3,
+    "adp_stdev": 4.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 176.6,
+     "ppg": 10.39,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0101",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 61.1,
+     "ppg": 8.73
+    },
+    "b": {
+     "games": 5,
+     "total": 36.6,
+     "ppg": 7.32
+    }
+   }
+  },
+  {
+   "question_id": "Q0102",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 46.1,
+    "adp_pos_rank": 4,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 314.24,
+     "ppg": 19.64,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 173.72,
+     "ppg": 17.37,
+     "pos_rank": 25
+    }
+   }
+  },
+  {
+   "question_id": "Q0103",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 3,
+     "total": 29.5,
+     "ppg": 9.83
+    },
+    "b": {
+     "games": 8,
+     "total": 78.6,
+     "ppg": 9.82
+    }
+   }
+  },
+  {
+   "question_id": "Q0104",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "TE",
+    "week": 11,
+    "a": {
+     "games": 10,
+     "total": 81.3,
+     "ppg": 8.13
+    },
+    "b": {
+     "games": 9,
+     "total": 80.3,
+     "ppg": 8.92
+    }
+   }
+  },
+  {
+   "question_id": "Q0105",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 42.4,
+    "adp_pos_rank": 21,
+    "adp_stdev": 5.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 11,
+     "total": 165.0,
+     "ppg": 15.0,
+     "pos_rank": 26
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0106",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 61.7,
+    "adp_pos_rank": 25,
+    "adp_stdev": 6.0,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 10,
+     "total": 85.0,
+     "ppg": 8.5,
+     "pos_rank": 84
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 157.6,
+     "ppg": 9.85,
+     "pos_rank": 45
+    }
+   }
+  },
+  {
+   "question_id": "Q0107",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 129.0,
+    "adp_pos_rank": 51,
+    "adp_stdev": 10.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 11,
+     "total": 87.0,
+     "ppg": 7.91,
+     "pos_rank": 82
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 137.3,
+     "ppg": 9.81,
+     "pos_rank": 55
+    }
+   }
+  },
+  {
+   "question_id": "Q0108",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 3,
+     "total": 22.5,
+     "ppg": 7.5
+    },
+    "b": {
+     "games": 6,
+     "total": 47.4,
+     "ppg": 7.9
+    }
+   }
+  },
+  {
+   "question_id": "Q0109",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 25.0,
+     "ppg": 6.25
+    },
+    "b": {
+     "games": 4,
+     "total": 26.3,
+     "ppg": 6.58
+    }
+   }
+  },
+  {
+   "question_id": "Q0110",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 2.4,
+    "adp_pos_rank": 2,
+    "adp_stdev": 0.9,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 7,
+     "total": 127.5,
+     "ppg": 18.21,
+     "pos_rank": 38
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 90.4,
+     "ppg": 30.13,
+     "pos_rank": 54
+    }
+   }
+  },
+  {
+   "question_id": "Q0111",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "RB",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 138.0,
+     "ppg": 23.0
+    },
+    "b": {
+     "games": 6,
+     "total": 124.1,
+     "ppg": 20.68
+    }
+   }
+  },
+  {
+   "question_id": "Q0112",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 121.2,
+    "adp_pos_rank": 16,
+    "adp_stdev": 10.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 13,
+     "total": 180.92,
+     "ppg": 13.92,
+     "pos_rank": 25
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 135.46,
+     "ppg": 13.55,
+     "pos_rank": 31
+    }
+   }
+  },
+  {
+   "question_id": "Q0113",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "RB",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 85.6,
+     "ppg": 14.27
+    },
+    "b": {
+     "games": 4,
+     "total": 50.2,
+     "ppg": 12.55
+    }
+   }
+  },
+  {
+   "question_id": "Q0114",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 103.1,
+     "ppg": 8.59
+    },
+    "b": {
+     "games": 10,
+     "total": 72.6,
+     "ppg": 7.26
+    }
+   }
+  },
+  {
+   "question_id": "Q0115",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "QB",
+    "week": 7,
+    "a": {
+     "games": 3,
+     "total": 34.34,
+     "ppg": 11.45
+    },
+    "b": {
+     "games": 3,
+     "total": 37.88,
+     "ppg": 12.63
+    }
+   }
+  },
+  {
+   "question_id": "Q0116",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 120.9,
+    "adp_pos_rank": 48,
+    "adp_stdev": 11.5,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 10,
+     "total": 80.4,
+     "ppg": 8.04,
+     "pos_rank": 92
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 146.1,
+     "ppg": 16.23,
+     "pos_rank": 52
+    }
+   }
+  },
+  {
+   "question_id": "Q0117",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 81.0,
+    "adp_pos_rank": 33,
+    "adp_stdev": 7.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 12,
+     "total": 103.5,
+     "ppg": 8.62,
+     "pos_rank": 71
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0118",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "QB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 92.64,
+     "ppg": 23.16
+    },
+    "b": {
+     "games": 4,
+     "total": 111.38,
+     "ppg": 27.84
+    }
+   }
+  },
+  {
+   "question_id": "Q0119",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 4,
+     "total": 24.8,
+     "ppg": 6.2
+    },
+    "b": {
+     "games": 6,
+     "total": 41.1,
+     "ppg": 6.85
+    }
+   }
+  },
+  {
+   "question_id": "Q0120",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 73.4,
+    "adp_pos_rank": 31,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 227.3,
+     "ppg": 14.21,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0121",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 200.5,
+     "ppg": 18.23
+    },
+    "b": {
+     "games": 10,
+     "total": 145.9,
+     "ppg": 14.59
+    }
+   }
+  },
+  {
+   "question_id": "Q0122",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 168.7,
+     "ppg": 16.87
+    },
+    "b": {
+     "games": 11,
+     "total": 156.2,
+     "ppg": 14.2
+    }
+   }
+  },
+  {
+   "question_id": "Q0123",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 9,
+     "total": 147.52,
+     "ppg": 16.39
+    },
+    "b": {
+     "games": 14,
+     "total": 262.7,
+     "ppg": 18.76
+    }
+   }
+  },
+  {
+   "question_id": "Q0124",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 5,
+     "total": 31.7,
+     "ppg": 6.34
+    },
+    "b": {
+     "games": 7,
+     "total": 53.3,
+     "ppg": 7.61
+    }
+   }
+  },
+  {
+   "question_id": "Q0125",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 6,
+     "total": 95.2,
+     "ppg": 15.87
+    },
+    "b": {
+     "games": 8,
+     "total": 108.22,
+     "ppg": 13.53
+    }
+   }
+  },
+  {
+   "question_id": "Q0126",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 66.4,
+     "ppg": 11.07
+    },
+    "b": {
+     "games": 5,
+     "total": 44.8,
+     "ppg": 8.96
+    }
+   }
+  },
+  {
+   "question_id": "Q0127",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 74.4,
+    "adp_pos_rank": 33,
+    "adp_stdev": 7.2,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 17,
+     "total": 197.8,
+     "ppg": 11.64,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 143.6,
+     "ppg": 8.97,
+     "pos_rank": 31
+    }
+   }
+  },
+  {
+   "question_id": "Q0128",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 6,
+     "total": 70.1,
+     "ppg": 11.68
+    },
+    "b": {
+     "games": 8,
+     "total": 82.0,
+     "ppg": 10.25
+    }
+   }
+  },
+  {
+   "question_id": "Q0129",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 78.6,
+     "ppg": 7.86
+    },
+    "b": {
+     "games": 7,
+     "total": 46.6,
+     "ppg": 6.66
+    }
+   }
+  },
+  {
+   "question_id": "Q0130",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 6,
+     "total": 40.0,
+     "ppg": 6.67
+    },
+    "b": {
+     "games": 9,
+     "total": 66.9,
+     "ppg": 7.43
+    }
+   }
+  },
+  {
+   "question_id": "Q0131",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 230.1,
+     "ppg": 23.01
+    },
+    "b": {
+     "games": 10,
+     "total": 187.9,
+     "ppg": 18.79
+    }
+   }
+  },
+  {
+   "question_id": "Q0132",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 26.0,
+     "ppg": 6.5
+    },
+    "b": {
+     "games": 4,
+     "total": 28.7,
+     "ppg": 7.17
+    }
+   }
+  },
+  {
+   "question_id": "Q0133",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 3,
+     "total": 21.3,
+     "ppg": 7.1
+    },
+    "b": {
+     "games": 11,
+     "total": 85.9,
+     "ppg": 7.81
+    }
+   }
+  },
+  {
+   "question_id": "Q0134",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 62.6,
+    "adp_pos_rank": 6,
+    "adp_stdev": 7.4,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 208.8,
+     "ppg": 12.28,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 146.5,
+     "ppg": 9.16,
+     "pos_rank": 12
+    }
+   }
+  },
+  {
+   "question_id": "Q0135",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "RB",
+    "week": 10,
+    "a": {
+     "games": 7,
+     "total": 58.1,
+     "ppg": 8.3
+    },
+    "b": {
+     "games": 9,
+     "total": 90.1,
+     "ppg": 10.01
+    }
+   }
+  },
+  {
+   "question_id": "Q0136",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 10,
+     "total": 115.56,
+     "ppg": 11.56
+    },
+    "b": {
+     "games": 5,
+     "total": 50.78,
+     "ppg": 10.16
+    }
+   }
+  },
+  {
+   "question_id": "Q0137",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "TE",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 74.9,
+     "ppg": 6.81
+    },
+    "b": {
+     "games": 9,
+     "total": 61.0,
+     "ppg": 6.78
+    }
+   }
+  },
+  {
+   "question_id": "Q0138",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 12.8,
+    "adp_pos_rank": 9,
+    "adp_stdev": 2.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 13,
+     "total": 208.9,
+     "ppg": 16.07,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 189.8,
+     "ppg": 14.6,
+     "pos_rank": 18
+    }
+   }
+  },
+  {
+   "question_id": "Q0139",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 14.9,
+    "adp_pos_rank": 10,
+    "adp_stdev": 2.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 229.0,
+     "ppg": 15.27,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 258.9,
+     "ppg": 18.49,
+     "pos_rank": 5
+    }
+   }
+  },
+  {
+   "question_id": "Q0140",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "RB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 116.8,
+     "ppg": 14.6
+    },
+    "b": {
+     "games": 5,
+     "total": 73.1,
+     "ppg": 14.62
+    }
+   }
+  },
+  {
+   "question_id": "Q0141",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 119.1,
+     "ppg": 17.01
+    },
+    "b": {
+     "games": 7,
+     "total": 107.8,
+     "ppg": 15.4
+    }
+   }
+  },
+  {
+   "question_id": "Q0142",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 12,
+     "total": 106.9,
+     "ppg": 8.91
+    },
+    "b": {
+     "games": 5,
+     "total": 42.1,
+     "ppg": 8.42
+    }
+   }
+  },
+  {
+   "question_id": "Q0143",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 5,
+     "total": 27.0,
+     "ppg": 5.4
+    },
+    "b": {
+     "games": 5,
+     "total": 26.1,
+     "ppg": 5.22
+    }
+   }
+  },
+  {
+   "question_id": "Q0144",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 132.9,
+    "adp_pos_rank": 17,
+    "adp_stdev": 12.0,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 17,
+     "total": 222.92,
+     "ppg": 13.11,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 282.44,
+     "ppg": 17.65,
+     "pos_rank": 12
+    }
+   }
+  },
+  {
+   "question_id": "Q0145",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 42.5,
+     "ppg": 6.07
+    },
+    "b": {
+     "games": 6,
+     "total": 32.5,
+     "ppg": 5.42
+    }
+   }
+  },
+  {
+   "question_id": "Q0146",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 121.7,
+    "adp_pos_rank": 50,
+    "adp_stdev": 10.1,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 13,
+     "total": 119.8,
+     "ppg": 9.22,
+     "pos_rank": 43
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 127.1,
+     "ppg": 9.08,
+     "pos_rank": 38
+    }
+   }
+  },
+  {
+   "question_id": "Q0147",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 153.8,
+    "adp_pos_rank": 58,
+    "adp_stdev": 14.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 83.6,
+     "ppg": 5.97,
+     "pos_rank": 86
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0148",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 13.6,
+    "adp_pos_rank": 5,
+    "adp_stdev": 2.0,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 17,
+     "total": 285.5,
+     "ppg": 16.79,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 328.6,
+     "ppg": 20.54,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "Q0149",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "QB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 196.22,
+     "ppg": 21.8
+    },
+    "b": {
+     "games": 9,
+     "total": 234.92,
+     "ppg": 26.1
+    }
+   }
+  },
+  {
+   "question_id": "Q0150",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 74.7,
+     "ppg": 6.23
+    },
+    "b": {
+     "games": 11,
+     "total": 62.3,
+     "ppg": 5.66
+    }
+   }
+  },
+  {
+   "question_id": "Q0151",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 7,
+     "total": 41.4,
+     "ppg": 5.91
+    },
+    "b": {
+     "games": 11,
+     "total": 68.0,
+     "ppg": 6.18
+    }
+   }
+  },
+  {
+   "question_id": "Q0152",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 96.2,
+    "adp_pos_rank": 40,
+    "adp_stdev": 7.1,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 207.62,
+     "ppg": 12.21,
+     "pos_rank": 26
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 146.4,
+     "ppg": 10.46,
+     "pos_rank": 51
+    }
+   }
+  },
+  {
+   "question_id": "Q0153",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 15.5,
+    "adp_pos_rank": 11,
+    "adp_stdev": 2.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 13,
+     "total": 148.6,
+     "ppg": 11.43,
+     "pos_rank": 30
+    },
+    "two_seasons_ago": {
+     "games": 2,
+     "total": 15.4,
+     "ppg": 7.7,
+     "pos_rank": 116
+    }
+   }
+  },
+  {
+   "question_id": "Q0154",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 161.5,
+     "ppg": 16.15
+    },
+    "b": {
+     "games": 9,
+     "total": 120.2,
+     "ppg": 13.36
+    }
+   }
+  },
+  {
+   "question_id": "Q0155",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 7,
+     "total": 58.1,
+     "ppg": 8.3
+    },
+    "b": {
+     "games": 9,
+     "total": 63.3,
+     "ppg": 7.03
+    }
+   }
+  },
+  {
+   "question_id": "Q0156",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 88.3,
+     "ppg": 14.72
+    },
+    "b": {
+     "games": 5,
+     "total": 85.7,
+     "ppg": 17.14
+    }
+   }
+  },
+  {
+   "question_id": "Q0157",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 51.3,
+    "adp_pos_rank": 5,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 12,
+     "total": 239.98,
+     "ppg": 20.0,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 332.78,
+     "ppg": 22.19,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "Q0158",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 68.6,
+     "ppg": 6.86
+    },
+    "b": {
+     "games": 4,
+     "total": 30.7,
+     "ppg": 7.67
+    }
+   }
+  },
+  {
+   "question_id": "Q0159",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 98.3,
+     "ppg": 12.29
+    },
+    "b": {
+     "games": 8,
+     "total": 97.4,
+     "ppg": 12.18
+    }
+   }
+  },
+  {
+   "question_id": "Q0160",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 142.5,
+    "adp_pos_rank": 56,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 111.1,
+     "ppg": 7.94,
+     "pos_rank": 63
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0161",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 150.1,
+    "adp_pos_rank": 20,
+    "adp_stdev": 17.4,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 7,
+     "total": 117.4,
+     "ppg": 16.77,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 2.4,
+     "ppg": 0.8,
+     "pos_rank": 67
+    }
+   }
+  },
+  {
+   "question_id": "Q0162",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 92.0,
+    "adp_pos_rank": 37,
+    "adp_stdev": 7.8,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0163",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 8,
+     "total": 49.7,
+     "ppg": 6.21
+    },
+    "b": {
+     "games": 6,
+     "total": 44.4,
+     "ppg": 7.4
+    }
+   }
+  },
+  {
+   "question_id": "Q0164",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 4,
+     "total": 28.3,
+     "ppg": 7.08
+    },
+    "b": {
+     "games": 8,
+     "total": 54.6,
+     "ppg": 6.83
+    }
+   }
+  },
+  {
+   "question_id": "Q0165",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 108.6,
+    "adp_pos_rank": 15,
+    "adp_stdev": 10.1,
+    "seasons_of_data": 10,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 16,
+     "total": 300.34,
+     "ppg": 18.77,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 306.2,
+     "ppg": 19.14,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "Q0166",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 99.4,
+     "ppg": 9.04
+    },
+    "b": {
+     "games": 9,
+     "total": 79.4,
+     "ppg": 8.82
+    }
+   }
+  },
+  {
+   "question_id": "Q0167",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "TE",
+    "week": 5,
+    "a": {
+     "games": 3,
+     "total": 21.9,
+     "ppg": 7.3
+    },
+    "b": {
+     "games": 4,
+     "total": 24.2,
+     "ppg": 6.05
+    }
+   }
+  },
+  {
+   "question_id": "Q0168",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "TE",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 53.6,
+     "ppg": 6.7
+    },
+    "b": {
+     "games": 9,
+     "total": 66.8,
+     "ppg": 7.42
+    }
+   }
+  },
+  {
+   "question_id": "Q0169",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 76.0,
+    "adp_pos_rank": 34,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 12,
+     "total": 114.9,
+     "ppg": 9.58,
+     "pos_rank": 48
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0170",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 103.7,
+     "ppg": 14.81
+    },
+    "b": {
+     "games": 7,
+     "total": 84.1,
+     "ppg": 12.01
+    }
+   }
+  },
+  {
+   "question_id": "Q0171",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 12,
+     "total": 161.5,
+     "ppg": 13.46
+    },
+    "b": {
+     "games": 13,
+     "total": 176.2,
+     "ppg": 13.55
+    }
+   }
+  },
+  {
+   "question_id": "Q0172",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 3,
+     "total": 50.8,
+     "ppg": 16.93
+    },
+    "b": {
+     "games": 7,
+     "total": 108.8,
+     "ppg": 15.54
+    }
+   }
+  },
+  {
+   "question_id": "Q0173",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 18.8,
+    "adp_pos_rank": 12,
+    "adp_stdev": 2.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 14,
+     "total": 215.3,
+     "ppg": 15.38,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 207.7,
+     "ppg": 17.31,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "Q0174",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 9,
+     "total": 45.0,
+     "ppg": 5.0
+    },
+    "b": {
+     "games": 7,
+     "total": 36.0,
+     "ppg": 5.14
+    }
+   }
+  },
+  {
+   "question_id": "Q0175",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "TE",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 80.6,
+     "ppg": 6.2
+    },
+    "b": {
+     "games": 10,
+     "total": 57.6,
+     "ppg": 5.76
+    }
+   }
+  },
+  {
+   "question_id": "Q0176",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 89.0,
+    "adp_pos_rank": 8,
+    "adp_stdev": 9.9,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 17,
+     "total": 180.7,
+     "ppg": 10.63,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 77.5,
+     "ppg": 7.05,
+     "pos_rank": 32
+    }
+   }
+  },
+  {
+   "question_id": "Q0177",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 184.5,
+     "ppg": 14.19
+    },
+    "b": {
+     "games": 14,
+     "total": 178.1,
+     "ppg": 12.72
+    }
+   }
+  },
+  {
+   "question_id": "Q0178",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 87.9,
+    "adp_pos_rank": 36,
+    "adp_stdev": 6.4,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 11,
+     "total": 138.2,
+     "ppg": 12.56,
+     "pos_rank": 50
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0179",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 57.0,
+     "ppg": 14.25
+    },
+    "b": {
+     "games": 4,
+     "total": 62.8,
+     "ppg": 15.7
+    }
+   }
+  },
+  {
+   "question_id": "Q0180",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 218.3,
+     "ppg": 16.79
+    },
+    "b": {
+     "games": 3,
+     "total": 45.8,
+     "ppg": 15.27
+    }
+   }
+  },
+  {
+   "question_id": "Q0181",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 9,
+     "total": 81.5,
+     "ppg": 9.06
+    },
+    "b": {
+     "games": 12,
+     "total": 110.6,
+     "ppg": 9.22
+    }
+   }
+  },
+  {
+   "question_id": "Q0182",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 9,
+     "total": 71.4,
+     "ppg": 7.93
+    },
+    "b": {
+     "games": 13,
+     "total": 115.3,
+     "ppg": 8.87
+    }
+   }
+  },
+  {
+   "question_id": "Q0183",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 8,
+     "total": 98.7,
+     "ppg": 12.34
+    },
+    "b": {
+     "games": 6,
+     "total": 69.0,
+     "ppg": 11.5
+    }
+   }
+  },
+  {
+   "question_id": "Q0184",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "QB",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 96.78,
+     "ppg": 13.83
+    },
+    "b": {
+     "games": 7,
+     "total": 116.68,
+     "ppg": 16.67
+    }
+   }
+  },
+  {
+   "question_id": "Q0185",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 5,
+     "total": 55.2,
+     "ppg": 11.04
+    },
+    "b": {
+     "games": 8,
+     "total": 84.8,
+     "ppg": 10.6
+    }
+   }
+  },
+  {
+   "question_id": "Q0186",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 46.0,
+     "ppg": 7.67
+    },
+    "b": {
+     "games": 7,
+     "total": 59.2,
+     "ppg": 8.46
+    }
+   }
+  },
+  {
+   "question_id": "Q0187",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 138.0,
+    "adp_pos_rank": 18,
+    "adp_stdev": 15.7,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 12,
+     "total": 126.8,
+     "ppg": 10.57,
+     "pos_rank": 31
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0188",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 72.6,
+     "ppg": 8.07
+    },
+    "b": {
+     "games": 9,
+     "total": 83.4,
+     "ppg": 9.27
+    }
+   }
+  },
+  {
+   "question_id": "Q0189",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "QB",
+    "week": 7,
+    "a": {
+     "games": 5,
+     "total": 94.5,
+     "ppg": 18.9
+    },
+    "b": {
+     "games": 5,
+     "total": 82.06,
+     "ppg": 16.41
+    }
+   }
+  },
+  {
+   "question_id": "Q0190",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 7,
+     "total": 51.4,
+     "ppg": 7.34
+    },
+    "b": {
+     "games": 11,
+     "total": 98.6,
+     "ppg": 8.96
+    }
+   }
+  },
+  {
+   "question_id": "Q0191",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 91.4,
+    "adp_pos_rank": 36,
+    "adp_stdev": 7.2,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 234.6,
+     "ppg": 14.66,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 63.4,
+     "ppg": 3.96,
+     "pos_rank": 68
+    }
+   }
+  },
+  {
+   "question_id": "Q0192",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 75.4,
+     "ppg": 15.08
+    },
+    "b": {
+     "games": 3,
+     "total": 52.8,
+     "ppg": 17.6
+    }
+   }
+  },
+  {
+   "question_id": "Q0193",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 78.7,
+     "ppg": 6.56
+    },
+    "b": {
+     "games": 11,
+     "total": 88.8,
+     "ppg": 8.07
+    }
+   }
+  },
+  {
+   "question_id": "Q0194",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 66.1,
+     "ppg": 6.61
+    },
+    "b": {
+     "games": 7,
+     "total": 52.9,
+     "ppg": 7.56
+    }
+   }
+  },
+  {
+   "question_id": "Q0195",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "TE",
+    "week": 13,
+    "a": {
+     "games": 8,
+     "total": 64.6,
+     "ppg": 8.07
+    },
+    "b": {
+     "games": 12,
+     "total": 93.5,
+     "ppg": 7.79
+    }
+   }
+  },
+  {
+   "question_id": "Q0196",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 32.5,
+    "adp_pos_rank": 13,
+    "adp_stdev": 3.5,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 14,
+     "total": 219.1,
+     "ppg": 15.65,
+     "pos_rank": 24
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 194.6,
+     "ppg": 12.97,
+     "pos_rank": 28
+    }
+   }
+  },
+  {
+   "question_id": "Q0197",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 3,
+     "total": 31.2,
+     "ppg": 10.4
+    },
+    "b": {
+     "games": 7,
+     "total": 84.3,
+     "ppg": 12.04
+    }
+   }
+  },
+  {
+   "question_id": "Q0198",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 17.5,
+    "adp_pos_rank": 6,
+    "adp_stdev": 2.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 232.8,
+     "ppg": 14.55,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 211.7,
+     "ppg": 13.23,
+     "pos_rank": 24
+    }
+   }
+  },
+  {
+   "question_id": "Q0199",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 110.4,
+    "adp_pos_rank": 44,
+    "adp_stdev": 7.3,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0200",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 9,
+     "total": 121.0,
+     "ppg": 13.44
+    },
+    "b": {
+     "games": 11,
+     "total": 127.42,
+     "ppg": 11.58
+    }
+   }
+  },
+  {
+   "question_id": "Q0201",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 90.6,
+     "ppg": 9.06
+    },
+    "b": {
+     "games": 9,
+     "total": 82.4,
+     "ppg": 9.16
+    }
+   }
+  },
+  {
+   "question_id": "Q0202",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 56.5,
+     "ppg": 5.14
+    },
+    "b": {
+     "games": 11,
+     "total": 62.5,
+     "ppg": 5.68
+    }
+   }
+  },
+  {
+   "question_id": "Q0203",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 129.3,
+    "adp_pos_rank": 52,
+    "adp_stdev": 10.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0204",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 73.6,
+     "ppg": 7.36
+    },
+    "b": {
+     "games": 11,
+     "total": 81.6,
+     "ppg": 7.42
+    }
+   }
+  },
+  {
+   "question_id": "Q0205",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 3,
+     "total": 27.7,
+     "ppg": 9.23
+    },
+    "b": {
+     "games": 5,
+     "total": 50.46,
+     "ppg": 10.09
+    }
+   }
+  },
+  {
+   "question_id": "Q0206",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "TE",
+    "week": 11,
+    "a": {
+     "games": 4,
+     "total": 38.3,
+     "ppg": 9.57
+    },
+    "b": {
+     "games": 10,
+     "total": 82.2,
+     "ppg": 8.22
+    }
+   }
+  },
+  {
+   "question_id": "Q0207",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 44.2,
+     "ppg": 8.84
+    },
+    "b": {
+     "games": 5,
+     "total": 45.5,
+     "ppg": 9.1
+    }
+   }
+  },
+  {
+   "question_id": "Q0208",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 203.06,
+     "ppg": 20.31
+    },
+    "b": {
+     "games": 9,
+     "total": 146.6,
+     "ppg": 16.29
+    }
+   }
+  },
+  {
+   "question_id": "Q0209",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 8,
+     "total": 40.5,
+     "ppg": 5.06
+    },
+    "b": {
+     "games": 10,
+     "total": 51.1,
+     "ppg": 5.11
+    }
+   }
+  },
+  {
+   "question_id": "Q0210",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 86.8,
+    "adp_pos_rank": 11,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 17,
+     "total": 374.74,
+     "ppg": 22.04,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 337.92,
+     "ppg": 21.12,
+     "pos_rank": 8
+    }
+   }
+  },
+  {
+   "question_id": "Q0211",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 112.7,
+    "adp_pos_rank": 46,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0212",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 73.2,
+     "ppg": 5.63
+    },
+    "b": {
+     "games": 6,
+     "total": 38.2,
+     "ppg": 6.37
+    }
+   }
+  },
+  {
+   "question_id": "Q0213",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 146.0,
+    "adp_pos_rank": 14,
+    "adp_stdev": 18.1,
+    "seasons_of_data": 2,
+    "years_since_first_season": 3,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 98.5,
+     "ppg": 7.58,
+     "pos_rank": 23
+    }
+   }
+  },
+  {
+   "question_id": "Q0214",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "QB",
+    "week": 12,
+    "a": {
+     "games": 9,
+     "total": 127.08,
+     "ppg": 14.12
+    },
+    "b": {
+     "games": 10,
+     "total": 155.02,
+     "ppg": 15.5
+    }
+   }
+  },
+  {
+   "question_id": "Q0215",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 9,
+     "total": 119.7,
+     "ppg": 13.3
+    },
+    "b": {
+     "games": 12,
+     "total": 182.4,
+     "ppg": 15.2
+    }
+   }
+  },
+  {
+   "question_id": "Q0216",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 39.3,
+    "adp_pos_rank": 20,
+    "adp_stdev": 4.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 13,
+     "total": 195.0,
+     "ppg": 15.0,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 264.8,
+     "ppg": 17.65,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "Q0217",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 179.8,
+     "ppg": 19.98
+    },
+    "b": {
+     "games": 9,
+     "total": 184.16,
+     "ppg": 20.46
+    }
+   }
+  },
+  {
+   "question_id": "Q0218",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 85.6,
+     "ppg": 21.4
+    },
+    "b": {
+     "games": 4,
+     "total": 86.0,
+     "ppg": 21.5
+    }
+   }
+  },
+  {
+   "question_id": "Q0219",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 8,
+     "total": 102.0,
+     "ppg": 12.75
+    },
+    "b": {
+     "games": 8,
+     "total": 111.8,
+     "ppg": 13.97
+    }
+   }
+  },
+  {
+   "question_id": "Q0220",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 33.8,
+     "ppg": 8.45
+    },
+    "b": {
+     "games": 3,
+     "total": 21.1,
+     "ppg": 7.03
+    }
+   }
+  },
+  {
+   "question_id": "Q0221",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "QB",
+    "week": 11,
+    "a": {
+     "games": 6,
+     "total": 55.4,
+     "ppg": 9.23
+    },
+    "b": {
+     "games": 6,
+     "total": 59.4,
+     "ppg": 9.9
+    }
+   }
+  },
+  {
+   "question_id": "Q0222",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 54.3,
+    "adp_pos_rank": 25,
+    "adp_stdev": 4.8,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 10,
+     "total": 117.6,
+     "ppg": 11.76,
+     "pos_rank": 44
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 176.0,
+     "ppg": 13.54,
+     "pos_rank": 22
+    }
+   }
+  },
+  {
+   "question_id": "Q0223",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 30.4,
+    "adp_pos_rank": 12,
+    "adp_stdev": 3.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 13,
+     "total": 180.9,
+     "ppg": 13.92,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 241.5,
+     "ppg": 17.25,
+     "pos_rank": 14
+    }
+   }
+  },
+  {
+   "question_id": "Q0224",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 96.4,
+     "ppg": 16.07
+    },
+    "b": {
+     "games": 6,
+     "total": 88.5,
+     "ppg": 14.75
+    }
+   }
+  },
+  {
+   "question_id": "Q0225",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 80.2,
+    "adp_pos_rank": 9,
+    "adp_stdev": 9.6,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 16,
+     "total": 333.3,
+     "ppg": 20.83,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 383.26,
+     "ppg": 23.95,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "Q0226",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 107.1,
+     "ppg": 15.3
+    },
+    "b": {
+     "games": 7,
+     "total": 94.5,
+     "ppg": 13.5
+    }
+   }
+  },
+  {
+   "question_id": "Q0227",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 113.3,
+    "adp_pos_rank": 47,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 14,
+     "total": 154.4,
+     "ppg": 11.03,
+     "pos_rank": 29
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0228",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 4,
+     "total": 54.9,
+     "ppg": 13.72
+    },
+    "b": {
+     "games": 5,
+     "total": 84.1,
+     "ppg": 16.82
+    }
+   }
+  },
+  {
+   "question_id": "Q0229",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 70.5,
+    "adp_pos_rank": 31,
+    "adp_stdev": 10.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0230",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 230.8,
+     "ppg": 20.98
+    },
+    "b": {
+     "games": 11,
+     "total": 249.0,
+     "ppg": 22.64
+    }
+   }
+  },
+  {
+   "question_id": "Q0231",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 97.7,
+    "adp_pos_rank": 13,
+    "adp_stdev": 10.3,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 6,
+     "total": 64.92,
+     "ppg": 10.82,
+     "pos_rank": 39
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0232",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "TE",
+    "week": 16,
+    "a": {
+     "games": 12,
+     "total": 78.8,
+     "ppg": 6.57
+    },
+    "b": {
+     "games": 10,
+     "total": 52.6,
+     "ppg": 5.26
+    }
+   }
+  },
+  {
+   "question_id": "Q0233",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 136.0,
+     "ppg": 10.46
+    },
+    "b": {
+     "games": 8,
+     "total": 73.6,
+     "ppg": 9.2
+    }
+   }
+  },
+  {
+   "question_id": "Q0234",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 75.9,
+     "ppg": 18.98
+    },
+    "b": {
+     "games": 4,
+     "total": 71.0,
+     "ppg": 17.75
+    }
+   }
+  },
+  {
+   "question_id": "Q0235",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 7,
+     "total": 64.4,
+     "ppg": 9.2
+    },
+    "b": {
+     "games": 8,
+     "total": 64.2,
+     "ppg": 8.03
+    }
+   }
+  },
+  {
+   "question_id": "Q0236",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 132.62,
+     "ppg": 22.1
+    },
+    "b": {
+     "games": 7,
+     "total": 148.1,
+     "ppg": 21.16
+    }
+   }
+  },
+  {
+   "question_id": "Q0237",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 92.9,
+    "adp_pos_rank": 38,
+    "adp_stdev": 8.3,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0238",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 81.0,
+     "ppg": 10.12
+    },
+    "b": {
+     "games": 7,
+     "total": 81.82,
+     "ppg": 11.69
+    }
+   }
+  },
+  {
+   "question_id": "Q0239",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 37.6,
+     "ppg": 5.37
+    },
+    "b": {
+     "games": 8,
+     "total": 40.4,
+     "ppg": 5.05
+    }
+   }
+  },
+  {
+   "question_id": "Q0240",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 71.2,
+    "adp_pos_rank": 30,
+    "adp_stdev": 7.4,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 17,
+     "total": 259.1,
+     "ppg": 15.24,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 131.6,
+     "ppg": 8.22,
+     "pos_rank": 59
+    }
+   }
+  },
+  {
+   "question_id": "Q0241",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 80.4,
+     "ppg": 8.04
+    },
+    "b": {
+     "games": 9,
+     "total": 68.6,
+     "ppg": 7.62
+    }
+   }
+  },
+  {
+   "question_id": "Q0242",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "TE",
+    "week": 16,
+    "a": {
+     "games": 11,
+     "total": 61.4,
+     "ppg": 5.58
+    },
+    "b": {
+     "games": 14,
+     "total": 84.0,
+     "ppg": 6.0
+    }
+   }
+  },
+  {
+   "question_id": "Q0243",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 77.5,
+     "ppg": 11.07
+    },
+    "b": {
+     "games": 7,
+     "total": 69.9,
+     "ppg": 9.99
+    }
+   }
+  },
+  {
+   "question_id": "Q0244",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 8,
+     "total": 68.0,
+     "ppg": 8.5
+    },
+    "b": {
+     "games": 10,
+     "total": 70.4,
+     "ppg": 7.04
+    }
+   }
+  },
+  {
+   "question_id": "Q0245",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "TE",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 118.6,
+     "ppg": 9.12
+    },
+    "b": {
+     "games": 13,
+     "total": 117.14,
+     "ppg": 9.01
+    }
+   }
+  },
+  {
+   "question_id": "Q0246",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 41.9,
+     "ppg": 8.38
+    },
+    "b": {
+     "games": 5,
+     "total": 46.6,
+     "ppg": 9.32
+    }
+   }
+  },
+  {
+   "question_id": "Q0247",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 11,
+     "total": 87.24,
+     "ppg": 7.93
+    },
+    "b": {
+     "games": 6,
+     "total": 47.6,
+     "ppg": 7.93
+    }
+   }
+  },
+  {
+   "question_id": "Q0248",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "TE",
+    "week": 15,
+    "a": {
+     "games": 11,
+     "total": 114.0,
+     "ppg": 10.36
+    },
+    "b": {
+     "games": 4,
+     "total": 39.5,
+     "ppg": 9.88
+    }
+   }
+  },
+  {
+   "question_id": "Q0249",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 58.1,
+     "ppg": 9.68
+    },
+    "b": {
+     "games": 5,
+     "total": 51.1,
+     "ppg": 10.22
+    }
+   }
+  },
+  {
+   "question_id": "Q0250",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 5,
+     "total": 26.5,
+     "ppg": 5.3
+    },
+    "b": {
+     "games": 11,
+     "total": 57.5,
+     "ppg": 5.23
+    }
+   }
+  },
+  {
+   "question_id": "Q0251",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "QB",
+    "week": 10,
+    "a": {
+     "games": 7,
+     "total": 102.16,
+     "ppg": 14.59
+    },
+    "b": {
+     "games": 3,
+     "total": 42.14,
+     "ppg": 14.05
+    }
+   }
+  },
+  {
+   "question_id": "Q0252",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 226.76,
+     "ppg": 16.2
+    },
+    "b": {
+     "games": 14,
+     "total": 215.28,
+     "ppg": 15.38
+    }
+   }
+  },
+  {
+   "question_id": "Q0253",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 69.5,
+     "ppg": 9.93
+    },
+    "b": {
+     "games": 7,
+     "total": 85.5,
+     "ppg": 12.21
+    }
+   }
+  },
+  {
+   "question_id": "Q0254",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 285.4,
+     "ppg": 20.39
+    },
+    "b": {
+     "games": 14,
+     "total": 250.1,
+     "ppg": 17.86
+    }
+   }
+  },
+  {
+   "question_id": "Q0255",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 46.7,
+     "ppg": 7.78
+    },
+    "b": {
+     "games": 6,
+     "total": 47.8,
+     "ppg": 7.97
+    }
+   }
+  },
+  {
+   "question_id": "Q0256",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 5.7,
+    "adp_pos_rank": 2,
+    "adp_stdev": 1.8,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 17,
+     "total": 439.5,
+     "ppg": 25.85,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 210.7,
+     "ppg": 14.05,
+     "pos_rank": 26
+    }
+   }
+  },
+  {
+   "question_id": "Q0257",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 10,
+     "total": 199.86,
+     "ppg": 19.99
+    },
+    "b": {
+     "games": 12,
+     "total": 225.06,
+     "ppg": 18.75
+    }
+   }
+  },
+  {
+   "question_id": "Q0258",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "QB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 177.3,
+     "ppg": 16.12
+    },
+    "b": {
+     "games": 11,
+     "total": 202.08,
+     "ppg": 18.37
+    }
+   }
+  },
+  {
+   "question_id": "Q0259",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 26.5,
+    "adp_pos_rank": 10,
+    "adp_stdev": 3.2,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 262.5,
+     "ppg": 16.41,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 248.6,
+     "ppg": 15.54,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "Q0260",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 51.4,
+    "adp_pos_rank": 20,
+    "adp_stdev": 5.4,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 17,
+     "total": 244.3,
+     "ppg": 14.37,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 271.3,
+     "ppg": 16.96,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "Q0261",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 7,
+     "total": 37.3,
+     "ppg": 5.33
+    },
+    "b": {
+     "games": 12,
+     "total": 67.3,
+     "ppg": 5.61
+    }
+   }
+  },
+  {
+   "question_id": "Q0262",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 10.9,
+    "adp_pos_rank": 8,
+    "adp_stdev": 2.0,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 13,
+     "total": 234.7,
+     "ppg": 18.05,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 377.8,
+     "ppg": 25.19,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "Q0263",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 3,
+     "total": 16.1,
+     "ppg": 5.37
+    },
+    "b": {
+     "games": 5,
+     "total": 27.3,
+     "ppg": 5.46
+    }
+   }
+  },
+  {
+   "question_id": "Q0264",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "RB",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 67.6,
+     "ppg": 11.27
+    },
+    "b": {
+     "games": 6,
+     "total": 66.5,
+     "ppg": 11.08
+    }
+   }
+  },
+  {
+   "question_id": "Q0265",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 61.6,
+    "adp_pos_rank": 7,
+    "adp_stdev": 5.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 300.48,
+     "ppg": 21.46,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 378.74,
+     "ppg": 23.67,
+     "pos_rank": 3
+    }
+   }
+  },
+  {
+   "question_id": "Q0266",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 19.6,
+    "adp_pos_rank": 7,
+    "adp_stdev": 2.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 338.96,
+     "ppg": 21.18,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": {
+     "games": 7,
+     "total": 80.7,
+     "ppg": 11.53,
+     "pos_rank": 96
+    }
+   }
+  },
+  {
+   "question_id": "Q0267",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 103.1,
+    "adp_pos_rank": 14,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 17,
+     "total": 256.96,
+     "ppg": 15.12,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 272.12,
+     "ppg": 17.01,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "Q0268",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 63.3,
+    "adp_pos_rank": 28,
+    "adp_stdev": 6.4,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 10,
+     "total": 121.7,
+     "ppg": 12.17,
+     "pos_rank": 42
+    },
+    "two_seasons_ago": {
+     "games": 3,
+     "total": 3.4,
+     "ppg": 1.13,
+     "pos_rank": 134
+    }
+   }
+  },
+  {
+   "question_id": "Q0269",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 7,
+     "total": 39.6,
+     "ppg": 5.66
+    },
+    "b": {
+     "games": 10,
+     "total": 52.7,
+     "ppg": 5.27
+    }
+   }
+  },
+  {
+   "question_id": "Q0270",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 84.6,
+     "ppg": 6.51
+    },
+    "b": {
+     "games": 9,
+     "total": 58.5,
+     "ppg": 6.5
+    }
+   }
+  },
+  {
+   "question_id": "Q0271",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 10,
+     "total": 98.3,
+     "ppg": 9.83
+    },
+    "b": {
+     "games": 10,
+     "total": 95.5,
+     "ppg": 9.55
+    }
+   }
+  },
+  {
+   "question_id": "Q0272",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 4,
+     "total": 32.9,
+     "ppg": 8.22
+    },
+    "b": {
+     "games": 5,
+     "total": 46.2,
+     "ppg": 9.24
+    }
+   }
+  },
+  {
+   "question_id": "Q0273",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 12.0,
+    "adp_pos_rank": 4,
+    "adp_stdev": 2.5,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 344.3,
+     "ppg": 21.52,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 358.4,
+     "ppg": 25.6,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "Q0274",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 61.4,
+     "ppg": 7.67
+    },
+    "b": {
+     "games": 7,
+     "total": 53.6,
+     "ppg": 7.66
+    }
+   }
+  },
+  {
+   "question_id": "Q0275",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "TE",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 106.8,
+     "ppg": 7.63
+    },
+    "b": {
+     "games": 14,
+     "total": 89.6,
+     "ppg": 6.4
+    }
+   }
+  },
+  {
+   "question_id": "Q0276",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 71.6,
+     "ppg": 17.9
+    },
+    "b": {
+     "games": 4,
+     "total": 65.7,
+     "ppg": 16.43
+    }
+   }
+  },
+  {
+   "question_id": "Q0277",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "QB",
+    "week": 8,
+    "a": {
+     "games": 6,
+     "total": 90.24,
+     "ppg": 15.04
+    },
+    "b": {
+     "games": 6,
+     "total": 96.02,
+     "ppg": 16.0
+    }
+   }
+  },
+  {
+   "question_id": "Q0278",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "RB",
+    "week": 16,
+    "a": {
+     "games": 11,
+     "total": 161.2,
+     "ppg": 14.65
+    },
+    "b": {
+     "games": 11,
+     "total": 144.3,
+     "ppg": 13.12
+    }
+   }
+  },
+  {
+   "question_id": "Q0279",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 81.8,
+     "ppg": 16.36
+    },
+    "b": {
+     "games": 5,
+     "total": 72.8,
+     "ppg": 14.56
+    }
+   }
+  },
+  {
+   "question_id": "Q0280",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 74.7,
+     "ppg": 10.67
+    },
+    "b": {
+     "games": 5,
+     "total": 58.7,
+     "ppg": 11.74
+    }
+   }
+  },
+  {
+   "question_id": "Q0281",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "TE",
+    "week": 6,
+    "a": {
+     "games": 3,
+     "total": 19.8,
+     "ppg": 6.6
+    },
+    "b": {
+     "games": 3,
+     "total": 19.6,
+     "ppg": 6.53
+    }
+   }
+  },
+  {
+   "question_id": "Q0282",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 6,
+     "total": 97.46,
+     "ppg": 16.24
+    },
+    "b": {
+     "games": 14,
+     "total": 246.52,
+     "ppg": 17.61
+    }
+   }
+  },
+  {
+   "question_id": "Q0283",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 73.3,
+     "ppg": 9.16
+    },
+    "b": {
+     "games": 5,
+     "total": 40.8,
+     "ppg": 8.16
+    }
+   }
+  },
+  {
+   "question_id": "Q0284",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "RB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 53.6,
+     "ppg": 10.72
+    },
+    "b": {
+     "games": 3,
+     "total": 32.7,
+     "ppg": 10.9
+    }
+   }
+  },
+  {
+   "question_id": "Q0285",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "TE",
+    "week": 15,
+    "a": {
+     "games": 12,
+     "total": 91.8,
+     "ppg": 7.65
+    },
+    "b": {
+     "games": 13,
+     "total": 87.2,
+     "ppg": 6.71
+    }
+   }
+  },
+  {
+   "question_id": "Q0286",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "TE",
+    "week": 12,
+    "a": {
+     "games": 11,
+     "total": 81.2,
+     "ppg": 7.38
+    },
+    "b": {
+     "games": 9,
+     "total": 74.0,
+     "ppg": 8.22
+    }
+   }
+  },
+  {
+   "question_id": "Q0287",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 50.4,
+    "adp_pos_rank": 5,
+    "adp_stdev": 6.4,
+    "seasons_of_data": 6,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 11,
+     "total": 133.5,
+     "ppg": 12.14,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 278.6,
+     "ppg": 17.41,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "Q0288",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 73.0,
+     "ppg": 10.43
+    },
+    "b": {
+     "games": 8,
+     "total": 76.7,
+     "ppg": 9.59
+    }
+   }
+  },
+  {
+   "question_id": "Q0289",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 35.7,
+     "ppg": 8.93
+    },
+    "b": {
+     "games": 4,
+     "total": 31.7,
+     "ppg": 7.92
+    }
+   }
+  },
+  {
+   "question_id": "Q0290",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 56.5,
+    "adp_pos_rank": 23,
+    "adp_stdev": 5.5,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 14,
+     "total": 242.4,
+     "ppg": 17.31,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 191.0,
+     "ppg": 15.92,
+     "pos_rank": 31
+    }
+   }
+  },
+  {
+   "question_id": "Q0291",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 53.5,
+    "adp_pos_rank": 22,
+    "adp_stdev": 5.9,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 12,
+     "total": 87.0,
+     "ppg": 7.25,
+     "pos_rank": 81
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 262.9,
+     "ppg": 16.43,
+     "pos_rank": 9
+    }
+   }
+  },
+  {
+   "question_id": "Q0292",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 142.1,
+     "ppg": 12.92
+    },
+    "b": {
+     "games": 9,
+     "total": 130.8,
+     "ppg": 14.53
+    }
+   }
+  },
+  {
+   "question_id": "Q0293",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "TE",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 88.2,
+     "ppg": 6.78
+    },
+    "b": {
+     "games": 12,
+     "total": 81.7,
+     "ppg": 6.81
+    }
+   }
+  },
+  {
+   "question_id": "Q0294",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 189.6,
+     "ppg": 15.8
+    },
+    "b": {
+     "games": 8,
+     "total": 107.0,
+     "ppg": 13.38
+    }
+   }
+  },
+  {
+   "question_id": "Q0295",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 3,
+     "total": 48.4,
+     "ppg": 16.13
+    },
+    "b": {
+     "games": 4,
+     "total": 60.5,
+     "ppg": 15.12
+    }
+   }
+  },
+  {
+   "question_id": "Q0296",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "QB",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 134.88,
+     "ppg": 13.49
+    },
+    "b": {
+     "games": 10,
+     "total": 162.54,
+     "ppg": 16.25
+    }
+   }
+  },
+  {
+   "question_id": "Q0297",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 54.4,
+     "ppg": 10.88
+    },
+    "b": {
+     "games": 5,
+     "total": 62.6,
+     "ppg": 12.52
+    }
+   }
+  },
+  {
+   "question_id": "Q0298",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 77.6,
+     "ppg": 11.09
+    },
+    "b": {
+     "games": 7,
+     "total": 72.6,
+     "ppg": 10.37
+    }
+   }
+  },
+  {
+   "question_id": "Q0299",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "TE",
+    "week": 11,
+    "a": {
+     "games": 6,
+     "total": 32.8,
+     "ppg": 5.47
+    },
+    "b": {
+     "games": 7,
+     "total": 39.9,
+     "ppg": 5.7
+    }
+   }
+  },
+  {
+   "question_id": "Q0300",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 6,
+     "total": 52.8,
+     "ppg": 8.8
+    },
+    "b": {
+     "games": 6,
+     "total": 57.2,
+     "ppg": 9.53
+    }
+   }
+  },
+  {
+   "question_id": "Q0301",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 170.8,
+     "ppg": 13.14
+    },
+    "b": {
+     "games": 14,
+     "total": 200.2,
+     "ppg": 14.3
+    }
+   }
+  },
+  {
+   "question_id": "Q0302",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 101.9,
+    "adp_pos_rank": 41,
+    "adp_stdev": 8.6,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 1,
+     "total": 2.0,
+     "ppg": 2.0,
+     "pos_rank": 142
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 99.7,
+     "ppg": 12.46,
+     "pos_rank": 48
+    }
+   }
+  },
+  {
+   "question_id": "Q0303",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 118.8,
+     "ppg": 10.8
+    },
+    "b": {
+     "games": 8,
+     "total": 96.1,
+     "ppg": 12.01
+    }
+   }
+  },
+  {
+   "question_id": "Q0304",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 4,
+     "total": 31.8,
+     "ppg": 7.95
+    },
+    "b": {
+     "games": 6,
+     "total": 54.5,
+     "ppg": 9.08
+    }
+   }
+  },
+  {
+   "question_id": "Q0305",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 8,
+     "total": 73.4,
+     "ppg": 9.18
+    },
+    "b": {
+     "games": 7,
+     "total": 79.8,
+     "ppg": 11.4
+    }
+   }
+  },
+  {
+   "question_id": "Q0306",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "TE",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 54.9,
+     "ppg": 9.15
+    },
+    "b": {
+     "games": 4,
+     "total": 30.3,
+     "ppg": 7.58
+    }
+   }
+  },
+  {
+   "question_id": "Q0307",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "RB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 42.7,
+     "ppg": 5.34
+    },
+    "b": {
+     "games": 8,
+     "total": 52.9,
+     "ppg": 6.61
+    }
+   }
+  },
+  {
+   "question_id": "Q0308",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 212.1,
+     "ppg": 23.57
+    },
+    "b": {
+     "games": 9,
+     "total": 178.2,
+     "ppg": 19.8
+    }
+   }
+  },
+  {
+   "question_id": "Q0309",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 8,
+     "total": 133.7,
+     "ppg": 16.71
+    },
+    "b": {
+     "games": 9,
+     "total": 133.8,
+     "ppg": 14.87
+    }
+   }
+  },
+  {
+   "question_id": "Q0310",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 104.1,
+     "ppg": 8.01
+    },
+    "b": {
+     "games": 8,
+     "total": 52.9,
+     "ppg": 6.61
+    }
+   }
+  },
+  {
+   "question_id": "Q0311",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 79.9,
+     "ppg": 9.99
+    },
+    "b": {
+     "games": 8,
+     "total": 80.0,
+     "ppg": 10.0
+    }
+   }
+  },
+  {
+   "question_id": "Q0312",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 119.8,
+     "ppg": 23.96
+    },
+    "b": {
+     "games": 5,
+     "total": 104.2,
+     "ppg": 20.84
+    }
+   }
+  },
+  {
+   "question_id": "Q0313",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 57.3,
+     "ppg": 14.32
+    },
+    "b": {
+     "games": 4,
+     "total": 64.5,
+     "ppg": 16.12
+    }
+   }
+  },
+  {
+   "question_id": "Q0314",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "RB",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 46.5,
+     "ppg": 7.75
+    },
+    "b": {
+     "games": 6,
+     "total": 50.4,
+     "ppg": 8.4
+    }
+   }
+  },
+  {
+   "question_id": "Q0315",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "TE",
+    "week": 11,
+    "a": {
+     "games": 6,
+     "total": 48.0,
+     "ppg": 8.0
+    },
+    "b": {
+     "games": 9,
+     "total": 83.04,
+     "ppg": 9.23
+    }
+   }
+  },
+  {
+   "question_id": "Q0316",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "QB",
+    "week": 15,
+    "a": {
+     "games": 12,
+     "total": 246.34,
+     "ppg": 20.53
+    },
+    "b": {
+     "games": 13,
+     "total": 235.88,
+     "ppg": 18.14
+    }
+   }
+  },
+  {
+   "question_id": "Q0317",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 98.5,
+     "ppg": 8.21
+    },
+    "b": {
+     "games": 11,
+     "total": 77.2,
+     "ppg": 7.02
+    }
+   }
+  },
+  {
+   "question_id": "Q0318",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "QB",
+    "week": 8,
+    "a": {
+     "games": 4,
+     "total": 42.94,
+     "ppg": 10.73
+    },
+    "b": {
+     "games": 4,
+     "total": 38.06,
+     "ppg": 9.52
+    }
+   }
+  },
+  {
+   "question_id": "Q0319",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 68.5,
+     "ppg": 8.56
+    },
+    "b": {
+     "games": 7,
+     "total": 67.2,
+     "ppg": 9.6
+    }
+   }
+  },
+  {
+   "question_id": "Q0320",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 75.2,
+    "adp_pos_rank": 7,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 15,
+     "total": 165.0,
+     "ppg": 11.0,
+     "pos_rank": 8
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 116.4,
+     "ppg": 10.58,
+     "pos_rank": 21
+    }
+   }
+  },
+  {
+   "question_id": "Q0321",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "QB",
+    "week": 10,
+    "a": {
+     "games": 9,
+     "total": 140.2,
+     "ppg": 15.58
+    },
+    "b": {
+     "games": 8,
+     "total": 126.04,
+     "ppg": 15.76
+    }
+   }
+  },
+  {
+   "question_id": "Q0322",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 20.2,
+    "adp_pos_rank": 13,
+    "adp_stdev": 3.3,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 204.9,
+     "ppg": 12.05,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0323",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 102.7,
+    "adp_pos_rank": 43,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 9,
+     "total": 82.36,
+     "ppg": 9.15,
+     "pos_rank": 88
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0324",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 73.0,
+     "ppg": 9.12
+    },
+    "b": {
+     "games": 7,
+     "total": 54.5,
+     "ppg": 7.79
+    }
+   }
+  },
+  {
+   "question_id": "Q0325",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 201.5,
+     "ppg": 15.5
+    },
+    "b": {
+     "games": 13,
+     "total": 199.3,
+     "ppg": 15.33
+    }
+   }
+  },
+  {
+   "question_id": "Q0326",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "WR",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 75.2,
+     "ppg": 15.04
+    },
+    "b": {
+     "games": 4,
+     "total": 69.6,
+     "ppg": 17.4
+    }
+   }
+  },
+  {
+   "question_id": "Q0327",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 49.4,
+     "ppg": 7.06
+    },
+    "b": {
+     "games": 5,
+     "total": 35.9,
+     "ppg": 7.18
+    }
+   }
+  },
+  {
+   "question_id": "Q0328",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "RB",
+    "week": 16,
+    "a": {
+     "games": 12,
+     "total": 63.6,
+     "ppg": 5.3
+    },
+    "b": {
+     "games": 13,
+     "total": 69.2,
+     "ppg": 5.32
+    }
+   }
+  },
+  {
+   "question_id": "Q0329",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 103.6,
+    "adp_pos_rank": 10,
+    "adp_stdev": 11.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 121.2,
+     "ppg": 7.13,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 62.0,
+     "ppg": 4.13,
+     "pos_rank": 43
+    }
+   }
+  },
+  {
+   "question_id": "Q0330",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 33.2,
+    "adp_pos_rank": 2,
+    "adp_stdev": 4.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 380.76,
+     "ppg": 22.4,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 332.84,
+     "ppg": 22.19,
+     "pos_rank": 9
+    }
+   }
+  },
+  {
+   "question_id": "Q0331",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "RB",
+    "week": 8,
+    "a": {
+     "games": 3,
+     "total": 24.8,
+     "ppg": 8.27
+    },
+    "b": {
+     "games": 7,
+     "total": 71.0,
+     "ppg": 10.14
+    }
+   }
+  },
+  {
+   "question_id": "Q0332",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 26.0,
+     "ppg": 6.5
+    },
+    "b": {
+     "games": 3,
+     "total": 19.3,
+     "ppg": 6.43
+    }
+   }
+  },
+  {
+   "question_id": "Q0333",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 68.7,
+    "adp_pos_rank": 29,
+    "adp_stdev": 6.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0334",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 100.3,
+     "ppg": 7.72
+    },
+    "b": {
+     "games": 12,
+     "total": 86.4,
+     "ppg": 7.2
+    }
+   }
+  },
+  {
+   "question_id": "Q0335",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 22.7,
+    "adp_pos_rank": 8,
+    "adp_stdev": 3.4,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 17,
+     "total": 296.5,
+     "ppg": 17.44,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 328.9,
+     "ppg": 21.93,
+     "pos_rank": 2
+    }
+   }
+  },
+  {
+   "question_id": "Q0336",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 39.6,
+    "adp_pos_rank": 16,
+    "adp_stdev": 4.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 11,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0337",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 3,
+     "total": 22.6,
+     "ppg": 7.53
+    },
+    "b": {
+     "games": 6,
+     "total": 53.1,
+     "ppg": 8.85
+    }
+   }
+  },
+  {
+   "question_id": "Q0338",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 2.7,
+    "adp_pos_rank": 3,
+    "adp_stdev": 0.9,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 343.8,
+     "ppg": 21.49,
+     "pos_rank": 2
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 165.3,
+     "ppg": 16.53,
+     "pos_rank": 26
+    }
+   }
+  },
+  {
+   "question_id": "Q0339",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 4,
+     "total": 20.1,
+     "ppg": 5.03
+    },
+    "b": {
+     "games": 6,
+     "total": 36.6,
+     "ppg": 6.1
+    }
+   }
+  },
+  {
+   "question_id": "Q0340",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 56.7,
+    "adp_pos_rank": 24,
+    "adp_stdev": 5.6,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 231.8,
+     "ppg": 14.49,
+     "pos_rank": 20
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 232.0,
+     "ppg": 15.47,
+     "pos_rank": 17
+    }
+   }
+  },
+  {
+   "question_id": "Q0341",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 74.5,
+     "ppg": 5.73
+    },
+    "b": {
+     "games": 13,
+     "total": 83.6,
+     "ppg": 6.43
+    }
+   }
+  },
+  {
+   "question_id": "Q0342",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "RB",
+    "week": 14,
+    "a": {
+     "games": 11,
+     "total": 110.2,
+     "ppg": 10.02
+    },
+    "b": {
+     "games": 12,
+     "total": 139.9,
+     "ppg": 11.66
+    }
+   }
+  },
+  {
+   "question_id": "Q0343",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 75.9,
+    "adp_pos_rank": 32,
+    "adp_stdev": 7.3,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 5,
+     "total": 34.8,
+     "ppg": 6.96,
+     "pos_rank": 133
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 234.1,
+     "ppg": 14.63,
+     "pos_rank": 16
+    }
+   }
+  },
+  {
+   "question_id": "Q0344",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 134.1,
+    "adp_pos_rank": 13,
+    "adp_stdev": 16.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 164.3,
+     "ppg": 10.27,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 145.3,
+     "ppg": 10.38,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "Q0345",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "QB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 270.1,
+     "ppg": 24.55
+    },
+    "b": {
+     "games": 11,
+     "total": 227.08,
+     "ppg": 20.64
+    }
+   }
+  },
+  {
+   "question_id": "Q0346",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 3,
+     "total": 27.22,
+     "ppg": 9.07
+    },
+    "b": {
+     "games": 9,
+     "total": 94.46,
+     "ppg": 10.5
+    }
+   }
+  },
+  {
+   "question_id": "Q0347",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 86.6,
+    "adp_pos_rank": 35,
+    "adp_stdev": 6.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 185.6,
+     "ppg": 10.92,
+     "pos_rank": 30
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0348",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 56.3,
+    "adp_pos_rank": 6,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 312.16,
+     "ppg": 20.81,
+     "pos_rank": 9
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 109.14,
+     "ppg": 7.8,
+     "pos_rank": 34
+    }
+   }
+  },
+  {
+   "question_id": "Q0349",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 97.3,
+     "ppg": 8.11
+    },
+    "b": {
+     "games": 12,
+     "total": 119.76,
+     "ppg": 9.98
+    }
+   }
+  },
+  {
+   "question_id": "Q0350",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 31.6,
+     "ppg": 7.9
+    },
+    "b": {
+     "games": 4,
+     "total": 28.2,
+     "ppg": 7.05
+    }
+   }
+  },
+  {
+   "question_id": "Q0351",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 191.0,
+     "ppg": 14.69
+    },
+    "b": {
+     "games": 11,
+     "total": 193.5,
+     "ppg": 17.59
+    }
+   }
+  },
+  {
+   "question_id": "Q0352",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 64.4,
+     "ppg": 8.05
+    },
+    "b": {
+     "games": 7,
+     "total": 52.0,
+     "ppg": 7.43
+    }
+   }
+  },
+  {
+   "question_id": "Q0353",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 62.2,
+     "ppg": 10.37
+    },
+    "b": {
+     "games": 4,
+     "total": 47.2,
+     "ppg": 11.8
+    }
+   }
+  },
+  {
+   "question_id": "Q0354",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 55.8,
+     "ppg": 13.95
+    },
+    "b": {
+     "games": 3,
+     "total": 42.3,
+     "ppg": 14.1
+    }
+   }
+  },
+  {
+   "question_id": "Q0355",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 90.7,
+     "ppg": 12.96
+    },
+    "b": {
+     "games": 6,
+     "total": 93.5,
+     "ppg": 15.58
+    }
+   }
+  },
+  {
+   "question_id": "Q0356",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 12,
+     "total": 65.9,
+     "ppg": 5.49
+    },
+    "b": {
+     "games": 14,
+     "total": 74.2,
+     "ppg": 5.3
+    }
+   }
+  },
+  {
+   "question_id": "Q0357",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "RB",
+    "week": 12,
+    "a": {
+     "games": 8,
+     "total": 95.2,
+     "ppg": 11.9
+    },
+    "b": {
+     "games": 10,
+     "total": 119.8,
+     "ppg": 11.98
+    }
+   }
+  },
+  {
+   "question_id": "Q0358",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 12?",
+   "packet": {
+    "position": "WR",
+    "week": 12,
+    "a": {
+     "games": 9,
+     "total": 70.4,
+     "ppg": 7.82
+    },
+    "b": {
+     "games": 9,
+     "total": 59.0,
+     "ppg": 6.56
+    }
+   }
+  },
+  {
+   "question_id": "Q0359",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 12,
+     "total": 90.2,
+     "ppg": 7.52
+    },
+    "b": {
+     "games": 14,
+     "total": 90.5,
+     "ppg": 6.46
+    }
+   }
+  },
+  {
+   "question_id": "Q0360",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 90.0,
+    "adp_pos_rank": 38,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 10,
+     "total": 147.2,
+     "ppg": 14.72,
+     "pos_rank": 46
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 287.8,
+     "ppg": 17.99,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "Q0361",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 90.3,
+    "adp_pos_rank": 12,
+    "adp_stdev": 7.8,
+    "seasons_of_data": 11,
+    "years_since_first_season": 11,
+    "prior_season": {
+     "games": 17,
+     "total": 329.74,
+     "ppg": 19.4,
+     "pos_rank": 6
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 260.56,
+     "ppg": 16.29,
+     "pos_rank": 16
+    }
+   }
+  },
+  {
+   "question_id": "Q0362",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 130.5,
+    "adp_pos_rank": 53,
+    "adp_stdev": 7.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0363",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 134.9,
+    "adp_pos_rank": 55,
+    "adp_stdev": 10.1,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 9,
+     "total": 103.5,
+     "ppg": 11.5,
+     "pos_rank": 70
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 166.3,
+     "ppg": 11.88,
+     "pos_rank": 40
+    }
+   }
+  },
+  {
+   "question_id": "Q0364",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 83.6,
+    "adp_pos_rank": 10,
+    "adp_stdev": 7.6,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 320.56,
+     "ppg": 20.04,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 5,
+     "total": 135.64,
+     "ppg": 27.13,
+     "pos_rank": 30
+    }
+   }
+  },
+  {
+   "question_id": "Q0365",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 10,
+     "total": 123.6,
+     "ppg": 12.36
+    },
+    "b": {
+     "games": 9,
+     "total": 131.0,
+     "ppg": 14.56
+    }
+   }
+  },
+  {
+   "question_id": "Q0366",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "TE",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 87.2,
+     "ppg": 7.27
+    },
+    "b": {
+     "games": 9,
+     "total": 68.8,
+     "ppg": 7.64
+    }
+   }
+  },
+  {
+   "question_id": "Q0367",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "QB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 353.14,
+     "ppg": 25.22
+    },
+    "b": {
+     "games": 14,
+     "total": 315.6,
+     "ppg": 22.54
+    }
+   }
+  },
+  {
+   "question_id": "Q0368",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 111.5,
+    "adp_pos_rank": 11,
+    "adp_stdev": 15.2,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 164.1,
+     "ppg": 10.94,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 66.8,
+     "ppg": 6.07,
+     "pos_rank": 39
+    }
+   }
+  },
+  {
+   "question_id": "Q0369",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 68.8,
+     "ppg": 5.73
+    },
+    "b": {
+     "games": 12,
+     "total": 70.6,
+     "ppg": 5.88
+    }
+   }
+  },
+  {
+   "question_id": "Q0370",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 134.1,
+    "adp_pos_rank": 54,
+    "adp_stdev": 11.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0371",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "QB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 185.7,
+     "ppg": 16.88
+    },
+    "b": {
+     "games": 10,
+     "total": 135.56,
+     "ppg": 13.56
+    }
+   }
+  },
+  {
+   "question_id": "Q0372",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 101.5,
+    "adp_pos_rank": 40,
+    "adp_stdev": 9.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 14,
+     "total": 173.9,
+     "ppg": 12.42,
+     "pos_rank": 24
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 250.4,
+     "ppg": 17.89,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "Q0373",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 33.6,
+    "adp_pos_rank": 18,
+    "adp_stdev": 4.1,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0374",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 102.2,
+    "adp_pos_rank": 41,
+    "adp_stdev": 9.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0375",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 114.7,
+    "adp_pos_rank": 48,
+    "adp_stdev": 14.3,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 229.1,
+     "ppg": 14.32,
+     "pos_rank": 10
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 202.2,
+     "ppg": 14.44,
+     "pos_rank": 13
+    }
+   }
+  },
+  {
+   "question_id": "Q0376",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 44.2,
+    "adp_pos_rank": 4,
+    "adp_stdev": 5.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 14,
+     "total": 198.0,
+     "ppg": 14.14,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 8,
+     "total": 125.1,
+     "ppg": 15.64,
+     "pos_rank": 20
+    }
+   }
+  },
+  {
+   "question_id": "Q0377",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 6,
+     "total": 31.9,
+     "ppg": 5.32
+    },
+    "b": {
+     "games": 8,
+     "total": 45.6,
+     "ppg": 5.7
+    }
+   }
+  },
+  {
+   "question_id": "Q0378",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "TE",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 74.9,
+     "ppg": 5.76
+    },
+    "b": {
+     "games": 9,
+     "total": 51.0,
+     "ppg": 5.67
+    }
+   }
+  },
+  {
+   "question_id": "Q0379",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 84.2,
+    "adp_pos_rank": 34,
+    "adp_stdev": 7.1,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 202.5,
+     "ppg": 13.5,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 236.8,
+     "ppg": 14.8,
+     "pos_rank": 15
+    }
+   }
+  },
+  {
+   "question_id": "Q0380",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "TE",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 78.9,
+     "ppg": 13.15
+    },
+    "b": {
+     "games": 6,
+     "total": 65.1,
+     "ppg": 10.85
+    }
+   }
+  },
+  {
+   "question_id": "Q0381",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 107.6,
+    "adp_pos_rank": 43,
+    "adp_stdev": 8.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0382",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 20.4,
+    "adp_pos_rank": 1,
+    "adp_stdev": 5.3,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 17,
+     "total": 402.58,
+     "ppg": 23.68,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 396.06,
+     "ppg": 24.75,
+     "pos_rank": 1
+    }
+   }
+  },
+  {
+   "question_id": "Q0383",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 5,
+     "total": 76.3,
+     "ppg": 15.26
+    },
+    "b": {
+     "games": 7,
+     "total": 113.8,
+     "ppg": 16.26
+    }
+   }
+  },
+  {
+   "question_id": "Q0384",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "RB",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 114.9,
+     "ppg": 8.21
+    },
+    "b": {
+     "games": 14,
+     "total": 114.5,
+     "ppg": 8.18
+    }
+   }
+  },
+  {
+   "question_id": "Q0385",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 187.7,
+     "ppg": 23.46
+    },
+    "b": {
+     "games": 8,
+     "total": 173.92,
+     "ppg": 21.74
+    }
+   }
+  },
+  {
+   "question_id": "Q0386",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "WR",
+    "week": 10,
+    "a": {
+     "games": 9,
+     "total": 81.9,
+     "ppg": 9.1
+    },
+    "b": {
+     "games": 5,
+     "total": 45.2,
+     "ppg": 9.04
+    }
+   }
+  },
+  {
+   "question_id": "Q0387",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 123.4,
+     "ppg": 13.71
+    },
+    "b": {
+     "games": 9,
+     "total": 152.5,
+     "ppg": 16.94
+    }
+   }
+  },
+  {
+   "question_id": "Q0388",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 29.5,
+     "ppg": 7.38
+    },
+    "b": {
+     "games": 4,
+     "total": 36.3,
+     "ppg": 9.07
+    }
+   }
+  },
+  {
+   "question_id": "Q0389",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "WR",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 58.6,
+     "ppg": 5.33
+    },
+    "b": {
+     "games": 10,
+     "total": 56.9,
+     "ppg": 5.69
+    }
+   }
+  },
+  {
+   "question_id": "Q0390",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 64.8,
+     "ppg": 10.8
+    },
+    "b": {
+     "games": 6,
+     "total": 66.5,
+     "ppg": 11.08
+    }
+   }
+  },
+  {
+   "question_id": "Q0391",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 46.8,
+    "adp_pos_rank": 23,
+    "adp_stdev": 5.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 226.0,
+     "ppg": 15.07,
+     "pos_rank": 12
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 231.3,
+     "ppg": 15.42,
+     "pos_rank": 8
+    }
+   }
+  },
+  {
+   "question_id": "Q0392",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 47.7,
+    "adp_pos_rank": 19,
+    "adp_stdev": 5.5,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 247.8,
+     "ppg": 15.49,
+     "pos_rank": 12
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0393",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "RB",
+    "week": 7,
+    "a": {
+     "games": 4,
+     "total": 29.8,
+     "ppg": 7.45
+    },
+    "b": {
+     "games": 5,
+     "total": 41.6,
+     "ppg": 8.32
+    }
+   }
+  },
+  {
+   "question_id": "Q0394",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 27.7,
+    "adp_pos_rank": 15,
+    "adp_stdev": 3.7,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 17,
+     "total": 252.06,
+     "ppg": 14.83,
+     "pos_rank": 7
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 223.7,
+     "ppg": 14.91,
+     "pos_rank": 9
+    }
+   }
+  },
+  {
+   "question_id": "Q0395",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 3,
+     "total": 15.3,
+     "ppg": 5.1
+    },
+    "b": {
+     "games": 4,
+     "total": 24.3,
+     "ppg": 6.08
+    }
+   }
+  },
+  {
+   "question_id": "Q0396",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 68.9,
+    "adp_pos_rank": 29,
+    "adp_stdev": 7.0,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 8,
+     "total": 110.0,
+     "ppg": 13.75,
+     "pos_rank": 49
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 218.5,
+     "ppg": 13.66,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "Q0397",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 51.4,
+     "ppg": 7.34
+    },
+    "b": {
+     "games": 7,
+     "total": 56.4,
+     "ppg": 8.06
+    }
+   }
+  },
+  {
+   "question_id": "Q0398",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 65.8,
+     "ppg": 5.06
+    },
+    "b": {
+     "games": 11,
+     "total": 59.9,
+     "ppg": 5.45
+    }
+   }
+  },
+  {
+   "question_id": "Q0399",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 8.7,
+    "adp_pos_rank": 3,
+    "adp_stdev": 1.8,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 304.6,
+     "ppg": 17.92,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0400",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "QB",
+    "week": 7,
+    "a": {
+     "games": 3,
+     "total": 32.66,
+     "ppg": 10.89
+    },
+    "b": {
+     "games": 5,
+     "total": 64.9,
+     "ppg": 12.98
+    }
+   }
+  },
+  {
+   "question_id": "Q0401",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 30.5,
+     "ppg": 5.08
+    },
+    "b": {
+     "games": 4,
+     "total": 20.8,
+     "ppg": 5.2
+    }
+   }
+  },
+  {
+   "question_id": "Q0402",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "TE",
+    "week": 8,
+    "a": {
+     "games": 3,
+     "total": 19.2,
+     "ppg": 6.4
+    },
+    "b": {
+     "games": 6,
+     "total": 32.3,
+     "ppg": 5.38
+    }
+   }
+  },
+  {
+   "question_id": "Q0403",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "WR",
+    "week": 15,
+    "a": {
+     "games": 13,
+     "total": 173.5,
+     "ppg": 13.35
+    },
+    "b": {
+     "games": 13,
+     "total": 190.9,
+     "ppg": 14.68
+    }
+   }
+  },
+  {
+   "question_id": "Q0404",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "TE",
+    "week": 9,
+    "a": {
+     "games": 4,
+     "total": 21.6,
+     "ppg": 5.4
+    },
+    "b": {
+     "games": 7,
+     "total": 40.1,
+     "ppg": 5.73
+    }
+   }
+  },
+  {
+   "question_id": "Q0405",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "RB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 20.0,
+     "ppg": 5.0
+    },
+    "b": {
+     "games": 4,
+     "total": 20.5,
+     "ppg": 5.12
+    }
+   }
+  },
+  {
+   "question_id": "Q0406",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "QB",
+    "week": 9,
+    "a": {
+     "games": 4,
+     "total": 36.46,
+     "ppg": 9.12
+    },
+    "b": {
+     "games": 7,
+     "total": 79.08,
+     "ppg": 11.3
+    }
+   }
+  },
+  {
+   "question_id": "Q0407",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "QB",
+    "week": 14,
+    "a": {
+     "games": 9,
+     "total": 105.32,
+     "ppg": 11.7
+    },
+    "b": {
+     "games": 10,
+     "total": 132.78,
+     "ppg": 13.28
+    }
+   }
+  },
+  {
+   "question_id": "Q0408",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "RB",
+    "week": 16,
+    "a": {
+     "games": 9,
+     "total": 50.6,
+     "ppg": 5.62
+    },
+    "b": {
+     "games": 9,
+     "total": 62.6,
+     "ppg": 6.96
+    }
+   }
+  },
+  {
+   "question_id": "Q0409",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 14?",
+   "packet": {
+    "position": "WR",
+    "week": 14,
+    "a": {
+     "games": 12,
+     "total": 105.2,
+     "ppg": 8.77
+    },
+    "b": {
+     "games": 6,
+     "total": 47.2,
+     "ppg": 7.87
+    }
+   }
+  },
+  {
+   "question_id": "Q0410",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "WR",
+    "week": 5,
+    "a": {
+     "games": 3,
+     "total": 41.4,
+     "ppg": 13.8
+    },
+    "b": {
+     "games": 4,
+     "total": 63.0,
+     "ppg": 15.75
+    }
+   }
+  },
+  {
+   "question_id": "Q0411",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "QB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 137.76,
+     "ppg": 17.22
+    },
+    "b": {
+     "games": 8,
+     "total": 133.46,
+     "ppg": 16.68
+    }
+   }
+  },
+  {
+   "question_id": "Q0412",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "WR",
+    "week": 11,
+    "a": {
+     "games": 8,
+     "total": 81.6,
+     "ppg": 10.2
+    },
+    "b": {
+     "games": 8,
+     "total": 82.4,
+     "ppg": 10.3
+    }
+   }
+  },
+  {
+   "question_id": "Q0413",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 38.8,
+    "adp_pos_rank": 19,
+    "adp_stdev": 3.9,
+    "seasons_of_data": 1,
+    "years_since_first_season": 2,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 168.5,
+     "ppg": 11.23,
+     "pos_rank": 24
+    }
+   }
+  },
+  {
+   "question_id": "Q0414",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "WR",
+    "week": 9,
+    "a": {
+     "games": 6,
+     "total": 30.8,
+     "ppg": 5.13
+    },
+    "b": {
+     "games": 4,
+     "total": 24.0,
+     "ppg": 6.0
+    }
+   }
+  },
+  {
+   "question_id": "Q0415",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 149.3,
+     "ppg": 16.59
+    },
+    "b": {
+     "games": 9,
+     "total": 122.2,
+     "ppg": 13.58
+    }
+   }
+  },
+  {
+   "question_id": "Q0416",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 13,
+     "total": 95.0,
+     "ppg": 7.31
+    },
+    "b": {
+     "games": 13,
+     "total": 95.4,
+     "ppg": 7.34
+    }
+   }
+  },
+  {
+   "question_id": "Q0417",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "TE",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 29.6,
+     "ppg": 7.4
+    },
+    "b": {
+     "games": 3,
+     "total": 24.8,
+     "ppg": 8.27
+    }
+   }
+  },
+  {
+   "question_id": "Q0418",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 105.8,
+    "adp_pos_rank": 42,
+    "adp_stdev": 8.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 123.4,
+     "ppg": 7.71,
+     "pos_rank": 41
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0419",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 6,
+     "total": 56.3,
+     "ppg": 9.38
+    },
+    "b": {
+     "games": 5,
+     "total": 50.3,
+     "ppg": 10.06
+    }
+   }
+  },
+  {
+   "question_id": "Q0420",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 48.7,
+    "adp_pos_rank": 24,
+    "adp_stdev": 5.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 185.6,
+     "ppg": 10.92,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 40.3,
+     "ppg": 4.48,
+     "pos_rank": 83
+    }
+   }
+  },
+  {
+   "question_id": "Q0421",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 10?",
+   "packet": {
+    "position": "RB",
+    "week": 10,
+    "a": {
+     "games": 8,
+     "total": 163.1,
+     "ppg": 20.39
+    },
+    "b": {
+     "games": 8,
+     "total": 156.8,
+     "ppg": 19.6
+    }
+   }
+  },
+  {
+   "question_id": "Q0422",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 6?",
+   "packet": {
+    "position": "QB",
+    "week": 6,
+    "a": {
+     "games": 5,
+     "total": 53.92,
+     "ppg": 10.78
+    },
+    "b": {
+     "games": 4,
+     "total": 40.52,
+     "ppg": 10.13
+    }
+   }
+  },
+  {
+   "question_id": "Q0423",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 152.6,
+    "adp_pos_rank": 57,
+    "adp_stdev": 16.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 54.5,
+     "ppg": 3.63,
+     "pos_rank": 117
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 93.58,
+     "ppg": 6.24,
+     "pos_rank": 85
+    }
+   }
+  },
+  {
+   "question_id": "Q0424",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "TE",
+    "week": 7,
+    "a": {
+     "games": 6,
+     "total": 40.0,
+     "ppg": 6.67
+    },
+    "b": {
+     "games": 6,
+     "total": 34.6,
+     "ppg": 5.77
+    }
+   }
+  },
+  {
+   "question_id": "Q0425",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 7.1,
+    "adp_pos_rank": 5,
+    "adp_stdev": 2.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 17,
+     "total": 300.7,
+     "ppg": 17.69,
+     "pos_rank": 3
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0426",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 13?",
+   "packet": {
+    "position": "RB",
+    "week": 13,
+    "a": {
+     "games": 11,
+     "total": 242.4,
+     "ppg": 22.04
+    },
+    "b": {
+     "games": 11,
+     "total": 217.76,
+     "ppg": 19.8
+    }
+   }
+  },
+  {
+   "question_id": "Q0427",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 123.6,
+    "adp_pos_rank": 50,
+    "adp_stdev": 12.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0428",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 70.8,
+    "adp_pos_rank": 32,
+    "adp_stdev": 6.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 156.6,
+     "ppg": 10.44,
+     "pos_rank": 28
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 120.8,
+     "ppg": 7.55,
+     "pos_rank": 41
+    }
+   }
+  },
+  {
+   "question_id": "Q0429",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 166.6,
+     "ppg": 11.9
+    },
+    "b": {
+     "games": 14,
+     "total": 188.0,
+     "ppg": 13.43
+    }
+   }
+  },
+  {
+   "question_id": "Q0430",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 8,
+     "total": 73.9,
+     "ppg": 9.24
+    },
+    "b": {
+     "games": 8,
+     "total": 82.6,
+     "ppg": 10.32
+    }
+   }
+  },
+  {
+   "question_id": "Q0431",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 1.3,
+    "adp_pos_rank": 1,
+    "adp_stdev": 0.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 373.1,
+     "ppg": 21.95,
+     "pos_rank": 1
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 252.8,
+     "ppg": 16.85,
+     "pos_rank": 6
+    }
+   }
+  },
+  {
+   "question_id": "Q0432",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 11?",
+   "packet": {
+    "position": "RB",
+    "week": 11,
+    "a": {
+     "games": 9,
+     "total": 55.3,
+     "ppg": 6.14
+    },
+    "b": {
+     "games": 3,
+     "total": 18.7,
+     "ppg": 6.23
+    }
+   }
+  },
+  {
+   "question_id": "Q0433",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 5?",
+   "packet": {
+    "position": "QB",
+    "week": 5,
+    "a": {
+     "games": 4,
+     "total": 59.14,
+     "ppg": 14.79
+    },
+    "b": {
+     "games": 4,
+     "total": 47.88,
+     "ppg": 11.97
+    }
+   }
+  },
+  {
+   "question_id": "Q0434",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 7?",
+   "packet": {
+    "position": "WR",
+    "week": 7,
+    "a": {
+     "games": 4,
+     "total": 78.9,
+     "ppg": 19.73
+    },
+    "b": {
+     "games": 6,
+     "total": 108.7,
+     "ppg": 18.12
+    }
+   }
+  },
+  {
+   "question_id": "Q0435",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at QB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "QB",
+    "threshold": 12,
+    "adp_overall": 38.3,
+    "adp_pos_rank": 3,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 17,
+     "total": 361.66,
+     "ppg": 21.27,
+     "pos_rank": 4
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 374.4,
+     "ppg": 24.96,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "Q0436",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 9?",
+   "packet": {
+    "position": "RB",
+    "week": 9,
+    "a": {
+     "games": 7,
+     "total": 107.7,
+     "ppg": 15.39
+    },
+    "b": {
+     "games": 8,
+     "total": 133.5,
+     "ppg": 16.69
+    }
+   }
+  },
+  {
+   "question_id": "Q0437",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at RB this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "RB",
+    "threshold": 24,
+    "adp_overall": 59.8,
+    "adp_pos_rank": 26,
+    "adp_stdev": 6.3,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 15,
+     "total": 210.1,
+     "ppg": 14.01,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 10,
+     "total": 91.3,
+     "ppg": 9.13,
+     "pos_rank": 53
+    }
+   }
+  },
+  {
+   "question_id": "Q0438",
+   "family": "season_threshold",
+   "question": "Will this player finish top-12 at TE this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "TE",
+    "threshold": 12,
+    "adp_overall": 100.0,
+    "adp_pos_rank": 9,
+    "adp_stdev": 10.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 151.7,
+     "ppg": 9.48,
+     "pos_rank": 13
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "Q0439",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 8?",
+   "packet": {
+    "position": "WR",
+    "week": 8,
+    "a": {
+     "games": 7,
+     "total": 99.8,
+     "ppg": 14.26
+    },
+    "b": {
+     "games": 7,
+     "total": 95.42,
+     "ppg": 13.63
+    }
+   }
+  },
+  {
+   "question_id": "Q0440",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 15?",
+   "packet": {
+    "position": "RB",
+    "week": 15,
+    "a": {
+     "games": 10,
+     "total": 143.1,
+     "ppg": 14.31
+    },
+    "b": {
+     "games": 11,
+     "total": 159.3,
+     "ppg": 14.48
+    }
+   }
+  },
+  {
+   "question_id": "Q0441",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 133.7,
+    "adp_pos_rank": 53,
+    "adp_stdev": 10.6,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 15,
+     "total": 166.6,
+     "ppg": 11.11,
+     "pos_rank": 37
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 214.9,
+     "ppg": 13.43,
+     "pos_rank": 22
+    }
+   }
+  },
+  {
+   "question_id": "Q0442",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 203.4,
+     "ppg": 14.53
+    },
+    "b": {
+     "games": 7,
+     "total": 100.6,
+     "ppg": 14.37
+    }
+   }
+  },
+  {
+   "question_id": "Q0443",
+   "family": "weekly_h2h",
+   "question": "Will player A outscore player B in week 16?",
+   "packet": {
+    "position": "WR",
+    "week": 16,
+    "a": {
+     "games": 14,
+     "total": 128.7,
+     "ppg": 9.19
+    },
+    "b": {
+     "games": 7,
+     "total": 54.2,
+     "ppg": 7.74
+    }
+   }
+  },
+  {
+   "question_id": "Q0444",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 112.5,
+    "adp_pos_rank": 45,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 16,
+     "total": 241.4,
+     "ppg": 15.09,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 265.4,
+     "ppg": 16.59,
+     "pos_rank": 8
+    }
+   }
+  },
+  {
+   "question_id": "Q0445",
+   "family": "season_threshold",
+   "question": "Will this player finish top-24 at WR this season (positional rank by total fantasy points)?",
+   "packet": {
+    "position": "WR",
+    "threshold": 24,
+    "adp_overall": 68.1,
+    "adp_pos_rank": 28,
+    "adp_stdev": 5.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 17,
+     "total": 219.7,
+     "ppg": 12.92,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 152.1,
+     "ppg": 9.51,
+     "pos_rank": 49
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,1493 @@
+{
+ "benchmark": "breakoutbench_canary_v1",
+ "variant": "anonymized_canary",
+ "protocol": "canary_v1",
+ "season_masked": true,
+ "format": "ppr",
+ "families": {
+  "full_slate": 67
+ },
+ "instructions": "For each question, return the probability the answer is YES. Respond with a JSON list [{\"question_id\": ..., \"p\": <0..1>}] covering every question.",
+ "questions": [
+  {
+   "question_id": "B0000",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 146.0,
+    "adp_pos_rank": 55,
+    "adp_stdev": 23.8,
+    "seasons_of_data": 6,
+    "years_since_first_season": 7,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 141.1,
+     "ppg": 12.83,
+     "pos_rank": 38
+    }
+   }
+  },
+  {
+   "question_id": "B0001",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 126.0,
+    "adp_pos_rank": 51,
+    "adp_stdev": 11.6,
+    "seasons_of_data": 8,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 227.8,
+     "ppg": 14.24,
+     "pos_rank": 18
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 193.9,
+     "ppg": 14.92,
+     "pos_rank": 28
+    }
+   }
+  },
+  {
+   "question_id": "B0010",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 116.2,
+    "adp_pos_rank": 48,
+    "adp_stdev": 7.7,
+    "seasons_of_data": 1,
+    "years_since_first_season": 10,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0012",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 118.2,
+    "adp_pos_rank": 49,
+    "adp_stdev": 9.0,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 187.96,
+     "ppg": 12.53,
+     "pos_rank": 33
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 237.4,
+     "ppg": 14.84,
+     "pos_rank": 12
+    }
+   }
+  },
+  {
+   "question_id": "B0013",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 116.2,
+    "adp_pos_rank": 47,
+    "adp_stdev": 9.9,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 12,
+     "total": 142.52,
+     "ppg": 11.88,
+     "pos_rank": 53
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 61.9,
+     "ppg": 5.63,
+     "pos_rank": 98
+    }
+   }
+  },
+  {
+   "question_id": "B0016",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 128.8,
+    "adp_pos_rank": 51,
+    "adp_stdev": 18.9,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 14,
+     "total": 116.6,
+     "ppg": 8.33,
+     "pos_rank": 42
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 202.2,
+     "ppg": 13.48,
+     "pos_rank": 18
+    }
+   }
+  },
+  {
+   "question_id": "B0017",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 170.7,
+    "adp_pos_rank": 68,
+    "adp_stdev": 25.1,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 185.6,
+     "ppg": 11.6,
+     "pos_rank": 34
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 94.0,
+     "ppg": 8.55,
+     "pos_rank": 76
+    }
+   }
+  },
+  {
+   "question_id": "B0018",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 154.8,
+    "adp_pos_rank": 59,
+    "adp_stdev": 14.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0024",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 140.2,
+    "adp_pos_rank": 56,
+    "adp_stdev": 12.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 15,
+     "total": 212.1,
+     "ppg": 14.14,
+     "pos_rank": 23
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 171.7,
+     "ppg": 10.73,
+     "pos_rank": 36
+    }
+   }
+  },
+  {
+   "question_id": "B0027",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 133.8,
+    "adp_pos_rank": 54,
+    "adp_stdev": 10.4,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 181.06,
+     "ppg": 11.32,
+     "pos_rank": 37
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 100.8,
+     "ppg": 7.2,
+     "pos_rank": 71
+    }
+   }
+  },
+  {
+   "question_id": "B0030",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 112.8,
+    "adp_pos_rank": 46,
+    "adp_stdev": 7.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 13,
+     "total": 153.6,
+     "ppg": 11.82,
+     "pos_rank": 48
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 225.8,
+     "ppg": 15.05,
+     "pos_rank": 17
+    }
+   }
+  },
+  {
+   "question_id": "B0033",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 144.7,
+    "adp_pos_rank": 20,
+    "adp_stdev": 14.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0041",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 161.7,
+    "adp_pos_rank": 64,
+    "adp_stdev": 16.1,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 16,
+     "total": 109.1,
+     "ppg": 6.82,
+     "pos_rank": 43
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 59.1,
+     "ppg": 4.22,
+     "pos_rank": 67
+    }
+   }
+  },
+  {
+   "question_id": "B0046",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 130.6,
+    "adp_pos_rank": 52,
+    "adp_stdev": 14.0,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 136.2,
+     "ppg": 9.08,
+     "pos_rank": 34
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 157.2,
+     "ppg": 9.82,
+     "pos_rank": 28
+    }
+   }
+  },
+  {
+   "question_id": "B0054",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 148.2,
+    "adp_pos_rank": 60,
+    "adp_stdev": 20.3,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 9,
+     "total": 36.3,
+     "ppg": 4.03,
+     "pos_rank": 131
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0056",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 154.6,
+    "adp_pos_rank": 58,
+    "adp_stdev": 26.7,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 8,
+     "total": 65.3,
+     "ppg": 8.16,
+     "pos_rank": 67
+    },
+    "two_seasons_ago": {
+     "games": 7,
+     "total": 31.2,
+     "ppg": 4.46,
+     "pos_rank": 87
+    }
+   }
+  },
+  {
+   "question_id": "B0057",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 120.6,
+    "adp_pos_rank": 47,
+    "adp_stdev": 11.9,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 193.2,
+     "ppg": 12.07,
+     "pos_rank": 15
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 105.9,
+     "ppg": 6.62,
+     "pos_rank": 44
+    }
+   }
+  },
+  {
+   "question_id": "B0063",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 156.6,
+    "adp_pos_rank": 20,
+    "adp_stdev": 18.5,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 15,
+     "total": 92.9,
+     "ppg": 6.19,
+     "pos_rank": 25
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 89.8,
+     "ppg": 7.48,
+     "pos_rank": 26
+    }
+   }
+  },
+  {
+   "question_id": "B0066",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 159.7,
+    "adp_pos_rank": 63,
+    "adp_stdev": 21.7,
+    "seasons_of_data": 5,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 14,
+     "total": 126.2,
+     "ppg": 9.01,
+     "pos_rank": 39
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0077",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 157.3,
+    "adp_pos_rank": 22,
+    "adp_stdev": 23.8,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0078",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 107.5,
+    "adp_pos_rank": 44,
+    "adp_stdev": 7.1,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 11,
+     "total": 66.0,
+     "ppg": 6.0,
+     "pos_rank": 65
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 197.7,
+     "ppg": 12.36,
+     "pos_rank": 19
+    }
+   }
+  },
+  {
+   "question_id": "B0082",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 154.2,
+    "adp_pos_rank": 57,
+    "adp_stdev": 17.2,
+    "seasons_of_data": 10,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 10,
+     "total": 52.9,
+     "ppg": 5.29,
+     "pos_rank": 76
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 242.5,
+     "ppg": 16.17,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "B0085",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 158.8,
+    "adp_pos_rank": 61,
+    "adp_stdev": 17.6,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 1,
+     "total": 1.3,
+     "ppg": 1.3,
+     "pos_rank": 145
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0086",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 135.4,
+    "adp_pos_rank": 55,
+    "adp_stdev": 11.0,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 16,
+     "total": 173.3,
+     "ppg": 10.83,
+     "pos_rank": 38
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 212.7,
+     "ppg": 15.19,
+     "pos_rank": 24
+    }
+   }
+  },
+  {
+   "question_id": "B0088",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 157.1,
+    "adp_pos_rank": 21,
+    "adp_stdev": 28.8,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 11,
+     "total": 77.5,
+     "ppg": 7.05,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 215.6,
+     "ppg": 14.37,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "B0089",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 158.5,
+    "adp_pos_rank": 64,
+    "adp_stdev": 14.7,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0090",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 143.2,
+    "adp_pos_rank": 19,
+    "adp_stdev": 15.3,
+    "seasons_of_data": 10,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 15,
+     "total": 267.22,
+     "ppg": 17.81,
+     "pos_rank": 14
+    },
+    "two_seasons_ago": {
+     "games": 2,
+     "total": 12.74,
+     "ppg": 6.37,
+     "pos_rank": 52
+    }
+   }
+  },
+  {
+   "question_id": "B0093",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 149.0,
+    "adp_pos_rank": 61,
+    "adp_stdev": 16.4,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0098",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 116.8,
+    "adp_pos_rank": 46,
+    "adp_stdev": 10.4,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 16,
+     "total": 191.4,
+     "ppg": 11.96,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 83.8,
+     "ppg": 5.59,
+     "pos_rank": 55
+    }
+   }
+  },
+  {
+   "question_id": "B0106",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 120.9,
+    "adp_pos_rank": 48,
+    "adp_stdev": 10.3,
+    "seasons_of_data": 8,
+    "years_since_first_season": 8,
+    "prior_season": {
+     "games": 16,
+     "total": 158.1,
+     "ppg": 9.88,
+     "pos_rank": 30
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 68.4,
+     "ppg": 4.28,
+     "pos_rank": 60
+    }
+   }
+  },
+  {
+   "question_id": "B0109",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 139.0,
+    "adp_pos_rank": 54,
+    "adp_stdev": 17.2,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 6,
+     "total": 12.7,
+     "ppg": 2.12,
+     "pos_rank": 120
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 135.4,
+     "ppg": 9.67,
+     "pos_rank": 39
+    }
+   }
+  },
+  {
+   "question_id": "B0110",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 155.5,
+    "adp_pos_rank": 60,
+    "adp_stdev": 16.0,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 85.7,
+     "ppg": 5.71,
+     "pos_rank": 56
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 12.6,
+     "ppg": 1.4,
+     "pos_rank": 103
+    }
+   }
+  },
+  {
+   "question_id": "B0111",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 99.2,
+    "adp_pos_rank": 41,
+    "adp_stdev": 7.8,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0114",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 159.7,
+    "adp_pos_rank": 65,
+    "adp_stdev": 18.2,
+    "seasons_of_data": 10,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 10,
+     "total": 100.1,
+     "ppg": 10.01,
+     "pos_rank": 75
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 154.9,
+     "ppg": 10.33,
+     "pos_rank": 44
+    }
+   }
+  },
+  {
+   "question_id": "B0117",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 163.6,
+    "adp_pos_rank": 26,
+    "adp_stdev": 15.9,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 16,
+     "total": 369.32,
+     "ppg": 23.08,
+     "pos_rank": 5
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 320.98,
+     "ppg": 21.4,
+     "pos_rank": 4
+    }
+   }
+  },
+  {
+   "question_id": "B0125",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 163.3,
+    "adp_pos_rank": 25,
+    "adp_stdev": 19.0,
+    "seasons_of_data": 10,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 9,
+     "total": 153.74,
+     "ppg": 17.08,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 241.46,
+     "ppg": 16.1,
+     "pos_rank": 17
+    }
+   }
+  },
+  {
+   "question_id": "B0127",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 160.6,
+    "adp_pos_rank": 23,
+    "adp_stdev": 20.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 10,
+     "total": 135.46,
+     "ppg": 13.55,
+     "pos_rank": 31
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0128",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 146.4,
+    "adp_pos_rank": 59,
+    "adp_stdev": 16.1,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0133",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 106.5,
+    "adp_pos_rank": 43,
+    "adp_stdev": 9.5,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 13,
+     "total": 86.9,
+     "ppg": 6.68,
+     "pos_rank": 55
+    },
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 68.4,
+     "ppg": 5.26,
+     "pos_rank": 61
+    }
+   }
+  },
+  {
+   "question_id": "B0135",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 156.6,
+    "adp_pos_rank": 63,
+    "adp_stdev": 20.9,
+    "seasons_of_data": 9,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 16,
+     "total": 111.3,
+     "ppg": 6.96,
+     "pos_rank": 68
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0136",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 129.2,
+    "adp_pos_rank": 52,
+    "adp_stdev": 11.0,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 11,
+     "total": 188.9,
+     "ppg": 17.17,
+     "pos_rank": 32
+    },
+    "two_seasons_ago": {
+     "games": 11,
+     "total": 134.0,
+     "ppg": 12.18,
+     "pos_rank": 53
+    }
+   }
+  },
+  {
+   "question_id": "B0137",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 115.0,
+    "adp_pos_rank": 45,
+    "adp_stdev": 9.6,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 12,
+     "total": 179.5,
+     "ppg": 14.96,
+     "pos_rank": 21
+    },
+    "two_seasons_ago": {
+     "games": 12,
+     "total": 141.5,
+     "ppg": 11.79,
+     "pos_rank": 37
+    }
+   }
+  },
+  {
+   "question_id": "B0140",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "TE",
+    "adp_overall": 155.0,
+    "adp_pos_rank": 19,
+    "adp_stdev": 19.2,
+    "seasons_of_data": 10,
+    "years_since_first_season": 10,
+    "prior_season": {
+     "games": 15,
+     "total": 127.4,
+     "ppg": 8.49,
+     "pos_rank": 19
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 167.5,
+     "ppg": 11.96,
+     "pos_rank": 7
+    }
+   }
+  },
+  {
+   "question_id": "B0143",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 162.3,
+    "adp_pos_rank": 67,
+    "adp_stdev": 14.0,
+    "seasons_of_data": 6,
+    "years_since_first_season": 6,
+    "prior_season": {
+     "games": 14,
+     "total": 166.3,
+     "ppg": 11.88,
+     "pos_rank": 40
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 246.2,
+     "ppg": 15.39,
+     "pos_rank": 11
+    }
+   }
+  },
+  {
+   "question_id": "B0147",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 121.3,
+    "adp_pos_rank": 49,
+    "adp_stdev": 12.2,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0150",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 102.7,
+    "adp_pos_rank": 41,
+    "adp_stdev": 7.4,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 120.8,
+     "ppg": 7.55,
+     "pos_rank": 41
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 89.2,
+     "ppg": 6.37,
+     "pos_rank": 53
+    }
+   }
+  },
+  {
+   "question_id": "B0151",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 150.3,
+    "adp_pos_rank": 56,
+    "adp_stdev": 15.6,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 13,
+     "total": 54.5,
+     "ppg": 4.19,
+     "pos_rank": 75
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 67.8,
+     "ppg": 7.53,
+     "pos_rank": 63
+    }
+   }
+  },
+  {
+   "question_id": "B0156",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 160.9,
+    "adp_pos_rank": 24,
+    "adp_stdev": 17.8,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 16,
+     "total": 306.2,
+     "ppg": 19.14,
+     "pos_rank": 11
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 244.42,
+     "ppg": 16.29,
+     "pos_rank": 15
+    }
+   }
+  },
+  {
+   "question_id": "B0157",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 158.8,
+    "adp_pos_rank": 62,
+    "adp_stdev": 16.4,
+    "seasons_of_data": 4,
+    "years_since_first_season": 4,
+    "prior_season": {
+     "games": 1,
+     "total": 8.6,
+     "ppg": 8.6,
+     "pos_rank": 126
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 181.3,
+     "ppg": 12.95,
+     "pos_rank": 22
+    }
+   }
+  },
+  {
+   "question_id": "B0158",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 102.9,
+    "adp_pos_rank": 42,
+    "adp_stdev": 8.2,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 15,
+     "total": 192.2,
+     "ppg": 12.81,
+     "pos_rank": 16
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 214.2,
+     "ppg": 15.3,
+     "pos_rank": 17
+    }
+   }
+  },
+  {
+   "question_id": "B0159",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 109.0,
+    "adp_pos_rank": 45,
+    "adp_stdev": 7.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 152.1,
+     "ppg": 9.51,
+     "pos_rank": 49
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0160",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 150.9,
+    "adp_pos_rank": 62,
+    "adp_stdev": 16.4,
+    "seasons_of_data": 9,
+    "years_since_first_season": 9,
+    "prior_season": {
+     "games": 15,
+     "total": 207.5,
+     "ppg": 13.83,
+     "pos_rank": 27
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 184.8,
+     "ppg": 12.32,
+     "pos_rank": 34
+    }
+   }
+  },
+  {
+   "question_id": "B0162",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 137.9,
+    "adp_pos_rank": 53,
+    "adp_stdev": 12.0,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 3,
+     "total": 3.4,
+     "ppg": 1.13,
+     "pos_rank": 134
+    },
+    "two_seasons_ago": {
+     "games": 9,
+     "total": 75.3,
+     "ppg": 8.37,
+     "pos_rank": 59
+    }
+   }
+  },
+  {
+   "question_id": "B0173",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 144.3,
+    "adp_pos_rank": 58,
+    "adp_stdev": 24.2,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 16,
+     "total": 136.9,
+     "ppg": 8.56,
+     "pos_rank": 57
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0176",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 104.4,
+    "adp_pos_rank": 44,
+    "adp_stdev": 8.1,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 13,
+     "total": 98.9,
+     "ppg": 7.61,
+     "pos_rank": 78
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0179",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 132.6,
+    "adp_pos_rank": 53,
+    "adp_stdev": 10.0,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0184",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 172.7,
+    "adp_pos_rank": 65,
+    "adp_stdev": 14.7,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 10,
+     "total": 84.9,
+     "ppg": 8.49,
+     "pos_rank": 57
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 153.2,
+     "ppg": 9.57,
+     "pos_rank": 30
+    }
+   }
+  },
+  {
+   "question_id": "B0185",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "RB",
+    "adp_overall": 127.6,
+    "adp_pos_rank": 50,
+    "adp_stdev": 10.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0188",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 123.9,
+    "adp_pos_rank": 50,
+    "adp_stdev": 11.0,
+    "seasons_of_data": 1,
+    "years_since_first_season": 1,
+    "prior_season": {
+     "games": 13,
+     "total": 84.1,
+     "ppg": 6.47,
+     "pos_rank": 92
+    },
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0189",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 160.0,
+    "adp_pos_rank": 66,
+    "adp_stdev": 21.3,
+    "seasons_of_data": 5,
+    "years_since_first_season": 6,
+    "prior_season": null,
+    "two_seasons_ago": {
+     "games": 13,
+     "total": 143.1,
+     "ppg": 11.01,
+     "pos_rank": 47
+    }
+   }
+  },
+  {
+   "question_id": "B0190",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 149.1,
+    "adp_pos_rank": 21,
+    "adp_stdev": 24.8,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0192",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 102.9,
+    "adp_pos_rank": 43,
+    "adp_stdev": 9.9,
+    "seasons_of_data": 7,
+    "years_since_first_season": 7,
+    "prior_season": {
+     "games": 15,
+     "total": 232.0,
+     "ppg": 15.47,
+     "pos_rank": 17
+    },
+    "two_seasons_ago": {
+     "games": 14,
+     "total": 117.5,
+     "ppg": 8.39,
+     "pos_rank": 61
+    }
+   }
+  },
+  {
+   "question_id": "B0194",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 140.9,
+    "adp_pos_rank": 57,
+    "adp_stdev": 14.9,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  },
+  {
+   "question_id": "B0197",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 100.0,
+    "adp_pos_rank": 42,
+    "adp_stdev": 7.0,
+    "seasons_of_data": 2,
+    "years_since_first_season": 2,
+    "prior_season": {
+     "games": 16,
+     "total": 124.1,
+     "ppg": 7.76,
+     "pos_rank": 62
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 117.5,
+     "ppg": 7.34,
+     "pos_rank": 62
+    }
+   }
+  },
+  {
+   "question_id": "B0198",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 167.1,
+    "adp_pos_rank": 27,
+    "adp_stdev": 11.8,
+    "seasons_of_data": 5,
+    "years_since_first_season": 5,
+    "prior_season": {
+     "games": 12,
+     "total": 198.4,
+     "ppg": 16.53,
+     "pos_rank": 22
+    },
+    "two_seasons_ago": {
+     "games": 16,
+     "total": 275.86,
+     "ppg": 17.24,
+     "pos_rank": 10
+    }
+   }
+  },
+  {
+   "question_id": "B0199",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "WR",
+    "adp_overall": 170.9,
+    "adp_pos_rank": 69,
+    "adp_stdev": 23.5,
+    "seasons_of_data": 3,
+    "years_since_first_season": 3,
+    "prior_season": {
+     "games": 14,
+     "total": 137.3,
+     "ppg": 9.81,
+     "pos_rank": 55
+    },
+    "two_seasons_ago": {
+     "games": 15,
+     "total": 84.1,
+     "ppg": 5.61,
+     "pos_rank": 83
+    }
+   }
+  },
+  {
+   "question_id": "B0202",
+   "family": "full_slate",
+   "question": "What is the probability this candidate BREAKS OUT this season (finishes top-12 QB/TE or top-24 RB/WR at position, by total fantasy points)? Every candidate in this family is drafted beyond the ADP gates, so each qualifies if they hit.",
+   "packet": {
+    "position": "QB",
+    "adp_overall": 157.4,
+    "adp_pos_rank": 22,
+    "adp_stdev": 24.5,
+    "seasons_of_data": 0,
+    "years_since_first_season": 0,
+    "prior_season": null,
+    "two_seasons_ago": null
+   }
+  }
+ ]
+}

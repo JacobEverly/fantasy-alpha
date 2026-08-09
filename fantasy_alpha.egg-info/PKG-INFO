@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: fantasy-alpha
+Version: 0.1.0
+Summary: AI fantasy football analyst: league-agnostic engine, harness, envs, evals
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Provides-Extra: baselines
+Requires-Dist: scikit-learn==1.7.2; extra == "baselines"

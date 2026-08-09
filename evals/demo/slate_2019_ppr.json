@@ -1,0 +1,962 @@
+{
+ "task": "Pick the 10 candidates most likely to BREAK OUT this season (finish top-12 QB/TE or top-24 RB/WR at position). All candidates are drafted beyond the ADP gates, so every one qualifies if they hit. Return [{anon_id, p_breakout}] for exactly 10.",
+ "season_masked": true,
+ "format": "ppr",
+ "n_candidates": 54,
+ "candidates": [
+  {
+   "anon_id": "P000",
+   "position": "WR",
+   "adp_overall": 161.4,
+   "adp_pos_rank": 62,
+   "adp_stdev": 15.9,
+   "seasons_of_data": 9,
+   "years_since_first_season": 9,
+   "prior_season": {
+    "games": 15,
+    "total": 156.7,
+    "ppg": 10.45,
+    "pos_rank": 38
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 205.9,
+    "ppg": 12.87,
+    "pos_rank": 16
+   }
+  },
+  {
+   "anon_id": "P001",
+   "position": "WR",
+   "adp_overall": 131.8,
+   "adp_pos_rank": 53,
+   "adp_stdev": 14.1,
+   "seasons_of_data": 0,
+   "years_since_first_season": 0,
+   "prior_season": null,
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P002",
+   "position": "WR",
+   "adp_overall": 137.7,
+   "adp_pos_rank": 56,
+   "adp_stdev": 13.5,
+   "seasons_of_data": 0,
+   "years_since_first_season": 0,
+   "prior_season": null,
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P003",
+   "position": "RB",
+   "adp_overall": 157.1,
+   "adp_pos_rank": 57,
+   "adp_stdev": 19.1,
+   "seasons_of_data": 0,
+   "years_since_first_season": 0,
+   "prior_season": null,
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P004",
+   "position": "WR",
+   "adp_overall": 110.8,
+   "adp_pos_rank": 45,
+   "adp_stdev": 8.2,
+   "seasons_of_data": 2,
+   "years_since_first_season": 2,
+   "prior_season": {
+    "games": 16,
+    "total": 183.6,
+    "ppg": 11.47,
+    "pos_rank": 28
+   },
+   "two_seasons_ago": {
+    "games": 11,
+    "total": 69.5,
+    "ppg": 6.32,
+    "pos_rank": 87
+   }
+  },
+  {
+   "anon_id": "P005",
+   "position": "WR",
+   "adp_overall": 166.9,
+   "adp_pos_rank": 66,
+   "adp_stdev": 10.3,
+   "seasons_of_data": 4,
+   "years_since_first_season": 4,
+   "prior_season": {
+    "games": 16,
+    "total": 188.7,
+    "ppg": 11.79,
+    "pos_rank": 24
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 128.7,
+    "ppg": 8.04,
+    "pos_rank": 51
+   }
+  },
+  {
+   "anon_id": "P006",
+   "position": "WR",
+   "adp_overall": 119.8,
+   "adp_pos_rank": 48,
+   "adp_stdev": 10.2,
+   "seasons_of_data": 5,
+   "years_since_first_season": 5,
+   "prior_season": {
+    "games": 16,
+    "total": 132.8,
+    "ppg": 8.3,
+    "pos_rank": 54
+   },
+   "two_seasons_ago": {
+    "games": 12,
+    "total": 77.1,
+    "ppg": 6.42,
+    "pos_rank": 81
+   }
+  },
+  {
+   "anon_id": "P007",
+   "position": "RB",
+   "adp_overall": 119.9,
+   "adp_pos_rank": 47,
+   "adp_stdev": 10.3,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 9,
+    "total": 61.1,
+    "ppg": 6.79,
+    "pos_rank": 72
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P008",
+   "position": "RB",
+   "adp_overall": 151.4,
+   "adp_pos_rank": 53,
+   "adp_stdev": 13.7,
+   "seasons_of_data": 0,
+   "years_since_first_season": 0,
+   "prior_season": null,
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P009",
+   "position": "WR",
+   "adp_overall": 160.7,
+   "adp_pos_rank": 61,
+   "adp_stdev": 13.9,
+   "seasons_of_data": 7,
+   "years_since_first_season": 7,
+   "prior_season": {
+    "games": 16,
+    "total": 182.4,
+    "ppg": 11.4,
+    "pos_rank": 31
+   },
+   "two_seasons_ago": {
+    "games": 15,
+    "total": 174.34,
+    "ppg": 11.62,
+    "pos_rank": 29
+   }
+  },
+  {
+   "anon_id": "P010",
+   "position": "RB",
+   "adp_overall": 142.9,
+   "adp_pos_rank": 52,
+   "adp_stdev": 14.9,
+   "seasons_of_data": 6,
+   "years_since_first_season": 8,
+   "prior_season": {
+    "games": 16,
+    "total": 160.7,
+    "ppg": 10.04,
+    "pos_rank": 28
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 197.0,
+    "ppg": 12.31,
+    "pos_rank": 15
+   }
+  },
+  {
+   "anon_id": "P011",
+   "position": "WR",
+   "adp_overall": 151.8,
+   "adp_pos_rank": 58,
+   "adp_stdev": 11.2,
+   "seasons_of_data": 0,
+   "years_since_first_season": 0,
+   "prior_season": null,
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P012",
+   "position": "WR",
+   "adp_overall": 163.0,
+   "adp_pos_rank": 65,
+   "adp_stdev": 13.8,
+   "seasons_of_data": 6,
+   "years_since_first_season": 6,
+   "prior_season": {
+    "games": 11,
+    "total": 87.4,
+    "ppg": 7.95,
+    "pos_rank": 82
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 168.6,
+    "ppg": 10.54,
+    "pos_rank": 31
+   }
+  },
+  {
+   "anon_id": "P013",
+   "position": "RB",
+   "adp_overall": 133.1,
+   "adp_pos_rank": 51,
+   "adp_stdev": 12.1,
+   "seasons_of_data": 8,
+   "years_since_first_season": 17,
+   "prior_season": null,
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P014",
+   "position": "WR",
+   "adp_overall": 119.4,
+   "adp_pos_rank": 47,
+   "adp_stdev": 9.5,
+   "seasons_of_data": 11,
+   "years_since_first_season": 11,
+   "prior_season": {
+    "games": 12,
+    "total": 151.3,
+    "ppg": 12.61,
+    "pos_rank": 42
+   },
+   "two_seasons_ago": {
+    "games": 14,
+    "total": 138.6,
+    "ppg": 9.9,
+    "pos_rank": 44
+   }
+  },
+  {
+   "anon_id": "P015",
+   "position": "RB",
+   "adp_overall": 158.1,
+   "adp_pos_rank": 60,
+   "adp_stdev": 17.1,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 7,
+    "total": 20.7,
+    "ppg": 2.96,
+    "pos_rank": 90
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P016",
+   "position": "RB",
+   "adp_overall": 95.3,
+   "adp_pos_rank": 41,
+   "adp_stdev": 7.8,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 13,
+    "total": 70.4,
+    "ppg": 5.42,
+    "pos_rank": 67
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P017",
+   "position": "RB",
+   "adp_overall": 152.3,
+   "adp_pos_rank": 55,
+   "adp_stdev": 27.6,
+   "seasons_of_data": 14,
+   "years_since_first_season": 14,
+   "prior_season": {
+    "games": 14,
+    "total": 102.6,
+    "ppg": 7.33,
+    "pos_rank": 46
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 173.6,
+    "ppg": 10.85,
+    "pos_rank": 19
+   }
+  },
+  {
+   "anon_id": "P018",
+   "position": "RB",
+   "adp_overall": 157.6,
+   "adp_pos_rank": 58,
+   "adp_stdev": 16.7,
+   "seasons_of_data": 4,
+   "years_since_first_season": 4,
+   "prior_season": {
+    "games": 11,
+    "total": 39.4,
+    "ppg": 3.58,
+    "pos_rank": 83
+   },
+   "two_seasons_ago": {
+    "games": 11,
+    "total": 44.9,
+    "ppg": 4.08,
+    "pos_rank": 79
+   }
+  },
+  {
+   "anon_id": "P019",
+   "position": "RB",
+   "adp_overall": 120.7,
+   "adp_pos_rank": 48,
+   "adp_stdev": 9.2,
+   "seasons_of_data": 0,
+   "years_since_first_season": 0,
+   "prior_season": null,
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P020",
+   "position": "WR",
+   "adp_overall": 101.3,
+   "adp_pos_rank": 41,
+   "adp_stdev": 8.3,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 12,
+    "total": 43.7,
+    "ppg": 3.64,
+    "pos_rank": 124
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P021",
+   "position": "WR",
+   "adp_overall": 126.2,
+   "adp_pos_rank": 50,
+   "adp_stdev": 11.8,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 16,
+    "total": 136.3,
+    "ppg": 8.52,
+    "pos_rank": 50
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P022",
+   "position": "QB",
+   "adp_overall": 160.8,
+   "adp_pos_rank": 23,
+   "adp_stdev": 17.9,
+   "seasons_of_data": 10,
+   "years_since_first_season": 10,
+   "prior_season": {
+    "games": 16,
+    "total": 212.18,
+    "ppg": 13.26,
+    "pos_rank": 20
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 273.64,
+    "ppg": 17.1,
+    "pos_rank": 7
+   }
+  },
+  {
+   "anon_id": "P023",
+   "position": "WR",
+   "adp_overall": 136.2,
+   "adp_pos_rank": 55,
+   "adp_stdev": 8.6,
+   "seasons_of_data": 5,
+   "years_since_first_season": 5,
+   "prior_season": {
+    "games": 16,
+    "total": 143.9,
+    "ppg": 8.99,
+    "pos_rank": 45
+   },
+   "two_seasons_ago": {
+    "games": 10,
+    "total": 69.9,
+    "ppg": 6.99,
+    "pos_rank": 86
+   }
+  },
+  {
+   "anon_id": "P024",
+   "position": "WR",
+   "adp_overall": 131.4,
+   "adp_pos_rank": 52,
+   "adp_stdev": 9.0,
+   "seasons_of_data": 4,
+   "years_since_first_season": 4,
+   "prior_season": {
+    "games": 15,
+    "total": 137.8,
+    "ppg": 9.19,
+    "pos_rank": 49
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 137.8,
+    "ppg": 8.61,
+    "pos_rank": 45
+   }
+  },
+  {
+   "anon_id": "P025",
+   "position": "RB",
+   "adp_overall": 157.9,
+   "adp_pos_rank": 59,
+   "adp_stdev": 17.9,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 1,
+    "total": 0.0,
+    "ppg": 0.0,
+    "pos_rank": 145
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P026",
+   "position": "QB",
+   "adp_overall": 145.8,
+   "adp_pos_rank": 20,
+   "adp_stdev": 12.3,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 12,
+    "total": 206.86,
+    "ppg": 17.24,
+    "pos_rank": 21
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P027",
+   "position": "RB",
+   "adp_overall": 113.5,
+   "adp_pos_rank": 45,
+   "adp_stdev": 10.7,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 12,
+    "total": 37.7,
+    "ppg": 3.14,
+    "pos_rank": 86
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P028",
+   "position": "RB",
+   "adp_overall": 131.3,
+   "adp_pos_rank": 50,
+   "adp_stdev": 13.8,
+   "seasons_of_data": 3,
+   "years_since_first_season": 3,
+   "prior_season": {
+    "games": 16,
+    "total": 150.3,
+    "ppg": 9.39,
+    "pos_rank": 31
+   },
+   "two_seasons_ago": {
+    "games": 14,
+    "total": 85.7,
+    "ppg": 6.12,
+    "pos_rank": 57
+   }
+  },
+  {
+   "anon_id": "P029",
+   "position": "RB",
+   "adp_overall": 159.2,
+   "adp_pos_rank": 61,
+   "adp_stdev": 18.7,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 16,
+    "total": 160.9,
+    "ppg": 10.06,
+    "pos_rank": 27
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P030",
+   "position": "WR",
+   "adp_overall": 106.5,
+   "adp_pos_rank": 43,
+   "adp_stdev": 9.5,
+   "seasons_of_data": 15,
+   "years_since_first_season": 15,
+   "prior_season": {
+    "games": 16,
+    "total": 185.68,
+    "ppg": 11.61,
+    "pos_rank": 25
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 261.44,
+    "ppg": 16.34,
+    "pos_rank": 4
+   }
+  },
+  {
+   "anon_id": "P031",
+   "position": "WR",
+   "adp_overall": 109.8,
+   "adp_pos_rank": 44,
+   "adp_stdev": 9.5,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 12,
+    "total": 103.5,
+    "ppg": 8.62,
+    "pos_rank": 71
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P032",
+   "position": "QB",
+   "adp_overall": 164.2,
+   "adp_pos_rank": 24,
+   "adp_stdev": 12.8,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 13,
+    "total": 168.1,
+    "ppg": 12.93,
+    "pos_rank": 27
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P033",
+   "position": "WR",
+   "adp_overall": 113.8,
+   "adp_pos_rank": 46,
+   "adp_stdev": 8.4,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 15,
+    "total": 97.7,
+    "ppg": 6.51,
+    "pos_rank": 76
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P034",
+   "position": "RB",
+   "adp_overall": 108.1,
+   "adp_pos_rank": 44,
+   "adp_stdev": 8.3,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 14,
+    "total": 101.3,
+    "ppg": 7.24,
+    "pos_rank": 47
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P035",
+   "position": "QB",
+   "adp_overall": 147.5,
+   "adp_pos_rank": 21,
+   "adp_stdev": 17.1,
+   "seasons_of_data": 5,
+   "years_since_first_season": 5,
+   "prior_season": {
+    "games": 3,
+    "total": 48.02,
+    "ppg": 16.01,
+    "pos_rank": 40
+   },
+   "two_seasons_ago": {
+    "games": 6,
+    "total": 87.9,
+    "ppg": 14.65,
+    "pos_rank": 34
+   }
+  },
+  {
+   "anon_id": "P036",
+   "position": "WR",
+   "adp_overall": 161.6,
+   "adp_pos_rank": 64,
+   "adp_stdev": 16.2,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 13,
+    "total": 100.7,
+    "ppg": 7.75,
+    "pos_rank": 73
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P037",
+   "position": "RB",
+   "adp_overall": 119.0,
+   "adp_pos_rank": 46,
+   "adp_stdev": 10.4,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 9,
+    "total": 89.5,
+    "ppg": 9.94,
+    "pos_rank": 57
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P038",
+   "position": "WR",
+   "adp_overall": 146.2,
+   "adp_pos_rank": 57,
+   "adp_stdev": 13.3,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 6,
+    "total": 62.7,
+    "ppg": 10.45,
+    "pos_rank": 100
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P039",
+   "position": "TE",
+   "adp_overall": 158.0,
+   "adp_pos_rank": 19,
+   "adp_stdev": 18.0,
+   "seasons_of_data": 6,
+   "years_since_first_season": 6,
+   "prior_season": {
+    "games": 13,
+    "total": 119.8,
+    "ppg": 9.22,
+    "pos_rank": 15
+   },
+   "two_seasons_ago": {
+    "games": 6,
+    "total": 60.1,
+    "ppg": 10.02,
+    "pos_rank": 36
+   }
+  },
+  {
+   "anon_id": "P040",
+   "position": "WR",
+   "adp_overall": 123.3,
+   "adp_pos_rank": 49,
+   "adp_stdev": 10.1,
+   "seasons_of_data": 9,
+   "years_since_first_season": 9,
+   "prior_season": {
+    "games": 15,
+    "total": 182.9,
+    "ppg": 12.19,
+    "pos_rank": 29
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 224.5,
+    "ppg": 14.03,
+    "pos_rank": 12
+   }
+  },
+  {
+   "anon_id": "P041",
+   "position": "QB",
+   "adp_overall": 157.4,
+   "adp_pos_rank": 22,
+   "adp_stdev": 14.5,
+   "seasons_of_data": 5,
+   "years_since_first_season": 5,
+   "prior_season": {
+    "games": 16,
+    "total": 216.76,
+    "ppg": 13.55,
+    "pos_rank": 18
+   },
+   "two_seasons_ago": {
+    "games": 15,
+    "total": 206.44,
+    "ppg": 13.76,
+    "pos_rank": 19
+   }
+  },
+  {
+   "anon_id": "P042",
+   "position": "QB",
+   "adp_overall": 139.2,
+   "adp_pos_rank": 19,
+   "adp_stdev": 11.2,
+   "seasons_of_data": 2,
+   "years_since_first_season": 2,
+   "prior_season": {
+    "games": 14,
+    "total": 263.02,
+    "ppg": 18.79,
+    "pos_rank": 15
+   },
+   "two_seasons_ago": {
+    "games": 12,
+    "total": 134.52,
+    "ppg": 11.21,
+    "pos_rank": 28
+   }
+  },
+  {
+   "anon_id": "P043",
+   "position": "RB",
+   "adp_overall": 151.9,
+   "adp_pos_rank": 54,
+   "adp_stdev": 17.8,
+   "seasons_of_data": 5,
+   "years_since_first_season": 5,
+   "prior_season": {
+    "games": 14,
+    "total": 98.4,
+    "ppg": 7.03,
+    "pos_rank": 49
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 233.8,
+    "ppg": 14.61,
+    "pos_rank": 8
+   }
+  },
+  {
+   "anon_id": "P044",
+   "position": "WR",
+   "adp_overall": 128.8,
+   "adp_pos_rank": 51,
+   "adp_stdev": 10.0,
+   "seasons_of_data": 4,
+   "years_since_first_season": 4,
+   "prior_season": {
+    "games": 9,
+    "total": 82.8,
+    "ppg": 9.2,
+    "pos_rank": 86
+   },
+   "two_seasons_ago": {
+    "games": 15,
+    "total": 166.3,
+    "ppg": 11.09,
+    "pos_rank": 32
+   }
+  },
+  {
+   "anon_id": "P045",
+   "position": "RB",
+   "adp_overall": 154.2,
+   "adp_pos_rank": 56,
+   "adp_stdev": 17.5,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 13,
+    "total": 97.7,
+    "ppg": 7.52,
+    "pos_rank": 50
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P046",
+   "position": "RB",
+   "adp_overall": 100.8,
+   "adp_pos_rank": 42,
+   "adp_stdev": 11.9,
+   "seasons_of_data": 2,
+   "years_since_first_season": 2,
+   "prior_season": {
+    "games": 11,
+    "total": 230.2,
+    "ppg": 20.93,
+    "pos_rank": 12
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 295.2,
+    "ppg": 18.45,
+    "pos_rank": 4
+   }
+  },
+  {
+   "anon_id": "P047",
+   "position": "RB",
+   "adp_overall": 127.3,
+   "adp_pos_rank": 49,
+   "adp_stdev": 12.1,
+   "seasons_of_data": 0,
+   "years_since_first_season": 0,
+   "prior_season": null,
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P048",
+   "position": "WR",
+   "adp_overall": 152.8,
+   "adp_pos_rank": 59,
+   "adp_stdev": 13.8,
+   "seasons_of_data": 0,
+   "years_since_first_season": 0,
+   "prior_season": null,
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P049",
+   "position": "WR",
+   "adp_overall": 161.5,
+   "adp_pos_rank": 63,
+   "adp_stdev": 17.7,
+   "seasons_of_data": 6,
+   "years_since_first_season": 6,
+   "prior_season": {
+    "games": 15,
+    "total": 134.42,
+    "ppg": 8.96,
+    "pos_rank": 52
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 174.7,
+    "ppg": 10.92,
+    "pos_rank": 28
+   }
+  },
+  {
+   "anon_id": "P050",
+   "position": "WR",
+   "adp_overall": 105.3,
+   "adp_pos_rank": 42,
+   "adp_stdev": 7.6,
+   "seasons_of_data": 6,
+   "years_since_first_season": 7,
+   "prior_season": {
+    "games": 9,
+    "total": 115.8,
+    "ppg": 12.87,
+    "pos_rank": 63
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 225.1,
+    "ppg": 14.07,
+    "pos_rank": 11
+   }
+  },
+  {
+   "anon_id": "P051",
+   "position": "RB",
+   "adp_overall": 103.7,
+   "adp_pos_rank": 43,
+   "adp_stdev": 9.0,
+   "seasons_of_data": 3,
+   "years_since_first_season": 3,
+   "prior_season": {
+    "games": 16,
+    "total": 180.0,
+    "ppg": 11.25,
+    "pos_rank": 20
+   },
+   "two_seasons_ago": {
+    "games": 16,
+    "total": 199.7,
+    "ppg": 12.48,
+    "pos_rank": 14
+   }
+  },
+  {
+   "anon_id": "P052",
+   "position": "WR",
+   "adp_overall": 134.4,
+   "adp_pos_rank": 54,
+   "adp_stdev": 7.5,
+   "seasons_of_data": 1,
+   "years_since_first_season": 1,
+   "prior_season": {
+    "games": 15,
+    "total": 120.22,
+    "ppg": 8.01,
+    "pos_rank": 60
+   },
+   "two_seasons_ago": null
+  },
+  {
+   "anon_id": "P053",
+   "position": "WR",
+   "adp_overall": 159.6,
+   "adp_pos_rank": 60,
+   "adp_stdev": 14.8,
+   "seasons_of_data": 7,
+   "years_since_first_season": 7,
+   "prior_season": {
+    "games": 16,
+    "total": 150.2,
+    "ppg": 9.39,
+    "pos_rank": 43
+   },
+   "two_seasons_ago": {
+    "games": 15,
+    "total": 91.4,
+    "ppg": 6.09,
+    "pos_rank": 73
+   }
+  }
+ ]
+}

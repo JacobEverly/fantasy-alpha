@@ -1,0 +1,12 @@
+[
+  {"anon_id": "P004", "p_breakout": 0.75, "why": "year-3 WR: rookie ramp then full-16g pos-rank-28 season at high ppg; market STILL pricing him WR45 — the classic pre-breakout discount"},
+  {"anon_id": "P026", "p_breakout": 0.55, "why": "year-2 QB, 12-game rookie sample already QB21 with 17.2 ppg — per-game engine before volume; QB20 price"},
+  {"anon_id": "P021", "p_breakout": 0.50, "why": "year-2 WR with a full 16-game rookie base at WR50; role incumbency + normal ascent beats a WR50 price"},
+  {"anon_id": "P020", "p_breakout": 0.35, "why": "market-leads-structure: near-zero rookie production yet drafted WR41 — drafters are buying role/talent news the stats can't show"},
+  {"anon_id": "P033", "p_breakout": 0.30, "why": "same archetype one notch weaker: quiet rookie year, priced WR46 on role expectation"},
+  {"anon_id": "P050", "p_breakout": 0.30, "why": "injury bounce-back: WR11 two years ago, 9-game injury year at 12.9 ppg, now WR42 — market over-discounts lost seasons"},
+  {"anon_id": "P037", "p_breakout": 0.25, "why": "year-2 RB, 9-game rookie sample at 9.9 ppg — per-game efficiency ahead of role; RB46 price"},
+  {"anon_id": "P029", "p_breakout": 0.25, "why": "year-2 RB who played all 16 as a rookie at RB27, faded to RB61 — if the role merely holds, the price is wrong"},
+  {"anon_id": "P011", "p_breakout": 0.20, "why": "rookie WR lottery ticket at WR58 — no structure to read; base-rate bet on the draft-capital cohort"},
+  {"anon_id": "P028", "p_breakout": 0.20, "why": "ascending vet RB: rank-57 to rank-31 across two seasons, priced RB50; trend continuation bet"}
+]

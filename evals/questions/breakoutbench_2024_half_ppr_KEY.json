@@ -1,0 +1,1391 @@
+{
+ "benchmark": "breakoutbench_v0.3",
+ "season": 2024,
+ "format": "half_ppr",
+ "questions": {
+  "B0000": {
+   "family": "bust",
+   "player": "Brock Bowers",
+   "player_id": "00-0039338",
+   "adp_pos_rank": 11,
+   "finish_pos_rank": 1,
+   "outcome": 0
+  },
+  "B0001": {
+   "family": "full_slate",
+   "player": "Chuba Hubbard",
+   "player_id": "00-0036555",
+   "adp_pos_rank": 45,
+   "finish_pos_rank": 15,
+   "outcome": 1
+  },
+  "B0002": {
+   "family": "over_under",
+   "player": "Jaylen Waddle",
+   "player_id": "00-0036613",
+   "adp_pos_rank": 16,
+   "finish_pos_rank": 46,
+   "outcome": 0
+  },
+  "B0003": {
+   "family": "over_under",
+   "player": "George Pickens",
+   "player_id": "00-0037247",
+   "adp_pos_rank": 29,
+   "finish_pos_rank": 42,
+   "outcome": 0
+  },
+  "B0004": {
+   "family": "full_slate",
+   "player": "Brandin Cooks",
+   "player_id": "00-0031236",
+   "adp_pos_rank": 52,
+   "finish_pos_rank": 96,
+   "outcome": 0
+  },
+  "B0005": {
+   "family": "over_under",
+   "player": "Keenan Allen",
+   "player_id": "00-0030279",
+   "adp_pos_rank": 31,
+   "finish_pos_rank": 35,
+   "outcome": 0
+  },
+  "B0006": {
+   "family": "over_under",
+   "player": "Justin Herbert",
+   "player_id": "00-0036355",
+   "adp_pos_rank": 14,
+   "finish_pos_rank": 11,
+   "outcome": 1
+  },
+  "B0007": {
+   "family": "full_slate",
+   "player": "Ezekiel Elliott",
+   "player_id": "00-0033045",
+   "adp_pos_rank": 47,
+   "finish_pos_rank": 62,
+   "outcome": 0
+  },
+  "B0008": {
+   "family": "over_under",
+   "player": "Calvin Ridley",
+   "player_id": "00-0034837",
+   "adp_pos_rank": 36,
+   "finish_pos_rank": 27,
+   "outcome": 1
+  },
+  "B0009": {
+   "family": "full_slate",
+   "player": "Curtis Samuel",
+   "player_id": "00-0033282",
+   "adp_pos_rank": 50,
+   "finish_pos_rank": 105,
+   "outcome": 0
+  },
+  "B0010": {
+   "family": "bust",
+   "player": "Garrett Wilson",
+   "player_id": "00-0037740",
+   "adp_pos_rank": 7,
+   "finish_pos_rank": 11,
+   "outcome": 0
+  },
+  "B0011": {
+   "family": "full_slate",
+   "player": "Jaxon Smith-Njigba",
+   "player_id": "00-0038543",
+   "adp_pos_rank": 43,
+   "finish_pos_rank": 10,
+   "outcome": 1
+  },
+  "B0012": {
+   "family": "full_slate",
+   "player": "J.K. Dobbins",
+   "player_id": "00-0036158",
+   "adp_pos_rank": 44,
+   "finish_pos_rank": 23,
+   "outcome": 1
+  },
+  "B0013": {
+   "family": "full_slate",
+   "player": "Joshua Palmer",
+   "player_id": "00-0036988",
+   "adp_pos_rank": 53,
+   "finish_pos_rank": 76,
+   "outcome": 0
+  },
+  "B0014": {
+   "family": "over_under",
+   "player": "Najee Harris",
+   "player_id": "00-0036893",
+   "adp_pos_rank": 21,
+   "finish_pos_rank": 20,
+   "outcome": 1
+  },
+  "B0015": {
+   "family": "over_under",
+   "player": "Will Levis",
+   "player_id": "00-0039152",
+   "adp_pos_rank": 23,
+   "finish_pos_rank": 30,
+   "outcome": 0
+  },
+  "B0016": {
+   "family": "over_under",
+   "player": "Jonathon Brooks",
+   "player_id": "00-0039344",
+   "adp_pos_rank": 30,
+   "finish_pos_rank": 111,
+   "outcome": 0
+  },
+  "B0017": {
+   "family": "over_under",
+   "player": "Aaron Jones Sr.",
+   "player_id": "00-0033293",
+   "adp_pos_rank": 17,
+   "finish_pos_rank": 16,
+   "outcome": 1
+  },
+  "B0018": {
+   "family": "over_under",
+   "player": "Jaylen Warren",
+   "player_id": "00-0037228",
+   "adp_pos_rank": 29,
+   "finish_pos_rank": 41,
+   "outcome": 0
+  },
+  "B0019": {
+   "family": "over_under",
+   "player": "Taysom Hill",
+   "player_id": "00-0033357",
+   "adp_pos_rank": 14,
+   "finish_pos_rank": 22,
+   "outcome": 0
+  },
+  "B0020": {
+   "family": "over_under",
+   "player": "Brian Robinson Jr.",
+   "player_id": "00-0037746",
+   "adp_pos_rank": 34,
+   "finish_pos_rank": 29,
+   "outcome": 1
+  },
+  "B0021": {
+   "family": "full_slate",
+   "player": "Khalil Shakir",
+   "player_id": "00-0037261",
+   "adp_pos_rank": 47,
+   "finish_pos_rank": 38,
+   "outcome": 0
+  },
+  "B0022": {
+   "family": "over_under",
+   "player": "Tyjae Spears",
+   "player_id": "00-0039032",
+   "adp_pos_rank": 33,
+   "finish_pos_rank": 43,
+   "outcome": 0
+  },
+  "B0023": {
+   "family": "over_under",
+   "player": "Pat Freiermuth",
+   "player_id": "00-0036894",
+   "adp_pos_rank": 13,
+   "finish_pos_rank": 10,
+   "outcome": 1
+  },
+  "B0024": {
+   "family": "over_under",
+   "player": "Geno Smith",
+   "player_id": "00-0030565",
+   "adp_pos_rank": 22,
+   "finish_pos_rank": 14,
+   "outcome": 1
+  },
+  "B0025": {
+   "family": "bust",
+   "player": "Lamar Jackson",
+   "player_id": "00-0034796",
+   "adp_pos_rank": 4,
+   "finish_pos_rank": 1,
+   "outcome": 0
+  },
+  "B0026": {
+   "family": "over_under",
+   "player": "Jerome Ford",
+   "player_id": "00-0037267",
+   "adp_pos_rank": 36,
+   "finish_pos_rank": 34,
+   "outcome": 1
+  },
+  "B0027": {
+   "family": "over_under",
+   "player": "Aaron Rodgers",
+   "player_id": "00-0023459",
+   "adp_pos_rank": 16,
+   "finish_pos_rank": 15,
+   "outcome": 1
+  },
+  "B0028": {
+   "family": "full_slate",
+   "player": "Jordan Addison",
+   "player_id": "00-0038994",
+   "adp_pos_rank": 54,
+   "finish_pos_rank": 20,
+   "outcome": 1
+  },
+  "B0029": {
+   "family": "bust",
+   "player": "Amon-Ra St. Brown",
+   "player_id": "00-0036963",
+   "adp_pos_rank": 4,
+   "finish_pos_rank": 3,
+   "outcome": 0
+  },
+  "B0030": {
+   "family": "bust",
+   "player": "Saquon Barkley",
+   "player_id": "00-0034844",
+   "adp_pos_rank": 5,
+   "finish_pos_rank": 1,
+   "outcome": 0
+  },
+  "B0031": {
+   "family": "over_under",
+   "player": "Rashee Rice",
+   "player_id": "00-0039067",
+   "adp_pos_rank": 33,
+   "finish_pos_rank": 98,
+   "outcome": 0
+  },
+  "B0032": {
+   "family": "over_under",
+   "player": "Brandon Aiyuk",
+   "player_id": "00-0036261",
+   "adp_pos_rank": 21,
+   "finish_pos_rank": 103,
+   "outcome": 0
+  },
+  "B0033": {
+   "family": "bust",
+   "player": "Kyler Murray",
+   "player_id": "00-0035228",
+   "adp_pos_rank": 9,
+   "finish_pos_rank": 10,
+   "outcome": 0
+  },
+  "B0034": {
+   "family": "bust",
+   "player": "Jonathan Taylor",
+   "player_id": "00-0036223",
+   "adp_pos_rank": 6,
+   "finish_pos_rank": 9,
+   "outcome": 0
+  },
+  "B0035": {
+   "family": "over_under",
+   "player": "Alvin Kamara",
+   "player_id": "00-0033906",
+   "adp_pos_rank": 19,
+   "finish_pos_rank": 10,
+   "outcome": 1
+  },
+  "B0036": {
+   "family": "bust",
+   "player": "Derrick Henry",
+   "player_id": "00-0032764",
+   "adp_pos_rank": 7,
+   "finish_pos_rank": 3,
+   "outcome": 0
+  },
+  "B0037": {
+   "family": "over_under",
+   "player": "Gus Edwards",
+   "player_id": "00-0034184",
+   "adp_pos_rank": 31,
+   "finish_pos_rank": 57,
+   "outcome": 0
+  },
+  "B0038": {
+   "family": "bust",
+   "player": "Dak Prescott",
+   "player_id": "00-0033077",
+   "adp_pos_rank": 6,
+   "finish_pos_rank": 32,
+   "outcome": 1
+  },
+  "B0039": {
+   "family": "over_under",
+   "player": "Blake Corum",
+   "player_id": "00-0039738",
+   "adp_pos_rank": 38,
+   "finish_pos_rank": 80,
+   "outcome": 0
+  },
+  "B0040": {
+   "family": "over_under",
+   "player": "Christian Watson",
+   "player_id": "00-0038124",
+   "adp_pos_rank": 40,
+   "finish_pos_rank": 73,
+   "outcome": 0
+  },
+  "B0041": {
+   "family": "over_under",
+   "player": "Zach Charbonnet",
+   "player_id": "00-0039165",
+   "adp_pos_rank": 42,
+   "finish_pos_rank": 25,
+   "outcome": 1
+  },
+  "B0042": {
+   "family": "over_under",
+   "player": "Tony Pollard",
+   "player_id": "00-0035261",
+   "adp_pos_rank": 28,
+   "finish_pos_rank": 21,
+   "outcome": 1
+  },
+  "B0043": {
+   "family": "full_slate",
+   "player": "Adonai Mitchell",
+   "player_id": "00-0039890",
+   "adp_pos_rank": 60,
+   "finish_pos_rank": 112,
+   "outcome": 0
+  },
+  "B0044": {
+   "family": "bust",
+   "player": "C.J. Stroud",
+   "player_id": "00-0039163",
+   "adp_pos_rank": 5,
+   "finish_pos_rank": 18,
+   "outcome": 0
+  },
+  "B0045": {
+   "family": "bust",
+   "player": "De'Von Achane",
+   "player_id": "00-0039040",
+   "adp_pos_rank": 12,
+   "finish_pos_rank": 6,
+   "outcome": 0
+  },
+  "B0046": {
+   "family": "full_slate",
+   "player": "Ladd McConkey",
+   "player_id": "00-0039915",
+   "adp_pos_rank": 41,
+   "finish_pos_rank": 12,
+   "outcome": 1
+  },
+  "B0047": {
+   "family": "over_under",
+   "player": "Deshaun Watson",
+   "player_id": "00-0033537",
+   "adp_pos_rank": 21,
+   "finish_pos_rank": 40,
+   "outcome": 0
+  },
+  "B0048": {
+   "family": "over_under",
+   "player": "Tee Higgins",
+   "player_id": "00-0036410",
+   "adp_pos_rank": 24,
+   "finish_pos_rank": 17,
+   "outcome": 1
+  },
+  "B0049": {
+   "family": "full_slate",
+   "player": "Rashid Shaheed",
+   "player_id": "00-0037545",
+   "adp_pos_rank": 56,
+   "finish_pos_rank": 91,
+   "outcome": 0
+  },
+  "B0050": {
+   "family": "full_slate",
+   "player": "Antonio Gibson",
+   "player_id": "00-0036328",
+   "adp_pos_rank": 50,
+   "finish_pos_rank": 44,
+   "outcome": 0
+  },
+  "B0051": {
+   "family": "full_slate",
+   "player": "Dontayvion Wicks",
+   "player_id": "00-0038393",
+   "adp_pos_rank": 61,
+   "finish_pos_rank": 72,
+   "outcome": 0
+  },
+  "B0052": {
+   "family": "bust",
+   "player": "Trey McBride",
+   "player_id": "00-0037744",
+   "adp_pos_rank": 4,
+   "finish_pos_rank": 3,
+   "outcome": 0
+  },
+  "B0053": {
+   "family": "over_under",
+   "player": "Joe Mixon",
+   "player_id": "00-0033897",
+   "adp_pos_rank": 14,
+   "finish_pos_rank": 13,
+   "outcome": 1
+  },
+  "B0054": {
+   "family": "over_under",
+   "player": "Ladd McConkey",
+   "player_id": "00-0039915",
+   "adp_pos_rank": 41,
+   "finish_pos_rank": 12,
+   "outcome": 1
+  },
+  "B0055": {
+   "family": "bust",
+   "player": "Tyreek Hill",
+   "player_id": "00-0033040",
+   "adp_pos_rank": 2,
+   "finish_pos_rank": 21,
+   "outcome": 0
+  },
+  "B0056": {
+   "family": "over_under",
+   "player": "Stefon Diggs",
+   "player_id": "00-0031588",
+   "adp_pos_rank": 22,
+   "finish_pos_rank": 66,
+   "outcome": 0
+  },
+  "B0057": {
+   "family": "over_under",
+   "player": "Matthew Stafford",
+   "player_id": "00-0026498",
+   "adp_pos_rank": 18,
+   "finish_pos_rank": 19,
+   "outcome": 0
+  },
+  "B0058": {
+   "family": "over_under",
+   "player": "Nick Chubb",
+   "player_id": "00-0034791",
+   "adp_pos_rank": 22,
+   "finish_pos_rank": 59,
+   "outcome": 0
+  },
+  "B0059": {
+   "family": "bust",
+   "player": "Justin Jefferson",
+   "player_id": "00-0036322",
+   "adp_pos_rank": 5,
+   "finish_pos_rank": 2,
+   "outcome": 0
+  },
+  "B0060": {
+   "family": "full_slate",
+   "player": "Rico Dowdle",
+   "player_id": "00-0036139",
+   "adp_pos_rank": 41,
+   "finish_pos_rank": 22,
+   "outcome": 1
+  },
+  "B0061": {
+   "family": "full_slate",
+   "player": "Kirk Cousins",
+   "player_id": "00-0029604",
+   "adp_pos_rank": 19,
+   "finish_pos_rank": 23,
+   "outcome": 0
+  },
+  "B0062": {
+   "family": "over_under",
+   "player": "Kirk Cousins",
+   "player_id": "00-0029604",
+   "adp_pos_rank": 19,
+   "finish_pos_rank": 23,
+   "outcome": 0
+  },
+  "B0063": {
+   "family": "bust",
+   "player": "Jordan Love",
+   "player_id": "00-0036264",
+   "adp_pos_rank": 10,
+   "finish_pos_rank": 17,
+   "outcome": 0
+  },
+  "B0064": {
+   "family": "over_under",
+   "player": "Jameson Williams",
+   "player_id": "00-0037240",
+   "adp_pos_rank": 44,
+   "finish_pos_rank": 19,
+   "outcome": 1
+  },
+  "B0065": {
+   "family": "full_slate",
+   "player": "Zach Charbonnet",
+   "player_id": "00-0039165",
+   "adp_pos_rank": 42,
+   "finish_pos_rank": 25,
+   "outcome": 0
+  },
+  "B0066": {
+   "family": "over_under",
+   "player": "Zack Moss",
+   "player_id": "00-0036251",
+   "adp_pos_rank": 27,
+   "finish_pos_rank": 52,
+   "outcome": 0
+  },
+  "B0067": {
+   "family": "bust",
+   "player": "Jake Ferguson",
+   "player_id": "00-0038041",
+   "adp_pos_rank": 9,
+   "finish_pos_rank": 30,
+   "outcome": 1
+  },
+  "B0068": {
+   "family": "over_under",
+   "player": "Drake London",
+   "player_id": "00-0037238",
+   "adp_pos_rank": 13,
+   "finish_pos_rank": 5,
+   "outcome": 1
+  },
+  "B0069": {
+   "family": "over_under",
+   "player": "David Montgomery",
+   "player_id": "00-0035685",
+   "adp_pos_rank": 20,
+   "finish_pos_rank": 18,
+   "outcome": 1
+  },
+  "B0070": {
+   "family": "full_slate",
+   "player": "Gabe Davis",
+   "player_id": "00-0036196",
+   "adp_pos_rank": 63,
+   "finish_pos_rank": 109,
+   "outcome": 0
+  },
+  "B0071": {
+   "family": "over_under",
+   "player": "Romeo Doubs",
+   "player_id": "00-0037816",
+   "adp_pos_rank": 45,
+   "finish_pos_rank": 57,
+   "outcome": 0
+  },
+  "B0072": {
+   "family": "over_under",
+   "player": "James Conner",
+   "player_id": "00-0033553",
+   "adp_pos_rank": 18,
+   "finish_pos_rank": 11,
+   "outcome": 1
+  },
+  "B0073": {
+   "family": "bust",
+   "player": "Travis Etienne Jr.",
+   "player_id": "00-0036973",
+   "adp_pos_rank": 9,
+   "finish_pos_rank": 36,
+   "outcome": 1
+  },
+  "B0074": {
+   "family": "over_under",
+   "player": "DeVonta Smith",
+   "player_id": "00-0036912",
+   "adp_pos_rank": 20,
+   "finish_pos_rank": 30,
+   "outcome": 0
+  },
+  "B0075": {
+   "family": "bust",
+   "player": "Josh Allen",
+   "player_id": "00-0034857",
+   "adp_pos_rank": 1,
+   "finish_pos_rank": 2,
+   "outcome": 0
+  },
+  "B0076": {
+   "family": "bust",
+   "player": "Sam LaPorta",
+   "player_id": "00-0039065",
+   "adp_pos_rank": 2,
+   "finish_pos_rank": 7,
+   "outcome": 0
+  },
+  "B0077": {
+   "family": "over_under",
+   "player": "Mike Evans",
+   "player_id": "00-0031408",
+   "adp_pos_rank": 15,
+   "finish_pos_rank": 9,
+   "outcome": 1
+  },
+  "B0078": {
+   "family": "full_slate",
+   "player": "Marvin Mims Jr.",
+   "player_id": "00-0038976",
+   "adp_pos_rank": 65,
+   "finish_pos_rank": 56,
+   "outcome": 0
+  },
+  "B0079": {
+   "family": "bust",
+   "player": "Bijan Robinson",
+   "player_id": "00-0038542",
+   "adp_pos_rank": 2,
+   "finish_pos_rank": 4,
+   "outcome": 0
+  },
+  "B0080": {
+   "family": "over_under",
+   "player": "Isaiah Likely",
+   "player_id": "00-0037838",
+   "adp_pos_rank": 18,
+   "finish_pos_rank": 16,
+   "outcome": 1
+  },
+  "B0081": {
+   "family": "over_under",
+   "player": "Chuba Hubbard",
+   "player_id": "00-0036555",
+   "adp_pos_rank": 45,
+   "finish_pos_rank": 15,
+   "outcome": 1
+  },
+  "B0082": {
+   "family": "over_under",
+   "player": "Jayden Reed",
+   "player_id": "00-0039146",
+   "adp_pos_rank": 32,
+   "finish_pos_rank": 26,
+   "outcome": 1
+  },
+  "B0083": {
+   "family": "bust",
+   "player": "Ja'Marr Chase",
+   "player_id": "00-0036900",
+   "adp_pos_rank": 3,
+   "finish_pos_rank": 1,
+   "outcome": 0
+  },
+  "B0084": {
+   "family": "bust",
+   "player": "Davante Adams",
+   "player_id": "00-0031381",
+   "adp_pos_rank": 11,
+   "finish_pos_rank": 14,
+   "outcome": 0
+  },
+  "B0085": {
+   "family": "bust",
+   "player": "Evan Engram",
+   "player_id": "00-0033881",
+   "adp_pos_rank": 8,
+   "finish_pos_rank": 33,
+   "outcome": 1
+  },
+  "B0086": {
+   "family": "bust",
+   "player": "T.J. Hockenson",
+   "player_id": "00-0035229",
+   "adp_pos_rank": 12,
+   "finish_pos_rank": 34,
+   "outcome": 1
+  },
+  "B0087": {
+   "family": "over_under",
+   "player": "J.K. Dobbins",
+   "player_id": "00-0036158",
+   "adp_pos_rank": 44,
+   "finish_pos_rank": 23,
+   "outcome": 1
+  },
+  "B0088": {
+   "family": "over_under",
+   "player": "Rhamondre Stevenson",
+   "player_id": "00-0036875",
+   "adp_pos_rank": 24,
+   "finish_pos_rank": 27,
+   "outcome": 0
+  },
+  "B0089": {
+   "family": "over_under",
+   "player": "DK Metcalf",
+   "player_id": "00-0035640",
+   "adp_pos_rank": 18,
+   "finish_pos_rank": 32,
+   "outcome": 0
+  },
+  "B0090": {
+   "family": "over_under",
+   "player": "James Cook III",
+   "player_id": "00-0037248",
+   "adp_pos_rank": 16,
+   "finish_pos_rank": 8,
+   "outcome": 1
+  },
+  "B0091": {
+   "family": "bust",
+   "player": "Travis Kelce",
+   "player_id": "00-0030506",
+   "adp_pos_rank": 1,
+   "finish_pos_rank": 6,
+   "outcome": 0
+  },
+  "B0092": {
+   "family": "bust",
+   "player": "Brock Purdy",
+   "player_id": "00-0037834",
+   "adp_pos_rank": 7,
+   "finish_pos_rank": 13,
+   "outcome": 0
+  },
+  "B0093": {
+   "family": "over_under",
+   "player": "Devin Singletary",
+   "player_id": "00-0035250",
+   "adp_pos_rank": 39,
+   "finish_pos_rank": 48,
+   "outcome": 0
+  },
+  "B0094": {
+   "family": "over_under",
+   "player": "Zay Flowers",
+   "player_id": "00-0039064",
+   "adp_pos_rank": 30,
+   "finish_pos_rank": 24,
+   "outcome": 1
+  },
+  "B0095": {
+   "family": "bust",
+   "player": "Tua Tagovailoa",
+   "player_id": "00-0036212",
+   "adp_pos_rank": 12,
+   "finish_pos_rank": 21,
+   "outcome": 0
+  },
+  "B0096": {
+   "family": "full_slate",
+   "player": "Mike Williams",
+   "player_id": "00-0023452",
+   "adp_pos_rank": 51,
+   "finish_pos_rank": 107,
+   "outcome": 0
+  },
+  "B0097": {
+   "family": "bust",
+   "player": "Patrick Mahomes",
+   "player_id": "00-0033873",
+   "adp_pos_rank": 3,
+   "finish_pos_rank": 12,
+   "outcome": 0
+  },
+  "B0098": {
+   "family": "full_slate",
+   "player": "Jakobi Meyers",
+   "player_id": "00-0034960",
+   "adp_pos_rank": 62,
+   "finish_pos_rank": 23,
+   "outcome": 1
+  },
+  "B0099": {
+   "family": "bust",
+   "player": "Josh Jacobs",
+   "player_id": "00-0035700",
+   "adp_pos_rank": 10,
+   "finish_pos_rank": 5,
+   "outcome": 0
+  },
+  "B0100": {
+   "family": "over_under",
+   "player": "Dallas Goedert",
+   "player_id": "00-0034351",
+   "adp_pos_rank": 15,
+   "finish_pos_rank": 27,
+   "outcome": 0
+  },
+  "B0101": {
+   "family": "bust",
+   "player": "Cooper Kupp",
+   "player_id": "00-0033908",
+   "adp_pos_rank": 12,
+   "finish_pos_rank": 40,
+   "outcome": 1
+  },
+  "B0102": {
+   "family": "over_under",
+   "player": "DeAndre Hopkins",
+   "player_id": "00-0030564",
+   "adp_pos_rank": 42,
+   "finish_pos_rank": 48,
+   "outcome": 0
+  },
+  "B0103": {
+   "family": "bust",
+   "player": "Dalton Kincaid",
+   "player_id": "00-0038933",
+   "adp_pos_rank": 5,
+   "finish_pos_rank": 29,
+   "outcome": 1
+  },
+  "B0104": {
+   "family": "bust",
+   "player": "Mark Andrews",
+   "player_id": "00-0034753",
+   "adp_pos_rank": 3,
+   "finish_pos_rank": 5,
+   "outcome": 0
+  },
+  "B0105": {
+   "family": "bust",
+   "player": "Anthony Richardson Sr.",
+   "player_id": "00-0039164",
+   "adp_pos_rank": 8,
+   "finish_pos_rank": 25,
+   "outcome": 1
+  },
+  "B0106": {
+   "family": "over_under",
+   "player": "Kenneth Walker III",
+   "player_id": "00-0038134",
+   "adp_pos_rank": 13,
+   "finish_pos_rank": 28,
+   "outcome": 0
+  },
+  "B0107": {
+   "family": "full_slate",
+   "player": "Jerry Jeudy",
+   "player_id": "00-0036407",
+   "adp_pos_rank": 55,
+   "finish_pos_rank": 15,
+   "outcome": 1
+  },
+  "B0108": {
+   "family": "full_slate",
+   "player": "Bucky Irving",
+   "player_id": "00-0039361",
+   "adp_pos_rank": 49,
+   "finish_pos_rank": 14,
+   "outcome": 1
+  },
+  "B0109": {
+   "family": "full_slate",
+   "player": "Trevor Lawrence",
+   "player_id": "00-0036971",
+   "adp_pos_rank": 20,
+   "finish_pos_rank": 27,
+   "outcome": 0
+  },
+  "B0110": {
+   "family": "over_under",
+   "player": "Trey Benson",
+   "player_id": "00-0039921",
+   "adp_pos_rank": 37,
+   "finish_pos_rank": 68,
+   "outcome": 0
+  },
+  "B0111": {
+   "family": "over_under",
+   "player": "DJ Moore",
+   "player_id": "00-0034827",
+   "adp_pos_rank": 19,
+   "finish_pos_rank": 16,
+   "outcome": 1
+  },
+  "B0112": {
+   "family": "bust",
+   "player": "Deebo Samuel Sr.",
+   "player_id": "00-0035719",
+   "adp_pos_rank": 10,
+   "finish_pos_rank": 44,
+   "outcome": 1
+  },
+  "B0113": {
+   "family": "over_under",
+   "player": "Nico Collins",
+   "player_id": "00-0036554",
+   "adp_pos_rank": 17,
+   "finish_pos_rank": 22,
+   "outcome": 0
+  },
+  "B0114": {
+   "family": "over_under",
+   "player": "Tank Dell",
+   "player_id": "00-0038977",
+   "adp_pos_rank": 25,
+   "finish_pos_rank": 53,
+   "outcome": 0
+  },
+  "B0115": {
+   "family": "full_slate",
+   "player": "Courtland Sutton",
+   "player_id": "00-0034348",
+   "adp_pos_rank": 46,
+   "finish_pos_rank": 13,
+   "outcome": 1
+  },
+  "B0116": {
+   "family": "over_under",
+   "player": "Terry McLaurin",
+   "player_id": "00-0035659",
+   "adp_pos_rank": 34,
+   "finish_pos_rank": 6,
+   "outcome": 1
+  },
+  "B0117": {
+   "family": "bust",
+   "player": "Isiah Pacheco",
+   "player_id": "00-0037197",
+   "adp_pos_rank": 11,
+   "finish_pos_rank": 63,
+   "outcome": 1
+  },
+  "B0118": {
+   "family": "bust",
+   "player": "A.J. Brown",
+   "player_id": "00-0035676",
+   "adp_pos_rank": 6,
+   "finish_pos_rank": 18,
+   "outcome": 0
+  },
+  "B0119": {
+   "family": "full_slate",
+   "player": "Deshaun Watson",
+   "player_id": "00-0033537",
+   "adp_pos_rank": 21,
+   "finish_pos_rank": 40,
+   "outcome": 0
+  },
+  "B0120": {
+   "family": "over_under",
+   "player": "Zamir White",
+   "player_id": "00-0038040",
+   "adp_pos_rank": 25,
+   "finish_pos_rank": 87,
+   "outcome": 0
+  },
+  "B0121": {
+   "family": "full_slate",
+   "player": "Jameson Williams",
+   "player_id": "00-0037240",
+   "adp_pos_rank": 44,
+   "finish_pos_rank": 19,
+   "outcome": 1
+  },
+  "B0122": {
+   "family": "over_under",
+   "player": "Dalton Schultz",
+   "player_id": "00-0034383",
+   "adp_pos_rank": 16,
+   "finish_pos_rank": 21,
+   "outcome": 0
+  },
+  "B0123": {
+   "family": "full_slate",
+   "player": "Tyler Lockett",
+   "player_id": "00-0032211",
+   "adp_pos_rank": 49,
+   "finish_pos_rank": 69,
+   "outcome": 0
+  },
+  "B0124": {
+   "family": "bust",
+   "player": "Breece Hall",
+   "player_id": "00-0038120",
+   "adp_pos_rank": 3,
+   "finish_pos_rank": 17,
+   "outcome": 0
+  },
+  "B0125": {
+   "family": "bust",
+   "player": "Christian McCaffrey",
+   "player_id": "00-0033280",
+   "adp_pos_rank": 1,
+   "finish_pos_rank": 71,
+   "outcome": 1
+  },
+  "B0126": {
+   "family": "over_under",
+   "player": "Jaxon Smith-Njigba",
+   "player_id": "00-0038543",
+   "adp_pos_rank": 43,
+   "finish_pos_rank": 10,
+   "outcome": 1
+  },
+  "B0127": {
+   "family": "over_under",
+   "player": "Christian Kirk",
+   "player_id": "00-0034775",
+   "adp_pos_rank": 28,
+   "finish_pos_rank": 95,
+   "outcome": 0
+  },
+  "B0128": {
+   "family": "full_slate",
+   "player": "Ty Chandler",
+   "player_id": "00-0037276",
+   "adp_pos_rank": 48,
+   "finish_pos_rank": 88,
+   "outcome": 0
+  },
+  "B0129": {
+   "family": "over_under",
+   "player": "Amari Cooper",
+   "player_id": "00-0031544",
+   "adp_pos_rank": 26,
+   "finish_pos_rank": 63,
+   "outcome": 0
+  },
+  "B0130": {
+   "family": "full_slate",
+   "player": "Jaleel McLaughlin",
+   "player_id": "00-0038794",
+   "adp_pos_rank": 46,
+   "finish_pos_rank": 49,
+   "outcome": 0
+  },
+  "B0131": {
+   "family": "over_under",
+   "player": "Rachaad White",
+   "player_id": "00-0037256",
+   "adp_pos_rank": 15,
+   "finish_pos_rank": 24,
+   "outcome": 0
+  },
+  "B0132": {
+   "family": "over_under",
+   "player": "D'Andre Swift",
+   "player_id": "00-0036275",
+   "adp_pos_rank": 23,
+   "finish_pos_rank": 19,
+   "outcome": 1
+  },
+  "B0133": {
+   "family": "over_under",
+   "player": "Rico Dowdle",
+   "player_id": "00-0036139",
+   "adp_pos_rank": 41,
+   "finish_pos_rank": 22,
+   "outcome": 1
+  },
+  "B0134": {
+   "family": "over_under",
+   "player": "Trevor Lawrence",
+   "player_id": "00-0036971",
+   "adp_pos_rank": 20,
+   "finish_pos_rank": 27,
+   "outcome": 0
+  },
+  "B0135": {
+   "family": "bust",
+   "player": "Kyle Pitts Sr.",
+   "player_id": "00-0036970",
+   "adp_pos_rank": 7,
+   "finish_pos_rank": 15,
+   "outcome": 0
+  },
+  "B0136": {
+   "family": "over_under",
+   "player": "Tyler Allgeier",
+   "player_id": "00-0037263",
+   "adp_pos_rank": 40,
+   "finish_pos_rank": 42,
+   "outcome": 0
+  },
+  "B0137": {
+   "family": "full_slate",
+   "player": "Geno Smith",
+   "player_id": "00-0030565",
+   "adp_pos_rank": 22,
+   "finish_pos_rank": 14,
+   "outcome": 0
+  },
+  "B0138": {
+   "family": "full_slate",
+   "player": "Ray Davis",
+   "player_id": "00-0039875",
+   "adp_pos_rank": 53,
+   "finish_pos_rank": 38,
+   "outcome": 0
+  },
+  "B0139": {
+   "family": "full_slate",
+   "player": "Rome Odunze",
+   "player_id": "00-0039919",
+   "adp_pos_rank": 57,
+   "finish_pos_rank": 49,
+   "outcome": 0
+  },
+  "B0140": {
+   "family": "full_slate",
+   "player": "Jaylen Wright",
+   "player_id": "00-0039874",
+   "adp_pos_rank": 52,
+   "finish_pos_rank": 89,
+   "outcome": 0
+  },
+  "B0141": {
+   "family": "full_slate",
+   "player": "MarShawn Lloyd",
+   "player_id": "00-0039811",
+   "adp_pos_rank": 51,
+   "finish_pos_rank": 122,
+   "outcome": 0
+  },
+  "B0142": {
+   "family": "over_under",
+   "player": "Jared Goff",
+   "player_id": "00-0033106",
+   "adp_pos_rank": 13,
+   "finish_pos_rank": 6,
+   "outcome": 1
+  },
+  "B0143": {
+   "family": "over_under",
+   "player": "Chris Godwin Jr.",
+   "player_id": "00-0033921",
+   "adp_pos_rank": 35,
+   "finish_pos_rank": 54,
+   "outcome": 0
+  },
+  "B0144": {
+   "family": "over_under",
+   "player": "Keon Coleman",
+   "player_id": "00-0039901",
+   "adp_pos_rank": 39,
+   "finish_pos_rank": 67,
+   "outcome": 0
+  },
+  "B0145": {
+   "family": "bust",
+   "player": "Kyren Williams",
+   "player_id": "00-0037840",
+   "adp_pos_rank": 8,
+   "finish_pos_rank": 7,
+   "outcome": 0
+  },
+  "B0146": {
+   "family": "full_slate",
+   "player": "DeAndre Hopkins",
+   "player_id": "00-0030564",
+   "adp_pos_rank": 42,
+   "finish_pos_rank": 48,
+   "outcome": 0
+  },
+  "B0147": {
+   "family": "full_slate",
+   "player": "Brian Thomas Jr.",
+   "player_id": "00-0039893",
+   "adp_pos_rank": 59,
+   "finish_pos_rank": 4,
+   "outcome": 1
+  },
+  "B0148": {
+   "family": "over_under",
+   "player": "Chase Brown",
+   "player_id": "00-0038597",
+   "adp_pos_rank": 35,
+   "finish_pos_rank": 12,
+   "outcome": 1
+  },
+  "B0149": {
+   "family": "bust",
+   "player": "Marvin Harrison Jr.",
+   "player_id": "00-0039849",
+   "adp_pos_rank": 9,
+   "finish_pos_rank": 29,
+   "outcome": 1
+  },
+  "B0150": {
+   "family": "over_under",
+   "player": "Javonte Williams",
+   "player_id": "00-0036997",
+   "adp_pos_rank": 43,
+   "finish_pos_rank": 31,
+   "outcome": 1
+  },
+  "B0151": {
+   "family": "full_slate",
+   "player": "Diontae Johnson",
+   "player_id": "00-0035216",
+   "adp_pos_rank": 48,
+   "finish_pos_rank": 86,
+   "outcome": 0
+  },
+  "B0152": {
+   "family": "over_under",
+   "player": "Austin Ekeler",
+   "player_id": "00-0033699",
+   "adp_pos_rank": 32,
+   "finish_pos_rank": 35,
+   "outcome": 0
+  },
+  "B0153": {
+   "family": "over_under",
+   "player": "Michael Pittman Jr.",
+   "player_id": "00-0036252",
+   "adp_pos_rank": 23,
+   "finish_pos_rank": 43,
+   "outcome": 0
+  },
+  "B0154": {
+   "family": "bust",
+   "player": "Joe Burrow",
+   "player_id": "00-0036442",
+   "adp_pos_rank": 11,
+   "finish_pos_rank": 3,
+   "outcome": 0
+  },
+  "B0155": {
+   "family": "over_under",
+   "player": "Xavier Worthy",
+   "player_id": "00-0039894",
+   "adp_pos_rank": 38,
+   "finish_pos_rank": 33,
+   "outcome": 1
+  },
+  "B0156": {
+   "family": "full_slate",
+   "player": "Adam Thielen",
+   "player_id": "00-0030035",
+   "adp_pos_rank": 58,
+   "finish_pos_rank": 51,
+   "outcome": 0
+  },
+  "B0157": {
+   "family": "bust",
+   "player": "Jalen Hurts",
+   "player_id": "00-0036389",
+   "adp_pos_rank": 2,
+   "finish_pos_rank": 8,
+   "outcome": 0
+  },
+  "B0158": {
+   "family": "over_under",
+   "player": "Luke Musgrave",
+   "player_id": "00-0039144",
+   "adp_pos_rank": 17,
+   "finish_pos_rank": 85,
+   "outcome": 0
+  },
+  "B0159": {
+   "family": "full_slate",
+   "player": "Will Levis",
+   "player_id": "00-0039152",
+   "adp_pos_rank": 23,
+   "finish_pos_rank": 30,
+   "outcome": 0
+  },
+  "B0160": {
+   "family": "bust",
+   "player": "Jahmyr Gibbs",
+   "player_id": "00-0039139",
+   "adp_pos_rank": 4,
+   "finish_pos_rank": 2,
+   "outcome": 0
+  },
+  "B0161": {
+   "family": "over_under",
+   "player": "Raheem Mostert",
+   "player_id": "00-0031687",
+   "adp_pos_rank": 26,
+   "finish_pos_rank": 58,
+   "outcome": 0
+  },
+  "B0162": {
+   "family": "over_under",
+   "player": "Chris Olave",
+   "player_id": "00-0037239",
+   "adp_pos_rank": 14,
+   "finish_pos_rank": 93,
+   "outcome": 0
+  },
+  "B0163": {
+   "family": "full_slate",
+   "player": "Romeo Doubs",
+   "player_id": "00-0037816",
+   "adp_pos_rank": 45,
+   "finish_pos_rank": 57,
+   "outcome": 0
+  },
+  "B0164": {
+   "family": "full_slate",
+   "player": "Javonte Williams",
+   "player_id": "00-0036997",
+   "adp_pos_rank": 43,
+   "finish_pos_rank": 31,
+   "outcome": 0
+  },
+  "B0165": {
+   "family": "over_under",
+   "player": "Malik Nabers",
+   "player_id": "00-0039337",
+   "adp_pos_rank": 27,
+   "finish_pos_rank": 7,
+   "outcome": 1
+  },
+  "B0166": {
+   "family": "over_under",
+   "player": "Caleb Williams",
+   "player_id": "00-0039918",
+   "adp_pos_rank": 15,
+   "finish_pos_rank": 16,
+   "outcome": 0
+  },
+  "B0167": {
+   "family": "bust",
+   "player": "George Kittle",
+   "player_id": "00-0033288",
+   "adp_pos_rank": 6,
+   "finish_pos_rank": 2,
+   "outcome": 0
+  },
+  "B0168": {
+   "family": "full_slate",
+   "player": "Michael Wilson",
+   "player_id": "00-0038559",
+   "adp_pos_rank": 64,
+   "finish_pos_rank": 62,
+   "outcome": 0
+  },
+  "B0169": {
+   "family": "over_under",
+   "player": "Jayden Daniels",
+   "player_id": "00-0039910",
+   "adp_pos_rank": 17,
+   "finish_pos_rank": 5,
+   "outcome": 1
+  },
+  "B0170": {
+   "family": "bust",
+   "player": "Puka Nacua",
+   "player_id": "00-0039075",
+   "adp_pos_rank": 8,
+   "finish_pos_rank": 28,
+   "outcome": 1
+  },
+  "B0171": {
+   "family": "bust",
+   "player": "David Njoku",
+   "player_id": "00-0033885",
+   "adp_pos_rank": 10,
+   "finish_pos_rank": 11,
+   "outcome": 0
+  },
+  "B0172": {
+   "family": "bust",
+   "player": "CeeDee Lamb",
+   "player_id": "00-0036358",
+   "adp_pos_rank": 1,
+   "finish_pos_rank": 8,
+   "outcome": 0
+  }
+ }
+}

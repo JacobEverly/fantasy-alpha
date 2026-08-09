@@ -1,0 +1,322 @@
+{"step": 1, "time": 1786284472.9858975, "val/loss": 3.0577352046966553}
+{"step": 1, "time": 1786284474.7984295, "progress/epoch": 0, "progress/num_samples": 18, "progress/num_tokens": 32768}
+{"step": 1, "time": 1786284474.7984626, "perf/throughput": 0, "perf/throughput_per_gpu": 0.0, "perf/peak_memory": 17.798828125, "perf/mfu": 0}
+{"step": 1, "time": 1786284474.7985027, "optim/lr": 5e-05, "optim/zero_grad_ratio": 0.46430614590644836, "optim/grad_norm": 3.192815065383911}
+{"step": 1, "time": 1786284474.7985198, "loss/mean": 3.049365282058716, "loss/nan_count": 0}
+{"step": 1, "time": 1786284474.7985308, "time/step": 17.635961801999997, "time/save_ckpt": 0, "time/forward_backward": 13.031164255000022}
+{"step": 1, "time": 1786284474.7986703, "system/ckpt_disk_free_gib": 89.89091110229492, "system/ckpt_disk_used_gib": 41.274356842041016, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191219397103698}
+{"step": 2, "time": 1786284486.539364, "progress/epoch": 0, "progress/num_samples": 34, "progress/num_tokens": 65536}
+{"step": 2, "time": 1786284486.5393984, "perf/throughput": 2790.9289304557565, "perf/throughput_per_gpu": 2790.9289304557565, "perf/peak_memory": 17.798828125, "perf/mfu": 18.62150467869015}
+{"step": 2, "time": 1786284486.5394375, "optim/lr": 5e-05, "optim/zero_grad_ratio": 2.764141754596494e-05, "optim/grad_norm": 3.0173237323760986}
+{"step": 2, "time": 1786284486.5394557, "loss/mean": 2.835768222808838, "loss/nan_count": 0}
+{"step": 2, "time": 1786284486.5394673, "time/step": 11.74039915100002, "time/save_ckpt": 0, "time/forward_backward": 11.388146419999998}
+{"step": 2, "time": 1786284486.5395644, "system/ckpt_disk_free_gib": 89.89091110229492, "system/ckpt_disk_used_gib": 41.274356842041016, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191219397103698}
+{"step": 3, "time": 1786284498.2676518, "progress/epoch": 0, "progress/num_samples": 50, "progress/num_tokens": 98304}
+{"step": 3, "time": 1786284498.2676864, "perf/throughput": 2792.430107828659, "perf/throughput_per_gpu": 2792.430107828659, "perf/peak_memory": 17.798828125, "perf/mfu": 18.631520763717614}
+{"step": 3, "time": 1786284498.2677243, "optim/lr": 5e-05, "optim/zero_grad_ratio": 2.8670780011452734e-05, "optim/grad_norm": 2.850475311279297}
+{"step": 3, "time": 1786284498.2677433, "loss/mean": 2.761971950531006, "loss/nan_count": 0}
+{"step": 3, "time": 1786284498.2677548, "time/step": 11.727782832000003, "time/save_ckpt": 0, "time/forward_backward": 11.39149962700003}
+{"step": 3, "time": 1786284498.267849, "system/ckpt_disk_free_gib": 89.89091110229492, "system/ckpt_disk_used_gib": 41.274356842041016, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191219397103698}
+{"step": 4, "time": 1786284509.973922, "progress/epoch": 0, "progress/num_samples": 67, "progress/num_tokens": 131072}
+{"step": 4, "time": 1786284509.9739563, "perf/throughput": 2794.6769360600474, "perf/throughput_per_gpu": 2794.6769360600474, "perf/peak_memory": 17.798828125, "perf/mfu": 18.64651194531541}
+{"step": 4, "time": 1786284509.974005, "optim/lr": 5e-05, "optim/zero_grad_ratio": 2.727811261138413e-05, "optim/grad_norm": 2.440460681915283}
+{"step": 4, "time": 1786284509.9740245, "loss/mean": 2.502746343612671, "loss/nan_count": 0}
+{"step": 4, "time": 1786284509.9740357, "time/step": 11.705776194999999, "time/save_ckpt": 0, "time/forward_backward": 11.366640029999985}
+{"step": 4, "time": 1786284509.9741354, "system/ckpt_disk_free_gib": 89.89090728759766, "system/ckpt_disk_used_gib": 41.27436065673828, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.619121913436715}
+{"step": 5, "time": 1786284521.673132, "progress/epoch": 0, "progress/num_samples": 84, "progress/num_tokens": 163840}
+{"step": 5, "time": 1786284521.673168, "perf/throughput": 2796.2238877839086, "perf/throughput_per_gpu": 2796.2238877839086, "perf/peak_memory": 17.798828125, "perf/mfu": 18.656833443813362}
+{"step": 5, "time": 1786284521.6732075, "optim/lr": 5e-05, "optim/zero_grad_ratio": 3.133501377305947e-05, "optim/grad_norm": 2.2566330432891846}
+{"step": 5, "time": 1786284521.6732423, "loss/mean": 2.503680944442749, "loss/nan_count": 0}
+{"step": 5, "time": 1786284521.6732547, "time/step": 11.69867757299994, "time/save_ckpt": 0, "time/forward_backward": 11.359467500999926}
+{"step": 5, "time": 1786284521.6733515, "system/ckpt_disk_free_gib": 89.89089584350586, "system/ckpt_disk_used_gib": 41.27437210083008, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191218346157504}
+{"step": 6, "time": 1786284535.7430327, "val/loss": 2.402373790740967}
+{"step": 6, "time": 1786284536.0547848, "progress/epoch": 0, "progress/num_samples": 100, "progress/num_tokens": 196608}
+{"step": 6, "time": 1786284536.0548186, "perf/throughput": 2674.6621712933907, "perf/throughput_per_gpu": 2674.6621712933907, "perf/peak_memory": 17.798828125, "perf/mfu": 17.84575507930333}
+{"step": 6, "time": 1786284536.054866, "optim/lr": 5e-05, "optim/zero_grad_ratio": 3.6300174542702734e-05, "optim/grad_norm": 1.949466586112976}
+{"step": 6, "time": 1786284536.0548844, "loss/mean": 2.354382276535034, "loss/nan_count": 0}
+{"step": 6, "time": 1786284536.054895, "time/step": 14.381148949999897, "time/save_ckpt": 0, "time/forward_backward": 11.372899598000004}
+{"step": 6, "time": 1786284536.0549884, "system/ckpt_disk_free_gib": 89.89089584350586, "system/ckpt_disk_used_gib": 41.27437210083008, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191218346157504}
+{"step": 7, "time": 1786284547.7801902, "progress/epoch": 0, "progress/num_samples": 116, "progress/num_tokens": 229376}
+{"step": 7, "time": 1786284547.7802274, "perf/throughput": 2693.9354077677267, "perf/throughput_per_gpu": 2693.9354077677267, "perf/peak_memory": 17.798828125, "perf/mfu": 17.974349060778074}
+{"step": 7, "time": 1786284547.7802668, "optim/lr": 5e-05, "optim/zero_grad_ratio": 4.2143321479670703e-05, "optim/grad_norm": 1.4286668300628662}
+{"step": 7, "time": 1786284547.7802858, "loss/mean": 2.0871729850769043, "loss/nan_count": 0}
+{"step": 7, "time": 1786284547.7802973, "time/step": 11.724889826000094, "time/save_ckpt": 0, "time/forward_backward": 11.383370484000011}
+{"step": 7, "time": 1786284547.7803934, "system/ckpt_disk_free_gib": 89.89089584350586, "system/ckpt_disk_used_gib": 41.27437210083008, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191218346157504}
+{"step": 8, "time": 1786284559.4790788, "progress/epoch": 0, "progress/num_samples": 133, "progress/num_tokens": 262144}
+{"step": 8, "time": 1786284559.4791143, "perf/throughput": 2708.7198668293317, "perf/throughput_per_gpu": 2708.7198668293317, "perf/peak_memory": 17.798828125, "perf/mfu": 18.072993232825343}
+{"step": 8, "time": 1786284559.4791536, "optim/lr": 5e-05, "optim/zero_grad_ratio": 4.280938082956709e-05, "optim/grad_norm": 1.1379934549331665}
+{"step": 8, "time": 1786284559.479172, "loss/mean": 2.15238094329834, "loss/nan_count": 0}
+{"step": 8, "time": 1786284559.4791834, "time/step": 11.698377701000027, "time/save_ckpt": 0, "time/forward_backward": 11.358384679999972}
+{"step": 8, "time": 1786284559.4792793, "system/ckpt_disk_free_gib": 89.8908920288086, "system/ckpt_disk_used_gib": 41.274375915527344, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191218083420956}
+{"step": 9, "time": 1786284571.186699, "progress/epoch": 0, "progress/num_samples": 150, "progress/num_tokens": 294912}
+{"step": 9, "time": 1786284571.186735, "perf/throughput": 2719.668833659853, "perf/throughput_per_gpu": 2719.668833659853, "perf/peak_memory": 17.798828125, "perf/mfu": 18.146046414092876}
+{"step": 9, "time": 1786284571.1867754, "optim/lr": 5e-05, "optim/zero_grad_ratio": 4.650297705666162e-05, "optim/grad_norm": 0.956588864326477}
+{"step": 9, "time": 1786284571.1867938, "loss/mean": 2.0201797485351562, "loss/nan_count": 0}
+{"step": 9, "time": 1786284571.1868045, "time/step": 11.707106910000107, "time/save_ckpt": 0, "time/forward_backward": 11.36979464600006}
+{"step": 9, "time": 1786284571.186902, "system/ckpt_disk_free_gib": 89.8908920288086, "system/ckpt_disk_used_gib": 41.274375915527344, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191218083420956}
+{"step": 10, "time": 1786284582.906455, "progress/epoch": 1, "progress/num_samples": 166, "progress/num_tokens": 327680}
+{"step": 10, "time": 1786284582.9064896, "perf/throughput": 2727.938971693958, "perf/throughput_per_gpu": 2727.938971693958, "perf/peak_memory": 17.798828125, "perf/mfu": 18.20122603992102}
+{"step": 10, "time": 1786284582.9065301, "optim/lr": 5e-05, "optim/zero_grad_ratio": 5.128648626850918e-05, "optim/grad_norm": 0.9403793811798096}
+{"step": 10, "time": 1786284582.9065475, "loss/mean": 1.947684407234192, "loss/nan_count": 0}
+{"step": 10, "time": 1786284582.9065585, "time/step": 11.719239261000098, "time/save_ckpt": 0, "time/forward_backward": 11.38092317500002}
+{"step": 10, "time": 1786284582.9066532, "system/ckpt_disk_free_gib": 89.89088439941406, "system/ckpt_disk_used_gib": 41.274383544921875, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191217557947859}
+{"step": 11, "time": 1786284594.6382406, "progress/epoch": 1, "progress/num_samples": 182, "progress/num_tokens": 360448}
+{"step": 11, "time": 1786284594.6382768, "perf/throughput": 2728.16937370364, "perf/throughput_per_gpu": 2728.16937370364, "perf/peak_memory": 17.798828125, "perf/mfu": 18.202763317368127}
+{"step": 11, "time": 1786284594.6383164, "optim/lr": 5e-05, "optim/zero_grad_ratio": 5.2709427109220996e-05, "optim/grad_norm": 0.8769941926002502}
+{"step": 11, "time": 1786284594.6383355, "loss/mean": 1.9338316917419434, "loss/nan_count": 0}
+{"step": 11, "time": 1786284594.638346, "time/step": 11.73128916600001, "time/save_ckpt": 0, "time/forward_backward": 11.391053951999993}
+{"step": 11, "time": 1786284594.6384447, "system/ckpt_disk_free_gib": 89.89088439941406, "system/ckpt_disk_used_gib": 41.274383544921875, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.6191217557947859}
+{"step": 12, "time": 1786284608.7169633, "val/loss": 2.027556896209717}
+{"step": 12, "time": 1786284664.5862052, "progress/epoch": 1, "progress/num_samples": 199, "progress/num_tokens": 393216}
+{"step": 12, "time": 1786284664.5862403, "perf/throughput": 1773.1767403261606, "perf/throughput_per_gpu": 1773.1767403261606, "perf/peak_memory": 17.798828125, "perf/mfu": 11.830906407472058}
+{"step": 12, "time": 1786284664.5862854, "optim/lr": 5e-05, "optim/zero_grad_ratio": 5.192226672079414e-05, "optim/grad_norm": 0.9641503691673279}
+{"step": 12, "time": 1786284664.586304, "loss/mean": 1.9000271558761597, "loss/nan_count": 0}
+{"step": 12, "time": 1786284664.586315, "time/step": 69.94741592800005, "time/save_ckpt": 55.55238306300009, "time/forward_backward": 11.382570223000016}
+{"step": 12, "time": 1786284664.586403, "system/ckpt_disk_free_gib": 65.4571418762207, "system/ckpt_disk_used_gib": 65.70812606811523, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.45083481910851386}
+{"step": 13, "time": 1786284676.484071, "progress/epoch": 1, "progress/num_samples": 215, "progress/num_tokens": 425984}
+{"step": 13, "time": 1786284676.4841065, "perf/throughput": 1771.1352736349309, "perf/throughput_per_gpu": 1771.1352736349309, "perf/peak_memory": 17.466796875, "perf/mfu": 11.817285429478929}
+{"step": 13, "time": 1786284676.4841456, "optim/lr": 5e-05, "optim/zero_grad_ratio": 5.370851431507617e-05, "optim/grad_norm": 0.9711360931396484}
+{"step": 13, "time": 1786284676.4841642, "loss/mean": 1.8878421783447266, "loss/nan_count": 0}
+{"step": 13, "time": 1786284676.484176, "time/step": 11.897362660999988, "time/save_ckpt": 0, "time/forward_backward": 11.530725948000054}
+{"step": 13, "time": 1786284676.4842725, "system/ckpt_disk_free_gib": 65.4571418762207, "system/ckpt_disk_used_gib": 65.70812606811523, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.45083481910851386}
+{"step": 14, "time": 1786284688.255408, "progress/epoch": 1, "progress/num_samples": 232, "progress/num_tokens": 458752}
+{"step": 14, "time": 1786284688.255469, "perf/throughput": 1770.3683533916894, "perf/throughput_per_gpu": 1770.3683533916894, "perf/peak_memory": 17.466796875, "perf/mfu": 11.81216842032049}
+{"step": 14, "time": 1786284688.2555137, "optim/lr": 5e-05, "optim/zero_grad_ratio": 5.310300912242383e-05, "optim/grad_norm": 0.963093101978302}
+{"step": 14, "time": 1786284688.2555325, "loss/mean": 1.8563505411148071, "loss/nan_count": 0}
+{"step": 14, "time": 1786284688.2555437, "time/step": 11.770829444000015, "time/save_ckpt": 0, "time/forward_backward": 11.430294325999967}
+{"step": 14, "time": 1786284688.2556436, "system/ckpt_disk_free_gib": 65.45713424682617, "system/ckpt_disk_used_gib": 65.70813369750977, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.4508347665612042}
+{"step": 15, "time": 1786284700.067627, "progress/epoch": 1, "progress/num_samples": 249, "progress/num_tokens": 491520}
+{"step": 15, "time": 1786284700.0676632, "perf/throughput": 1798.103496420138, "perf/throughput_per_gpu": 1798.103496420138, "perf/peak_memory": 17.466796875, "perf/mfu": 11.997221536518635}
+{"step": 15, "time": 1786284700.067703, "optim/lr": 5e-05, "optim/zero_grad_ratio": 5.543421139009297e-05, "optim/grad_norm": 0.868484616279602}
+{"step": 15, "time": 1786284700.0677214, "loss/mean": 1.8647146224975586, "loss/nan_count": 0}
+{"step": 15, "time": 1786284700.0677323, "time/step": 11.811668005000001, "time/save_ckpt": 0, "time/forward_backward": 11.47142472600001}
+{"step": 15, "time": 1786284700.067829, "system/ckpt_disk_free_gib": 65.45712661743164, "system/ckpt_disk_used_gib": 65.7081413269043, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.4508347140138946}
+{"step": 16, "time": 1786284711.810514, "progress/epoch": 1, "progress/num_samples": 266, "progress/num_tokens": 524288}
+{"step": 16, "time": 1786284711.8105478, "perf/throughput": 1797.9112785145087, "perf/throughput_per_gpu": 1797.9112785145087, "perf/peak_memory": 17.466796875, "perf/mfu": 11.995939029253778}
+{"step": 16, "time": 1786284711.810587, "optim/lr": 5e-05, "optim/zero_grad_ratio": 6.454710091929883e-05, "optim/grad_norm": 0.8171365261077881}
+{"step": 16, "time": 1786284711.8106196, "loss/mean": 1.8025568723678589, "loss/nan_count": 0}
+{"step": 16, "time": 1786284711.8106315, "time/step": 11.74239558399995, "time/save_ckpt": 0, "time/forward_backward": 11.402665016000014}
+{"step": 16, "time": 1786284711.8107278, "system/ckpt_disk_free_gib": 65.45712280273438, "system/ckpt_disk_used_gib": 65.70814514160156, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.4508346877402397}
+{"step": 17, "time": 1786284723.5786784, "progress/epoch": 1, "progress/num_samples": 282, "progress/num_tokens": 557056}
+{"step": 17, "time": 1786284723.5787144, "perf/throughput": 1797.1522572133508, "perf/throughput_per_gpu": 1797.1522572133508, "perf/peak_memory": 17.466796875, "perf/mfu": 11.99087472304501}
+{"step": 17, "time": 1786284723.5787542, "optim/lr": 5e-05, "optim/zero_grad_ratio": 6.639389903284609e-05, "optim/grad_norm": 0.7629400491714478}
+{"step": 17, "time": 1786284723.578773, "loss/mean": 1.7513587474822998, "loss/nan_count": 0}
+{"step": 17, "time": 1786284723.5787835, "time/step": 11.767652977000012, "time/save_ckpt": 0, "time/forward_backward": 11.426097136000067}
+{"step": 17, "time": 1786284723.5788789, "system/ckpt_disk_free_gib": 65.45712280273438, "system/ckpt_disk_used_gib": 65.70814514160156, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.4508346877402397}
+{"step": 18, "time": 1786284737.7063785, "val/loss": 1.84027099609375}
+{"step": 18, "time": 1786284738.0172045, "progress/epoch": 1, "progress/num_samples": 299, "progress/num_tokens": 589824}
+{"step": 18, "time": 1786284738.0172362, "perf/throughput": 1767.7338681188776, "perf/throughput_per_gpu": 1767.7338681188776, "perf/peak_memory": 17.466796875, "perf/mfu": 11.794590731652653}
+{"step": 18, "time": 1786284738.0172787, "optim/lr": 5e-05, "optim/zero_grad_ratio": 6.681775266770273e-05, "optim/grad_norm": 0.7452968955039978}
+{"step": 18, "time": 1786284738.0173118, "loss/mean": 1.7184555530548096, "loss/nan_count": 0}
+{"step": 18, "time": 1786284738.0173242, "time/step": 14.43804762800005, "time/save_ckpt": 0, "time/forward_backward": 11.416078769000023}
+{"step": 18, "time": 1786284738.0174286, "system/ckpt_disk_free_gib": 65.45711898803711, "system/ckpt_disk_used_gib": 65.70814895629883, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.4508346614665849}
+{"step": 19, "time": 1786284749.7597823, "progress/epoch": 2, "progress/num_samples": 316, "progress/num_tokens": 622592}
+{"step": 19, "time": 1786284749.7598193, "perf/throughput": 1767.4926827081902, "perf/throughput_per_gpu": 1767.4926827081902, "perf/peak_memory": 17.466796875, "perf/mfu": 11.792981505704784}
+{"step": 19, "time": 1786284749.7598588, "optim/lr": 5e-05, "optim/zero_grad_ratio": 7.52645792090334e-05, "optim/grad_norm": 0.6626208424568176}
+{"step": 19, "time": 1786284749.7598782, "loss/mean": 1.6231573820114136, "loss/nan_count": 0}
+{"step": 19, "time": 1786284749.7598891, "time/step": 11.742044835999991, "time/save_ckpt": 0, "time/forward_backward": 11.401869754000018}
+{"step": 19, "time": 1786284749.7599845, "system/ckpt_disk_free_gib": 65.45711135864258, "system/ckpt_disk_used_gib": 65.70815658569336, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.45083460891927524}
+{"step": 20, "time": 1786284761.502738, "progress/epoch": 2, "progress/num_samples": 333, "progress/num_tokens": 655360}
+{"step": 20, "time": 1786284761.5027747, "perf/throughput": 1767.3741847736642, "perf/throughput_per_gpu": 1767.3741847736642, "perf/peak_memory": 17.466796875, "perf/mfu": 11.792190869362127}
+{"step": 20, "time": 1786284761.5028152, "optim/lr": 5e-05, "optim/zero_grad_ratio": 7.381136674666777e-05, "optim/grad_norm": 0.6676835417747498}
+{"step": 20, "time": 1786284761.502834, "loss/mean": 1.6572915315628052, "loss/nan_count": 0}
+{"step": 20, "time": 1786284761.5028448, "time/step": 11.742432723999968, "time/save_ckpt": 0, "time/forward_backward": 11.404365675000008}
+{"step": 20, "time": 1786284761.5029414, "system/ckpt_disk_free_gib": 65.45711135864258, "system/ckpt_disk_used_gib": 65.70815658569336, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.45083460891927524}
+{"step": 21, "time": 1786284773.2515075, "progress/epoch": 2, "progress/num_samples": 349, "progress/num_tokens": 688128}
+{"step": 21, "time": 1786284773.2515426, "perf/throughput": 2713.945443479041, "perf/throughput_per_gpu": 2713.945443479041, "perf/peak_memory": 17.466796875, "perf/mfu": 18.107859079450655}
+{"step": 21, "time": 1786284773.2515817, "optim/lr": 5e-05, "optim/zero_grad_ratio": 7.484072557417676e-05, "optim/grad_norm": 0.7271814346313477}
+{"step": 21, "time": 1786284773.2515998, "loss/mean": 1.645460605621338, "loss/nan_count": 0}
+{"step": 21, "time": 1786284773.2516136, "time/step": 11.748269950000008, "time/save_ckpt": 0, "time/forward_backward": 11.409337407999942}
+{"step": 21, "time": 1786284773.2517104, "system/ckpt_disk_free_gib": 65.45710754394531, "system/ckpt_disk_used_gib": 65.70816040039062, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.45083458264562043}
+{"step": 22, "time": 1786284784.9771821, "progress/epoch": 2, "progress/num_samples": 366, "progress/num_tokens": 720896}
+{"step": 22, "time": 1786284784.977219, "perf/throughput": 2718.256334353797, "perf/throughput_per_gpu": 2718.256334353797, "perf/peak_memory": 17.466796875, "perf/mfu": 18.13662200269015}
+{"step": 22, "time": 1786284784.9772577, "optim/lr": 5e-05, "optim/zero_grad_ratio": 7.711137732258067e-05, "optim/grad_norm": 0.6451593041419983}
+{"step": 22, "time": 1786284784.9772763, "loss/mean": 1.6424115896224976, "loss/nan_count": 0}
+{"step": 22, "time": 1786284784.9772878, "time/step": 11.725151387999972, "time/save_ckpt": 0, "time/forward_backward": 11.387008175000005}
+{"step": 22, "time": 1786284784.9773839, "system/ckpt_disk_free_gib": 65.45710754394531, "system/ckpt_disk_used_gib": 65.70816040039062, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.45083458264562043}
+{"step": 23, "time": 1786284796.7382605, "progress/epoch": 2, "progress/num_samples": 382, "progress/num_tokens": 753664}
+{"step": 23, "time": 1786284796.7382967, "perf/throughput": 2718.5121093150196, "perf/throughput_per_gpu": 2718.5121093150196, "perf/peak_memory": 17.466796875, "perf/mfu": 18.13832857235057}
+{"step": 23, "time": 1786284796.7383475, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.092607458820567e-05, "optim/grad_norm": 0.6562716364860535}
+{"step": 23, "time": 1786284796.738367, "loss/mean": 1.5872246026992798, "loss/nan_count": 0}
+{"step": 23, "time": 1786284796.7383778, "time/step": 11.760568642000067, "time/save_ckpt": 0, "time/forward_backward": 11.420222109000065}
+{"step": 23, "time": 1786284796.7384737, "system/ckpt_disk_free_gib": 65.45710372924805, "system/ckpt_disk_used_gib": 65.70816421508789, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.45083455637196557}
+{"step": 24, "time": 1786284810.8645778, "val/loss": 1.7187085151672363}
+{"step": 24, "time": 1786284852.8949924, "progress/epoch": 2, "progress/num_samples": 398, "progress/num_tokens": 786432}
+{"step": 24, "time": 1786284852.895028, "perf/throughput": 1929.708321142782, "perf/throughput_per_gpu": 1929.708321142782, "perf/peak_memory": 17.466796875, "perf/mfu": 12.875309055182436}
+{"step": 24, "time": 1786284852.8950741, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.204626647057012e-05, "optim/grad_norm": 0.6503745317459106}
+{"step": 24, "time": 1786284852.8950937, "loss/mean": 1.595158338546753, "loss/nan_count": 0}
+{"step": 24, "time": 1786284852.895106, "time/step": 56.15617109599998, "time/save_ckpt": 41.71873181000001, "time/forward_backward": 11.421757228000047}
+{"step": 24, "time": 1786284852.8951795, "system/ckpt_disk_free_gib": 41.02341079711914, "system/ckpt_disk_used_gib": 90.1418571472168, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825479612432063}
+{"step": 25, "time": 1786284864.764935, "progress/epoch": 2, "progress/num_samples": 415, "progress/num_tokens": 819200}
+{"step": 25, "time": 1786284864.7649689, "perf/throughput": 1928.1037438022975, "perf/throughput_per_gpu": 1928.1037438022975, "perf/peak_memory": 17.466796875, "perf/mfu": 12.864603069756903}
+{"step": 25, "time": 1786284864.7650092, "optim/lr": 5e-05, "optim/zero_grad_ratio": 5.116538522997871e-05, "optim/grad_norm": 4.306264400482178}
+{"step": 25, "time": 1786284864.7650273, "loss/mean": 1.5883511304855347, "loss/nan_count": 0}
+{"step": 25, "time": 1786284864.765038, "time/step": 11.86944526000002, "time/save_ckpt": 0, "time/forward_backward": 11.504741750999983}
+{"step": 25, "time": 1786284864.7651432, "system/ckpt_disk_free_gib": 41.02485656738281, "system/ckpt_disk_used_gib": 90.14041137695312, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825579189583862}
+{"step": 26, "time": 1786284876.4329288, "progress/epoch": 2, "progress/num_samples": 431, "progress/num_tokens": 851968}
+{"step": 26, "time": 1786284876.432965, "perf/throughput": 1929.3676545274127, "perf/throughput_per_gpu": 1929.3676545274127, "perf/peak_memory": 17.466796875, "perf/mfu": 12.873036075421917}
+{"step": 26, "time": 1786284876.4330058, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.316645835293457e-05, "optim/grad_norm": 0.6798105835914612}
+{"step": 26, "time": 1786284876.4330242, "loss/mean": 1.5311155319213867, "loss/nan_count": 0}
+{"step": 26, "time": 1786284876.4330354, "time/step": 11.667465754999967, "time/save_ckpt": 0, "time/forward_backward": 11.332442343000025}
+{"step": 26, "time": 1786284876.4331336, "system/ckpt_disk_free_gib": 41.02485656738281, "system/ckpt_disk_used_gib": 90.14041137695312, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825579189583862}
+{"step": 27, "time": 1786284888.349793, "progress/epoch": 2, "progress/num_samples": 448, "progress/num_tokens": 884736}
+{"step": 27, "time": 1786284888.3498433, "perf/throughput": 1961.7302340384256, "perf/throughput_per_gpu": 1961.7302340384256, "perf/peak_memory": 17.466796875, "perf/mfu": 13.088964155568478}
+{"step": 27, "time": 1786284888.3498838, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.41049914015457e-05, "optim/grad_norm": 0.6714200973510742}
+{"step": 27, "time": 1786284888.349902, "loss/mean": 1.5960661172866821, "loss/nan_count": 0}
+{"step": 27, "time": 1786284888.349913, "time/step": 11.916374481000048, "time/save_ckpt": 0, "time/forward_backward": 11.581993976000035}
+{"step": 27, "time": 1786284888.3500073, "system/ckpt_disk_free_gib": 41.024845123291016, "system/ckpt_disk_used_gib": 90.14042282104492, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.28255784013742175}
+{"step": 28, "time": 1786284900.100393, "progress/epoch": 3, "progress/num_samples": 464, "progress/num_tokens": 917504}
+{"step": 28, "time": 1786284900.1004272, "perf/throughput": 1961.625265020579, "perf/throughput_per_gpu": 1961.625265020579, "perf/peak_memory": 17.466796875, "perf/mfu": 13.088263786227067}
+{"step": 28, "time": 1786284900.1004667, "optim/lr": 5e-05, "optim/zero_grad_ratio": 7.814074342604727e-05, "optim/grad_norm": 0.7613077163696289}
+{"step": 28, "time": 1786284900.1004841, "loss/mean": 1.4972535371780396, "loss/nan_count": 0}
+{"step": 28, "time": 1786284900.1004946, "time/step": 11.750097126000014, "time/save_ckpt": 0, "time/forward_backward": 11.413931723000019}
+{"step": 28, "time": 1786284900.100591, "system/ckpt_disk_free_gib": 41.02484130859375, "system/ckpt_disk_used_gib": 90.14042663574219, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825578138637669}
+{"step": 29, "time": 1786284911.7528064, "progress/epoch": 3, "progress/num_samples": 481, "progress/num_tokens": 950272}
+{"step": 29, "time": 1786284911.7528405, "perf/throughput": 1962.8074552145758, "perf/throughput_per_gpu": 1962.8074552145758, "perf/peak_memory": 17.466796875, "perf/mfu": 13.096151540009826}
+{"step": 29, "time": 1786284911.7528796, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.552793588023633e-05, "optim/grad_norm": 0.6247066855430603}
+{"step": 29, "time": 1786284911.752899, "loss/mean": 1.4974889755249023, "loss/nan_count": 0}
+{"step": 29, "time": 1786284911.7529292, "time/step": 11.651922947999992, "time/save_ckpt": 0, "time/forward_backward": 11.317126151000025}
+{"step": 29, "time": 1786284911.753026, "system/ckpt_disk_free_gib": 41.02484130859375, "system/ckpt_disk_used_gib": 90.14042663574219, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825578138637669}
+{"step": 30, "time": 1786284925.7902584, "val/loss": 1.6230318546295166}
+{"step": 30, "time": 1786284926.1045957, "progress/epoch": 3, "progress/num_samples": 499, "progress/num_tokens": 983040}
+{"step": 30, "time": 1786284926.1046402, "perf/throughput": 1929.3814535465458, "perf/throughput_per_gpu": 1929.3814535465458, "perf/peak_memory": 17.466796875, "perf/mfu": 12.873128144588044}
+{"step": 30, "time": 1786284926.104681, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.770776184974238e-05, "optim/grad_norm": 0.6355487704277039}
+{"step": 30, "time": 1786284926.104701, "loss/mean": 1.4943971633911133, "loss/nan_count": 0}
+{"step": 30, "time": 1786284926.1047115, "time/step": 14.351299767, "time/save_ckpt": 0, "time/forward_backward": 11.327694240000028}
+{"step": 30, "time": 1786284926.104808, "system/ckpt_disk_free_gib": 41.02484130859375, "system/ckpt_disk_used_gib": 90.14042663574219, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825578138637669}
+{"step": 31, "time": 1786284937.7953944, "progress/epoch": 3, "progress/num_samples": 515, "progress/num_tokens": 1015808}
+{"step": 31, "time": 1786284937.7954307, "perf/throughput": 1929.8218844785538, "perf/throughput_per_gpu": 1929.8218844785538, "perf/peak_memory": 17.466796875, "perf/mfu": 12.876066767127488}
+{"step": 31, "time": 1786284937.7954705, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.746555977268144e-05, "optim/grad_norm": 0.7017558813095093}
+{"step": 31, "time": 1786284937.7955017, "loss/mean": 1.5133941173553467, "loss/nan_count": 0}
+{"step": 31, "time": 1786284937.7955139, "time/step": 11.690275848000056, "time/save_ckpt": 0, "time/forward_backward": 11.354281545000049}
+{"step": 31, "time": 1786284937.7956104, "system/ckpt_disk_free_gib": 41.024837493896484, "system/ckpt_disk_used_gib": 90.14043045043945, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825577875901121}
+{"step": 32, "time": 1786284949.4938207, "progress/epoch": 3, "progress/num_samples": 531, "progress/num_tokens": 1048576}
+{"step": 32, "time": 1786284949.4938576, "perf/throughput": 1930.6138526077427, "perf/throughput_per_gpu": 1930.6138526077427, "perf/peak_memory": 17.466796875, "perf/mfu": 12.881350899611887}
+{"step": 32, "time": 1786284949.4938982, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.952428470365703e-05, "optim/grad_norm": 0.6459282040596008}
+{"step": 32, "time": 1786284949.4939158, "loss/mean": 1.4204362630844116, "loss/nan_count": 0}
+{"step": 32, "time": 1786284949.4939268, "time/step": 11.697908890999997, "time/save_ckpt": 0, "time/forward_backward": 11.361800225000025}
+{"step": 32, "time": 1786284949.4940193, "system/ckpt_disk_free_gib": 41.024837493896484, "system/ckpt_disk_used_gib": 90.14043045043945, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825577875901121}
+{"step": 33, "time": 1786284961.169237, "progress/epoch": 3, "progress/num_samples": 548, "progress/num_tokens": 1081344}
+{"step": 33, "time": 1786284961.169272, "perf/throughput": 2723.747028650543, "perf/throughput_per_gpu": 2723.747028650543, "perf/peak_memory": 17.466796875, "perf/mfu": 18.173256754804537}
+{"step": 33, "time": 1786284961.1693132, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.279402729589492e-05, "optim/grad_norm": 0.6148327589035034}
+{"step": 33, "time": 1786284961.1693318, "loss/mean": 1.408145785331726, "loss/nan_count": 0}
+{"step": 33, "time": 1786284961.1693428, "time/step": 11.674912006999989, "time/save_ckpt": 0, "time/forward_backward": 11.337580919000061}
+{"step": 33, "time": 1786284961.1694489, "system/ckpt_disk_free_gib": 41.02483367919922, "system/ckpt_disk_used_gib": 90.14043426513672, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825577613164572}
+{"step": 34, "time": 1786284972.8622446, "progress/epoch": 3, "progress/num_samples": 564, "progress/num_tokens": 1114112}
+{"step": 34, "time": 1786284972.8622794, "perf/throughput": 2728.208547506667, "perf/throughput_per_gpu": 2728.208547506667, "perf/peak_memory": 17.466796875, "perf/mfu": 18.203024690973308}
+{"step": 34, "time": 1786284972.8623178, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.134080755757168e-05, "optim/grad_norm": 0.6596620082855225}
+{"step": 34, "time": 1786284972.8623364, "loss/mean": 1.438737392425537, "loss/nan_count": 0}
+{"step": 34, "time": 1786284972.8623478, "time/step": 11.692503244999898, "time/save_ckpt": 0, "time/forward_backward": 11.357282773999941}
+{"step": 34, "time": 1786284972.8624434, "system/ckpt_disk_free_gib": 41.02483367919922, "system/ckpt_disk_used_gib": 90.14043426513672, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825577613164572}
+{"step": 35, "time": 1786284984.5131264, "progress/epoch": 3, "progress/num_samples": 582, "progress/num_tokens": 1146880}
+{"step": 35, "time": 1786284984.5131607, "perf/throughput": 2728.639837568322, "perf/throughput_per_gpu": 2728.639837568322, "perf/peak_memory": 17.466796875, "perf/mfu": 18.205902324227722}
+{"step": 35, "time": 1786284984.5132017, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.451972437091172e-05, "optim/grad_norm": 0.5997052788734436}
+{"step": 35, "time": 1786284984.5132196, "loss/mean": 1.4476135969161987, "loss/nan_count": 0}
+{"step": 35, "time": 1786284984.5132303, "time/step": 11.650376649000009, "time/save_ckpt": 0, "time/forward_backward": 11.31462257699991}
+{"step": 35, "time": 1786284984.5133243, "system/ckpt_disk_free_gib": 41.02483367919922, "system/ckpt_disk_used_gib": 90.14043426513672, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825577613164572}
+{"step": 36, "time": 1786284998.545277, "val/loss": 1.547666311264038}
+{"step": 36, "time": 1786284998.8602006, "progress/epoch": 3, "progress/num_samples": 599, "progress/num_tokens": 1179648}
+{"step": 36, "time": 1786284998.8602335, "perf/throughput": 2668.6353525944755, "perf/throughput_per_gpu": 2668.6353525944755, "perf/peak_memory": 17.466796875, "perf/mfu": 17.805543223180884}
+{"step": 36, "time": 1786284998.8602724, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.391421190230176e-05, "optim/grad_norm": 0.634989321231842}
+{"step": 36, "time": 1786284998.860291, "loss/mean": 1.3739093542099, "loss/nan_count": 0}
+{"step": 36, "time": 1786284998.8603015, "time/step": 14.346583923000026, "time/save_ckpt": 0, "time/forward_backward": 11.332646816000079}
+{"step": 36, "time": 1786284998.8603983, "system/ckpt_disk_free_gib": 41.02482986450195, "system/ckpt_disk_used_gib": 90.14043807983398, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.2825577350428024}
+{"step": 25, "time": 1786289450.0547786, "val/loss": 1.6994622945785522}
+{"step": 25, "time": 1786289450.7098727, "progress/epoch": 2, "progress/num_samples": 415, "progress/num_tokens": 786432}
+{"step": 25, "time": 1786289450.7099109, "perf/throughput": 0, "perf/throughput_per_gpu": 0.0, "perf/peak_memory": 17.798828125, "perf/mfu": 0}
+{"step": 25, "time": 1786289450.7099483, "optim/lr": 5e-05, "optim/zero_grad_ratio": 5.2285573474364355e-05, "optim/grad_norm": 4.274312973022461}
+{"step": 25, "time": 1786289450.7099679, "loss/mean": 1.5883511304855347, "loss/nan_count": 0}
+{"step": 25, "time": 1786289450.7099786, "time/step": 16.38920417999998, "time/save_ckpt": 0, "time/forward_backward": 12.947694762000538}
+{"step": 25, "time": 1786289450.7100728, "system/ckpt_disk_free_gib": 16.59060287475586, "system/ckpt_disk_used_gib": 114.57466506958008, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426746160236716}
+{"step": 26, "time": 1786289462.4228864, "progress/epoch": 2, "progress/num_samples": 431, "progress/num_tokens": 819200}
+{"step": 26, "time": 1786289462.4229243, "perf/throughput": 2797.577889471727, "perf/throughput_per_gpu": 2797.577889471727, "perf/peak_memory": 17.798828125, "perf/mfu": 18.665867550160364}
+{"step": 26, "time": 1786289462.4229658, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.116828394122422e-05, "optim/grad_norm": 0.6740329265594482}
+{"step": 26, "time": 1786289462.4229846, "loss/mean": 1.530791163444519, "loss/nan_count": 0}
+{"step": 26, "time": 1786289462.4229956, "time/step": 11.712508148999405, "time/save_ckpt": 0, "time/forward_backward": 11.380705315999876}
+{"step": 26, "time": 1786289462.4230917, "system/ckpt_disk_free_gib": 16.590599060058594, "system/ckpt_disk_used_gib": 114.57466888427734, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426743532871232}
+{"step": 27, "time": 1786289474.114599, "progress/epoch": 2, "progress/num_samples": 448, "progress/num_tokens": 851968}
+{"step": 27, "time": 1786289474.1146352, "perf/throughput": 2800.1193378764992, "perf/throughput_per_gpu": 2800.1193378764992, "perf/peak_memory": 17.798828125, "perf/mfu": 18.682824482615246}
+{"step": 27, "time": 1786289474.1146753, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.331783465109766e-05, "optim/grad_norm": 0.6595526933670044}
+{"step": 27, "time": 1786289474.1146936, "loss/mean": 1.5956933498382568, "loss/nan_count": 0}
+{"step": 27, "time": 1786289474.1147046, "time/step": 11.691207976000442, "time/save_ckpt": 0, "time/forward_backward": 11.359541269000147}
+{"step": 27, "time": 1786289474.1147978, "system/ckpt_disk_free_gib": 16.590599060058594, "system/ckpt_disk_used_gib": 114.57466888427734, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426743532871232}
+{"step": 28, "time": 1786289485.8364017, "progress/epoch": 3, "progress/num_samples": 464, "progress/num_tokens": 884736}
+{"step": 28, "time": 1786289485.8364549, "perf/throughput": 2798.5728780095383, "perf/throughput_per_gpu": 2798.5728780095383, "perf/peak_memory": 17.798828125, "perf/mfu": 18.67250626586176}
+{"step": 28, "time": 1786289485.8364966, "optim/lr": 5e-05, "optim/zero_grad_ratio": 7.671779894735664e-05, "optim/grad_norm": 0.7485229969024658}
+{"step": 28, "time": 1786289485.8365145, "loss/mean": 1.4964309930801392, "loss/nan_count": 0}
+{"step": 28, "time": 1786289485.8365257, "time/step": 11.721302981000008, "time/save_ckpt": 0, "time/forward_backward": 11.389148629000374}
+{"step": 28, "time": 1786289485.8366199, "system/ckpt_disk_free_gib": 16.590591430664062, "system/ckpt_disk_used_gib": 114.57467651367188, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426738278140267}
+{"step": 29, "time": 1786289497.5184824, "progress/epoch": 3, "progress/num_samples": 481, "progress/num_tokens": 917504}
+{"step": 29, "time": 1786289497.5185199, "perf/throughput": 2800.1684822955035, "perf/throughput_per_gpu": 2800.1684822955035, "perf/peak_memory": 17.798828125, "perf/mfu": 18.68315238169517}
+{"step": 29, "time": 1786289497.5185595, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.383251406485215e-05, "optim/grad_norm": 0.6286237835884094}
+{"step": 29, "time": 1786289497.5185795, "loss/mean": 1.497003436088562, "loss/nan_count": 0}
+{"step": 29, "time": 1786289497.5185902, "time/step": 11.681574741999611, "time/save_ckpt": 0, "time/forward_backward": 11.350782313000309}
+{"step": 29, "time": 1786289497.518694, "system/ckpt_disk_free_gib": 16.590591430664062, "system/ckpt_disk_used_gib": 114.57467651367188, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426738278140267}
+{"step": 30, "time": 1786289511.5568225, "val/loss": 1.6224359273910522}
+{"step": 30, "time": 1786289511.8658633, "progress/epoch": 3, "progress/num_samples": 499, "progress/num_tokens": 950272}
+{"step": 30, "time": 1786289511.86591, "perf/throughput": 2679.051857736816, "perf/throughput_per_gpu": 2679.051857736816, "perf/peak_memory": 17.798828125, "perf/mfu": 17.875043738628268}
+{"step": 30, "time": 1786289511.8659508, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.816189074423164e-05, "optim/grad_norm": 0.6208852529525757}
+{"step": 30, "time": 1786289511.8659697, "loss/mean": 1.4955108165740967, "loss/nan_count": 0}
+{"step": 30, "time": 1786289511.8659801, "time/step": 14.346880048999992, "time/save_ckpt": 0, "time/forward_backward": 11.344879434999712}
+{"step": 30, "time": 1786289511.866076, "system/ckpt_disk_free_gib": 16.590587615966797, "system/ckpt_disk_used_gib": 114.57468032836914, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426735650774784}
+{"step": 31, "time": 1786289523.5582297, "progress/epoch": 3, "progress/num_samples": 515, "progress/num_tokens": 983040}
+{"step": 31, "time": 1786289523.5582662, "perf/throughput": 2698.866420117378, "perf/throughput_per_gpu": 2698.866420117378, "perf/peak_memory": 17.798828125, "perf/mfu": 18.007249529341678}
+{"step": 31, "time": 1786289523.5583048, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.616371633252129e-05, "optim/grad_norm": 0.6880831718444824}
+{"step": 31, "time": 1786289523.5583243, "loss/mean": 1.5134791135787964, "loss/nan_count": 0}
+{"step": 31, "time": 1786289523.558335, "time/step": 11.691873314999611, "time/save_ckpt": 0, "time/forward_backward": 11.360987991999536}
+{"step": 31, "time": 1786289523.5584261, "system/ckpt_disk_free_gib": 16.590587615966797, "system/ckpt_disk_used_gib": 114.57468032836914, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426735650774784}
+{"step": 32, "time": 1786289535.2786582, "progress/epoch": 3, "progress/num_samples": 531, "progress/num_tokens": 1015808}
+{"step": 32, "time": 1786289535.2786949, "perf/throughput": 2712.3022130382783, "perf/throughput_per_gpu": 2712.3022130382783, "perf/peak_memory": 17.798828125, "perf/mfu": 18.096895194628324}
+{"step": 32, "time": 1786289535.278735, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.804078970570117e-05, "optim/grad_norm": 0.6555547714233398}
+{"step": 32, "time": 1786289535.278768, "loss/mean": 1.4191298484802246, "loss/nan_count": 0}
+{"step": 32, "time": 1786289535.27878, "time/step": 11.719935076000183, "time/save_ckpt": 0, "time/forward_backward": 11.390271153999493}
+{"step": 32, "time": 1786289535.2788768, "system/ckpt_disk_free_gib": 16.59058380126953, "system/ckpt_disk_used_gib": 114.5746841430664, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426733023409301}
+{"step": 33, "time": 1786289546.967717, "progress/epoch": 3, "progress/num_samples": 548, "progress/num_tokens": 1048576}
+{"step": 33, "time": 1786289546.967755, "perf/throughput": 2723.3526891271263, "perf/throughput_per_gpu": 2723.3526891271263, "perf/peak_memory": 17.798828125, "perf/mfu": 18.1706256611926}
+{"step": 33, "time": 1786289546.9677951, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.203713852912188e-05, "optim/grad_norm": 0.624541699886322}
+{"step": 33, "time": 1786289546.9678137, "loss/mean": 1.4075937271118164, "loss/nan_count": 0}
+{"step": 33, "time": 1786289546.9678242, "time/step": 11.688540334000209, "time/save_ckpt": 0, "time/forward_backward": 11.356285824000224}
+{"step": 33, "time": 1786289546.9679172, "system/ckpt_disk_free_gib": 16.59058380126953, "system/ckpt_disk_used_gib": 114.5746841430664, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426733023409301}
+{"step": 34, "time": 1786289558.6810756, "progress/epoch": 3, "progress/num_samples": 564, "progress/num_tokens": 1081344}
+{"step": 34, "time": 1786289558.6811116, "perf/throughput": 2731.395694639767, "perf/throughput_per_gpu": 2731.395694639767, "perf/peak_memory": 17.798828125, "perf/mfu": 18.224289824099074}
+{"step": 34, "time": 1786289558.6811538, "optim/lr": 5e-05, "optim/zero_grad_ratio": 8.89490547706373e-05, "optim/grad_norm": 0.6824803948402405}
+{"step": 34, "time": 1786289558.6811738, "loss/mean": 1.4394968748092651, "loss/nan_count": 0}
+{"step": 34, "time": 1786289558.681185, "time/step": 11.712855499999932, "time/save_ckpt": 0, "time/forward_backward": 11.379926706999868}
+{"step": 34, "time": 1786289558.6812882, "system/ckpt_disk_free_gib": 16.59058380126953, "system/ckpt_disk_used_gib": 114.5746841430664, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426733023409301}
+{"step": 35, "time": 1786289570.3418868, "progress/epoch": 3, "progress/num_samples": 582, "progress/num_tokens": 1114112}
+{"step": 35, "time": 1786289570.342125, "perf/throughput": 2732.716566809291, "perf/throughput_per_gpu": 2732.716566809291, "perf/peak_memory": 17.798828125, "perf/mfu": 18.23310288523307}
+{"step": 35, "time": 1786289570.3421671, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.439861605642363e-05, "optim/grad_norm": 0.6219358444213867}
+{"step": 35, "time": 1786289570.342186, "loss/mean": 1.4467226266860962, "loss/nan_count": 0}
+{"step": 35, "time": 1786289570.3421967, "time/step": 11.66028512899993, "time/save_ckpt": 0, "time/forward_backward": 11.330926739999995}
+{"step": 35, "time": 1786289570.3422983, "system/ckpt_disk_free_gib": 16.59058380126953, "system/ckpt_disk_used_gib": 114.5746841430664, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426733023409301}
+{"step": 36, "time": 1786289584.392293, "val/loss": 1.546866774559021}
+{"step": 36, "time": 1786289647.6328366, "progress/epoch": 3, "progress/num_samples": 599, "progress/num_tokens": 1146880}
+{"step": 36, "time": 1786289647.6334589, "perf/throughput": 1699.6035333814145, "perf/throughput_per_gpu": 1699.6035333814145, "perf/peak_memory": 17.798828125, "perf/mfu": 11.340014718186334}
+{"step": 36, "time": 1786289647.633525, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.694175241747871e-05, "optim/grad_norm": 0.6249054074287415}
+{"step": 36, "time": 1786289647.6335459, "loss/mean": 1.3740633726119995, "loss/nan_count": 0}
+{"step": 36, "time": 1786289647.633558, "time/step": 77.29020513500018, "time/save_ckpt": 62.932432669000264, "time/forward_backward": 11.350371374000133}
+{"step": 36, "time": 1786289647.633639, "system/ckpt_disk_free_gib": 16.59056854248047, "system/ckpt_disk_used_gib": 114.57469940185547, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.1142672251394737}
+{"step": 37, "time": 1786289659.5310194, "progress/epoch": 4, "progress/num_samples": 616, "progress/num_tokens": 1179648}
+{"step": 37, "time": 1786289659.5310683, "perf/throughput": 1697.8761832092036, "perf/throughput_per_gpu": 1697.8761832092036, "perf/peak_memory": 17.466796875, "perf/mfu": 11.328489573650208}
+{"step": 37, "time": 1786289659.5311103, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.291512833442539e-05, "optim/grad_norm": 0.6124649047851562}
+{"step": 37, "time": 1786289659.53113, "loss/mean": 1.3858639001846313, "loss/nan_count": 0}
+{"step": 37, "time": 1786289659.531141, "time/step": 11.89708536100079, "time/save_ckpt": 0, "time/forward_backward": 11.537600458999805}
+{"step": 37, "time": 1786289659.531235, "system/ckpt_disk_free_gib": 16.590564727783203, "system/ckpt_disk_used_gib": 114.57470321655273, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426719886581888}
+{"step": 38, "time": 1786289671.251518, "progress/epoch": 4, "progress/num_samples": 632, "progress/num_tokens": 1212416}
+{"step": 38, "time": 1786289671.2515538, "perf/throughput": 1697.5009471179485, "perf/throughput_per_gpu": 1697.5009471179485, "perf/peak_memory": 17.466796875, "perf/mfu": 11.325985941059397}
+{"step": 38, "time": 1786289671.2515926, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.530688112135977e-05, "optim/grad_norm": 0.6091005802154541}
+{"step": 38, "time": 1786289671.2516115, "loss/mean": 1.3052966594696045, "loss/nan_count": 0}
+{"step": 38, "time": 1786289671.2516227, "time/step": 11.72000203100015, "time/save_ckpt": 0, "time/forward_backward": 11.389961975000006}
+{"step": 38, "time": 1786289671.251733, "system/ckpt_disk_free_gib": 16.590564727783203, "system/ckpt_disk_used_gib": 114.57470321655273, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426719886581888}
+{"step": 39, "time": 1786289682.9572659, "progress/epoch": 4, "progress/num_samples": 649, "progress/num_tokens": 1245184}
+{"step": 39, "time": 1786289682.9587784, "perf/throughput": 1723.7103303892468, "perf/throughput_per_gpu": 1723.7103303892468, "perf/peak_memory": 17.466796875, "perf/mfu": 11.500858954802663}
+{"step": 39, "time": 1786289682.9588268, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.62454141699709e-05, "optim/grad_norm": 0.6082006096839905}
+{"step": 39, "time": 1786289682.958846, "loss/mean": 1.3445035219192505, "loss/nan_count": 0}
+{"step": 39, "time": 1786289682.9588575, "time/step": 11.705231763000484, "time/save_ckpt": 0, "time/forward_backward": 11.374671381000553}
+{"step": 39, "time": 1786289682.9589553, "system/ckpt_disk_free_gib": 16.590560913085938, "system/ckpt_disk_used_gib": 114.57470703125, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426717259216404}
+{"step": 40, "time": 1786289694.6825488, "progress/epoch": 4, "progress/num_samples": 665, "progress/num_tokens": 1277952}
+{"step": 40, "time": 1786289694.6825848, "perf/throughput": 1723.3790439694985, "perf/throughput_per_gpu": 1723.3790439694985, "perf/peak_memory": 17.466796875, "perf/mfu": 11.498648561141968}
+{"step": 40, "time": 1786289694.682625, "optim/lr": 5e-05, "optim/zero_grad_ratio": 9.597293683327734e-05, "optim/grad_norm": 0.6552659869194031}
+{"step": 40, "time": 1786289694.6826448, "loss/mean": 1.3135188817977905, "loss/nan_count": 0}
+{"step": 40, "time": 1786289694.6826556, "time/step": 11.723288784000033, "time/save_ckpt": 0, "time/forward_backward": 11.391414577999967}
+{"step": 40, "time": 1786289694.6827505, "system/ckpt_disk_free_gib": 16.590560913085938, "system/ckpt_disk_used_gib": 114.57470703125, "system/ckpt_disk_total_gib": 145.1909637451172, "system/ckpt_disk_free_ratio": 0.11426717259216404}

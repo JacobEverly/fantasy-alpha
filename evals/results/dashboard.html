@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fantasy Alpha — benchmark dashboard</title>
+<style>
+:root {
+  --bg: #0D0D0D; --fg: #FAFAFA; --fg-faint: #8A8A8A;
+  --surface: #1A1A1A; --border: #2A2A2A;
+  --accent: #10B981; --gain: #34D399; --loss: #F87171; --warn: #FBBF24;
+  --pt: #A3A3A3;
+}
+@media (prefers-color-scheme: light) {
+  :root { --bg: #FAFAFA; --fg: #111111; --fg-faint: #6E6E6E;
+          --surface: #FFFFFF; --border: #E2E2E2; --pt: #5A5A5A; }
+}
+:root[data-theme="dark"] { --bg: #0D0D0D; --fg: #FAFAFA; --fg-faint: #8A8A8A;
+  --surface: #1A1A1A; --border: #2A2A2A; --pt: #A3A3A3; }
+:root[data-theme="light"] { --bg: #FAFAFA; --fg: #111111; --fg-faint: #6E6E6E;
+  --surface: #FFFFFF; --border: #E2E2E2; --pt: #5A5A5A; }
+* { box-sizing: border-box; margin: 0; }
+body { background: var(--bg); color: var(--fg);
+  font: 15px/1.55 "Inter", system-ui, -apple-system, sans-serif;
+  padding: 32px 24px 64px; max-width: 980px; margin: 0 auto; }
+h1, h2 { font-family: "Space Grotesk", "Inter", system-ui, sans-serif;
+  font-weight: 700; letter-spacing: -0.02em; }
+h1 { font-size: 26px; margin-bottom: 4px; }
+h2 { font-size: 19px; margin: 40px 0 8px; }
+.stamp { font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 12px; color: var(--fg-faint); margin-bottom: 28px; }
+.sub { color: var(--fg-faint); font-size: 13.5px; margin-bottom: 14px;
+  max-width: 72ch; }
+.card { background: var(--surface); border-radius: 8px;
+  padding: 18px 16px; margin-bottom: 18px; }
+svg { width: 100%; height: auto; display: block; }
+.grid { stroke: var(--border); stroke-width: 1; }
+.tick { font: 11px "IBM Plex Mono", ui-monospace, monospace;
+  fill: var(--fg-faint); font-variant-numeric: tabular-nums; }
+.axis { font: 12px "Inter", system-ui, sans-serif; fill: var(--fg-faint); }
+.charttitle { font: 700 13px "Space Grotesk", "Inter", sans-serif;
+  fill: var(--fg); }
+.pt { fill: var(--pt); }
+.pt.hollow { fill: none; stroke: var(--pt); stroke-width: 2; }
+.pt.ours { fill: var(--accent); }
+.pt.ours.hollow { fill: none; stroke: var(--accent); stroke-width: 2; }
+.ptlabel { font: 11px "Inter", system-ui, sans-serif; fill: var(--fg); }
+.parband { fill: var(--accent); opacity: 0.08; }
+.refline { stroke: var(--fg-faint); stroke-width: 1;
+  stroke-dasharray: 5 4; }
+.reflabel { font: 10.5px "IBM Plex Mono", ui-monospace, monospace;
+  fill: var(--fg-faint); }
+.runline { stroke: var(--accent); stroke-width: 2; fill: none; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 860px;
+  font-size: 13.5px; }
+th { text-align: left; font-weight: 600; color: var(--fg-faint);
+  padding: 8px 10px; border-bottom: 1px solid var(--border);
+  white-space: nowrap; }
+td { padding: 7px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: top; }
+td.num { font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 12.5px; font-variant-numeric: tabular-nums;
+  white-space: nowrap; }
+.ci { color: var(--fg-faint); }
+.oursrow td { background: rgba(16, 185, 129, 0.06); }
+.foot { font-size: 12.5px; color: var(--fg-faint); margin-top: 10px;
+  max-width: 78ch; }
+</style>
+</head>
+<body>
+<h1>Fantasy Alpha — benchmark dashboard</h1>
+<p class="stamp">data as of 2026-08-09 02:44 UTC · anonymized ppr track 2015-2024 · 2025 holdout untouched</p>
+
+<h2>Quality vs cost</h2>
+<p class="sub">Every complete run from the frontier battery, on the two axes that
+matter for shipping: calibration (pooled Brier, 95% CI bootstrap over seasons)
+against exact API cost per 1,000 judgments. The shaded band is the no-peek
+base-rate par — free, and statistically tied with everything above it.</p>
+<div class="card"><svg viewBox="0 0 760 430" role="img" aria-label="Quality versus cost scatter"><rect x="70" y="30.0" width="630" height="187.0" class="parband"/><line x1="70" x2="700" y1="98.2" y2="98.2" class="refline"/><text x="692" y="44.0" class="reflabel" text-anchor="end">base-rate par (no-peek, free) 0.1922 [CI band]</text><line x1="70" x2="700" y1="74.0" y2="74.0" class="grid"/><text x="62" y="78.0" class="tick" text-anchor="end">0.19</text><line x1="70" x2="700" y1="184.0" y2="184.0" class="grid"/><text x="62" y="188.0" class="tick" text-anchor="end">0.20</text><line x1="70" x2="700" y1="294.0" y2="294.0" class="grid"/><text x="62" y="298.0" class="tick" text-anchor="end">0.21</text><line x1="70.0" x2="70.0" y1="30" y2="360" class="grid"/><text x="70.0" y="378" class="tick" text-anchor="middle">$0.01</text><line x1="280.0" x2="280.0" y1="30" y2="360" class="grid"/><text x="280.0" y="378" class="tick" text-anchor="middle">$0.1</text><line x1="490.0" x2="490.0" y1="30" y2="360" class="grid"/><text x="490.0" y="378" class="tick" text-anchor="middle">$1</text><line x1="700.0" x2="700.0" y1="30" y2="360" class="grid"/><text x="700.0" y="378" class="tick" text-anchor="middle">$10</text><text x="385" y="416" class="axis" text-anchor="middle">cost per 1,000 judgments (log scale)</text><text x="18" y="195" class="axis" text-anchor="middle" transform="rotate(-90 18 195)">pooled Brier (lower = better, plotted upward)</text><circle cx="609.8" cy="184.0" r="6" class="pt hollow"/><text x="598.8" y="188.0" class="ptlabel" text-anchor="end">Claude Fable 5 naked</text><circle cx="609.8" cy="93.8" r="6" class="pt"/><text x="598.8" y="97.8" class="ptlabel" text-anchor="end">Claude Fable 5 + harness</text><circle cx="186.8" cy="241.2" r="6" class="pt hollow"/><text x="197.8" y="245.2" class="ptlabel">DeepSeek V4 Flash naked</text><circle cx="186.8" cy="107.0" r="6" class="pt"/><text x="197.8" y="111.0" class="ptlabel">DeepSeek V4 Flash + harness</text><circle cx="334.1" cy="318.2" r="6" class="pt hollow"/><text x="345.1" y="322.2" class="ptlabel">Qwen3.5-35B-A3B naked</text><circle cx="334.1" cy="108.1" r="6" class="pt"/><text x="345.1" y="73.1" class="ptlabel">Qwen3.5-35B-A3B + harness</text><circle cx="200.3" cy="175.2" r="6" class="pt ours hollow"/><text x="211.3" y="179.2" class="ptlabel">Qwen3.5-9B (ours, untrained) naked</text><circle cx="200.3" cy="127.9" r="6" class="pt ours"/><text x="211.3" y="131.9" class="ptlabel">Qwen3.5-9B (ours, untrained) + harness</text><circle cx="78" cy="18" r="5" class="pt"/><text x="88" y="22" class="ptlabel">+ harness</text><circle cx="178" cy="18" r="5" class="pt hollow"/><text x="188" y="22" class="ptlabel">naked</text><circle cx="258" cy="18" r="5" class="pt ours"/><text x="268" y="22" class="ptlabel">our base model</text></svg></div>
+<div class='tablewrap'><table><thead><tr><th>model</th><th>config</th><th>pooled Brier [95% CI]</th><th>top-10 lift [95% CI]</th><th>canary</th><th>cost / 1k judgments</th><th>latency / request</th></tr></thead><tbody><tr><td>Claude Fable 5</td><td>naked</td><td class='num'>0.2000 <span class='ci'>[0.190, 0.210]</span></td><td class='num'>1.27x <span class='ci'>[0.84, 1.73]</span></td><td class='num'>PASS <span class='ci'>-0.194 [-0.333, -0.045]</span></td><td class='num'>$3.718</td><td class='num'>n/a (pre-instrumentation)</td></tr><tr><td>Claude Fable 5</td><td>+ harness</td><td class='num'>0.1918 <span class='ci'>[0.184, 0.200]</span></td><td class='num'>1.40x <span class='ci'>[0.88, 1.74]</span></td><td class='num'>PASS <span class='ci'>-0.194 [-0.333, -0.045]</span></td><td class='num'>$3.718</td><td class='num'>n/a (pre-instrumentation)</td></tr><tr><td>DeepSeek V4 Flash</td><td>naked</td><td class='num'>0.2052 <span class='ci'>[0.195, 0.216]</span></td><td class='num'>1.20x <span class='ci'>[0.63, 1.83]</span></td><td class='num'>PASS <span class='ci'>+0.033 [-0.223, 0.218]</span></td><td class='num'>$0.036</td><td class='num'>n/a (pre-instrumentation)</td></tr><tr><td>DeepSeek V4 Flash</td><td>+ harness</td><td class='num'>0.1930 <span class='ci'>[0.185, 0.201]</span></td><td class='num'>1.33x <span class='ci'>[0.68, 1.85]</span></td><td class='num'>PASS <span class='ci'>+0.033 [-0.223, 0.218]</span></td><td class='num'>$0.036</td><td class='num'>n/a (pre-instrumentation)</td></tr><tr><td>Qwen3.5-35B-A3B</td><td>naked</td><td class='num'>0.2122 <span class='ci'>[0.203, 0.222]</span></td><td class='num'>0.87x <span class='ci'>[0.58, 1.30]</span></td><td class='num'>PASS <span class='ci'>-0.039 [-0.168, 0.127]</span></td><td class='num'>$0.181</td><td class='num'>n/a (pre-instrumentation)</td></tr><tr><td>Qwen3.5-35B-A3B</td><td>+ harness</td><td class='num'>0.1931 <span class='ci'>[0.186, 0.200]</span></td><td class='num'>1.27x <span class='ci'>[0.64, 1.69]</span></td><td class='num'>PASS <span class='ci'>-0.039 [-0.168, 0.127]</span></td><td class='num'>$0.181</td><td class='num'>n/a (pre-instrumentation)</td></tr><tr class='oursrow'><td>Qwen3.5-9B (ours, untrained)</td><td>naked</td><td class='num'>0.1992 <span class='ci'>[0.191, 0.210]</span></td><td class='num'>1.21x <span class='ci'>[0.93, 1.48]</span></td><td class='num'>PASS <span class='ci'>-0.145 [-0.390, 0.081]</span></td><td class='num'>$0.042</td><td class='num'>n/a (pre-instrumentation)</td></tr><tr class='oursrow'><td>Qwen3.5-9B (ours, untrained)</td><td>+ harness</td><td class='num'>0.1949 <span class='ci'>[0.186, 0.205]</span></td><td class='num'>1.01x <span class='ci'>[0.67, 1.29]</span></td><td class='num'>PASS <span class='ci'>-0.145 [-0.390, 0.081]</span></td><td class='num'>$0.042</td><td class='num'>n/a (pre-instrumentation)</td></tr><tr><td>GBDT walk-forward</td><td>boring-ML bar</td><td class='num'>—</td><td class='num'>1.02x <span class='ci'>[0.77, 1.30]</span></td><td class='num'>n/a (code)</td><td class='num'>~$0</td><td class='num'>n/a (local compute)</td></tr><tr><td>base rate (no-peek)</td><td>flat baseline</td><td class='num'>0.1922 <span class='ci'>[0.184, 0.203]</span></td><td class='num'>1.13x <span class='ci'>[0.96, 1.26]</span></td><td class='num'>n/a (code)</td><td class='num'>~$0</td><td class='num'>n/a (local compute)</td></tr><tr><td>coin p=0.5</td><td>flat baseline</td><td class='num'>0.2500 <span class='ci'>[0.250, 0.250]</span></td><td class='num'>1.13x <span class='ci'>[0.96, 1.26]</span></td><td class='num'>n/a (code)</td><td class='num'>~$0</td><td class='num'>n/a (local compute)</td></tr></tbody></table></div>
+<p class="foot">Cost basis = each model's total recorded battery spend
+(naked + canary + harness tiers; Fable additionally includes 4 DraftGym
+episodes) over its scored naked+harness judgments. GBDT (full_slate Brier
+0.1270 [0.103, 0.151], ~$0) has no pooled Brier and is omitted from the
+scatter. Latency for pre-instrumentation runs is not recoverable and is
+never estimated. Sources: frontier_battery.md, frontier_spend.json,
+budget-ledger.md.</p>
+
+<h2>Training progress</h2>
+<p class="sub">Our checkpoints (training/checkpoints_log.jsonl — 2 rows,
+runs: b2-proxy-qwen9b-harness, b2-proxy-qwen9b-naked) against the flat
+reference bars they must beat. Step 0 = the untrained Qwen3.5-9B proxy points;
+T1/T2 checkpoint evals append rows and this chart re-renders.</p>
+<div class='card'><svg viewBox="0 0 760 300" role="img" aria-label="Pooled Brier over training"><text x="70" y="16" class="charttitle">Pooled Brier <tspan class="tick">(lower is better)</tspan></text><line x1="70" x2="560" y1="26.0" y2="26.0" class="grid"/><text x="62" y="30.0" class="tick" text-anchor="end">0.1900</text><line x1="70" x2="560" y1="133.0" y2="133.0" class="grid"/><text x="62" y="137.0" class="tick" text-anchor="end">0.1955</text><line x1="70" x2="560" y1="240.0" y2="240.0" class="grid"/><text x="62" y="244.0" class="tick" text-anchor="end">0.2010</text><text x="70.0" y="258" class="tick" text-anchor="middle">0</text><text x="315.0" y="258" class="tick" text-anchor="middle">500</text><text x="560.0" y="258" class="tick" text-anchor="middle">1,000</text><text x="315" y="290" class="axis" text-anchor="middle">training step</text><line x1="70" x2="560" y1="61.7" y2="61.7" class="refline"/><text x="568" y="65.7" class="reflabel">Fable 5 + harness 0.1918</text><line x1="70" x2="560" y1="69.4" y2="69.4" class="refline"/><text x="568" y="77.7" class="reflabel">base rate (no-peek) 0.1922</text><circle cx="70.0" cy="121.4" r="5" class="pt ours"/><text x="80.0" y="113.4" class="ptlabel">b2-proxy-qwen9b-harness (step 0)</text><circle cx="70.0" cy="204.3" r="5" class="pt ours"/><text x="80.0" y="196.3" class="ptlabel">b2-proxy-qwen9b-naked (step 0)</text></svg></div><div class='card'><svg viewBox="0 0 760 300" role="img" aria-label="DraftGym masked reward (pts) over training"><text x="70" y="16" class="charttitle">DraftGym masked reward (pts) <tspan class="tick">(higher is better)</tspan></text><line x1="70" x2="560" y1="240.0" y2="240.0" class="grid"/><text x="62" y="244.0" class="tick" text-anchor="end">-170.1</text><line x1="70" x2="560" y1="133.0" y2="133.0" class="grid"/><text x="62" y="137.0" class="tick" text-anchor="end">13.4</text><line x1="70" x2="560" y1="26.0" y2="26.0" class="grid"/><text x="62" y="30.0" class="tick" text-anchor="end">196.8</text><text x="70.0" y="258" class="tick" text-anchor="middle">0</text><text x="315.0" y="258" class="tick" text-anchor="middle">500</text><text x="560.0" y="258" class="tick" text-anchor="middle">1,000</text><text x="315" y="290" class="axis" text-anchor="middle">training step</text><line x1="70" x2="560" y1="61.7" y2="61.7" class="refline"/><text x="568" y="65.7" class="reflabel">Fable 5 masked (n=2) 135.7</text><line x1="70" x2="560" y1="140.8" y2="140.8" class="refline"/><text x="568" y="144.8" class="reflabel">market (autopick ADP) 0.0</text><circle cx="70.0" cy="204.3" r="5" class="pt ours"/><text x="80.0" y="196.3" class="ptlabel">b2-proxy-qwen9b-naked (step 0)</text></svg></div><div class='card'><svg viewBox="0 0 760 300" role="img" aria-label="League Index over training"><text x="70" y="16" class="charttitle">League Index <tspan class="tick">(higher is better)</tspan></text><line x1="70" x2="560" y1="240.0" y2="240.0" class="grid"/><text x="62" y="244.0" class="tick" text-anchor="end">76.5</text><line x1="70" x2="560" y1="133.0" y2="133.0" class="grid"/><text x="62" y="137.0" class="tick" text-anchor="end">82.8</text><line x1="70" x2="560" y1="26.0" y2="26.0" class="grid"/><text x="62" y="30.0" class="tick" text-anchor="end">89.1</text><text x="70.0" y="258" class="tick" text-anchor="middle">0</text><text x="315.0" y="258" class="tick" text-anchor="middle">500</text><text x="560.0" y="258" class="tick" text-anchor="middle">1,000</text><text x="315" y="290" class="axis" text-anchor="middle">training step</text><line x1="70" x2="560" y1="61.7" y2="61.7" class="refline"/><text x="568" y="65.7" class="reflabel">market (autopick ADP) 87.0</text><line x1="70" x2="560" y1="197.5" y2="197.5" class="refline"/><text x="568" y="201.5" class="reflabel">Fable 5 masked (n=2) 79.0</text><circle cx="70.0" cy="204.3" r="5" class="pt ours"/><text x="80.0" y="196.3" class="ptlabel">b2-proxy-qwen9b-naked (step 0)</text></svg></div>
+<p class="foot">References are measured values, not aspirations: Fable 5 +
+harness and the no-peek base rate from frontier_battery.md; DraftGym masked
+means (n=2 paired episodes) and League Index / market (autopick ADP) rows from
+normalized_rescore.md. Metrics a reference was never measured on show no line
+(GBDT has no pooled Brier, DraftGym, or League Index reading; the market has
+no Brier reading).</p>
+</body>
+</html>
