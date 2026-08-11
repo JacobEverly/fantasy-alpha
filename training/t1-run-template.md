@@ -120,3 +120,6 @@ save_adapter_separately = true      # writes weights/step_N/lora_adapters/ in PE
 - `DELETE https://api.primeintellect.ai/api/v1/pods/<id>`, then **verify** `status == TERMINATED` via
   GET and confirm the account-wide active-pod list is empty. Disarm/ignore the self-destruct timer —
   a DELETE on an already-terminated pod is a no-op.
+
+## Lesson from T0 metrics review (2026-08-09)
+- Grad-norm spike at step 25 (4.27, ~6x median) was benign (loss unaffected, no recurrence, clipping bounded it) — but T1 should log batch/sample indices whenever grad_norm > 4x running median, so spikes can be traced to specific training examples (a cheap data-quality debugger; a recurring spike at the same batch = inspect those traces for filter escapes).
