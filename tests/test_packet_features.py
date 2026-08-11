@@ -3,6 +3,8 @@ guards for the packet-v2 feature extractor (evals/packet_features.py)."""
 import pytest
 
 from evals.packet_features import (
+    CAMP_PROMOTION_RE,
+    NEWS_LEXICON_VERSION,
     as_of_date,
     as_of_epoch_ms,
     asof_snapshot_depth,
@@ -10,6 +12,7 @@ from evals.packet_features import (
     news_counts,
     pedigree,
     play_caller_for,
+    role_metrics,
     s1_end_depth,
     season_usage,
     vacated_opportunity,
@@ -20,10 +23,12 @@ GATE_MS = as_of_epoch_ms(EVAL)
 DAY_MS = 86_400_000
 
 
-def wk(season, week=1, targets=5, carries=2, team="LA"):
+def wk(season, week=1, targets=5, carries=2, team="LA", air_yards="50",
+       wopr="0.5"):
     return {"season": season, "week": week, "targets": targets,
             "carries": carries, "receiving_yards": 40, "target_share": "0.2",
-            "air_yards_share": "0.3", "team": team}
+            "air_yards_share": "0.3", "receiving_air_yards": air_yards,
+            "wopr": wopr, "team": team}
 
 
 # ---------------------------------------------------------------------------
@@ -166,13 +171,13 @@ def test_news_window_boundaries():
     window_start = GATE_MS - 90 * DAY_MS
     items = [
         item(window_start - 1, "too old"),          # out (older than 90d)
-        item(window_start, "starting job"),          # in (inclusive start)
+        item(window_start, "won the starting job"),  # in (inclusive start)
         item(GATE_MS - 1, "breakout impress"),       # in (last ms before gate)
         item(GATE_MS, "at the gate"),                # out (strictly before)
     ]
     out = news_counts(items, EVAL)
     assert out["n_news_90d"] == 2
-    assert out["camp_promotion_flags"] == 1   # "starting job"
+    assert out["camp_promotion_flags"] == 1   # "won the starting job"
     assert out["hype_flags"] == 1             # "breakout impress"
     assert out["injury_mention_flags"] == 0
 
@@ -187,6 +192,108 @@ def test_news_keyword_flags():
     ], EVAL)
     assert out == {"n_news_90d": 4, "camp_promotion_flags": 1,
                    "injury_mention_flags": 1, "hype_flags": 1}
+
+
+# ---------------------------------------------------------------------------
+# 4. news lexicon v2 (promotion-specific; ported from evals/source_alpha.py)
+
+
+def test_lexicon_version_is_v2():
+    assert NEWS_LEXICON_VERSION == "packet-news-lexicon-v2"
+
+
+def test_lexicon_ignores_preseason_logistics_prose():
+    # the v1 trap: bare "starter/starting" fired on ~82% of these
+    for text in ("Starters will play the first quarter Thursday",
+                 "Most starting players rest in the preseason finale",
+                 "He is starting to look healthier in camp",
+                 "The starters are expected to sit this week"):
+        assert not CAMP_PROMOTION_RE.search(text), text
+
+
+def test_lexicon_fires_on_promotion_phrasing():
+    for text in ("named the starter in Week 1",
+                 "listed as the starter on the depth chart",
+                 "working with the first-team offense",
+                 "won the starting job out of camp",
+                 "earned a promotion to the lead role",
+                 "now the team's WR1",
+                 "sits atop the depth chart"):
+        assert CAMP_PROMOTION_RE.search(text), text
+
+
+def test_news_counts_use_v2_lexicon():
+    ts = GATE_MS - DAY_MS
+    out = news_counts([item(ts, "Starters will play a half on Saturday"),
+                       item(ts, "Named the starter after a strong camp")], EVAL)
+    assert out["n_news_90d"] == 2 and out["camp_promotion_flags"] == 1
+
+
+# ---------------------------------------------------------------------------
+# 5. role-quality channel (aDOT / WOPR / target-participation, S-1 only)
+
+
+def test_role_inputs_are_gate_poisoned():
+    # role metrics consume season_usage output, and season_usage rejects any
+    # row at/after the gate before aggregates exist
+    with pytest.raises(AssertionError, match="leakage"):
+        season_usage([wk(2022), wk(EVAL, air_yards="200", wopr="0.9")],
+                     2022, EVAL)
+
+
+def test_role_metrics_math():
+    u1 = season_usage([wk(2022, targets=8, air_yards="96", wopr="0.6"),
+                       wk(2022, week=2, targets=4, air_yards="24", wopr="0.4")],
+                      2022, EVAL)
+    u2 = season_usage([wk(2021, targets=10, air_yards="80", wopr="0.5")],
+                      2021, EVAL)
+    out = role_metrics(u1, u2, team_games_s1=17)
+    assert out["adot_s1"] == 10.0            # 120 air yards / 12 targets
+    assert out["adot_s2"] == 8.0
+    assert out["adot_yoy"] == 2.0
+    assert out["wopr_s1"] == 0.5 and out["wopr_s2"] == 0.5
+    assert out["wopr_yoy"] == 0.0
+    assert out["target_share_yoy"] == 0.0    # 0.2 both seasons
+    assert out["tgt_games_s1"] == 2
+    assert out["route_part_proxy_s1"] == round(2 / 17, 4)
+    assert out["role_status"] == "ok"
+
+
+def test_role_metrics_missing_is_not_zero():
+    # no S-1 rows at all -> no_prior_season, every value None (not 0)
+    out = role_metrics(None, None, None)
+    assert out["role_status"] == "no_prior_season"
+    assert out["adot_s1"] is None and out["wopr_s1"] is None
+    assert out["adot_yoy"] is None
+
+    # S-1 rows exist but air-yards column is NA and no wopr -> not_derivable
+    rows = [wk(2022, targets=6, air_yards="NA", wopr="NA")]
+    out = role_metrics(season_usage(rows, 2022, EVAL), None, None)
+    assert out["adot_s1"] is None
+    assert out["role_status"] == "not_derivable"
+
+    # zero targets -> aDOT undefined (None), never 0/0 or 0.0
+    rows = [wk(2022, targets=0, air_yards="0", wopr="0.0")]
+    out = role_metrics(season_usage(rows, 2022, EVAL), None, None)
+    assert out["adot_s1"] is None
+    assert out["tgt_games_s1"] == 0
+
+
+def test_role_metrics_yoy_needs_both_sides():
+    u1 = season_usage([wk(2022, targets=5, air_yards="50", wopr="0.5")],
+                      2022, EVAL)
+    # S-2 season exists but with NA air yards: adot_yoy must stay None while
+    # wopr/target-share deltas (both sides present) are emitted
+    u2 = season_usage([wk(2021, targets=5, air_yards="NA", wopr="0.3")],
+                      2021, EVAL)
+    out = role_metrics(u1, u2, None)
+    assert out["adot_s1"] == 10.0 and out["adot_s2"] is None
+    assert out["adot_yoy"] is None
+    assert out["wopr_yoy"] == 0.2
+    # no S-2 at all: every *_s2 / *_yoy stays None
+    out = role_metrics(u1, None, None)
+    assert out["target_share_s2"] is None and out["target_share_yoy"] is None
+    assert out["route_part_proxy_s1"] is None  # unknown team games != 0
 
 
 def test_as_of_helpers():

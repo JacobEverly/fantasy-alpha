@@ -16,6 +16,10 @@ later (docs/evidence-archive-feasibility.md):
   odds/                              NFL betting odds (scripts/collect_odds.py:
                                      ESPN futures free; The Odds API sources
                                      skipped gracefully without ODDS_API_KEY)
+  (host_ranks)                       ESPN/Yahoo default draft ranks -- runs as
+                                     a source here but writes to
+                                     data/raw/host_ranks/<date>/ (see
+                                     scripts/collect_host_ranks.py)
   manifest.json                      per-source status/items/bytes/timestamps
 
 Stdlib only. Idempotent per day: existing non-empty files are never
@@ -40,6 +44,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from evals.build_breakout_labels import norm_name  # noqa: E402  canonical name matcher
+from scripts.collect_host_ranks import archive_host_ranks  # noqa: E402  host default ranks
 from scripts.collect_odds import archive_odds  # noqa: E402  betting-odds sub-archiver
 
 OUT = ROOT / "data" / "raw" / "evidence"
@@ -373,6 +378,7 @@ SOURCES = [
     ("sleeper_news_internal", archive_sleeper_news),
     ("rotoworld_html", archive_rotoworld),
     ("odds", archive_odds),
+    ("host_ranks", archive_host_ranks),  # writes to data/raw/host_ranks/<day>/
 ]
 
 

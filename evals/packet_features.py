@@ -51,9 +51,31 @@ OUT_DIR = ROOT / "data" / "processed" / "packet_features"
 POSITIONS = {"QB", "RB", "WR", "TE"}
 NEWS_WINDOW_DAYS = 90
 
-# keyword flags over news titles/descriptions (case-insensitive)
-CAMP_PROMOTION_RE = re.compile(
+# keyword flags over news titles/descriptions (case-insensitive), versioned.
+#
+# packet-news-lexicon-v1 used bare \bstarter\b|\bstarting\b, which
+# evals/source_alpha.py measured as firing on preseason-game logistics prose
+# ("starters will play a quarter Thursday") on ~82% of matches — no
+# discrimination. v2 (2026-08-11) ports source_alpha's promotion-specific
+# CAMP_PROMOTION_RE (source-alpha-lexicon-v1) verbatim: the word
+# starter/starting only counts inside promotion phrasing. Counts built under
+# different lexicon versions are not comparable.
+NEWS_LEXICON_VERSION = "packet-news-lexicon-v2"
+
+# retired v1 pattern, kept for provenance/diffing only — do not use
+CAMP_PROMOTION_RE_V1 = re.compile(
     r"first[- ]team|\bstarter\b|\bstarting\b|\bWR1\b|\bRB1\b", re.IGNORECASE)
+
+# v2 == evals/source_alpha.py CAMP_PROMOTION_RE (source-alpha-lexicon-v1)
+CAMP_PROMOTION_RE = re.compile(
+    r"first[- ]team|with the (?:1s|ones|starters)\b"
+    r"|named (?:the |him )?(?:\w+\s)?starter|listed as (?:the |a )?starter"
+    r"|won the (?:starting )?job|starting job is his"
+    r"|\bWR1\b|\bRB1\b|\bTE1\b|\bQB1\b"
+    r"|promot(?:ed|ion)|lead\s+(?:role|back|receiver)"
+    r"|no\.\s*1\s+(?:receiver|wideout|back|running back|tight end|option)"
+    r"|top of the depth chart|atop the depth chart",
+    re.IGNORECASE)
 INJURY_RE = re.compile(
     r"injur|\bACL\b|achilles|hamstring|concussion|sprain|fractur|surgery"
     r"|\bMCL\b|high[- ]ankle|\bIR\b", re.IGNORECASE)
@@ -66,6 +88,14 @@ COLUMNS = [
     "games_s1", "targets_pg_s1", "carries_pg_s1", "opps_pg_s1",
     "rec_yards_pg_s1", "target_share_s1", "air_yards_share_s1",
     "opps_pg_s2", "opps_pg_yoy", "usage_status",
+    # 1b. role quality (weekly stats <= S-1; receiving-side air yards).
+    #     The 145-col nflverse weekly schema has NO red-zone / end-zone
+    #     opportunity columns (rz_targets, endzone_targets, ...) — TD counts
+    #     are outcomes, not role, so no proxy is emitted.
+    "adot_s1", "wopr_s1", "tgt_games_s1", "route_part_proxy_s1",
+    "target_share_s2", "target_share_yoy",
+    "air_yards_share_s2", "air_yards_share_yoy",
+    "adot_s2", "adot_yoy", "wopr_s2", "wopr_yoy", "role_status",
     # 2. depth chart
     "team_s1_end", "pos_rank_s1_end", "depth_pos_s1_end",
     "team_asof", "pos_rank_asof", "pos_rank_delta", "changed_team",
@@ -111,7 +141,9 @@ def season_usage(weekly_rows: list[dict], season: int, eval_season: int) -> dict
     (season-N games all end by early Feb of N+1 < Sept 1 of eval_season).
     """
     out: dict = {"games": 0, "targets": 0.0, "carries": 0.0,
-                 "rec_yards": 0.0, "tgt_share": [], "ay_share": [], "team": ""}
+                 "rec_yards": 0.0, "tgt_share": [], "ay_share": [], "team": "",
+                 "rec_air_yards": 0.0, "rec_air_yards_seen": False,
+                 "wopr": [], "tgt_games": 0}
     for r in weekly_rows:
         assert_in_gate(int(r["season"]) < eval_season, "usage",
                        f"(row season {r['season']} vs eval {eval_season})")
@@ -121,12 +153,77 @@ def season_usage(weekly_rows: list[dict], season: int, eval_season: int) -> dict
         out["targets"] += _f(r.get("targets"))
         out["carries"] += _f(r.get("carries"))
         out["rec_yards"] += _f(r.get("receiving_yards"))
+        if _f(r.get("targets")) > 0:
+            out["tgt_games"] += 1
+        ay = r.get("receiving_air_yards")
+        if ay not in (None, "", "NA"):
+            out["rec_air_yards"] += float(ay)
+            out["rec_air_yards_seen"] = True
         for key, acc in (("target_share", "tgt_share"),
-                         ("air_yards_share", "ay_share")):
+                         ("air_yards_share", "ay_share"),
+                         ("wopr", "wopr")):
             v = r.get(key)
             if v not in (None, "", "NA"):
                 out[acc].append(float(v))
         out["team"] = r.get("team") or out["team"]
+    return out
+
+
+def _mean(vals: list, nd: int = 4):
+    return round(sum(vals) / len(vals), nd) if vals else None
+
+
+def role_metrics(u1: dict | None, u2: dict | None,
+                 team_games_s1: int | None) -> dict:
+    """Role-quality aggregates from season_usage() outputs (missing != zero).
+
+    u1/u2: S-1 / S-2 season_usage dicts (None = no rows that season).
+      adot_sN            receiving air yards per target (aDOT-ish); only when
+                         the season had >0 targets AND non-NA air-yards data
+                         (pre-2006 files carry the column zero-filled -> the
+                         seen flag alone does not protect; caller restricts
+                         to seasons with real data, 2010+ here)
+      wopr_sN            mean weekly WOPR (nflverse precomputed)
+      tgt_games_s1       S-1 games with >=1 target
+      route_part_proxy   tgt_games_s1 / team REG games — no route/snap data
+                         exists in this schema, so "was he in the target
+                         rotation, availability included" is the proxy
+      *_yoy              S-1 minus S-2, only when both sides are present
+    """
+    out: dict = {"adot_s1": None, "wopr_s1": None, "tgt_games_s1": None,
+                 "route_part_proxy_s1": None,
+                 "target_share_s2": None, "target_share_yoy": None,
+                 "air_yards_share_s2": None, "air_yards_share_yoy": None,
+                 "adot_s2": None, "adot_yoy": None,
+                 "wopr_s2": None, "wopr_yoy": None,
+                 "role_status": "no_prior_season"}
+
+    def _adot(u):
+        if u and u["targets"] > 0 and u["rec_air_yards_seen"]:
+            return round(u["rec_air_yards"] / u["targets"], 3)
+        return None
+
+    if u1 is None or u1["games"] == 0:
+        return out
+    out["adot_s1"] = _adot(u1)
+    out["wopr_s1"] = _mean(u1["wopr"])
+    out["tgt_games_s1"] = u1["tgt_games"]
+    if team_games_s1:
+        out["route_part_proxy_s1"] = round(u1["tgt_games"] / team_games_s1, 4)
+    ts1, ay1 = _mean(u1["tgt_share"]), _mean(u1["ay_share"])
+    if u2 is not None and u2["games"] > 0:
+        out["target_share_s2"] = _mean(u2["tgt_share"])
+        out["air_yards_share_s2"] = _mean(u2["ay_share"])
+        out["adot_s2"] = _adot(u2)
+        out["wopr_s2"] = _mean(u2["wopr"])
+        for a, b, key, nd in ((ts1, out["target_share_s2"], "target_share_yoy", 4),
+                              (ay1, out["air_yards_share_s2"], "air_yards_share_yoy", 4),
+                              (out["adot_s1"], out["adot_s2"], "adot_yoy", 3),
+                              (out["wopr_s1"], out["wopr_s2"], "wopr_yoy", 4)):
+            if a is not None and b is not None:
+                out[key] = round(a - b, nd)
+    derivable = (out["adot_s1"] is not None or out["wopr_s1"] is not None)
+    out["role_status"] = "ok" if derivable else "not_derivable"
     return out
 
 
@@ -333,7 +430,8 @@ def load_weekly_stats(season: int) -> list[dict]:
         return []
     keep = ("player_id", "player_display_name", "player_name", "position",
             "season", "week", "season_type", "team", "targets", "carries",
-            "receiving_yards", "target_share", "air_yards_share")
+            "receiving_yards", "target_share", "air_yards_share",
+            "receiving_air_yards", "wopr")
     rows = []
     with open(path, newline="") as f:
         for r in csv.DictReader(f):
@@ -480,6 +578,13 @@ def build_season(season: int, ctx: Context) -> list[dict]:
     for r in ctx.weekly(s2):
         by_pid_s2[r["player_id"]].append(r)
 
+    # team REG game counts in S-1 (denominator for the route-participation
+    # proxy): distinct weeks per team in the weekly file
+    team_weeks_s1: dict[str, set] = defaultdict(set)
+    for r in ctx.weekly(s1):
+        if r.get("team"):
+            team_weeks_s1[r["team"]].add(int(r["week"]))
+
     # name->gsis resolution index from all pre-gate stat seasons
     name_to_gsis: dict[tuple, str] = {}
     for yr in range(2011, season):
@@ -591,14 +696,19 @@ def build_season(season: int, ctx: Context) -> list[dict]:
                 "air_yards_share_s1": round(sum(u["ay_share"]) / len(u["ay_share"]), 4)
                     if u["ay_share"] else "",
                 "usage_status": "ok"})
+            u2 = None
             if gid in by_pid_s2:
                 u2 = season_usage(by_pid_s2[gid], s2, season)
                 opps2 = _pg(u2["targets"] + u2["carries"], u2["games"])
                 row["opps_pg_s2"] = opps2
                 if opps2 is not None and row["opps_pg_s1"] is not None:
                     row["opps_pg_yoy"] = round(row["opps_pg_s1"] - opps2, 3)
+            # 1b. role quality (same channel inputs, same gate)
+            row.update(role_metrics(u, u2, len(team_weeks_s1.get(u["team"], ()))
+                                    or None))
         else:
             row["usage_status"] = "no_prior_season"
+            row["role_status"] = "no_prior_season"
 
         # 2. depth chart
         d1 = s1_depth.get(gid)
@@ -676,6 +786,9 @@ def build_season(season: int, ctx: Context) -> list[dict]:
 
 CHANNEL_PROBE = {
     "usage": "opps_pg_s1",
+    "role": "adot_s1",
+    "role_yoy": "adot_yoy",
+    "route_part": "route_part_proxy_s1",
     "depth_s1_end": "pos_rank_s1_end",
     "depth_asof": "pos_rank_asof",
     "vacated": "vacated_opps",
