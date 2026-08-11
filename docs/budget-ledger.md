@@ -24,6 +24,14 @@ Hard budget: $15.00. All spend via Prime Intellect serverless inference API
 
 | 2026-08-08 | Frontier battery via OpenRouter — `anthropic/claude-fable-5`: naked + canary + harness ppr batteries + 4 DraftGym episodes (evals/run_frontier_battery.py) | OpenRouter usage.cost | 967,253 in / 81,200 out tok, 131 req | $13.733 (API-reported) |
 
+## T1 SFT corpus generation (2026-08-09/11, task cap $10)
+
+| Date (UTC) | What | Rate | Duration / volume | Est. cost |
+|---|---|---|---|---|
+| 2026-08-11 | Teacher sanity ping, qwen/qwen3.5-397b-a17b | $0.60/M in, $3.60/M out | 19 in / 1 out tok | $0.0001 (API-reported) |
+| 2026-08-09/11 | T1 anonymized-track trace generation (training/sft_datagen.py t1-generate): 1,354 anon questions (full_slate/bust/season_threshold/weekly_h2h, seasons 2008-2022 minus {2013, 2018}) × 2 samples, temp 0.7, cap $9 — first invocation killed by org API limit at 1,522/2,708 calls, resumed (resumable by design) | $0.60/M in, $3.60/M out | 1,427,723 in / 449,935 out tok through 1,522 calls; resume in flight | $2.495 through 1,522 calls (max of API-reported and catalog-rate); final figure below |
+| 2026-08-11 | T1 resume completion — see final corpus stats in data/processed/sft/t1_filter_report.md | $0.60/M in, $3.60/M out | pending | pending |
+
 ## T0 infra smoke test (2026-08-09, Jacob's explicit go, hard cap $50)
 
 | Date (UTC) | What | Rate | Duration / volume | Est. cost |

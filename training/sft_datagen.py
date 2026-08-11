@@ -792,9 +792,13 @@ def t1_generate(limit: float = T1_BUDGET_CAP_USD, workers: int = 6) -> None:
             stores[a] = EvidenceStore(as_of=a)
 
     done: set[str] = set()
+    spent_prior = 0.0  # the cap is per-CORPUS, not per-invocation: a resumed
+    # run must count what earlier invocations already spent on disk
     if T1_RAW_TRACES.exists():
         for line in T1_RAW_TRACES.read_text().splitlines():
-            done.add(json.loads(line)["trace_id"])
+            rec = json.loads(line)
+            done.add(rec["trace_id"])
+            spent_prior += usage_cost(rec.get("usage") or {})
 
     jobs = []
     for item in sample:
@@ -806,11 +810,12 @@ def t1_generate(limit: float = T1_BUDGET_CAP_USD, workers: int = 6) -> None:
     # seasons and families instead of truncating the tail seasons
     random.Random(T1_SAMPLE_SEED + ":joborder").shuffle(jobs)
     print(f"{len(sample)} anon questions -> {len(jobs)} calls to make "
-          f"({len(done)} already on disk); teacher {TEACHER_MODEL}, "
-          f"temp {TEMPERATURE}, cap ${limit:.2f}")
+          f"({len(done)} already on disk, ${spent_prior:.3f} already spent); "
+          f"teacher {TEACHER_MODEL}, temp {TEMPERATURE}, cap ${limit:.2f}")
 
     lock = threading.Lock()
-    state = {"cost": 0.0, "in": 0, "out": 0, "n": 0, "stop": False}
+    state = {"cost": spent_prior, "cost_new": 0.0,
+             "in": 0, "out": 0, "n": 0, "stop": False}
     f = open(T1_RAW_TRACES, "a")
 
     def run_one(job) -> None:
@@ -856,6 +861,7 @@ def t1_generate(limit: float = T1_BUDGET_CAP_USD, workers: int = 6) -> None:
             f.write(json.dumps(record) + "\n")
             f.flush()
             state["cost"] += usage_cost(usage)
+            state["cost_new"] += usage_cost(usage)
             state["in"] += usage.get("prompt_tokens", 0)
             state["out"] += usage.get("completion_tokens", 0)
             state["n"] += 1
@@ -863,7 +869,7 @@ def t1_generate(limit: float = T1_BUDGET_CAP_USD, workers: int = 6) -> None:
                 print(f"  {state['n']}/{len(jobs)} calls · "
                       f"{state['in']}in/{state['out']}out tok · "
                       f"${state['cost']:.3f}", flush=True)
-            per_call = state["cost"] / state["n"]
+            per_call = state["cost_new"] / state["n"]
             if state["cost"] + per_call * (workers + 1) >= limit:
                 state["stop"] = True
                 print(f"BUDGET STOP at ${state['cost']:.3f} "
