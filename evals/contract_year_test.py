@@ -69,8 +69,8 @@ CONTRACT_FIELDS = ("in_contract_year", "years_remaining",
 STATUS_COLUMNS = [
     "season", "gsis_id", "otc_id", "player", "position", "pos_fantasy",
     "team", "in_contract_year", "years_remaining", "signed_recently",
-    "rookie_deal", "contract_type", "year_signed", "contract_years",
-    "end_year", "apy", "value", "apy_cap_pct",
+    "rookie_deal", "fifth_year_option", "contract_type", "year_signed",
+    "contract_years", "end_year", "apy", "value", "apy_cap_pct",
 ]
 
 
@@ -117,11 +117,23 @@ def load_raw_contracts(path: Path | None = None) -> list[dict]:
                 "apy": float(r["apy"] or 0),
                 "apy_cap_pct": r["apy_cap_pct"] or "",
                 "contract_type": r.get("contract_type") or "",
+                "option_through": (int(float(r["option_through"]))
+                                   if r.get("option_through") else None),
                 "draft_year": (int(float(r["draft_year"]))
                                if r.get("draft_year") not in (None, "", "NA")
                                else None),
             })
     return rows
+
+
+def _end_year(c: dict) -> int:
+    """Scheduled final season of a contract: signed term, extended by an
+    exercised round-1 5th-year option when the raw snapshot detected one
+    (as-of legal — option decisions land in May of contract-year 4)."""
+    end = c["year_signed"] + c["years"] - 1
+    if c.get("option_through"):
+        end = max(end, c["option_through"])
+    return end
 
 
 def select_contract(contracts: list[dict], season: int) -> dict | None:
@@ -140,12 +152,11 @@ def select_contract(contracts: list[dict], season: int) -> dict | None:
     ymax = max(c["year_signed"] for c in elig)
     sel = max((c for c in elig if c["year_signed"] == ymax),
               key=lambda c: (c["value"], c["years"]))
-    end = sel["year_signed"] + sel["years"] - 1
-    return sel if end >= season else None
+    return sel if _end_year(sel) >= season else None
 
 
 def status_row(sel: dict, season: int) -> dict:
-    end = sel["year_signed"] + sel["years"] - 1
+    end = _end_year(sel)
     ctype = sel["contract_type"]
     rookie = (ctype in ("Drafted", "UDFA") if ctype else
               (sel["draft_year"] is not None
@@ -162,6 +173,8 @@ def status_row(sel: dict, season: int) -> dict:
         "years_remaining": end - season + 1,
         "signed_recently": sel["year_signed"] == season,
         "rookie_deal": rookie,
+        "fifth_year_option": (sel.get("option_through") is not None
+                              and season == sel["option_through"]),
         "contract_type": ctype,
         "year_signed": sel["year_signed"],
         "contract_years": sel["years"],

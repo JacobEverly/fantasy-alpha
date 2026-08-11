@@ -224,17 +224,65 @@ def norm_coach(name: str) -> str:
     return re.sub(r"\s+", " ", name.replace(".", "").strip()).casefold()
 
 
+_STAFF_OC_RE = re.compile(
+    r"^\*+\s*(?P<pre>[^\n–—]*?)offensive coordinators?\b[^\n–—]*?"
+    r"(?:–|—|\s-\s?)\s*(?P<val>.+)$", re.IGNORECASE | re.MULTILINE)
+
+
+_FIRED_OC_RE = re.compile(
+    r"(?:fired|dismissed|relieved)\s+(?:its\s+|their\s+)?offensive "
+    r"coordinator\s*,?\s*(?P<who>\[\[[^\]]+\]\])"
+    r"|offensive coordinator\s+(?P<who2>\[\[[^\]]+\]\])\s+was\s+"
+    r"(?:fired|dismissed|relieved)", re.IGNORECASE)
+
+
+def staff_section_ocs(text: str) -> tuple[list[str], bool]:
+    """Fallback: 'Offensive coordinator – [[Name]]' lines from the page-body
+    staff list. Returns (opener-first names, midseason_flag). Interim rows
+    never become the opener; assistant/pass-game titles are skipped."""
+    names: list[str] = []
+    interim: list[str] = []
+    midseason = False
+    for m in _STAFF_OC_RE.finditer(text):
+        pre = m.group("pre").lower()
+        # exclude only when assistant/associate directly modifies the OC
+        # title; "Assistant head coach/offensive coordinator" IS the OC.
+        if re.search(r"(assistant|associate)\s*$", pre):
+            continue
+        val = m.group("val")
+        if _MIDSEASON_RE.search(val):
+            midseason = True
+        bucket = interim if "interim" in pre else names
+        for n in parse_names(val):
+            if n not in bucket:
+                bucket.append(n)
+    if interim:
+        midseason = True
+    # staff lists reflect END-of-season staff; when prose records a midseason
+    # OC firing, the fired coach is the season OPENER (as-of discipline).
+    for m in _FIRED_OC_RE.finditer(text):
+        fired = parse_names(m.group("who") or m.group("who2") or "")
+        if fired:
+            midseason = True
+            if fired[0] not in names:
+                names.insert(0, fired[0])
+    return names + interim, midseason
+
+
 def parse_page(text: str) -> dict:
     coach_raw = _field(text, "coach")
     oc_raw = _field(text, "off_coach")
     hcs = parse_names(coach_raw) if coach_raw else []
     ocs = parse_names(oc_raw) if oc_raw else []
+    oc_midseason_extra = False
+    if not ocs:
+        ocs, oc_midseason_extra = staff_section_ocs(text)
     return {
         "head_coach": hcs[0] if hcs else "",
         "offensive_coordinator": ocs[0] if ocs else "",
         "midseason_hc_change": int(len(hcs) > 1 or bool(
             coach_raw and _MIDSEASON_RE.search(coach_raw))),
-        "midseason_oc_change": int(len(ocs) > 1 or bool(
+        "midseason_oc_change": int(len(ocs) > 1 or oc_midseason_extra or bool(
             oc_raw and _MIDSEASON_RE.search(oc_raw))),
     }
 
@@ -523,7 +571,22 @@ def write_report(rows: list[dict], study: dict, seed_issues: list[str],
                        "check bands before using as a standalone feature.")
     else:
         verdict = "Insufficient data for a verdict."
-    lines += ["", f"**Verdict:** {verdict}", ""]
+    lines += [
+        "", f"**Verdict:** {verdict}", "",
+        "## Limitations",
+        "",
+        "- Who *actually* called plays (HC vs OC) is ambiguous from "
+        "structured sources; the table records the OC (HC when no OC is "
+        "listed) with `play_caller_ambiguous=1` unless a research-repo seed "
+        "fact pins it. `changed_play_caller` is the load-bearing flag.",
+        "- Wikipedia staff lists reflect end-of-season staff; prose-recorded "
+        "midseason OC firings are folded back to the opener, but an "
+        "unrecorded midseason change could mislabel an opener (noise "
+        "attenuates the lift rather than inflating it).",
+        "- Study is descriptive (no controls beyond ADP bands); the `deep` "
+        "band is tiny. 2025 is the untouched eval holdout and is excluded.",
+        "",
+    ]
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines))
 
