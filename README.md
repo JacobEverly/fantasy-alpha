@@ -56,13 +56,13 @@ the training, never the laptop. See `training/README.md` and
 ## Status (2026-09-05)
 
 Measurement stack complete and validated · both Prime and Tinker LoRA backends
-work end-to-end · frozen 811-trace Qwen3.5-9B SFT experiment complete for
-$5.13 including smoke/canary work · targeted 300-trace T1.1 experiment also
-complete, with a provider-reconciled incremental cost of $4.49 · T1.1 learned
-the corpus but regressed structure, legality, tools, and matched-draft quality,
-so the evidence-backed decision is **revise SFT before RL** · 2025 remains
-sealed · exact Tinker workload $9.616091 · historical project spend
-approximately $36.38 of $5k.
+work end-to-end · T1 and T1.1 are fully evaluated · T1.2 corrected conflicting
+targets and froze a 70/30 broad/targeted mix, but both representative canaries
+made zero valid tool calls on unseen tool-opportunity states · the frozen gate
+therefore stopped the full run after **$1.239102** · evidence-backed decision:
+**stop additional SFT and do not begin RL** until tool choice is redesigned ·
+2025 remains sealed · exact price-based Tinker workload $10.855193 · historical
+project spend approximately $37.62 of $5k, excluding ongoing storage.
 
 ---
 

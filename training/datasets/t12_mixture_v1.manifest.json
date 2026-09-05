@@ -1,0 +1,102 @@
+{
+  "corpus_path": "training/datasets/t12_mixture_v1.jsonl",
+  "corpus_sha256": "009672af79ffef337710e36c1376a6e177952bd2f23de6c70dba4df6983823c3",
+  "created_at": "2026-09-05T22:06:01.397837+00:00",
+  "dataset_seed": 20260905,
+  "protocol": "fantasy-alpha-t12-broad-targeted-v1",
+  "source_sha256": {
+    "data/processed/sft/t1_corpus_v1.jsonl": "b68020f1209c78c085d492a486d0905fa5e74631c33755c6a5bfd3f68a5d0f2f",
+    "training/datasets/t11_targeted_v1.jsonl": "0ebbb365f1be9fb76804256cbbdf1eccca300a31c01beca0cd1ff446fc6a81b1"
+  },
+  "validation": {
+    "broad_fraction": 0.7000000031141731,
+    "complete_tool_transition_groups": 30,
+    "conflicting_targets": 0,
+    "duplicate_prompts": 0,
+    "raw_assistant_tokens": {
+      "broad_bust": 17683,
+      "broad_full_slate": 46055,
+      "broad_season_threshold": 46237,
+      "broad_weekly_h2h": 45477,
+      "target_calibration": 5812,
+      "target_draft_pick": 864,
+      "target_draft_recovery": 216,
+      "target_post_tool_pick": 270,
+      "target_tool_call": 600
+    },
+    "removed_duplicate_broad_teacher_variants": 126,
+    "rows": 829,
+    "schema_rows": {
+      "broad_bust": 59,
+      "broad_full_slate": 155,
+      "broad_season_threshold": 160,
+      "broad_weekly_h2h": 155,
+      "target_calibration": 120,
+      "target_draft_pick": 96,
+      "target_draft_recovery": 24,
+      "target_post_tool_pick": 30,
+      "target_tool_call": 30
+    },
+    "sealed_2025_untouched": true,
+    "season_rows": {
+      "2008": 10,
+      "2009": 48,
+      "2010": 45,
+      "2011": 43,
+      "2012": 37,
+      "2014": 39,
+      "2015": 79,
+      "2016": 80,
+      "2017": 93,
+      "2019": 83,
+      "2020": 97,
+      "2021": 88,
+      "2022": 87
+    },
+    "source_rows": {
+      "t1": 529,
+      "t11": 300
+    },
+    "superseded_conflicting_t1_prompts": 120,
+    "superseded_conflicting_t1_rows": 156,
+    "targeted_fraction": 0.29999999688582696,
+    "valid": true,
+    "weighted_assistant_mass": {
+      "broad_bust": 145.07500178273767,
+      "broad_full_slate": 145.07499916059896,
+      "broad_season_threshold": 145.07499983976595,
+      "broad_weekly_h2h": 145.07500031916425,
+      "target_calibration": 82.89999996125698,
+      "target_draft_pick": 49.739999771118164,
+      "target_draft_recovery": 33.1599987745285,
+      "target_post_tool_pick": 41.44999846816063,
+      "target_tool_call": 41.44999980926514
+    },
+    "weighted_schema_fraction": {
+      "broad_bust": 0.17500000259660234,
+      "broad_full_slate": 0.1749999994335882,
+      "broad_season_threshold": 0.17500000025284873,
+      "broad_weekly_h2h": 0.1750000008311338,
+      "target_calibration": 0.10000000020819946,
+      "target_draft_pick": 0.05999999987686657,
+      "target_draft_recovery": 0.03999999862372093,
+      "target_post_tool_pick": 0.04999999827965116,
+      "target_tool_call": 0.04999999989738881
+    }
+  },
+  "weighting": {
+    "method": "per-example assistant-token loss scaling",
+    "rationale": "short JSON actions would contribute only about 3% of unweighted assistant-token loss; explicit weights freeze a 70/30 retention/correction mix",
+    "schema_mass": {
+      "broad_bust": 0.175,
+      "broad_full_slate": 0.175,
+      "broad_season_threshold": 0.175,
+      "broad_weekly_h2h": 0.175,
+      "target_calibration": 0.1,
+      "target_draft_pick": 0.06,
+      "target_draft_recovery": 0.04,
+      "target_post_tool_pick": 0.05,
+      "target_tool_call": 0.05
+    }
+  }
+}

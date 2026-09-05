@@ -1,0 +1,31 @@
+{
+  "batch_size": 18,
+  "checkpoint_at_fraction": 0.5,
+  "checkpoint_every_epochs": 1,
+  "corpus_path": "training/datasets/t12_mixture_v1.jsonl",
+  "corpus_sha256": "009672af79ffef337710e36c1376a6e177952bd2f23de6c70dba4df6983823c3",
+  "credential_source": "TINKER_API_KEY environment variable",
+  "development_fraction": 0.25,
+  "development_groups": 16,
+  "development_rows": 18,
+  "epochs": 1,
+  "estimate": {
+    "billable_training_tokens": 163244,
+    "estimated_training_usd": 0.238825972,
+    "training_tokens": 64997,
+    "validation_forward_tokens": 98247
+  },
+  "experiment": "tinker-sft-t12",
+  "learning_rate": 0.0001,
+  "lora_rank": 32,
+  "max_length": 4096,
+  "model": "Qwen/Qwen3.5-9B",
+  "renderer": "qwen3_5_disable_thinking",
+  "run_name": "fantasy-alpha-t12-representative-canary",
+  "seed": 20260808,
+  "started_at": "2026-09-05T22:14:34.438424+00:00",
+  "tinker_cookbook_version": "0.5.7",
+  "tinker_version": "0.27.1",
+  "train_groups": 32,
+  "train_rows": 36
+}

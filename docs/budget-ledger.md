@@ -83,5 +83,25 @@ The detailed token/session reconciliation is in
 `artifacts/tinker-sft-t11/evaluation/spend-audit.json`. Exact cumulative Tinker
 workload spend is **$9.616091**. Ongoing checkpoint storage remains separate.
 
-Total to date: **~$36.38** (prior historical estimate ~$26.76 + exact Tinker
-workload $9.616091; ongoing Tinker storage excluded).
+## Tinker T1.2 broad-plus-targeted canary gate (2026-09-05)
+
+Target incremental spend: **under $7**. Hard cap: **$10**. The preregistered
+protocol required stopping before full training when the representative format
+canary failed. One dataset-weighting/canary-size revision was permitted.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-05 | First T1.2 54-row canary: one epoch, save/reload/export | **$0.241897** |
+| 2026-09-05 | First held-out 32-prompt schema/tool behavior gate | **$0.040929** |
+| 2026-09-05 | One allowed revised 230-row canary: one epoch, save/reload/export | **$0.915515** |
+| 2026-09-05 | Revised held-out 32-prompt schema/tool behavior gate | **$0.040761** |
+|  | **T1.2 incremental total** | **$1.239102** |
+
+Both canaries had 100% structured coverage but 0/3 valid tool decisions. Full
+T1.2 training, frozen T1.2 inference, and RL were not started. Request token
+counts and published model rates establish the exact price-based total. The
+retained Tinker billing snapshot was still three hourly buckets behind the last
+canary when queried; ongoing checkpoint storage is separate.
+
+Total to date: **~$37.62** (prior historical estimate ~$26.76 + exact Tinker
+workload $10.855193; ongoing Tinker storage excluded).

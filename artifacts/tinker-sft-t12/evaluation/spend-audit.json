@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-05T22:31:44.216508+00:00",
+  "internal_exact_usd": 1.239102468,
+  "internal_sources": {
+    "artifacts/tinker-sft-t12/canary-v2/behavior-gate.json": "7a877ce8e6b98bd23233c6bd9da973ab0a31ea3c9839d1656756149917bde145",
+    "artifacts/tinker-sft-t12/canary-v2/run-summary.json": "9f4326844d3be06c1ca8347fd2cfd7437b8be794e3b2ba481ffc2fcda92d9a2b",
+    "artifacts/tinker-sft-t12/canary/behavior-gate.json": "57658bf593897fa24a0f41169756776332191908af2ae9e886a0a3fd7299d61c",
+    "artifacts/tinker-sft-t12/canary/run-summary.json": "81d05d139efbf8014687ad6f764ced72a35d43a2121805dc8a71c763968152db"
+  },
+  "latest_provider_bucket": "2026-09-05T19:00:00+00:00",
+  "latest_run_completed_at": "2026-09-05T22:29:05.947779+00:00",
+  "provider_snapshot": "artifacts/tinker-sft-t12/billing.json",
+  "provider_snapshot_sha256": "97f560858375c2726985f0bd7e38cc3604d8154578b65253a6ca15c766e3b754",
+  "provider_window_complete": false,
+  "reconciliation": "provider hourly billing lagged the latest canary; exact request ledgers retained",
+  "storage_reported_separately": true
+}

@@ -5,6 +5,24 @@ import argparse
 import json
 from pathlib import Path
 
+from training.t11_dataset import (
+    CORPUS_PATH as T11_CORPUS,
+)
+from training.t11_dataset import (
+    canary_subset as t11_canary_subset,
+)
+from training.t11_dataset import (
+    load_t11_corpus,
+)
+from training.t12_dataset import (
+    CORPUS_PATH as T12_CORPUS,
+)
+from training.t12_dataset import (
+    canary_subset as t12_canary_subset,
+)
+from training.t12_dataset import (
+    load_t12_corpus,
+)
 from training.tinker_backend import (
     DEFAULT_CORPUS,
     ROOT,
@@ -21,11 +39,6 @@ from training.tinker_backend import (
     run_sft,
     safe_text,
     smoke_subset,
-)
-from training.t11_dataset import (
-    CORPUS_PATH as T11_CORPUS,
-    canary_subset as t11_canary_subset,
-    load_t11_corpus,
 )
 
 
@@ -75,9 +88,30 @@ def main(argv: list[str] | None = None) -> int:
         "--out-dir", type=Path,
         default=ROOT / "artifacts/tinker-sft-t11/t11-full",
     )
+    t12_pre = sub.add_parser(
+        "t12-preflight", help="validate/count the T1.2 weighted mixture (no API)"
+    )
+    t12_pre.add_argument(
+        "--out", type=Path,
+        default=ROOT / "artifacts/tinker-sft-t12/preflight.json",
+    )
+    t12_canary = sub.add_parser(
+        "t12-canary", help="paid representative T1.2 lifecycle canary"
+    )
+    t12_canary.add_argument(
+        "--out-dir", type=Path,
+        default=ROOT / "artifacts/tinker-sft-t12/canary-v2",
+    )
+    t12_train = sub.add_parser("t12-train", help="paid T1.2 weighted SFT run")
+    t12_train.add_argument(
+        "--out-dir", type=Path,
+        default=ROOT / "artifacts/tinker-sft-t12/t12-full",
+    )
     args = ap.parse_args(argv)
 
-    if args.command.startswith("t11-"):
+    if args.command.startswith("t12-"):
+        rows = load_t12_corpus()
+    elif args.command.startswith("t11-"):
         rows = load_t11_corpus()
     else:
         rows = load_corpus(DEFAULT_CORPUS)
@@ -159,11 +193,53 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(run_sft(
             rows, cfg, args.out_dir, hard_cap_usd=10.0, source_path=T11_CORPUS,
         ), indent=2))
+    elif args.command == "t12-preflight":
+        cfg = RunConfig(
+            run_name="fantasy-alpha-t12-qwen35-9b-r32",
+            experiment="tinker-sft-t12", learning_rate=1e-4, epochs=1,
+            checkpoint_at_fraction=0.5,
+        )
+        train_rows, dev_rows = grouped_development_split(rows)
+        payload = {
+            "corpus": corpus_manifest(rows, cfg, source_path=T12_CORPUS),
+            "split": {
+                "train_rows": len(train_rows),
+                "development_rows": len(dev_rows),
+                "question_group_overlap": 0,
+                "development_schemas": sorted({
+                    row["meta"]["t12_schema"] for row in dev_rows
+                }),
+            },
+            "estimate": estimate_run_cost(train_rows, dev_rows, cfg),
+            "incremental_budget_target_usd": 7.0,
+            "incremental_hard_cap_usd": 10.0,
+        }
+        _write(args.out, payload)
+    elif args.command == "t12-canary":
+        cfg = RunConfig(
+            run_name="fantasy-alpha-t12-representative-canary-v2",
+            experiment="tinker-sft-t12", learning_rate=1e-4,
+            batch_size=18, epochs=1, development_fraction=0.25,
+            checkpoint_at_fraction=0.5,
+        )
+        print(json.dumps(run_sft(
+            t12_canary_subset(rows), cfg, args.out_dir,
+            hard_cap_usd=10.0, source_path=T12_CORPUS,
+        ), indent=2))
+    elif args.command == "t12-train":
+        cfg = RunConfig(
+            run_name="fantasy-alpha-t12-qwen35-9b-r32",
+            experiment="tinker-sft-t12", learning_rate=1e-4, epochs=1,
+            checkpoint_at_fraction=0.5,
+        )
+        print(json.dumps(run_sft(
+            rows, cfg, args.out_dir, hard_cap_usd=10.0, source_path=T12_CORPUS,
+        ), indent=2))
     return 0
 
 
 if __name__ == "__main__":
     try:
         raise SystemExit(main())
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001 - CLI boundary redacts provider errors
         raise SystemExit(f"Tinker operation failed: {safe_text(exc)}") from None

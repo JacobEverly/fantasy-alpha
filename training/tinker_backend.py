@@ -19,10 +19,11 @@ import random
 import re
 import statistics
 import urllib.request
-from dataclasses import asdict, dataclass, field
+from collections.abc import Iterable, Sequence
+from dataclasses import asdict, dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any, Iterable, Sequence
+from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CORPUS = ROOT / "data/processed/sft/t1_corpus_v1.jsonl"
@@ -186,6 +187,7 @@ class RunConfig:
     development_fraction: float = 0.10
     seed: int = 20260808
     checkpoint_every_epochs: int = 1
+    checkpoint_at_fraction: float | None = None
 
 
 @dataclass
@@ -251,6 +253,17 @@ def render_rows(rows: Sequence[dict], config: RunConfig) -> tuple[list[Any], Any
         )
         for row in rows
     ]
+    for row, datum in zip(rows, datums, strict=True):
+        loss_weight = float(row.get("meta", {}).get("loss_weight", 1.0))
+        if not math.isfinite(loss_weight) or loss_weight <= 0:
+            raise ValueError("loss_weight must be a positive finite number")
+        if loss_weight != 1.0:
+            weights = datum.loss_fn_inputs["weights"]
+            datum.loss_fn_inputs["weights"] = d["tinker"].TensorData(
+                data=[float(value) * loss_weight for value in weights.data],
+                dtype=weights.dtype,
+                shape=weights.shape,
+            )
     return datums, tokenizer, renderer
 
 
@@ -260,6 +273,7 @@ def corpus_manifest(
     datums, _, _ = render_rows(rows, config)
     lengths = [d.model_input.length for d in datums]
     targets = [sum(float(x) > 0 for x in d.loss_fn_inputs["weights"].data) for d in datums]
+    weighted_targets = [sum(float(x) for x in d.loss_fn_inputs["weights"].data) for d in datums]
     if max(lengths) > config.max_length:
         raise ValueError("at least one rendered example exceeds max_length")
     return {
@@ -272,6 +286,7 @@ def corpus_manifest(
         "max_length": config.max_length,
         "total_rendered_tokens": sum(lengths),
         "trainable_assistant_tokens": sum(targets),
+        "weighted_trainable_token_mass": sum(weighted_targets),
         "sequence_tokens": {
             "min": min(lengths),
             "median": statistics.median(lengths),
@@ -289,7 +304,8 @@ def estimate_run_cost(
     dev_datums, _, _ = render_rows(development_rows, config)
     training_tokens = sum(d.model_input.length for d in train_datums) * config.epochs
     # Development NLL is measured before training and after every epoch.
-    validation_tokens = sum(d.model_input.length for d in dev_datums) * (config.epochs + 1)
+    validation_passes = config.epochs + 1 + int(config.checkpoint_at_fraction is not None)
+    validation_tokens = sum(d.model_input.length for d in dev_datums) * validation_passes
     total = training_tokens + validation_tokens
     return {
         "training_tokens": training_tokens,
@@ -438,7 +454,7 @@ def run_sft(
     estimate = estimate_run_cost(train_rows, dev_rows, config)
     if float(estimate["estimated_training_usd"]) >= hard_cap_usd:
         raise RuntimeError("estimated training cost reaches the hard cap")
-    train_datums, tokenizer, renderer = render_rows(train_rows, config)
+    train_datums, _, renderer = render_rows(train_rows, config)
     dev_datums, _, _ = render_rows(dev_rows, config)
     metrics_path = out_dir / "metrics.jsonl"
     config_path = out_dir / "config.json"
@@ -493,6 +509,13 @@ def run_sft(
 
     initial_dev_nll = evaluate(0, 0)
     total_steps = config.epochs * math.ceil(len(train_datums) / config.batch_size)
+    fraction_step = None
+    if config.checkpoint_at_fraction is not None:
+        if not 0.0 < config.checkpoint_at_fraction < 1.0:
+            raise ValueError("checkpoint_at_fraction must be between zero and one")
+        fraction_step = max(1, min(total_steps - 1, round(
+            total_steps * config.checkpoint_at_fraction
+        )))
     step = 0
     checkpoints: list[dict[str, Any]] = []
     dev_history = [initial_dev_nll]
@@ -522,6 +545,25 @@ def run_sft(
                 "billable_tokens": ledger.training_tokens,
                 "estimated_cost_usd": ledger.usd, "timestamp": utc_now(),
             })
+            if fraction_step is not None and step == fraction_step:
+                fraction_dev_nll = evaluate(step, epoch)
+                dev_history.append(fraction_dev_nll)
+                name = f"{config.run_name}-step-{step}"
+                state = training_client.save_state(
+                    name, ttl_seconds=7 * 24 * 3600
+                ).result()
+                sampler = training_client.save_weights_for_sampler(
+                    f"{name}-sampler", ttl_seconds=7 * 24 * 3600,
+                    user_metadata=user_metadata,
+                ).result()
+                ledger.checkpoint_count += 2
+                checkpoints.append({
+                    "fraction": config.checkpoint_at_fraction,
+                    "step": step,
+                    "development_nll": fraction_dev_nll,
+                    "state_path": state.path,
+                    "sampler_path": sampler.path,
+                })
         dev_nll = evaluate(step, epoch)
         dev_history.append(dev_nll)
         if epoch % config.checkpoint_every_epochs == 0 and epoch < config.epochs:

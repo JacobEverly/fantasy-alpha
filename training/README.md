@@ -1,5 +1,13 @@
 # training/ — SFT data pipeline v0
 
+## T1.2 result (2026-09-05)
+
+T1.2 froze an 829-prompt, conflict-free mix with 70% broad retention and 30%
+targeted behavior at the optimizer-loss level. The first representative canary
+and its single allowed revision both preserved response syntax but made zero
+valid tool calls on unseen tool-opportunity states. The protocol therefore
+stopped before full training and RL. See `docs/tinker-sft-t12-experiment-report.md`.
+
 Teacher-trace generation through the harness + the survivor-bias-proof filter
 from `docs/training-risk-register.md` risk 3. Output is a **pilot corpus for
 Jacob to read** (`data/processed/sft/pilot_v0.jsonl`) — nothing here trains

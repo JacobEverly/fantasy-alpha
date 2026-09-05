@@ -94,6 +94,20 @@ def test_safe_text_redacts_tinker_tokens():
     assert "tml-" not in tb.safe_text("failed tml-thisisasecretvalue123")
 
 
+def test_render_rows_applies_optional_loss_weight_only_to_assistant_tokens():
+    row = tb.load_corpus()[0]
+    baseline, _, _ = tb.render_rows([row], tb.RunConfig(run_name="baseline"))
+    weighted_row = json.loads(json.dumps(row))
+    weighted_row["meta"]["loss_weight"] = 3.5
+    weighted, _, _ = tb.render_rows(
+        [weighted_row], tb.RunConfig(run_name="weighted")
+    )
+    before = baseline[0].loss_fn_inputs["weights"].data
+    after = weighted[0].loss_fn_inputs["weights"].data
+    assert [value == 0 for value in before] == [value == 0 for value in after]
+    assert sum(after) == pytest.approx(sum(before) * 3.5)
+
+
 def test_no_credential_literal_in_source():
     paths = list((tb.ROOT / "training").glob("tinker*.py"))
     paths.append(tb.ROOT / "evals/tinker_sft_scorecard.py")

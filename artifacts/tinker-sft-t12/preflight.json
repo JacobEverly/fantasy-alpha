@@ -1,0 +1,45 @@
+{
+  "corpus": {
+    "corpus_path": "training/datasets/t12_mixture_v2.jsonl",
+    "corpus_sha256": "39f4ccb5790263f2ae37151f31c6cda88a559742814da44ce5f5e0dc904c5d09",
+    "created_at": "2026-09-05T22:21:38.544922+00:00",
+    "max_length": 4096,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "rows": 829,
+    "sequence_tokens": {
+      "max": 3228,
+      "median": 1256,
+      "min": 804,
+      "p95": 2723
+    },
+    "total_rendered_tokens": 1224729,
+    "trainable_assistant_tokens": 163214,
+    "truncated_examples": 0,
+    "weighted_trainable_token_mass": 829.0000009338837
+  },
+  "estimate": {
+    "billable_training_tokens": 1479175,
+    "estimated_training_usd": 2.1640330249999997,
+    "training_tokens": 1097506,
+    "validation_forward_tokens": 381669
+  },
+  "incremental_budget_target_usd": 7.0,
+  "incremental_hard_cap_usd": 10.0,
+  "split": {
+    "development_rows": 84,
+    "development_schemas": [
+      "broad_bust",
+      "broad_full_slate",
+      "broad_season_threshold",
+      "broad_weekly_h2h",
+      "target_calibration",
+      "target_draft_pick",
+      "target_draft_recovery",
+      "target_post_tool_pick",
+      "target_tool_call"
+    ],
+    "question_group_overlap": 0,
+    "train_rows": 745
+  }
+}
