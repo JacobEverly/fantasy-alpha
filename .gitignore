@@ -10,5 +10,6 @@ __pycache__/
 *.pyc
 .env
 artifacts/tinker-sft-v1/**/final-adapter.tar.gz
+artifacts/tinker-sft-t11/**/final-adapter.tar.gz
 node_modules/
 .DS_Store

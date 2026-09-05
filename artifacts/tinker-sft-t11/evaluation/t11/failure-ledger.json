@@ -1,0 +1,14 @@
+{
+  "arm": "t11",
+  "benchmark": "breakoutbench",
+  "family": "over_under",
+  "season": 2018,
+  "attempts": 3,
+  "failed_sessions": 3,
+  "failed_session_cost_usd": 0.129937881,
+  "allowed_repair_attempted": true,
+  "terminal_error": "Extra data after a JSON value",
+  "treatment": "zero answers and zero structured coverage; no prompt, decoding, parser, or scoring change",
+  "usage_reconciliation": "provider billing export complete; see ../spend-audit.json",
+  "recorded_at": "2026-09-05T19:15:40Z"
+}

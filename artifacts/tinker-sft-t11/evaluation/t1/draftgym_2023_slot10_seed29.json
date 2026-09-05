@@ -1,0 +1,237 @@
+{
+  "agent_points_realistic": 1636.16,
+  "agent_slot": 10,
+  "aligned_tool_calls": 0,
+  "cap_hits": 0,
+  "control_points_realistic": 1818.04,
+  "duplicate_tool_calls": 0,
+  "fallback_picks": 0,
+  "illegal_picks": 0,
+  "mask_names": true,
+  "model_requests": 14,
+  "parse_failures": 0,
+  "picks": [
+    {
+      "action": {
+        "pick": "B010"
+      },
+      "adp": 9.0,
+      "pick_number": 10,
+      "position": "RB",
+      "prev_season_points": 284.0,
+      "roster_counts_before": {},
+      "round": 1
+    },
+    {
+      "action": {
+        "pick": "B017"
+      },
+      "adp": 15.6,
+      "pick_number": 15,
+      "position": "WR",
+      "prev_season_points": 335.5,
+      "roster_counts_before": {
+        "RB": 1
+      },
+      "round": 2
+    },
+    {
+      "action": {
+        "pick": "B039"
+      },
+      "adp": 36.9,
+      "pick_number": 34,
+      "position": "QB",
+      "prev_season_points": 236.08,
+      "roster_counts_before": {
+        "RB": 1,
+        "WR": 1
+      },
+      "round": 3
+    },
+    {
+      "action": {
+        "pick": "B041"
+      },
+      "adp": 38.9,
+      "pick_number": 39,
+      "position": "RB",
+      "prev_season_points": 248.6,
+      "roster_counts_before": {
+        "QB": 1,
+        "RB": 1,
+        "WR": 1
+      },
+      "round": 4
+    },
+    {
+      "action": {
+        "pick": "B050"
+      },
+      "adp": 48.8,
+      "pick_number": 58,
+      "position": "QB",
+      "prev_season_points": 295.98,
+      "roster_counts_before": {
+        "QB": 1,
+        "RB": 2,
+        "WR": 1
+      },
+      "round": 5
+    },
+    {
+      "action": {
+        "pick": "B068"
+      },
+      "adp": 66.2,
+      "pick_number": 63,
+      "position": "RB",
+      "prev_season_points": 200.2,
+      "roster_counts_before": {
+        "QB": 2,
+        "RB": 2,
+        "WR": 1
+      },
+      "round": 6
+    },
+    {
+      "action": {
+        "pick": "B089"
+      },
+      "adp": 87.9,
+      "pick_number": 82,
+      "position": "TE",
+      "prev_season_points": 176.9,
+      "roster_counts_before": {
+        "QB": 2,
+        "RB": 3,
+        "WR": 1
+      },
+      "round": 7
+    },
+    {
+      "action": {
+        "pick": "B084"
+      },
+      "adp": 82.2,
+      "pick_number": 87,
+      "position": "QB",
+      "prev_season_points": 198.6,
+      "roster_counts_before": {
+        "QB": 2,
+        "RB": 3,
+        "TE": 1,
+        "WR": 1
+      },
+      "round": 8
+    },
+    {
+      "action": {
+        "pick": "B109"
+      },
+      "adp": 103.9,
+      "pick_number": 106,
+      "position": "QB",
+      "prev_season_points": 289.0,
+      "roster_counts_before": {
+        "QB": 3,
+        "RB": 3,
+        "TE": 1,
+        "WR": 1
+      },
+      "round": 9
+    },
+    {
+      "action": {
+        "pick": "B114"
+      },
+      "adp": 109.9,
+      "pick_number": 111,
+      "position": "QB",
+      "prev_season_points": 303.88,
+      "roster_counts_before": {
+        "QB": 4,
+        "RB": 3,
+        "TE": 1,
+        "WR": 1
+      },
+      "round": 10
+    },
+    {
+      "action": {
+        "pick": "B137"
+      },
+      "adp": 131.1,
+      "pick_number": 130,
+      "position": "WR",
+      "prev_season_points": 198.1,
+      "roster_counts_before": {
+        "QB": 5,
+        "RB": 3,
+        "TE": 1,
+        "WR": 1
+      },
+      "round": 11
+    },
+    {
+      "action": {
+        "pick": "B134"
+      },
+      "adp": 130.4,
+      "pick_number": 135,
+      "position": "WR",
+      "prev_season_points": 167.12,
+      "roster_counts_before": {
+        "QB": 5,
+        "RB": 3,
+        "TE": 1,
+        "WR": 2
+      },
+      "round": 12
+    },
+    {
+      "action": {
+        "pick": "B169"
+      },
+      "adp": 160.2,
+      "pick_number": 154,
+      "position": "WR",
+      "prev_season_points": 155.6,
+      "roster_counts_before": {
+        "QB": 5,
+        "RB": 3,
+        "TE": 1,
+        "WR": 3
+      },
+      "round": 13
+    },
+    {
+      "action": {
+        "pick": "B148"
+      },
+      "adp": 146.0,
+      "pick_number": 159,
+      "position": "TE",
+      "prev_season_points": 147.3,
+      "roster_counts_before": {
+        "QB": 5,
+        "RB": 3,
+        "TE": 1,
+        "WR": 4
+      },
+      "round": 14
+    }
+  ],
+  "preset": "ppr",
+  "reward": -181.88,
+  "season": 2023,
+  "seed": 29,
+  "tool_calls": 0,
+  "tool_calls_ok": 0,
+  "tool_events": [],
+  "tool_opportunities": 10,
+  "tool_opportunities_served": 0,
+  "total_lookups": 0,
+  "unnecessary_tool_calls": 0,
+  "useful_tool_results": 0
+}

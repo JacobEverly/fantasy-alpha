@@ -1,0 +1,684 @@
+{
+  "arm": "base",
+  "completed_at": "2026-09-05T18:10:37.163074+00:00",
+  "cost": {
+    "cached_prefill_tokens": 133248,
+    "checkpoint_count": 0,
+    "computed_usd": 0.8081634510000001,
+    "prefill_tokens": 1042034,
+    "sample_tokens": 51545,
+    "training_tokens": 0
+  },
+  "model": "Qwen/Qwen3.5-9B",
+  "model_path": null,
+  "records": [
+    {
+      "answered": 52,
+      "benchmark": "breakoutbench",
+      "coverage": 1.0,
+      "family": "full_slate",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2018,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 10761,
+        "sample_tokens": 1148,
+        "training_tokens": 0
+      },
+      "valid_ids": 52
+    },
+    {
+      "answered": 48,
+      "benchmark": "breakoutbench",
+      "coverage": 1.0,
+      "family": "bust",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2018,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 9163,
+        "sample_tokens": 1060,
+        "training_tokens": 0
+      },
+      "valid_ids": 48
+    },
+    {
+      "answered": 84,
+      "benchmark": "breakoutbench",
+      "coverage": 1.0,
+      "family": "over_under",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2018,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 15957,
+        "sample_tokens": 1844,
+        "training_tokens": 0
+      },
+      "valid_ids": 84
+    },
+    {
+      "answered": 168,
+      "benchmark": "calibbench",
+      "coverage": 1.0,
+      "family": "season_threshold",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2018,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 30282,
+        "sample_tokens": 3700,
+        "training_tokens": 0
+      },
+      "valid_ids": 168
+    },
+    {
+      "answered": 300,
+      "benchmark": "calibbench",
+      "coverage": 1.0,
+      "family": "weekly_h2h",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2018,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 33722,
+        "sample_tokens": 6604,
+        "training_tokens": 0
+      },
+      "valid_ids": 300
+    },
+    {
+      "answered": 52,
+      "benchmark": "canary",
+      "coverage": 1.0,
+      "family": "full_slate",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2018,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 6847,
+        "sample_tokens": 1148,
+        "training_tokens": 0
+      },
+      "valid_ids": 52
+    },
+    {
+      "answered": 61,
+      "benchmark": "breakoutbench",
+      "coverage": 1.0,
+      "family": "full_slate",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2023,
+      "usage_delta": {
+        "cached_prefill_tokens": 128,
+        "checkpoint_count": 0,
+        "prefill_tokens": 12560,
+        "sample_tokens": 1346,
+        "training_tokens": 0
+      },
+      "valid_ids": 61
+    },
+    {
+      "answered": 48,
+      "benchmark": "breakoutbench",
+      "coverage": 1.0,
+      "family": "bust",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2023,
+      "usage_delta": {
+        "cached_prefill_tokens": 128,
+        "checkpoint_count": 0,
+        "prefill_tokens": 9343,
+        "sample_tokens": 1060,
+        "training_tokens": 0
+      },
+      "valid_ids": 48
+    },
+    {
+      "answered": 85,
+      "benchmark": "breakoutbench",
+      "coverage": 1.0,
+      "family": "over_under",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2023,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 15663,
+        "sample_tokens": 1874,
+        "training_tokens": 0
+      },
+      "valid_ids": 85
+    },
+    {
+      "answered": 177,
+      "benchmark": "calibbench",
+      "coverage": 1.0,
+      "family": "season_threshold",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2023,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 31892,
+        "sample_tokens": 3898,
+        "training_tokens": 0
+      },
+      "valid_ids": 177
+    },
+    {
+      "answered": 300,
+      "benchmark": "calibbench",
+      "coverage": 1.0,
+      "family": "weekly_h2h",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2023,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 33693,
+        "sample_tokens": 6604,
+        "training_tokens": 0
+      },
+      "valid_ids": 300
+    },
+    {
+      "answered": 61,
+      "benchmark": "canary",
+      "coverage": 1.0,
+      "family": "full_slate",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2023,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 8116,
+        "sample_tokens": 1346,
+        "training_tokens": 0
+      },
+      "valid_ids": 61
+    },
+    {
+      "answered": 62,
+      "benchmark": "breakoutbench",
+      "coverage": 1.0,
+      "family": "full_slate",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2024,
+      "usage_delta": {
+        "cached_prefill_tokens": 128,
+        "checkpoint_count": 0,
+        "prefill_tokens": 12695,
+        "sample_tokens": 1368,
+        "training_tokens": 0
+      },
+      "valid_ids": 62
+    },
+    {
+      "answered": 48,
+      "benchmark": "breakoutbench",
+      "coverage": 1.0,
+      "family": "bust",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2024,
+      "usage_delta": {
+        "cached_prefill_tokens": 128,
+        "checkpoint_count": 0,
+        "prefill_tokens": 9195,
+        "sample_tokens": 1060,
+        "training_tokens": 0
+      },
+      "valid_ids": 48
+    },
+    {
+      "answered": 87,
+      "benchmark": "breakoutbench",
+      "coverage": 1.0,
+      "family": "over_under",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2024,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 16444,
+        "sample_tokens": 1997,
+        "training_tokens": 0
+      },
+      "valid_ids": 87
+    },
+    {
+      "answered": 178,
+      "benchmark": "calibbench",
+      "coverage": 1.0,
+      "family": "season_threshold",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2024,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 32064,
+        "sample_tokens": 3920,
+        "training_tokens": 0
+      },
+      "valid_ids": 178
+    },
+    {
+      "answered": 300,
+      "benchmark": "calibbench",
+      "coverage": 1.0,
+      "family": "weekly_h2h",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2024,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 33682,
+        "sample_tokens": 6604,
+        "training_tokens": 0
+      },
+      "valid_ids": 300
+    },
+    {
+      "answered": 62,
+      "benchmark": "canary",
+      "coverage": 1.0,
+      "family": "full_slate",
+      "parse_success": true,
+      "repaired": false,
+      "season": 2024,
+      "usage_delta": {
+        "cached_prefill_tokens": 0,
+        "checkpoint_count": 0,
+        "prefill_tokens": 8151,
+        "sample_tokens": 1364,
+        "training_tokens": 0
+      },
+      "valid_ids": 62
+    },
+    {
+      "agent_slot": 1,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2018,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 3456,
+        "checkpoint_count": 0,
+        "prefill_tokens": 29927,
+        "sample_tokens": 145,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 1,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2018,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 7040,
+        "checkpoint_count": 0,
+        "prefill_tokens": 26460,
+        "sample_tokens": 150,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 4,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2018,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 3584,
+        "checkpoint_count": 0,
+        "prefill_tokens": 30068,
+        "sample_tokens": 140,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 4,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2018,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 5376,
+        "checkpoint_count": 0,
+        "prefill_tokens": 28099,
+        "sample_tokens": 145,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 7,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2018,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 3712,
+        "checkpoint_count": 0,
+        "prefill_tokens": 29631,
+        "sample_tokens": 150,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 7,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2018,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 5376,
+        "checkpoint_count": 0,
+        "prefill_tokens": 28184,
+        "sample_tokens": 140,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 10,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2018,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 3712,
+        "checkpoint_count": 0,
+        "prefill_tokens": 29779,
+        "sample_tokens": 145,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 10,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2018,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 5376,
+        "checkpoint_count": 0,
+        "prefill_tokens": 27775,
+        "sample_tokens": 145,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 1,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2023,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 3968,
+        "checkpoint_count": 0,
+        "prefill_tokens": 32288,
+        "sample_tokens": 150,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 1,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2023,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 7424,
+        "checkpoint_count": 0,
+        "prefill_tokens": 28863,
+        "sample_tokens": 155,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 4,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2023,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 4224,
+        "checkpoint_count": 0,
+        "prefill_tokens": 32007,
+        "sample_tokens": 150,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 4,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2023,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 7424,
+        "checkpoint_count": 0,
+        "prefill_tokens": 28767,
+        "sample_tokens": 160,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 7,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2023,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 4352,
+        "checkpoint_count": 0,
+        "prefill_tokens": 31765,
+        "sample_tokens": 155,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 7,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2023,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 5760,
+        "checkpoint_count": 0,
+        "prefill_tokens": 30603,
+        "sample_tokens": 155,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 10,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2023,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 4096,
+        "checkpoint_count": 0,
+        "prefill_tokens": 30585,
+        "sample_tokens": 140,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 10,
+      "benchmark": "draftgym",
+      "model_requests": 14,
+      "parse_failures": 0,
+      "season": 2023,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 8576,
+        "checkpoint_count": 0,
+        "prefill_tokens": 26232,
+        "sample_tokens": 155,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 1,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2024,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 4608,
+        "checkpoint_count": 0,
+        "prefill_tokens": 31700,
+        "sample_tokens": 155,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 1,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2024,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 9216,
+        "checkpoint_count": 0,
+        "prefill_tokens": 27101,
+        "sample_tokens": 155,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 4,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2024,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 4864,
+        "checkpoint_count": 0,
+        "prefill_tokens": 31292,
+        "sample_tokens": 150,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 4,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2024,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 5760,
+        "checkpoint_count": 0,
+        "prefill_tokens": 30663,
+        "sample_tokens": 150,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 7,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2024,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 4736,
+        "checkpoint_count": 0,
+        "prefill_tokens": 31687,
+        "sample_tokens": 150,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 7,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2024,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 5760,
+        "checkpoint_count": 0,
+        "prefill_tokens": 30481,
+        "sample_tokens": 155,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 10,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2024,
+      "seed": 11,
+      "usage_delta": {
+        "cached_prefill_tokens": 5248,
+        "checkpoint_count": 0,
+        "prefill_tokens": 30895,
+        "sample_tokens": 150,
+        "training_tokens": 0
+      }
+    },
+    {
+      "agent_slot": 10,
+      "benchmark": "draftgym",
+      "model_requests": 15,
+      "parse_failures": 0,
+      "season": 2024,
+      "seed": 29,
+      "usage_delta": {
+        "cached_prefill_tokens": 9088,
+        "checkpoint_count": 0,
+        "prefill_tokens": 26952,
+        "sample_tokens": 155,
+        "training_tokens": 0
+      }
+    }
+  ],
+  "spec_sha256": "d3741355433f2f6c30ee44955d8a5873b2788380c916f46d0267a595ddec20be",
+  "status": "complete"
+}
