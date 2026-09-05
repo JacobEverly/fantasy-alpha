@@ -65,16 +65,28 @@ def _row(
     sample_idx: int = 0,
     extra_meta: Mapping[str, Any] | None = None,
 ) -> dict[str, Any]:
+    categories = sorted(set(categories))
+    if subtype == "calibration_correction":
+        split_family = f"calibration_{(extra_meta or {}).get('source_family', 'unknown')}"
+    elif subtype in {"tool_call", "post_tool_pick"}:
+        split_family = "draft_tool"
+    elif "recovery" in categories:
+        split_family = "draft_recovery"
+    else:
+        split_family = "draft_direct"
     meta = {
         "track": "anonymized",
         "trace_id": trace_id,
         "bench": "draftgym" if subtype != "calibration_correction" else "forecast",
-        "family": "draft_decision" if subtype != "calibration_correction" else "calibration",
+        # ``grouped_development_split`` stratifies on this field.  Keep each
+        # forecast family, ordinary draft action, recovery, and complete tool
+        # pair represented in the 10% checkpoint-selection slice.
+        "family": split_family,
         "season": int(season),
         "question_id": question_id,
         "sample_idx": int(sample_idx),
         "t11_subtype": subtype,
-        "categories": sorted(set(categories)),
+        "categories": categories,
         "label_uses_realized_outcome": False,
     }
     if extra_meta:

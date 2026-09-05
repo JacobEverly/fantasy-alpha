@@ -1,6 +1,7 @@
 import json
 
 from training import t11_dataset as ds
+from training.tinker_backend import grouped_development_split
 
 
 def test_materialized_t11_dataset_is_valid_and_frozen():
@@ -38,6 +39,28 @@ def test_t11_tool_actions_are_paired_with_post_result_picks():
         assert {x["meta"]["t11_subtype"] for x in group} == {
             "tool_call", "post_tool_pick",
         }
+
+
+def test_development_split_represents_every_target_behavior():
+    _, development = grouped_development_split(ds.load_t11_corpus())
+    subtypes = {row["meta"]["t11_subtype"] for row in development}
+    families = {row["meta"]["family"] for row in development}
+    assert subtypes == {
+        "calibration_correction", "direct_pick", "tool_call", "post_tool_pick",
+    }
+    assert {
+        "calibration_full_slate", "calibration_bust",
+        "calibration_season_threshold", "calibration_weekly_h2h",
+        "draft_direct", "draft_recovery", "draft_tool",
+    } <= families
+    tool_groups = {}
+    for row in development:
+        if row["meta"]["family"] == "draft_tool":
+            tool_groups.setdefault(row["meta"]["question_id"], set()).add(
+                row["meta"]["t11_subtype"]
+            )
+    assert tool_groups
+    assert all(parts == {"tool_call", "post_tool_pick"} for parts in tool_groups.values())
 
 
 def test_calibration_targets_are_outcome_blind():

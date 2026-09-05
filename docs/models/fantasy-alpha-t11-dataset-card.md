@@ -15,7 +15,7 @@ remains loss-masked by the existing Tinker backend.
 | evidence-tool call | 30 | query a specific uncertain candidate |
 | post-tool pick | 30 | use structured depth evidence in the next action |
 
-Corpus SHA-256: `62cb9ada22db171d49f62fd67724e900a629d209048ef25630730180803368e7`.
+Corpus SHA-256: `0ebbb365f1be9fb76804256cbbdf1eccca300a31c01beca0cd1ff446fc6a81b1`.
 
 The draft labels come from the previously benchmarked market-only
 `SurvivalSequencer(scarcity_ratio=1.5)` policy. It uses ADP survival to the

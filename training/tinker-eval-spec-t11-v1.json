@@ -22,12 +22,12 @@
     "protocol": "canary_v1"
   },
   "checkpoint_selection": "lowest T1.1 development NLL among epochs 1 and 2; earliest wins ties",
-  "corpus_sha256": "62cb9ada22db171d49f62fd67724e900a629d209048ef25630730180803368e7",
+  "corpus_sha256": "0ebbb365f1be9fb76804256cbbdf1eccca300a31c01beca0cd1ff446fc6a81b1",
   "cost": {
     "estimated_canary_usd": 0.2,
     "estimated_incremental_total_usd": 4.51,
     "estimated_three_arm_evaluation_usd": 2.6,
-    "estimated_training_usd": 1.709568168,
+    "estimated_training_usd": 1.708902503,
     "incremental_hard_cap_usd": 10.0
   },
   "decision_rule": {
@@ -233,7 +233,7 @@
   "evaluation_role": "development; 2018/2023/2024 were opened in T1",
   "frozen_before_t11_training": true,
   "input_sha256": {
-    "artifacts/tinker-sft-t11/preflight.json": "2abb061a842c120f7f345f72f94d1c13b4c73789b6833201f8e7a6ccc2193828",
+    "artifacts/tinker-sft-t11/preflight.json": "d52adefe161e08ddf286245d9e82b9efa01e48a7bc4743ced28c5a312957e183",
     "artifacts/tinker-sft-v1/evaluation/scorecard.json": "dcff669715de186169ff3f9d4f83e016ed0ec9d9bbd7ac5ed34f760d0488dc8d",
     "artifacts/tinker-sft-v1/t1-full/checkpoint-selection.json": "ed5d7fdd9e1f21147d3b4cd97b0745aa1022b16f921f2bbf68f9c06493651848",
     "envs/draftgym.py": "78b51641fa6bc845a92b66ec45e5b97258909d9c3e0618dfe90299ed0b3ec7fe",
@@ -262,9 +262,9 @@
     "evals/run_expanded_qwen.py": "cdcff08f85fd45274ebdc323e552d9f11b9c4463a72755606f49ac9d377beef8",
     "evals/tinker_sft_scorecard.py": "3dc06cd80037d10021a19e28587abe9f0a038a22f07bf0bd5aa5f412958b1a7b",
     "evals/tinker_sft_t11_scorecard.py": "3884d26a9aed7aaca5d799a42c3de4efbcbf9387f4e78e637894ef43667d0da7",
-    "training/datasets/t11_targeted_v1.jsonl": "62cb9ada22db171d49f62fd67724e900a629d209048ef25630730180803368e7",
-    "training/datasets/t11_targeted_v1.manifest.json": "887094756d40b6a3a9417397d5a197eea656cadf37109125a83ccac3a570ba07",
-    "training/t11_dataset.py": "6467b229922a15a9c325a5fc3ed33382ed865b3445da07edf2f248b131b947dd",
+    "training/datasets/t11_targeted_v1.jsonl": "0ebbb365f1be9fb76804256cbbdf1eccca300a31c01beca0cd1ff446fc6a81b1",
+    "training/datasets/t11_targeted_v1.manifest.json": "e89e12fa5c231212cff0efe5b186f074ea572d033efd17450b80286f6bd3b9bb",
+    "training/t11_dataset.py": "071866e41bd38f7399c3c9ff2b899c6b2ebbcde2e6f87093fbb0899a263ee42c",
     "training/tinker_backend.py": "f218d89b1ac739db7aaad6299ef244f66c17f51d9235e926072514600b308287",
     "training/tinker_sft.py": "35cbf7cce525be5911b030e1afb2b4b1275ebb41752ee0a862180dcecc5afde1"
   },
