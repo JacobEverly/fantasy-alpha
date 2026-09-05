@@ -1,0 +1,7 @@
+{
+  "content": "James Starks enters 2016 as a classic flier, drafted at an ADP of 154.9, well beyond the gates for a legitimate top-24 finish. The historical grounding for his cohort of 82 similar late-round runners sets a baseline breakout probability of 0.22. His prior season stats\u2014166.3 total points and a RB21 finish\u2014anchor him just outside the target window, suggesting he needs a significant leap in efficiency or volume to clear the top-24 threshold.\n\nThe evidence points to severe headwinds. The depth chart from August 30, 2016, lists Starks as the clear RB2 on the Green Bay roster, implying he is behind a established starter. Furthermore, the injury archive is damning: he was already marked \"Questionable\" with a hip injury limiting his participation in Week 8 of the previous season. For a player relying on explosive plays, hip mobility is non-negotiable. Without news confirming full health or a timeshare expansion, expecting him to jump from RB21 to inside the top-24 is optimistic. While the position base rate of 0.25 offers a slight theoretical uplift, the specific combination of a crowded backfield and lingering health concerns keeps his actual chances below the cohort average. This is an unlikely outcome driven by risk rather than reward.\n\nFINAL PROBABILITY: 0.18",
+  "output_tokens": 298,
+  "parse_termination": "stop_sequence",
+  "prompt_tokens": 893,
+  "stop_reason": "stop"
+}

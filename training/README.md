@@ -155,3 +155,30 @@ commands in `sft_datagen.py`:
   never trained as completion targets; product republication stays banned.
 - Rule (b)'s evidence-typed deviation exception and per-band statistical
   equivalence testing beyond the 2·SE heuristic are v1 items.
+
+## Tinker backend and first T1 result (2026-09-05)
+
+Tinker is now a modular alternative to the Prime/prime-rl path above. It uses
+the same frozen JSONL and assistant-only loss masking; no local GPU training is
+performed. Install the pinned provider dependencies with `.[tinker]` and pass
+the credential only through `TINKER_API_KEY`:
+
+```bash
+.venv/bin/python -m training.tinker_sft preflight
+.venv/bin/python -m training.tinker_sft smoke              # 24-row paid T1 canary
+.venv/bin/python -m training.tinker_sft smoke-existing-t0  # exact legacy pilot_v0 parity run
+.venv/bin/python -m training.tinker_sft train
+.venv/bin/python -m evals.tinker_sft_scorecard run --arm base
+.venv/bin/python -m evals.tinker_sft_scorecard select-checkpoint
+.venv/bin/python -m evals.tinker_sft_scorecard run --arm adapter
+.venv/bin/python -m evals.tinker_sft_scorecard score
+```
+
+Pinned stack: Tinker 0.27.1, tinker-cookbook 0.5.7,
+`Qwen/Qwen3.5-9B`, rank-32 LoRA, `qwen3_5_disable_thinking`, last-assistant
+loss, batch 32, two epochs, 3e-4→3e-5 linear learning-rate decay, seed
+20260808. The first full run reduced development NLL 1.257→0.815 and cost
+$3.1568. The frozen evaluation verdict is **revise SFT before RL**: masked
+DraftGym had a promising but unstable mean gain, while predictive/calibration
+metrics did not show a robust aggregate improvement. See
+`docs/tinker-sft-experiment-report.md` and the model card.

@@ -1,0 +1,7 @@
+{
+  "content": "This is a near-lock bust, driven entirely by the candidate's identity rather than the draft slot. The historical base rate for an RB drafted top-12 to bust is 0.319, but that metric assumes a healthy player entering a standard season. LeSean McCoy presents a unique anomaly: he is a veteran entering his sixth season with a history of significant durability issues, most notably a knee injury that kept him out for the entire 2015 season.\n\nThe evidence packet confirms a pattern of limited preseason usage due to management decisions to rest veterans, not necessarily injury. Reports from August 2016 explicitly state the Bills are \"sitting McCoy\" to evaluate backup candidates, while noting he has played only two preseason games. This suggests a clear path to reduced workload or a bench role in the regular season, directly contradicting the volume required to finish in the top-24.\n\nWhile the depth chart lists him as the #1 RB, the combination of his age, the specific nature of his prior knee injury, and the team's stated intent to limit his reps creates a scenario where the historical bust rate is insufficient to capture the risk. A veteran RB with a known knee history, who is being actively rested by his team, faces a probability of failure far exceeding the cohort average. The draft capital (top-12) is misaligned with the player's likely output.\n\nFINAL PROBABILITY: 0.85",
+  "output_tokens": 297,
+  "parse_termination": "stop_sequence",
+  "prompt_tokens": 1233,
+  "stop_reason": "stop"
+}

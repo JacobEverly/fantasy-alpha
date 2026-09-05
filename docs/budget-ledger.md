@@ -40,4 +40,26 @@ Hard budget: $15.00. All spend via Prime Intellect serverless inference API
 
 | 2026-08-09 | T0b pod: 1×A100_80GB PCIe spot (datacrunch FIN-02 via Prime, pod 76ce0cb1ca0f4e8fb5c3f3cd16dac6d0) — created 13:58:15 UTC; **T0 COMPLETE**: LoRA SFT ran (Qwen3-4B-Instruct-2507, loss 3.05→1.31, val 3.06→1.55, 0 NaN), checkpoints at steps 12/24/36/40 + trainer resume-states, generation from step_40 verified (grounded-reasoning style confirmed), LoRA adapters + metrics + configs downloaded to training/checkpoints/t0/. Driver agent stalled 2×; main session disarmed self-destruct 2 min before artifact loss, finished verification inline, terminated pod 17:14 UTC (API-verified TERMINATED) | $0.9361/hr (API-reported) | ~3h16m | **~$3.06** |
 
-Total to date: ~$26.76 (T0 total incl. first attempt: ~$7.98, vs $50 cap)
+## Tinker Qwen3.5-9B SFT experiment (2026-09-05)
+
+Prices are the published Qwen3.5-9B Tinker rates recorded in
+`training/tinker_backend.py`. Training and sampling token counts come from the
+Tinker responses. The provider billing-event export is retained as an
+independent check, but Tinker documents that recent events can lag; adapter
+storage is ongoing and not included in the fixed workload total below.
+
+| Date (UTC) | What | Volume | Exact price-based cost |
+|---|---|---|---:|
+| 2026-09-05 | Small paid T1-format canary, rank 32, balanced 24-row slice, 12 optimizer steps, save/reload/export + two samples | 222,456 train/forward + 1,786 prefill + 552 output tokens | **$0.327733** |
+| 2026-09-05 | Exact existing T0 `pilot_v0` parity smoke, rank 32, 162 rows, 20 optimizer steps, save/reload/export + two samples | 520,581 train/forward + 2,466 prefill + 616 output tokens | **$0.764466** |
+| 2026-09-05 | T1 managed-LoRA run, `Qwen/Qwen3.5-9B`, rank 32, 811 rows (728 train/83 development), 2 epochs/46 steps, two samples | 2,155,863 train/forward + 2,466 prefill + 594 output tokens | **$3.156840** |
+| 2026-09-05 | Frozen untouched-base evaluation, 18 prediction cells + 6 masked DraftGym episodes | 502,720 uncached + 40,064 cached prefill + 48,836 output tokens | **$0.434511** |
+| 2026-09-05 | Frozen selected-adapter evaluation, identical workload | 518,477 uncached + 23,680 cached prefill + 48,738 output tokens | **$0.442553** |
+|  | **Tinker experiment workload total** |  | **$5.126104** |
+
+Tinker billing snapshot: `artifacts/tinker-sft-v1/billing.json`. The snapshot
+also records 42.63 GB-hours of checkpoint storage accrued by query time
+(approximately $0.0059 at $0.10/GB-month); storage continues until checkpoints
+are removed and is therefore reported separately from the completed workload.
+
+Total to date: ~$31.89 (prior historical estimate ~$26.76 + exact Tinker workload $5.126104; ongoing Tinker storage excluded)

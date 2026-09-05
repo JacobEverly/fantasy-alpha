@@ -1,0 +1,88 @@
+{
+  "archive": {
+    "bytes": 378419200,
+    "path": "artifacts/tinker-sft-v1/t0-smoke/final-adapter.tar.gz",
+    "sha256": "dca908c9862024f19462c71737d82d5a8248183af846d01dcc2698aec779e189"
+  },
+  "capability": {
+    "max_context_length": 65536,
+    "model": "Qwen/Qwen3.5-9B",
+    "sampleable": true,
+    "trainable": true
+  },
+  "checkpoints": [
+    {
+      "checkpoint_type": "training",
+      "expires_at": "2026-09-12T02:48:51.792297+00:00",
+      "path": "tinker://83ead5cf-680f-5951-a03f-b47652ba74d1:train:0/weights/fantasy-alpha-t0-tinker-smoke-epoch-3"
+    }
+  ],
+  "completed_at": "2026-09-05T02:54:23.411075+00:00",
+  "config": {
+    "batch_size": 8,
+    "checkpoint_every_epochs": 3,
+    "corpus_sha256": "b68020f1209c78c085d492a486d0905fa5e74631c33755c6a5bfd3f68a5d0f2f",
+    "credential_source": "TINKER_API_KEY environment variable",
+    "development_fraction": 0.25,
+    "development_groups": 7,
+    "development_rows": 9,
+    "epochs": 6,
+    "estimate": {
+      "billable_training_tokens": 222456,
+      "estimated_training_usd": 0.32545312800000004,
+      "training_tokens": 131568,
+      "validation_forward_tokens": 90888
+    },
+    "learning_rate": 0.0003,
+    "lora_rank": 32,
+    "max_length": 4096,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "run_name": "fantasy-alpha-t0-tinker-smoke",
+    "seed": 20260808,
+    "started_at": "2026-09-05T02:47:52.985899+00:00",
+    "tinker_cookbook_version": "0.5.7",
+    "tinker_version": "0.27.1",
+    "train_groups": 12,
+    "train_rows": 15
+  },
+  "cost": {
+    "cached_prefill_tokens": 0,
+    "checkpoint_count": 3,
+    "computed_usd": 0.32773312800000004,
+    "prefill_tokens": 1786,
+    "sample_tokens": 552,
+    "training_tokens": 222456
+  },
+  "development_loss_improved": false,
+  "development_nll_history": [
+    1.289866738849216,
+    1.2150073051452637,
+    1.1863766776190863,
+    1.279662357436286,
+    1.4653844038645427,
+    1.5421903663211398,
+    1.558310866355896
+  ],
+  "final_development_nll": 1.558310866355896,
+  "final_sampler_path": "tinker://83ead5cf-680f-5951-a03f-b47652ba74d1:train:0/sampler_weights/fantasy-alpha-t0-tinker-smoke-final-sampler",
+  "final_state_path": "tinker://83ead5cf-680f-5951-a03f-b47652ba74d1:train:0/weights/fantasy-alpha-t0-tinker-smoke-final-state",
+  "final_training_batch_nll": 0.08309336751699448,
+  "first_training_batch_nll": 1.2401814460754395,
+  "initial_development_nll": 1.289866738849216,
+  "recovery": {
+    "finalization_attempts": 2,
+    "optimizer_steps_repeated": 0,
+    "reason": "Tinker SDK 0.27.1 exposes lora_rank on GetInfoResponse"
+  },
+  "reload_verified": true,
+  "reloaded_lora_rank": 32,
+  "reloaded_model": "Qwen/Qwen3.5-9B",
+  "runtime_seconds": 390.425176,
+  "sample_prompt_trace_id": "breakoutbench:2016:B0014:s0",
+  "secret_persisted": false,
+  "status": "complete",
+  "steps": 12,
+  "training_loss_improved": true,
+  "training_run_id": "83ead5cf-680f-5951-a03f-b47652ba74d1:train:0"
+}

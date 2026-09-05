@@ -1,0 +1,347 @@
+{
+  "events": [
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T02:00:00+00:00",
+      "session_id": "83ead5cf-680f-5951-a03f-b47652ba74d1",
+      "token_count": 222456,
+      "type": "training"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T02:00:00+00:00",
+      "session_id": "027360a8-fff7-5774-b005-29e854b7a464",
+      "token_count": 146621,
+      "type": "training"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T02:00:00+00:00",
+      "cached": false,
+      "session_id": "27c61249-e325-55f1-ba2f-5837442b4b1b",
+      "token_count": 1786,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T02:00:00+00:00",
+      "session_id": "27c61249-e325-55f1-ba2f-5837442b4b1b",
+      "token_count": 552,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": null,
+      "bucket_start": "2026-09-05T02:00:00+00:00",
+      "gigabyte_hours": 0.438859275,
+      "session_id": null,
+      "type": "storage"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T02:00:00+00:00",
+      "count": 3,
+      "session_id": null,
+      "type": "checkpoint"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T03:00:00+00:00",
+      "session_id": "027360a8-fff7-5774-b005-29e854b7a464",
+      "token_count": 2009242,
+      "type": "training"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T03:00:00+00:00",
+      "cached": false,
+      "session_id": "7b2add5d-a22f-5862-8ea5-629dc86fa735",
+      "token_count": 488216,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T03:00:00+00:00",
+      "session_id": "7b2add5d-a22f-5862-8ea5-629dc86fa735",
+      "token_count": 50570,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T03:00:00+00:00",
+      "cached": true,
+      "session_id": "7b2add5d-a22f-5862-8ea5-629dc86fa735",
+      "token_count": 35968,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T03:00:00+00:00",
+      "cached": false,
+      "session_id": "027360a8-fff7-5774-b005-29e854b7a464",
+      "token_count": 2466,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T03:00:00+00:00",
+      "session_id": "027360a8-fff7-5774-b005-29e854b7a464",
+      "token_count": 594,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": null,
+      "bucket_start": "2026-09-05T03:00:00+00:00",
+      "gigabyte_hours": 5.186230176,
+      "session_id": null,
+      "type": "storage"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T03:00:00+00:00",
+      "count": 4,
+      "session_id": null,
+      "type": "checkpoint"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T04:00:00+00:00",
+      "cached": false,
+      "session_id": "7b2add5d-a22f-5862-8ea5-629dc86fa735",
+      "token_count": 30167,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T04:00:00+00:00",
+      "cached": false,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 10761,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T04:00:00+00:00",
+      "cached": true,
+      "session_id": "7b2add5d-a22f-5862-8ea5-629dc86fa735",
+      "token_count": 4096,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T04:00:00+00:00",
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 1148,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T04:00:00+00:00",
+      "session_id": "7b2add5d-a22f-5862-8ea5-629dc86fa735",
+      "token_count": 140,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": null,
+      "bucket_start": "2026-09-05T04:00:00+00:00",
+      "gigabyte_hours": 5.286348315,
+      "session_id": null,
+      "type": "storage"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T05:00:00+00:00",
+      "cached": false,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 9163,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T05:00:00+00:00",
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 1060,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": null,
+      "bucket_start": "2026-09-05T05:00:00+00:00",
+      "gigabyte_hours": 5.286348315,
+      "session_id": null,
+      "type": "storage"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T06:00:00+00:00",
+      "cached": false,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 331963,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T06:00:00+00:00",
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 45745,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T06:00:00+00:00",
+      "cached": true,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 2688,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": null,
+      "bucket_start": "2026-09-05T06:00:00+00:00",
+      "gigabyte_hours": 5.286348315,
+      "session_id": null,
+      "type": "storage"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T07:00:00+00:00",
+      "cached": false,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 4959,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T07:00:00+00:00",
+      "cached": true,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 512,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T07:00:00+00:00",
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 20,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": null,
+      "bucket_start": "2026-09-05T07:00:00+00:00",
+      "gigabyte_hours": 5.286348315,
+      "session_id": null,
+      "type": "storage"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T08:00:00+00:00",
+      "cached": false,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 5668,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T08:00:00+00:00",
+      "cached": true,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 512,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T08:00:00+00:00",
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 30,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": null,
+      "bucket_start": "2026-09-05T08:00:00+00:00",
+      "gigabyte_hours": 5.286348315,
+      "session_id": null,
+      "type": "storage"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T09:00:00+00:00",
+      "cached": false,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 5884,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T09:00:00+00:00",
+      "cached": true,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 768,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T09:00:00+00:00",
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 30,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": null,
+      "bucket_start": "2026-09-05T09:00:00+00:00",
+      "gigabyte_hours": 5.286348315,
+      "session_id": null,
+      "type": "storage"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T10:00:00+00:00",
+      "cached": false,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 6449,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T10:00:00+00:00",
+      "cached": true,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 768,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T10:00:00+00:00",
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 30,
+      "type": "sampling_sample"
+    },
+    {
+      "base_model": null,
+      "bucket_start": "2026-09-05T10:00:00+00:00",
+      "gigabyte_hours": 5.286348315,
+      "session_id": null,
+      "type": "storage"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T11:00:00+00:00",
+      "cached": false,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 76683,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T11:00:00+00:00",
+      "cached": true,
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 9088,
+      "type": "sampling_prefill"
+    },
+    {
+      "base_model": "Qwen/Qwen3.5-9B",
+      "bucket_start": "2026-09-05T11:00:00+00:00",
+      "session_id": "8516b87b-ad43-5d97-901b-35e30033003c",
+      "token_count": 355,
+      "type": "sampling_sample"
+    }
+  ],
+  "queried_at": "2026-09-05T14:04:25.076472+00:00"
+}

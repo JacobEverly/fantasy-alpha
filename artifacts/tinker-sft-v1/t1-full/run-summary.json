@@ -1,0 +1,81 @@
+{
+  "archive": {
+    "bytes": 378419200,
+    "path": "artifacts/tinker-sft-v1/t1-full/final-adapter.tar.gz",
+    "sha256": "4c99aa04e9dae2ad4fbdc3f7e3a91fa2f5bae86a3f1539070d8eb12a1ff90202"
+  },
+  "capability": {
+    "max_context_length": 65536,
+    "model": "Qwen/Qwen3.5-9B",
+    "sampleable": true,
+    "trainable": true
+  },
+  "checkpoints": [
+    {
+      "development_nll": 0.8601648642356137,
+      "epoch": 1,
+      "sampler_path": "tinker://027360a8-fff7-5774-b005-29e854b7a464:train:0/sampler_weights/fantasy-alpha-t1-qwen35-9b-r32-epoch-1-sampler",
+      "state_path": "tinker://027360a8-fff7-5774-b005-29e854b7a464:train:0/weights/fantasy-alpha-t1-qwen35-9b-r32-epoch-1",
+      "step": 23
+    }
+  ],
+  "completed_at": "2026-09-05T03:03:48.188956+00:00",
+  "config": {
+    "batch_size": 32,
+    "checkpoint_every_epochs": 1,
+    "corpus_sha256": "b68020f1209c78c085d492a486d0905fa5e74631c33755c6a5bfd3f68a5d0f2f",
+    "credential_source": "TINKER_API_KEY environment variable",
+    "development_fraction": 0.1,
+    "development_groups": 67,
+    "development_rows": 83,
+    "epochs": 2,
+    "estimate": {
+      "billable_training_tokens": 2155863,
+      "estimated_training_usd": 3.154027569,
+      "training_tokens": 1837680,
+      "validation_forward_tokens": 318183
+    },
+    "learning_rate": 0.0003,
+    "lora_rank": 32,
+    "max_length": 4096,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "run_name": "fantasy-alpha-t1-qwen35-9b-r32",
+    "seed": 20260808,
+    "started_at": "2026-09-05T02:59:20.318752+00:00",
+    "tinker_cookbook_version": "0.5.7",
+    "tinker_version": "0.27.1",
+    "train_groups": 566,
+    "train_rows": 728
+  },
+  "cost": {
+    "cached_prefill_tokens": 0,
+    "checkpoint_count": 4,
+    "computed_usd": 3.156840159,
+    "prefill_tokens": 2466,
+    "sample_tokens": 594,
+    "training_tokens": 2155863
+  },
+  "development_loss_improved": true,
+  "development_nll_history": [
+    1.2566612255142395,
+    0.8601648642356137,
+    0.8146009509821972
+  ],
+  "final_development_nll": 0.8146009509821972,
+  "final_sampler_path": "tinker://027360a8-fff7-5774-b005-29e854b7a464:train:0/sampler_weights/fantasy-alpha-t1-qwen35-9b-r32-final-sampler",
+  "final_state_path": "tinker://027360a8-fff7-5774-b005-29e854b7a464:train:0/weights/fantasy-alpha-t1-qwen35-9b-r32-final-state",
+  "final_training_batch_nll": 0.7392734885215759,
+  "first_training_batch_nll": 1.2893388271331787,
+  "initial_development_nll": 1.2566612255142395,
+  "reload_verified": true,
+  "reloaded_lora_rank": 32,
+  "reloaded_model": "Qwen/Qwen3.5-9B",
+  "runtime_seconds": 268.066571,
+  "sample_prompt_trace_id": "breakoutbench:2016:B0103:s1",
+  "secret_persisted": false,
+  "status": "complete",
+  "steps": 46,
+  "training_loss_improved": true,
+  "training_run_id": "027360a8-fff7-5774-b005-29e854b7a464:train:0"
+}

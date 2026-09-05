@@ -40,7 +40,10 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 .venv/bin/python scripts/archive_evidence.py   # daily evidence capture (run nightly)
 ```
 
-Copy `.env.example` → `.env` for API keys (Prime Intellect serverless/pods, OpenRouter for benchmark contenders, Odds API). Training never runs on a laptop — rented GPUs via prime-rl; see `training/t1-run-template.md`.
+Copy `.env.example` → `.env` for local development keys. Tinker credentials are
+read only from `TINKER_API_KEY`; managed Tinker workers or rented Prime GPUs do
+the training, never the laptop. See `training/README.md` and
+`training/t1-run-template.md`.
 
 ## The measurement discipline (non-negotiable)
 
@@ -50,9 +53,13 @@ Copy `.env.example` → `.env` for API keys (Prime Intellect serverless/pods, Op
 - **Memorization is detected, not assumed away** — canary gates void any checkpoint whose anonymized-track scores are identity recall; DraftGym trains on masked boards.
 - **Money**: $5k ceiling, warn before any single spend ≥$50, every resource logged at provisioning time, kill criteria preregistered before every training run.
 
-## Status (2026-08-10)
+## Status (2026-09-05)
 
-Measurement stack complete and validated · T0 training smoke test passed end-to-end (prime-rl LoRA, ~$8) · T1 corpus generating · base-model decision pending the Qwen 3.8-27B weights drop · app build queued for draft season · total spend ~$27 of $5k.
+Measurement stack complete and validated · both Prime and Tinker LoRA backends
+work end-to-end · frozen 811-trace Qwen3.5-9B SFT experiment complete for
+$5.13 incremental including smoke/canary work · adapter reduced development loss but produced mixed held-out
+results, so the evidence-backed decision is **revise SFT before RL** · 2025
+remains sealed · historical project spend approximately $31.89 of $5k.
 
 ---
 

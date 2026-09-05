@@ -9,5 +9,6 @@ training/checkpoints/*/lora_adapters/
 __pycache__/
 *.pyc
 .env
+artifacts/tinker-sft-v1/**/final-adapter.tar.gz
 node_modules/
 .DS_Store

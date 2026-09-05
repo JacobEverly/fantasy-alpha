@@ -1,0 +1,7 @@
+{
+  "content": "This is a near-lock bust, driven entirely by the candidate's identity rather than the draft slot. The historical base rate for an RB drafted top-12 to bust is 31.9%, but that metric assumes a healthy player entering a standard season. LeSean McCoy presents a unique anomaly: he is a veteran entering his sixth season with a history of significant durability issues, most notably a knee injury that kept him out for the entire 2015 season.\n\nThe evidence packet confirms a pattern of limited preseason usage due to management decisions rather than health crises. Reports from August indicate he was benched for reps to evaluate backups, and his only preseason action involved limited touches while managing an ankle issue. While he finished 19th in 2015 and 12th in 2014, the lack of a full 16-game workload in the prior year and the team's apparent reluctance to utilize him in the preseason suggest a severe regression risk. A player who cannot secure a full workload or stay healthy cannot replicate top-24 production, regardless of ADP. The \"coin-flip\" nature of veteran RBs with injury histories shifts decisively toward bust when combined with a team actively limiting their reps.\n\nFINAL PROBABILITY: 0.85",
+  "output_tokens": 265,
+  "parse_termination": "stop_sequence",
+  "prompt_tokens": 1233,
+  "stop_reason": "stop"
+}
