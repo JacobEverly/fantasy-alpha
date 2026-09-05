@@ -62,4 +62,12 @@ also records 42.63 GB-hours of checkpoint storage accrued by query time
 (approximately $0.0059 at $0.10/GB-month); storage continues until checkpoints
 are removed and is therefore reported separately from the completed workload.
 
+## Targeted Tinker T1.1 (preregistered 2026-09-05)
+
+Hard incremental cap: **$10.00**. Frozen estimate: **$4.51** ($0.20 final-format
+canary, $1.71 controlled rank-32 training run, and $2.60 for identical base/T1/T1.1
+evaluation across prediction benches and 24 masked DraftGym episodes). The 2025
+gate remains sealed. Actual token counts and price-based costs replace these
+estimates after each completed stage; ongoing checkpoint storage is separate.
+
 Total to date: ~$31.89 (prior historical estimate ~$26.76 + exact Tinker workload $5.126104; ongoing Tinker storage excluded)

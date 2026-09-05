@@ -1,0 +1,32 @@
+{
+  "corpus": {
+    "corpus_path": "training/datasets/t11_targeted_v1.jsonl",
+    "corpus_sha256": "62cb9ada22db171d49f62fd67724e900a629d209048ef25630730180803368e7",
+    "created_at": "2026-09-05T14:51:13.828086+00:00",
+    "max_length": 4096,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "rows": 300,
+    "sequence_tokens": {
+      "max": 3228,
+      "median": 2134.5,
+      "min": 804,
+      "p95": 2891
+    },
+    "total_rendered_tokens": 555487,
+    "trainable_assistant_tokens": 7762,
+    "truncated_examples": 0
+  },
+  "estimate": {
+    "billable_training_tokens": 1168536,
+    "estimated_training_usd": 1.709568168,
+    "training_tokens": 995850,
+    "validation_forward_tokens": 172686
+  },
+  "incremental_budget_usd": 10.0,
+  "split": {
+    "development_rows": 30,
+    "question_group_overlap": 0,
+    "train_rows": 270
+  }
+}

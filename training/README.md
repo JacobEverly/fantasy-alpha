@@ -182,3 +182,31 @@ $3.1568. The frozen evaluation verdict is **revise SFT before RL**: masked
 DraftGym had a promising but unstable mean gain, while predictive/calibration
 metrics did not show a robust aggregate improvement. See
 `docs/tinker-sft-experiment-report.md` and the model card.
+
+## Targeted T1.1 revision (2026-09-05)
+
+T1's diagnosis found a direct supervision mismatch: the 811 traces contained
+forecast answers but no model-authored DraftGym or tool actions. The targeted
+T1.1 corpus therefore contains 300 development-only examples: 120 conservative
+forecast corrections, 120 direct draft choices, and 30 complete tool-call plus
+post-result pairs (60 rows). It is materialized and documented under
+`training/datasets/`; 2025 remains sealed.
+
+```bash
+.venv/bin/python -m training.t11_failure_analysis
+.venv/bin/python -m training.t11_dataset validate
+.venv/bin/python -m training.tinker_sft t11-preflight
+.venv/bin/python -m evals.tinker_sft_t11_scorecard freeze
+.venv/bin/python -m training.tinker_sft t11-canary
+.venv/bin/python -m training.tinker_sft t11-train
+.venv/bin/python -m evals.tinker_sft_t11_scorecard select-checkpoint
+.venv/bin/python -m evals.tinker_sft_t11_scorecard run --arm base
+.venv/bin/python -m evals.tinker_sft_t11_scorecard run --arm t1
+.venv/bin/python -m evals.tinker_sft_t11_scorecard run --arm t11
+.venv/bin/python -m evals.tinker_sft_t11_scorecard score
+```
+
+The frozen evaluation uses 24 matched masked drafts (2018/2023/2024 × four
+slots × two new seeds), plus the same prediction, calibration, structured-output,
+and canary surfaces for base, T1, and T1.1. The incremental hard cap is $10;
+the preregistered estimate is $4.51.

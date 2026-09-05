@@ -1,0 +1,687 @@
+{
+  "created_at": "2026-09-05T14:49:35.906343+00:00",
+  "draftgym": {
+    "adapter_error_counts": {
+      "acute_injury_outcomes": 4,
+      "early_qb_or_te_before_round_5": 4,
+      "episodes_with_more_than_two_qbs": 3,
+      "episodes_with_more_than_two_tes": 1,
+      "late_negative_capture_diagnostic": 15,
+      "tool_calls": 0,
+      "zero_history_picks": 3
+    },
+    "base_error_counts": {
+      "acute_injury_outcomes": 3,
+      "early_qb_or_te_before_round_5": 5,
+      "episodes_with_more_than_two_qbs": 2,
+      "episodes_with_more_than_two_tes": 2,
+      "late_negative_capture_diagnostic": 19,
+      "tool_calls": 0,
+      "zero_history_picks": 5
+    },
+    "capture_warning": "Realized capture is post-outcome attribution only, not a causal label or input.",
+    "episodes": [
+      {
+        "adapter_only_best_capture_diagnostic": {
+          "adp": 131.1,
+          "adp_stdev": 8.2,
+          "pick_number": 144,
+          "player_id": "B132",
+          "position": "WR",
+          "prev_season_points": 118.3,
+          "realized_capture_diagnostic": 86.1,
+          "round": 12,
+          "season_ending_acute": false
+        },
+        "adapter_only_worst_capture_diagnostic": {
+          "adp": 164.3,
+          "adp_stdev": 15.6,
+          "pick_number": 168,
+          "player_id": "B166",
+          "position": "RB",
+          "prev_season_points": 0.0,
+          "realized_capture_diagnostic": -57.8,
+          "round": 14,
+          "season_ending_acute": false
+        },
+        "adapter_positions": {
+          "QB": 4,
+          "RB": 4,
+          "TE": 1,
+          "WR": 5
+        },
+        "adapter_reward": 43.28,
+        "agent_slot": 1,
+        "base_positions": {
+          "QB": 4,
+          "RB": 3,
+          "TE": 1,
+          "WR": 6
+        },
+        "base_reward": 50.06,
+        "delta": -6.780000000000001,
+        "first_divergence": {
+          "adapter_choice": {
+            "adp": 21.3,
+            "adp_stdev": 2.1,
+            "pick_number": 24,
+            "player_id": "B022",
+            "position": "WR",
+            "prev_season_points": 226.8,
+            "realized_capture_diagnostic": -52.36,
+            "round": 2,
+            "season_ending_acute": true
+          },
+          "base_choice": {
+            "adp": 28.5,
+            "adp_stdev": 3.6,
+            "pick_number": 24,
+            "player_id": "B028",
+            "position": "TE",
+            "prev_season_points": 233.5,
+            "realized_capture_diagnostic": 102.84,
+            "round": 2,
+            "season_ending_acute": false
+          },
+          "matched_state": true,
+          "pick_number": 24,
+          "round": 2
+        },
+        "season": 2018,
+        "seed": 0
+      },
+      {
+        "adapter_only_best_capture_diagnostic": {
+          "adp": 99.5,
+          "adp_stdev": 8.2,
+          "pick_number": 103,
+          "player_id": "B103",
+          "position": "RB",
+          "prev_season_points": 134.0,
+          "realized_capture_diagnostic": 139.8,
+          "round": 9,
+          "season_ending_acute": false
+        },
+        "adapter_only_worst_capture_diagnostic": {
+          "adp": 156.8,
+          "adp_stdev": 30.1,
+          "pick_number": 151,
+          "player_id": "B155",
+          "position": "QB",
+          "prev_season_points": 222.66,
+          "realized_capture_diagnostic": -241.18,
+          "round": 13,
+          "season_ending_acute": false
+        },
+        "adapter_positions": {
+          "QB": 5,
+          "RB": 3,
+          "TE": 3,
+          "WR": 3
+        },
+        "adapter_reward": 10.66,
+        "agent_slot": 7,
+        "base_positions": {
+          "QB": 3,
+          "RB": 4,
+          "TE": 3,
+          "WR": 4
+        },
+        "base_reward": 52.8,
+        "delta": -42.14,
+        "first_divergence": {
+          "adapter_choice": {
+            "adp": 45.9,
+            "adp_stdev": 5.8,
+            "pick_number": 42,
+            "player_id": "B046",
+            "position": "RB",
+            "prev_season_points": 278.0,
+            "realized_capture_diagnostic": -49.42,
+            "round": 4,
+            "season_ending_acute": false
+          },
+          "base_choice": {
+            "adp": 38.0,
+            "adp_stdev": 4.3,
+            "pick_number": 42,
+            "player_id": "B039",
+            "position": "RB",
+            "prev_season_points": 193.5,
+            "realized_capture_diagnostic": -19.32,
+            "round": 4,
+            "season_ending_acute": false
+          },
+          "matched_state": true,
+          "pick_number": 42,
+          "round": 4
+        },
+        "season": 2018,
+        "seed": 0
+      },
+      {
+        "adapter_only_best_capture_diagnostic": {
+          "adp": 126.3,
+          "adp_stdev": 10.9,
+          "pick_number": 145,
+          "player_id": "B130",
+          "position": "WR",
+          "prev_season_points": 180.0,
+          "realized_capture_diagnostic": 89.2,
+          "round": 13,
+          "season_ending_acute": false
+        },
+        "adapter_only_worst_capture_diagnostic": {
+          "adp": 115.1,
+          "adp_stdev": 8.7,
+          "pick_number": 144,
+          "player_id": "B118",
+          "position": "RB",
+          "prev_season_points": 43.6,
+          "realized_capture_diagnostic": -90.1,
+          "round": 12,
+          "season_ending_acute": false
+        },
+        "adapter_positions": {
+          "QB": 2,
+          "RB": 6,
+          "TE": 1,
+          "WR": 6
+        },
+        "adapter_reward": 91.24,
+        "agent_slot": 1,
+        "base_positions": {
+          "QB": 2,
+          "RB": 4,
+          "TE": 2,
+          "WR": 7
+        },
+        "base_reward": 161.98,
+        "delta": -70.74,
+        "first_divergence": {
+          "adapter_choice": {
+            "adp": 55.7,
+            "adp_stdev": 5.2,
+            "pick_number": 48,
+            "player_id": "B058",
+            "position": "WR",
+            "prev_season_points": 239.3,
+            "realized_capture_diagnostic": 26.28,
+            "round": 4,
+            "season_ending_acute": false
+          },
+          "base_choice": {
+            "adp": 48.8,
+            "adp_stdev": 6.3,
+            "pick_number": 48,
+            "player_id": "B050",
+            "position": "QB",
+            "prev_season_points": 295.98,
+            "realized_capture_diagnostic": -61.68,
+            "round": 4,
+            "season_ending_acute": false
+          },
+          "matched_state": true,
+          "pick_number": 48,
+          "round": 4
+        },
+        "season": 2023,
+        "seed": 0
+      },
+      {
+        "adapter_only_best_capture_diagnostic": {
+          "adp": 126.3,
+          "adp_stdev": 10.9,
+          "pick_number": 127,
+          "player_id": "B130",
+          "position": "WR",
+          "prev_season_points": 180.0,
+          "realized_capture_diagnostic": 89.2,
+          "round": 11,
+          "season_ending_acute": false
+        },
+        "adapter_only_worst_capture_diagnostic": {
+          "adp": 169.1,
+          "adp_stdev": 10.0,
+          "pick_number": 175,
+          "player_id": "B177",
+          "position": "WR",
+          "prev_season_points": 105.04,
+          "realized_capture_diagnostic": -120.1,
+          "round": 15,
+          "season_ending_acute": false
+        },
+        "adapter_positions": {
+          "QB": 4,
+          "RB": 3,
+          "TE": 1,
+          "WR": 7
+        },
+        "adapter_reward": 241.32,
+        "agent_slot": 7,
+        "base_positions": {
+          "QB": 1,
+          "RB": 7,
+          "TE": 1,
+          "WR": 6
+        },
+        "base_reward": -90.4,
+        "delta": 331.72,
+        "first_divergence": {
+          "adapter_choice": {
+            "adp": 8.5,
+            "adp_stdev": 1.7,
+            "pick_number": 7,
+            "player_id": "B008",
+            "position": "WR",
+            "prev_season_points": 316.6,
+            "realized_capture_diagnostic": 30.62,
+            "round": 1,
+            "season_ending_acute": false
+          },
+          "base_choice": {
+            "adp": 7.0,
+            "adp_stdev": 2.0,
+            "pick_number": 7,
+            "player_id": "B007",
+            "position": "WR",
+            "prev_season_points": 201.4,
+            "realized_capture_diagnostic": -78.78,
+            "round": 1,
+            "season_ending_acute": false
+          },
+          "matched_state": true,
+          "pick_number": 7,
+          "round": 1
+        },
+        "season": 2023,
+        "seed": 0
+      },
+      {
+        "adapter_only_best_capture_diagnostic": {
+          "adp": 152.9,
+          "adp_stdev": 13.2,
+          "pick_number": 169,
+          "player_id": "B157",
+          "position": "RB",
+          "prev_season_points": 0.0,
+          "realized_capture_diagnostic": 107.0,
+          "round": 15,
+          "season_ending_acute": false
+        },
+        "adapter_only_worst_capture_diagnostic": {
+          "adp": 122.6,
+          "adp_stdev": 8.6,
+          "pick_number": 121,
+          "player_id": "B127",
+          "position": "WR",
+          "prev_season_points": 157.2,
+          "realized_capture_diagnostic": -75.8,
+          "round": 11,
+          "season_ending_acute": false
+        },
+        "adapter_positions": {
+          "QB": 2,
+          "RB": 3,
+          "TE": 2,
+          "WR": 8
+        },
+        "adapter_reward": 209.9,
+        "agent_slot": 1,
+        "base_positions": {
+          "QB": 1,
+          "RB": 7,
+          "TE": 1,
+          "WR": 6
+        },
+        "base_reward": -73.14,
+        "delta": 283.04,
+        "first_divergence": {
+          "adapter_choice": {
+            "adp": 104.5,
+            "adp_stdev": 5.9,
+            "pick_number": 96,
+            "player_id": "B108",
+            "position": "WR",
+            "prev_season_points": 223.6,
+            "realized_capture_diagnostic": 7.5,
+            "round": 8,
+            "season_ending_acute": false
+          },
+          "base_choice": {
+            "adp": 85.4,
+            "adp_stdev": 5.8,
+            "pick_number": 96,
+            "player_id": "B088",
+            "position": "RB",
+            "prev_season_points": 0.0,
+            "realized_capture_diagnostic": -129.9,
+            "round": 8,
+            "season_ending_acute": false
+          },
+          "matched_state": true,
+          "pick_number": 96,
+          "round": 8
+        },
+        "season": 2024,
+        "seed": 0
+      },
+      {
+        "adapter_only_best_capture_diagnostic": {
+          "adp": 156.0,
+          "adp_stdev": 14.3,
+          "pick_number": 162,
+          "player_id": "B160",
+          "position": "QB",
+          "prev_season_points": 274.06,
+          "realized_capture_diagnostic": 98.94,
+          "round": 14,
+          "season_ending_acute": false
+        },
+        "adapter_only_worst_capture_diagnostic": {
+          "adp": 55.6,
+          "adp_stdev": 4.3,
+          "pick_number": 66,
+          "player_id": "B057",
+          "position": "WR",
+          "prev_season_points": 150.26,
+          "realized_capture_diagnostic": -83.07,
+          "round": 6,
+          "season_ending_acute": true
+        },
+        "adapter_positions": {
+          "QB": 2,
+          "RB": 3,
+          "TE": 2,
+          "WR": 8
+        },
+        "adapter_reward": -149.54,
+        "agent_slot": 7,
+        "base_positions": {
+          "QB": 1,
+          "RB": 4,
+          "TE": 3,
+          "WR": 7
+        },
+        "base_reward": -141.36,
+        "delta": -8.179999999999978,
+        "first_divergence": {
+          "adapter_choice": {
+            "adp": 37.3,
+            "adp_stdev": 5.4,
+            "pick_number": 31,
+            "player_id": "B039",
+            "position": "QB",
+            "prev_season_points": 356.82,
+            "realized_capture_diagnostic": -6.86,
+            "round": 3,
+            "season_ending_acute": false
+          },
+          "base_choice": {
+            "adp": 29.1,
+            "adp_stdev": 3.7,
+            "pick_number": 31,
+            "player_id": "B030",
+            "position": "WR",
+            "prev_season_points": 198.6,
+            "realized_capture_diagnostic": -45.02,
+            "round": 3,
+            "season_ending_acute": false
+          },
+          "matched_state": true,
+          "pick_number": 31,
+          "round": 3
+        },
+        "season": 2024,
+        "seed": 0
+      }
+    ],
+    "losses": 4,
+    "mean_delta": 81.15333333333335,
+    "median_delta": -7.47999999999999,
+    "wins": 2
+  },
+  "evidence_strength": {
+    "hypotheses": [
+      "Explicit roster/timing demonstrations may reduce avoidable bench imbalance.",
+      "Conservative outcome-blind shrinkage may reduce damaging probability tails.",
+      "Paired tool-call and post-result demonstrations may teach selective evidence use."
+    ],
+    "observed": [
+      "T1 contains no model-authored draft or tool actions.",
+      "Neither evaluated arm called a tool.",
+      "T1 won only two of six paired drafts and had a negative median delta.",
+      "Both arms repeatedly over-drafted QB/TE bench depth.",
+      "T1 produced more extreme high-confidence misses and worse log loss."
+    ]
+  },
+  "probability": {
+    "adapter_high_confidence_wrong": 80,
+    "adapter_high_confidence_wrong_rate": 0.04004004004004004,
+    "adapter_log_loss": 0.699283537078796,
+    "adapter_more_extreme": 1093,
+    "adapter_more_extreme_rate": 0.5470470470470471,
+    "base_high_confidence_wrong": 40,
+    "base_high_confidence_wrong_rate": 0.02002002002002002,
+    "base_log_loss": 0.6860568879845776,
+    "by_family_mean_brier_improvement": {
+      "breakoutbench:bust": -0.0021409722222222247,
+      "breakoutbench:full_slate": -0.000983428571428571,
+      "breakoutbench:over_under": -8.39843749999959e-05,
+      "calibbench:season_threshold": 0.00468336520076482,
+      "calibbench:weekly_h2h": -0.0006857777777777822
+    },
+    "largest_overconfident_misses": [
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.06,
+        "base_p": 0.52,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.6532,
+        "family": "season_threshold",
+        "key": "calib:2018:Q0455",
+        "question_id": "Q0455",
+        "season": 2018,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.06,
+        "base_p": 0.49,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.6234999999999999,
+        "family": "season_threshold",
+        "key": "calib:2018:Q0364",
+        "question_id": "Q0364",
+        "season": 2018,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.85,
+        "base_p": 0.34,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.6068999999999999,
+        "family": "season_threshold",
+        "key": "calib:2024:Q0301",
+        "question_id": "Q0301",
+        "season": 2024,
+        "y": 0
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.01,
+        "base_p": 0.38,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.5956999999999999,
+        "family": "season_threshold",
+        "key": "calib:2023:Q0188",
+        "question_id": "Q0188",
+        "season": 2023,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.08,
+        "base_p": 0.41,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.49829999999999997,
+        "family": "season_threshold",
+        "key": "calib:2018:Q0320",
+        "question_id": "Q0320",
+        "season": 2018,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.12,
+        "base_p": 0.42,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.4379999999999999,
+        "family": "season_threshold",
+        "key": "calib:2018:Q0337",
+        "question_id": "Q0337",
+        "season": 2018,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.12,
+        "base_p": 0.39,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.4023,
+        "family": "season_threshold",
+        "key": "calib:2018:Q0381",
+        "question_id": "Q0381",
+        "season": 2018,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.05,
+        "base_p": 0.28,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.3841,
+        "family": "season_threshold",
+        "key": "calib:2023:Q0038",
+        "question_id": "Q0038",
+        "season": 2023,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.1,
+        "base_p": 0.33,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.36110000000000014,
+        "family": "season_threshold",
+        "key": "calib:2024:Q0326",
+        "question_id": "Q0326",
+        "season": 2024,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.1,
+        "base_p": 0.33,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.36110000000000014,
+        "family": "season_threshold",
+        "key": "calib:2024:Q0384",
+        "question_id": "Q0384",
+        "season": 2024,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.1,
+        "base_p": 0.32,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.34760000000000013,
+        "family": "season_threshold",
+        "key": "calib:2024:Q0375",
+        "question_id": "Q0375",
+        "season": 2024,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.1,
+        "base_p": 0.31,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.33390000000000014,
+        "family": "season_threshold",
+        "key": "calib:2024:Q0071",
+        "question_id": "Q0071",
+        "season": 2024,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.1,
+        "base_p": 0.31,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.33390000000000014,
+        "family": "season_threshold",
+        "key": "calib:2024:Q0286",
+        "question_id": "Q0286",
+        "season": 2024,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.1,
+        "base_p": 0.31,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.33390000000000014,
+        "family": "season_threshold",
+        "key": "calib:2024:Q0396",
+        "question_id": "Q0396",
+        "season": 2024,
+        "y": 1
+      },
+      {
+        "adapter_high_confidence_wrong": true,
+        "adapter_more_extreme": true,
+        "adapter_p": 0.92,
+        "base_p": 0.72,
+        "benchmark": "calibbench",
+        "brier_improvement": -0.32800000000000007,
+        "family": "season_threshold",
+        "key": "calib:2023:Q0244",
+        "question_id": "Q0244",
+        "season": 2023,
+        "y": 0
+      }
+    ],
+    "matched_examples": 1998,
+    "mean_brier_improvement": 0.0006658158158158146,
+    "more_extreme_and_worse": 406
+  },
+  "protocol": "fantasy-alpha-t1-diagnosis-v1",
+  "sources": {
+    "paired_draft_episodes": 6,
+    "paired_prediction_examples": 1998,
+    "scorecard": "artifacts/tinker-sft-v1/evaluation/scorecard.json"
+  },
+  "training_data_gap": {
+    "evidence_appeared_only_as_prefetched_user_context": true,
+    "model_authored_draft_actions": 0,
+    "model_authored_tool_calls": 0,
+    "t1_rows": 811
+  }
+}

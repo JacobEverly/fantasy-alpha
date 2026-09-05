@@ -22,6 +22,11 @@ from training.tinker_backend import (
     safe_text,
     smoke_subset,
 )
+from training.t11_dataset import (
+    CORPUS_PATH as T11_CORPUS,
+    canary_subset as t11_canary_subset,
+    load_t11_corpus,
+)
 
 
 def _write(path: Path, payload: dict) -> None:
@@ -51,9 +56,31 @@ def main(argv: list[str] | None = None) -> int:
     bill = sub.add_parser("billing", help="snapshot provider billing events")
     bill.add_argument("--out", type=Path,
                       default=ROOT / "artifacts/tinker-sft-v1/billing.json")
+    t11_pre = sub.add_parser(
+        "t11-preflight", help="validate/count the targeted T1.1 corpus (no API)"
+    )
+    t11_pre.add_argument(
+        "--out", type=Path,
+        default=ROOT / "artifacts/tinker-sft-t11/preflight.json",
+    )
+    t11_canary = sub.add_parser(
+        "t11-canary", help="paid final-format T1.1 lifecycle canary"
+    )
+    t11_canary.add_argument(
+        "--out-dir", type=Path,
+        default=ROOT / "artifacts/tinker-sft-t11/canary",
+    )
+    t11_train = sub.add_parser("t11-train", help="paid targeted T1.1 SFT run")
+    t11_train.add_argument(
+        "--out-dir", type=Path,
+        default=ROOT / "artifacts/tinker-sft-t11/t11-full",
+    )
     args = ap.parse_args(argv)
 
-    rows = load_corpus(DEFAULT_CORPUS)
+    if args.command.startswith("t11-"):
+        rows = load_t11_corpus()
+    else:
+        rows = load_corpus(DEFAULT_CORPUS)
     if args.command == "preflight":
         cfg = RunConfig(run_name="fantasy-alpha-t1-full")
         train_rows, dev_rows = grouped_development_split(rows)
@@ -95,6 +122,43 @@ def main(argv: list[str] | None = None) -> int:
     elif args.command == "billing":
         start, end = billing_window_for_today()
         _write(args.out, billing_snapshot(start, end))
+    elif args.command == "t11-preflight":
+        cfg = RunConfig(
+            run_name="fantasy-alpha-t11-qwen35-9b-r32",
+            experiment="tinker-sft-t11",
+        )
+        train_rows, dev_rows = grouped_development_split(rows)
+        payload = {
+            "corpus": corpus_manifest(rows, cfg, source_path=T11_CORPUS),
+            "split": {
+                "train_rows": len(train_rows),
+                "development_rows": len(dev_rows),
+                "question_group_overlap": 0,
+            },
+            "estimate": estimate_run_cost(train_rows, dev_rows, cfg),
+            "incremental_budget_usd": 10.0,
+        }
+        _write(args.out, payload)
+    elif args.command == "t11-canary":
+        cfg = RunConfig(
+            run_name="fantasy-alpha-t11-final-format-canary",
+            experiment="tinker-sft-t11",
+            batch_size=8,
+            epochs=3,
+            development_fraction=0.25,
+        )
+        print(json.dumps(run_sft(
+            t11_canary_subset(rows), cfg, args.out_dir,
+            hard_cap_usd=10.0, source_path=T11_CORPUS,
+        ), indent=2))
+    elif args.command == "t11-train":
+        cfg = RunConfig(
+            run_name="fantasy-alpha-t11-qwen35-9b-r32",
+            experiment="tinker-sft-t11",
+        )
+        print(json.dumps(run_sft(
+            rows, cfg, args.out_dir, hard_cap_usd=10.0, source_path=T11_CORPUS,
+        ), indent=2))
     return 0
 
 

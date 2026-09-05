@@ -175,6 +175,7 @@ def smoke_subset(rows: Sequence[dict], per_family: int = 6) -> list[dict]:
 @dataclass(frozen=True)
 class RunConfig:
     run_name: str
+    experiment: str = "tinker-sft-v1"
     model: str = BASE_MODEL
     renderer: str = RENDERER_NAME
     lora_rank: int = 32
@@ -253,7 +254,9 @@ def render_rows(rows: Sequence[dict], config: RunConfig) -> tuple[list[Any], Any
     return datums, tokenizer, renderer
 
 
-def corpus_manifest(rows: Sequence[dict], config: RunConfig) -> dict[str, Any]:
+def corpus_manifest(
+    rows: Sequence[dict], config: RunConfig, *, source_path: Path = DEFAULT_CORPUS
+) -> dict[str, Any]:
     datums, _, _ = render_rows(rows, config)
     lengths = [d.model_input.length for d in datums]
     targets = [sum(float(x) > 0 for x in d.loss_fn_inputs["weights"].data) for d in datums]
@@ -261,8 +264,8 @@ def corpus_manifest(rows: Sequence[dict], config: RunConfig) -> dict[str, Any]:
         raise ValueError("at least one rendered example exceeds max_length")
     return {
         "created_at": utc_now(),
-        "corpus_path": str(DEFAULT_CORPUS.relative_to(ROOT)),
-        "corpus_sha256": sha256_file(DEFAULT_CORPUS),
+        "corpus_path": str(source_path.relative_to(ROOT)),
+        "corpus_sha256": sha256_file(source_path),
         "rows": len(rows),
         "model": config.model,
         "renderer": config.renderer,
@@ -368,11 +371,14 @@ def _sample(
 class TinkerChatSampler:
     """Small provider adapter shared by the SFT lifecycle and eval harness."""
 
-    def __init__(self, *, model_path: str | None = None, model: str = BASE_MODEL):
+    def __init__(
+        self, *, model_path: str | None = None, model: str = BASE_MODEL,
+        experiment: str = "tinker-sft-v1",
+    ):
         require_api_key()
         d = _deps()
         self.service = d["tinker"].ServiceClient(user_metadata={
-            "project": "fantasy-alpha", "experiment": "tinker-sft-v1",
+            "project": "fantasy-alpha", "experiment": experiment,
             "operation": "frozen-evaluation",
         })
         validate_service_model(self.service, model)
@@ -456,7 +462,7 @@ def run_sft(
     ledger = CostLedger()
     user_metadata = {
         "project": "fantasy-alpha",
-        "experiment": "tinker-sft-v1",
+        "experiment": config.experiment,
         "run_name": config.run_name,
         "renderer_name": config.renderer,
         "corpus_sha256": sha256_file(source_path)[:16],
