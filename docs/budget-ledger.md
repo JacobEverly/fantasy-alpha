@@ -67,7 +67,21 @@ are removed and is therefore reported separately from the completed workload.
 Hard incremental cap: **$10.00**. Frozen estimate: **$4.51** ($0.20 final-format
 canary, $1.71 controlled rank-32 training run, and $2.60 for identical base/T1/T1.1
 evaluation across prediction benches and 24 masked DraftGym episodes). The 2025
-gate remains sealed. Actual token counts and price-based costs replace these
-estimates after each completed stage; ongoing checkpoint storage is separate.
+gate remains sealed. The completed provider-reconciled workload was:
 
-Total to date: ~$31.89 (prior historical estimate ~$26.76 + exact Tinker workload $5.126104; ongoing Tinker storage excluded)
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-05 | T1.1 final-format canary | **$0.243131** |
+| 2026-09-05 | T1.1 rank-32 training, 300 targeted traces, 2 epochs/18 steps | **$1.712584** |
+| 2026-09-05 | Frozen untouched-base evaluation, 18 prediction families + 24 DraftGym episodes | **$0.808163** |
+| 2026-09-05 | Frozen T1 evaluation, identical workload | **$0.807874** |
+| 2026-09-05 | Completed T1.1 evaluation session | **$0.788297** |
+| 2026-09-05 | Three failed/retried T1.1 strict-JSON sessions, provider billing reconciled | **$0.129938** |
+|  | **T1.1 incremental total** | **$4.489987** |
+
+The detailed token/session reconciliation is in
+`artifacts/tinker-sft-t11/evaluation/spend-audit.json`. Exact cumulative Tinker
+workload spend is **$9.616091**. Ongoing checkpoint storage remains separate.
+
+Total to date: **~$36.38** (prior historical estimate ~$26.76 + exact Tinker
+workload $9.616091; ongoing Tinker storage excluded).

@@ -57,9 +57,12 @@ the training, never the laptop. See `training/README.md` and
 
 Measurement stack complete and validated · both Prime and Tinker LoRA backends
 work end-to-end · frozen 811-trace Qwen3.5-9B SFT experiment complete for
-$5.13 incremental including smoke/canary work · adapter reduced development loss but produced mixed held-out
-results, so the evidence-backed decision is **revise SFT before RL** · 2025
-remains sealed · historical project spend approximately $31.89 of $5k.
+$5.13 including smoke/canary work · targeted 300-trace T1.1 experiment also
+complete, with a provider-reconciled incremental cost of $4.49 · T1.1 learned
+the corpus but regressed structure, legality, tools, and matched-draft quality,
+so the evidence-backed decision is **revise SFT before RL** · 2025 remains
+sealed · exact Tinker workload $9.616091 · historical project spend
+approximately $36.38 of $5k.
 
 ---
 
