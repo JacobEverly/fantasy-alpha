@@ -128,3 +128,25 @@ adapter and RL were not run. Exact cumulative completed Tinker workload is
 historical estimate ~$26.76 plus exact Tinker workload; ongoing storage
 excluded). The exact nine-decimal line items are in
 `artifacts/tool-decision-supervisor-v1/spend-audit.json`.
+
+## Outcome-linked value-of-information supervisor (2026-09-06)
+
+Target incremental spend: under **$5**. Hard cap: **$10**. The experiment used
+the same pinned Qwen3.5-9B sampling prices. One learned-arm canary was
+interrupted after exposing a repeated-tool loop; Tinker's provider-authoritative
+20:00–22:00 UTC billing window was reconciled against all completed request
+ledgers to capture its server-side work exactly.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-06 | Development matched-counterfactual collection, 35 episodes / 70 decisions | **$0.730879155** |
+| 2026-09-06 | Held-out matched-counterfactual collection, 35 episodes / 70 decisions | **$0.729943500** |
+| 2026-09-06 | Frozen four-arm DraftGym evaluation, 30 episodes per arm / 120 runs | **$2.742848826** |
+| 2026-09-06 | Interrupted learned-arm canary, provider reconciled | **$0.057486843** |
+|  | **Outcome-linked experiment total** | **$4.261158324** |
+
+Exact cumulative completed Tinker workload is **$18.573989202**. Approximate
+whole-project spend is now **$45.33** (historical estimate ~$26.76 plus exact
+Tinker workload), excluding ongoing checkpoint storage. The exact token and
+session reconciliation is in
+`artifacts/value-of-information-v1/spend-audit.json`.

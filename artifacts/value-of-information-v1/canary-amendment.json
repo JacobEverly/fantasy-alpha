@@ -1,0 +1,26 @@
+{
+  "protocol": "fantasy-alpha-value-of-information-v1-canary-amendment-1",
+  "recorded_at": "2026-09-06T21:15:00Z",
+  "trigger": "The learned full-episode canary attempted repeated evidence lookups after a successful candidate-specific lookup.",
+  "scientific_impact": {
+    "completed_affected_arm_records": 0,
+    "aborted_affected_arm_records": 1,
+    "completed_unaffected_arm_records_retained": 3,
+    "heldout_counterfactual_predictions_changed": false,
+    "model_artifact_changed": false,
+    "threshold_changed": false,
+    "features_changed": false,
+    "reward_or_label_used_to_choose_fix": false
+  },
+  "correction": "The full-episode harness now approves the model's reconsidered pick after one successful relevant evidence lookup, matching the frozen one-lookup treatment contract.",
+  "frozen_candidate_manifest_sha256": "ee60971ea5d6a30bf1b074a52f43cca9b857a21c0f6420dbd53eff7606ba544d",
+  "frozen_protocol_sha256": "e839224da05c38cfa129bd18752ebc43630ba70dc1f2ebc5b03d44287bbc7568",
+  "retained_unaffected_records_sha256": "235340f0212e0cf969133d1ddbb96e6aeb12711d35d6f8bd596d9faa6ecef115",
+  "corrected_evaluator_sha256_at_canary_resume": "6831144847182aea7fa078e1ee457680ff7c3cb34a69b7cdbbbe2d8ce94b96d7",
+  "post_collection_closeout_patch": {
+    "scope": "Require provider-reconciled interrupted-canary spend before the final scorecard can be written; no arm behavior, model, features, threshold, panel, reward, or labels changed.",
+    "evaluator_sha256": "010ed853eaf137d1d57361fadc953418d13f10a886a34efff845349a2d9d1dfd",
+    "reporter_sha256": "ba422a3ebd6a2ab9c743d7b55438507add027fed9877394f2b0f493a5ee17053"
+  },
+  "aborted_spend_reconciliation": "Provider billing audit required at closeout because the interrupted arm had no completed local episode ledger."
+}

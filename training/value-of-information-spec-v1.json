@@ -1,0 +1,85 @@
+{
+  "protocol": "fantasy-alpha-value-of-information-v1",
+  "frozen_before_paid_collection": true,
+  "research_question": "Does one relevant structured evidence lookup improve a proposed DraftGym pick and full-episode reward enough to justify its model-call cost?",
+  "model": {
+    "base_model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "temperature": 0.0,
+    "max_tokens": 700,
+    "repair_attempts": 1
+  },
+  "data": {
+    "seasons": [2015, 2016, 2017, 2019, 2020, 2021, 2022],
+    "sealed_seasons": [2013, 2018, 2023, 2024, 2025],
+    "episodes": 70,
+    "development_episodes": 35,
+    "heldout_episodes": 35,
+    "points_per_episode": 2,
+    "development_points": 70,
+    "heldout_points": 70,
+    "masked": true,
+    "preset": "ppr",
+    "selection": "one highest and one lowest decision-time uncertainty score among visible parsed picks; score is 2*missing_prior_points + adp_stdev/adp",
+    "training_outcomes_forbidden_from_features": true
+  },
+  "counterfactual": {
+    "matched_state": "same episode spec and exact replayed action prefix; require identical observation SHA-256",
+    "act_branch": "accept the already-proposed pick, falling back to deterministic AutopickADP only if illegal",
+    "intervene_branch": "call the candidate-specific structured evidence tool, then let the same base model reconsider once with the same seed and temperature",
+    "continuation": "deterministic AutopickADP in both branches after the focal action",
+    "reason": "isolate local evidence value without confounding or paying for two long stochastic continuations"
+  },
+  "labels": {
+    "material_reward_points": 25.0,
+    "UNRESOLVABLE": "the tool failed or returned null/empty evidence",
+    "HELPFUL": "the intervention prevented an illegal action, or changed the action and improved terminal reward by at least 25 points",
+    "HARMFUL": "the intervention changed the action and reduced terminal reward by at least 25 points",
+    "UNNECESSARY": "the intervention did not change the action or its absolute terminal reward effect was below 25 points"
+  },
+  "development": {
+    "baselines": ["always_act", "always_tool", "hard_coded_rules", "existing_imitation_classifier", "transparent_value_rule", "learned_outcome_value"],
+    "model": "class-balanced logistic regression over the existing decision-time feature allowlist",
+    "cross_validation": "five-fold episode-grouped out-of-fold predictions",
+    "threshold_grid": [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95],
+    "threshold_selection": "maximize out-of-fold mean terminal reward; ties prefer fewer harmful selections, lower sampling cost, fewer tool calls, then higher threshold"
+  },
+  "heldout": {
+    "fit_or_tuning_calls": 0,
+    "counterfactual_examples": 70,
+    "matched_arm_episodes_per_arm": 30,
+    "matched_arms": ["base_qwen", "existing_supervisor", "outcome_value_rule", "learned_outcome_value"],
+    "primary_gate": "learned policy has positive heldout counterfactual value; wins more full episodes than it loses; has positive paired mean reward after removing its largest gain; prevents more >=25-point regressions than it introduces; intervenes on fewer than all 450 picks; has average precision above prevalence and positive probability/reward correlation; and has a 10000-resample paired bootstrap 95% interval above zero"
+  },
+  "budget": {
+    "target_incremental_usd": 5.0,
+    "hard_incremental_cap_usd": 10.0,
+    "per_call_guard": "before each request, reserve uncached prompt-token cost plus max-output-token cost at the frozen published prices"
+  },
+  "implementation_hashes": {
+    "envs/draftgym.py": "78b51641fa6bc845a92b66ec45e5b97258909d9c3e0618dfe90299ed0b3ec7fe",
+    "envs/play_llm_supervised.py": "5aead872684b8258b784f90e41b2f74b11962bc8af175af1a705e38bb03961be",
+    "harness/tool_supervisor.py": "5e0d9b9571e647a318588348eddbf282e34418f33e4bc3a990c27e83b0fe2390",
+    "harness/value_supervisor.py": "0e30beda6b35f4a3be4d310dfe8919457ab750bb505ed441250963f418d8a47e",
+    "training/tinker_backend.py": "90ad8a4398e62fd98f01a0b4bc0b11adf14dfbb2b0d0e69b2f6361c68140998f"
+  },
+  "episode_ids": [
+    "season2015:slot1:seed101", "season2015:slot4:seed103", "season2015:slot7:seed107", "season2015:slot10:seed109", "season2015:slot12:seed113", "season2015:slot12:seed127", "season2015:slot10:seed131", "season2015:slot7:seed137", "season2015:slot4:seed139", "season2015:slot1:seed149",
+    "season2016:slot1:seed101", "season2016:slot4:seed103", "season2016:slot7:seed107", "season2016:slot10:seed109", "season2016:slot12:seed113", "season2016:slot12:seed127", "season2016:slot10:seed131", "season2016:slot7:seed137", "season2016:slot4:seed139", "season2016:slot1:seed149",
+    "season2017:slot1:seed101", "season2017:slot4:seed103", "season2017:slot7:seed107", "season2017:slot10:seed109", "season2017:slot12:seed113", "season2017:slot12:seed127", "season2017:slot10:seed131", "season2017:slot7:seed137", "season2017:slot4:seed139", "season2017:slot1:seed149",
+    "season2019:slot1:seed101", "season2019:slot4:seed103", "season2019:slot7:seed107", "season2019:slot10:seed109", "season2019:slot12:seed113", "season2019:slot12:seed127", "season2019:slot10:seed131", "season2019:slot7:seed137", "season2019:slot4:seed139", "season2019:slot1:seed149",
+    "season2020:slot1:seed101", "season2020:slot4:seed103", "season2020:slot7:seed107", "season2020:slot10:seed109", "season2020:slot12:seed113", "season2020:slot12:seed127", "season2020:slot10:seed131", "season2020:slot7:seed137", "season2020:slot4:seed139", "season2020:slot1:seed149",
+    "season2021:slot1:seed101", "season2021:slot4:seed103", "season2021:slot7:seed107", "season2021:slot10:seed109", "season2021:slot12:seed113", "season2021:slot12:seed127", "season2021:slot10:seed131", "season2021:slot7:seed137", "season2021:slot4:seed139", "season2021:slot1:seed149",
+    "season2022:slot1:seed101", "season2022:slot4:seed103", "season2022:slot7:seed107", "season2022:slot10:seed109", "season2022:slot12:seed113", "season2022:slot12:seed127", "season2022:slot10:seed131", "season2022:slot7:seed137", "season2022:slot4:seed139", "season2022:slot1:seed149"
+  ],
+  "arm_evaluation_episode_ids": [
+    "season2015:slot12:seed127", "season2015:slot10:seed131", "season2015:slot7:seed137", "season2015:slot4:seed139",
+    "season2016:slot12:seed127", "season2016:slot10:seed131", "season2016:slot7:seed137", "season2016:slot4:seed139",
+    "season2017:slot12:seed127", "season2017:slot10:seed131", "season2017:slot7:seed137", "season2017:slot4:seed139",
+    "season2019:slot12:seed127", "season2019:slot10:seed131", "season2019:slot7:seed137", "season2019:slot4:seed139",
+    "season2020:slot12:seed127", "season2020:slot10:seed131", "season2020:slot7:seed137", "season2020:slot4:seed139",
+    "season2021:slot12:seed127", "season2021:slot10:seed131", "season2021:slot7:seed137", "season2021:slot4:seed139",
+    "season2022:slot12:seed127", "season2022:slot10:seed131", "season2022:slot7:seed137", "season2022:slot4:seed139",
+    "season2015:slot1:seed149", "season2022:slot1:seed149"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "protocol": "fantasy-alpha-value-of-information-v1-interrupted-canary-trace-audit",
+  "created_at": "2026-09-06T23:00:00+00:00",
+  "source": "Tinker per-session Perfetto trace export",
+  "interrupted_session_id": "f2ad4625-af9b-5b66-a5b0-1932f3017ba3",
+  "chronology": {
+    "session_index_among_200_newest_at_audit": 117,
+    "immediately_newer_corrected_learned_canary_requests": 26,
+    "interrupted_canary_requests": 71,
+    "immediately_older_outcome_rule_requests": 19,
+    "next_older_existing_supervisor_requests": 19,
+    "next_older_base_qwen_requests": 14,
+    "interpretation": "The 71-request session is uniquely positioned between the original three retained canary arms and the corrected learned-arm resume."
+  },
+  "trace_counters": {
+    "requested_samples": 71,
+    "completed_samples": 61,
+    "in_flight_at_termination": 10,
+    "completed_prompt_tokens": 174765,
+    "completed_generation_tokens": 610
+  },
+  "provider_reconciliation": {
+    "status": "complete",
+    "cached_prefill_tokens": 150784,
+    "uncached_prefill_tokens": 54753,
+    "sample_tokens": 725,
+    "computed_usd": 0.057486843,
+    "note": "Provider-authoritative usage includes requests that finished server-side after client termination; this exceeds the trace's client-observed completed counters."
+  },
+  "signed_trace_url_persisted": false,
+  "credential_persisted": false
+}

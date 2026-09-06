@@ -11,6 +11,10 @@ from harness.tool_supervisor import (
     decision_from_json,
     validate_proposed_tool,
 )
+from harness.value_supervisor import (
+    AlwaysEvidenceOnceSupervisor,
+    OutcomeValueRuleSupervisor,
+)
 
 
 def observation(*, prior=100.0, stdev=5.0, remaining=5, results=None):
@@ -90,6 +94,28 @@ def test_tool_validation_and_trivial_baselines():
         "name": "depth_chart", "arguments": {"team_or_player": "B999"},
     }}
     assert validate_proposed_tool(obs, invisible).decision == "WAIT_OR_ABSTAIN"
+
+
+def test_always_evidence_baseline_looks_up_once_then_acts():
+    supervisor = AlwaysEvidenceOnceSupervisor()
+    pick = {"pick": "B001"}
+    assert supervisor.decide(observation(), pick).decision == "USE_TOOL"
+    successful = [{
+        "call": {"name": "injury_status", "arguments": {"player": "B001"}},
+        "response": {"ok": True, "result": {"status": "healthy"}},
+    }]
+    assert supervisor.decide(
+        observation(results=successful), pick
+    ).decision == "ACT_NOW"
+
+
+def test_outcome_value_rule_uses_only_its_frozen_conditions():
+    supervisor = OutcomeValueRuleSupervisor(
+        use_missing_prior=False, relative_adp_stdev_threshold=0.15,
+    )
+    pick = {"pick": "B001"}
+    assert supervisor.decide(observation(prior=0.0), pick).decision == "ACT_NOW"
+    assert supervisor.decide(observation(stdev=12.0), pick).decision == "USE_TOOL"
 
 
 def test_feature_allowlist_uses_only_observation_and_proposed_pick():

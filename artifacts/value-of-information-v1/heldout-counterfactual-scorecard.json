@@ -1,0 +1,224 @@
+{
+  "artifact_sha256_after": "9c67126310be0b6d1ab18971420f4e396ac82fca503335910b3329e9b5d6ee3f",
+  "artifact_sha256_before": "9c67126310be0b6d1ab18971420f4e396ac82fca503335910b3329e9b5d6ee3f",
+  "created_at": "2026-09-06T21:08:40.312787+00:00",
+  "development_threshold": 0.1,
+  "episodes": 35,
+  "examples": 70,
+  "fit_or_tuning_calls": 0,
+  "frozen_candidate_sha256": "ee60971ea5d6a30bf1b074a52f43cca9b857a21c0f6420dbd53eff7606ba544d",
+  "paired_examples": {
+    "largest_improvements": [
+      {
+        "action_changed": true,
+        "episode_id": "season2021:slot4:seed139",
+        "example_id": "season2021:slot4:seed139:decision9",
+        "label": "HELPFUL",
+        "learned_selected_tool": true,
+        "predicted_helpful_probability": 0.5297955678717149,
+        "reward_difference": 146.70000000000002
+      },
+      {
+        "action_changed": true,
+        "episode_id": "season2020:slot10:seed131",
+        "example_id": "season2020:slot10:seed131:decision1",
+        "label": "HELPFUL",
+        "learned_selected_tool": true,
+        "predicted_helpful_probability": 0.604986637220217,
+        "reward_difference": 135.9
+      },
+      {
+        "action_changed": true,
+        "episode_id": "season2016:slot1:seed149",
+        "example_id": "season2016:slot1:seed149:decision8",
+        "label": "HELPFUL",
+        "learned_selected_tool": true,
+        "predicted_helpful_probability": 0.49303675040299383,
+        "reward_difference": 131.8
+      },
+      {
+        "action_changed": true,
+        "episode_id": "season2016:slot7:seed137",
+        "example_id": "season2016:slot7:seed137:decision11",
+        "label": "HELPFUL",
+        "learned_selected_tool": true,
+        "predicted_helpful_probability": 0.531056916234847,
+        "reward_difference": 104.34
+      },
+      {
+        "action_changed": true,
+        "episode_id": "season2016:slot7:seed137",
+        "example_id": "season2016:slot7:seed137:decision0",
+        "label": "HELPFUL",
+        "learned_selected_tool": true,
+        "predicted_helpful_probability": 0.7713857478275702,
+        "reward_difference": 104.1
+      }
+    ],
+    "largest_regressions": [
+      {
+        "action_changed": true,
+        "episode_id": "season2022:slot4:seed139",
+        "example_id": "season2022:slot4:seed139:decision8",
+        "label": "HARMFUL",
+        "learned_selected_tool": false,
+        "predicted_helpful_probability": 0.062481284629150924,
+        "reward_difference": -203.06
+      },
+      {
+        "action_changed": true,
+        "episode_id": "season2020:slot12:seed127",
+        "example_id": "season2020:slot12:seed127:decision7",
+        "label": "HARMFUL",
+        "learned_selected_tool": true,
+        "predicted_helpful_probability": 0.2412584217730061,
+        "reward_difference": -149.07999999999998
+      },
+      {
+        "action_changed": true,
+        "episode_id": "season2022:slot10:seed131",
+        "example_id": "season2022:slot10:seed131:decision7",
+        "label": "HARMFUL",
+        "learned_selected_tool": true,
+        "predicted_helpful_probability": 0.6970128410442293,
+        "reward_difference": -121.80000000000001
+      },
+      {
+        "action_changed": true,
+        "episode_id": "season2017:slot4:seed139",
+        "example_id": "season2017:slot4:seed139:decision9",
+        "label": "HARMFUL",
+        "learned_selected_tool": true,
+        "predicted_helpful_probability": 0.5211986442310357,
+        "reward_difference": -91.95999999999998
+      },
+      {
+        "action_changed": true,
+        "episode_id": "season2019:slot4:seed139",
+        "example_id": "season2019:slot4:seed139:decision12",
+        "label": "HARMFUL",
+        "learned_selected_tool": true,
+        "predicted_helpful_probability": 0.2320954721105771,
+        "reward_difference": -72.16
+      }
+    ]
+  },
+  "protocol": "fantasy-alpha-outcome-value-supervisor-v1",
+  "split": "heldout",
+  "systems": {
+    "always_act": {
+      "examples": 70,
+      "harmful_selected": 0,
+      "helpful_recall": 0.0,
+      "incremental_sampling_usd": 0.0,
+      "mean_reward": 14.101142857142857,
+      "mean_reward_delta_vs_act": 0.0,
+      "selected_precision": 0.0,
+      "tool_calls": 0,
+      "tool_rate": 0.0
+    },
+    "always_tool": {
+      "examples": 70,
+      "harmful_selected": 11,
+      "helpful_recall": 1.0,
+      "incremental_sampling_usd": 0.036470808,
+      "mean_reward": 11.486,
+      "mean_reward_delta_vs_act": -2.6151428571428563,
+      "selected_precision": 0.1,
+      "tool_calls": 70,
+      "tool_rate": 1.0
+    },
+    "existing_imitation_classifier": {
+      "examples": 70,
+      "harmful_selected": 5,
+      "helpful_recall": 0.0,
+      "incremental_sampling_usd": 0.012746430000000001,
+      "mean_reward": 9.224285714285715,
+      "mean_reward_delta_vs_act": -4.876857142857143,
+      "selected_precision": 0.0,
+      "tool_calls": 21,
+      "tool_rate": 0.3
+    },
+    "hard_coded_rules": {
+      "examples": 70,
+      "harmful_selected": 6,
+      "helpful_recall": 0.5714285714285714,
+      "incremental_sampling_usd": 0.018638202000000003,
+      "mean_reward": 13.727714285714287,
+      "mean_reward_delta_vs_act": -0.3734285714285711,
+      "selected_precision": 0.11428571428571428,
+      "tool_calls": 35,
+      "tool_rate": 0.5
+    },
+    "learned_outcome_value": {
+      "calibration": {
+        "average_precision": 0.16217441931727647,
+        "bins": [
+          {
+            "count": 25,
+            "high": 0.2,
+            "low": 0.0,
+            "mean_prediction": 0.08681566681217223,
+            "mean_reward_difference": -15.0,
+            "observed_helpful_rate": 0.0
+          },
+          {
+            "count": 10,
+            "high": 0.4,
+            "low": 0.2,
+            "mean_prediction": 0.28526527240055494,
+            "mean_reward_difference": -20.287999999999993,
+            "observed_helpful_rate": 0.1
+          },
+          {
+            "count": 14,
+            "high": 0.6000000000000001,
+            "low": 0.4,
+            "mean_prediction": 0.4910826036001808,
+            "mean_reward_difference": 15.770000000000005,
+            "observed_helpful_rate": 0.21428571428571427
+          },
+          {
+            "count": 16,
+            "high": 0.8,
+            "low": 0.6,
+            "mean_prediction": 0.7108594529589575,
+            "mean_reward_difference": 10.8775,
+            "observed_helpful_rate": 0.1875
+          },
+          {
+            "count": 5,
+            "high": 1.0,
+            "low": 0.8,
+            "mean_prediction": 0.8558714179714016,
+            "mean_reward_difference": 0.0,
+            "observed_helpful_rate": 0.0
+          }
+        ],
+        "brier": 0.2200720537263995,
+        "prevalence": 0.1,
+        "probability_reward_correlation": 0.2333033104482536
+      },
+      "examples": 70,
+      "harmful_selected": 6,
+      "helpful_recall": 1.0,
+      "incremental_sampling_usd": 0.027722502000000003,
+      "mean_reward": 16.738857142857142,
+      "mean_reward_delta_vs_act": 2.637714285714287,
+      "selected_precision": 0.12962962962962962,
+      "tool_calls": 54,
+      "tool_rate": 0.7714285714285715
+    },
+    "transparent_value_rule": {
+      "examples": 70,
+      "harmful_selected": 6,
+      "helpful_recall": 0.42857142857142855,
+      "incremental_sampling_usd": 0.018164436000000003,
+      "mean_reward": 11.786285714285716,
+      "mean_reward_delta_vs_act": -2.314857142857143,
+      "selected_precision": 0.08823529411764706,
+      "tool_calls": 34,
+      "tool_rate": 0.4857142857142857
+    }
+  }
+}
