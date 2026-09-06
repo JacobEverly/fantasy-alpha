@@ -1,0 +1,504 @@
+{
+  "artifact_sha256": "cf4d8a496602909635425509c2b81836f14395e26a1f8192ba35153a13c8fef0",
+  "dataset_sha256": "cf93a06772ee28e91547eb8aa3be7ea76792ade2f8ec33a082f9e81784785700",
+  "evaluation_role": "post-hoc categorical robustness challenge; not training, model selection, or the frozen primary gate",
+  "fit_or_tuning_calls": 0,
+  "protocol": "fantasy-alpha-tool-decision-adversarial-v1",
+  "rows": 12,
+  "status": "complete",
+  "systems": {
+    "always_act": {
+      "examples": [
+        {
+          "correct": false,
+          "example_id": "missing-depth-chart",
+          "expected": "USE_TOOL",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "unknown-injury",
+          "expected": "USE_TOOL",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "valid-tool-proposal",
+          "expected": "USE_TOOL",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": true,
+          "example_id": "depth-result-resolves",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": true,
+          "example_id": "injury-result-resolves",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": true,
+          "example_id": "stable-local-choice",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": true,
+          "example_id": "locally-solvable-roster-arithmetic",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "failed-tool-no-budget",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "missing-adp-no-supported-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "inconclusive-tool-no-budget",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "illegal-search-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "irrelevant-player-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "ACT_NOW",
+          "reason_code": "always_act_baseline"
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.3333333333333333,
+        "brier": 1.3333333333333293,
+        "correct_tool_rate": 0.0,
+        "ece": 0.6666666666666645,
+        "immediate_action_retention": 1.0,
+        "macro_f1": 0.16666666666666666,
+        "multiclass_log_loss": 23.025850929940457,
+        "post_tool_completion_rate": 1.0,
+        "prediction_counts": {
+          "ACT_NOW": 12
+        },
+        "primary_gate": {
+          "correct_tool_rate": false,
+          "immediate_action_retention": true,
+          "no_unsafe_direct_actions": false,
+          "pass": false,
+          "post_tool_completion_rate": true,
+          "required_tool_recall": false,
+          "structured_action_rate": true,
+          "unnecessary_tool_rate": true
+        },
+        "required_tool_recall": 0.0,
+        "rows": 12,
+        "structured_action_rate": 1.0,
+        "tool_precision": 0.0,
+        "truth_counts": {
+          "ACT_NOW": 4,
+          "USE_TOOL": 3,
+          "WAIT_OR_ABSTAIN": 5
+        },
+        "unnecessary_tool_rate": 0.0,
+        "unsafe_direct_action_rate": 1.0
+      }
+    },
+    "always_use_tool": {
+      "examples": [
+        {
+          "correct": true,
+          "example_id": "missing-depth-chart",
+          "expected": "USE_TOOL",
+          "predicted": "USE_TOOL",
+          "reason_code": "always_use_tool_baseline"
+        },
+        {
+          "correct": true,
+          "example_id": "unknown-injury",
+          "expected": "USE_TOOL",
+          "predicted": "USE_TOOL",
+          "reason_code": "always_use_tool_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "valid-tool-proposal",
+          "expected": "USE_TOOL",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "always_tool_unavailable"
+        },
+        {
+          "correct": false,
+          "example_id": "depth-result-resolves",
+          "expected": "ACT_NOW",
+          "predicted": "USE_TOOL",
+          "reason_code": "always_use_tool_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "injury-result-resolves",
+          "expected": "ACT_NOW",
+          "predicted": "USE_TOOL",
+          "reason_code": "always_use_tool_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "stable-local-choice",
+          "expected": "ACT_NOW",
+          "predicted": "USE_TOOL",
+          "reason_code": "always_use_tool_baseline"
+        },
+        {
+          "correct": false,
+          "example_id": "locally-solvable-roster-arithmetic",
+          "expected": "ACT_NOW",
+          "predicted": "USE_TOOL",
+          "reason_code": "always_use_tool_baseline"
+        },
+        {
+          "correct": true,
+          "example_id": "failed-tool-no-budget",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "always_tool_unavailable"
+        },
+        {
+          "correct": false,
+          "example_id": "missing-adp-no-supported-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "USE_TOOL",
+          "reason_code": "always_use_tool_baseline"
+        },
+        {
+          "correct": true,
+          "example_id": "inconclusive-tool-no-budget",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "always_tool_unavailable"
+        },
+        {
+          "correct": true,
+          "example_id": "illegal-search-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "always_tool_unavailable"
+        },
+        {
+          "correct": true,
+          "example_id": "irrelevant-player-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "always_tool_unavailable"
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.5,
+        "brier": 0.9999999999999969,
+        "correct_tool_rate": 0.6666666666666666,
+        "ece": 0.4999999999999979,
+        "immediate_action_retention": 0.0,
+        "macro_f1": 0.4000000000000001,
+        "multiclass_log_loss": 17.269388197455342,
+        "post_tool_completion_rate": 0.0,
+        "prediction_counts": {
+          "USE_TOOL": 7,
+          "WAIT_OR_ABSTAIN": 5
+        },
+        "primary_gate": {
+          "correct_tool_rate": false,
+          "immediate_action_retention": false,
+          "no_unsafe_direct_actions": true,
+          "pass": false,
+          "post_tool_completion_rate": false,
+          "required_tool_recall": false,
+          "structured_action_rate": true,
+          "unnecessary_tool_rate": false
+        },
+        "required_tool_recall": 0.6666666666666666,
+        "rows": 12,
+        "structured_action_rate": 1.0,
+        "tool_precision": 0.2857142857142857,
+        "truth_counts": {
+          "ACT_NOW": 4,
+          "USE_TOOL": 3,
+          "WAIT_OR_ABSTAIN": 5
+        },
+        "unnecessary_tool_rate": 1.0,
+        "unsafe_direct_action_rate": 0.0
+      }
+    },
+    "hard_coded_supervisor_v1": {
+      "examples": [
+        {
+          "correct": true,
+          "example_id": "missing-depth-chart",
+          "expected": "USE_TOOL",
+          "predicted": "USE_TOOL",
+          "reason_code": "missing_depth_chart"
+        },
+        {
+          "correct": true,
+          "example_id": "unknown-injury",
+          "expected": "USE_TOOL",
+          "predicted": "USE_TOOL",
+          "reason_code": "high_market_uncertainty"
+        },
+        {
+          "correct": true,
+          "example_id": "valid-tool-proposal",
+          "expected": "USE_TOOL",
+          "predicted": "USE_TOOL",
+          "reason_code": "valid_model_tool_call"
+        },
+        {
+          "correct": true,
+          "example_id": "depth-result-resolves",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "relevant_evidence_available"
+        },
+        {
+          "correct": true,
+          "example_id": "injury-result-resolves",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "relevant_evidence_available"
+        },
+        {
+          "correct": true,
+          "example_id": "stable-local-choice",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "decision_context_sufficient"
+        },
+        {
+          "correct": true,
+          "example_id": "locally-solvable-roster-arithmetic",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "decision_context_sufficient"
+        },
+        {
+          "correct": true,
+          "example_id": "failed-tool-no-budget",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "evidence_failed_no_budget"
+        },
+        {
+          "correct": false,
+          "example_id": "missing-adp-no-supported-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "USE_TOOL",
+          "reason_code": "high_market_uncertainty"
+        },
+        {
+          "correct": false,
+          "example_id": "inconclusive-tool-no-budget",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "ACT_NOW",
+          "reason_code": "relevant_evidence_available"
+        },
+        {
+          "correct": true,
+          "example_id": "illegal-search-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "invalid_or_irrelevant_tool"
+        },
+        {
+          "correct": true,
+          "example_id": "irrelevant-player-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "invalid_or_irrelevant_tool"
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.8333333333333334,
+        "brier": 0.3333333333333323,
+        "correct_tool_rate": 1.0,
+        "ece": 0.16666666666666452,
+        "immediate_action_retention": 1.0,
+        "macro_f1": 0.832010582010582,
+        "multiclass_log_loss": 5.756462732485115,
+        "post_tool_completion_rate": 1.0,
+        "prediction_counts": {
+          "ACT_NOW": 5,
+          "USE_TOOL": 4,
+          "WAIT_OR_ABSTAIN": 3
+        },
+        "primary_gate": {
+          "correct_tool_rate": true,
+          "immediate_action_retention": true,
+          "no_unsafe_direct_actions": false,
+          "pass": false,
+          "post_tool_completion_rate": true,
+          "required_tool_recall": true,
+          "structured_action_rate": true,
+          "unnecessary_tool_rate": true
+        },
+        "required_tool_recall": 1.0,
+        "rows": 12,
+        "structured_action_rate": 1.0,
+        "tool_precision": 0.75,
+        "truth_counts": {
+          "ACT_NOW": 4,
+          "USE_TOOL": 3,
+          "WAIT_OR_ABSTAIN": 5
+        },
+        "unnecessary_tool_rate": 0.0,
+        "unsafe_direct_action_rate": 0.125
+      }
+    },
+    "learned_supervisor_v1": {
+      "examples": [
+        {
+          "correct": true,
+          "example_id": "missing-depth-chart",
+          "expected": "USE_TOOL",
+          "predicted": "USE_TOOL",
+          "reason_code": "learned_evidence_required"
+        },
+        {
+          "correct": true,
+          "example_id": "unknown-injury",
+          "expected": "USE_TOOL",
+          "predicted": "USE_TOOL",
+          "reason_code": "learned_evidence_required"
+        },
+        {
+          "correct": true,
+          "example_id": "valid-tool-proposal",
+          "expected": "USE_TOOL",
+          "predicted": "USE_TOOL",
+          "reason_code": "valid_model_tool_call"
+        },
+        {
+          "correct": true,
+          "example_id": "depth-result-resolves",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "learned_context_sufficient"
+        },
+        {
+          "correct": true,
+          "example_id": "injury-result-resolves",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "learned_context_sufficient"
+        },
+        {
+          "correct": true,
+          "example_id": "stable-local-choice",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "learned_context_sufficient"
+        },
+        {
+          "correct": true,
+          "example_id": "locally-solvable-roster-arithmetic",
+          "expected": "ACT_NOW",
+          "predicted": "ACT_NOW",
+          "reason_code": "learned_context_sufficient"
+        },
+        {
+          "correct": true,
+          "example_id": "failed-tool-no-budget",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "learned_unresolved_risk"
+        },
+        {
+          "correct": false,
+          "example_id": "missing-adp-no-supported-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "ACT_NOW",
+          "reason_code": "learned_context_sufficient"
+        },
+        {
+          "correct": true,
+          "example_id": "inconclusive-tool-no-budget",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "learned_unresolved_risk"
+        },
+        {
+          "correct": true,
+          "example_id": "illegal-search-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "invalid_or_irrelevant_tool"
+        },
+        {
+          "correct": true,
+          "example_id": "irrelevant-player-tool",
+          "expected": "WAIT_OR_ABSTAIN",
+          "predicted": "WAIT_OR_ABSTAIN",
+          "reason_code": "invalid_or_irrelevant_tool"
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.9166666666666666,
+        "brier": 0.16666666666666616,
+        "correct_tool_rate": 1.0,
+        "ece": 0.08333333333333126,
+        "immediate_action_retention": 1.0,
+        "macro_f1": 0.9259259259259259,
+        "multiclass_log_loss": 2.878231366242558,
+        "post_tool_completion_rate": 1.0,
+        "prediction_counts": {
+          "ACT_NOW": 5,
+          "USE_TOOL": 3,
+          "WAIT_OR_ABSTAIN": 4
+        },
+        "primary_gate": {
+          "correct_tool_rate": true,
+          "immediate_action_retention": true,
+          "no_unsafe_direct_actions": false,
+          "pass": false,
+          "post_tool_completion_rate": true,
+          "required_tool_recall": true,
+          "structured_action_rate": true,
+          "unnecessary_tool_rate": true
+        },
+        "required_tool_recall": 1.0,
+        "rows": 12,
+        "structured_action_rate": 1.0,
+        "tool_precision": 1.0,
+        "truth_counts": {
+          "ACT_NOW": 4,
+          "USE_TOOL": 3,
+          "WAIT_OR_ABSTAIN": 5
+        },
+        "unnecessary_tool_rate": 0.0,
+        "unsafe_direct_action_rate": 0.125
+      }
+    }
+  }
+}

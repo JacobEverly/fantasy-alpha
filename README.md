@@ -53,16 +53,22 @@ the training, never the laptop. See `training/README.md` and
 - **Memorization is detected, not assumed away** — canary gates void any checkpoint whose anonymized-track scores are identity recall; DraftGym trains on masked boards.
 - **Money**: $5k ceiling, warn before any single spend ≥$50, every resource logged at provisioning time, kill criteria preregistered before every training run.
 
-## Status (2026-09-05)
+## Status (2026-09-06)
 
-Measurement stack complete and validated · both Prime and Tinker LoRA backends
-work end-to-end · T1 and T1.1 are fully evaluated · T1.2 corrected conflicting
-targets and froze a 70/30 broad/targeted mix, but both representative canaries
-made zero valid tool calls on unseen tool-opportunity states · the frozen gate
-therefore stopped the full run after **$1.239102** · evidence-backed decision:
-**stop additional SFT and do not begin RL** until tool choice is redesigned ·
-2025 remains sealed · exact price-based Tinker workload $10.855193 · historical
-project spend approximately $37.62 of $5k, excluding ongoing storage.
+The first rigorous tool-decision supervisor experiment is complete. A
+candidate-aware learned supervisor passed every frozen classification gate on
+220 internal-held-out states (100% required-tool recall, zero unsafe direct
+actions), while rules and untouched Qwen failed. Two contrastive Qwen3.5-9B
+canaries failed development gates, so no full adapter or RL run followed. In
+the real DraftGym loop, however, forcing successful tool calls did not improve
+the seven-episode paired pilot; a post-hoc challenge also exposed a missing-ADP
+safety gap. Decision: **retain the external/hybrid architecture direction but
+redesign labels around measured intervention value before shipping or training
+again**. 2025 and every other sealed season remain untouched. Exact experiment
+spend was $3.457638; cumulative Tinker workload is $14.312831; whole-project
+spend is approximately $41.07, excluding ongoing storage. See
+[`docs/status-2026-09-06.md`](docs/status-2026-09-06.md) and
+[`docs/tool-decision-supervisor-experiment.md`](docs/tool-decision-supervisor-experiment.md).
 
 ---
 

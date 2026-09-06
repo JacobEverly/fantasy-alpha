@@ -1,0 +1,18 @@
+{
+  "adapter_development_inference_estimate_usd": 0.35001879,
+  "hard_cap_under_ten_usd": true,
+  "heldout_rows_seen": 0,
+  "matched_groups": 80,
+  "projected_experiment_total_usd": 2.8203092009999997,
+  "projected_revision_usd": 1.68055877,
+  "protocol": "fantasy-alpha-tool-decision-contrastive-sft-v2",
+  "rows": 320,
+  "spent_before_revision_usd": 1.139750431,
+  "target_under_five_usd": true,
+  "training_estimate": {
+    "billable_training_tokens": 909460,
+    "estimated_training_usd": 1.33053998,
+    "training_tokens": 743466,
+    "validation_forward_tokens": 165994
+  }
+}

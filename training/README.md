@@ -1,5 +1,28 @@
 # training/ — SFT data pipeline v0
 
+## Tool-decision supervisor result (2026-09-06)
+
+The matched-state tool-decision experiment is complete. The development-only
+calibrated classifier passed the frozen 220-row internal held-out gate, but two
+contrastive Qwen3.5-9B LoRA canaries failed their behavioral gates and the
+seven-episode DraftGym integration pilot showed no reward lift from forced
+lookups. No full adapter and no RL run followed. The next training data must use
+measured value-of-information labels from matched counterfactual rollouts, not
+additional imitation of the current tool policy. See
+`docs/tool-decision-supervisor-experiment.md`.
+
+Key reusable pieces:
+
+```bash
+.venv/bin/pytest -q tests/test_tool_decision_dataset.py
+.venv/bin/python -m training.tool_decision_supervisor --train  # development only
+.venv/bin/python -m evals.tool_decision_scorecard local-heldout
+.venv/bin/python -m evals.tool_decision_adversarial score
+```
+
+The primary held-out set and candidate manifest are already spent/frozen; do
+not retrain or retune them. The adversarial suite is post-hoc diagnostic only.
+
 ## T1.2 result (2026-09-05)
 
 T1.2 froze an 829-prompt, conflict-free mix with 70% broad retention and 30%

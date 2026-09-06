@@ -1,0 +1,112 @@
+{
+  "protocol": "fantasy-alpha-tool-decision-completion-audit-v1",
+  "status": "complete_with_scientific_rejection",
+  "objective_answer": "The system can imitate the narrow depth/injury evidence policy, but current evidence does not prove that the policy knows when gathering evidence improves the final draft. No approach is reliable enough to ship.",
+  "requirements": {
+    "stage_1_audit_and_freeze": {
+      "status": "proven",
+      "evidence": [
+        "training/tool-decision-eval-spec-v1.json",
+        "training/tool-decision-candidates-v1.json",
+        "docs/tool-decision-supervisor-experiment.md",
+        "433 tests passed before behavior changes; 459 tests passed at closeout"
+      ],
+      "sealed_seasons_opened": []
+    },
+    "stage_2_matched_state_dataset": {
+      "status": "proven",
+      "evidence": [
+        "training/datasets/tool_decision_v1/manifest.json",
+        "training/datasets/tool_decision_v1/leakage-report.json",
+        "docs/models/fantasy-alpha-tool-decision-v1-dataset-card.md",
+        "evals/frozen/tool_decision_v1/heldout.jsonl",
+        "evals/frozen/tool_decision_v1/adversarial.jsonl"
+      ],
+      "primary_rows": 948,
+      "matched_groups": 237,
+      "heldout_rows": 220,
+      "adversarial_rows": 12
+    },
+    "stage_3_non_fine_tuned_baselines": {
+      "status": "proven",
+      "evidence": [
+        "harness/tool_supervisor.py",
+        "training/tool_decision_supervisor.py",
+        "artifacts/tool-decision-supervisor-v1/learned-supervisor.joblib",
+        "artifacts/tool-decision-supervisor-v1/development-report.json",
+        "artifacts/tool-decision-supervisor-v1/frozen-evaluation/local-heldout.json",
+        "artifacts/tool-decision-supervisor-v1/frozen-evaluation/base-heldout.json"
+      ],
+      "artifact_reload_verified": true,
+      "heldout_fit_or_tuning_calls": 0
+    },
+    "stage_4_contrastive_fine_tuning": {
+      "status": "proven_stopped_by_gate",
+      "evidence": [
+        "training/tool-decision-tinker-canary-v1.json",
+        "training/tool-decision-tinker-canary-v2.json",
+        "artifacts/tool-decision-supervisor-v1/tinker-canary-v1/run-summary.json",
+        "artifacts/tool-decision-supervisor-v1/tinker-canary-v2/run-summary.json"
+      ],
+      "base_model": "Qwen/Qwen3.5-9B",
+      "completed_canaries": 2,
+      "allowed_revisions_used": 1,
+      "full_adapter_trained": false,
+      "reason": "Both development behavior gates failed despite lower NLL and valid checkpoint lifecycle."
+    },
+    "stage_5_real_harness_evaluation": {
+      "status": "proven",
+      "evidence": [
+        "envs/play_llm_supervised.py",
+        "artifacts/tool-decision-supervisor-v1/frozen-evaluation/scorecard.json",
+        "artifacts/tool-decision-supervisor-v1/frozen-evaluation/draftgym-scorecard.json",
+        "artifacts/tool-decision-supervisor-v1/frozen-evaluation/closeout-analysis.json",
+        "artifacts/tool-decision-supervisor-v1/frozen-evaluation/adversarial.json"
+      ],
+      "draftgym_episodes": 21,
+      "paired_episode_specs_per_arm": 7,
+      "latency": {
+        "local_supervisor_overhead_measured": true,
+        "provider_end_to_end_latency_retained": false,
+        "disposition": "Explicitly reported as unavailable; no paid rerun was made solely to reconstruct telemetry."
+      }
+    },
+    "budget": {
+      "status": "proven",
+      "evidence": "artifacts/tool-decision-supervisor-v1/spend-audit.json",
+      "incremental_usd": 3.45763752,
+      "target_under_five_usd": true,
+      "hard_cap_under_ten_usd": true,
+      "cumulative_tinker_usd": 14.312830878
+    },
+    "safety_and_hygiene": {
+      "status": "proven",
+      "final_test_result": "459 passed in 125.30 seconds",
+      "compiled_modules": true,
+      "candidate_hash_manifest_verified": true,
+      "json_artifacts_parsed": true,
+      "git_diff_check": "clean",
+      "git_visible_files_secret_scanned": 75,
+      "secret_hits": 0,
+      "adapter_archives_ignored": true,
+      "rl_started": false
+    },
+    "report_and_recommendation": {
+      "status": "proven",
+      "evidence": [
+        "docs/tool-decision-supervisor-experiment.md",
+        "docs/models/fantasy-alpha-tool-supervisor-v1.md",
+        "docs/status-2026-09-06.md"
+      ],
+      "decision": "redesign_data_because_no_approach_is_reliable_enough",
+      "architecture_direction": "external_hybrid_after_outcome_linked_relabeling"
+    }
+  },
+  "known_limits": [
+    "The primary matched labels imitate an outcome-blind evidence policy rather than measured intervention value.",
+    "The real DraftGym panel has seven paired episodes per arm and is too small for a stable fantasy-reward estimate.",
+    "The post-hoc adversarial set is categorical coverage only and did not participate in model selection.",
+    "End-to-end provider latency was not retained in the frozen inference records."
+  ],
+  "next_experiment": "Build outcome-linked value-of-information labels from matched immediate-action versus tool-first rollouts before more SFT or RL."
+}

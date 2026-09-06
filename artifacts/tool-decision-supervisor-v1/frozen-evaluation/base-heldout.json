@@ -1,0 +1,53 @@
+{
+  "cost_usd": 0.301980717,
+  "fit_or_tuning_calls": 0,
+  "metrics": {
+    "accuracy": 0.5863636363636363,
+    "brier": 0.8272727272727247,
+    "correct_tool_rate": 0.18181818181818182,
+    "ece": 0.4136363636363616,
+    "immediate_action_retention": 0.01818181818181818,
+    "legal_action_rate": 0.39090909090909093,
+    "macro_f1": 0.6224833367690511,
+    "multiclass_log_loss": 14.286493872440326,
+    "post_tool_completion_rate": 0.5636363636363636,
+    "prediction_counts": {
+      "ACT_NOW": 34,
+      "USE_TOOL": 143,
+      "WAIT_OR_ABSTAIN": 43
+    },
+    "primary_gate": {
+      "correct_tool_rate": false,
+      "immediate_action_retention": false,
+      "no_unsafe_direct_actions": false,
+      "pass": false,
+      "post_tool_completion_rate": false,
+      "required_tool_recall": true,
+      "structured_action_rate": true,
+      "unnecessary_tool_rate": false
+    },
+    "required_tool_recall": 0.9818181818181818,
+    "rows": 220,
+    "structured_action_rate": 0.9954545454545455,
+    "tool_precision": 0.3776223776223776,
+    "truth_counts": {
+      "ACT_NOW": 110,
+      "USE_TOOL": 55,
+      "WAIT_OR_ABSTAIN": 55
+    },
+    "unnecessary_tool_rate": 0.7090909090909091,
+    "unsafe_direct_action_rate": 0.01818181818181818
+  },
+  "model": "Qwen/Qwen3.5-9B",
+  "protocol": "fantasy-alpha-tool-decision-frozen-evaluation-v1",
+  "rows": 220,
+  "split": "heldout",
+  "status": "complete",
+  "usage": {
+    "cached_prefill_tokens": 139776,
+    "checkpoint_count": 0,
+    "prefill_tokens": 415049,
+    "sample_tokens": 4811,
+    "training_tokens": 0
+  }
+}

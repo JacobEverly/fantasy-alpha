@@ -1,0 +1,31 @@
+{
+  "config": {
+    "batch_size": 32,
+    "checkpoint_at_fraction": null,
+    "checkpoint_every_epochs": 1,
+    "development_fraction": 0.1,
+    "epochs": 1,
+    "experiment": "tool-decision-supervisor-v1",
+    "learning_rate": 0.0001,
+    "lora_rank": 32,
+    "max_length": 8192,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "run_name": "fantasy-alpha-tool-decision-canary-v1",
+    "seed": 20260906
+  },
+  "conservative_two_arm_development_inference_usd": 0.70003758,
+  "hard_cap_under_ten_usd": true,
+  "heldout_rows_seen": 0,
+  "matched_groups": 40,
+  "projected_canary_total_usd": 1.381586371,
+  "protocol": "fantasy-alpha-tool-decision-contrastive-sft-v1",
+  "rows": 160,
+  "target_under_five_usd": true,
+  "training_estimate": {
+    "billable_training_tokens": 465857,
+    "estimated_training_usd": 0.6815487910000001,
+    "training_tokens": 381597,
+    "validation_forward_tokens": 84260
+  }
+}

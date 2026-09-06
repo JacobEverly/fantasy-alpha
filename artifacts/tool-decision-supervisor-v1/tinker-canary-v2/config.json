@@ -1,0 +1,31 @@
+{
+  "batch_size": 32,
+  "checkpoint_at_fraction": null,
+  "checkpoint_every_epochs": 1,
+  "corpus_path": "training/datasets/tool_decision_v1/contrastive_sft_train_v2.jsonl",
+  "corpus_sha256": "8cb867aef026e12675615fbd3549e92f991af0956eee6f65c24874f0996c3bf9",
+  "credential_source": "TINKER_API_KEY environment variable",
+  "development_fraction": 0.1,
+  "development_groups": 32,
+  "development_rows": 32,
+  "epochs": 1,
+  "estimate": {
+    "billable_training_tokens": 909460,
+    "estimated_training_usd": 1.33053998,
+    "training_tokens": 743466,
+    "validation_forward_tokens": 165994
+  },
+  "experiment": "tool-decision-supervisor-v1",
+  "learning_rate": 0.0001,
+  "lora_rank": 32,
+  "max_length": 8192,
+  "model": "Qwen/Qwen3.5-9B",
+  "renderer": "qwen3_5_disable_thinking",
+  "run_name": "fantasy-alpha-tool-decision-canary-v2",
+  "seed": 20260906,
+  "started_at": "2026-09-06T02:01:09.275495+00:00",
+  "tinker_cookbook_version": "0.5.7",
+  "tinker_version": "0.27.1",
+  "train_groups": 288,
+  "train_rows": 288
+}

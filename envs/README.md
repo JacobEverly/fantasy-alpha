@@ -15,6 +15,7 @@ reward.
 | `draftgym.py` | Core env. Stdlib + this repo only — zero third-party deps. |
 | `verifiers_v1_adapter.py` | verifiers v1 `Taskset`/`Harness`/`Env` wrapper (prime-rl entry point). Import-guarded; core env works without verifiers installed. |
 | `play_llm.py` | Serverless baseline driver (Qwen3.5-9B through full episodes) + the shared prompt/action-parsing helpers the adapter reuses. |
+| `play_llm_supervised.py` | Candidate-aware interaction driver: model proposal → supervisor approval/tool/block → EvidenceStore → updated observation → model continuation. |
 
 ## API
 
@@ -136,3 +137,18 @@ rounds) + 2 anonymized duplicates, Qwen/Qwen3.5-9B serverless at temp 0.
 Strict-JSON action parsing with one repair retry, then autopick fallback
 (counted). Hard budget $1.50; cost appended to `docs/budget-ledger.md`;
 results at `evals/results/draftgym_qwen_baseline.json`.
+
+## Tool-decision supervisor integration
+
+`play_llm_supervised.run_episode` preserves the same DraftGym state, parser,
+tools, and terminal reward while inserting an optional external supervisor after
+each model proposal. The supervisor can approve a legal action, replace a pick
+with one exact evidence call, or block and fall back conservatively. Tool results
+remain environment-owned and are injected into the next observation; the
+supervisor never receives hidden identity or future reward.
+
+The first frozen integration pilot completed seven matched episodes each for
+base Qwen, hard-coded rules plus Qwen, and learned supervisor plus Qwen. It
+proved the complete lifecycle but did not show reward improvement. See
+`docs/tool-decision-supervisor-experiment.md` before expanding or training this
+policy.

@@ -103,5 +103,28 @@ counts and published model rates establish the exact price-based total. The
 retained Tinker billing snapshot was still three hourly buckets behind the last
 canary when queried; ongoing checkpoint storage is separate.
 
-Total to date: **~$37.62** (prior historical estimate ~$26.76 + exact Tinker
-workload $10.855193; ongoing Tinker storage excluded).
+## Tool-decision supervisor experiment (2026-09-06)
+
+Target incremental spend: under **$5**. Hard cap: **$10**. Exact price-based
+cost uses provider-returned token counts and the pinned Qwen3.5-9B rates. The
+provider billing event export is retained at
+`artifacts/tool-decision-supervisor-v1/billing.json` as an independent check;
+ongoing checkpoint storage is excluded.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-06 | Untouched base, 164-row development decision evaluation | **$0.229297** |
+| 2026-09-06 | Contrastive rank-32 canary v1, 160 rows, five steps, reload/export | **$0.684672** |
+| 2026-09-06 | Canary v1 development behavior evaluation | **$0.225781** |
+| 2026-09-06 | One allowed rank-32 canary v2 revision, 320 rows, nine steps, reload/export | **$1.333664** |
+| 2026-09-06 | Canary v2 development behavior evaluation | **$0.225304** |
+| 2026-09-06 | Untouched base, frozen 220-row held-out decision evaluation | **$0.301981** |
+| 2026-09-06 | Frozen DraftGym integration: 21 episodes across three arms | **$0.456939** |
+|  | **Tool-decision experiment total** | **$3.457638** |
+
+Both SFT canaries failed their precommitted development gates, so the full
+adapter and RL were not run. Exact cumulative completed Tinker workload is
+**$14.312830878**. Total project spend is now approximately **$41.07** (prior
+historical estimate ~$26.76 plus exact Tinker workload; ongoing storage
+excluded). The exact nine-decimal line items are in
+`artifacts/tool-decision-supervisor-v1/spend-audit.json`.

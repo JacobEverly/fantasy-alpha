@@ -1,0 +1,68 @@
+{
+  "protocol": "fantasy-alpha-tool-decision-spend-audit-v1",
+  "pricing_basis": {
+    "base_model": "Qwen/Qwen3.5-9B",
+    "cached_prefill_usd_per_million_tokens": 0.132,
+    "checkpoint_creation_usd": 0.0,
+    "prefill_usd_per_million_tokens": 0.66,
+    "sample_usd_per_million_tokens": 1.995,
+    "training_usd_per_million_tokens": 1.463
+  },
+  "line_items": [
+    {
+      "cost_usd": 0.229296615,
+      "description": "Untouched base model on the 164-row development decision set",
+      "source": "artifacts/tool-decision-supervisor-v1/base-development.json",
+      "source_sha256": "7dd49f05ec7f68c524bf076210e5829708171d95115bccc7630c04ee159b362a"
+    },
+    {
+      "cost_usd": 0.684672391,
+      "description": "Contrastive Tinker canary v1 training, reload, export, and smoke samples",
+      "source": "artifacts/tool-decision-supervisor-v1/tinker-canary-v1/run-summary.json",
+      "source_sha256": "9772f0fff36453d352ff6998f1b575b76d3eb898ba7963a313c23cb5c2eed185"
+    },
+    {
+      "cost_usd": 0.225781425,
+      "description": "Contrastive canary v1 development behavior evaluation",
+      "source": "artifacts/tool-decision-supervisor-v1/tinker-canary-v1/development-behavior.json",
+      "source_sha256": "c101197415a06fd6e8c9824b7921dc71de2b9f3c99ac03506e92485ba093dbf6"
+    },
+    {
+      "cost_usd": 1.33366358,
+      "description": "One permitted contrastive Tinker canary v2 training revision, reload, export, and smoke samples",
+      "source": "artifacts/tool-decision-supervisor-v1/tinker-canary-v2/run-summary.json",
+      "source_sha256": "93ec2ea5458a5aae536ad909bf83cb50e0912fe600cf9fe0338602adb303353e"
+    },
+    {
+      "cost_usd": 0.225304047,
+      "description": "Contrastive canary v2 development behavior evaluation",
+      "source": "artifacts/tool-decision-supervisor-v1/tinker-canary-v2/development-behavior.json",
+      "source_sha256": "ecce69378969b6b0881ba35d32af766b004a820250cca4b2b2dded0736525618"
+    },
+    {
+      "cost_usd": 0.301980717,
+      "description": "Untouched base model on the frozen 220-row held-out decision set",
+      "source": "artifacts/tool-decision-supervisor-v1/frozen-evaluation/base-heldout.json",
+      "source_sha256": "4aed154be965989a7a7fab34928ca2eb103453cfe3933dc1c65e2fd1c485cfb6"
+    },
+    {
+      "cost_usd": 0.456938745,
+      "description": "Twenty-one real DraftGym episodes: seven each for base, rules plus Qwen, and learned supervisor plus Qwen",
+      "source": "artifacts/tool-decision-supervisor-v1/frozen-evaluation/draftgym-scorecard.json",
+      "source_sha256": "9ee7a4801985e04e412321ff6a7b25e23b53a16df448c692353df5958fb6e544"
+    }
+  ],
+  "incremental_experiment_usd": 3.45763752,
+  "target_under_five_usd": true,
+  "hard_cap_under_ten_usd": true,
+  "cumulative_tinker_before_experiment_usd": 10.855193358,
+  "cumulative_tinker_after_experiment_usd": 14.312830878,
+  "provider_snapshot": {
+    "path": "artifacts/tool-decision-supervisor-v1/billing.json",
+    "sha256": "22a48d1f18d83d43a454c9e86d4e55ba3a214859a4b057dbcd0b14f594e41480",
+    "note": "Independent provider event export; fixed workload totals use exact request token ledgers because hourly billing events and storage can lag."
+  },
+  "ongoing_storage_included": false,
+  "sealed_seasons_opened": [],
+  "rl_started": false
+}

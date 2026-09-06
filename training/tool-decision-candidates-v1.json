@@ -1,0 +1,75 @@
+{
+  "protocol": "fantasy-alpha-tool-decision-candidate-freeze-v1",
+  "frozen_at": "2026-09-06T02:10:00Z",
+  "heldout_rows_seen_before_freeze": 0,
+  "heldout_fit_or_tuning_calls": 0,
+  "contrastive_sft_status": "rejected_on_development",
+  "eligible_heldout_systems": [
+    "always_act",
+    "always_use_tool",
+    "hard_coded_supervisor_v1",
+    "learned_supervisor_v1",
+    "untouched_base_qwen35_9b",
+    "hard_coded_supervisor_v1_plus_base_qwen",
+    "learned_supervisor_v1_plus_base_qwen"
+  ],
+  "ineligible_heldout_systems": {
+    "contrastive_canary_v1": "failed required-tool recall, unsafe-action, and retention gates on development",
+    "contrastive_canary_v2": "failed required-tool recall, correct-tool, unsafe-action, and retention gates on development",
+    "full_contrastive_adapter": "not trained because both permitted canaries failed"
+  },
+  "learned_supervisor": {
+    "estimator": "200-tree calibrated random forest",
+    "max_depth": null,
+    "min_samples_leaf": 1,
+    "use_tool_threshold": 0.25,
+    "wait_threshold": 0.25,
+    "development_primary_gate_pass": true,
+    "development_accuracy": 1.0,
+    "development_required_tool_recall": 1.0,
+    "development_unsafe_direct_action_rate": 0.0,
+    "development_unnecessary_tool_rate": 0.0
+  },
+  "frozen_episode_ids": [
+    "season2015:slot1:seed11",
+    "season2016:slot12:seed3",
+    "season2017:slot4:seed29",
+    "season2019:slot1:seed11",
+    "season2020:slot7:seed11",
+    "season2021:slot12:seed3",
+    "season2022:slot4:seed11"
+  ],
+  "draftgym_panel": {
+    "arms": [
+      "base_qwen",
+      "hard_coded_plus_qwen",
+      "learned_supervisor_plus_qwen"
+    ],
+    "episodes_per_arm": 7,
+    "anonymized": true,
+    "evidence_enabled": true,
+    "claim_limit": "integration and behavior pilot only; seven episodes cannot establish stable fantasy-point quality"
+  },
+  "hashes": {
+    "training/tool-decision-eval-spec-v1.json": "1fc5cbcdda0093685e2f345a1ddf86f9bc5c54d31f2c5e7dd9099b4f1bc479fe",
+    "training/datasets/tool_decision_v1/manifest.json": "eb174e0726071479e67cab209d120661c44e701e1d3e256ecc70610c687fa504",
+    "training/datasets/tool_decision_v1/train.jsonl": "c93ed50245180898f25acb31b5b6ed0269c30d5f98688dadbba5dacf9c0c6854",
+    "training/datasets/tool_decision_v1/development.jsonl": "0e4c587258946279a9dbc7f1986c25be2b9527a853739b7bdc37de47e57736d3",
+    "evals/frozen/tool_decision_v1/heldout.jsonl": "42338f7e694abaae3cbbc27a5a92b31a10194fc8a72ae2e91562d543f8da16e5",
+    "artifacts/tool-decision-supervisor-v1/learned-supervisor.joblib": "cf4d8a496602909635425509c2b81836f14395e26a1f8192ba35153a13c8fef0",
+    "artifacts/tool-decision-supervisor-v1/development-report.json": "4c3a59ba61afdf228cd778a5586b7d1ec3d6a29ec69d4379f81566176d3551f8",
+    "harness/tool_supervisor.py": "5e0d9b9571e647a318588348eddbf282e34418f33e4bc3a990c27e83b0fe2390",
+    "training/tool_decision_supervisor.py": "e142b9125b8e54cce4bceb08cf1a952cd0cdb349c129c436d4468d18c413dff3",
+    "training/tool_decision_sft.py": "4bab8693d5510e4d6ed30db0b368d57d0b7948ec0750504983e9fea61a34a55f",
+    "training/tool_decision_sft_v2.py": "f9f4ed6a9e24f3780efd07939a364dd8fe64ffac088928821209af9dab0ad24d",
+    "envs/play_llm_supervised.py": "5aead872684b8258b784f90e41b2f74b11962bc8af175af1a705e38bb03961be",
+    "evals/tool_decision_scorecard.py": "7184f888f0cce67b9dacfe544fc35ac29618dda1b37db64aa751132c8b0613ed",
+    "training/tool-decision-tinker-canary-v1.json": "ee1b2e9cbd10f6f103633af3b98f41b50907f21294e4bcd442daf265ebbc0481",
+    "training/tool-decision-tinker-canary-v2.json": "770c8b0ed15b40d6cfab32dd917d75d48674a7f2fdcb988455c0bb158f45a9d1",
+    "artifacts/tool-decision-supervisor-v1/base-development.json": "7dd49f05ec7f68c524bf076210e5829708171d95115bccc7630c04ee159b362a",
+    "artifacts/tool-decision-supervisor-v1/tinker-canary-v1/run-summary.json": "9772f0fff36453d352ff6998f1b575b76d3eb898ba7963a313c23cb5c2eed185",
+    "artifacts/tool-decision-supervisor-v1/tinker-canary-v1/development-behavior.json": "c101197415a06fd6e8c9824b7921dc71de2b9f3c99ac03506e92485ba093dbf6",
+    "artifacts/tool-decision-supervisor-v1/tinker-canary-v2/run-summary.json": "93ec2ea5458a5aae536ad909bf83cb50e0912fe600cf9fe0338602adb303353e",
+    "artifacts/tool-decision-supervisor-v1/tinker-canary-v2/development-behavior.json": "ecce69378969b6b0881ba35d32af766b004a820250cca4b2b2dded0736525618"
+  }
+}

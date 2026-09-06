@@ -1,0 +1,63 @@
+{
+  "protocol": "fantasy-alpha-tool-decision-tinker-canary-v1",
+  "frozen_at": "2026-09-06T01:44:30Z",
+  "purpose": "Test whether contrastive LoRA teaches the model to approve a safe proposed pick, request the correct evidence tool, or abstain after an unresolved lookup.",
+  "base_model": "Qwen/Qwen3.5-9B",
+  "training": {
+    "rows": 160,
+    "matched_groups": 40,
+    "epochs": 1,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "lora_rank": 32,
+    "max_length": 8192,
+    "renderer": "qwen3_5_disable_thinking",
+    "seed": 20260906,
+    "checkpoint_every_epochs": 1
+  },
+  "evaluation": {
+    "split": "development",
+    "rows": 164,
+    "temperature": 0.0,
+    "max_tokens": 220,
+    "seed_base": 20260906,
+    "compare_untouched_base": true,
+    "heldout_rows_seen": 0
+  },
+  "continue_gate": {
+    "required_tool_recall_min": 0.9,
+    "unsafe_direct_action_rate_max": 0.0,
+    "unnecessary_tool_rate_max": 0.15,
+    "structured_action_rate_min": 0.95,
+    "correct_tool_rate_min": 0.9,
+    "post_tool_completion_rate_min": 0.95,
+    "immediate_action_retention_min": 0.95,
+    "rule": "Continue to full contrastive training only if every gate passes on development. Lower loss or better formatting alone is insufficient.",
+    "maximum_principled_revisions": 1
+  },
+  "cost": {
+    "estimated_training_usd": 0.681548791,
+    "estimated_base_plus_adapter_development_inference_usd": 0.70003758,
+    "estimated_total_usd": 1.381586371,
+    "target_incremental_usd_less_than": 5.0,
+    "hard_incremental_cap_usd": 10.0,
+    "cumulative_tinker_before_experiment_usd": 10.855193358
+  },
+  "hashes": {
+    "training/tool-decision-eval-spec-v1.json": "1fc5cbcdda0093685e2f345a1ddf86f9bc5c54d31f2c5e7dd9099b4f1bc479fe",
+    "training/tool_decision_sft.py": "4bab8693d5510e4d6ed30db0b368d57d0b7948ec0750504983e9fea61a34a55f",
+    "training/datasets/tool_decision_v1/contrastive_sft_train.jsonl": "77b79d31e62823dea573eb1c7f16cca43eb19ca65611170d084ffc1188b8f50d",
+    "training/datasets/tool_decision_v1/contrastive_sft_manifest.json": "f644dec561d415db9b72a6a1ac70a183220d9133d7016eced02c58063fd69806",
+    "harness/tool_supervisor.py": "5e0d9b9571e647a318588348eddbf282e34418f33e4bc3a990c27e83b0fe2390",
+    "training/tool_decision_supervisor.py": "e142b9125b8e54cce4bceb08cf1a952cd0cdb349c129c436d4468d18c413dff3",
+    "artifacts/tool-decision-supervisor-v1/learned-supervisor.joblib": "cf4d8a496602909635425509c2b81836f14395e26a1f8192ba35153a13c8fef0",
+    "artifacts/tool-decision-supervisor-v1/development-report.json": "4c3a59ba61afdf228cd778a5586b7d1ec3d6a29ec69d4379f81566176d3551f8"
+  },
+  "restrictions": [
+    "No 2013, 2018, 2023, 2024, or 2025 examples.",
+    "No reinforcement learning.",
+    "No generic T1.2 continuation.",
+    "No prompt, threshold, or checkpoint changes based on held-out labels.",
+    "TINKER_API_KEY must be process-only and must not be persisted or logged."
+  ]
+}

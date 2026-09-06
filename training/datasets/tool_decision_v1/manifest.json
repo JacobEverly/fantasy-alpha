@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-06T01:35:29.754857+00:00",
+  "dataset_seed": 20260906,
+  "evaluation_role": "internal held-out development benchmark; not the sealed 2013, 2018, 2023, 2024, or 2025 season gates",
+  "files": {
+    "development": {
+      "path": "training/datasets/tool_decision_v1/development.jsonl",
+      "rows": 164,
+      "sha256": "0e4c587258946279a9dbc7f1986c25be2b9527a853739b7bdc37de47e57736d3"
+    },
+    "heldout": {
+      "path": "evals/frozen/tool_decision_v1/heldout.jsonl",
+      "rows": 220,
+      "sha256": "42338f7e694abaae3cbbc27a5a92b31a10194fc8a72ae2e91562d543f8da16e5"
+    },
+    "train": {
+      "path": "training/datasets/tool_decision_v1/train.jsonl",
+      "rows": 564,
+      "sha256": "c93ed50245180898f25acb31b5b6ed0269c30d5f98688dadbba5dacf9c0c6854"
+    }
+  },
+  "limitations": [
+    "Labels encode a conservative outcome-blind expert policy, not observed product lift.",
+    "ACT_NOW has two surfaces (post-tool and context-sufficient), so class counts are 2:1:1 while scenario counts are balanced.",
+    "The current tool surface covers structured depth-chart and injury lookups; named free-text search remains outside this masked benchmark."
+  ],
+  "protocol": "fantasy-alpha-tool-decision-v1",
+  "split_policy": "season-stratified whole-episode split: 10 train, 2 development, 3 internal-heldout episodes per season",
+  "validation": {
+    "decisions": {
+      "ACT_NOW": 474,
+      "USE_TOOL": 237,
+      "WAIT_OR_ABSTAIN": 237
+    },
+    "duplicate_decision_inputs": 0,
+    "episode_groups": 98,
+    "labels_use_realized_outcomes": false,
+    "matched_groups": 237,
+    "rows": 948,
+    "scenarios": {
+      "context_sufficient": 237,
+      "post_tool_resolved": 237,
+      "tool_required": 237,
+      "unresolved_no_budget": 237
+    },
+    "sealed_seasons_present": [],
+    "season_rows": {
+      "2015": 172,
+      "2016": 124,
+      "2017": 88,
+      "2019": 112,
+      "2020": 184,
+      "2021": 168,
+      "2022": 100
+    },
+    "split_episode_groups": {
+      "development": 14,
+      "heldout": 21,
+      "train": 63
+    },
+    "split_matched_groups": {
+      "development": 41,
+      "heldout": 55,
+      "train": 141
+    },
+    "split_rows": {
+      "development": 164,
+      "heldout": 220,
+      "train": 564
+    },
+    "tools": {
+      "depth_chart": 177,
+      "injury_status": 60
+    },
+    "valid": true
+  }
+}

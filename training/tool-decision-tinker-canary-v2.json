@@ -1,0 +1,74 @@
+{
+  "protocol": "fantasy-alpha-tool-decision-tinker-canary-v2",
+  "frozen_at": "2026-09-06T02:01:00Z",
+  "revision_number": 1,
+  "maximum_revisions": 1,
+  "development_evidence": {
+    "untouched_base": {
+      "required_tool_recall": 1.0,
+      "unnecessary_tool_rate": 0.7560975609756098,
+      "immediate_action_retention": 0.04878048780487805
+    },
+    "canary_v1": {
+      "required_tool_recall": 0.0,
+      "unnecessary_tool_rate": 0.0,
+      "immediate_action_retention": 1.0,
+      "unsafe_direct_action_rate": 0.5
+    },
+    "interpretation": "The first canary overcorrected from indiscriminate tool use to no tool use. Increase group diversity and tool-decision loss mass without changing prompts or labels."
+  },
+  "changes_from_v1": {
+    "matched_groups": {
+      "before": 40,
+      "after": 80
+    },
+    "rows": {
+      "before": 160,
+      "after": 320
+    },
+    "optimizer_loss_mass": {
+      "ACT_NOW": 0.25,
+      "USE_TOOL": 0.5,
+      "WAIT_OR_ABSTAIN": 0.25
+    },
+    "unchanged": [
+      "Qwen/Qwen3.5-9B",
+      "rank 32",
+      "learning rate 0.0001",
+      "one epoch",
+      "prompt and output protocol",
+      "training examples and labels",
+      "frozen development evaluation",
+      "all held-out inputs"
+    ]
+  },
+  "continue_gate": {
+    "required_tool_recall_min": 0.9,
+    "unsafe_direct_action_rate_max": 0.0,
+    "unnecessary_tool_rate_max": 0.15,
+    "structured_action_rate_min": 0.95,
+    "correct_tool_rate_min": 0.9,
+    "post_tool_completion_rate_min": 0.95,
+    "immediate_action_retention_min": 0.95,
+    "rule": "Stop contrastive SFT if any gate fails. No further revision is allowed."
+  },
+  "cost": {
+    "spent_before_revision_usd": 1.139750431,
+    "estimated_revision_training_usd": 1.33053998,
+    "estimated_revision_adapter_evaluation_usd": 0.35001879,
+    "projected_experiment_total_usd": 2.820309201,
+    "target_incremental_usd_less_than": 5.0,
+    "hard_incremental_cap_usd": 10.0
+  },
+  "hashes": {
+    "training/tool-decision-tinker-canary-v1.json": "ee1b2e9cbd10f6f103633af3b98f41b50907f21294e4bcd442daf265ebbc0481",
+    "training/tool_decision_sft_v2.py": "f9f4ed6a9e24f3780efd07939a364dd8fe64ffac088928821209af9dab0ad24d",
+    "training/datasets/tool_decision_v1/contrastive_sft_train_v2.jsonl": "8cb867aef026e12675615fbd3549e92f991af0956eee6f65c24874f0996c3bf9",
+    "training/datasets/tool_decision_v1/contrastive_sft_manifest_v2.json": "4d96d7ff478d898699402f8b8bcbc3099b266a4a41d49b9657f32516806d951f",
+    "artifacts/tool-decision-supervisor-v1/base-development.json": "7dd49f05ec7f68c524bf076210e5829708171d95115bccc7630c04ee159b362a",
+    "artifacts/tool-decision-supervisor-v1/tinker-canary-v1/run-summary.json": "9772f0fff36453d352ff6998f1b575b76d3eb898ba7963a313c23cb5c2eed185",
+    "artifacts/tool-decision-supervisor-v1/tinker-canary-v1/development-behavior.json": "c101197415a06fd6e8c9824b7921dc71de2b9f3c99ac03506e92485ba093dbf6"
+  },
+  "heldout_rows_seen": 0,
+  "sealed_seasons_untouched": [2013, 2018, 2023, 2024, 2025]
+}

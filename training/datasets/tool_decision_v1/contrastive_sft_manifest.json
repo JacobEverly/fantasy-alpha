@@ -1,0 +1,53 @@
+{
+  "corpus_path": "training/datasets/tool_decision_v1/contrastive_sft_train.jsonl",
+  "corpus_sha256": "77b79d31e62823dea573eb1c7f16cca43eb19ca65611170d084ffc1188b8f50d",
+  "format": {
+    "base_model": "Qwen/Qwen3.5-9B",
+    "candidate_review_is_second_pass": true,
+    "output_actions": [
+      "pick",
+      "tool",
+      "abstain"
+    ],
+    "renderer": "qwen3_5_disable_thinking",
+    "same_draftgym_tool_envelope": true
+  },
+  "protocol": "fantasy-alpha-tool-decision-contrastive-sft-v1",
+  "rendered": {
+    "corpus_path": "training/datasets/tool_decision_v1/contrastive_sft_train.jsonl",
+    "corpus_sha256": "77b79d31e62823dea573eb1c7f16cca43eb19ca65611170d084ffc1188b8f50d",
+    "created_at": "2026-09-06T01:43:42.840843+00:00",
+    "max_length": 8192,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "rows": 564,
+    "sequence_tokens": {
+      "max": 3362,
+      "median": 2643.0,
+      "min": 1300,
+      "p95": 3067
+    },
+    "total_rendered_tokens": 1448764,
+    "trainable_assistant_tokens": 7582,
+    "truncated_examples": 0,
+    "weighted_trainable_token_mass": 564.0000149011612
+  },
+  "source_train_sha256": "c93ed50245180898f25acb31b5b6ed0269c30d5f98688dadbba5dacf9c0c6854",
+  "validation": {
+    "decisions": {
+      "ACT_NOW": 282,
+      "USE_TOOL": 141,
+      "WAIT_OR_ABSTAIN": 141
+    },
+    "label_uses_realized_outcome": false,
+    "matched_groups": 141,
+    "rows": 564,
+    "sealed_seasons_present": [],
+    "valid": true,
+    "weighted_decision_fraction": {
+      "ACT_NOW": 0.3333333333333324,
+      "USE_TOOL": 0.33333333333333376,
+      "WAIT_OR_ABSTAIN": 0.33333333333333376
+    }
+  }
+}

@@ -1,0 +1,3756 @@
+{
+  "cost": {
+    "cached_prefill_tokens": 105600,
+    "checkpoint_count": 0,
+    "computed_usd": 0.229296615,
+    "prefill_tokens": 315644,
+    "sample_tokens": 3525,
+    "training_tokens": 0
+  },
+  "heldout_rows_seen": 0,
+  "label": "untouched-base",
+  "metrics": {
+    "accuracy": 0.5914634146341463,
+    "brier": 0.8170731707317047,
+    "correct_tool_rate": 0.2682926829268293,
+    "ece": 0.4085365853658516,
+    "immediate_action_retention": 0.04878048780487805,
+    "legal_action_rate": 0.4146341463414634,
+    "macro_f1": 0.6258228345606986,
+    "multiclass_log_loss": 14.11035377109156,
+    "post_tool_completion_rate": 0.43902439024390244,
+    "prediction_counts": {
+      "ACT_NOW": 21,
+      "USE_TOOL": 107,
+      "WAIT_OR_ABSTAIN": 36
+    },
+    "primary_gate": {
+      "correct_tool_rate": false,
+      "immediate_action_retention": false,
+      "no_unsafe_direct_actions": false,
+      "pass": false,
+      "post_tool_completion_rate": false,
+      "required_tool_recall": true,
+      "structured_action_rate": true,
+      "unnecessary_tool_rate": false
+    },
+    "required_tool_recall": 1.0,
+    "rows": 164,
+    "structured_action_rate": 1.0,
+    "tool_precision": 0.38317757009345793,
+    "truth_counts": {
+      "ACT_NOW": 82,
+      "USE_TOOL": 41,
+      "WAIT_OR_ABSTAIN": 41
+    },
+    "unnecessary_tool_rate": 0.7560975609756098,
+    "unsafe_direct_action_rate": 0.012195121951219513
+  },
+  "model_path": "Qwen/Qwen3.5-9B",
+  "protocol": "fantasy-alpha-tool-decision-contrastive-sft-v1",
+  "records": [
+    {
+      "example_id": "tool:2015:slot10:seed3:pick111:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B102"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B102\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2677
+      }
+    },
+    {
+      "example_id": "tool:2015:slot10:seed3:pick111:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B108"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B108\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 3069
+      }
+    },
+    {
+      "example_id": "tool:2015:slot10:seed3:pick111:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B106"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B106\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2743
+      }
+    },
+    {
+      "example_id": "tool:2015:slot10:seed3:pick111:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2783
+      }
+    },
+    {
+      "example_id": "tool:2015:slot10:seed3:pick63:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B054"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B054\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2385
+      }
+    },
+    {
+      "example_id": "tool:2015:slot10:seed3:pick63:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B064"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B064\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2637
+      }
+    },
+    {
+      "example_id": "tool:2015:slot10:seed3:pick63:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B061"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B061\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2455
+      }
+    },
+    {
+      "example_id": "tool:2015:slot10:seed3:pick63:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2495
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick100:context_sufficient",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B121\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2806
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick100:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B103\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2993
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick100:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "CAR"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"CAR\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 23,
+        "prompt_tokens": 2667
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick100:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2707
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick148:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B127"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B127\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2862
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick148:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B150\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2833
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick148:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "BAL"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"BAL\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 23,
+        "prompt_tokens": 2664
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick148:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2703
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick69:context_sufficient",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B044\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2379
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick69:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "B063"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"B063\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 26,
+        "prompt_tokens": 2921
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick69:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B063"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B063\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2450
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick69:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2490
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick93:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B069"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B069\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2515
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick93:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "B084"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"B084\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 26,
+        "prompt_tokens": 2774
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick93:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B084"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B084\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2592
+      }
+    },
+    {
+      "example_id": "tool:2015:slot4:seed29:pick93:unresolved_no_budget",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "B084"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"B084\"}}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 26,
+        "prompt_tokens": 2632
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick132:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B103"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B103\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2740
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick132:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B127\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2980
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick132:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B127"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B127\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2811
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick132:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2850
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick133:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B129"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B129\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2877
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick133:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B127\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 3048
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick133:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B127"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B127\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2879
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick133:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2918
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick157:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B148"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B148\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1828
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick157:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B152"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B152\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1941
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick157:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B152"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B152\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1770
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick157:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 1809
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick61:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B057"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B057\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2391
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick61:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B060"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B060\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2628
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick61:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B060"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B060\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2457
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick61:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2496
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick84:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B083"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B083\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2593
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick84:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B083"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B083\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2708
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick84:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B080"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B080\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2527
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick84:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2567
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick85:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B102"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B102\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2673
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick85:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B084\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2774
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick85:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B080"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B080\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2593
+      }
+    },
+    {
+      "example_id": "tool:2016:slot12:seed29:pick85:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2633
+      }
+    },
+    {
+      "example_id": "tool:2016:slot1:seed29:pick144:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B141"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B141\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2423
+      }
+    },
+    {
+      "example_id": "tool:2016:slot1:seed29:pick144:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B133\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2725
+      }
+    },
+    {
+      "example_id": "tool:2016:slot1:seed29:pick144:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B133"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B133\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2556
+      }
+    },
+    {
+      "example_id": "tool:2016:slot1:seed29:pick144:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2595
+      }
+    },
+    {
+      "example_id": "tool:2017:slot10:seed11:pick130:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B126"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B126\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2880
+      }
+    },
+    {
+      "example_id": "tool:2017:slot10:seed11:pick130:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B125\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2994
+      }
+    },
+    {
+      "example_id": "tool:2017:slot10:seed11:pick130:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B122"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B122\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2813
+      }
+    },
+    {
+      "example_id": "tool:2017:slot10:seed11:pick130:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2853
+      }
+    },
+    {
+      "example_id": "tool:2017:slot12:seed3:pick132:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B106"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B106\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2739
+      }
+    },
+    {
+      "example_id": "tool:2017:slot12:seed3:pick132:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B123\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 3137
+      }
+    },
+    {
+      "example_id": "tool:2017:slot12:seed3:pick132:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B123"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B123\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2811
+      }
+    },
+    {
+      "example_id": "tool:2017:slot12:seed3:pick132:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2851
+      }
+    },
+    {
+      "example_id": "tool:2019:slot12:seed29:pick156:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B125"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B125\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2880
+      }
+    },
+    {
+      "example_id": "tool:2019:slot12:seed29:pick156:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B147"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B147\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2337
+      }
+    },
+    {
+      "example_id": "tool:2019:slot12:seed29:pick156:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B146"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B146\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2156
+      }
+    },
+    {
+      "example_id": "tool:2019:slot12:seed29:pick156:unresolved_no_budget",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B146"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B146\"}}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2196
+      }
+    },
+    {
+      "example_id": "tool:2019:slot12:seed29:pick157:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B121"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B121\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2814
+      }
+    },
+    {
+      "example_id": "tool:2019:slot12:seed29:pick157:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B148\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2338
+      }
+    },
+    {
+      "example_id": "tool:2019:slot12:seed29:pick157:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B146"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\n  \"tool\": {\n    \"name\": \"injury_status\",\n    \"arguments\": {\n      \"player\": \"B146\"\n    }\n  }\n}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 43,
+        "prompt_tokens": 2157
+      }
+    },
+    {
+      "example_id": "tool:2019:slot12:seed29:pick157:unresolved_no_budget",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B146"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B146\"}}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2197
+      }
+    },
+    {
+      "example_id": "tool:2019:slot1:seed3:pick145:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B154"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\n  \"tool\": {\n    \"name\": \"injury_status\",\n    \"arguments\": {\n      \"player\": \"B154\"\n    }\n  }\n}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 43,
+        "prompt_tokens": 1560
+      }
+    },
+    {
+      "example_id": "tool:2019:slot1:seed3:pick145:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B142"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B142\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 3710
+      }
+    },
+    {
+      "example_id": "tool:2019:slot1:seed3:pick145:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B138"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B138\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2949
+      }
+    },
+    {
+      "example_id": "tool:2019:slot1:seed3:pick145:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2989
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick120:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B123"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B123\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2798
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick120:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B108\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 3201
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick120:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B108"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B108\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2730
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick120:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2770
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick145:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B132"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B132\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2880
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick145:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B137"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B137\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 3276
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick145:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B135"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B135\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2948
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick145:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2988
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick168:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "SF"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"SF\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 23,
+        "prompt_tokens": 1692
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick168:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "B161"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"B161\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 26,
+        "prompt_tokens": 2017
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick168:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B151"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B151\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1690
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick168:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 1730
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick169:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B168"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B168\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1691
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick169:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "B164"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"B164\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 26,
+        "prompt_tokens": 1880
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick169:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B151"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B151\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1553
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick169:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 1593
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick73:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "HOU"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"HOU\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 24,
+        "prompt_tokens": 2451
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick73:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B071\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2698
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick73:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B071"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B071\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2516
+      }
+    },
+    {
+      "example_id": "tool:2020:slot1:seed11:pick73:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2556
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick141:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "PIT"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"PIT\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 24,
+        "prompt_tokens": 2880
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick141:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B131"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B131\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 3065
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick141:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "WAS"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"WAS\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 24,
+        "prompt_tokens": 2882
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick141:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2922
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick148:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B164"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B164\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1554
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick148:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B138"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B138\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 3065
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick148:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B128"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B128\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2882
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick148:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2922
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick165:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "DET"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"DET\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 23,
+        "prompt_tokens": 2809
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick165:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B154\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2140
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick165:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "IND"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"IND\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 23,
+        "prompt_tokens": 1959
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick165:unresolved_no_budget",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B150"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B150\"}}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1999
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick93:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B094"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B094\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2657
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick93:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B087\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2768
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick93:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B085"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B085\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2587
+      }
+    },
+    {
+      "example_id": "tool:2020:slot4:seed11:pick93:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2627
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick151:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B118"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B118\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2870
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick151:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B135"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B135\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 3262
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick151:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B129"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B129\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2936
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick151:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2976
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick175:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B112"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B112\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2818
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick175:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B156\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2184
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick175:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B156"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B156\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2016
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick175:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B156\"}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2055
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick55:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B062"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B062\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2452
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick55:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B051"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B051\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2555
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick55:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B051"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B051\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2385
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick55:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2424
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick79:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B086"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B086\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2591
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick79:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "B078"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"B078\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 26,
+        "prompt_tokens": 3132
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick79:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B077"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B077\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2513
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed11:pick79:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2553
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick114:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B113"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B113\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2809
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick114:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B122"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B122\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2915
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick114:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B122"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B122\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2747
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick114:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2786
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick138:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B097"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B097\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2670
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick138:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B126"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B126\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 3051
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick138:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B125"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B125\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2870
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick138:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2910
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick151:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B083"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B083\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2590
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick151:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B135\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 3117
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick151:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B135"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B135\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2935
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick151:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2975
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick162:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B063"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B063\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2451
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick162:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B141"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B141\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2978
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick162:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B141"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B141\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2810
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick162:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2849
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick175:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B050"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B050\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2382
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick175:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B157\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2056
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick175:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B157"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\n  \"tool\": {\n    \"name\": \"injury_status\",\n    \"arguments\": {\n      \"player\": \"B157\"\n    }\n  }\n}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 43,
+        "prompt_tokens": 2020
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick175:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2059
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick79:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B037"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B037\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2321
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick79:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B078"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B078\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 3134
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick79:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B077"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\n  \"tool\": {\n    \"name\": \"injury_status\",\n    \"arguments\": {\n      \"player\": \"B077\"\n    }\n  }\n}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 43,
+        "prompt_tokens": 2515
+      }
+    },
+    {
+      "example_id": "tool:2021:slot7:seed3:pick79:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2555
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed11:pick127:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B108"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B108\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2742
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed11:pick127:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B120\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 2697
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed11:pick127:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B120"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B120\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2081
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed11:pick127:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2121
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed11:pick138:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B101"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B101\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2679
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed11:pick138:post_tool_resolved",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "ACT_NOW",
+        "reason_code": "model_approved_pick",
+        "required_tool": null
+      },
+      "response": "{\"pick\": \"B135\"}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 10,
+        "prompt_tokens": 1803
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed11:pick138:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B132"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B132\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1622
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed11:pick138:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 1662
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed3:pick114:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B098"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B098\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2672
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed3:pick114:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B107"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B107\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2920
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed3:pick114:tool_required",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B110"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B110\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 2737
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed3:pick114:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 2777
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed3:pick138:context_sufficient",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "depth_chart"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "team_or_player": "MIA"
+          },
+          "name": "depth_chart"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"depth_chart\", \"arguments\": {\"team_or_player\": \"MIA\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 24,
+        "prompt_tokens": 2473
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed3:pick138:post_tool_resolved",
+      "legal": false,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B137"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B137\"}}}",
+      "structured": true,
+      "truth": "ACT_NOW",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1857
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed3:pick138:tool_required",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [
+          "injury_status"
+        ],
+        "confidence": 1.0,
+        "decision": "USE_TOOL",
+        "reason_code": "model_requested_tool",
+        "required_tool": {
+          "arguments": {
+            "player": "B137"
+          },
+          "name": "injury_status"
+        }
+      },
+      "response": "{\"tool\": {\"name\": \"injury_status\", \"arguments\": {\"player\": \"B137\"}}}",
+      "structured": true,
+      "truth": "USE_TOOL",
+      "usage": {
+        "output_tokens": 25,
+        "prompt_tokens": 1688
+      }
+    },
+    {
+      "example_id": "tool:2022:slot7:seed3:pick138:unresolved_no_budget",
+      "legal": true,
+      "prediction": {
+        "allowed_tools": [],
+        "confidence": 1.0,
+        "decision": "WAIT_OR_ABSTAIN",
+        "reason_code": "model_abstained",
+        "required_tool": null
+      },
+      "response": "{\"abstain\":{\"reason_code\":\"evidence_unavailable_no_budget\"}}",
+      "structured": true,
+      "truth": "WAIT_OR_ABSTAIN",
+      "usage": {
+        "output_tokens": 16,
+        "prompt_tokens": 1727
+      }
+    }
+  ],
+  "split": "development",
+  "status": "complete"
+}
