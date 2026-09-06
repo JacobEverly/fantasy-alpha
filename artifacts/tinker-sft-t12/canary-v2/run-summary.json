@@ -1,0 +1,84 @@
+{
+  "archive": {
+    "bytes": 378419200,
+    "path": "artifacts/tinker-sft-t12/canary-v2/final-adapter.tar.gz",
+    "sha256": "884e9ce2adbce61c0d32b4cbe598d4a1b615b3b632d92666df54d42dab7bf29a"
+  },
+  "capability": {
+    "max_context_length": 65536,
+    "model": "Qwen/Qwen3.5-9B",
+    "sampleable": true,
+    "trainable": true
+  },
+  "checkpoints": [
+    {
+      "development_nll": 0.8133643269538879,
+      "fraction": 0.5,
+      "sampler_path": "tinker://392d4d66-8f41-5bd7-8c2f-6e2f4d937c6d:train:0/sampler_weights/fantasy-alpha-t12-representative-canary-v2-step-5-sampler",
+      "state_path": "tinker://392d4d66-8f41-5bd7-8c2f-6e2f4d937c6d:train:0/weights/fantasy-alpha-t12-representative-canary-v2-step-5",
+      "step": 5
+    }
+  ],
+  "completed_at": "2026-09-05T22:25:12.075035+00:00",
+  "config": {
+    "batch_size": 18,
+    "checkpoint_at_fraction": 0.5,
+    "checkpoint_every_epochs": 1,
+    "corpus_path": "training/datasets/t12_mixture_v2.jsonl",
+    "corpus_sha256": "39f4ccb5790263f2ae37151f31c6cda88a559742814da44ce5f5e0dc904c5d09",
+    "credential_source": "TINKER_API_KEY environment variable",
+    "development_fraction": 0.25,
+    "development_groups": 52,
+    "development_rows": 57,
+    "epochs": 1,
+    "estimate": {
+      "billable_training_tokens": 623680,
+      "estimated_training_usd": 0.9124438400000001,
+      "training_tokens": 306406,
+      "validation_forward_tokens": 317274
+    },
+    "experiment": "tinker-sft-t12",
+    "learning_rate": 0.0001,
+    "lora_rank": 32,
+    "max_length": 4096,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "run_name": "fantasy-alpha-t12-representative-canary-v2",
+    "seed": 20260808,
+    "started_at": "2026-09-05T22:22:30.351286+00:00",
+    "tinker_cookbook_version": "0.5.7",
+    "tinker_version": "0.27.1",
+    "train_groups": 158,
+    "train_rows": 173
+  },
+  "cost": {
+    "cached_prefill_tokens": 0,
+    "checkpoint_count": 4,
+    "computed_usd": 0.9155151050000001,
+    "prefill_tokens": 4596,
+    "sample_tokens": 19,
+    "training_tokens": 623680
+  },
+  "development_loss_improved": true,
+  "development_nll_history": [
+    1.1571624090797024,
+    0.8133643269538879,
+    0.79387450845618
+  ],
+  "final_development_nll": 0.79387450845618,
+  "final_sampler_path": "tinker://392d4d66-8f41-5bd7-8c2f-6e2f4d937c6d:train:0/sampler_weights/fantasy-alpha-t12-representative-canary-v2-final-sampler",
+  "final_state_path": "tinker://392d4d66-8f41-5bd7-8c2f-6e2f4d937c6d:train:0/weights/fantasy-alpha-t12-representative-canary-v2-final-state",
+  "final_training_batch_nll": 0.6415846347808838,
+  "first_training_batch_nll": 1.1710366010665894,
+  "initial_development_nll": 1.1571624090797024,
+  "reload_verified": true,
+  "reloaded_lora_rank": 32,
+  "reloaded_model": "Qwen/Qwen3.5-9B",
+  "runtime_seconds": 161.917923,
+  "sample_prompt_trace_id": "t12:t11:t11:draft:2015:slot12:seed3:pick157:direct_pick",
+  "secret_persisted": false,
+  "status": "complete",
+  "steps": 10,
+  "training_loss_improved": true,
+  "training_run_id": "392d4d66-8f41-5bd7-8c2f-6e2f4d937c6d:train:0"
+}

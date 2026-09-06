@@ -6,6 +6,31 @@ An AI fantasy-football analyst: a chatbot + draft advisor backed by a real quant
 
 **What we deliberately don't sell:** breakout clairvoyance. We benchmarked GBDT, Qwen (9B/35B/397B), DeepSeek V4, and Claude Fable 5 on ten years of anonymized player dossiers — **nobody beats the market's base rate at picking outliers from historical information** (it's an information ceiling, not a capability ceiling), and models that *look* brilliant with player names visible collapse below the market when names are masked (+492 points of pure memorization for the strongest model tested). Every "our AI predicted the breakouts" backtest you've seen is, measurably, one of those two failure modes. Our edge lives where the data says it can: information speed, calibration honesty, and draft-room decision quality.
 
+## Post-training case study: optimize the outcome, not the proxy
+
+This repository documents a complete post-training loop around
+`Qwen/Qwen3.5-9B`, Tinker LoRA, and a real tool-using DraftGym harness. The work
+did not stop when training loss improved—or when the first classifier looked
+accurate:
+
+| Stage | What the evidence said | Decision |
+|---|---|---|
+| Tinker SFT on 811 frozen traces | Lower NLL and a reloadable rank-32 adapter did not produce a reliable product win | Revise the data objective |
+| Tool-policy supervisor | 99.1% held-out policy accuracy, but successful lookups made full drafts worse | Reject policy imitation as the target |
+| Outcome-linked supervisor | +2.64 points per isolated held-out decision, but **−15.75 points per complete paired draft** across 30 episodes | Stop before RL; local value did not survive trajectory feedback |
+
+The latest experiment contains 140 matched counterfactual decisions, 120
+full-episode arm runs, episode-grouped splits, frozen hashes, a reloadable
+supervisor, paired bootstrap uncertainty, exact token/cost ledgers, and explicit
+stop gates. Its most useful finding is the gap between local offline lift and
+end-to-end agent performance: a credible supervisor must be trained and judged
+on the trajectory it changes.
+
+Start with the [outcome-linked experiment report](docs/value-of-information-experiment.md),
+then inspect the [dataset card](docs/value-of-information-dataset-card.md),
+[frozen protocol](training/value-of-information-spec-v1.json), and prior
+[Tinker SFT report](docs/tinker-sft-experiment-report.md).
+
 ## Orientation
 
 | Read | For |
@@ -29,7 +54,7 @@ training/   SFT datagen + survivor-bias-proof filter · T0 artifacts · T1 run t
 scripts/    Data collectors (stdlib-first): nflverse, ADP history, evidence archiver, odds
 data/       raw/ immutable dated snapshots (gitignored) · processed/ derived tables (gitignored)
 docs/       Design docs, research reports, risk register, status
-tests/      340+ tests — leakage poison-tests, determinism, holdout guards, invariants
+tests/      477 tests — leakage poison-tests, determinism, holdout guards, invariants
 ```
 
 ## Setup & verification
@@ -40,7 +65,10 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 .venv/bin/python scripts/archive_evidence.py   # daily evidence capture (run nightly)
 ```
 
-Copy `.env.example` → `.env` for API keys (Prime Intellect serverless/pods, OpenRouter for benchmark contenders, Odds API). Training never runs on a laptop — rented GPUs via prime-rl; see `training/t1-run-template.md`.
+Copy `.env.example` → `.env` for local development keys. Tinker credentials are
+read only from `TINKER_API_KEY`; managed Tinker workers or rented Prime GPUs do
+the training, never the laptop. See `training/README.md` and
+`training/t1-run-template.md`.
 
 ## The measurement discipline (non-negotiable)
 
@@ -50,9 +78,18 @@ Copy `.env.example` → `.env` for API keys (Prime Intellect serverless/pods, Op
 - **Memorization is detected, not assumed away** — canary gates void any checkpoint whose anonymized-track scores are identity recall; DraftGym trains on masked boards.
 - **Money**: $5k ceiling, warn before any single spend ≥$50, every resource logged at provisioning time, kill criteria preregistered before every training run.
 
-## Status (2026-08-10)
+## Status (2026-09-06)
 
-Measurement stack complete and validated · T0 training smoke test passed end-to-end (prime-rl LoRA, ~$8) · T1 corpus generating · base-model decision pending the Qwen 3.8-27B weights drop · app build queued for draft season · total spend ~$27 of $5k.
+The first outcome-linked evidence supervisor experiment is complete. The
+learned policy improved reward on 70 isolated held-out decision points, then
+failed the more important 30-episode paired test: 12 wins, 15 losses, 3 ties,
+and a −15.75-point mean change versus base Qwen. It also made 12 critical
+regressions versus 8 critical improvements while calling tools 412 times.
+Decision: **stop treating the current supervisor as the primary performance
+lever and do not begin RL**. This is a trajectory-distribution failure, not a
+tool-execution failure: all 412 forced lookups succeeded. Sealed seasons remain
+untouched. See [the current status](docs/status-2026-09-06.md) and the
+[prior policy-imitation experiment](docs/tool-decision-supervisor-experiment.md).
 
 ---
 

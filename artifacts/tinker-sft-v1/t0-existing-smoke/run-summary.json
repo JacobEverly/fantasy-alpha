@@ -1,0 +1,82 @@
+{
+  "archive": {
+    "bytes": 378419200,
+    "path": "artifacts/tinker-sft-v1/t0-existing-smoke/final-adapter.tar.gz",
+    "sha256": "ec6ddd97efa5da4238f7361ac753c88e03fad61ae34ac08d368a3127680ea53a"
+  },
+  "capability": {
+    "max_context_length": 65536,
+    "model": "Qwen/Qwen3.5-9B",
+    "sampleable": true,
+    "trainable": true
+  },
+  "checkpoints": [
+    {
+      "development_nll": 1.0353171895532047,
+      "epoch": 1,
+      "sampler_path": "tinker://c9e1c6c4-4c14-541c-8ca7-1ec960217859:train:0/sampler_weights/fantasy-alpha-t0-existing-pilot-epoch-1-sampler",
+      "state_path": "tinker://c9e1c6c4-4c14-541c-8ca7-1ec960217859:train:0/weights/fantasy-alpha-t0-existing-pilot-epoch-1",
+      "step": 10
+    }
+  ],
+  "completed_at": "2026-09-05T14:01:04.716987+00:00",
+  "config": {
+    "batch_size": 16,
+    "checkpoint_every_epochs": 1,
+    "corpus_path": "data/processed/sft/pilot_v0.jsonl",
+    "corpus_sha256": "3ebcf9ea68c46d750afd2855764cb2f2c1d8fd257703bc27f8fd025ce1679e4a",
+    "credential_source": "TINKER_API_KEY environment variable",
+    "development_fraction": 0.1,
+    "development_groups": 11,
+    "development_rows": 17,
+    "epochs": 2,
+    "estimate": {
+      "billable_training_tokens": 520581,
+      "estimated_training_usd": 0.761610003,
+      "training_tokens": 443952,
+      "validation_forward_tokens": 76629
+    },
+    "learning_rate": 0.0003,
+    "lora_rank": 32,
+    "max_length": 4096,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "run_name": "fantasy-alpha-t0-existing-pilot",
+    "seed": 20260808,
+    "started_at": "2026-09-05T13:42:43.600317+00:00",
+    "tinker_cookbook_version": "0.5.7",
+    "tinker_version": "0.27.1",
+    "train_groups": 96,
+    "train_rows": 145
+  },
+  "cost": {
+    "cached_prefill_tokens": 0,
+    "checkpoint_count": 4,
+    "computed_usd": 0.7644664830000001,
+    "prefill_tokens": 2466,
+    "sample_tokens": 616,
+    "training_tokens": 520581
+  },
+  "development_loss_improved": true,
+  "development_nll_history": [
+    1.30163196255179,
+    1.0353171895532047,
+    1.0107376926085527
+  ],
+  "final_development_nll": 1.0107376926085527,
+  "final_sampler_path": "tinker://c9e1c6c4-4c14-541c-8ca7-1ec960217859:train:0/sampler_weights/fantasy-alpha-t0-existing-pilot-final-sampler",
+  "final_state_path": "tinker://c9e1c6c4-4c14-541c-8ca7-1ec960217859:train:0/weights/fantasy-alpha-t0-existing-pilot-final-state",
+  "final_training_batch_nll": 0.8107215762138367,
+  "first_training_batch_nll": 1.2628037929534912,
+  "initial_development_nll": 1.30163196255179,
+  "reload_verified": true,
+  "reloaded_lora_rank": 32,
+  "reloaded_model": "Qwen/Qwen3.5-9B",
+  "runtime_seconds": 1101.320494,
+  "sample_prompt_trace_id": "breakoutbench:2016:B0103:s1",
+  "secret_persisted": false,
+  "status": "complete",
+  "steps": 20,
+  "training_loss_improved": true,
+  "training_run_id": "c9e1c6c4-4c14-541c-8ca7-1ec960217859:train:0"
+}

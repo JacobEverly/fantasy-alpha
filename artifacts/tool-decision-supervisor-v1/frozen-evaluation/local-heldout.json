@@ -1,0 +1,152 @@
+{
+  "artifact_sha256_after": "cf4d8a496602909635425509c2b81836f14395e26a1f8192ba35153a13c8fef0",
+  "artifact_sha256_before": "cf4d8a496602909635425509c2b81836f14395e26a1f8192ba35153a13c8fef0",
+  "fit_or_tuning_calls": 0,
+  "protocol": "fantasy-alpha-tool-decision-frozen-evaluation-v1",
+  "rows": 220,
+  "split": "heldout",
+  "status": "complete",
+  "systems": {
+    "always_act": {
+      "accuracy": 0.5,
+      "brier": 0.9999999999999969,
+      "correct_tool_rate": 0.0,
+      "ece": 0.4999999999999979,
+      "immediate_action_retention": 1.0,
+      "macro_f1": 0.2222222222222222,
+      "multiclass_log_loss": 17.269388197455335,
+      "post_tool_completion_rate": 1.0,
+      "prediction_counts": {
+        "ACT_NOW": 220
+      },
+      "primary_gate": {
+        "correct_tool_rate": false,
+        "immediate_action_retention": true,
+        "no_unsafe_direct_actions": false,
+        "pass": false,
+        "post_tool_completion_rate": true,
+        "required_tool_recall": false,
+        "structured_action_rate": true,
+        "unnecessary_tool_rate": true
+      },
+      "required_tool_recall": 0.0,
+      "rows": 220,
+      "structured_action_rate": 1.0,
+      "tool_precision": 0.0,
+      "truth_counts": {
+        "ACT_NOW": 110,
+        "USE_TOOL": 55,
+        "WAIT_OR_ABSTAIN": 55
+      },
+      "unnecessary_tool_rate": 0.0,
+      "unsafe_direct_action_rate": 1.0
+    },
+    "always_use_tool": {
+      "accuracy": 0.5,
+      "brier": 0.9999999999999969,
+      "correct_tool_rate": 1.0,
+      "ece": 0.4999999999999979,
+      "immediate_action_retention": 0.0,
+      "macro_f1": 0.5,
+      "multiclass_log_loss": 17.269388197455335,
+      "post_tool_completion_rate": 0.0,
+      "prediction_counts": {
+        "USE_TOOL": 165,
+        "WAIT_OR_ABSTAIN": 55
+      },
+      "primary_gate": {
+        "correct_tool_rate": true,
+        "immediate_action_retention": false,
+        "no_unsafe_direct_actions": true,
+        "pass": false,
+        "post_tool_completion_rate": false,
+        "required_tool_recall": true,
+        "structured_action_rate": true,
+        "unnecessary_tool_rate": false
+      },
+      "required_tool_recall": 1.0,
+      "rows": 220,
+      "structured_action_rate": 1.0,
+      "tool_precision": 0.3333333333333333,
+      "truth_counts": {
+        "ACT_NOW": 110,
+        "USE_TOOL": 55,
+        "WAIT_OR_ABSTAIN": 55
+      },
+      "unnecessary_tool_rate": 1.0,
+      "unsafe_direct_action_rate": 0.0
+    },
+    "hard_coded_supervisor_v1": {
+      "accuracy": 0.9136363636363637,
+      "brier": 0.17272727272727217,
+      "correct_tool_rate": 0.7090909090909091,
+      "ece": 0.0863636363636342,
+      "immediate_action_retention": 1.0,
+      "macro_f1": 0.9075262156541747,
+      "multiclass_log_loss": 2.9828943250150153,
+      "post_tool_completion_rate": 0.9454545454545454,
+      "prediction_counts": {
+        "ACT_NOW": 123,
+        "USE_TOOL": 42,
+        "WAIT_OR_ABSTAIN": 55
+      },
+      "primary_gate": {
+        "correct_tool_rate": false,
+        "immediate_action_retention": true,
+        "no_unsafe_direct_actions": false,
+        "pass": false,
+        "post_tool_completion_rate": false,
+        "required_tool_recall": false,
+        "structured_action_rate": true,
+        "unnecessary_tool_rate": true
+      },
+      "required_tool_recall": 0.7090909090909091,
+      "rows": 220,
+      "structured_action_rate": 1.0,
+      "tool_precision": 0.9285714285714286,
+      "truth_counts": {
+        "ACT_NOW": 110,
+        "USE_TOOL": 55,
+        "WAIT_OR_ABSTAIN": 55
+      },
+      "unnecessary_tool_rate": 0.02727272727272727,
+      "unsafe_direct_action_rate": 0.14545454545454545
+    },
+    "learned_supervisor_v1": {
+      "accuracy": 0.990909090909091,
+      "brier": 0.013823513383361123,
+      "correct_tool_rate": 1.0,
+      "ece": 0.024299204413187506,
+      "immediate_action_retention": 0.9636363636363636,
+      "macro_f1": 0.9909895150720839,
+      "multiclass_log_loss": 0.0413209415611113,
+      "post_tool_completion_rate": 1.0,
+      "prediction_counts": {
+        "ACT_NOW": 108,
+        "USE_TOOL": 57,
+        "WAIT_OR_ABSTAIN": 55
+      },
+      "primary_gate": {
+        "correct_tool_rate": true,
+        "immediate_action_retention": true,
+        "no_unsafe_direct_actions": true,
+        "pass": true,
+        "post_tool_completion_rate": true,
+        "required_tool_recall": true,
+        "structured_action_rate": true,
+        "unnecessary_tool_rate": true
+      },
+      "required_tool_recall": 1.0,
+      "rows": 220,
+      "structured_action_rate": 1.0,
+      "tool_precision": 0.9649122807017544,
+      "truth_counts": {
+        "ACT_NOW": 110,
+        "USE_TOOL": 55,
+        "WAIT_OR_ABSTAIN": 55
+      },
+      "unnecessary_tool_rate": 0.01818181818181818,
+      "unsafe_direct_action_rate": 0.0
+    }
+  }
+}

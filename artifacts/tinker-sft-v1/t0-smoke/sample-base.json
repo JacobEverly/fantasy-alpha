@@ -1,0 +1,7 @@
+{
+  "content": "James Starks presents a high-variance breakout case anchored by a weak historical baseline. The code-computed cohort rate for similar late-round RBs is 0.22, a figure that feels conservative given his specific context. His prior season performance (10.39 ppg, 21st at RB) sits well above the cohort average, suggesting the 0.22 base rate may underestimate his ceiling if he remains healthy.\n\nHowever, the evidence introduces significant doubt. The injury report from late 2015 flags a hip injury with \"Limited Participation,\" a red flag for durability that often derails breakout narratives. More critically, the depth chart snapshot from August 30, 2016, lists him as the *second* running back on the Packers. In a league where top-24 finishes require elite volume, being behind a starter is a structural barrier to a breakout. While the ADP (54th overall) implies the market sees value, the combination of a lingering injury history and a clear backup role makes a top-24 finish unlikely. He lacks the immediate workload guarantee required to overcome the 0.22 base rate.\n\nFINAL PROBABILITY: 0.18",
+  "output_tokens": 254,
+  "parse_termination": "stop_sequence",
+  "prompt_tokens": 893,
+  "stop_reason": "stop"
+}

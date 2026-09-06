@@ -1,0 +1,23 @@
+{
+  "candidates": [
+    {
+      "development_nll": 0.1807832270860672,
+      "epoch": 1,
+      "sampler_path": "tinker://dc343ef3-3c51-56e7-8a56-f66342565fa4:train:0/sampler_weights/fantasy-alpha-t11-qwen35-9b-r32-epoch-1-sampler"
+    },
+    {
+      "development_nll": 0.11126208305358887,
+      "epoch": 2,
+      "sampler_path": "tinker://dc343ef3-3c51-56e7-8a56-f66342565fa4:train:0/sampler_weights/fantasy-alpha-t11-qwen35-9b-r32-final-sampler"
+    }
+  ],
+  "rule": "lowest T1.1 development NLL among epochs 1 and 2; earliest wins ties",
+  "selected": {
+    "development_nll": 0.11126208305358887,
+    "epoch": 2,
+    "sampler_path": "tinker://dc343ef3-3c51-56e7-8a56-f66342565fa4:train:0/sampler_weights/fantasy-alpha-t11-qwen35-9b-r32-final-sampler"
+  },
+  "selected_at": "2026-09-05T17:52:57.356041+00:00",
+  "selection_uses_evaluation_labels": false,
+  "training_summary_sha256": "169415966cef337679cc9619468c37f1d4d9dffefa4bd37eb54f082faf2d40d5"
+}

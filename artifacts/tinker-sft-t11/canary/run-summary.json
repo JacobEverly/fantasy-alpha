@@ -1,0 +1,91 @@
+{
+  "archive": {
+    "bytes": 378419200,
+    "path": "artifacts/tinker-sft-t11/canary/final-adapter.tar.gz",
+    "sha256": "2f6a902881fe29bf89bf20febdf08a2eb60748d8343ee6b416ef973438a8a83f"
+  },
+  "capability": {
+    "max_context_length": 65536,
+    "model": "Qwen/Qwen3.5-9B",
+    "sampleable": true,
+    "trainable": true
+  },
+  "checkpoints": [
+    {
+      "development_nll": 1.1201088264584542,
+      "epoch": 1,
+      "sampler_path": "tinker://17f8eef6-afbd-54d0-aa2e-676e6494cfe3:train:0/sampler_weights/fantasy-alpha-t11-final-format-canary-epoch-1-sampler",
+      "state_path": "tinker://17f8eef6-afbd-54d0-aa2e-676e6494cfe3:train:0/weights/fantasy-alpha-t11-final-format-canary-epoch-1",
+      "step": 2
+    },
+    {
+      "development_nll": 0.9238435089588165,
+      "epoch": 2,
+      "sampler_path": "tinker://17f8eef6-afbd-54d0-aa2e-676e6494cfe3:train:0/sampler_weights/fantasy-alpha-t11-final-format-canary-epoch-2-sampler",
+      "state_path": "tinker://17f8eef6-afbd-54d0-aa2e-676e6494cfe3:train:0/weights/fantasy-alpha-t11-final-format-canary-epoch-2",
+      "step": 4
+    }
+  ],
+  "completed_at": "2026-09-05T17:47:37.541538+00:00",
+  "config": {
+    "batch_size": 8,
+    "checkpoint_every_epochs": 1,
+    "corpus_path": "training/datasets/t11_targeted_v1.jsonl",
+    "corpus_sha256": "0ebbb365f1be9fb76804256cbbdf1eccca300a31c01beca0cd1ff446fc6a81b1",
+    "credential_source": "TINKER_API_KEY environment variable",
+    "development_fraction": 0.25,
+    "development_groups": 8,
+    "development_rows": 10,
+    "epochs": 3,
+    "estimate": {
+      "billable_training_tokens": 164285,
+      "estimated_training_usd": 0.240348955,
+      "training_tokens": 88509,
+      "validation_forward_tokens": 75776
+    },
+    "experiment": "tinker-sft-t11",
+    "learning_rate": 0.0003,
+    "lora_rank": 32,
+    "max_length": 4096,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "run_name": "fantasy-alpha-t11-final-format-canary",
+    "seed": 20260808,
+    "started_at": "2026-09-05T17:43:56.043236+00:00",
+    "tinker_cookbook_version": "0.5.7",
+    "tinker_version": "0.27.1",
+    "train_groups": 10,
+    "train_rows": 14
+  },
+  "cost": {
+    "cached_prefill_tokens": 0,
+    "checkpoint_count": 6,
+    "computed_usd": 0.24313114000000002,
+    "prefill_tokens": 4158,
+    "sample_tokens": 19,
+    "training_tokens": 164285
+  },
+  "development_loss_improved": true,
+  "development_nll_history": [
+    1.7572015643119812,
+    1.1201088264584542,
+    0.9238435089588165,
+    0.8725672423839569
+  ],
+  "final_development_nll": 0.8725672423839569,
+  "final_sampler_path": "tinker://17f8eef6-afbd-54d0-aa2e-676e6494cfe3:train:0/sampler_weights/fantasy-alpha-t11-final-format-canary-final-sampler",
+  "final_state_path": "tinker://17f8eef6-afbd-54d0-aa2e-676e6494cfe3:train:0/weights/fantasy-alpha-t11-final-format-canary-final-state",
+  "final_training_batch_nll": 0.5406248569488525,
+  "first_training_batch_nll": 1.206801414489746,
+  "initial_development_nll": 1.7572015643119812,
+  "reload_verified": true,
+  "reloaded_lora_rank": 32,
+  "reloaded_model": "Qwen/Qwen3.5-9B",
+  "runtime_seconds": 221.676391,
+  "sample_prompt_trace_id": "t11:draft:2017:slot7:seed29:pick7:direct_pick",
+  "secret_persisted": false,
+  "status": "complete",
+  "steps": 6,
+  "training_loss_improved": true,
+  "training_run_id": "17f8eef6-afbd-54d0-aa2e-676e6494cfe3:train:0"
+}

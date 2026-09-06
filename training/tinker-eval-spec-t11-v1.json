@@ -1,0 +1,305 @@
+{
+  "breakoutbench": {
+    "families": [
+      "full_slate",
+      "bust",
+      "over_under"
+    ],
+    "grounded": true,
+    "max_tokens": 10000,
+    "variant": "anonymized"
+  },
+  "calibbench": {
+    "families": [
+      "season_threshold",
+      "weekly_h2h"
+    ],
+    "max_tokens": 18000,
+    "variant": "anonymized"
+  },
+  "canary": {
+    "max_tokens": 8000,
+    "protocol": "canary_v1"
+  },
+  "checkpoint_selection": "lowest T1.1 development NLL among epochs 1 and 2; earliest wins ties",
+  "corpus_sha256": "0ebbb365f1be9fb76804256cbbdf1eccca300a31c01beca0cd1ff446fc6a81b1",
+  "cost": {
+    "estimated_canary_usd": 0.2,
+    "estimated_incremental_total_usd": 4.51,
+    "estimated_three_arm_evaluation_usd": 2.6,
+    "estimated_training_usd": 1.708902503,
+    "incremental_hard_cap_usd": 10.0
+  },
+  "decision_rule": {
+    "fallback_rate_regression_max": 0.02,
+    "illegal_picks_max": 0,
+    "max_brier_regression": 0.005,
+    "max_ece_regression": 0.02,
+    "max_log_loss_regression": 0.01,
+    "median_pairwise_delta_must_be_positive": true,
+    "pairwise_win_rate_min": 0.6,
+    "proceed": "all precommitted criteria pass against both base and T1",
+    "revise": "some directional value exists but at least one criterion fails",
+    "stop": "T1.1 is clearly dominated or introduces a major regression",
+    "structured_coverage_min": 0.98,
+    "tool_precision_min": 0.8,
+    "tool_recall_min": 0.2,
+    "tool_useful_result_rate_min": 0.8,
+    "trimmed_pairwise_mean_must_be_positive": true,
+    "unnecessary_tool_rate_max": 0.2
+  },
+  "draftgym": {
+    "episodes": [
+      {
+        "agent_slot": 1,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2018,
+        "seed": 11
+      },
+      {
+        "agent_slot": 1,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2018,
+        "seed": 29
+      },
+      {
+        "agent_slot": 4,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2018,
+        "seed": 11
+      },
+      {
+        "agent_slot": 4,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2018,
+        "seed": 29
+      },
+      {
+        "agent_slot": 7,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2018,
+        "seed": 11
+      },
+      {
+        "agent_slot": 7,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2018,
+        "seed": 29
+      },
+      {
+        "agent_slot": 10,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2018,
+        "seed": 11
+      },
+      {
+        "agent_slot": 10,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2018,
+        "seed": 29
+      },
+      {
+        "agent_slot": 1,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2023,
+        "seed": 11
+      },
+      {
+        "agent_slot": 1,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2023,
+        "seed": 29
+      },
+      {
+        "agent_slot": 4,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2023,
+        "seed": 11
+      },
+      {
+        "agent_slot": 4,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2023,
+        "seed": 29
+      },
+      {
+        "agent_slot": 7,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2023,
+        "seed": 11
+      },
+      {
+        "agent_slot": 7,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2023,
+        "seed": 29
+      },
+      {
+        "agent_slot": 10,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2023,
+        "seed": 11
+      },
+      {
+        "agent_slot": 10,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2023,
+        "seed": 29
+      },
+      {
+        "agent_slot": 1,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2024,
+        "seed": 11
+      },
+      {
+        "agent_slot": 1,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2024,
+        "seed": 29
+      },
+      {
+        "agent_slot": 4,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2024,
+        "seed": 11
+      },
+      {
+        "agent_slot": 4,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2024,
+        "seed": 29
+      },
+      {
+        "agent_slot": 7,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2024,
+        "seed": 11
+      },
+      {
+        "agent_slot": 7,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2024,
+        "seed": 29
+      },
+      {
+        "agent_slot": 10,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2024,
+        "seed": 11
+      },
+      {
+        "agent_slot": 10,
+        "mask_names": true,
+        "preset": "ppr",
+        "season": 2024,
+        "seed": 29
+      }
+    ],
+    "masked": true,
+    "max_requests_per_pick": 8,
+    "max_tokens": 600,
+    "mistake_diagnostics": [
+      "QB/TE before round 5",
+      "episodes with more than two QBs",
+      "episodes with more than two TEs",
+      "late-round QB/TE picks"
+    ],
+    "tool_opportunity": "round>=5 and selected candidate has zero prior points or adp_stdev/adp>=0.12; aligned calls use depth_chart on a visible candidate"
+  },
+  "evaluation_role": "development; 2018/2023/2024 were opened in T1",
+  "frozen_before_t11_training": true,
+  "input_sha256": {
+    "artifacts/tinker-sft-t11/preflight.json": "d52adefe161e08ddf286245d9e82b9efa01e48a7bc4743ced28c5a312957e183",
+    "artifacts/tinker-sft-v1/evaluation/scorecard.json": "dcff669715de186169ff3f9d4f83e016ed0ec9d9bbd7ac5ed34f760d0488dc8d",
+    "artifacts/tinker-sft-v1/t1-full/checkpoint-selection.json": "ed5d7fdd9e1f21147d3b4cd97b0745aa1022b16f921f2bbf68f9c06493651848",
+    "envs/draftgym.py": "78b51641fa6bc845a92b66ec45e5b97258909d9c3e0618dfe90299ed0b3ec7fe",
+    "envs/play_llm.py": "34fd53e00855f48b9b77f3db534a1f79d991c7da357d67bad6e516f086300bea",
+    "evals/breakoutbench.py": "92d0d1194b879426f2e655fa613b5187db7bd26c9e7d01944b1ffc7331a2c39e",
+    "evals/calibbench.py": "236d2d1295e62bfc510858fedfcda64ca0fcd081257e0b86bec3da386ca06833",
+    "evals/canaries.py": "7931376749a336a5be2ae4a0f48649b70ec2741462bfd7571850faabe66d5fc2",
+    "evals/questions/breakoutbench_2018_ppr.json": "57fb6f144eb2ddc0a9d55f35686c648c2a623e9d118eb833d0ba5228fdf9a0db",
+    "evals/questions/breakoutbench_2018_ppr_KEY.json": "eaab24edc50319d9d5f6834407e89fbdb5bc71ad8431441786dd5f8094383851",
+    "evals/questions/breakoutbench_2023_ppr.json": "34f5cbe7aef8beb5ba704bb3af541dbfec88fe58f7df7f165dac3a5132f22277",
+    "evals/questions/breakoutbench_2023_ppr_KEY.json": "06eeba19922aa9239ef86b9a0161747f6c81cb6c10278ffda933648caa82af72",
+    "evals/questions/breakoutbench_2024_ppr.json": "b0b557ecdbcac0a69098b9f0bf54c252b27761278abf5e8be029975e6b6916aa",
+    "evals/questions/breakoutbench_2024_ppr_KEY.json": "49106c2f2f78dcb7dfbf62059b7e961c48e0854cda99ec8ff3e699a327e1c24e",
+    "evals/questions/calibbench_2018_ppr_KEY.json": "65ba80a42ae6f9448cfc7ce34bd2964e7ad7f660733daee3d0ccd47644bcc85f",
+    "evals/questions/calibbench_2018_ppr_anon.json": "05e47bdb96e083687b852841253b47e10c69612c1e979024b256e5a8a61de81b",
+    "evals/questions/calibbench_2023_ppr_KEY.json": "8ba640eedb86dac1b21d88c0295536cff56366eefa0383343384621056cb6e1d",
+    "evals/questions/calibbench_2023_ppr_anon.json": "714ff80823c1bc149db9590e18cd8a4d2ebcd9b7855f71de400bffd65ad3c50e",
+    "evals/questions/calibbench_2024_ppr_KEY.json": "49ba1907ecd5587e2c906823eea81e9eabd27c967f7867d89b3dda17ed26c810",
+    "evals/questions/calibbench_2024_ppr_anon.json": "9eba4476fa6b028b394dbdd1d7430fcb38dca1a78459da39613fb2d3c7be05b0",
+    "evals/questions/canary_2018_ppr.json": "9b21d9e199fb4ab83a2eebf3b8232a480ec01cc6a0f23c1a97c47cf71bbd4e1b",
+    "evals/questions/canary_2018_ppr_KEY.json": "6b7b42dc31a86267fc9061ede47d8f54a32339b39a75c72d74deec22cec01b11",
+    "evals/questions/canary_2023_ppr.json": "45736a2156e1e37123ce5fcc08af256aaa9f660ec068725542ff4aaca16eec8e",
+    "evals/questions/canary_2023_ppr_KEY.json": "53523a83e3cafdfb21bce4520e2930643223496cbcdeb9ef780ac86d282fd0c2",
+    "evals/questions/canary_2024_ppr.json": "a1aab8387f33714b3851ea00398c7527ebb4963b9d18d88e84b24e920945ef97",
+    "evals/questions/canary_2024_ppr_KEY.json": "d6c08655d8754d2a0524648f9e59a466d838aa6fd7407010b834696215107518",
+    "evals/run_expanded_qwen.py": "cdcff08f85fd45274ebdc323e552d9f11b9c4463a72755606f49ac9d377beef8",
+    "evals/tinker_sft_scorecard.py": "3dc06cd80037d10021a19e28587abe9f0a038a22f07bf0bd5aa5f412958b1a7b",
+    "evals/tinker_sft_t11_scorecard.py": "3884d26a9aed7aaca5d799a42c3de4efbcbf9387f4e78e637894ef43667d0da7",
+    "training/datasets/t11_targeted_v1.jsonl": "0ebbb365f1be9fb76804256cbbdf1eccca300a31c01beca0cd1ff446fc6a81b1",
+    "training/datasets/t11_targeted_v1.manifest.json": "e89e12fa5c231212cff0efe5b186f074ea572d033efd17450b80286f6bd3b9bb",
+    "training/t11_dataset.py": "071866e41bd38f7399c3c9ff2b899c6b2ebbcde2e6f87093fbb0899a263ee42c",
+    "training/tinker_backend.py": "f218d89b1ac739db7aaad6299ef244f66c17f51d9235e926072514600b308287",
+    "training/tinker_sft.py": "35cbf7cce525be5911b030e1afb2b4b1275ebb41752ee0a862180dcecc5afde1"
+  },
+  "models": {
+    "base": "Qwen/Qwen3.5-9B",
+    "t1": "tinker://027360a8-fff7-5774-b005-29e854b7a464:train:0/sampler_weights/fantasy-alpha-t1-qwen35-9b-r32-final-sampler",
+    "t11": "development-selected T1.1 sampler; unresolved until training"
+  },
+  "paired_analysis": {
+    "episode_bootstrap_repetitions": 10000,
+    "season_clustered_bootstrap_repetitions": 10000,
+    "seed": 20260808
+  },
+  "preset": "ppr",
+  "protocol": "fantasy-alpha-tinker-sft-t11-eval-v1",
+  "renderer": "qwen3_5_disable_thinking",
+  "repair_policy": "one identical strict-JSON repair after parse failure",
+  "sealed_2025_untouched": true,
+  "seasons": [
+    2018,
+    2023,
+    2024
+  ],
+  "seed": 20260808,
+  "temperature": 0.0,
+  "training": {
+    "backend": "Tinker 0.27.1 / tinker-cookbook 0.5.7",
+    "batch_size": 32,
+    "checkpoint_every_epochs": 1,
+    "epochs": 2,
+    "final_learning_rate_fraction": 0.1,
+    "learning_rate": 0.0003,
+    "lora_rank": 32,
+    "loss": "last assistant message only",
+    "optimizer": "Adam(beta1=.9,beta2=.95,eps=1e-8,grad_clip=1.0)",
+    "seed": 20260808
+  }
+}

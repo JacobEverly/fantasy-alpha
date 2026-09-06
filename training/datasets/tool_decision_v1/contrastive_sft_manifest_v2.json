@@ -1,0 +1,46 @@
+{
+  "corpus_path": "training/datasets/tool_decision_v1/contrastive_sft_train_v2.jsonl",
+  "corpus_sha256": "8cb867aef026e12675615fbd3549e92f991af0956eee6f65c24874f0996c3bf9",
+  "parent_corpus_sha256": "77b79d31e62823dea573eb1c7f16cca43eb19ca65611170d084ffc1188b8f50d",
+  "protocol": "fantasy-alpha-tool-decision-contrastive-sft-v2",
+  "rendered": {
+    "corpus_path": "training/datasets/tool_decision_v1/contrastive_sft_train_v2.jsonl",
+    "corpus_sha256": "8cb867aef026e12675615fbd3549e92f991af0956eee6f65c24874f0996c3bf9",
+    "created_at": "2026-09-06T02:00:17.169931+00:00",
+    "max_length": 8192,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "rows": 564,
+    "sequence_tokens": {
+      "max": 3362,
+      "median": 2643.0,
+      "min": 1300,
+      "p95": 3067
+    },
+    "total_rendered_tokens": 1448764,
+    "trainable_assistant_tokens": 7582,
+    "truncated_examples": 0,
+    "weighted_trainable_token_mass": 564.0000047758222
+  },
+  "revision_basis": {
+    "change": "increase representative groups 40 to 80 and USE_TOOL loss mass from one-third to one-half",
+    "v1_canary_immediate_action_retention": 1.0,
+    "v1_canary_required_tool_recall": 0.0
+  },
+  "validation": {
+    "changed_fields": [
+      "meta.loss_weight",
+      "meta.trace_id",
+      "meta.revision"
+    ],
+    "heldout_rows_seen": 0,
+    "messages_unchanged_from_v1": true,
+    "rows": 564,
+    "valid": true,
+    "weighted_decision_fraction": {
+      "ACT_NOW": 0.25,
+      "USE_TOOL": 0.5,
+      "WAIT_OR_ABSTAIN": 0.25
+    }
+  }
+}

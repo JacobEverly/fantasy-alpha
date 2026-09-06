@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "v2_every_schema_parseable": true,
+    "v2_loss_improved": true,
+    "v2_no_irreparable_responses": true,
+    "v2_structured_coverage_at_least_98pct": true,
+    "v2_valid_tool_calls": false,
+    "v2_zero_illegal_actions": false
+  },
+  "frozen_t12_arm_evaluated": false,
+  "full_t12_training_started": false,
+  "reason": "The one permitted revision improved target matching but repeated the same zero-tool behavior on all held-out tool-opportunity prompts.",
+  "rl_started": false,
+  "verdict": "stop_additional_sft"
+}

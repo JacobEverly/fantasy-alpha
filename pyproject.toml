@@ -10,9 +10,10 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest>=8"]
+dev = ["pytest>=8", "pandas==2.3.3", "pyarrow==21.0.0"]
 baselines = ["scikit-learn==1.7.2"]  # evals/gbdt_baseline.py (numpy 2.2.6 resolved on py3.10)
 rl = ["verifiers>=0.1.14"]  # envs/verifiers_v1_adapter.py (core env is zero-dep; v0.1.14 verified on py3.10)
+tinker = ["tinker==0.27.1", "tinker-cookbook==0.5.7"]
 
 [tool.setuptools]
 packages = ["harness", "evals", "envs", "training"]

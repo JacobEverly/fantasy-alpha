@@ -1,0 +1,29 @@
+{
+  "batch_size": 16,
+  "checkpoint_every_epochs": 1,
+  "corpus_path": "data/processed/sft/pilot_v0.jsonl",
+  "corpus_sha256": "3ebcf9ea68c46d750afd2855764cb2f2c1d8fd257703bc27f8fd025ce1679e4a",
+  "credential_source": "TINKER_API_KEY environment variable",
+  "development_fraction": 0.1,
+  "development_groups": 11,
+  "development_rows": 17,
+  "epochs": 2,
+  "estimate": {
+    "billable_training_tokens": 520581,
+    "estimated_training_usd": 0.761610003,
+    "training_tokens": 443952,
+    "validation_forward_tokens": 76629
+  },
+  "learning_rate": 0.0003,
+  "lora_rank": 32,
+  "max_length": 4096,
+  "model": "Qwen/Qwen3.5-9B",
+  "renderer": "qwen3_5_disable_thinking",
+  "run_name": "fantasy-alpha-t0-existing-pilot",
+  "seed": 20260808,
+  "started_at": "2026-09-05T13:42:43.600317+00:00",
+  "tinker_cookbook_version": "0.5.7",
+  "tinker_version": "0.27.1",
+  "train_groups": 96,
+  "train_rows": 145
+}

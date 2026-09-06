@@ -1,0 +1,153 @@
+{
+  "arms": {
+    "base_qwen": {
+      "blocked_actions": 0,
+      "completed": 7,
+      "cost_usd": 0.143900826,
+      "episode_rewards": {
+        "season2015:slot1:seed11": 169.22,
+        "season2016:slot12:seed3": 330.82,
+        "season2017:slot4:seed29": -247.34,
+        "season2019:slot1:seed11": -235.88,
+        "season2020:slot7:seed11": -63.38,
+        "season2021:slot12:seed3": -15.04,
+        "season2022:slot4:seed11": -148.84
+      },
+      "episodes": 7,
+      "fallback_picks": 0,
+      "forced_tool_calls": 0,
+      "mean_reward": -30.062857142857144,
+      "median_reward": -63.38,
+      "model_requests": 98,
+      "successful_tool_calls": 0,
+      "tool_calls": 0,
+      "usage": {
+        "cached_prefill_tokens": 23808,
+        "checkpoint_count": 0,
+        "prefill_tokens": 210217,
+        "sample_tokens": 1010,
+        "training_tokens": 0
+      }
+    },
+    "hard_coded_plus_qwen": {
+      "blocked_actions": 0,
+      "completed": 7,
+      "cost_usd": 0.15625940100000005,
+      "episode_rewards": {
+        "season2015:slot1:seed11": 29.2,
+        "season2016:slot12:seed3": 292.84,
+        "season2017:slot4:seed29": -247.34,
+        "season2019:slot1:seed11": -235.88,
+        "season2020:slot7:seed11": -214.82,
+        "season2021:slot12:seed3": -59.24,
+        "season2022:slot4:seed11": -148.84
+      },
+      "episodes": 7,
+      "fallback_picks": 0,
+      "forced_tool_calls": 23,
+      "mean_reward": -83.44000000000001,
+      "median_reward": -148.84,
+      "model_requests": 121,
+      "successful_tool_calls": 23,
+      "tool_calls": 23,
+      "usage": {
+        "cached_prefill_tokens": 73088,
+        "checkpoint_count": 0,
+        "prefill_tokens": 218406,
+        "sample_tokens": 1235,
+        "training_tokens": 0
+      }
+    },
+    "learned_supervisor_plus_qwen": {
+      "blocked_actions": 0,
+      "completed": 7,
+      "cost_usd": 0.156778518,
+      "episode_rewards": {
+        "season2015:slot1:seed11": 121.22,
+        "season2016:slot12:seed3": 257.32,
+        "season2017:slot4:seed29": -247.34,
+        "season2019:slot1:seed11": -235.88,
+        "season2020:slot7:seed11": -63.38,
+        "season2021:slot12:seed3": -15.04,
+        "season2022:slot4:seed11": -148.84
+      },
+      "episodes": 7,
+      "fallback_picks": 1,
+      "forced_tool_calls": 24,
+      "mean_reward": -47.42,
+      "median_reward": -63.38,
+      "model_requests": 122,
+      "successful_tool_calls": 24,
+      "tool_calls": 24,
+      "usage": {
+        "cached_prefill_tokens": 77184,
+        "checkpoint_count": 0,
+        "prefill_tokens": 218328,
+        "sample_tokens": 1250,
+        "training_tokens": 0
+      }
+    }
+  },
+  "episodes": [
+    {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2015,
+      "seed": 11
+    },
+    {
+      "agent_slot": 12,
+      "enable_evidence": true,
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2016,
+      "seed": 3
+    },
+    {
+      "agent_slot": 4,
+      "enable_evidence": true,
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2017,
+      "seed": 29
+    },
+    {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2019,
+      "seed": 11
+    },
+    {
+      "agent_slot": 7,
+      "enable_evidence": true,
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2020,
+      "seed": 11
+    },
+    {
+      "agent_slot": 12,
+      "enable_evidence": true,
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2021,
+      "seed": 3
+    },
+    {
+      "agent_slot": 4,
+      "enable_evidence": true,
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2022,
+      "seed": 11
+    }
+  ],
+  "incremental_cost_usd": 0.4569387450000001,
+  "protocol": "fantasy-alpha-tool-decision-frozen-evaluation-v1",
+  "scientific_limit": "Seven historical internal-heldout episodes measure harness behavior; they are too few for a stable fantasy-point quality claim.",
+  "status": "complete"
+}

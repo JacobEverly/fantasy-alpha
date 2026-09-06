@@ -1,0 +1,1804 @@
+{
+  "baseline": {
+    "base_actions": [
+      {
+        "pick": "B001"
+      },
+      {
+        "pick": "B020"
+      },
+      {
+        "pick": "B025"
+      },
+      {
+        "pick": "B044"
+      },
+      {
+        "pick": "B049"
+      },
+      {
+        "pick": "B068"
+      },
+      {
+        "pick": "B075"
+      },
+      {
+        "pick": "B086"
+      },
+      {
+        "pick": "B087"
+      },
+      {
+        "pick": "B137"
+      },
+      {
+        "pick": "B110"
+      },
+      {
+        "pick": "B139"
+      },
+      {
+        "pick": "B140"
+      }
+    ],
+    "base_info": {
+      "agent_points_hindsight": 2063.18,
+      "agent_points_realistic": 1777.98,
+      "agent_roster": [
+        "4864",
+        "3246",
+        "4880",
+        "3419",
+        "3255",
+        "2431",
+        "3428",
+        "2282",
+        "4883",
+        "2354",
+        "5655",
+        "5191",
+        "5179"
+      ],
+      "cap_hits": 0,
+      "control_points_realistic": 1486.12,
+      "league_index": 89.6,
+      "league_rank": 4,
+      "lookups_used_this_pick": 0,
+      "pick_number": 147,
+      "picks": [
+        {
+          "pick_number": 1,
+          "player_id": "4864",
+          "team": 1
+        },
+        {
+          "pick_number": 2,
+          "player_id": "2625",
+          "team": 2
+        },
+        {
+          "pick_number": 3,
+          "player_id": "2434",
+          "team": 3
+        },
+        {
+          "pick_number": 4,
+          "player_id": "4876",
+          "team": 4
+        },
+        {
+          "pick_number": 5,
+          "player_id": "2350",
+          "team": 5
+        },
+        {
+          "pick_number": 6,
+          "player_id": "2449",
+          "team": 6
+        },
+        {
+          "pick_number": 7,
+          "player_id": "4872",
+          "team": 7
+        },
+        {
+          "pick_number": 8,
+          "player_id": "2125",
+          "team": 8
+        },
+        {
+          "pick_number": 9,
+          "player_id": "4862",
+          "team": 9
+        },
+        {
+          "pick_number": 10,
+          "player_id": "2432",
+          "team": 10
+        },
+        {
+          "pick_number": 11,
+          "player_id": "5177",
+          "team": 11
+        },
+        {
+          "pick_number": 12,
+          "player_id": "2439",
+          "team": 12
+        },
+        {
+          "pick_number": 13,
+          "player_id": "2438",
+          "team": 12
+        },
+        {
+          "pick_number": 14,
+          "player_id": "1989",
+          "team": 11
+        },
+        {
+          "pick_number": 15,
+          "player_id": "2860",
+          "team": 10
+        },
+        {
+          "pick_number": 16,
+          "player_id": "2316",
+          "team": 9
+        },
+        {
+          "pick_number": 17,
+          "player_id": "2507",
+          "team": 8
+        },
+        {
+          "pick_number": 18,
+          "player_id": "2863",
+          "team": 7
+        },
+        {
+          "pick_number": 19,
+          "player_id": "2885",
+          "team": 6
+        },
+        {
+          "pick_number": 20,
+          "player_id": "4869",
+          "team": 5
+        },
+        {
+          "pick_number": 21,
+          "player_id": "5185",
+          "team": 4
+        },
+        {
+          "pick_number": 22,
+          "player_id": "2433",
+          "team": 3
+        },
+        {
+          "pick_number": 23,
+          "player_id": "2390",
+          "team": 2
+        },
+        {
+          "pick_number": 24,
+          "player_id": "3246",
+          "team": 1
+        },
+        {
+          "pick_number": 25,
+          "player_id": "4880",
+          "team": 1
+        },
+        {
+          "pick_number": 26,
+          "player_id": "3247",
+          "team": 2
+        },
+        {
+          "pick_number": 27,
+          "player_id": "2872",
+          "team": 3
+        },
+        {
+          "pick_number": 28,
+          "player_id": "2343",
+          "team": 4
+        },
+        {
+          "pick_number": 29,
+          "player_id": "2111",
+          "team": 5
+        },
+        {
+          "pick_number": 30,
+          "player_id": "2470",
+          "team": 6
+        },
+        {
+          "pick_number": 31,
+          "player_id": "4881",
+          "team": 7
+        },
+        {
+          "pick_number": 32,
+          "player_id": "5181",
+          "team": 8
+        },
+        {
+          "pick_number": 33,
+          "player_id": "1992",
+          "team": 9
+        },
+        {
+          "pick_number": 34,
+          "player_id": "4887",
+          "team": 10
+        },
+        {
+          "pick_number": 35,
+          "player_id": "4863",
+          "team": 11
+        },
+        {
+          "pick_number": 36,
+          "player_id": "4870",
+          "team": 12
+        },
+        {
+          "pick_number": 37,
+          "player_id": "2436",
+          "team": 12
+        },
+        {
+          "pick_number": 38,
+          "player_id": "2876",
+          "team": 11
+        },
+        {
+          "pick_number": 39,
+          "player_id": "5503",
+          "team": 10
+        },
+        {
+          "pick_number": 40,
+          "player_id": "2862",
+          "team": 9
+        },
+        {
+          "pick_number": 41,
+          "player_id": "2462",
+          "team": 8
+        },
+        {
+          "pick_number": 42,
+          "player_id": "2499",
+          "team": 7
+        },
+        {
+          "pick_number": 43,
+          "player_id": "4882",
+          "team": 6
+        },
+        {
+          "pick_number": 44,
+          "player_id": "3449",
+          "team": 5
+        },
+        {
+          "pick_number": 45,
+          "player_id": "5214",
+          "team": 4
+        },
+        {
+          "pick_number": 46,
+          "player_id": "4888",
+          "team": 3
+        },
+        {
+          "pick_number": 47,
+          "player_id": "3238",
+          "team": 2
+        },
+        {
+          "pick_number": 48,
+          "player_id": "3419",
+          "team": 1
+        },
+        {
+          "pick_number": 49,
+          "player_id": "3255",
+          "team": 1
+        },
+        {
+          "pick_number": 50,
+          "player_id": "5178",
+          "team": 2
+        },
+        {
+          "pick_number": 51,
+          "player_id": "3239",
+          "team": 3
+        },
+        {
+          "pick_number": 52,
+          "player_id": "2357",
+          "team": 4
+        },
+        {
+          "pick_number": 53,
+          "player_id": "2888",
+          "team": 5
+        },
+        {
+          "pick_number": 54,
+          "player_id": "5632",
+          "team": 6
+        },
+        {
+          "pick_number": 55,
+          "player_id": "2322",
+          "team": 7
+        },
+        {
+          "pick_number": 56,
+          "player_id": "4886",
+          "team": 8
+        },
+        {
+          "pick_number": 57,
+          "player_id": "2130",
+          "team": 9
+        },
+        {
+          "pick_number": 58,
+          "player_id": "5025",
+          "team": 10
+        },
+        {
+          "pick_number": 59,
+          "player_id": "2114",
+          "team": 11
+        },
+        {
+          "pick_number": 60,
+          "player_id": "3243",
+          "team": 12
+        },
+        {
+          "pick_number": 61,
+          "player_id": "3299",
+          "team": 12
+        },
+        {
+          "pick_number": 62,
+          "player_id": "4889",
+          "team": 11
+        },
+        {
+          "pick_number": 63,
+          "player_id": "2465",
+          "team": 10
+        },
+        {
+          "pick_number": 64,
+          "player_id": "2977",
+          "team": 9
+        },
+        {
+          "pick_number": 65,
+          "player_id": "4861",
+          "team": 8
+        },
+        {
+          "pick_number": 66,
+          "player_id": "3252",
+          "team": 7
+        },
+        {
+          "pick_number": 67,
+          "player_id": "2869",
+          "team": 6
+        },
+        {
+          "pick_number": 68,
+          "player_id": "2896",
+          "team": 5
+        },
+        {
+          "pick_number": 69,
+          "player_id": "5119",
+          "team": 4
+        },
+        {
+          "pick_number": 70,
+          "player_id": "5210",
+          "team": 3
+        },
+        {
+          "pick_number": 71,
+          "player_id": "5018",
+          "team": 2
+        },
+        {
+          "pick_number": 72,
+          "player_id": "2431",
+          "team": 1
+        },
+        {
+          "pick_number": 73,
+          "player_id": "3428",
+          "team": 1
+        },
+        {
+          "pick_number": 74,
+          "player_id": "3249",
+          "team": 2
+        },
+        {
+          "pick_number": 75,
+          "player_id": "1904",
+          "team": 3
+        },
+        {
+          "pick_number": 76,
+          "player_id": "3435",
+          "team": 4
+        },
+        {
+          "pick_number": 77,
+          "player_id": "2980",
+          "team": 5
+        },
+        {
+          "pick_number": 78,
+          "player_id": "2450",
+          "team": 6
+        },
+        {
+          "pick_number": 79,
+          "player_id": "5182",
+          "team": 7
+        },
+        {
+          "pick_number": 80,
+          "player_id": "2442",
+          "team": 8
+        },
+        {
+          "pick_number": 81,
+          "player_id": "3267",
+          "team": 9
+        },
+        {
+          "pick_number": 82,
+          "player_id": "1664",
+          "team": 10
+        },
+        {
+          "pick_number": 83,
+          "player_id": "2948",
+          "team": 11
+        },
+        {
+          "pick_number": 84,
+          "player_id": "2277",
+          "team": 12
+        },
+        {
+          "pick_number": 85,
+          "player_id": "1004",
+          "team": 12
+        },
+        {
+          "pick_number": 86,
+          "player_id": "5652",
+          "team": 11
+        },
+        {
+          "pick_number": 87,
+          "player_id": "2377",
+          "team": 10
+        },
+        {
+          "pick_number": 88,
+          "player_id": "1975",
+          "team": 9
+        },
+        {
+          "pick_number": 89,
+          "player_id": "2870",
+          "team": 8
+        },
+        {
+          "pick_number": 90,
+          "player_id": "5180",
+          "team": 7
+        },
+        {
+          "pick_number": 91,
+          "player_id": "5197",
+          "team": 6
+        },
+        {
+          "pick_number": 92,
+          "player_id": "119",
+          "team": 5
+        },
+        {
+          "pick_number": 93,
+          "player_id": "3077",
+          "team": 4
+        },
+        {
+          "pick_number": 94,
+          "player_id": "1978",
+          "team": 3
+        },
+        {
+          "pick_number": 95,
+          "player_id": "1976",
+          "team": 2
+        },
+        {
+          "pick_number": 96,
+          "player_id": "2282",
+          "team": 1
+        },
+        {
+          "pick_number": 97,
+          "player_id": "4883",
+          "team": 1
+        },
+        {
+          "pick_number": 98,
+          "player_id": "5187",
+          "team": 2
+        },
+        {
+          "pick_number": 99,
+          "player_id": "2118",
+          "team": 3
+        },
+        {
+          "pick_number": 100,
+          "player_id": "1902",
+          "team": 4
+        },
+        {
+          "pick_number": 101,
+          "player_id": "5193",
+          "team": 5
+        },
+        {
+          "pick_number": 102,
+          "player_id": "4891",
+          "team": 6
+        },
+        {
+          "pick_number": 103,
+          "player_id": "5574",
+          "team": 7
+        },
+        {
+          "pick_number": 104,
+          "player_id": "5162",
+          "team": 8
+        },
+        {
+          "pick_number": 105,
+          "player_id": "5625",
+          "team": 9
+        },
+        {
+          "pick_number": 106,
+          "player_id": "3253",
+          "team": 10
+        },
+        {
+          "pick_number": 107,
+          "player_id": "2737",
+          "team": 11
+        },
+        {
+          "pick_number": 108,
+          "player_id": "3307",
+          "team": 12
+        },
+        {
+          "pick_number": 109,
+          "player_id": "1981",
+          "team": 12
+        },
+        {
+          "pick_number": 110,
+          "player_id": "2534",
+          "team": 11
+        },
+        {
+          "pick_number": 111,
+          "player_id": "5188",
+          "team": 10
+        },
+        {
+          "pick_number": 112,
+          "player_id": "5196",
+          "team": 9
+        },
+        {
+          "pick_number": 113,
+          "player_id": "5008",
+          "team": 8
+        },
+        {
+          "pick_number": 114,
+          "player_id": "2304",
+          "team": 7
+        },
+        {
+          "pick_number": 115,
+          "player_id": "3409",
+          "team": 6
+        },
+        {
+          "pick_number": 116,
+          "player_id": "5605",
+          "team": 5
+        },
+        {
+          "pick_number": 117,
+          "player_id": "2796",
+          "team": 4
+        },
+        {
+          "pick_number": 118,
+          "player_id": "5576",
+          "team": 3
+        },
+        {
+          "pick_number": 119,
+          "player_id": "4902",
+          "team": 2
+        },
+        {
+          "pick_number": 120,
+          "player_id": "2354",
+          "team": 1
+        },
+        {
+          "pick_number": 121,
+          "player_id": "5655",
+          "team": 1
+        },
+        {
+          "pick_number": 122,
+          "player_id": "4890",
+          "team": 2
+        },
+        {
+          "pick_number": 123,
+          "player_id": "1796",
+          "team": 3
+        },
+        {
+          "pick_number": 124,
+          "player_id": "2445",
+          "team": 4
+        },
+        {
+          "pick_number": 125,
+          "player_id": "5544",
+          "team": 5
+        },
+        {
+          "pick_number": 126,
+          "player_id": "5337",
+          "team": 6
+        },
+        {
+          "pick_number": 127,
+          "player_id": "5626",
+          "team": 7
+        },
+        {
+          "pick_number": 128,
+          "player_id": "2879",
+          "team": 8
+        },
+        {
+          "pick_number": 129,
+          "player_id": "5194",
+          "team": 9
+        },
+        {
+          "pick_number": 130,
+          "player_id": "5587",
+          "team": 10
+        },
+        {
+          "pick_number": 131,
+          "player_id": "2359",
+          "team": 11
+        },
+        {
+          "pick_number": 132,
+          "player_id": "2279",
+          "team": 12
+        },
+        {
+          "pick_number": 133,
+          "player_id": "5546",
+          "team": 12
+        },
+        {
+          "pick_number": 134,
+          "player_id": "1342",
+          "team": 11
+        },
+        {
+          "pick_number": 135,
+          "player_id": "3460",
+          "team": 10
+        },
+        {
+          "pick_number": 136,
+          "player_id": "5186",
+          "team": 9
+        },
+        {
+          "pick_number": 137,
+          "player_id": "2987",
+          "team": 8
+        },
+        {
+          "pick_number": 138,
+          "player_id": "2275",
+          "team": 7
+        },
+        {
+          "pick_number": 139,
+          "player_id": "4901",
+          "team": 6
+        },
+        {
+          "pick_number": 140,
+          "player_id": "3458",
+          "team": 5
+        },
+        {
+          "pick_number": 141,
+          "player_id": "5513",
+          "team": 4
+        },
+        {
+          "pick_number": 142,
+          "player_id": "5586",
+          "team": 3
+        },
+        {
+          "pick_number": 143,
+          "player_id": "2503",
+          "team": 2
+        },
+        {
+          "pick_number": 144,
+          "player_id": "5191",
+          "team": 1
+        },
+        {
+          "pick_number": 145,
+          "player_id": "5179",
+          "team": 1
+        },
+        {
+          "pick_number": 146,
+          "player_id": "5207",
+          "team": 2
+        }
+      ],
+      "playoff_pct": 0.553,
+      "rationales": {},
+      "reward": 291.86,
+      "title_pct": 0.001,
+      "total_lookups": 0,
+      "value_ledger": [
+        {
+          "adp": 1.3,
+          "basis": "hindsight_season_total",
+          "capture": -104.55,
+          "name": "Jonathan Taylor",
+          "pick_number": 1,
+          "player_id": "4864",
+          "position": "RB",
+          "realized_vorp": 5.3,
+          "round": 1,
+          "season_ending_acute": false,
+          "slot_cost": 109.85
+        },
+        {
+          "adp": 19.6,
+          "basis": "hindsight_season_total",
+          "capture": -35.56,
+          "name": "Deebo Samuel Sr.",
+          "pick_number": 24,
+          "player_id": "3246",
+          "position": "WR",
+          "realized_vorp": 29.9,
+          "round": 2,
+          "season_ending_acute": false,
+          "slot_cost": 65.46
+        },
+        {
+          "adp": 24.9,
+          "basis": "hindsight_season_total",
+          "capture": 12.54,
+          "name": "Michael Pittman Jr.",
+          "pick_number": 25,
+          "player_id": "4880",
+          "position": "WR",
+          "realized_vorp": 78.0,
+          "round": 3,
+          "season_ending_acute": false,
+          "slot_cost": 65.46
+        },
+        {
+          "adp": 43.4,
+          "basis": "hindsight_season_total",
+          "capture": 7.88,
+          "name": "Diontae Johnson",
+          "pick_number": 48,
+          "player_id": "3419",
+          "position": "WR",
+          "realized_vorp": 42.2,
+          "round": 4,
+          "season_ending_acute": false,
+          "slot_cost": 34.32
+        },
+        {
+          "adp": 46.8,
+          "basis": "hindsight_season_total",
+          "capture": 152.88,
+          "name": "Josh Jacobs",
+          "pick_number": 49,
+          "player_id": "3255",
+          "position": "RB",
+          "realized_vorp": 187.2,
+          "round": 5,
+          "season_ending_acute": false,
+          "slot_cost": 34.32
+        },
+        {
+          "adp": 63.8,
+          "basis": "hindsight_season_total",
+          "capture": 41.5,
+          "name": "Adam Thielen",
+          "pick_number": 72,
+          "player_id": "2431",
+          "position": "WR",
+          "realized_vorp": 41.5,
+          "round": 6,
+          "season_ending_acute": false,
+          "slot_cost": 0.0
+        },
+        {
+          "adp": 71.2,
+          "basis": "hindsight_season_total",
+          "capture": -59.5,
+          "name": "Hunter Renfrow",
+          "pick_number": 73,
+          "player_id": "3428",
+          "position": "WR",
+          "realized_vorp": -59.5,
+          "round": 7,
+          "season_ending_acute": false,
+          "slot_cost": 0.0
+        },
+        {
+          "adp": 85.4,
+          "basis": "hindsight_season_total",
+          "capture": -54.0,
+          "name": "Melvin Gordon III",
+          "pick_number": 96,
+          "player_id": "2282",
+          "position": "RB",
+          "realized_vorp": -54.0,
+          "round": 8,
+          "season_ending_acute": false,
+          "slot_cost": 0.0
+        },
+        {
+          "adp": 86.6,
+          "basis": "hindsight_season_total",
+          "capture": 118.1,
+          "name": "DeVonta Smith",
+          "pick_number": 97,
+          "player_id": "4883",
+          "position": "WR",
+          "realized_vorp": 118.1,
+          "round": 9,
+          "season_ending_acute": false,
+          "slot_cost": 0.0
+        },
+        {
+          "adp": 134.1,
+          "basis": "hindsight_season_total",
+          "capture": -35.6,
+          "name": "Hunter Henry",
+          "pick_number": 120,
+          "player_id": "2354",
+          "position": "TE",
+          "realized_vorp": -35.6,
+          "round": 10,
+          "season_ending_acute": false,
+          "slot_cost": 0.0
+        },
+        {
+          "adp": 107.6,
+          "basis": "hindsight_season_total",
+          "capture": 18.3,
+          "name": "Tyler Allgeier",
+          "pick_number": 121,
+          "player_id": "5655",
+          "position": "RB",
+          "realized_vorp": 18.3,
+          "round": 11,
+          "season_ending_acute": false,
+          "slot_cost": 0.0
+        },
+        {
+          "adp": 138.0,
+          "basis": "hindsight_season_total",
+          "capture": 56.78,
+          "name": "Justin Fields",
+          "pick_number": 144,
+          "player_id": "5191",
+          "position": "QB",
+          "realized_vorp": 56.78,
+          "round": 12,
+          "season_ending_acute": false,
+          "slot_cost": 0.0
+        },
+        {
+          "adp": 142.5,
+          "basis": "hindsight_season_total",
+          "capture": -50.6,
+          "name": "Rondale Moore",
+          "pick_number": 145,
+          "player_id": "5179",
+          "position": "WR",
+          "realized_vorp": -50.6,
+          "round": 13,
+          "season_ending_acute": false,
+          "slot_cost": 0.0
+        }
+      ]
+    },
+    "base_reward": 291.86,
+    "episode_id": "season2022:slot1:seed149",
+    "model_latency_seconds": 28.331796207028674,
+    "model_requests": 13,
+    "spec": {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2022,
+      "seed": 149
+    },
+    "split": "heldout",
+    "usage": {
+      "cached_prefill_tokens": 4736,
+      "checkpoint_count": 0,
+      "prefill_tokens": 24613,
+      "sample_tokens": 140,
+      "training_tokens": 0
+    }
+  },
+  "cost": {
+    "cached_prefill_tokens": 8704,
+    "checkpoint_count": 0,
+    "computed_usd": 0.018059208000000004,
+    "prefill_tokens": 25138,
+    "sample_tokens": 160,
+    "training_tokens": 0
+  },
+  "created_at": "2026-09-06T21:07:55.686317+00:00",
+  "episode_id": "season2022:slot1:seed149",
+  "examples": [
+    {
+      "branches": {
+        "act": {
+          "action_legal": true,
+          "actual_action": {
+            "pick": "B110"
+          },
+          "continuation_actions": [
+            {
+              "pick": "5191"
+            },
+            {
+              "pick": "5179"
+            }
+          ],
+          "reward": 291.86
+        },
+        "intervene": {
+          "action_legal": true,
+          "actual_action": {
+            "pick": "B118"
+          },
+          "continuation_actions": [
+            {
+              "pick": "5191"
+            },
+            {
+              "pick": "5179"
+            }
+          ],
+          "reward": 242.46
+        }
+      },
+      "episode_id": "season2022:slot1:seed149",
+      "example_id": "season2022:slot1:seed149:decision10",
+      "input": {
+        "observation": {
+          "agent_slot": 1,
+          "anonymized": true,
+          "done": false,
+          "evidence_as_of": "2022-09-01",
+          "feasible_positions": [
+            "QB",
+            "RB",
+            "WR"
+          ],
+          "format": "ppr",
+          "league": {
+            "flex_eligible": [
+              "RB",
+              "WR",
+              "TE"
+            ],
+            "roster": {
+              "BENCH": 6,
+              "FLEX": 2,
+              "QB": 1,
+              "RB": 2,
+              "TE": 1,
+              "WR": 3
+            },
+            "rounds": 15,
+            "scoring": "ppr",
+            "teams": 12
+          },
+          "lookups_remaining": 5,
+          "lookups_used_this_pick": 0,
+          "my_roster": [
+            {
+              "adp": 1.3,
+              "adp_stdev": 0.6,
+              "name": "B001",
+              "player_id": "B001",
+              "position": "RB",
+              "prev_season_points": 373.1,
+              "team": "IND"
+            },
+            {
+              "adp": 19.6,
+              "adp_stdev": 2.9,
+              "name": "B020",
+              "player_id": "B020",
+              "position": "WR",
+              "prev_season_points": 338.96,
+              "team": "SF"
+            },
+            {
+              "adp": 24.9,
+              "adp_stdev": 3.2,
+              "name": "B025",
+              "player_id": "B025",
+              "position": "WR",
+              "prev_season_points": 238.6,
+              "team": "IND"
+            },
+            {
+              "adp": 43.4,
+              "adp_stdev": 4.3,
+              "name": "B044",
+              "player_id": "B044",
+              "position": "WR",
+              "prev_season_points": 274.4,
+              "team": "PIT"
+            },
+            {
+              "adp": 46.8,
+              "adp_stdev": 5.9,
+              "name": "B049",
+              "player_id": "B049",
+              "position": "RB",
+              "prev_season_points": 226.0,
+              "team": "LV"
+            },
+            {
+              "adp": 63.8,
+              "adp_stdev": 5.3,
+              "name": "B068",
+              "player_id": "B068",
+              "position": "WR",
+              "prev_season_points": 199.8,
+              "team": "MIN"
+            },
+            {
+              "adp": 71.2,
+              "adp_stdev": 7.4,
+              "name": "B075",
+              "player_id": "B075",
+              "position": "WR",
+              "prev_season_points": 259.1,
+              "team": "LV"
+            },
+            {
+              "adp": 85.4,
+              "adp_stdev": 6.2,
+              "name": "B086",
+              "player_id": "B086",
+              "position": "RB",
+              "prev_season_points": 195.1,
+              "team": "KC"
+            },
+            {
+              "adp": 86.6,
+              "adp_stdev": 6.2,
+              "name": "B087",
+              "player_id": "B087",
+              "position": "WR",
+              "prev_season_points": 185.6,
+              "team": "PHI"
+            },
+            {
+              "adp": 134.1,
+              "adp_stdev": 16.7,
+              "name": "B137",
+              "player_id": "B137",
+              "position": "TE",
+              "prev_season_points": 164.3,
+              "team": "NE"
+            }
+          ],
+          "pick_number": 121,
+          "picks_until_next_turn": 23,
+          "round": 11,
+          "season": 2022,
+          "tool_results": [],
+          "top_available": [
+            {
+              "adp": 107.6,
+              "adp_stdev": 8.0,
+              "name": "B110",
+              "player_id": "B110",
+              "position": "RB",
+              "prev_season_points": 0.0,
+              "team": "ATL"
+            },
+            {
+              "adp": 110.4,
+              "adp_stdev": 7.3,
+              "name": "B113",
+              "player_id": "B113",
+              "position": "WR",
+              "prev_season_points": 0.0,
+              "team": "NO"
+            },
+            {
+              "adp": 113.3,
+              "adp_stdev": 7.9,
+              "name": "B118",
+              "player_id": "B118",
+              "position": "RB",
+              "prev_season_points": 154.4,
+              "team": "NYJ"
+            },
+            {
+              "adp": 118.0,
+              "adp_stdev": 9.0,
+              "name": "B120",
+              "player_id": "B120",
+              "position": "RB",
+              "prev_season_points": 0.0,
+              "team": "KC"
+            },
+            {
+              "adp": 118.1,
+              "adp_stdev": 9.4,
+              "name": "B121",
+              "player_id": "B121",
+              "position": "WR",
+              "prev_season_points": 0.0,
+              "team": "KC"
+            },
+            {
+              "adp": 118.2,
+              "adp_stdev": 9.7,
+              "name": "B122",
+              "player_id": "B122",
+              "position": "WR",
+              "prev_season_points": 91.5,
+              "team": "DAL"
+            },
+            {
+              "adp": 120.9,
+              "adp_stdev": 11.5,
+              "name": "B124",
+              "player_id": "B124",
+              "position": "WR",
+              "prev_season_points": 80.4,
+              "team": "TB"
+            },
+            {
+              "adp": 121.2,
+              "adp_stdev": 10.6,
+              "name": "B125",
+              "player_id": "B125",
+              "position": "QB",
+              "prev_season_points": 180.92,
+              "team": "MIA"
+            },
+            {
+              "adp": 121.7,
+              "adp_stdev": 10.1,
+              "name": "B126",
+              "player_id": "B126",
+              "position": "RB",
+              "prev_season_points": 119.8,
+              "team": "DET"
+            },
+            {
+              "adp": 123.0,
+              "adp_stdev": 10.8,
+              "name": "B127",
+              "player_id": "B127",
+              "position": "WR",
+              "prev_season_points": 183.84,
+              "team": "CIN"
+            },
+            {
+              "adp": 123.3,
+              "adp_stdev": 9.6,
+              "name": "B128",
+              "player_id": "B128",
+              "position": "RB",
+              "prev_season_points": 0.0,
+              "team": "TB"
+            },
+            {
+              "adp": 128.9,
+              "adp_stdev": 11.3,
+              "name": "B130",
+              "player_id": "B130",
+              "position": "RB",
+              "prev_season_points": 125.9,
+              "team": "MIN"
+            },
+            {
+              "adp": 129.0,
+              "adp_stdev": 10.9,
+              "name": "B131",
+              "player_id": "B131",
+              "position": "WR",
+              "prev_season_points": 87.0,
+              "team": "KC"
+            },
+            {
+              "adp": 129.3,
+              "adp_stdev": 10.4,
+              "name": "B132",
+              "player_id": "B132",
+              "position": "WR",
+              "prev_season_points": 0.0,
+              "team": "TEN"
+            },
+            {
+              "adp": 130.5,
+              "adp_stdev": 7.5,
+              "name": "B133",
+              "player_id": "B133",
+              "position": "RB",
+              "prev_season_points": 0.0,
+              "team": "LV"
+            },
+            {
+              "adp": 132.9,
+              "adp_stdev": 12.0,
+              "name": "B134",
+              "player_id": "B134",
+              "position": "QB",
+              "prev_season_points": 222.92,
+              "team": "IND"
+            },
+            {
+              "adp": 133.7,
+              "adp_stdev": 10.6,
+              "name": "B135",
+              "player_id": "B135",
+              "position": "WR",
+              "prev_season_points": 166.6,
+              "team": "CHI"
+            },
+            {
+              "adp": 134.1,
+              "adp_stdev": 11.4,
+              "name": "B136",
+              "player_id": "B136",
+              "position": "WR",
+              "prev_season_points": 0.0,
+              "team": "GB"
+            },
+            {
+              "adp": 134.9,
+              "adp_stdev": 10.1,
+              "name": "B138",
+              "player_id": "B138",
+              "position": "WR",
+              "prev_season_points": 103.5,
+              "team": "NE"
+            },
+            {
+              "adp": 138.0,
+              "adp_stdev": 15.7,
+              "name": "B139",
+              "player_id": "B139",
+              "position": "QB",
+              "prev_season_points": 126.8,
+              "team": "CHI"
+            },
+            {
+              "adp": 142.5,
+              "adp_stdev": 8.1,
+              "name": "B140",
+              "player_id": "B140",
+              "position": "WR",
+              "prev_season_points": 111.1,
+              "team": "ARI"
+            },
+            {
+              "adp": 142.9,
+              "adp_stdev": 13.4,
+              "name": "B141",
+              "player_id": "B141",
+              "position": "QB",
+              "prev_season_points": 199.04,
+              "team": "JAX"
+            },
+            {
+              "adp": 150.1,
+              "adp_stdev": 17.4,
+              "name": "B144",
+              "player_id": "B144",
+              "position": "QB",
+              "prev_season_points": 117.4,
+              "team": "NO"
+            },
+            {
+              "adp": 152.6,
+              "adp_stdev": 16.4,
+              "name": "B145",
+              "player_id": "B145",
+              "position": "WR",
+              "prev_season_points": 54.5,
+              "team": "BUF"
+            },
+            {
+              "adp": 153.8,
+              "adp_stdev": 14.2,
+              "name": "B146",
+              "player_id": "B146",
+              "position": "WR",
+              "prev_season_points": 83.6,
+              "team": "HOU"
+            }
+          ]
+        },
+        "proposed_action": {
+          "pick": "B110"
+        }
+      },
+      "intervention": {
+        "computed_usd": 0.0005417460000000001,
+        "latency_seconds": 1.6041702919756062,
+        "post_tool_model_action": {
+          "pick": "B118"
+        },
+        "post_tool_model_parsed_pick": true,
+        "resolved": true,
+        "response": {
+          "ok": true,
+          "result": [
+            {
+              "date_basis": "approx_week",
+              "depth_rank": "3",
+              "depth_slot": "\n    ",
+              "internal_research_only": false,
+              "player_name": "B110",
+              "position": "RB",
+              "published_ms": 1661817600000,
+              "published_utc": "2022-08-30T00:00:00Z",
+              "season": 2022,
+              "snapshot": "2022-08-30",
+              "source": "nflverse_depth_charts",
+              "team": "ATL",
+              "unit": "Offense",
+              "week": 1
+            }
+          ]
+        },
+        "tool": {
+          "arguments": {
+            "team_or_player": "B110"
+          },
+          "name": "depth_chart"
+        },
+        "usage": {
+          "cached_prefill_tokens": 2688,
+          "checkpoint_count": 0,
+          "prefill_tokens": 253,
+          "sample_tokens": 10,
+          "training_tokens": 0
+        }
+      },
+      "label": {
+        "material_reward_points": 25.0,
+        "reason_code": "changed_action_negative_material_reward",
+        "value": "HARMFUL"
+      },
+      "outcome": {
+        "action_changed": true,
+        "reward_difference": -49.400000000000006
+      },
+      "protocol": "fantasy-alpha-value-of-information-v1",
+      "provenance": {
+        "fixed_continuation": "AutopickADP",
+        "label_uses_realized_outcome": true,
+        "masked": true,
+        "model": "Qwen/Qwen3.5-9B",
+        "model_seed": 1490110,
+        "observation_sha256": "bb2b66c27d008acff130857a0e3f92c618e5eedcbbd4f4886a1e015ccd000d91",
+        "outcome_fields_prohibited_as_features": true,
+        "prefix_actions": [
+          {
+            "pick": "B001"
+          },
+          {
+            "pick": "B020"
+          },
+          {
+            "pick": "B025"
+          },
+          {
+            "pick": "B044"
+          },
+          {
+            "pick": "B049"
+          },
+          {
+            "pick": "B068"
+          },
+          {
+            "pick": "B075"
+          },
+          {
+            "pick": "B086"
+          },
+          {
+            "pick": "B087"
+          },
+          {
+            "pick": "B137"
+          }
+        ]
+      },
+      "split": "heldout"
+    },
+    {
+      "branches": {
+        "act": {
+          "action_legal": true,
+          "actual_action": {
+            "pick": "B140"
+          },
+          "continuation_actions": [],
+          "reward": 291.86
+        },
+        "intervene": {
+          "action_legal": true,
+          "actual_action": {
+            "pick": "B146"
+          },
+          "continuation_actions": [],
+          "reward": 291.86
+        }
+      },
+      "episode_id": "season2022:slot1:seed149",
+      "example_id": "season2022:slot1:seed149:decision12",
+      "input": {
+        "observation": {
+          "agent_slot": 1,
+          "anonymized": true,
+          "done": false,
+          "evidence_as_of": "2022-09-01",
+          "feasible_positions": [
+            "WR"
+          ],
+          "format": "ppr",
+          "league": {
+            "flex_eligible": [
+              "RB",
+              "WR",
+              "TE"
+            ],
+            "roster": {
+              "BENCH": 6,
+              "FLEX": 2,
+              "QB": 1,
+              "RB": 2,
+              "TE": 1,
+              "WR": 3
+            },
+            "rounds": 15,
+            "scoring": "ppr",
+            "teams": 12
+          },
+          "lookups_remaining": 5,
+          "lookups_used_this_pick": 0,
+          "my_roster": [
+            {
+              "adp": 1.3,
+              "adp_stdev": 0.6,
+              "name": "B001",
+              "player_id": "B001",
+              "position": "RB",
+              "prev_season_points": 373.1,
+              "team": "IND"
+            },
+            {
+              "adp": 19.6,
+              "adp_stdev": 2.9,
+              "name": "B020",
+              "player_id": "B020",
+              "position": "WR",
+              "prev_season_points": 338.96,
+              "team": "SF"
+            },
+            {
+              "adp": 24.9,
+              "adp_stdev": 3.2,
+              "name": "B025",
+              "player_id": "B025",
+              "position": "WR",
+              "prev_season_points": 238.6,
+              "team": "IND"
+            },
+            {
+              "adp": 43.4,
+              "adp_stdev": 4.3,
+              "name": "B044",
+              "player_id": "B044",
+              "position": "WR",
+              "prev_season_points": 274.4,
+              "team": "PIT"
+            },
+            {
+              "adp": 46.8,
+              "adp_stdev": 5.9,
+              "name": "B049",
+              "player_id": "B049",
+              "position": "RB",
+              "prev_season_points": 226.0,
+              "team": "LV"
+            },
+            {
+              "adp": 63.8,
+              "adp_stdev": 5.3,
+              "name": "B068",
+              "player_id": "B068",
+              "position": "WR",
+              "prev_season_points": 199.8,
+              "team": "MIN"
+            },
+            {
+              "adp": 71.2,
+              "adp_stdev": 7.4,
+              "name": "B075",
+              "player_id": "B075",
+              "position": "WR",
+              "prev_season_points": 259.1,
+              "team": "LV"
+            },
+            {
+              "adp": 85.4,
+              "adp_stdev": 6.2,
+              "name": "B086",
+              "player_id": "B086",
+              "position": "RB",
+              "prev_season_points": 195.1,
+              "team": "KC"
+            },
+            {
+              "adp": 86.6,
+              "adp_stdev": 6.2,
+              "name": "B087",
+              "player_id": "B087",
+              "position": "WR",
+              "prev_season_points": 185.6,
+              "team": "PHI"
+            },
+            {
+              "adp": 134.1,
+              "adp_stdev": 16.7,
+              "name": "B137",
+              "player_id": "B137",
+              "position": "TE",
+              "prev_season_points": 164.3,
+              "team": "NE"
+            },
+            {
+              "adp": 107.6,
+              "adp_stdev": 8.0,
+              "name": "B110",
+              "player_id": "B110",
+              "position": "RB",
+              "prev_season_points": 0.0,
+              "team": "ATL"
+            },
+            {
+              "adp": 138.0,
+              "adp_stdev": 15.7,
+              "name": "B139",
+              "player_id": "B139",
+              "position": "QB",
+              "prev_season_points": 126.8,
+              "team": "CHI"
+            }
+          ],
+          "pick_number": 145,
+          "picks_until_next_turn": 23,
+          "round": 13,
+          "season": 2022,
+          "tool_results": [],
+          "top_available": [
+            {
+              "adp": 142.5,
+              "adp_stdev": 8.1,
+              "name": "B140",
+              "player_id": "B140",
+              "position": "WR",
+              "prev_season_points": 111.1,
+              "team": "ARI"
+            },
+            {
+              "adp": 153.8,
+              "adp_stdev": 14.2,
+              "name": "B146",
+              "player_id": "B146",
+              "position": "WR",
+              "prev_season_points": 83.6,
+              "team": "HOU"
+            }
+          ]
+        },
+        "proposed_action": {
+          "pick": "B140"
+        }
+      },
+      "intervention": {
+        "computed_usd": 0.00036843,
+        "latency_seconds": 1.738497666985495,
+        "post_tool_model_action": {
+          "pick": "B146"
+        },
+        "post_tool_model_parsed_pick": true,
+        "resolved": true,
+        "response": {
+          "ok": true,
+          "result": {
+            "internal_research_only": false,
+            "player_name": "B140",
+            "position": "WR",
+            "practice_status": "Limited Participation in Practice",
+            "primary_injury": "Ankle",
+            "published_ms": 1642279943000,
+            "published_utc": "2022-01-15T20:52:23Z",
+            "report_status": "Questionable",
+            "season": 2021,
+            "secondary_injury": null,
+            "source": "nflverse_injuries",
+            "team": "ARI",
+            "week": "19"
+          }
+        },
+        "tool": {
+          "arguments": {
+            "player": "B140"
+          },
+          "name": "injury_status"
+        },
+        "usage": {
+          "cached_prefill_tokens": 1280,
+          "checkpoint_count": 0,
+          "prefill_tokens": 272,
+          "sample_tokens": 10,
+          "training_tokens": 0
+        }
+      },
+      "label": {
+        "material_reward_points": 25.0,
+        "reason_code": "changed_action_below_materiality_threshold",
+        "value": "UNNECESSARY"
+      },
+      "outcome": {
+        "action_changed": true,
+        "reward_difference": 0.0
+      },
+      "protocol": "fantasy-alpha-value-of-information-v1",
+      "provenance": {
+        "fixed_continuation": "AutopickADP",
+        "label_uses_realized_outcome": true,
+        "masked": true,
+        "model": "Qwen/Qwen3.5-9B",
+        "model_seed": 1490130,
+        "observation_sha256": "7e708ad9a323979e3e3a0dc4638412d18b44f954cccd30e1455bb81fbb4eedda",
+        "outcome_fields_prohibited_as_features": true,
+        "prefix_actions": [
+          {
+            "pick": "B001"
+          },
+          {
+            "pick": "B020"
+          },
+          {
+            "pick": "B025"
+          },
+          {
+            "pick": "B044"
+          },
+          {
+            "pick": "B049"
+          },
+          {
+            "pick": "B068"
+          },
+          {
+            "pick": "B075"
+          },
+          {
+            "pick": "B086"
+          },
+          {
+            "pick": "B087"
+          },
+          {
+            "pick": "B137"
+          },
+          {
+            "pick": "B110"
+          },
+          {
+            "pick": "B139"
+          }
+        ]
+      },
+      "split": "heldout"
+    }
+  ],
+  "panel": {
+    "agent_slot": 1,
+    "enable_evidence": true,
+    "episode_id": "season2022:slot1:seed149",
+    "mask_names": true,
+    "preset": "ppr",
+    "season": 2022,
+    "seed": 149,
+    "split": "heldout"
+  },
+  "protocol": "fantasy-alpha-value-of-information-v1",
+  "split": "heldout"
+}

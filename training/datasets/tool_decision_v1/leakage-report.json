@@ -1,0 +1,50 @@
+{
+  "protocol": "fantasy-alpha-tool-decision-leakage-audit-v1",
+  "status": "pass",
+  "rows": 948,
+  "split_rows": {
+    "development": 164,
+    "heldout": 220,
+    "train": 564
+  },
+  "split_boundaries": {
+    "episode_group_overlap": {
+      "development_heldout": 0,
+      "train_development": 0,
+      "train_heldout": 0
+    },
+    "matched_group_overlap": {
+      "development_heldout": 0,
+      "train_development": 0,
+      "train_heldout": 0
+    },
+    "source_trace_overlap": {
+      "development_heldout": 0,
+      "train_development": 0,
+      "train_heldout": 0
+    }
+  },
+  "source_trace_counts": {
+    "development": 123,
+    "heldout": 165,
+    "train": 423
+  },
+  "duplicate_exact_decision_inputs": 0,
+  "all_observations_anonymized": true,
+  "labels_use_realized_outcomes": false,
+  "future_tool_results_in_pretool_inputs": false,
+  "sealed_seasons_present": [],
+  "sealed_seasons_checked": [
+    2013,
+    2018,
+    2023,
+    2024,
+    2025
+  ],
+  "notes": [
+    "The split unit is the complete season-slot-seed DraftGym episode, which is stricter than splitting individual matched groups.",
+    "All source traces attached to one matched group stay in the same split.",
+    "Labels encode an outcome-blind pre-as-of evidence policy and never use terminal DraftGym reward.",
+    "The 12-row adversarial challenge is separate post-hoc evaluation data and is prohibited from training."
+  ]
+}

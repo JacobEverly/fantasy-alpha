@@ -1,0 +1,47 @@
+{
+  "audit_method": "successful-run ledgers plus provider billing export for pre-resume failed sessions",
+  "audited_at": "2026-09-05T20:30:00Z",
+  "currency": "USD",
+  "failed_evaluation_sessions": [
+    {
+      "cached_prefill_tokens": 15872,
+      "cost_usd": 0.036522264,
+      "prefill_tokens": 37351,
+      "sample_tokens": 4900,
+      "session_id": "df9547f0-5559-5ce6-8f67-955488705175"
+    },
+    {
+      "cached_prefill_tokens": 15872,
+      "cost_usd": 0.018967464,
+      "prefill_tokens": 17427,
+      "sample_tokens": 2692,
+      "session_id": "0ec93565-94d9-5026-b4c8-800fbaf9a7a0"
+    },
+    {
+      "cached_prefill_tokens": 33664,
+      "cost_usd": 0.074448153,
+      "prefill_tokens": 68903,
+      "sample_tokens": 12295,
+      "session_id": "728f330d-3331-5bf4-8f17-688736dda5b1"
+    }
+  ],
+  "failed_evaluation_attempts_usd": 0.129937881,
+  "price_usd_per_million_tokens": {
+    "cached_prefill": 0.132,
+    "prefill": 0.66,
+    "sample": 1.995,
+    "training": 1.463
+  },
+  "successful_workload_usd": {
+    "base_evaluation": 0.808163451,
+    "canary": 0.24313114,
+    "t1_evaluation": 0.807873927,
+    "t11_completed_evaluation": 0.788296755,
+    "t11_training": 1.712583608
+  },
+  "t11_incremental_total_usd": 4.489986762,
+  "tinker_cumulative_before_t11_usd": 5.126104128,
+  "tinker_cumulative_through_t11_usd": 9.61609089,
+  "credential_persisted": false,
+  "ongoing_checkpoint_storage_excluded": true
+}

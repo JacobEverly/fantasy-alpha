@@ -1,0 +1,28 @@
+{
+  "batch_size": 8,
+  "checkpoint_every_epochs": 3,
+  "corpus_sha256": "b68020f1209c78c085d492a486d0905fa5e74631c33755c6a5bfd3f68a5d0f2f",
+  "credential_source": "TINKER_API_KEY environment variable",
+  "development_fraction": 0.25,
+  "development_groups": 7,
+  "development_rows": 9,
+  "epochs": 6,
+  "estimate": {
+    "billable_training_tokens": 222456,
+    "estimated_training_usd": 0.32545312800000004,
+    "training_tokens": 131568,
+    "validation_forward_tokens": 90888
+  },
+  "learning_rate": 0.0003,
+  "lora_rank": 32,
+  "max_length": 4096,
+  "model": "Qwen/Qwen3.5-9B",
+  "renderer": "qwen3_5_disable_thinking",
+  "run_name": "fantasy-alpha-t0-tinker-smoke",
+  "seed": 20260808,
+  "started_at": "2026-09-05T02:47:52.985899+00:00",
+  "tinker_cookbook_version": "0.5.7",
+  "tinker_version": "0.27.1",
+  "train_groups": 12,
+  "train_rows": 15
+}

@@ -1,0 +1,16 @@
+{
+  "artifact": "fantasy-alpha-tinker-sft-v1",
+  "base_model": "Qwen/Qwen3.5-9B",
+  "code_sha256": {
+    "evals/tinker_sft_scorecard.py": "3dc06cd80037d10021a19e28587abe9f0a038a22f07bf0bd5aa5f412958b1a7b",
+    "training/tinker_backend.py": "d2bbe1832bb2979247b2313ccaeb1b1950c00a24b4da880a4ed6676c756e3935",
+    "training/tinker_sft.py": "fd323e0234f1745fab73790aa426bfb3884913b2ea2f9a93649cc73943742c11"
+  },
+  "corpus_sha256": "b68020f1209c78c085d492a486d0905fa5e74631c33755c6a5bfd3f68a5d0f2f",
+  "evaluation_spec_sha256": "5a9344a298bdb2ef0bc59eb7bb2586839bbe44d766fbf123f2f2423426b97a43",
+  "evaluation_scorecard_sha256": "dcff669715de186169ff3f9d4f83e016ed0ec9d9bbd7ac5ed34f760d0488dc8d",
+  "full_run_summary_sha256": "029cf7e3a69c06b3cde91fee2ab14a960407882d8497dc41084252cde5cbd24e",
+  "incremental_workload_usd": 5.126104128,
+  "paid_canary_summary_sha256": "c521aafa042c3ce1f5e0cf77c7bf398f0af1809cd4d1bce9edd8bb39d8e43e56",
+  "t0_existing_smoke_summary_sha256": "6b9772962114cd6db45743ef8ca6188c04e9e8c6bb4bd8cc4b2b7dc929bdd92f"
+}

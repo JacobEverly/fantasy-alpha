@@ -1,0 +1,110 @@
+{
+  "agent_points_realistic": 1671.44,
+  "agent_slot": 1,
+  "cap_hits": 0,
+  "control_points_realistic": 1509.46,
+  "fallback_picks": 0,
+  "illegal_picks": 0,
+  "mask_names": true,
+  "model_requests": 15,
+  "parse_failures": 0,
+  "picks": [
+    {
+      "action": {
+        "pick": "B001"
+      },
+      "pick_number": 1
+    },
+    {
+      "action": {
+        "pick": "B023"
+      },
+      "pick_number": 24
+    },
+    {
+      "action": {
+        "pick": "B025"
+      },
+      "pick_number": 25
+    },
+    {
+      "action": {
+        "pick": "B050"
+      },
+      "pick_number": 48
+    },
+    {
+      "action": {
+        "pick": "B051"
+      },
+      "pick_number": 49
+    },
+    {
+      "action": {
+        "pick": "B078"
+      },
+      "pick_number": 72
+    },
+    {
+      "action": {
+        "pick": "B080"
+      },
+      "pick_number": 73
+    },
+    {
+      "action": {
+        "pick": "B108"
+      },
+      "pick_number": 96
+    },
+    {
+      "action": {
+        "pick": "B110"
+      },
+      "pick_number": 97
+    },
+    {
+      "action": {
+        "pick": "B112"
+      },
+      "pick_number": 120
+    },
+    {
+      "action": {
+        "pick": "B113"
+      },
+      "pick_number": 121
+    },
+    {
+      "action": {
+        "pick": "B120"
+      },
+      "pick_number": 144
+    },
+    {
+      "action": {
+        "pick": "B134"
+      },
+      "pick_number": 145
+    },
+    {
+      "action": {
+        "pick": "B161"
+      },
+      "pick_number": 168
+    },
+    {
+      "action": {
+        "pick": "B163"
+      },
+      "pick_number": 169
+    }
+  ],
+  "preset": "ppr",
+  "reward": 161.98,
+  "season": 2023,
+  "seed": 0,
+  "tool_calls": 0,
+  "tool_calls_ok": 0,
+  "total_lookups": 0
+}

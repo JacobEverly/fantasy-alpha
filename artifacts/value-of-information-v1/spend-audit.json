@@ -1,0 +1,41 @@
+{
+  "billing_snapshot": "artifacts/value-of-information-v1/billing.json",
+  "billing_snapshot_sha256": "e09ccfaf4645ea726a253c1010f9ed16d958861eab83a2b1b3b8cb2cab100292",
+  "created_at": "2026-09-06T23:07:51.817070+00:00",
+  "exact_cumulative_tinker_usd": 18.573989202,
+  "exact_incremental_usd": 4.261158324000001,
+  "first_completed_record_after_window_end": "2026-09-06T22:11:33.750584+00:00",
+  "latest_completed_record_before_window_end": "2026-09-06T21:54:48.326035+00:00",
+  "latest_provider_bucket": "2026-09-06T21:00:00+00:00",
+  "local_completed_usd": 4.203671481000001,
+  "ongoing_storage_excluded": true,
+  "orphaned_interrupted_canary_usage": {
+    "cached_prefill_tokens": 150784,
+    "checkpoint_count": 0,
+    "prefill_tokens": 54753,
+    "sample_tokens": 725,
+    "training_tokens": 0
+  },
+  "orphaned_interrupted_canary_usd": 0.05748684300000001,
+  "protocol": "fantasy-alpha-value-of-information-v1",
+  "provider_usage": {
+    "cached_prefill_tokens": 1663360,
+    "checkpoint_count": 0,
+    "prefill_tokens": 4126674,
+    "sample_tokens": 24385,
+    "training_tokens": 0
+  },
+  "provider_window_end": "2026-09-06T22:00:00+00:00",
+  "provider_window_isolated_to_this_experiment": true,
+  "provider_window_start": "2026-09-06T20:00:00+00:00",
+  "reconciled_arm_records": 64,
+  "reconciled_collection_records": 70,
+  "reconciled_completed_usage": {
+    "cached_prefill_tokens": 1512576,
+    "checkpoint_count": 0,
+    "prefill_tokens": 4071921,
+    "sample_tokens": 23660,
+    "training_tokens": 0
+  },
+  "reconciliation": "provider_window_minus_completed_request_ledgers"
+}

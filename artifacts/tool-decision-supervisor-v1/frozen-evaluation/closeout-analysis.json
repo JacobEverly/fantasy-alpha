@@ -1,0 +1,117 @@
+{
+  "adversarial_summary": {
+    "always_act": {
+      "accuracy": 0.3333333333333333,
+      "incorrect_examples": [
+        "missing-depth-chart",
+        "unknown-injury",
+        "valid-tool-proposal",
+        "failed-tool-no-budget",
+        "missing-adp-no-supported-tool",
+        "inconclusive-tool-no-budget",
+        "illegal-search-tool",
+        "irrelevant-player-tool"
+      ],
+      "unsafe_direct_action_rate": 1.0
+    },
+    "always_use_tool": {
+      "accuracy": 0.5,
+      "incorrect_examples": [
+        "valid-tool-proposal",
+        "depth-result-resolves",
+        "injury-result-resolves",
+        "stable-local-choice",
+        "locally-solvable-roster-arithmetic",
+        "missing-adp-no-supported-tool"
+      ],
+      "unsafe_direct_action_rate": 0.0
+    },
+    "hard_coded_supervisor_v1": {
+      "accuracy": 0.8333333333333334,
+      "incorrect_examples": [
+        "missing-adp-no-supported-tool",
+        "inconclusive-tool-no-budget"
+      ],
+      "unsafe_direct_action_rate": 0.125
+    },
+    "learned_supervisor_v1": {
+      "accuracy": 0.9166666666666666,
+      "incorrect_examples": [
+        "missing-adp-no-supported-tool"
+      ],
+      "unsafe_direct_action_rate": 0.125
+    }
+  },
+  "final_architecture_recommendation": "redesign_outcome_labels_then_use_external_hybrid_supervisor",
+  "local_supervisor_latency": {
+    "hard_coded_supervisor_v1": {
+      "calls": 2200,
+      "mean_microseconds": 1.8965554545454544,
+      "measurement": "warm local CPU decision function only",
+      "median_microseconds": 2.0,
+      "p95_microseconds": 2.334
+    },
+    "learned_supervisor_v1": {
+      "calls": 2200,
+      "mean_microseconds": 76670.43763545455,
+      "measurement": "warm local CPU decision function only",
+      "median_microseconds": 76310.0625,
+      "p95_microseconds": 82630.708
+    }
+  },
+  "paired_draftgym": {
+    "hard_coded_plus_qwen": {
+      "differences": {
+        "season2015:slot1:seed11": -140.02,
+        "season2016:slot12:seed3": -37.98000000000002,
+        "season2017:slot4:seed29": 0.0,
+        "season2019:slot1:seed11": 0.0,
+        "season2020:slot7:seed11": -151.44,
+        "season2021:slot12:seed3": -44.2,
+        "season2022:slot4:seed11": 0.0
+      },
+      "episodes": 7,
+      "incremental_cost_vs_base_usd": 0.012358575000000038,
+      "losses": 4,
+      "mean_paired_reward_change": -53.377142857142864,
+      "ties": 3,
+      "tool_calls_per_completed_task": 3.2857142857142856,
+      "wins": 0
+    },
+    "learned_supervisor_plus_qwen": {
+      "differences": {
+        "season2015:slot1:seed11": -48.0,
+        "season2016:slot12:seed3": -73.5,
+        "season2017:slot4:seed29": 0.0,
+        "season2019:slot1:seed11": 0.0,
+        "season2020:slot7:seed11": 0.0,
+        "season2021:slot12:seed3": 0.0,
+        "season2022:slot4:seed11": 0.0
+      },
+      "episodes": 7,
+      "incremental_cost_vs_base_usd": 0.012877691999999996,
+      "losses": 2,
+      "mean_paired_reward_change": -17.357142857142858,
+      "ties": 5,
+      "tool_calls_per_completed_task": 3.4285714285714284,
+      "wins": 0
+    }
+  },
+  "primary_decision": "use_external_supervisor",
+  "protocol": "fantasy-alpha-tool-decision-closeout-v1",
+  "provider_end_to_end_latency": {
+    "reason": "The frozen Tinker inference records retained tokens and cost but not per-request timestamps; no paid rerun was made solely to reconstruct an operational metric.",
+    "status": "not_retained"
+  },
+  "source_hashes": {
+    "artifacts/tool-decision-supervisor-v1/frozen-evaluation/adversarial.json": "56cd6dcbbb50d7e678a48070f05a25b89518e402341ee5de0410fc117a99f65c",
+    "artifacts/tool-decision-supervisor-v1/frozen-evaluation/draftgym-scorecard.json": "9ee7a4801985e04e412321ff6a7b25e23b53a16df448c692353df5958fb6e544",
+    "artifacts/tool-decision-supervisor-v1/frozen-evaluation/scorecard.json": "5cab67795f631ee11cb8cb38ac0d42e13cbef1f0630760bea12115559a75acb0"
+  },
+  "status": "complete",
+  "tool_calls_per_completed_task": {
+    "base_qwen": 0.0,
+    "hard_coded_plus_qwen": 3.2857142857142856,
+    "learned_supervisor_plus_qwen": 3.4285714285714284
+  }
+}

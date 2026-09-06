@@ -1,0 +1,75 @@
+{
+  "archive": {
+    "bytes": 378419200,
+    "path": "artifacts/tool-decision-supervisor-v1/tinker-canary-v1/final-adapter.tar.gz",
+    "sha256": "1b77a431aa0e0cae898e9ee23bb653b43f619eb22c28d1d66df167ea9e91ce5c"
+  },
+  "capability": {
+    "max_context_length": 65536,
+    "model": "Qwen/Qwen3.5-9B",
+    "sampleable": true,
+    "trainable": true
+  },
+  "checkpoints": [],
+  "completed_at": "2026-09-06T01:52:45.008212+00:00",
+  "config": {
+    "batch_size": 32,
+    "checkpoint_at_fraction": null,
+    "checkpoint_every_epochs": 1,
+    "corpus_path": "training/datasets/tool_decision_v1/contrastive_sft_train.jsonl",
+    "corpus_sha256": "77b79d31e62823dea573eb1c7f16cca43eb19ca65611170d084ffc1188b8f50d",
+    "credential_source": "TINKER_API_KEY environment variable",
+    "development_fraction": 0.1,
+    "development_groups": 16,
+    "development_rows": 16,
+    "epochs": 1,
+    "estimate": {
+      "billable_training_tokens": 465857,
+      "estimated_training_usd": 0.6815487910000001,
+      "training_tokens": 381597,
+      "validation_forward_tokens": 84260
+    },
+    "experiment": "tool-decision-supervisor-v1",
+    "learning_rate": 0.0001,
+    "lora_rank": 32,
+    "max_length": 8192,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "run_name": "fantasy-alpha-tool-decision-canary-v1",
+    "seed": 20260906,
+    "started_at": "2026-09-06T01:51:16.816766+00:00",
+    "tinker_cookbook_version": "0.5.7",
+    "tinker_version": "0.27.1",
+    "train_groups": 144,
+    "train_rows": 144
+  },
+  "cost": {
+    "cached_prefill_tokens": 0,
+    "checkpoint_count": 2,
+    "computed_usd": 0.6846723910000001,
+    "prefill_tokens": 4636,
+    "sample_tokens": 32,
+    "training_tokens": 465857
+  },
+  "development_loss_improved": true,
+  "development_nll_history": [
+    0.441508948802948,
+    0.053373679518699646
+  ],
+  "final_development_nll": 0.053373679518699646,
+  "final_sampler_path": "tinker://963b39af-9d5c-58f4-bb65-c7f3b9456855:train:0/sampler_weights/fantasy-alpha-tool-decision-canary-v1-final-sampler",
+  "final_state_path": "tinker://963b39af-9d5c-58f4-bb65-c7f3b9456855:train:0/weights/fantasy-alpha-tool-decision-canary-v1-final-state",
+  "final_training_batch_nll": 0.03235209733247757,
+  "first_training_batch_nll": 0.4659980237483978,
+  "initial_development_nll": 0.441508948802948,
+  "reload_verified": true,
+  "reloaded_lora_rank": 32,
+  "reloaded_model": "Qwen/Qwen3.5-9B",
+  "runtime_seconds": 88.386863,
+  "sample_prompt_trace_id": "tool-decision-sft:tool:2015:slot12:seed11:pick156:unresolved_no_budget",
+  "secret_persisted": false,
+  "status": "complete",
+  "steps": 5,
+  "training_loss_improved": true,
+  "training_run_id": "963b39af-9d5c-58f4-bb65-c7f3b9456855:train:0"
+}

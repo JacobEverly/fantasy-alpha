@@ -1,0 +1,7 @@
+{
+  "content": "{\"pick\":\"B006\"}",
+  "output_tokens": 9,
+  "parse_termination": "stop_sequence",
+  "prompt_tokens": 2079,
+  "stop_reason": "stop"
+}

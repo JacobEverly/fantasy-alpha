@@ -1,5 +1,36 @@
 # training/ — SFT data pipeline v0
 
+## Tool-decision supervisor result (2026-09-06)
+
+The matched-state tool-decision experiment is complete. The development-only
+calibrated classifier passed the frozen 220-row internal held-out gate, but two
+contrastive Qwen3.5-9B LoRA canaries failed their behavioral gates and the
+seven-episode DraftGym integration pilot showed no reward lift from forced
+lookups. No full adapter and no RL run followed. The next training data must use
+measured value-of-information labels from matched counterfactual rollouts, not
+additional imitation of the current tool policy. See
+`docs/tool-decision-supervisor-experiment.md`.
+
+Key reusable pieces:
+
+```bash
+.venv/bin/pytest -q tests/test_tool_decision_dataset.py
+.venv/bin/python -m training.tool_decision_supervisor --train  # development only
+.venv/bin/python -m evals.tool_decision_scorecard local-heldout
+.venv/bin/python -m evals.tool_decision_adversarial score
+```
+
+The primary held-out set and candidate manifest are already spent/frozen; do
+not retrain or retune them. The adversarial suite is post-hoc diagnostic only.
+
+## T1.2 result (2026-09-05)
+
+T1.2 froze an 829-prompt, conflict-free mix with 70% broad retention and 30%
+targeted behavior at the optimizer-loss level. The first representative canary
+and its single allowed revision both preserved response syntax but made zero
+valid tool calls on unseen tool-opportunity states. The protocol therefore
+stopped before full training and RL. See `docs/tinker-sft-t12-experiment-report.md`.
+
 Teacher-trace generation through the harness + the survivor-bias-proof filter
 from `docs/training-risk-register.md` risk 3. Output is a **pilot corpus for
 Jacob to read** (`data/processed/sft/pilot_v0.jsonl`) — nothing here trains
@@ -155,3 +186,58 @@ commands in `sft_datagen.py`:
   never trained as completion targets; product republication stays banned.
 - Rule (b)'s evidence-typed deviation exception and per-band statistical
   equivalence testing beyond the 2·SE heuristic are v1 items.
+
+## Tinker backend and first T1 result (2026-09-05)
+
+Tinker is now a modular alternative to the Prime/prime-rl path above. It uses
+the same frozen JSONL and assistant-only loss masking; no local GPU training is
+performed. Install the pinned provider dependencies with `.[tinker]` and pass
+the credential only through `TINKER_API_KEY`:
+
+```bash
+.venv/bin/python -m training.tinker_sft preflight
+.venv/bin/python -m training.tinker_sft smoke              # 24-row paid T1 canary
+.venv/bin/python -m training.tinker_sft smoke-existing-t0  # exact legacy pilot_v0 parity run
+.venv/bin/python -m training.tinker_sft train
+.venv/bin/python -m evals.tinker_sft_scorecard run --arm base
+.venv/bin/python -m evals.tinker_sft_scorecard select-checkpoint
+.venv/bin/python -m evals.tinker_sft_scorecard run --arm adapter
+.venv/bin/python -m evals.tinker_sft_scorecard score
+```
+
+Pinned stack: Tinker 0.27.1, tinker-cookbook 0.5.7,
+`Qwen/Qwen3.5-9B`, rank-32 LoRA, `qwen3_5_disable_thinking`, last-assistant
+loss, batch 32, two epochs, 3e-4→3e-5 linear learning-rate decay, seed
+20260808. The first full run reduced development NLL 1.257→0.815 and cost
+$3.1568. The frozen evaluation verdict is **revise SFT before RL**: masked
+DraftGym had a promising but unstable mean gain, while predictive/calibration
+metrics did not show a robust aggregate improvement. See
+`docs/tinker-sft-experiment-report.md` and the model card.
+
+## Targeted T1.1 revision (2026-09-05)
+
+T1's diagnosis found a direct supervision mismatch: the 811 traces contained
+forecast answers but no model-authored DraftGym or tool actions. The targeted
+T1.1 corpus therefore contains 300 development-only examples: 120 conservative
+forecast corrections, 120 direct draft choices, and 30 complete tool-call plus
+post-result pairs (60 rows). It is materialized and documented under
+`training/datasets/`; 2025 remains sealed.
+
+```bash
+.venv/bin/python -m training.t11_failure_analysis
+.venv/bin/python -m training.t11_dataset validate
+.venv/bin/python -m training.tinker_sft t11-preflight
+.venv/bin/python -m evals.tinker_sft_t11_scorecard freeze
+.venv/bin/python -m training.tinker_sft t11-canary
+.venv/bin/python -m training.tinker_sft t11-train
+.venv/bin/python -m evals.tinker_sft_t11_scorecard select-checkpoint
+.venv/bin/python -m evals.tinker_sft_t11_scorecard run --arm base
+.venv/bin/python -m evals.tinker_sft_t11_scorecard run --arm t1
+.venv/bin/python -m evals.tinker_sft_t11_scorecard run --arm t11
+.venv/bin/python -m evals.tinker_sft_t11_scorecard score
+```
+
+The frozen evaluation uses 24 matched masked drafts (2018/2023/2024 × four
+slots × two new seeds), plus the same prediction, calibration, structured-output,
+and canary surfaces for base, T1, and T1.1. The incremental hard cap is $10;
+the preregistered estimate is $4.51.

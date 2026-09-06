@@ -5,5 +5,12 @@ Summary: AI fantasy football analyst: league-agnostic engine, harness, envs, eva
 Requires-Python: >=3.10
 Provides-Extra: dev
 Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: pandas==2.3.3; extra == "dev"
+Requires-Dist: pyarrow==21.0.0; extra == "dev"
 Provides-Extra: baselines
 Requires-Dist: scikit-learn==1.7.2; extra == "baselines"
+Provides-Extra: rl
+Requires-Dist: verifiers>=0.1.14; extra == "rl"
+Provides-Extra: tinker
+Requires-Dist: tinker==0.27.1; extra == "tinker"
+Requires-Dist: tinker-cookbook==0.5.7; extra == "tinker"

@@ -1,0 +1,103 @@
+{
+  "protocol": "fantasy-alpha-tool-decision-supervisor-eval-v1",
+  "frozen_at": "2026-09-06T01:35:48Z",
+  "objective": "Determine whether ACT_NOW, USE_TOOL, and WAIT_OR_ABSTAIN can be distinguished reliably, and whether tool judgment belongs in rules, a learned supervisor, the main model, or a hybrid.",
+  "evaluation_role": "internal held-out development benchmark; this is not a sealed-season gate",
+  "base_model": "Qwen/Qwen3.5-9B",
+  "model_settings": {
+    "renderer": "qwen3_disable_thinking",
+    "temperature": 0.0,
+    "seed": 20260906,
+    "max_tokens": 220,
+    "tool_action_protocol": "DraftGym strict JSON pick-or-tool"
+  },
+  "dataset": {
+    "manifest": {
+      "path": "training/datasets/tool_decision_v1/manifest.json",
+      "sha256": "eb174e0726071479e67cab209d120661c44e701e1d3e256ecc70610c687fa504"
+    },
+    "train": {
+      "path": "training/datasets/tool_decision_v1/train.jsonl",
+      "rows": 564,
+      "sha256": "c93ed50245180898f25acb31b5b6ed0269c30d5f98688dadbba5dacf9c0c6854"
+    },
+    "development": {
+      "path": "training/datasets/tool_decision_v1/development.jsonl",
+      "rows": 164,
+      "sha256": "0e4c587258946279a9dbc7f1986c25be2b9527a853739b7bdc37de47e57736d3"
+    },
+    "heldout": {
+      "path": "evals/frozen/tool_decision_v1/heldout.jsonl",
+      "rows": 220,
+      "sha256": "42338f7e694abaae3cbbc27a5a92b31a10194fc8a72ae2e91562d543f8da16e5"
+    },
+    "split_unit": "complete season-slot-seed DraftGym episode",
+    "matched_group_unit": "tool opportunity plus resolved, unresolved, and nearby context-sufficient states",
+    "heldout_open_policy": "Fit and select all thresholds on train/development; score heldout exactly once after every candidate artifact and model prompt is frozen."
+  },
+  "sealed_seasons": [2013, 2018, 2023, 2024, 2025],
+  "systems": [
+    "always_act",
+    "always_use_tool",
+    "hard_coded_supervisor_v1",
+    "learned_supervisor_v1",
+    "untouched_base_qwen35_9b",
+    "contrastive_qwen35_9b_lora",
+    "best_predeclared_hybrid"
+  ],
+  "static_rule_definition": {
+    "successful_relevant_tool_result": "ACT_NOW",
+    "failed_tool_result_and_zero_budget": "WAIT_OR_ABSTAIN",
+    "candidate_prev_season_points_le_zero": "USE_TOOL:depth_chart",
+    "candidate_relative_adp_stdev_ge": 0.15,
+    "candidate_relative_adp_stdev_action": "USE_TOOL:injury_status",
+    "otherwise": "ACT_NOW",
+    "note": "The 0.15 threshold is precommitted and intentionally differs from the broader 0.12 source-opportunity boundary."
+  },
+  "metrics": {
+    "required_tool_recall": "true USE_TOOL predicted USE_TOOL / all true USE_TOOL",
+    "tool_precision": "true USE_TOOL predicted USE_TOOL / all predicted USE_TOOL",
+    "unsafe_direct_action_rate": "predicted ACT_NOW on true USE_TOOL or WAIT_OR_ABSTAIN / all true USE_TOOL or WAIT_OR_ABSTAIN",
+    "unnecessary_tool_rate": "predicted USE_TOOL on true ACT_NOW / all true ACT_NOW",
+    "correct_tool_rate": "exact tool name and arguments among true USE_TOOL examples",
+    "post_tool_completion_rate": "post_tool_resolved examples receiving a valid legal ACT_NOW decision",
+    "structured_action_rate": "responses parseable as one permitted decision or DraftGym action",
+    "classification": ["accuracy", "macro_f1", "multiclass_log_loss", "brier", "ece"],
+    "downstream": ["task_completion", "reward_vs_matched_control", "tool_calls_per_completed_task", "tokens", "latency", "cost"]
+  },
+  "primary_gates": {
+    "required_tool_recall_min": 0.9,
+    "unsafe_direct_action_rate_max": 0.0,
+    "unnecessary_tool_rate_max": 0.15,
+    "structured_action_rate_min": 0.95,
+    "correct_tool_rate_min": 0.9,
+    "post_tool_completion_rate_min": 0.95,
+    "no_material_regression_on_immediate_action": true
+  },
+  "selection": {
+    "learned_supervisor": "Hyperparameters, calibration, and safety thresholds selected on grouped development folds only.",
+    "contrastive_lora": "One canary plus at most one principled development-only revision. Continue only if every primary canary gate passes.",
+    "heldout": "No tuning, prompt changes, threshold changes, checkpoint selection, or model substitution after heldout scoring begins."
+  },
+  "budget": {
+    "target_incremental_usd_less_than": 5.0,
+    "hard_incremental_cap_usd": 10.0,
+    "cumulative_tinker_before_experiment_usd": 10.855193358,
+    "training_requires_explicit_environment_variable": "TINKER_API_KEY",
+    "no_secret_persistence_or_logging": true
+  },
+  "source_hashes": {
+    "training/tool_decision_dataset.py": "9aeff93c2cb63e40d456cfc5d62a4b0b15a75ade6c39b53aa8add05a70bf3e8d",
+    "envs/draftgym.py": "78b51641fa6bc845a92b66ec45e5b97258909d9c3e0618dfe90299ed0b3ec7fe",
+    "envs/play_llm.py": "34fd53e00855f48b9b77f3db534a1f79d991c7da357d67bad6e516f086300bea",
+    "harness/evidence.py": "434992a49bb78571c477d77de92c586a9c988ac6eb1cd1eb3bde2db559f442b1",
+    "envs/verifiers_v1_adapter.py": "6d35d47b3729ac85786d99eacbf8f0c184e8b462a5fd94d039767da3f2183e84",
+    "training/tinker_backend.py": "90ad8a4398e62fd98f01a0b4bc0b11adf14dfbb2b0d0e69b2f6361c68140998f"
+  },
+  "scientific_limits": [
+    "The matched labels measure agreement with a conservative outcome-blind tool policy, not causal fantasy-point lift.",
+    "The frozen masked benchmark covers depth_chart and injury_status; named player_news and search are outside this milestone.",
+    "A classifier win does not establish that the main model can select good fantasy players.",
+    "Downstream paired DraftGym evaluation is required before any product-quality claim."
+  ]
+}

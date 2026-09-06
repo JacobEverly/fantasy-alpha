@@ -40,4 +40,113 @@ Hard budget: $15.00. All spend via Prime Intellect serverless inference API
 
 | 2026-08-09 | T0b pod: 1×A100_80GB PCIe spot (datacrunch FIN-02 via Prime, pod 76ce0cb1ca0f4e8fb5c3f3cd16dac6d0) — created 13:58:15 UTC; **T0 COMPLETE**: LoRA SFT ran (Qwen3-4B-Instruct-2507, loss 3.05→1.31, val 3.06→1.55, 0 NaN), checkpoints at steps 12/24/36/40 + trainer resume-states, generation from step_40 verified (grounded-reasoning style confirmed), LoRA adapters + metrics + configs downloaded to training/checkpoints/t0/. Driver agent stalled 2×; main session disarmed self-destruct 2 min before artifact loss, finished verification inline, terminated pod 17:14 UTC (API-verified TERMINATED) | $0.9361/hr (API-reported) | ~3h16m | **~$3.06** |
 
-Total to date: ~$26.76 (T0 total incl. first attempt: ~$7.98, vs $50 cap)
+## Tinker Qwen3.5-9B SFT experiment (2026-09-05)
+
+Prices are the published Qwen3.5-9B Tinker rates recorded in
+`training/tinker_backend.py`. Training and sampling token counts come from the
+Tinker responses. The provider billing-event export is retained as an
+independent check, but Tinker documents that recent events can lag; adapter
+storage is ongoing and not included in the fixed workload total below.
+
+| Date (UTC) | What | Volume | Exact price-based cost |
+|---|---|---|---:|
+| 2026-09-05 | Small paid T1-format canary, rank 32, balanced 24-row slice, 12 optimizer steps, save/reload/export + two samples | 222,456 train/forward + 1,786 prefill + 552 output tokens | **$0.327733** |
+| 2026-09-05 | Exact existing T0 `pilot_v0` parity smoke, rank 32, 162 rows, 20 optimizer steps, save/reload/export + two samples | 520,581 train/forward + 2,466 prefill + 616 output tokens | **$0.764466** |
+| 2026-09-05 | T1 managed-LoRA run, `Qwen/Qwen3.5-9B`, rank 32, 811 rows (728 train/83 development), 2 epochs/46 steps, two samples | 2,155,863 train/forward + 2,466 prefill + 594 output tokens | **$3.156840** |
+| 2026-09-05 | Frozen untouched-base evaluation, 18 prediction cells + 6 masked DraftGym episodes | 502,720 uncached + 40,064 cached prefill + 48,836 output tokens | **$0.434511** |
+| 2026-09-05 | Frozen selected-adapter evaluation, identical workload | 518,477 uncached + 23,680 cached prefill + 48,738 output tokens | **$0.442553** |
+|  | **Tinker experiment workload total** |  | **$5.126104** |
+
+Tinker billing snapshot: `artifacts/tinker-sft-v1/billing.json`. The snapshot
+also records 42.63 GB-hours of checkpoint storage accrued by query time
+(approximately $0.0059 at $0.10/GB-month); storage continues until checkpoints
+are removed and is therefore reported separately from the completed workload.
+
+## Targeted Tinker T1.1 (preregistered 2026-09-05)
+
+Hard incremental cap: **$10.00**. Frozen estimate: **$4.51** ($0.20 final-format
+canary, $1.71 controlled rank-32 training run, and $2.60 for identical base/T1/T1.1
+evaluation across prediction benches and 24 masked DraftGym episodes). The 2025
+gate remains sealed. The completed provider-reconciled workload was:
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-05 | T1.1 final-format canary | **$0.243131** |
+| 2026-09-05 | T1.1 rank-32 training, 300 targeted traces, 2 epochs/18 steps | **$1.712584** |
+| 2026-09-05 | Frozen untouched-base evaluation, 18 prediction families + 24 DraftGym episodes | **$0.808163** |
+| 2026-09-05 | Frozen T1 evaluation, identical workload | **$0.807874** |
+| 2026-09-05 | Completed T1.1 evaluation session | **$0.788297** |
+| 2026-09-05 | Three failed/retried T1.1 strict-JSON sessions, provider billing reconciled | **$0.129938** |
+|  | **T1.1 incremental total** | **$4.489987** |
+
+The detailed token/session reconciliation is in
+`artifacts/tinker-sft-t11/evaluation/spend-audit.json`. Exact cumulative Tinker
+workload spend is **$9.616091**. Ongoing checkpoint storage remains separate.
+
+## Tinker T1.2 broad-plus-targeted canary gate (2026-09-05)
+
+Target incremental spend: **under $7**. Hard cap: **$10**. The preregistered
+protocol required stopping before full training when the representative format
+canary failed. One dataset-weighting/canary-size revision was permitted.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-05 | First T1.2 54-row canary: one epoch, save/reload/export | **$0.241897** |
+| 2026-09-05 | First held-out 32-prompt schema/tool behavior gate | **$0.040929** |
+| 2026-09-05 | One allowed revised 230-row canary: one epoch, save/reload/export | **$0.915515** |
+| 2026-09-05 | Revised held-out 32-prompt schema/tool behavior gate | **$0.040761** |
+|  | **T1.2 incremental total** | **$1.239102** |
+
+Both canaries had 100% structured coverage but 0/3 valid tool decisions. Full
+T1.2 training, frozen T1.2 inference, and RL were not started. Request token
+counts and published model rates establish the exact price-based total. The
+retained Tinker billing snapshot was still three hourly buckets behind the last
+canary when queried; ongoing checkpoint storage is separate.
+
+## Tool-decision supervisor experiment (2026-09-06)
+
+Target incremental spend: under **$5**. Hard cap: **$10**. Exact price-based
+cost uses provider-returned token counts and the pinned Qwen3.5-9B rates. The
+provider billing event export is retained at
+`artifacts/tool-decision-supervisor-v1/billing.json` as an independent check;
+ongoing checkpoint storage is excluded.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-06 | Untouched base, 164-row development decision evaluation | **$0.229297** |
+| 2026-09-06 | Contrastive rank-32 canary v1, 160 rows, five steps, reload/export | **$0.684672** |
+| 2026-09-06 | Canary v1 development behavior evaluation | **$0.225781** |
+| 2026-09-06 | One allowed rank-32 canary v2 revision, 320 rows, nine steps, reload/export | **$1.333664** |
+| 2026-09-06 | Canary v2 development behavior evaluation | **$0.225304** |
+| 2026-09-06 | Untouched base, frozen 220-row held-out decision evaluation | **$0.301981** |
+| 2026-09-06 | Frozen DraftGym integration: 21 episodes across three arms | **$0.456939** |
+|  | **Tool-decision experiment total** | **$3.457638** |
+
+Both SFT canaries failed their precommitted development gates, so the full
+adapter and RL were not run. Exact cumulative completed Tinker workload is
+**$14.312830878**. Total project spend is now approximately **$41.07** (prior
+historical estimate ~$26.76 plus exact Tinker workload; ongoing storage
+excluded). The exact nine-decimal line items are in
+`artifacts/tool-decision-supervisor-v1/spend-audit.json`.
+
+## Outcome-linked value-of-information supervisor (2026-09-06)
+
+Target incremental spend: under **$5**. Hard cap: **$10**. The experiment used
+the same pinned Qwen3.5-9B sampling prices. One learned-arm canary was
+interrupted after exposing a repeated-tool loop; Tinker's provider-authoritative
+20:00–22:00 UTC billing window was reconciled against all completed request
+ledgers to capture its server-side work exactly.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-06 | Development matched-counterfactual collection, 35 episodes / 70 decisions | **$0.730879155** |
+| 2026-09-06 | Held-out matched-counterfactual collection, 35 episodes / 70 decisions | **$0.729943500** |
+| 2026-09-06 | Frozen four-arm DraftGym evaluation, 30 episodes per arm / 120 runs | **$2.742848826** |
+| 2026-09-06 | Interrupted learned-arm canary, provider reconciled | **$0.057486843** |
+|  | **Outcome-linked experiment total** | **$4.261158324** |
+
+Exact cumulative completed Tinker workload is **$18.573989202**. Approximate
+whole-project spend is now **$45.33** (historical estimate ~$26.76 plus exact
+Tinker workload), excluding ongoing checkpoint storage. The exact token and
+session reconciliation is in
+`artifacts/value-of-information-v1/spend-audit.json`.

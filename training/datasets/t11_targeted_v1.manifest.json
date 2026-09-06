@@ -1,0 +1,65 @@
+{
+  "corpus_path": "training/datasets/t11_targeted_v1.jsonl",
+  "corpus_sha256": "0ebbb365f1be9fb76804256cbbdf1eccca300a31c01beca0cd1ff446fc6a81b1",
+  "created_at": "2026-09-05T15:00:58.771896+00:00",
+  "dataset_seed": 20260905,
+  "draft_label_policy": "SurvivalSequencer(scarcity_ratio=1.5)",
+  "forecast_target_formula": "clip(anchor + clip(teacher-anchor,-.15,.15)/3,.08,.85)",
+  "labels_use_realized_outcomes": false,
+  "protocol": "fantasy-alpha-t11-targeted-sft-v1",
+  "source_t1_corpus_sha256": "b68020f1209c78c085d492a486d0905fa5e74631c33755c6a5bfd3f68a5d0f2f",
+  "target_rows": 300,
+  "validation": {
+    "categories": {
+      "calibrated_probability": 120,
+      "confidence_correction": 120,
+      "contradictory_evidence": 120,
+      "draft_timing": 150,
+      "evidence_tool_use": 60,
+      "late_round_strategy": 48,
+      "league_arithmetic": 270,
+      "mistake_prevention": 180,
+      "qb_te_guardrail": 76,
+      "recovery": 24,
+      "roster_construction": 82,
+      "tool_avoidance": 128,
+      "tool_precision": 60
+    },
+    "exact_duplicate_prompts": 0,
+    "families": {
+      "bust": 30,
+      "draft_direct": 96,
+      "draft_recovery": 24,
+      "draft_tool": 60,
+      "full_slate": 30,
+      "season_threshold": 30,
+      "weekly_h2h": 30
+    },
+    "near_duplicate_traces": 0,
+    "realized_label_inputs": 0,
+    "rows": 300,
+    "sealed_seasons_present": [],
+    "seasons": {
+      "2009": 10,
+      "2010": 11,
+      "2011": 10,
+      "2012": 4,
+      "2014": 6,
+      "2015": 31,
+      "2016": 34,
+      "2017": 39,
+      "2019": 35,
+      "2020": 41,
+      "2021": 41,
+      "2022": 38
+    },
+    "subtypes": {
+      "calibration_correction": 120,
+      "direct_pick": 120,
+      "post_tool_pick": 30,
+      "tool_call": 30
+    },
+    "tool_groups_complete": 30,
+    "valid": true
+  }
+}

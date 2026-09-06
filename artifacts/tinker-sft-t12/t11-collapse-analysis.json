@@ -1,0 +1,158 @@
+{
+  "created_at": "2026-09-05T22:00:35.106072+00:00",
+  "draft_label_policy": {
+    "equals_visible_adp_leader": 117,
+    "equals_visible_adp_leader_rate": 0.78,
+    "median_visible_adp_rank": 1.0,
+    "pick_labels": 150,
+    "position_labels": {
+      "QB": 18,
+      "RB": 45,
+      "TE": 15,
+      "WR": 72
+    },
+    "rounds": {
+      "early_1_4": 32,
+      "late_11_plus": 48,
+      "middle_5_10": 70
+    },
+    "tool_labels": 30,
+    "tool_round_range": [
+      5,
+      15
+    ],
+    "unique_pick_action_strings": 101,
+    "unique_tool_targets": 25
+  },
+  "evidence": [
+    "Short targeted labels supplied only about 3% of unweighted assistant-token loss.",
+    "The combined sources contain 120 same-prompt/different-answer forecast conflicts.",
+    "T1.1 development NLL fell by more than 90% while frozen behavior regressed.",
+    "T1.1 emitted no tools and mostly reproduced the control reward in DraftGym."
+  ],
+  "hypotheses": [
+    "Two epochs at 3e-4 on the narrow corpus likely over-specialized the adapter.",
+    "Row-count balancing hid the much smaller targeted assistant-token signal.",
+    "Selecting only by NLL favored memorization and ignored retained format behavior.",
+    "Rule-policy imitation can teach discipline but cannot guarantee reward improvement."
+  ],
+  "observed_product_failures": {
+    "draft_episodes": 24,
+    "illegal_picks": 3,
+    "prediction_families_failed_after_repair": 8,
+    "structured_coverage": 0.5213989875747814,
+    "tool_calls": 0,
+    "tool_opportunities": 246,
+    "wins_vs_base": 12,
+    "zero_reward_draft_episodes": 21
+  },
+  "prompt_conflicts": {
+    "different_targets": 120,
+    "overlapping_prompts": 120,
+    "resolution": "T1.2 supersedes the old T1 answer with the T1.1 correction"
+  },
+  "response_diversity": {
+    "t1": {
+      "bust": {
+        "exact_duplicate_rows": 0,
+        "largest_exact_duplicate_group": 1,
+        "near_duplicate_unique_pairs_at_0_90": 0,
+        "rows": 115,
+        "unique_responses": 115
+      },
+      "full_slate": {
+        "exact_duplicate_rows": 0,
+        "largest_exact_duplicate_group": 1,
+        "near_duplicate_unique_pairs_at_0_90": 0,
+        "rows": 231,
+        "unique_responses": 231
+      },
+      "season_threshold": {
+        "exact_duplicate_rows": 0,
+        "largest_exact_duplicate_group": 1,
+        "near_duplicate_unique_pairs_at_0_90": 0,
+        "rows": 242,
+        "unique_responses": 242
+      },
+      "weekly_h2h": {
+        "exact_duplicate_rows": 0,
+        "largest_exact_duplicate_group": 1,
+        "near_duplicate_unique_pairs_at_0_90": 0,
+        "rows": 223,
+        "unique_responses": 223
+      }
+    },
+    "t11": {
+      "calibration_correction": {
+        "exact_duplicate_rows": 26,
+        "largest_exact_duplicate_group": 3,
+        "near_duplicate_unique_pairs_at_0_90": 858,
+        "rows": 120,
+        "unique_responses": 94
+      },
+      "direct_pick": {
+        "exact_duplicate_rows": 32,
+        "largest_exact_duplicate_group": 6,
+        "near_duplicate_unique_pairs_at_0_90": 814,
+        "rows": 120,
+        "unique_responses": 88
+      },
+      "post_tool_pick": {
+        "exact_duplicate_rows": 3,
+        "largest_exact_duplicate_group": 2,
+        "near_duplicate_unique_pairs_at_0_90": 70,
+        "rows": 30,
+        "unique_responses": 27
+      },
+      "tool_call": {
+        "exact_duplicate_rows": 5,
+        "largest_exact_duplicate_group": 2,
+        "near_duplicate_unique_pairs_at_0_90": 300,
+        "rows": 30,
+        "unique_responses": 25
+      }
+    }
+  },
+  "sealed_2025_untouched": true,
+  "supervision_balance": {
+    "t11_assistant_target_tokens": 7762,
+    "t11_assistant_target_tokens_by_subtype": {
+      "calibration_correction": 5812,
+      "direct_pick": 1080,
+      "post_tool_pick": 270,
+      "tool_call": 600
+    },
+    "t11_rendered_input_tokens_by_subtype": {
+      "calibration_correction": 116526,
+      "direct_pick": 287688,
+      "post_tool_pick": 79448,
+      "tool_call": 71825
+    },
+    "t11_rows": 300,
+    "t1_assistant_target_tokens": 238677,
+    "t1_rows": 811,
+    "unweighted_t11_target_share": 0.03149663811328564
+  },
+  "training_strength": {
+    "t1": {
+      "development_nll": [
+        1.2566612255142395,
+        0.8601648642356137,
+        0.8146009509821972
+      ],
+      "epochs": 2,
+      "learning_rate": 0.0003
+    },
+    "t11": {
+      "development_nll": [
+        1.7267142534255981,
+        0.1807832270860672,
+        0.11126208305358887
+      ],
+      "epochs": 2,
+      "learning_rate": 0.0003,
+      "relative_nll_drop": 0.9355642760040592
+    }
+  },
+  "uses_existing_artifacts_only": true
+}

@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "development_rows_70": true,
+    "development_split_exact": true,
+    "episode_groups_disjoint": true,
+    "feature_allowlist_excludes_outcomes": true,
+    "heldout_rows_70": true,
+    "heldout_split_exact": true,
+    "masked_inputs": true,
+    "sealed_seasons_absent": true,
+    "source_protocol_exact": true,
+    "two_points_per_development_episode": true,
+    "two_points_per_heldout_episode": true,
+    "unique_example_ids": true,
+    "visible_names_anonymized": true
+  },
+  "created_at": "2026-09-06T22:25:42.606090+00:00",
+  "decision_time_feature_keys": [
+    "available_count",
+    "candidate_adp",
+    "candidate_adp_stdev",
+    "candidate_missing_prior_points",
+    "candidate_position",
+    "candidate_prev_season_points",
+    "candidate_relative_adp_stdev",
+    "candidate_visible_rank",
+    "lookups_remaining",
+    "lookups_used",
+    "pick_number",
+    "picks_until_next_turn",
+    "result_is_null",
+    "result_row_count",
+    "result_status",
+    "roster_size",
+    "round"
+  ],
+  "development": {
+    "episodes": 35,
+    "labels": {
+      "HARMFUL": 6,
+      "HELPFUL": 6,
+      "UNNECESSARY": 54,
+      "UNRESOLVABLE": 4
+    },
+    "path": "training/datasets/value_of_information_v1/development.jsonl",
+    "rows": 70,
+    "sha256": "a5792d6ce59c02fdff3ea1bb0e1b0feb9826b51ccd8765b1b6b81bd00e8c3bc2"
+  },
+  "heldout": {
+    "episodes": 35,
+    "labels": {
+      "HARMFUL": 11,
+      "HELPFUL": 7,
+      "UNNECESSARY": 48,
+      "UNRESOLVABLE": 4
+    },
+    "path": "evals/frozen/value_of_information_v1/heldout.jsonl",
+    "rows": 70,
+    "sha256": "8899704fe321bc79bbd494ae4c84315d737cee86ad39edb5ac28c2c1dbe7f9ba"
+  },
+  "heldout_fit_or_tuning_calls": 0,
+  "protocol": "fantasy-alpha-value-of-information-v1"
+}
