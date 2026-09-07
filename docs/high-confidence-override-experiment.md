@@ -141,5 +141,6 @@ The repository includes a small local interface to the deterministic teacher:
 ```
 
 It reports the ADP choice, the best alternative, both safety margins, and the
-final keep-or-override action. The trained model will be judged against this
-same behavior, while the deterministic teacher remains the safe fallback.
+final keep-or-override action. It is retained to reproduce and inspect the
+teacher's behavior; after the 2025 result, ADP—not the teacher—is the product
+fallback.
