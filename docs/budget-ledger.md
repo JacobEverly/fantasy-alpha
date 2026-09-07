@@ -169,3 +169,18 @@ Tinker workload), excluding ongoing checkpoint storage. The provider billing
 snapshot is retained at `artifacts/sparse-reversible-canary-v1/billing.json`;
 queries through 02:03 UTC still preceded provider settlement, so the
 provider-returned request token ledger is the current authoritative total.
+
+## Outcome-aligned draft planner and ranker (2026-09-07)
+
+All counterfactual draft simulation, dataset generation, gradient-boosted
+ranker training, and frozen 2021–2022 validation ran locally. The validation
+failed the outlier-robustness and catastrophic-draft gates, so no Tinker
+training or inference was launched.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-07 | 270-draft headroom panel, 1,243-state outcome dataset, season-held-out ranker, and 30-draft frozen validation | **$0.000000000** |
+
+Exact cumulative completed Tinker workload remains **$19.811052240**.
+Approximate whole-project spend remains **$46.57**, excluding ongoing
+checkpoint storage.

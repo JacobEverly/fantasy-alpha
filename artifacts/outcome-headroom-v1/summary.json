@@ -1,0 +1,111 @@
+{
+  "artifacts": {
+    "matched_drafts_sha256": "23fcbd75555667d43a2dfd3cb050334a9e3f2a01c55d64c413d4d4e124b7398f"
+  },
+  "comparison": "same season, format, slot, opponents, and seed legal ADP",
+  "decision": {
+    "all_development_gate_passed": true,
+    "interpretation": "provisional headroom only; improve the planner/ranker before paid LLM training",
+    "strict_later_season_replication_passed": false
+  },
+  "hindsight_warning": "The oracle sees realized outcomes and is unattainable. It is a greedy ceiling reference, not a globally optimal draft proof or training input.",
+  "metrics": {
+    "all_development": {
+      "losses": 86,
+      "maximum": 371.6,
+      "mean_points_above_adp": 6.949333333333333,
+      "mean_without_largest_gain": 5.593754646840149,
+      "minimum": -263.72,
+      "n": 270,
+      "paired_bootstrap_95pct": [
+        -4.146592592592592,
+        17.931259259259257
+      ],
+      "passes_headroom_gate": true,
+      "ties": 95,
+      "trimmed_mean_10pct": 4.793240740740741,
+      "wins": 89
+    },
+    "hindsight_all_development": {
+      "losses": 0,
+      "maximum": 1358.12,
+      "mean_points_above_adp": 694.220962962963,
+      "mean_without_largest_gain": 691.752936802974,
+      "minimum": 148.28,
+      "n": 270,
+      "paired_bootstrap_95pct": [
+        668.4480740740742,
+        720.1227407407408
+      ],
+      "passes_headroom_gate": true,
+      "ties": 0,
+      "trimmed_mean_10pct": 686.7512962962963,
+      "wins": 270
+    },
+    "selection": {
+      "losses": 57,
+      "maximum": 371.6,
+      "mean_points_above_adp": 8.094000000000001,
+      "mean_without_largest_gain": 6.063240223463687,
+      "minimum": -263.72,
+      "n": 180,
+      "paired_bootstrap_95pct": [
+        -5.123,
+        21.805555555555557
+      ],
+      "passes_headroom_gate": true,
+      "ties": 60,
+      "trimmed_mean_10pct": 5.579027777777778,
+      "wins": 63
+    },
+    "validation": {
+      "losses": 29,
+      "maximum": 301.86,
+      "mean_points_above_adp": 4.66,
+      "mean_without_largest_gain": 1.3206741573033713,
+      "minimum": -243.46,
+      "n": 90,
+      "paired_bootstrap_95pct": [
+        -13.951777777777778,
+        23.349555555555558
+      ],
+      "passes_headroom_gate": false,
+      "ties": 35,
+      "trimmed_mean_10pct": 3.3158333333333334,
+      "wins": 26
+    }
+  },
+  "planner_config": {
+    "pass_band": 0.65,
+    "scarcity_ratio": 1.5,
+    "take_band": 0.55
+  },
+  "planner_inputs": [
+    "legal board",
+    "current roster",
+    "league constraints",
+    "ADP",
+    "ADP dispersion",
+    "snake-turn distance"
+  ],
+  "protocol": "fantasy-alpha-outcome-headroom-v1",
+  "reward": "realized season points from deterministic, prior-weeks-only weekly lineups",
+  "sealed_seasons_untouched": [
+    2013,
+    2018,
+    2023,
+    2024,
+    2025
+  ],
+  "selection_seasons": [
+    2015,
+    2016,
+    2017,
+    2019,
+    2020
+  ],
+  "validation_seasons": [
+    2021,
+    2022
+  ]
+}

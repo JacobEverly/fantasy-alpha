@@ -1,0 +1,171 @@
+{
+  "artifact_sha256": "5275c59e672146882b00f51c630595a74a72b55abbe7661aeb2d8abd2e40d980",
+  "dataset_sha256": "b4d6aded3f58a3392ed7c48d3befe9439942b87bb6a8b714fa63a1d4346f36e8",
+  "folds": [
+    {
+      "full_draft": {
+        "losses": 7,
+        "maximum": 484.8799999999999,
+        "mean_points_above_adp": -42.388,
+        "mean_without_largest_gain": -80.04999999999998,
+        "minimum": -707.4399999999998,
+        "n": 15,
+        "paired_bootstrap_95pct": [
+          -185.27199999999996,
+          91.15066666666665
+        ],
+        "passes_headroom_gate": false,
+        "ties": 0,
+        "trimmed_mean_10pct": -31.78923076923077,
+        "wins": 8
+      },
+      "season": 2015,
+      "turn": {
+        "adp_mean_candidate_regret": 70.97078124999999,
+        "adp_zero_regret_rate": 0.24609375,
+        "mean_candidate_regret": 80.45406249999999,
+        "states": 256,
+        "zero_regret_rate": 0.2421875
+      }
+    },
+    {
+      "full_draft": {
+        "losses": 5,
+        "maximum": 545.9200000000001,
+        "mean_points_above_adp": 53.89466666666662,
+        "mean_without_largest_gain": 18.74999999999995,
+        "minimum": -289.94000000000005,
+        "n": 15,
+        "paired_bootstrap_95pct": [
+          -36.285333333333405,
+          153.93199999999996
+        ],
+        "passes_headroom_gate": true,
+        "ties": 0,
+        "trimmed_mean_10pct": 42.495384615384566,
+        "wins": 10
+      },
+      "season": 2016,
+      "turn": {
+        "adp_mean_candidate_regret": 62.713389830508476,
+        "adp_zero_regret_rate": 0.2584745762711864,
+        "mean_candidate_regret": 58.592118644067796,
+        "states": 236,
+        "zero_regret_rate": 0.288135593220339
+      }
+    },
+    {
+      "full_draft": {
+        "losses": 3,
+        "maximum": 360.78,
+        "mean_points_above_adp": 158.83866666666668,
+        "mean_without_largest_gain": 144.41428571428574,
+        "minimum": -115.39999999999986,
+        "n": 15,
+        "paired_bootstrap_95pct": [
+          74.07066666666672,
+          242.31466666666668
+        ],
+        "passes_headroom_gate": true,
+        "ties": 0,
+        "trimmed_mean_10pct": 164.40000000000003,
+        "wins": 12
+      },
+      "season": 2017,
+      "turn": {
+        "adp_mean_candidate_regret": 97.73299578059073,
+        "adp_zero_regret_rate": 0.14767932489451477,
+        "mean_candidate_regret": 69.96919831223629,
+        "states": 237,
+        "zero_regret_rate": 0.21518987341772153
+      }
+    },
+    {
+      "full_draft": {
+        "losses": 9,
+        "maximum": 388.3599999999999,
+        "mean_points_above_adp": -71.17066666666669,
+        "mean_without_largest_gain": -103.99428571428574,
+        "minimum": -443.8800000000001,
+        "n": 15,
+        "paired_bootstrap_95pct": [
+          -180.71200000000002,
+          38.6653333333333
+        ],
+        "passes_headroom_gate": false,
+        "ties": 0,
+        "trimmed_mean_10pct": -77.84923076923079,
+        "wins": 6
+      },
+      "season": 2019,
+      "turn": {
+        "adp_mean_candidate_regret": 72.14015503875967,
+        "adp_zero_regret_rate": 0.2868217054263566,
+        "mean_candidate_regret": 77.61325581395349,
+        "states": 258,
+        "zero_regret_rate": 0.22093023255813954
+      }
+    },
+    {
+      "full_draft": {
+        "losses": 8,
+        "maximum": 470.31999999999994,
+        "mean_points_above_adp": -26.83733333333336,
+        "mean_without_largest_gain": -62.348571428571454,
+        "minimum": -399.5600000000002,
+        "n": 15,
+        "paired_bootstrap_95pct": [
+          -125.12400000000004,
+          77.63733333333327
+        ],
+        "passes_headroom_gate": false,
+        "ties": 0,
+        "trimmed_mean_10pct": -36.40923076923078,
+        "wins": 7
+      },
+      "season": 2020,
+      "turn": {
+        "adp_mean_candidate_regret": 81.36351562500002,
+        "adp_zero_regret_rate": 0.18359375,
+        "mean_candidate_regret": 90.24234375,
+        "states": 256,
+        "zero_regret_rate": 0.1328125
+      }
+    }
+  ],
+  "model_config": {
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "loss": "squared_error on negative candidate regret",
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 30,
+    "random_state": 20260906
+  },
+  "oof_full_draft": {
+    "losses": 32,
+    "maximum": 545.9200000000001,
+    "mean_points_above_adp": 14.467466666666654,
+    "mean_without_largest_gain": 7.2856756756756615,
+    "minimum": -707.4399999999998,
+    "n": 75,
+    "paired_bootstrap_95pct": [
+      -36.72960000000001,
+      66.464
+    ],
+    "passes_headroom_gate": true,
+    "ties": 0,
+    "trimmed_mean_10pct": 17.50295081967212,
+    "wins": 43
+  },
+  "oof_turn": {
+    "adp_mean_candidate_regret": 76.88883346741754,
+    "adp_zero_regret_rate": 0.2252614641995173,
+    "mean_candidate_regret": 75.73044247787611,
+    "states": 1243,
+    "zero_regret_rate": 0.21882542236524538
+  },
+  "paid_spend_usd": 0.0,
+  "protocol": "fantasy-alpha-outcome-ranker-v1",
+  "selection": "single predeclared HistGradientBoostingRegressor recipe; no held-out tuning"
+}
