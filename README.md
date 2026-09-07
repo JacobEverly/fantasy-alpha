@@ -27,17 +27,24 @@ before the evaluated runs.
 | Rank-32 LoRA trained through Tinker on 811 traces | Development NLL fell from 1.257 to 0.815 | No reliable improvement over the base model | Revise the training data before RL |
 | Tool-decision classifier | 99.1% accuracy on its held-out imitation task | Successful tool calls made drafts worse | Stop using imitation accuracy as the target |
 | Outcome-linked supervisor | +2.64 points per isolated held-out decision | −15.75 points per paired draft over 30 episodes | Do not train the current policy with RL |
+| Sparse reversible controller | 4 of 30 proposed revisions accepted | −4.92 points per paired draft; 3 wins, 3 losses, 24 ties | Fix clean-state reversion before training |
 
-The last result is the most informative. The supervisor was trained to estimate
-whether one lookup would improve an isolated decision. It found a weak positive
-signal, but its interventions changed later draft states. Small mistakes then
-accumulated over the rest of the episode. All 412 forced lookups succeeded, so
-the failure was not tool reliability; it was the difference between evaluating
-one decision and evaluating the trajectory that decision creates.
+The outcome-linked result exposed the central problem. The supervisor found a
+weak positive signal for isolated decisions, but its interventions changed the
+later draft. All 412 forced lookups succeeded, so the failure was not tool
+reliability; it was the difference between judging one decision and judging the
+sequence it creates.
 
 This is why the project reports local metrics and full-episode outcomes
 separately. A lower loss or a more accurate classifier is useful evidence, but
 it is not treated as a product result.
+
+The newest controller limited itself to one lookup and rejected 26 of 30
+revisions. It removed the repeated-tool failure, but not every downstream
+effect: two rejected lookups still changed later picks because the extra model
+call advanced the seed schedule used for subsequent decisions. The action and
+draft state reverted; the sampling path did not. That is now the next problem
+to isolate.
 
 ## Experimental setup
 
@@ -89,8 +96,9 @@ For the shortest path through the work:
 1. [Tinker SFT experiment](docs/tinker-sft-experiment-report.md)
 2. [Tool-decision supervisor](docs/tool-decision-supervisor-experiment.md)
 3. [Outcome-linked supervisor](docs/value-of-information-experiment.md)
-4. [Outcome-linked dataset card](docs/value-of-information-dataset-card.md)
-5. [Budget ledger](docs/budget-ledger.md)
+4. [Sparse reversible canary](docs/sparse-reversible-canary.md)
+5. [Outcome-linked dataset card](docs/value-of-information-dataset-card.md)
+6. [Budget ledger](docs/budget-ledger.md)
 
 The corresponding machine-readable artifacts are under `artifacts/`. Frozen
 protocols are under `training/` and include hashes of the code used for each
@@ -110,11 +118,10 @@ Most validation and report-generation commands do not require provider access.
 
 ## Current direction
 
-The current supervisor should not be optimized further with RL. A useful next
-experiment would train or select interventions using the future trajectory they
-induce, including the model's response after evidence is returned. Any such
-policy should first beat the untouched base model in a small full-episode
-development run before receiving a larger training budget.
+The current supervisor should not be optimized further with RL. The next test
+is narrower: when a proposed revision is rejected, restore the future sampling
+schedule as well as the action and draft state. That version should beat
+untouched Qwen in a small full-draft run before receiving a training budget.
 
 The historical results establish behavior in this environment only. They do not
 establish forecasting skill for a future NFL season or a general result about

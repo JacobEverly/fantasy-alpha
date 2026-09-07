@@ -1,0 +1,90 @@
+{
+  "arms": {
+    "base": {
+      "cost_usd": 0.611265309,
+      "episodes": 30,
+      "mean_reward": -0.05999999999999807
+    },
+    "treatment": {
+      "cost_usd": 0.6257977290000001,
+      "episodes": 30,
+      "mean_reward": -4.981333333333331
+    }
+  },
+  "complete": true,
+  "created_at": "2026-09-07T01:39:53.011643+00:00",
+  "decision": "revise_or_stop_sparse_intervention",
+  "early_kill": false,
+  "episode_deltas": {
+    "season2015:slot10:seed229": 0.0,
+    "season2015:slot12:seed233": 0.0,
+    "season2015:slot1:seed211": 0.0,
+    "season2015:slot4:seed223": 0.0,
+    "season2015:slot7:seed227": 0.0,
+    "season2016:slot10:seed229": 0.0,
+    "season2016:slot1:seed211": -306.56,
+    "season2016:slot4:seed223": 0.0,
+    "season2016:slot7:seed227": -30.23999999999998,
+    "season2017:slot10:seed229": 0.0,
+    "season2017:slot1:seed211": 0.0,
+    "season2017:slot4:seed223": 0.0,
+    "season2017:slot7:seed227": 0.0,
+    "season2019:slot10:seed229": 0.0,
+    "season2019:slot1:seed211": 0.0,
+    "season2019:slot4:seed223": 0.0,
+    "season2019:slot7:seed227": 35.53999999999999,
+    "season2020:slot10:seed229": 0.0,
+    "season2020:slot1:seed211": 0.0,
+    "season2020:slot4:seed223": 0.0,
+    "season2020:slot7:seed227": 0.0,
+    "season2021:slot10:seed229": 0.0,
+    "season2021:slot1:seed211": 146.8,
+    "season2021:slot4:seed223": 61.81999999999999,
+    "season2021:slot7:seed227": -54.99999999999999,
+    "season2022:slot10:seed229": 0.0,
+    "season2022:slot12:seed239": 0.0,
+    "season2022:slot1:seed211": 0.0,
+    "season2022:slot4:seed223": 0.0,
+    "season2022:slot7:seed227": 0.0
+  },
+  "fit_or_tuning_on_canary": false,
+  "incremental_spend_usd": 1.237063038,
+  "intervention_summary": {
+    "accepted_revisions": 4,
+    "interventions": 30,
+    "reverted_revisions": 26,
+    "tool_calls": 30
+  },
+  "paired": {
+    "bootstrap_95_ci": [
+      -31.304666666666666,
+      14.856666666666667
+    ],
+    "critical_improvements": 3,
+    "critical_regressions": 3,
+    "losses": 3,
+    "matched_pairs": 30,
+    "mean_delta": -4.921333333333333,
+    "mean_without_largest_gain": -10.153103448275862,
+    "median_delta": 0.0,
+    "ten_percent_trimmed_mean_delta": 0.0,
+    "ties": 24,
+    "wins": 3
+  },
+  "protocol": "fantasy-alpha-sparse-reversible-canary-v1",
+  "signal_gate": {
+    "all_completed": true,
+    "critical_improvements_at_least_regressions": true,
+    "matched_action_prefixes": true,
+    "max_one_intervention": true,
+    "max_one_tool_call": true,
+    "paired_mean_positive": false,
+    "pass": false,
+    "positive_without_largest_gain": false,
+    "sealed_seasons_absent": true,
+    "ten_percent_trimmed_mean_positive": false,
+    "wins_exceed_losses": false,
+    "zero_illegal_accepted_actions": true
+  },
+  "spend_status": "exact request-ledger cost; provider reconciliation pending"
+}

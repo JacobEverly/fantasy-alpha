@@ -1,0 +1,323 @@
+{
+  "budget": {
+    "hard_cap_usd": 5.0,
+    "target_usd": 2.0
+  },
+  "claims": "a positive result is a development canary for the inference-time controller, not proof that Qwen weights improved or that the result generalizes",
+  "controller": {
+    "first_round": 1,
+    "last_round": 4,
+    "max_adp_reach": 18.0,
+    "relative_adp_stdev_threshold": 0.1
+  },
+  "controller_rationale": "development-only transparent rule: relative ADP uncertainty >=10% had positive local value with zero harmful selections; restrict to rounds 1-4, one lookup, and revert unless evidence is adverse",
+  "created_at": "2026-09-07T01:01:02.708591+00:00",
+  "frozen_before_paid_outcomes": true,
+  "implementation_hashes": {
+    "envs/draftgym.py": "78b51641fa6bc845a92b66ec45e5b97258909d9c3e0618dfe90299ed0b3ec7fe",
+    "envs/play_llm.py": "34fd53e00855f48b9b77f3db534a1f79d991c7da357d67bad6e516f086300bea",
+    "envs/play_llm_reversible.py": "fcbafa880d7aaab71f53739f91ba6dea6a768ed75062579a8168e937a583e0c4",
+    "harness/sparse_reversible.py": "d8f4a019f07b990dbf0fab79a544c56c510775232f9f62d494b2356885668e00",
+    "training/tinker_backend.py": "90ad8a4398e62fd98f01a0b4bc0b11adf14dfbb2b0d0e69b2f6361c68140998f"
+  },
+  "model": {
+    "max_tokens": 700,
+    "name": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "temperature": 0.0
+  },
+  "panel": [
+    {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "episode_id": "season2015:slot1:seed211",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2015,
+      "seed": 211
+    },
+    {
+      "agent_slot": 4,
+      "enable_evidence": true,
+      "episode_id": "season2015:slot4:seed223",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2015,
+      "seed": 223
+    },
+    {
+      "agent_slot": 7,
+      "enable_evidence": true,
+      "episode_id": "season2015:slot7:seed227",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2015,
+      "seed": 227
+    },
+    {
+      "agent_slot": 10,
+      "enable_evidence": true,
+      "episode_id": "season2015:slot10:seed229",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2015,
+      "seed": 229
+    },
+    {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "episode_id": "season2016:slot1:seed211",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2016,
+      "seed": 211
+    },
+    {
+      "agent_slot": 4,
+      "enable_evidence": true,
+      "episode_id": "season2016:slot4:seed223",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2016,
+      "seed": 223
+    },
+    {
+      "agent_slot": 7,
+      "enable_evidence": true,
+      "episode_id": "season2016:slot7:seed227",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2016,
+      "seed": 227
+    },
+    {
+      "agent_slot": 10,
+      "enable_evidence": true,
+      "episode_id": "season2016:slot10:seed229",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2016,
+      "seed": 229
+    },
+    {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "episode_id": "season2017:slot1:seed211",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2017,
+      "seed": 211
+    },
+    {
+      "agent_slot": 4,
+      "enable_evidence": true,
+      "episode_id": "season2017:slot4:seed223",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2017,
+      "seed": 223
+    },
+    {
+      "agent_slot": 7,
+      "enable_evidence": true,
+      "episode_id": "season2017:slot7:seed227",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2017,
+      "seed": 227
+    },
+    {
+      "agent_slot": 10,
+      "enable_evidence": true,
+      "episode_id": "season2017:slot10:seed229",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2017,
+      "seed": 229
+    },
+    {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "episode_id": "season2019:slot1:seed211",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2019,
+      "seed": 211
+    },
+    {
+      "agent_slot": 4,
+      "enable_evidence": true,
+      "episode_id": "season2019:slot4:seed223",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2019,
+      "seed": 223
+    },
+    {
+      "agent_slot": 7,
+      "enable_evidence": true,
+      "episode_id": "season2019:slot7:seed227",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2019,
+      "seed": 227
+    },
+    {
+      "agent_slot": 10,
+      "enable_evidence": true,
+      "episode_id": "season2019:slot10:seed229",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2019,
+      "seed": 229
+    },
+    {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "episode_id": "season2020:slot1:seed211",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2020,
+      "seed": 211
+    },
+    {
+      "agent_slot": 4,
+      "enable_evidence": true,
+      "episode_id": "season2020:slot4:seed223",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2020,
+      "seed": 223
+    },
+    {
+      "agent_slot": 7,
+      "enable_evidence": true,
+      "episode_id": "season2020:slot7:seed227",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2020,
+      "seed": 227
+    },
+    {
+      "agent_slot": 10,
+      "enable_evidence": true,
+      "episode_id": "season2020:slot10:seed229",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2020,
+      "seed": 229
+    },
+    {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "episode_id": "season2021:slot1:seed211",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2021,
+      "seed": 211
+    },
+    {
+      "agent_slot": 4,
+      "enable_evidence": true,
+      "episode_id": "season2021:slot4:seed223",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2021,
+      "seed": 223
+    },
+    {
+      "agent_slot": 7,
+      "enable_evidence": true,
+      "episode_id": "season2021:slot7:seed227",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2021,
+      "seed": 227
+    },
+    {
+      "agent_slot": 10,
+      "enable_evidence": true,
+      "episode_id": "season2021:slot10:seed229",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2021,
+      "seed": 229
+    },
+    {
+      "agent_slot": 1,
+      "enable_evidence": true,
+      "episode_id": "season2022:slot1:seed211",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2022,
+      "seed": 211
+    },
+    {
+      "agent_slot": 4,
+      "enable_evidence": true,
+      "episode_id": "season2022:slot4:seed223",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2022,
+      "seed": 223
+    },
+    {
+      "agent_slot": 7,
+      "enable_evidence": true,
+      "episode_id": "season2022:slot7:seed227",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2022,
+      "seed": 227
+    },
+    {
+      "agent_slot": 10,
+      "enable_evidence": true,
+      "episode_id": "season2022:slot10:seed229",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2022,
+      "seed": 229
+    },
+    {
+      "agent_slot": 12,
+      "enable_evidence": true,
+      "episode_id": "season2015:slot12:seed233",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2015,
+      "seed": 233
+    },
+    {
+      "agent_slot": 12,
+      "enable_evidence": true,
+      "episode_id": "season2022:slot12:seed239",
+      "mask_names": true,
+      "preset": "ppr",
+      "season": 2022,
+      "seed": 239
+    }
+  ],
+  "protocol": "fantasy-alpha-sparse-reversible-canary-v1",
+  "research_question": "Can one conservative, reversible evidence intervention improve complete DraftGym reward over untouched base Qwen?",
+  "sealed_seasons": [
+    2013,
+    2018,
+    2023,
+    2024,
+    2025
+  ],
+  "staging": {
+    "early_kill": "stop only for an invariant failure, or after 8 pairs when there are at least 3 critical regressions, zero critical improvements, and paired mean delta <= -25",
+    "stage_one_pairs": 8
+  },
+  "success_gates": {
+    "critical_improvements_at_least_regressions": true,
+    "max_one_intervention": true,
+    "paired_mean_positive": true,
+    "positive_without_largest_gain": true,
+    "ten_percent_trimmed_mean_positive": true,
+    "wins_exceed_losses": true,
+    "zero_illegal_accepted_actions": true
+  }
+}

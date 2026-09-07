@@ -1,0 +1,60 @@
+{
+  "protocol": "fantasy-alpha-sparse-reversible-canary-v1",
+  "created_at": "2026-09-07T02:03:24.895923+00:00",
+  "pricing_basis": {
+    "base_model": "Qwen/Qwen3.5-9B",
+    "prefill_usd_per_million_tokens": 0.66,
+    "cached_prefill_usd_per_million_tokens": 0.132,
+    "sample_usd_per_million_tokens": 1.995
+  },
+  "arms": {
+    "base": {
+      "episodes": 30,
+      "usage": {
+        "prefill_tokens": 893039,
+        "cached_prefill_tokens": 100992,
+        "sample_tokens": 4275
+      },
+      "cost_usd": 0.611265309
+    },
+    "treatment": {
+      "episodes": 30,
+      "usage": {
+        "prefill_tokens": 902631,
+        "cached_prefill_tokens": 158592,
+        "sample_tokens": 4575
+      },
+      "cost_usd": 0.625797729
+    }
+  },
+  "total_usage": {
+    "prefill_tokens": 1795670,
+    "cached_prefill_tokens": 259584,
+    "sample_tokens": 8850
+  },
+  "exact_incremental_usd": 1.237063038,
+  "target_under_two_usd": true,
+  "hard_cap_under_five_usd": true,
+  "cumulative_tinker_before_experiment_usd": 18.573989202,
+  "cumulative_tinker_after_experiment_usd": 19.81105224,
+  "request_ledger": {
+    "path": "artifacts/sparse-reversible-canary-v1/matched-records.jsonl",
+    "sha256": "9c808c6e43ebedc44f9cb5c501b89149e9ae98bc0ecb2d878239ff3b47e9b44a",
+    "basis": "provider-returned request token counts multiplied by frozen model rates"
+  },
+  "scorecard": {
+    "path": "artifacts/sparse-reversible-canary-v1/scorecard.json",
+    "sha256": "13718a8b7d15ab96912daf0711923bd29b198897bf1ecb2e94c3131cbb72d927"
+  },
+  "provider_snapshot": {
+    "path": "artifacts/sparse-reversible-canary-v1/billing.json",
+    "sha256": "25d5b823d2042d5dae8fad6a17000376d1204ed69be692e48613c0f573703404",
+    "queried_at": "2026-09-07T02:03:24.895923+00:00",
+    "events": 0,
+    "status": "hourly provider events not yet settled; exact request ledger retained"
+  },
+  "ongoing_storage_included": false,
+  "sealed_seasons_opened": [],
+  "fit_or_tuning_on_canary": false,
+  "sft_or_rl_started": false
+}
