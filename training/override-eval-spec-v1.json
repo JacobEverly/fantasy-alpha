@@ -1,0 +1,81 @@
+{
+  "protocol": "fantasy-alpha-high-confidence-override-eval-v1",
+  "status": "frozen-before-paid-training-and-before-opening-2025",
+  "primary_question": "Does one-epoch LoRA SFT improve Qwen3.5-9B's ability to make rare, high-confidence ADP overrides without creating excessive false interventions?",
+  "systems": [
+    "adp_control",
+    "frozen_80_80_risk_aware_teacher",
+    "untouched_Qwen_Qwen3.5-9B",
+    "one_epoch_Qwen_Qwen3.5-9B_LoRA_adapter"
+  ],
+  "holdout": {
+    "season": 2025,
+    "format": "ppr",
+    "slots": [1, 6, 12],
+    "seeds": [0, 1, 2, 3, 4],
+    "drafts_per_system": 15,
+    "opened_only_after_adapter_is_complete": true
+  },
+  "generation": {
+    "temperature": 0.0,
+    "max_output_tokens": 48,
+    "seed_base": 20260907,
+    "renderer": "qwen3_5_disable_thinking",
+    "candidate_count": 5,
+    "malformed_or_illegal_action": "fall_back_to_ADP_and_count_failure",
+    "system_prompt": "You are a conservative fantasy-football draft decision policy. Choose KEEP_ADP unless the visible evidence strongly supports one listed alternative. Return only compact JSON matching one of these schemas: {\"decision\":\"KEEP_ADP\"} or {\"decision\":\"OVERRIDE\",\"candidate_id\":\"B000\"}."
+  },
+  "training": {
+    "base_model": "Qwen/Qwen3.5-9B",
+    "lora_rank": 16,
+    "learning_rate": 0.0001,
+    "epochs": 1,
+    "batch_size": 32,
+    "development_fraction": 0.15,
+    "checkpoint_selection": "final checkpoint; no heldout selection",
+    "new_spend_hard_cap_usd": 10.0
+  },
+  "metrics": {
+    "behavior": [
+      "valid_structured_output_rate",
+      "teacher_override_precision",
+      "teacher_override_recall",
+      "exact_teacher_action_precision",
+      "exact_teacher_action_recall",
+      "false_override_rate_on_teacher_keep_states",
+      "intervention_rate",
+      "paired_base_adapter_decision_differences"
+    ],
+    "product": [
+      "mean_points_above_ADP",
+      "10pct_trimmed_mean_points_above_ADP",
+      "mean_without_largest_gain",
+      "wins_losses_ties_vs_ADP",
+      "paired_bootstrap_95pct_interval",
+      "catastrophic_drafts_below_minus_100"
+    ],
+    "cost": [
+      "training_tokens_and_usd",
+      "base_evaluation_tokens_and_usd",
+      "adapter_evaluation_tokens_and_usd",
+      "total_incremental_usd"
+    ]
+  },
+  "success_gates": {
+    "adapter_valid_structured_output_rate_at_least": 0.98,
+    "adapter_teacher_override_precision_at_least": 0.5,
+    "adapter_exact_teacher_action_recall_at_least": 0.25,
+    "adapter_false_override_rate_on_teacher_keep_states_at_most": 0.02,
+    "adapter_intervention_rate_at_most": 0.1,
+    "adapter_exact_teacher_action_F1_must_exceed_base": true,
+    "product_safety": "adapter mean points above ADP must be at least -5 and adapter catastrophes may not exceed the untouched base",
+    "product_upside": "reported separately; strongest result is positive mean and trimmed mean versus ADP, but it is not required to claim behavioral learning"
+  },
+  "interpretation_rules": [
+    "No prompt, decoding, threshold, checkpoint, or corpus changes after opening the 2025 holdout.",
+    "The 2021-2022 panel is provisional because it was already opened; it is not fresh heldout proof.",
+    "The 2013 result remains an out-of-distribution historical stress-test failure and is never removed from reporting.",
+    "A format-only improvement is not a product win unless teacher agreement or roster outcomes also improve.",
+    "The deterministic teacher remains the production fallback if the adapter fails any safety gate."
+  ]
+}

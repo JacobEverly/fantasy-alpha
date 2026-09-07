@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: fantasy-alpha
 Version: 0.1.0
-Summary: AI fantasy football analyst: league-agnostic engine, harness, envs, evals
+Summary: Experiments in post-training and evaluating language models for sequential decisions
 Requires-Python: >=3.10
 Provides-Extra: dev
 Requires-Dist: pytest>=8; extra == "dev"
