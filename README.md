@@ -6,8 +6,8 @@ This project explores agents that follow a human-led task continuously and
 intervene when they can reduce downside or surface a better action. The human
 stays in control; the agent stays in context.
 
-That pattern matters most in high-consequence work—clinical care, incident
-response, and complex operations—where full automation may be inappropriate
+That pattern matters most in high-consequence work, clinical care, incident
+response, and complex operations, where full automation may be inappropriate
 but overlooking one signal can be costly.
 
 ## Fantasy football as a test bed
