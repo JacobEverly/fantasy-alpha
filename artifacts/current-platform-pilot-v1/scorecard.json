@@ -1,0 +1,890 @@
+{
+  "protocol": "current-platform-pilot-v1",
+  "snapshot_date": "2026-09-07",
+  "source_captured_at": "2026-09-07T15:22:57.783908+00:00",
+  "source_hashes": {
+    "data/raw/host_ranks/2026-09-07/host_ranks_parsed.json": "d4ee21f1ec0d63ce76e289e84984f805a7a0d7e1782ab7e01b688d38326f5b86",
+    "data/raw/host_ranks/2026-09-07/espn_kona_player_info.json": "df9b5ce44786d8ff6b1981aef65eb2bd93a070c356fcd2c1c5a105f258fb1a9b"
+  },
+  "league": "12-team PPR, 15 rounds, slots 1/6/12",
+  "evaluation": "ESPN weekly PPR projections",
+  "interpretation": "product-mechanics pilot; not realized forecasting performance",
+  "results": [
+    {
+      "platform": "espn",
+      "matched_players": 433,
+      "drafts": 60,
+      "platform_default_mean": 2063.9808,
+      "agent_assisted_mean": 2134.9729,
+      "mean_difference": 70.9921,
+      "mean_improvement_percent": 3.4396,
+      "difference_bootstrap_95_ci": [
+        58.2584,
+        83.7865
+      ],
+      "wins": 56,
+      "losses": 4,
+      "ties": 0,
+      "pairs": [
+        {
+          "slot": 1,
+          "seed": 20270907,
+          "platform_default_points": 2074.4249,
+          "agent_assisted_points": 2182.9945,
+          "difference": 108.5696
+        },
+        {
+          "slot": 1,
+          "seed": 20270908,
+          "platform_default_points": 2028.8894,
+          "agent_assisted_points": 2175.2682,
+          "difference": 146.3789
+        },
+        {
+          "slot": 1,
+          "seed": 20270909,
+          "platform_default_points": 2070.1611,
+          "agent_assisted_points": 2196.2968,
+          "difference": 126.1358
+        },
+        {
+          "slot": 1,
+          "seed": 20270910,
+          "platform_default_points": 2121.387,
+          "agent_assisted_points": 2161.4156,
+          "difference": 40.0286
+        },
+        {
+          "slot": 1,
+          "seed": 20270911,
+          "platform_default_points": 2025.1821,
+          "agent_assisted_points": 2185.2721,
+          "difference": 160.09
+        },
+        {
+          "slot": 1,
+          "seed": 20270912,
+          "platform_default_points": 2092.7111,
+          "agent_assisted_points": 2167.2371,
+          "difference": 74.5259
+        },
+        {
+          "slot": 1,
+          "seed": 20270913,
+          "platform_default_points": 2029.4288,
+          "agent_assisted_points": 2180.3801,
+          "difference": 150.9513
+        },
+        {
+          "slot": 1,
+          "seed": 20270914,
+          "platform_default_points": 2020.8021,
+          "agent_assisted_points": 2161.4361,
+          "difference": 140.6339
+        },
+        {
+          "slot": 1,
+          "seed": 20270915,
+          "platform_default_points": 2102.0614,
+          "agent_assisted_points": 2145.7841,
+          "difference": 43.7227
+        },
+        {
+          "slot": 1,
+          "seed": 20270916,
+          "platform_default_points": 2092.8284,
+          "agent_assisted_points": 2210.5896,
+          "difference": 117.7612
+        },
+        {
+          "slot": 1,
+          "seed": 20270917,
+          "platform_default_points": 2029.7852,
+          "agent_assisted_points": 2155.4006,
+          "difference": 125.6154
+        },
+        {
+          "slot": 1,
+          "seed": 20270918,
+          "platform_default_points": 2094.2164,
+          "agent_assisted_points": 2184.6845,
+          "difference": 90.4681
+        },
+        {
+          "slot": 1,
+          "seed": 20270919,
+          "platform_default_points": 2035.1745,
+          "agent_assisted_points": 2169.53,
+          "difference": 134.3556
+        },
+        {
+          "slot": 1,
+          "seed": 20270920,
+          "platform_default_points": 2119.514,
+          "agent_assisted_points": 2165.9379,
+          "difference": 46.4239
+        },
+        {
+          "slot": 1,
+          "seed": 20270921,
+          "platform_default_points": 2082.2454,
+          "agent_assisted_points": 2169.9371,
+          "difference": 87.6916
+        },
+        {
+          "slot": 1,
+          "seed": 20270922,
+          "platform_default_points": 2099.7449,
+          "agent_assisted_points": 2161.1127,
+          "difference": 61.3678
+        },
+        {
+          "slot": 1,
+          "seed": 20270923,
+          "platform_default_points": 2088.9998,
+          "agent_assisted_points": 2167.8254,
+          "difference": 78.8255
+        },
+        {
+          "slot": 1,
+          "seed": 20270924,
+          "platform_default_points": 2069.164,
+          "agent_assisted_points": 2153.1443,
+          "difference": 83.9803
+        },
+        {
+          "slot": 1,
+          "seed": 20270925,
+          "platform_default_points": 2095.1759,
+          "agent_assisted_points": 2198.5408,
+          "difference": 103.3649
+        },
+        {
+          "slot": 1,
+          "seed": 20270926,
+          "platform_default_points": 2126.1889,
+          "agent_assisted_points": 2168.237,
+          "difference": 42.0482
+        },
+        {
+          "slot": 6,
+          "seed": 20320907,
+          "platform_default_points": 2124.3945,
+          "agent_assisted_points": 2166.756,
+          "difference": 42.3616
+        },
+        {
+          "slot": 6,
+          "seed": 20320908,
+          "platform_default_points": 2097.3472,
+          "agent_assisted_points": 2158.3273,
+          "difference": 60.9801
+        },
+        {
+          "slot": 6,
+          "seed": 20320909,
+          "platform_default_points": 2050.7547,
+          "agent_assisted_points": 2164.637,
+          "difference": 113.8824
+        },
+        {
+          "slot": 6,
+          "seed": 20320910,
+          "platform_default_points": 2111.1289,
+          "agent_assisted_points": 2134.6674,
+          "difference": 23.5385
+        },
+        {
+          "slot": 6,
+          "seed": 20320911,
+          "platform_default_points": 2027.2626,
+          "agent_assisted_points": 2150.9073,
+          "difference": 123.6448
+        },
+        {
+          "slot": 6,
+          "seed": 20320912,
+          "platform_default_points": 1981.4011,
+          "agent_assisted_points": 2142.5379,
+          "difference": 161.1369
+        },
+        {
+          "slot": 6,
+          "seed": 20320913,
+          "platform_default_points": 2093.7567,
+          "agent_assisted_points": 2146.4953,
+          "difference": 52.7386
+        },
+        {
+          "slot": 6,
+          "seed": 20320914,
+          "platform_default_points": 2054.7835,
+          "agent_assisted_points": 2159.1468,
+          "difference": 104.3633
+        },
+        {
+          "slot": 6,
+          "seed": 20320915,
+          "platform_default_points": 2067.1072,
+          "agent_assisted_points": 2144.7295,
+          "difference": 77.6223
+        },
+        {
+          "slot": 6,
+          "seed": 20320916,
+          "platform_default_points": 2087.9728,
+          "agent_assisted_points": 2138.3764,
+          "difference": 50.4035
+        },
+        {
+          "slot": 6,
+          "seed": 20320917,
+          "platform_default_points": 2101.8712,
+          "agent_assisted_points": 2120.0172,
+          "difference": 18.146
+        },
+        {
+          "slot": 6,
+          "seed": 20320918,
+          "platform_default_points": 2061.8476,
+          "agent_assisted_points": 2166.287,
+          "difference": 104.4393
+        },
+        {
+          "slot": 6,
+          "seed": 20320919,
+          "platform_default_points": 1941.749,
+          "agent_assisted_points": 2164.6274,
+          "difference": 222.8784
+        },
+        {
+          "slot": 6,
+          "seed": 20320920,
+          "platform_default_points": 2069.0445,
+          "agent_assisted_points": 2127.8585,
+          "difference": 58.814
+        },
+        {
+          "slot": 6,
+          "seed": 20320921,
+          "platform_default_points": 2023.1828,
+          "agent_assisted_points": 2162.8069,
+          "difference": 139.624
+        },
+        {
+          "slot": 6,
+          "seed": 20320922,
+          "platform_default_points": 2032.82,
+          "agent_assisted_points": 2145.0,
+          "difference": 112.18
+        },
+        {
+          "slot": 6,
+          "seed": 20320923,
+          "platform_default_points": 2112.1307,
+          "agent_assisted_points": 2158.7952,
+          "difference": 46.6645
+        },
+        {
+          "slot": 6,
+          "seed": 20320924,
+          "platform_default_points": 2138.6632,
+          "agent_assisted_points": 2153.1,
+          "difference": 14.4368
+        },
+        {
+          "slot": 6,
+          "seed": 20320925,
+          "platform_default_points": 2128.5231,
+          "agent_assisted_points": 2153.2772,
+          "difference": 24.7542
+        },
+        {
+          "slot": 6,
+          "seed": 20320926,
+          "platform_default_points": 2089.171,
+          "agent_assisted_points": 2143.5049,
+          "difference": 54.3339
+        },
+        {
+          "slot": 12,
+          "seed": 20380907,
+          "platform_default_points": 1995.0166,
+          "agent_assisted_points": 2062.6858,
+          "difference": 67.6692
+        },
+        {
+          "slot": 12,
+          "seed": 20380908,
+          "platform_default_points": 2056.112,
+          "agent_assisted_points": 2057.5334,
+          "difference": 1.4214
+        },
+        {
+          "slot": 12,
+          "seed": 20380909,
+          "platform_default_points": 2044.8877,
+          "agent_assisted_points": 2089.5814,
+          "difference": 44.6937
+        },
+        {
+          "slot": 12,
+          "seed": 20380910,
+          "platform_default_points": 2079.3545,
+          "agent_assisted_points": 2066.3881,
+          "difference": -12.9664
+        },
+        {
+          "slot": 12,
+          "seed": 20380911,
+          "platform_default_points": 2116.4035,
+          "agent_assisted_points": 2081.7179,
+          "difference": -34.6857
+        },
+        {
+          "slot": 12,
+          "seed": 20380912,
+          "platform_default_points": 2057.6753,
+          "agent_assisted_points": 2080.9128,
+          "difference": 23.2375
+        },
+        {
+          "slot": 12,
+          "seed": 20380913,
+          "platform_default_points": 2001.0203,
+          "agent_assisted_points": 2076.4709,
+          "difference": 75.4506
+        },
+        {
+          "slot": 12,
+          "seed": 20380914,
+          "platform_default_points": 1987.3916,
+          "agent_assisted_points": 2084.276,
+          "difference": 96.8844
+        },
+        {
+          "slot": 12,
+          "seed": 20380915,
+          "platform_default_points": 2009.6903,
+          "agent_assisted_points": 2052.4057,
+          "difference": 42.7154
+        },
+        {
+          "slot": 12,
+          "seed": 20380916,
+          "platform_default_points": 2022.5297,
+          "agent_assisted_points": 2086.9041,
+          "difference": 64.3743
+        },
+        {
+          "slot": 12,
+          "seed": 20380917,
+          "platform_default_points": 2106.4363,
+          "agent_assisted_points": 2085.9684,
+          "difference": -20.4679
+        },
+        {
+          "slot": 12,
+          "seed": 20380918,
+          "platform_default_points": 2042.1386,
+          "agent_assisted_points": 2081.1735,
+          "difference": 39.0348
+        },
+        {
+          "slot": 12,
+          "seed": 20380919,
+          "platform_default_points": 1979.9856,
+          "agent_assisted_points": 2067.3483,
+          "difference": 87.3627
+        },
+        {
+          "slot": 12,
+          "seed": 20380920,
+          "platform_default_points": 2058.4299,
+          "agent_assisted_points": 2078.7344,
+          "difference": 20.3044
+        },
+        {
+          "slot": 12,
+          "seed": 20380921,
+          "platform_default_points": 2018.5334,
+          "agent_assisted_points": 2081.5152,
+          "difference": 62.9818
+        },
+        {
+          "slot": 12,
+          "seed": 20380922,
+          "platform_default_points": 2089.5591,
+          "agent_assisted_points": 2097.6758,
+          "difference": 8.1167
+        },
+        {
+          "slot": 12,
+          "seed": 20380923,
+          "platform_default_points": 2070.5629,
+          "agent_assisted_points": 2082.5585,
+          "difference": 11.9956
+        },
+        {
+          "slot": 12,
+          "seed": 20380924,
+          "platform_default_points": 2113.4772,
+          "agent_assisted_points": 2111.6887,
+          "difference": -1.7886
+        },
+        {
+          "slot": 12,
+          "seed": 20380925,
+          "platform_default_points": 2005.9459,
+          "agent_assisted_points": 2082.9736,
+          "difference": 77.0276
+        },
+        {
+          "slot": 12,
+          "seed": 20380926,
+          "platform_default_points": 2090.7009,
+          "agent_assisted_points": 2126.9825,
+          "difference": 36.2816
+        }
+      ]
+    },
+    {
+      "platform": "yahoo",
+      "matched_players": 255,
+      "drafts": 60,
+      "platform_default_mean": 2075.1145,
+      "agent_assisted_mean": 2195.5449,
+      "mean_difference": 120.4304,
+      "mean_improvement_percent": 5.8036,
+      "difference_bootstrap_95_ci": [
+        105.3509,
+        135.2093
+      ],
+      "wins": 57,
+      "losses": 3,
+      "ties": 0,
+      "pairs": [
+        {
+          "slot": 1,
+          "seed": 20270907,
+          "platform_default_points": 2101.0729,
+          "agent_assisted_points": 2215.357,
+          "difference": 114.2841
+        },
+        {
+          "slot": 1,
+          "seed": 20270908,
+          "platform_default_points": 2120.7724,
+          "agent_assisted_points": 2226.5427,
+          "difference": 105.7702
+        },
+        {
+          "slot": 1,
+          "seed": 20270909,
+          "platform_default_points": 2094.9297,
+          "agent_assisted_points": 2211.9167,
+          "difference": 116.987
+        },
+        {
+          "slot": 1,
+          "seed": 20270910,
+          "platform_default_points": 2028.2373,
+          "agent_assisted_points": 2217.0624,
+          "difference": 188.8251
+        },
+        {
+          "slot": 1,
+          "seed": 20270911,
+          "platform_default_points": 2107.2525,
+          "agent_assisted_points": 2220.1254,
+          "difference": 112.8729
+        },
+        {
+          "slot": 1,
+          "seed": 20270912,
+          "platform_default_points": 2019.295,
+          "agent_assisted_points": 2220.0716,
+          "difference": 200.7766
+        },
+        {
+          "slot": 1,
+          "seed": 20270913,
+          "platform_default_points": 2079.6325,
+          "agent_assisted_points": 2220.1254,
+          "difference": 140.4929
+        },
+        {
+          "slot": 1,
+          "seed": 20270914,
+          "platform_default_points": 2073.7842,
+          "agent_assisted_points": 2192.3845,
+          "difference": 118.6003
+        },
+        {
+          "slot": 1,
+          "seed": 20270915,
+          "platform_default_points": 2044.3324,
+          "agent_assisted_points": 2232.4828,
+          "difference": 188.1504
+        },
+        {
+          "slot": 1,
+          "seed": 20270916,
+          "platform_default_points": 1994.818,
+          "agent_assisted_points": 2199.6521,
+          "difference": 204.8341
+        },
+        {
+          "slot": 1,
+          "seed": 20270917,
+          "platform_default_points": 2107.7268,
+          "agent_assisted_points": 2227.9557,
+          "difference": 120.2288
+        },
+        {
+          "slot": 1,
+          "seed": 20270918,
+          "platform_default_points": 2123.8064,
+          "agent_assisted_points": 2237.9802,
+          "difference": 114.1738
+        },
+        {
+          "slot": 1,
+          "seed": 20270919,
+          "platform_default_points": 2021.3825,
+          "agent_assisted_points": 2226.6275,
+          "difference": 205.245
+        },
+        {
+          "slot": 1,
+          "seed": 20270920,
+          "platform_default_points": 2107.5975,
+          "agent_assisted_points": 2216.7945,
+          "difference": 109.197
+        },
+        {
+          "slot": 1,
+          "seed": 20270921,
+          "platform_default_points": 2072.9546,
+          "agent_assisted_points": 2220.0716,
+          "difference": 147.117
+        },
+        {
+          "slot": 1,
+          "seed": 20270922,
+          "platform_default_points": 2069.8843,
+          "agent_assisted_points": 2234.9712,
+          "difference": 165.0869
+        },
+        {
+          "slot": 1,
+          "seed": 20270923,
+          "platform_default_points": 2097.7476,
+          "agent_assisted_points": 2237.9241,
+          "difference": 140.1765
+        },
+        {
+          "slot": 1,
+          "seed": 20270924,
+          "platform_default_points": 2036.2213,
+          "agent_assisted_points": 2216.1281,
+          "difference": 179.9067
+        },
+        {
+          "slot": 1,
+          "seed": 20270925,
+          "platform_default_points": 2086.9742,
+          "agent_assisted_points": 2241.9,
+          "difference": 154.9258
+        },
+        {
+          "slot": 1,
+          "seed": 20270926,
+          "platform_default_points": 2014.5792,
+          "agent_assisted_points": 2213.716,
+          "difference": 199.1368
+        },
+        {
+          "slot": 6,
+          "seed": 20320907,
+          "platform_default_points": 2151.6758,
+          "agent_assisted_points": 2195.8636,
+          "difference": 44.1878
+        },
+        {
+          "slot": 6,
+          "seed": 20320908,
+          "platform_default_points": 2071.7962,
+          "agent_assisted_points": 2191.6575,
+          "difference": 119.8613
+        },
+        {
+          "slot": 6,
+          "seed": 20320909,
+          "platform_default_points": 2044.0242,
+          "agent_assisted_points": 2205.5185,
+          "difference": 161.4943
+        },
+        {
+          "slot": 6,
+          "seed": 20320910,
+          "platform_default_points": 2099.7846,
+          "agent_assisted_points": 2193.1862,
+          "difference": 93.4016
+        },
+        {
+          "slot": 6,
+          "seed": 20320911,
+          "platform_default_points": 1987.8666,
+          "agent_assisted_points": 2223.9562,
+          "difference": 236.0896
+        },
+        {
+          "slot": 6,
+          "seed": 20320912,
+          "platform_default_points": 2085.6737,
+          "agent_assisted_points": 2212.3504,
+          "difference": 126.6767
+        },
+        {
+          "slot": 6,
+          "seed": 20320913,
+          "platform_default_points": 1968.2749,
+          "agent_assisted_points": 2202.0132,
+          "difference": 233.7383
+        },
+        {
+          "slot": 6,
+          "seed": 20320914,
+          "platform_default_points": 2160.3786,
+          "agent_assisted_points": 2196.7922,
+          "difference": 36.4136
+        },
+        {
+          "slot": 6,
+          "seed": 20320915,
+          "platform_default_points": 2047.6631,
+          "agent_assisted_points": 2214.3249,
+          "difference": 166.6618
+        },
+        {
+          "slot": 6,
+          "seed": 20320916,
+          "platform_default_points": 2117.9129,
+          "agent_assisted_points": 2190.7323,
+          "difference": 72.8194
+        },
+        {
+          "slot": 6,
+          "seed": 20320917,
+          "platform_default_points": 2048.7859,
+          "agent_assisted_points": 2177.929,
+          "difference": 129.143
+        },
+        {
+          "slot": 6,
+          "seed": 20320918,
+          "platform_default_points": 2007.6387,
+          "agent_assisted_points": 2222.9495,
+          "difference": 215.3108
+        },
+        {
+          "slot": 6,
+          "seed": 20320919,
+          "platform_default_points": 2121.1905,
+          "agent_assisted_points": 2225.6027,
+          "difference": 104.4122
+        },
+        {
+          "slot": 6,
+          "seed": 20320920,
+          "platform_default_points": 2078.928,
+          "agent_assisted_points": 2212.2217,
+          "difference": 133.2937
+        },
+        {
+          "slot": 6,
+          "seed": 20320921,
+          "platform_default_points": 2093.6063,
+          "agent_assisted_points": 2157.0164,
+          "difference": 63.4101
+        },
+        {
+          "slot": 6,
+          "seed": 20320922,
+          "platform_default_points": 2048.501,
+          "agent_assisted_points": 2198.6432,
+          "difference": 150.1422
+        },
+        {
+          "slot": 6,
+          "seed": 20320923,
+          "platform_default_points": 2111.689,
+          "agent_assisted_points": 2208.2346,
+          "difference": 96.5456
+        },
+        {
+          "slot": 6,
+          "seed": 20320924,
+          "platform_default_points": 2096.7648,
+          "agent_assisted_points": 2207.1375,
+          "difference": 110.3726
+        },
+        {
+          "slot": 6,
+          "seed": 20320925,
+          "platform_default_points": 2085.6583,
+          "agent_assisted_points": 2224.0523,
+          "difference": 138.394
+        },
+        {
+          "slot": 6,
+          "seed": 20320926,
+          "platform_default_points": 2040.7957,
+          "agent_assisted_points": 2195.2453,
+          "difference": 154.4496
+        },
+        {
+          "slot": 12,
+          "seed": 20380907,
+          "platform_default_points": 2107.8748,
+          "agent_assisted_points": 2193.3542,
+          "difference": 85.4795
+        },
+        {
+          "slot": 12,
+          "seed": 20380908,
+          "platform_default_points": 2188.9286,
+          "agent_assisted_points": 2176.2801,
+          "difference": -12.6485
+        },
+        {
+          "slot": 12,
+          "seed": 20380909,
+          "platform_default_points": 1945.5253,
+          "agent_assisted_points": 2136.5767,
+          "difference": 191.0514
+        },
+        {
+          "slot": 12,
+          "seed": 20380910,
+          "platform_default_points": 2099.8506,
+          "agent_assisted_points": 2152.5299,
+          "difference": 52.6793
+        },
+        {
+          "slot": 12,
+          "seed": 20380911,
+          "platform_default_points": 2031.6833,
+          "agent_assisted_points": 2168.4097,
+          "difference": 136.7263
+        },
+        {
+          "slot": 12,
+          "seed": 20380912,
+          "platform_default_points": 2078.3448,
+          "agent_assisted_points": 2122.5368,
+          "difference": 44.1919
+        },
+        {
+          "slot": 12,
+          "seed": 20380913,
+          "platform_default_points": 2114.7409,
+          "agent_assisted_points": 2145.1813,
+          "difference": 30.4403
+        },
+        {
+          "slot": 12,
+          "seed": 20380914,
+          "platform_default_points": 2120.5646,
+          "agent_assisted_points": 2185.8034,
+          "difference": 65.2388
+        },
+        {
+          "slot": 12,
+          "seed": 20380915,
+          "platform_default_points": 2038.5824,
+          "agent_assisted_points": 2180.5971,
+          "difference": 142.0147
+        },
+        {
+          "slot": 12,
+          "seed": 20380916,
+          "platform_default_points": 2096.1974,
+          "agent_assisted_points": 2158.4584,
+          "difference": 62.261
+        },
+        {
+          "slot": 12,
+          "seed": 20380917,
+          "platform_default_points": 2141.6399,
+          "agent_assisted_points": 2134.5806,
+          "difference": -7.0593
+        },
+        {
+          "slot": 12,
+          "seed": 20380918,
+          "platform_default_points": 2000.877,
+          "agent_assisted_points": 2130.9496,
+          "difference": 130.0726
+        },
+        {
+          "slot": 12,
+          "seed": 20380919,
+          "platform_default_points": 1937.2965,
+          "agent_assisted_points": 2130.7939,
+          "difference": 193.4973
+        },
+        {
+          "slot": 12,
+          "seed": 20380920,
+          "platform_default_points": 2087.1497,
+          "agent_assisted_points": 2175.1998,
+          "difference": 88.0501
+        },
+        {
+          "slot": 12,
+          "seed": 20380921,
+          "platform_default_points": 2138.4058,
+          "agent_assisted_points": 2195.6392,
+          "difference": 57.2334
+        },
+        {
+          "slot": 12,
+          "seed": 20380922,
+          "platform_default_points": 2049.0629,
+          "agent_assisted_points": 2170.2016,
+          "difference": 121.1386
+        },
+        {
+          "slot": 12,
+          "seed": 20380923,
+          "platform_default_points": 2024.8825,
+          "agent_assisted_points": 2150.2401,
+          "difference": 125.3577
+        },
+        {
+          "slot": 12,
+          "seed": 20380924,
+          "platform_default_points": 2089.2456,
+          "agent_assisted_points": 2156.4722,
+          "difference": 67.2266
+        },
+        {
+          "slot": 12,
+          "seed": 20380925,
+          "platform_default_points": 2128.0876,
+          "agent_assisted_points": 2173.3874,
+          "difference": 45.2998
+        },
+        {
+          "slot": 12,
+          "seed": 20380926,
+          "platform_default_points": 2216.3187,
+          "agent_assisted_points": 2210.2844,
+          "difference": -6.0343
+        }
+      ]
+    }
+  ]
+}
