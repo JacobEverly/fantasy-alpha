@@ -72,7 +72,57 @@ formatting alone does not count as a product improvement.
 
 ## Results
 
-Pending the one-epoch Tinker run and one-shot 2025 evaluation.
+The rank-16 adapter trained for 33 optimizer steps in 268 seconds. Development
+NLL fell from 0.0979 to 0.0316, the final checkpoint reloaded successfully, and
+the adapter archive was exported. Training plus its lifecycle samples cost
+$1.1288.
+
+The frozen 2025 comparison then produced a clear negative result:
+
+| System | Valid actions | Teacher overrides recovered | False overrides | Mean points vs ADP | W-L-T |
+|---|---:|---:|---:|---:|---:|
+| Untouched Qwen3.5-9B | 100% | 0 of 3 | 1 | −7.09 | 0-1-14 |
+| Rank-16 adapter | 100% | 0 of 3 | 5 | −29.49 | 0-5-10 |
+| Deterministic teacher | n/a | n/a | n/a | −22.36 | 0-3-12 |
+
+The adapter made the same incorrect first-pick override in all five slot-1
+drafts. Those drafts lost between 76.2 and 106.9 points relative to ADP. Its
+95% paired bootstrap interval versus ADP was [−51.85, −10.22]. The adapter
+passed only the output-format and sparse-intervention gates; it failed override
+precision, recall, false-override safety, improvement over base, and product
+safety.
+
+The exact incremental cost of training and both evaluation arms was $1.2744.
+No prompt, threshold, checkpoint, or training change was made after opening
+2025.
+
+## Why the local gate overstated confidence
+
+The initial cross-validation grouped rows by draft episode. Different seeds
+can nevertheless recreate an identical visible early-round state. The corpus
+contains 1,243 rows but only 848 unique prompts; 395 rows are duplicates, and
+54 of the 56 positive rows belong to duplicate groups. Identical states could
+therefore appear in both sides of an episode-grouped fold.
+
+A post-hoc diagnostic that keeps identical prompts in the same fold reduced
+state average precision from 0.980 to 0.605. At its diagnostic operating point,
+exact-action precision fell from 91.7% to 35.3% and exact-action recall fell
+from 98.2% to 32.1%. There was still a non-random signal, but the original gate
+was much too optimistic.
+
+The label distribution also encouraged a shortcut: 46 of 56 override labels
+occurred in rounds 1–2, and 52 came from the first or twelfth draft slot. The
+adapter appears to have learned that positional pattern rather than the two
+teacher margins.
+
+## Decision
+
+Stop this SFT path and do not tune against the opened 2025 season. Retain the
+adapter as a reproducible negative result and the deterministic teacher as a
+research artifact, not a production recommendation. A future training attempt
+would first need a teacher that shows forward-era value, unique-state grouping,
+more independent positive decisions, and a development gate based on completed
+draft outcomes rather than imitation alone.
 
 ## Historical limits
 

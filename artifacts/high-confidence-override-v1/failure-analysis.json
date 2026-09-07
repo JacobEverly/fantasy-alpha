@@ -1,0 +1,52 @@
+{
+  "decision": "stop_this_sft_path_and_retain_adp_as_product_fallback",
+  "frozen_gate_passed": false,
+  "primary_failure": {
+    "adapter_teacher_overrides_available": 3,
+    "adapter_teacher_overrides_recovered": 0,
+    "adapter_false_overrides": 5,
+    "adapter_false_override_rate": 0.02252252252252252,
+    "adapter_mean_points_above_adp": -29.486666666666647,
+    "adapter_bootstrap_95pct": [-51.84666666666662, -10.219999999999981]
+  },
+  "controls": {
+    "base_mean_points_above_adp": -7.093333333333324,
+    "base_false_overrides": 1,
+    "teacher_mean_points_above_adp": -22.359999999999975,
+    "teacher_wins_losses_ties": [0, 3, 12]
+  },
+  "observed_shortcut": {
+    "behavior": "OVERRIDE B004 at overall pick 1 in every slot-1 seed",
+    "repetitions": 5,
+    "points_above_adp_range": [-106.90000000000009, -76.19999999999982]
+  },
+  "corpus_audit": {
+    "rows": 1243,
+    "unique_visible_prompts": 848,
+    "duplicate_rows": 395,
+    "positive_rows": 56,
+    "positive_rows_in_duplicate_groups": 54,
+    "unique_positive_prompt_groups": 21,
+    "overrides_in_rounds_1_or_2": 46,
+    "overrides_from_slots_1_or_12": 52
+  },
+  "posthoc_prompt_grouped_diagnostic": {
+    "state_average_precision": 0.6048199845121073,
+    "exact_action_precision": 0.35294117647058826,
+    "exact_action_recall": 0.32142857142857145,
+    "note": "Post-hoc diagnostic only; it did not alter the frozen experiment."
+  },
+  "interpretation": [
+    "Low development NLL and perfect JSON validity did not imply correct decisions.",
+    "Episode grouping failed to isolate duplicate visible states recreated by different seeds.",
+    "The adapter learned an early-round/edge-slot shortcut rather than the teacher boundary.",
+    "The teacher itself did not transport to 2025, so better imitation would not establish product value."
+  ],
+  "required_before_any_future_training": [
+    "A teacher with positive forward-era completed-draft evidence",
+    "Grouping and deduplication by visible state identity",
+    "More independent positive override states across rounds and slots",
+    "A development gate based on completed-draft outcomes, not imitation alone"
+  ],
+  "additional_paid_spend_recommended_usd": 0.0
+}

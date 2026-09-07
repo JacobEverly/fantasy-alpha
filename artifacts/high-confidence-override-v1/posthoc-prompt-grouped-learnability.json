@@ -1,0 +1,75 @@
+{
+  "candidate_rows": 4885,
+  "folds": [
+    {
+      "fold": 1,
+      "test_candidate_rows": 992,
+      "test_episode_groups": 168,
+      "test_positive_candidates": 8,
+      "training_candidate_rows": 3893,
+      "training_positive_candidates": 48
+    },
+    {
+      "fold": 2,
+      "test_candidate_rows": 974,
+      "test_episode_groups": 170,
+      "test_positive_candidates": 6,
+      "training_candidate_rows": 3911,
+      "training_positive_candidates": 50
+    },
+    {
+      "fold": 3,
+      "test_candidate_rows": 955,
+      "test_episode_groups": 170,
+      "test_positive_candidates": 16,
+      "training_candidate_rows": 3930,
+      "training_positive_candidates": 40
+    },
+    {
+      "fold": 4,
+      "test_candidate_rows": 957,
+      "test_episode_groups": 169,
+      "test_positive_candidates": 12,
+      "training_candidate_rows": 3928,
+      "training_positive_candidates": 44
+    },
+    {
+      "fold": 5,
+      "test_candidate_rows": 1007,
+      "test_episode_groups": 171,
+      "test_positive_candidates": 14,
+      "training_candidate_rows": 3878,
+      "training_positive_candidates": 42
+    }
+  ],
+  "gates": {
+    "exact_action_recall_at_least_25pct": true,
+    "false_override_rate_at_most_2pct": true,
+    "override_precision_at_least_50pct": true,
+    "pass": true,
+    "state_average_precision_at_least_4x_prevalence": true
+  },
+  "group_mode": "prompt",
+  "override_prevalence": 0.04505229283990346,
+  "paid_spend_usd": 0.0,
+  "protocol": "fantasy-alpha-override-local-learnability-v1",
+  "purpose": "paid-training gate only; not a product or held-out performance claim",
+  "selected_operating_point": {
+    "exact_action_precision": 0.35294117647058826,
+    "exact_action_recall": 0.32142857142857145,
+    "false_negatives": 26,
+    "false_override_rate_on_keep_states": 0.017691659646166806,
+    "false_overrides": 21,
+    "intervention_rate": 0.04102976669348351,
+    "override_precision": 0.5882352941176471,
+    "override_recall": 0.5357142857142857,
+    "predicted_override_states": 51,
+    "threshold": 0.3227549846355269,
+    "true_override_states": 56,
+    "true_positives": 30
+  },
+  "split": "post-hoc five-fold split grouped by exact visible prompt identity; duplicate seed states cannot cross folds",
+  "state_average_precision": 0.6048199845121073,
+  "states": 1243,
+  "unique_state_groups": 848
+}

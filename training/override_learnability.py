@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from collections.abc import Mapping, Sequence
 from pathlib import Path
@@ -115,14 +116,32 @@ def _metrics(
     }
 
 
-def run(rows: Sequence[dict[str, Any]]) -> dict[str, Any]:
+def run(
+    rows: Sequence[dict[str, Any]], *, group_mode: str = "episode"
+) -> dict[str, Any]:
     from sklearn.ensemble import HistGradientBoostingClassifier
     from sklearn.metrics import average_precision_score
     from sklearn.model_selection import StratifiedGroupKFold
 
     data = candidate_examples(rows)
     x, y = data["x"], data["y"]
-    candidate_groups = data["episodes"][data["state_indices"]]
+    if group_mode == "episode":
+        state_groups = data["episodes"]
+        split_description = "five-fold stratified episode-grouped out-of-fold predictions"
+    elif group_mode == "prompt":
+        state_groups = np.asarray([
+            hashlib.sha256(
+                " ".join(str(row["messages"][1]["content"]).split()).encode()
+            ).hexdigest()
+            for row in rows
+        ])
+        split_description = (
+            "post-hoc five-fold split grouped by exact visible prompt identity; "
+            "duplicate seed states cannot cross folds"
+        )
+    else:
+        raise ValueError(f"unknown group mode: {group_mode}")
+    candidate_groups = state_groups[data["state_indices"]]
     candidate_state_labels = data["state_labels"][data["state_indices"]]
     splitter = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=20260907)
     probabilities = np.zeros(len(y), dtype=float)
@@ -173,7 +192,9 @@ def run(rows: Sequence[dict[str, Any]]) -> dict[str, Any]:
     return {
         "protocol": "fantasy-alpha-override-local-learnability-v1",
         "purpose": "paid-training gate only; not a product or held-out performance claim",
-        "split": "five-fold stratified episode-grouped out-of-fold predictions",
+        "split": split_description,
+        "group_mode": group_mode,
+        "unique_state_groups": len(set(state_groups)),
         "states": len(rows),
         "candidate_rows": len(y),
         "override_prevalence": prevalence,
@@ -188,8 +209,12 @@ def run(rows: Sequence[dict[str, Any]]) -> dict[str, Any]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--out", type=Path, default=REPORT_PATH)
+    parser.add_argument("--group-by-prompt", action="store_true")
     args = parser.parse_args()
-    report = run(load_override_corpus(CORPUS_PATH))
+    report = run(
+        load_override_corpus(CORPUS_PATH),
+        group_mode="prompt" if args.group_by_prompt else "episode",
+    )
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n")
     print(json.dumps(report, indent=2, sort_keys=True))

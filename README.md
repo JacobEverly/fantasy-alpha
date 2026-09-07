@@ -28,6 +28,7 @@ before the evaluated runs.
 | Tool-decision classifier | 99.1% accuracy on its held-out imitation task | Successful tool calls made drafts worse | Stop using imitation accuracy as the target |
 | Outcome-linked supervisor | +2.64 points per isolated held-out decision | −15.75 points per paired draft over 30 episodes | Do not train the current policy with RL |
 | Sparse reversible controller | 4 of 30 proposed revisions accepted | −4.92 points per paired draft; 3 wins, 3 losses, 24 ties | Fix clean-state reversion before training |
+| High-confidence ADP override, rank-16 LoRA | 100% valid actions, but 0/3 teacher overrides recovered | −29.49 points per draft versus ADP | Stop; retain ADP and the deterministic policy as research references |
 
 The outcome-linked result exposed the central problem. The supervisor found a
 weak positive signal for isolated decisions, but its interventions changed the
@@ -99,6 +100,7 @@ For the shortest path through the work:
 4. [Sparse reversible canary](docs/sparse-reversible-canary.md)
 5. [Outcome-linked dataset card](docs/value-of-information-dataset-card.md)
 6. [Budget ledger](docs/budget-ledger.md)
+7. [High-confidence override experiment](docs/high-confidence-override-experiment.md)
 
 The corresponding machine-readable artifacts are under `artifacts/`. Frozen
 protocols are under `training/` and include hashes of the code used for each
@@ -118,10 +120,15 @@ Most validation and report-generation commands do not require provider access.
 
 ## Current direction
 
-The current supervisor should not be optimized further with RL. The next test
-is narrower: when a proposed revision is rejected, restore the future sampling
-schedule as well as the action and draft state. That version should beat
-untouched Qwen in a small full-draft run before receiving a training budget.
+The latest test was deliberately narrower than another general drafting agent.
+A deterministic teacher found rare historical states where one alternative
+cleared both an expected-value and a downside margin. A rank-16 adapter learned
+the action format but not the boundary: on the frozen 2025 run it missed all
+three teacher overrides and made five false ones. The teacher itself also lost
+to ADP in 2025. The project therefore stops this training path rather than
+tuning against the holdout. The useful next research question is how to build a
+teacher whose value transports across eras before asking a language model to
+imitate it.
 
 The historical results establish behavior in this environment only. They do not
 establish forecasting skill for a future NFL season or a general result about
