@@ -1,0 +1,31 @@
+{
+  "batch_size": 32,
+  "checkpoint_at_fraction": null,
+  "checkpoint_every_epochs": 1,
+  "corpus_path": "training/datasets/override_sft_v1.jsonl",
+  "corpus_sha256": "a5c90f6f70ac0b201b17854dcad796e24c679f0390da79409a1c829f12368fd6",
+  "credential_source": "TINKER_API_KEY environment variable",
+  "development_fraction": 0.15,
+  "development_groups": 14,
+  "development_rows": 191,
+  "epochs": 1,
+  "estimate": {
+    "billable_training_tokens": 771070,
+    "estimated_training_usd": 1.1280754100000001,
+    "training_tokens": 565704,
+    "validation_forward_tokens": 205366
+  },
+  "experiment": "high-confidence-override-v1",
+  "learning_rate": 0.0001,
+  "lora_rank": 16,
+  "max_length": 4096,
+  "model": "Qwen/Qwen3.5-9B",
+  "renderer": "qwen3_5_disable_thinking",
+  "run_name": "fantasy-alpha-override-qwen35-9b-r16",
+  "seed": 20260808,
+  "started_at": "2026-09-07T14:38:50.144893+00:00",
+  "tinker_cookbook_version": "0.5.7",
+  "tinker_version": "0.27.1",
+  "train_groups": 76,
+  "train_rows": 1052
+}

@@ -1,0 +1,46 @@
+{
+  "protocol": "fantasy-alpha-high-confidence-override-completion-audit-v1",
+  "status": "complete_negative_result",
+  "requirements": {
+    "frozen_teacher_reproduced": true,
+    "leakage_safe_keep_override_corpus": true,
+    "natural_evaluation_prevalence_preserved": true,
+    "positive_and_hard_negative_training_weights_recorded": true,
+    "local_learnability_gate_completed": true,
+    "evaluation_frozen_before_paid_training": true,
+    "one_qwen35_9b_rank16_lora_run_completed": true,
+    "checkpoint_reload_verified": true,
+    "adapter_archive_exported_locally": true,
+    "adp_teacher_base_adapter_compared_on_identical_2025_specs": true,
+    "behavior_product_and_cost_metrics_recorded": true,
+    "2013_stress_failure_retained_in_reporting": true,
+    "2021_2022_result_described_as_provisional": true,
+    "experiment_report_complete": true,
+    "model_card_complete": true,
+    "local_decision_card_verified": true,
+    "budget_below_10_usd": true,
+    "credential_absent_from_text_artifacts": true,
+    "repository_test_suite_passed": true,
+    "evidence_based_stop_decision_recorded": true
+  },
+  "hashes": {
+    "evaluation_spec_sha256": "67f899f039a932eb97672052e820474ea254187ef392d195784a7585bf4d3773",
+    "corpus_sha256": "a5c90f6f70ac0b201b17854dcad796e24c679f0390da79409a1c829f12368fd6",
+    "teacher_artifact_sha256": "12424a8218a6253696fd08c62c20e1f3a2c68840f0d68e20fc440c6784e44473",
+    "training_summary_sha256": "b393712da9bbabc59ec8e4e54475c58bbf42707b474dc49b840e4b8112dd7e0c",
+    "holdout_result_sha256": "983b7da71373a6c83145d76978a42d275ed9099cdecaa283cd9e90152573bcb0",
+    "failure_analysis_sha256": "d89a7fe437f1ba19c602525aa8594db686d6152c93949bfaf8e0d10f4d5b3184",
+    "posthoc_grouping_audit_sha256": "ff258ed33da4127f809eff76b427f1e5e1bf74402ee83f273dc820883053bbac"
+  },
+  "verification": {
+    "tests_passed": 507,
+    "tests_failed": 0,
+    "test_runtime_seconds": 123.97,
+    "incremental_spend_usd": 1.274401328,
+    "hard_cap_usd": 10.0,
+    "exact_cumulative_tinker_spend_usd": 21.085453568,
+    "approximate_total_project_spend_usd": 47.84,
+    "adapter_gate_passed": false
+  },
+  "decision": "Do not ship or further tune this adapter on the opened holdout. Retain ADP as the product fallback and preserve the teacher and adapter as reproducible research artifacts."
+}

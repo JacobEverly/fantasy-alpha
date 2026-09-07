@@ -1,0 +1,50 @@
+{
+  "audit": {
+    "decisions": {
+      "KEEP_ADP": 1187,
+      "OVERRIDE": 56
+    },
+    "difficulty": {
+      "easy_keep": 1017,
+      "hard_keep": 170,
+      "positive_override": 56
+    },
+    "override_rate": 0.04505229283990346,
+    "rows": 1243,
+    "seasons": {
+      "2015": 256,
+      "2016": 236,
+      "2017": 237,
+      "2019": 258,
+      "2020": 256
+    },
+    "weighted_rows": 1805.0
+  },
+  "corpus_sha256": "a5c90f6f70ac0b201b17854dcad796e24c679f0390da79409a1c829f12368fd6",
+  "hard_negative_loss_weight": 2.0,
+  "input_feature_allowlist": [
+    "round",
+    "overall_pick",
+    "draft_slot",
+    "picks_until_next_turn",
+    "candidate_board_rank",
+    "candidate_position",
+    "candidate_adp",
+    "candidate_adp_stdev",
+    "candidate_prev_season_points",
+    "candidate_survival_to_next_turn",
+    "roster_qb",
+    "roster_rb",
+    "roster_wr",
+    "roster_te"
+  ],
+  "objective": "imitate the frozen 80/80 risk-aware teacher while defaulting to ADP",
+  "positive_loss_weight": 8.0,
+  "protocol": "fantasy-alpha-high-confidence-override-sft-v1",
+  "realized_outcomes_visible_to_model": false,
+  "source_rows_path": "data/processed/outcome_decisions_v1/decisions.jsonl",
+  "source_rows_sha256": "b4d6aded3f58a3392ed7c48d3befe9439942b87bb6a8b714fa63a1d4346f36e8",
+  "teacher_artifact_path": "artifacts/risk-aware-ranker-v1/risk-aware-ranker.joblib",
+  "teacher_artifact_sha256": "12424a8218a6253696fd08c62c20e1f3a2c68840f0d68e20fc440c6784e44473",
+  "teacher_scores_visible_to_model": false
+}

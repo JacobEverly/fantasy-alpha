@@ -1,0 +1,7 @@
+{
+  "content": "{\"decision\":\"KEEP_ADP\"}",
+  "output_tokens": 8,
+  "parse_termination": "stop_sequence",
+  "prompt_tokens": 538,
+  "stop_reason": "stop"
+}

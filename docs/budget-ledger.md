@@ -169,3 +169,34 @@ Tinker workload), excluding ongoing checkpoint storage. The provider billing
 snapshot is retained at `artifacts/sparse-reversible-canary-v1/billing.json`;
 queries through 02:03 UTC still preceded provider settlement, so the
 provider-returned request token ledger is the current authoritative total.
+
+## Outcome-aligned draft planner and ranker (2026-09-07)
+
+All counterfactual draft simulation, dataset generation, gradient-boosted
+ranker training, and frozen 2021–2022 validation ran locally. The validation
+failed the outlier-robustness and catastrophic-draft gates, so no Tinker
+training or inference was launched.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-07 | 270-draft headroom panel, 1,243-state outcome dataset, season-held-out ranker, and 30-draft frozen validation | **$0.000000000** |
+
+Exact cumulative completed Tinker workload remains **$19.811052240**.
+Approximate whole-project spend remains **$46.57**, excluding ongoing
+checkpoint storage.
+
+## High-confidence ADP-override SFT (2026-09-07)
+
+Hard incremental cap: **$10.00**. The one-epoch rank-16 run and frozen 2025
+comparison used the pinned Qwen3.5-9B Tinker rates and provider-returned token
+counts. The exported adapter archive is stored locally and excluded from Git.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-07 | Rank-16 LoRA training, development forward passes, reload/export, and lifecycle samples | **$1.128817490** |
+| 2026-09-07 | Frozen untouched-base 2025 evaluation, 15 full drafts / 225 decisions | **$0.072957633** |
+| 2026-09-07 | Frozen adapter 2025 evaluation, identical 15 drafts / 225 decisions | **$0.072626205** |
+|  | **High-confidence override experiment total** | **$1.274401328** |
+
+Exact cumulative completed Tinker workload is **$21.085453568**. Approximate
+whole-project spend is now **$47.84**, excluding ongoing checkpoint storage.

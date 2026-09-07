@@ -1,0 +1,35 @@
+{
+  "corpus": {
+    "corpus_path": "training/datasets/override_sft_v1.jsonl",
+    "corpus_sha256": "a5c90f6f70ac0b201b17854dcad796e24c679f0390da79409a1c829f12368fd6",
+    "created_at": "2026-09-07T14:34:54.718212+00:00",
+    "max_length": 4096,
+    "model": "Qwen/Qwen3.5-9B",
+    "renderer": "qwen3_5_disable_thinking",
+    "rows": 1243,
+    "sequence_tokens": {
+      "max": 563,
+      "median": 547,
+      "min": 283,
+      "p95": 557
+    },
+    "total_rendered_tokens": 668387,
+    "trainable_assistant_tokens": 10336,
+    "truncated_examples": 0,
+    "weighted_trainable_token_mass": 1805.0000233650208
+  },
+  "estimate": {
+    "billable_training_tokens": 771070,
+    "estimated_training_usd": 1.1280754100000001,
+    "training_tokens": 565704,
+    "validation_forward_tokens": 205366
+  },
+  "incremental_hard_cap_usd": 10.0,
+  "split": {
+    "development_episodes": 14,
+    "development_rows": 191,
+    "episode_overlap": 0,
+    "train_episodes": 76,
+    "train_rows": 1052
+  }
+}

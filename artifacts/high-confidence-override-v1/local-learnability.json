@@ -1,0 +1,73 @@
+{
+  "candidate_rows": 4885,
+  "folds": [
+    {
+      "fold": 1,
+      "test_candidate_rows": 1033,
+      "test_episode_groups": 19,
+      "test_positive_candidates": 11,
+      "training_candidate_rows": 3852,
+      "training_positive_candidates": 45
+    },
+    {
+      "fold": 2,
+      "test_candidate_rows": 932,
+      "test_episode_groups": 17,
+      "test_positive_candidates": 10,
+      "training_candidate_rows": 3953,
+      "training_positive_candidates": 46
+    },
+    {
+      "fold": 3,
+      "test_candidate_rows": 1022,
+      "test_episode_groups": 19,
+      "test_positive_candidates": 11,
+      "training_candidate_rows": 3863,
+      "training_positive_candidates": 45
+    },
+    {
+      "fold": 4,
+      "test_candidate_rows": 986,
+      "test_episode_groups": 18,
+      "test_positive_candidates": 11,
+      "training_candidate_rows": 3899,
+      "training_positive_candidates": 45
+    },
+    {
+      "fold": 5,
+      "test_candidate_rows": 912,
+      "test_episode_groups": 17,
+      "test_positive_candidates": 13,
+      "training_candidate_rows": 3973,
+      "training_positive_candidates": 43
+    }
+  ],
+  "gates": {
+    "exact_action_recall_at_least_25pct": true,
+    "false_override_rate_at_most_2pct": true,
+    "override_precision_at_least_50pct": true,
+    "pass": true,
+    "state_average_precision_at_least_4x_prevalence": true
+  },
+  "override_prevalence": 0.04505229283990346,
+  "paid_spend_usd": 0.0,
+  "protocol": "fantasy-alpha-override-local-learnability-v1",
+  "purpose": "paid-training gate only; not a product or held-out performance claim",
+  "selected_operating_point": {
+    "exact_action_precision": 0.9166666666666666,
+    "exact_action_recall": 0.9821428571428571,
+    "false_negatives": 1,
+    "false_override_rate_on_keep_states": 0.004212299915754001,
+    "false_overrides": 5,
+    "intervention_rate": 0.04827031375703942,
+    "override_precision": 0.9166666666666666,
+    "override_recall": 0.9821428571428571,
+    "predicted_override_states": 60,
+    "threshold": 0.1889654210668742,
+    "true_override_states": 56,
+    "true_positives": 55
+  },
+  "split": "five-fold stratified episode-grouped out-of-fold predictions",
+  "state_average_precision": 0.9795503451583227,
+  "states": 1243
+}

@@ -16,7 +16,7 @@ rl = ["verifiers>=0.1.14"]  # envs/verifiers_v1_adapter.py (core env is zero-dep
 tinker = ["tinker==0.27.1", "tinker-cookbook==0.5.7"]
 
 [tool.setuptools]
-packages = ["harness", "evals", "envs", "training"]
+packages = ["app", "harness", "evals", "envs", "training"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

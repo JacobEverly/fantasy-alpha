@@ -1,0 +1,65 @@
+{
+  "catastrophic_drafts_below_minus_100": {
+    "adp": 0,
+    "handwritten_planner": 6,
+    "outcome_ranker": 9
+  },
+  "decision_rows_sha256": "17164ac5daa2080a254d2c3108bd38fb48096ec7490ad3d683f2724eb6aaa66d",
+  "fit_or_tuning_during_evaluation": false,
+  "full_draft": {
+    "handwritten_planner_vs_adp": {
+      "losses": 13,
+      "maximum": 166.89999999999986,
+      "mean_points_above_adp": -7.610000000000029,
+      "mean_without_largest_gain": -13.627586206896577,
+      "minimum": -178.0,
+      "n": 30,
+      "paired_bootstrap_95pct": [
+        -40.10000000000004,
+        24.417333333333286
+      ],
+      "passes_headroom_gate": false,
+      "ties": 8,
+      "trimmed_mean_10pct": -6.723333333333358,
+      "wins": 9
+    },
+    "outcome_ranker_vs_adp": {
+      "losses": 13,
+      "maximum": 439.6600000000001,
+      "mean_points_above_adp": 6.624666666666652,
+      "mean_without_largest_gain": -8.30758620689657,
+      "minimum": -432.6399999999999,
+      "n": 30,
+      "paired_bootstrap_95pct": [
+        -77.51933333333336,
+        88.9833333333333
+      ],
+      "passes_headroom_gate": false,
+      "ties": 0,
+      "trimmed_mean_10pct": 8.423333333333298,
+      "wins": 17
+    }
+  },
+  "model_artifact_sha256_after": "5275c59e672146882b00f51c630595a74a72b55abbe7661aeb2d8abd2e40d980",
+  "model_artifact_sha256_before": "5275c59e672146882b00f51c630595a74a72b55abbe7661aeb2d8abd2e40d980",
+  "paid_spend_usd": 0.0,
+  "protocol": "fantasy-alpha-outcome-ranker-later-season-validation-v1",
+  "sealed_seasons_untouched": [
+    2013,
+    2018,
+    2023,
+    2024,
+    2025
+  ],
+  "seasons": [
+    2021,
+    2022
+  ],
+  "turn_level": {
+    "adp_mean_candidate_regret": 64.14835390946502,
+    "adp_zero_regret_rate": 0.2757201646090535,
+    "mean_candidate_regret": 58.05831275720164,
+    "states": 486,
+    "zero_regret_rate": 0.2962962962962963
+  }
+}

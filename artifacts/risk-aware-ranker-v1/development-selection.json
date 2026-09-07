@@ -1,0 +1,48 @@
+{
+  "artifact_sha256": "12424a8218a6253696fd08c62c20e1f3a2c68840f0d68e20fc440c6784e44473",
+  "dataset_sha256": "b4d6aded3f58a3392ed7c48d3befe9439942b87bb6a8b714fa63a1d4346f36e8",
+  "explored_margin_grid": [
+    0.0,
+    10.0,
+    20.0,
+    40.0,
+    80.0,
+    120.0
+  ],
+  "heldout_or_sealed_rows_used": false,
+  "model_config": {
+    "downside_quantile": 0.2,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 30,
+    "random_state": 20260907
+  },
+  "paid_spend_usd": 0.0,
+  "protocol": "fantasy-alpha-risk-aware-ranker-development-v1",
+  "selected": {
+    "catastrophic_drafts_below_minus_100": 3,
+    "decisions": 1060,
+    "deviation_rate": 0.02547169811320755,
+    "deviations": 27,
+    "downside_margin": 80.0,
+    "losses": 11,
+    "maximum": 149.0999999999999,
+    "mean_margin": 80.0,
+    "mean_points_above_adp": 3.547999999999993,
+    "mean_without_largest_gain": 1.581081081081075,
+    "minimum": -215.79999999999995,
+    "n": 75,
+    "paired_bootstrap_95pct": [
+      -7.453333333333339,
+      14.415999999999983
+    ],
+    "passes_headroom_gate": true,
+    "ties": 51,
+    "trimmed_mean_10pct": 4.099999999999995,
+    "wins": 13
+  },
+  "selection_only": true,
+  "selection_rule": "80/80 was selected from the development-only safety sweep; this entry point reproduces that frozen candidate without retuning"
+}
