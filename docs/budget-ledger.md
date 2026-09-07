@@ -150,3 +150,22 @@ whole-project spend is now **$45.33** (historical estimate ~$26.76 plus exact
 Tinker workload), excluding ongoing checkpoint storage. The exact token and
 session reconciliation is in
 `artifacts/value-of-information-v1/spend-audit.json`.
+
+## Sparse reversible intervention canary (2026-09-07)
+
+Target incremental spend: under **$2**. Hard cap: **$5**. The frozen comparison
+used 30 matched base/treatment pairs with at most one Tinker-backed evidence
+intervention in each treatment episode.
+
+| Date (UTC) | What | Exact price-based cost |
+|---|---|---:|
+| 2026-09-07 | Untouched base, 30 masked DraftGym episodes | **$0.611265309** |
+| 2026-09-07 | Sparse reversible controller, 30 matched episodes | **$0.625797729** |
+|  | **Sparse reversible canary total** | **$1.237063038** |
+
+Exact cumulative completed Tinker workload is **$19.811052240**. Approximate
+whole-project spend is now **$46.57** (historical estimate ~$26.76 plus exact
+Tinker workload), excluding ongoing checkpoint storage. The provider billing
+snapshot is retained at `artifacts/sparse-reversible-canary-v1/billing.json`;
+queries through 02:03 UTC still preceded provider settlement, so the
+provider-returned request token ledger is the current authoritative total.
