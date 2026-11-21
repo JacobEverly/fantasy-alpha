@@ -74,7 +74,7 @@ Primary references (fetched 2026-08-08):
 **How it manifests here:** B3 posts confident probabilities with terrible Brier/ECE on `evals/calibbench.py`; harness_breakout-style anchoring to base rates disappears; the model learns "assert boldly" because every bold assertion in its training set won.
 
 **Countermeasure — the filter selects for calibrated reasoning quality, never raw outcomes. Proposed concrete rule (to be pinned in the T1 datagen script):**
-1. **Process gate (hard):** trace must cite ≥1 tool output for every quantitative claim (regex-checkable against the tool-call log — the harness emits structured calls); no numbers absent from tool outputs (CLAUDE.md hard rule: "LLM never invents numbers"). Fails → drop.
+1. **Process gate (hard):** trace must cite ≥1 tool output for every quantitative claim (regex-checkable against the tool-call log — the harness emits structured calls); no numbers absent from tool outputs (project rule: "LLM never invents numbers"). Fails → drop.
 2. **Grounding gate (hard):** any probability in the trace must fall within a plausibility band of the code-computed historical grounding (the `historical_grounding` cohort rates from `evals/harness_breakout.py` stage 1): p within [base_rate/3, min(0.95, base_rate×5)] unless the trace explicitly cites evidence-typed support for a larger deviation. Kills lucky-90% traces *regardless of outcome*.
 3. **Calibration score, not hit/miss:** where an outcome exists, score the trace's probability with **Brier improvement vs the cohort base rate** (same scoring as `evals/calibbench.py`). Keep the top ~60% by Brier-vs-base-rate — this retains well-reasoned misses ("30% and it didn't happen" scores fine) and drops lucky hits ("90%" hitting a 15%-base-rate event scores *worse* than the base rate did on the population).
 4. **Never condition inclusion on the binary outcome alone.** Audit: post-filter, the kept-trace hit rate must be statistically indistinguishable from the pre-filter hit rate within probability bands (a kept-set hit-rate jump = survivorship leaked back in).
@@ -307,8 +307,8 @@ So the framework's core design treats trainer/inference mismatch as *expected* a
 
 **Countermeasure:**
 - **Config capture:** prime-rl `--dry-run --output-dir` emits "per-process TOML files reflecting the resolved configuration" (docs/configuration.md) — commit the resolved TOML for every launched run; TOML+CLI layering means the launch command alone is *not* the config.
-- **Run logging:** `[trainer.wandb]` for metrics; **every run pre-logged in `docs/budget-ledger.md`** (file exists; GAMEPLAN §7 "Every run gets logged… **No run starts without an explicit go**" — also CLAUDE.md hard rule, which additionally bans local training).
-- **Data immutability:** dated snapshots, "never overwrite market history" (GAMEPLAN §6 / CLAUDE.md); evals read from pinned processed CSVs; eval code seeds explicitly (`draftbench.py --seeds`, deterministic question generation in `calibbench.py`).
+- **Run logging:** `[trainer.wandb]` for metrics; **every run pre-logged in `docs/budget-ledger.md`** (file exists; GAMEPLAN §7 "Every run gets logged… **No run starts without an explicit go**"; local training is also banned).
+- **Data immutability:** dated snapshots, "never overwrite market history" (GAMEPLAN §6); evals read from pinned processed CSVs; eval code seeds explicitly (`draftbench.py --seeds`, deterministic question generation in `calibbench.py`).
 - **Env versioning:** DraftGym published to the Environments Hub (GAMEPLAN §5) gives the env itself a pinned, pullable version per run.
 
 **Residual gap:** Low-medium — bit-exact RL reproducibility is not achievable (async scheduling is nondeterministic by design; prime-rl's async architecture trades determinism for throughput). We reproduce *configs and conclusions* (re-run → CI-overlapping result), not bitwise checkpoints. Accept and state this.
@@ -328,7 +328,7 @@ So the framework's core design treats trainer/inference mismatch as *expected* a
 - [ ] **Bootstrap-CI reporting landed in DraftBench** + expanded baseline results file committed (`evals/results/expanded_baseline.md`) (risk 15).
 - [ ] **Gate protocol (risk 14, items 1–5) ratified by Jacob** — recorded in this file or GAMEPLAN.
 - [ ] **T0 smoke completed**: end-to-end prime-rl SFT on tiny Qwen3.5 (GAMEPLAN §7) including (a) decoded packed batch with visually-verified loss-mask boundaries (risk 5), (b) resolved-config TOML committed (risk 17).
-- [ ] **Run pre-logged in `docs/budget-ledger.md` + explicit go from Jacob** (CLAUDE.md hard rule).
+- [ ] **Run pre-logged in `docs/budget-ledger.md` + explicit go from Jacob** (project rule).
 
 ### T2 (RL) GO requires all T1 boxes, plus
 

@@ -34,7 +34,7 @@ stopped before full training and RL. See `docs/tinker-sft-t12-experiment-report.
 Teacher-trace generation through the harness + the survivor-bias-proof filter
 from `docs/training-risk-register.md` risk 3. Output is a **pilot corpus for
 Jacob to read** (`data/processed/sft/pilot_v0.jsonl`) — nothing here trains
-anything; no training run starts without an explicit go (CLAUDE.md hard rule).
+anything; no training run starts without an explicit go (project rule).
 
 ## Teacher model selection (2026-08-08)
 

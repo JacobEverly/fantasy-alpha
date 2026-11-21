@@ -127,7 +127,7 @@ are recoverable free from archived articles for 2015–2024?
   stitching 5–10 pick-articles (PFF, theScore, sportsbettingdime...).
 - **2022:** same genre mix (SportsbookReview "22 futures", sportsbettingdime
   picks) — **20–60 lines** per stitching effort. BettingPros had full boards
-  but is FantasyPros property → excluded per CLAUDE.md constraint.
+  but is FantasyPros property → excluded per the project data-use rule.
 - Wayback CDX of sportsbook pages themselves (Bovada/DK/FD boards): dynamic
   pages, effectively uncaptured.
 

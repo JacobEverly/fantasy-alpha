@@ -73,7 +73,7 @@ order of preference:
 
 Other aggregators checked:
 - **BettingPros** (bettingpros.com/nfl/props) — season-long prop analyzer with
-  7-book consensus. **FantasyPros property** → falls under the CLAUDE.md
+  7-book consensus. **FantasyPros property** → falls under the project data-use
   FantasyPros constraint (preview-only, never load-bearing). Skip.
 - **Win With Odds** (winwithodds.com) and **First Down Studio**
   (firstdown.studio/season-rankings) — same genre as StartWho (props →

@@ -16,6 +16,10 @@ model and retrieve evidence. That supervisor also looked better on its local
 objective than it did inside a complete draft. This repository contains the
 training code, environment, protocols, and results behind that progression.
 
+The product work built on these results, a draft assistant that beats the ESPN
+and Yahoo defaults while the human keeps control, continues in
+[always-on-agents](https://github.com/JacobEverly/always-on-agents).
+
 ## Results so far
 
 All experiments use `Qwen/Qwen3.5-9B` with masked player identities and

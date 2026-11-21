@@ -5,7 +5,7 @@ Pure functions, no I/O. Implements the four pinned rules:
 (a) **Process gate (hard):** every quantitative claim in the assistant trace
     must appear in the tool-provided context (packet + grounding + evidence,
     i.e. the user message). Numbers absent from tool outputs -> drop
-    (CLAUDE.md hard rule: the LLM never invents numbers).
+    (project rule: the LLM never invents numbers).
 (b) **Grounding gate (hard):** the trace's final probability must fall within
     the plausibility band [anchor/3, min(0.95, anchor*5)] of the
     code-computed historical grounding anchor. Kills lucky-90% traces

@@ -15,3 +15,4 @@ artifacts/tinker-sft-t12/**/final-adapter.tar.gz
 artifacts/tool-decision-supervisor-v1/**/final-adapter.tar.gz
 node_modules/
 .DS_Store
+*.egg-info/
